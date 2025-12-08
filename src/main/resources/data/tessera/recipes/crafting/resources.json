@@ -128,15 +128,9 @@
   {
     "shapeless": false,
     "input": [
-      "tessera:stone",
-      "tessera:stone",
-      "tessera:stone",
-      "tessera:stone",
-      "tessera:coal",
-      "tessera:stone",
-      "tessera:raw_iron",
-      "tessera:raw_iron",
-      "tessera:raw_iron"
+      "tessera:stone",      "tessera:stone",      "tessera:stone",
+      "tessera:stone",      "",      "tessera:stone",
+      "tessera:stone",      "tessera:stone",      "tessera:stone"
     ],
     "output": "tessera:furnace",
     "amount": 1

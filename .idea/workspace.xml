@@ -10,16 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="changes">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blockTools/tools/PasteTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blockTools/tools/PasteTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/items/AnimalFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/items/AnimalFeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/items/AnimalFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/items/AnimalFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/ui/UI_Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/ui/UI_Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/player/raycasting/CursorRay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/player/raycasting/CursorRay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/entity/ChunkEntitySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/entity/ChunkEntitySet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/item/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +45,7 @@
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Lightning323/Xbuilders.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Lightning323/Tessera.git&quot;,
     &quot;accountId&quot;: &quot;b507e979-a678-47ff-a6dd-4aa4f5c1b6d3&quot;
   }
 }</component>
@@ -147,7 +138,7 @@
       <recent name="com.xbuilders.engine.server.items.loot" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dev 2">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Dedicated Server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.tessera.Main_DedicatedServer" />
       <module name="Tessera" />
