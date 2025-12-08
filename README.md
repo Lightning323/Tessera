@@ -1,8 +1,9 @@
 [//]: # (![tessera landscape]&#40;meta/screenshots/b.jpg&#41;)
 ![screenshot (3).png](meta/screenshots/showcase/screenshot%20%283%29.png)
 # ![icon16.png](src/main/resources/builtin/icon32.png) Tessera
-**A voxel game written in Java + LWJGL.**
-
+**A voxel game written in Java + LWJGL.**<br><br>
+![Badge](https://img.shields.io/badge/github-repo-blue?logo=github)
+![Badge](https://img.shields.io/badge/version-3.1.0-red)
 
 # Enter a new world
 Explore a variety of unique biomes, Each with unique flora and fauna!
