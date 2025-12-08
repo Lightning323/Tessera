@@ -47,12 +47,7 @@
   },
   {
     "input": [
-      "tessera:tnt",
-      "tessera:tnt",
-      "tessera:tnt",
-      "tessera:tnt",
-      "tessera:tnt",
-      "tessera:tnt"
+      "tessera:tnt","tessera:tnt", "tessera:tnt"
     ],
     "shapeless": true,
     "output": "tessera:mega_tnt",
@@ -61,15 +56,9 @@
   {
     "shapeless": false,
     "input": [
-      "tessera:carrot",
-      "tessera:carrot",
-      "tessera:carrot",
-      "tessera:carrot",
-      "tessera:gold_ingot",
-      "tessera:carrot",
-      "tessera:carrot",
-      "tessera:carrot",
-      "tessera:carrot"
+      "tessera:carrot",      "tessera:carrot",      "tessera:carrot",
+      "tessera:carrot",      "tessera:gold_ingot",      "tessera:carrot",
+      "tessera:carrot",      "tessera:carrot",      "tessera:carrot"
     ],
     "output": "tessera:animal_feed",
     "amount": 32
