@@ -43,7 +43,7 @@ public class Theme {
 
 
     public static void initialize(NkContext context) throws IOException {
-        fontBuffer = NKFontUtils.loadFontData(ResourceUtils.RESOURCE_DIR + "\\fonts\\Press_Start_2P\\PressStart2P-Regular.ttf");
+        fontBuffer = NKFontUtils.loadFontData(ResourceUtils.file("fonts/Press_Start_2P/PressStart2P-Regular.ttf").getAbsolutePath());
         initFonts(context);
         nk_style_set_font(context, font_10);
 
