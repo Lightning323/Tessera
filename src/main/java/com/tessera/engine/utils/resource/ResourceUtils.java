@@ -8,6 +8,8 @@ package com.tessera.engine.utils.resource;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 /**
  * @author zipCoder933
@@ -39,7 +41,7 @@ public class ResourceUtils {
     }
 
     public static void initialize(boolean gameDevResources, String appDataDir) {
-        APP_DATA_DIR = new File(System.getenv("LOCALAPPDATA"), appDataDir == null ? "tessera" : appDataDir);
+        APP_DATA_DIR = resolveAppDataDir(appDataDir == null ? "tessera" : appDataDir);
         APP_DATA_DIR.mkdirs();
         System.out.println("\tApp Data path: " + APP_DATA_DIR);
 
@@ -52,10 +54,11 @@ public class ResourceUtils {
     }
 
     public static File localFile(String path) {
-        return new File(LOCAL_DIR, path);
+        return new File(LOCAL_DIR, normalizePath(path));
     }
 
     public static File file(String path) {
+        path = normalizePath(path);
         if (path.startsWith(RESOURCE_DIR.getAbsolutePath())) {
             return new File(path);
         }
@@ -63,11 +66,42 @@ public class ResourceUtils {
     }
 
     public static File appDataFile(String path) {
-        return new File(APP_DATA_DIR, path);
+        return new File(APP_DATA_DIR, normalizePath(path));
     }
 
     public static File worldFile(String path) {
-        return new File(WORLDS_DIR, path);
+        return new File(WORLDS_DIR, normalizePath(path));
+    }
+
+    private static String normalizePath(String path) {
+        return path
+                .replace("\\", File.separator)
+                .replace("/", File.separator);
+    }
+
+    private static File resolveAppDataDir(String appDataDirName) {
+        String osName = System.getProperty("os.name", "").toLowerCase();
+
+        if (osName.contains("win")) {
+            String localAppData = System.getenv("LOCALAPPDATA");
+            if (localAppData != null && !localAppData.isBlank()) {
+                return new File(localAppData, appDataDirName);
+            }
+        }
+
+        String home = System.getProperty("user.home", ".");
+        if (osName.contains("mac")) {
+            Path path = Paths.get(home, "Library", "Application Support", appDataDirName);
+            return path.toFile();
+        }
+
+        String xdgDataHome = System.getenv("XDG_DATA_HOME");
+        if (xdgDataHome != null && !xdgDataHome.isBlank()) {
+            return new File(xdgDataHome, appDataDirName);
+        }
+
+        Path path = Paths.get(home, ".local", "share", appDataDirName);
+        return path.toFile();
     }
 
 

@@ -18,7 +18,6 @@ import com.google.gson.Gson;
 import com.tessera.engine.utils.json.JsonManager;
 
 import java.io.File;
-import java.nio.file.Paths;
 import java.time.format.DateTimeFormatter;
 
 import org.joml.Vector3i;
@@ -126,7 +125,7 @@ public class WorldData {
         }
         data.lastSaved = System.currentTimeMillis();
         String json = gson.toJson(data);
-        Files.writeString(Paths.get(getDirectory() + "\\" + INFO_FILENAME), json);
+        Files.writeString(new File(getDirectory(), INFO_FILENAME).toPath(), json);
     }
 
     public void makeNew(String name, int size, Terrain terrain, int seed) {

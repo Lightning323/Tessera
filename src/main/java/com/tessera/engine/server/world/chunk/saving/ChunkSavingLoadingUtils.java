@@ -55,7 +55,7 @@ public class ChunkSavingLoadingUtils {
 
 
     public static File backupFile(File f) {
-        return new File(f.getParentFile(), "backups\\" + f.getName());
+        return new File(new File(f.getParentFile(), "backups"), f.getName());
     }
 
     public static boolean writeChunkToFile(final Chunk chunk, final File f) {
