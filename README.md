@@ -5,6 +5,9 @@
 ![Badge](https://img.shields.io/badge/github-repo-blue?logo=github)
 ![Badge](https://img.shields.io/badge/version-3.1.0-red)
 
+[Watch a video demonstration!](https://youtu.be/vWrdUlkZmcg)
+
+
 # Enter a new world
 Explore a variety of unique biomes, Each with unique flora and fauna!
 Dig deep into a cave, discover ores to allow you to upgrade your tools and survive!
