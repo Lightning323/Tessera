@@ -266,7 +266,8 @@ public class BlockEventPipeline {
     public void updateSunlightAndMeshes(HashSet<Chunk> affectedChunks,
                                         ArrayList<ChunkNode> sunNode_OpaqueToTrans,
                                         ArrayList<ChunkNode> sunNode_transToOpaque) {
-//        Main.printlnDev("\tOpaque > trans: " + sunNode_OpaqueToTrans.size() + "; Trans > opaque: " + sunNode_transToOpaque.size());
+
+        int totalUpdates = (sunNode_OpaqueToTrans.size()+sunNode_transToOpaque.size());
 
 
         AtomicBoolean longSunlight = new AtomicBoolean(false);
@@ -285,6 +286,8 @@ public class BlockEventPipeline {
                         longSunlight.set(true);
                     }
                 });
+
+        if(elapsedMS>0)        System.out.println("Sunlight calculation finished for " + totalUpdates + " voxels in " + (elapsedMS ) + "ms");
 
         if (longSunlight.get()) {
             Main.getClient().consoleOut("Sunlight calculation finished " + (elapsedMS / 1000) + "s");

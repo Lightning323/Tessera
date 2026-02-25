@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="small bugfixes and improvements&#10;- fixed quit button&#10;- fixed icon generation&#10;-" />
+    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="increased fall distance">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/players/pipeline/BlockEventPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/players/pipeline/BlockEventPipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/resources.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/resources.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,44 +66,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Dedicated Server.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dev (Load World).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dev 2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dev 3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dev 4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dev.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JarResourceLister.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main Dev 2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main Dev.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MiscTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NettyClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NettyServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NetworkTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResourceList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmileTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.xbuilders.tests.fasterXML.smile.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.xbuilders.tests.netty.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.netty client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.netty server.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/xbuilders/src/main/java/com/xbuilders/engine/utils/network/netty/packet/join&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.15412186&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Dedicated Server.executor": "Run",
+    "Application.Dev (Load World).executor": "Run",
+    "Application.Dev 2.executor": "Run",
+    "Application.Dev 3.executor": "Run",
+    "Application.Dev 4.executor": "Run",
+    "Application.Dev.executor": "Run",
+    "Application.JarResourceLister.executor": "Run",
+    "Application.Main Dev 2.executor": "Run",
+    "Application.Main Dev.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MiscTester.executor": "Run",
+    "Application.NettyClient.executor": "Run",
+    "Application.NettyServer.executor": "Run",
+    "Application.NetworkTester.executor": "Run",
+    "Application.ResourceList.executor": "Run",
+    "Application.SmileTest2.executor": "Run",
+    "Application.com.xbuilders.tests.fasterXML.smile.Main.executor": "Run",
+    "Application.com.xbuilders.tests.netty.Main.executor": "Run",
+    "Application.netty client.executor": "Run",
+    "Application.netty server.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
+    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/xbuilders/src/main/java/com/xbuilders/engine/utils/network/netty/packet/join",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.15412186",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.xbuilders.content.vanilla.terrain" />
@@ -280,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771994478484</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="increased fall distance">
+      <option name="closed" value="true" />
+      <created>1771998632002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771998632002</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -301,7 +314,8 @@
     <MESSAGE value="Basic bugfixes" />
     <MESSAGE value="changes" />
     <MESSAGE value="small bugfixes and improvements&#10;- fixed quit button&#10;- fixed icon generation&#10;-" />
-    <option name="LAST_COMMIT_MESSAGE" value="small bugfixes and improvements&#10;- fixed quit button&#10;- fixed icon generation&#10;-" />
+    <MESSAGE value="increased fall distance" />
+    <option name="LAST_COMMIT_MESSAGE" value="increased fall distance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -47,7 +47,9 @@
   },
   {
     "input": [
-      "tessera:tnt","tessera:tnt", "tessera:tnt"
+      "tessera:tnt",
+      "tessera:tnt",
+      "tessera:tnt"
     ],
     "shapeless": true,
     "output": "tessera:mega_tnt",
@@ -56,9 +58,15 @@
   {
     "shapeless": false,
     "input": [
-      "tessera:carrot",      "tessera:carrot",      "tessera:carrot",
-      "tessera:carrot",      "tessera:gold_ingot",      "tessera:carrot",
-      "tessera:carrot",      "tessera:carrot",      "tessera:carrot"
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:gold_ingot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot"
     ],
     "output": "tessera:animal_feed",
     "amount": 32
@@ -117,9 +125,15 @@
   {
     "shapeless": false,
     "input": [
-      "tessera:stone",      "tessera:stone",      "tessera:stone",
-      "tessera:stone",      "",      "tessera:stone",
-      "tessera:stone",      "tessera:stone",      "tessera:stone"
+      "#stone",
+      "#stone",
+      "#stone",
+      "#stone",
+      "",
+      "#stone",
+      "#stone",
+      "#stone",
+      "#stone"
     ],
     "output": "tessera:furnace",
     "amount": 1
@@ -153,7 +167,7 @@
       "tessera:stick"
     ],
     "output": "tessera:track",
-    "amount": 16
+    "amount": 32
   },
   {
     "input": [
@@ -183,7 +197,7 @@
       "tessera:stick"
     ],
     "output": "tessera:track_stop",
-    "amount": 4
+    "amount": 8
   },
   {
     "input": [
