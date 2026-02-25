@@ -196,7 +196,6 @@ public class Items {
         int z = ray.getHitPos().z;
 
         Block hitPos = Client.world.getBlock(x, y, z);
-        System.out.println("Hit: " + hitPos);
         if (hitPos.isLiquid()) {
             int flow = LiquidPropagationTask.getFlow(Client.world.getBlockData(x, y, z), 0);
             if (flow >= hitPos.liquidMaxFlow + 1) {

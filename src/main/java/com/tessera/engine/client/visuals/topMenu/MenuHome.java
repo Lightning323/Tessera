@@ -75,7 +75,8 @@ public class MenuHome implements MenuPage {
                 menu.setPage(Page.SETTINGS);
             }
             if (button(ctx, "QUIT")) {
-                System.exit(0);
+                System.out.println("Quit button pressed");
+                Main.getClient().window.close();
             }
 
         }

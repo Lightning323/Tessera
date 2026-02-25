@@ -11,6 +11,35 @@
   <component name="ChangeListManager">
     <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/frag.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/frag_direct.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/frag_direct.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/frag_icon.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/frag_icon.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/frag_test.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/frag_test.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/vertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/vertex.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Shaders/entityShader/array texture.fs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/entityShader/array texture.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Shaders/entityShader/array texture.vs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/entityShader/array texture.vs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Shaders/entityShader/default.fs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/entityShader/default.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Shaders/entityShader/default.vs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/entityShader/default.vs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Shaders/skybox/sky_shader.fs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/skybox/sky_shader.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Shaders/skybox/sky_shader.vs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/skybox/sky_shader.vs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/player/raycasting/CursorRay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/player/raycasting/CursorRay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/MenuHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/MenuHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/entity/ItemDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/entity/ItemDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/client/ClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/client/NettyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/packets/requestData/RequestData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/packets/requestData/RequestDataDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/packets/requestData/RequestDataEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/packets/responseData/ResponseData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/packets/responseData/ResponseDataDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/packets/responseData/ResponseDataEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/server/NettyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/server/ServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/window/GLFWWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/window/GLFWWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/fence gates.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/fence gates.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/items/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/items/items.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +75,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Lightning323/Tessera.git&quot;,
-    &quot;accountId&quot;: &quot;b507e979-a678-47ff-a6dd-4aa4f5c1b6d3&quot;
+    &quot;accountId&quot;: &quot;271f156a-ca8c-49a1-8d10-d3ca733929be&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -98,7 +127,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.15412186&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.codeium.AppSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -257,6 +286,13 @@
         <item itemvalue="Application.MiscTester" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

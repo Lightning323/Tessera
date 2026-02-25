@@ -138,9 +138,7 @@ public class ItemDrop extends Entity {
         }
 
         if (worldPosition.distance(playerHeadPos) < 0.1 && canGet) {
-            System.out.println("CONSUMED BY: " + Client.userPlayer.userInfo.name);
             Client.userPlayer.acquireItem(definitionData.stack);
-           // System.out.println("DELETING ITEM DROP");
             destroy();
         }
     }

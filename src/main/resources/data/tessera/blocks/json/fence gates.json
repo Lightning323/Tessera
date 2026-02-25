@@ -207,29 +207,6 @@
     "properties": {}
   },
   {
-    "alias": "tessera:polished_andesite_fence_gate",
-    "id": 809,
-    "texture": {
-      "pos_y": "polished andesite",
-      "pos_x": "polished andesite",
-      "pos_z": "polished andesite",
-      "neg_z": "polished andesite",
-      "neg_x": "polished andesite",
-      "neg_y": "polished andesite"
-    },
-    "solid": true,
-    "opaque": false,
-    "torch": 0,
-    "type": 17,
-    "colorInPlayerHead": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
-    "properties": {}
-  },
-  {
     "alias": "tessera:cracked_stone_fence_gate",
     "id": 810,
     "texture": {

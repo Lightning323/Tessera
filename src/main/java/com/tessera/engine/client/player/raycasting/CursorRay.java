@@ -255,7 +255,6 @@ public class CursorRay {
                     AllLootTables.blockLootTables.dropLoot(existingBlock.alias, new Vector3f(getHitPos()), false, false);
                     Main.getServer().setBlock(BlockRegistry.BLOCK_AIR.id, new WCCi().set(getHitPos()));
                     breakAmt = 0;
-                    System.out.println("Resetting after broken block");
                 }
             }
         } else { //Click

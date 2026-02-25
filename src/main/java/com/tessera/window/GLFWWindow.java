@@ -53,6 +53,11 @@ public abstract class GLFWWindow {
     private int[] wndSize = {0, 0};
     private int[] vpSize = {0, 0};
     private int[] monitorSize = {0, 0};
+    private boolean forceClose = false;
+
+    public void close() {
+        forceClose=true;
+    }
 
     protected GLCapabilities capabilities;
     private static Callback debugProc;
@@ -254,7 +259,7 @@ public abstract class GLFWWindow {
     }
 
     public boolean windowShouldClose() {
-        return GLFW.glfwWindowShouldClose(getWindow());
+        return GLFW.glfwWindowShouldClose(getWindow()) || forceClose;
     }
     // </editor-fold>
 
