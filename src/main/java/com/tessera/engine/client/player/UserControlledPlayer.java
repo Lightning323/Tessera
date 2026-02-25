@@ -565,7 +565,7 @@ public class UserControlledPlayer extends Player implements GameSceneEvents {
         positionHandler = new PositionHandler(window, Client.world, aabb, aabb);
         positionHandler.callback_onGround = (fallDistance) -> {
             if (fallDistance > 3) {
-                float damage = MathUtils.map(fallDistance, 3, 15, 0, MAX_HEALTH);
+                float damage = MathUtils.map(fallDistance, 3, 40, 0, MAX_HEALTH);
                 status_health -= damage;
             }
             //System.out.println("onGround: " + fallDistance);

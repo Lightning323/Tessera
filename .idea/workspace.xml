@@ -9,38 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/frag.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/frag_direct.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/frag_direct.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/frag_icon.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/frag_icon.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/frag_test.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/frag_test.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/vertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/vertex.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/entityShader/array texture.fs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/entityShader/array texture.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/entityShader/array texture.vs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/entityShader/array texture.vs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/entityShader/default.fs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/entityShader/default.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/entityShader/default.vs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/entityShader/default.vs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/skybox/sky_shader.fs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/skybox/sky_shader.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/skybox/sky_shader.vs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/skybox/sky_shader.vs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/Items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/player/raycasting/CursorRay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/player/raycasting/CursorRay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/MenuHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/MenuHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/entity/ItemDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/entity/ItemDrop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/client/ClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/client/NettyClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/packets/requestData/RequestData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/packets/requestData/RequestDataDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/packets/requestData/RequestDataEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/packets/responseData/ResponseData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/packets/responseData/ResponseDataDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/packets/responseData/ResponseDataEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/server/NettyServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/tests/netty/server/ServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/window/GLFWWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/window/GLFWWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/fence gates.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/fence gates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/items/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/items/items.json" afterDir="false" />
-    </list>
+    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="small bugfixes and improvements&#10;- fixed quit button&#10;- fixed icon generation&#10;-" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -303,6 +272,15 @@
       <option name="presentableId" value="Default" />
       <updated>1718977622364</updated>
     </task>
+    <task id="LOCAL-00001" summary="small bugfixes and improvements&#10;- fixed quit button&#10;- fixed icon generation&#10;-">
+      <option name="closed" value="true" />
+      <created>1771994478484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771994478484</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -322,7 +300,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic bugfixes" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="small bugfixes and improvements&#10;- fixed quit button&#10;- fixed icon generation&#10;-" />
+    <option name="LAST_COMMIT_MESSAGE" value="small bugfixes and improvements&#10;- fixed quit button&#10;- fixed icon generation&#10;-" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
