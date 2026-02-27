@@ -41,7 +41,10 @@ public class WorldsHandler {
 
     public static ArrayList<WorldData> listWorlds(ArrayList<WorldData> worlds) throws IOException {
         worlds.clear();
-        for (final File subDir : ResourceUtils.WORLDS_DIR.listFiles()) {
+        File[] entries = ResourceUtils.WORLDS_DIR.listFiles();
+        if (entries == null) return worlds;
+
+        for (final File subDir : entries) {
             System.out.println("SUBDIR "+subDir.getAbsolutePath());
             if (subDir.isDirectory()) {
                 WorldData info = new WorldData();
