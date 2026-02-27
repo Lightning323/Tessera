@@ -53,6 +53,7 @@ public abstract class GLFWWindow {
     private int[] wndSize = {0, 0};
     private int[] vpSize = {0, 0};
     private int[] monitorSize = {0, 0};
+    private boolean terminate = false;
 
     protected GLCapabilities capabilities;
     private static Callback debugProc;
@@ -254,9 +255,13 @@ public abstract class GLFWWindow {
     }
 
     public boolean windowShouldClose() {
-        return GLFW.glfwWindowShouldClose(getWindow());
+        return GLFW.glfwWindowShouldClose(getWindow()) || terminate;
     }
     // </editor-fold>
+
+    public void dispose() {
+        terminate = true;
+    }
 
     // //<editor-fold defaultstate="collapsed" desc="variables">
 
@@ -321,7 +326,8 @@ public abstract class GLFWWindow {
     public Vector2d getCursorVector() {
         return cursor;
     }
-    //// </editor-fold>
+
+    /// / </editor-fold>
 
     public static final Object windowCreateLock = new Object();
     private static boolean isGLFWInitialized = false;
