@@ -8,6 +8,9 @@ package com.xbuilders.engine.common.resource;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Locale;
 
 /**
  * @author zipCoder933
@@ -26,7 +29,7 @@ public class ResourceUtils {
 
     static {
         System.out.println("RESOURCES:");
-        LOCAL_DIR = new File(System.getProperty("user.dir"));
+        LOCAL_DIR = new File(System.getProperty("user.dir")).getAbsoluteFile();
         RESOURCE_DIR = new File(LOCAL_DIR, "res");
         RESOURCE_DIR.mkdirs();
 
@@ -37,7 +40,8 @@ public class ResourceUtils {
     }
 
     public static void initialize(boolean gameDevResources, String appDataDir) {
-        APP_DATA_DIR = new File(System.getenv("LOCALAPPDATA"), appDataDir == null ? "xbuilders3" : appDataDir);
+        String appFolderName = appDataDir == null ? "xbuilders3" : appDataDir;
+        APP_DATA_DIR = resolveUnderDirectory(getAppDataRootDirectory(), appFolderName);
         APP_DATA_DIR.mkdirs();
         System.out.println("\tApp Data path: " + APP_DATA_DIR);
 
@@ -50,23 +54,61 @@ public class ResourceUtils {
     }
 
     public static File localFile(String path) {
-        return new File(LOCAL_DIR, path.replace("\\","/"));
+        return resolveUnderDirectory(LOCAL_DIR, path);
     }
 
     public static File resourceFile(String path) {
-        return new File(RESOURCE_DIR, path.replace("\\","/"));
+        return resolveUnderDirectory(RESOURCE_DIR, path);
     }
 
     public static File appDataFile(String path) {
-        return new File(APP_DATA_DIR, path.replace("\\","/"));
+        return resolveUnderDirectory(APP_DATA_DIR, path);
     }
 
     public static File worldFile(String path) {
-        return new File(WORLDS_DIR, path.replace("\\","/"));
+        return resolveUnderDirectory(WORLDS_DIR, path);
     }
 
     public static String toFormattedPath(File f){
-        return f.getAbsolutePath().replace("\\", "/");
+        return f.toPath().normalize().toAbsolutePath().toString().replace("\\", "/");
+    }
+
+    private static File resolveUnderDirectory(File baseDirectory, String path) {
+        if (baseDirectory == null) throw new IllegalStateException("Base directory has not been initialized.");
+        if (path == null || path.isBlank()) return baseDirectory;
+
+        String normalizedPath = path.replace("\\", "/").trim();
+
+        while (normalizedPath.startsWith("/")) {
+            normalizedPath = normalizedPath.substring(1);
+        }
+
+        if (normalizedPath.isEmpty()) return baseDirectory;
+        Path resolved = Paths.get(baseDirectory.getAbsolutePath(), normalizedPath).normalize();
+        return resolved.toFile();
+    }
+
+    private static File getAppDataRootDirectory() {
+        String osName = System.getProperty("os.name", "").toLowerCase(Locale.ROOT);
+
+        if (osName.contains("win")) {
+            String localAppData = System.getenv("LOCALAPPDATA");
+            if (localAppData != null && !localAppData.isBlank()) return new File(localAppData);
+
+            String appData = System.getenv("APPDATA");
+            if (appData != null && !appData.isBlank()) return new File(appData);
+
+            return resolveUnderDirectory(new File(System.getProperty("user.home")), "AppData/Local");
+        }
+
+        if (osName.contains("mac")) {
+            return resolveUnderDirectory(new File(System.getProperty("user.home")), "Library/Application Support");
+        }
+
+        String xdgDataHome = System.getenv("XDG_DATA_HOME");
+        if (xdgDataHome != null && !xdgDataHome.isBlank()) return new File(xdgDataHome);
+
+        return resolveUnderDirectory(new File(System.getProperty("user.home")), ".local/share");
     }
 
 
