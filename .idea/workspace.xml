@@ -10,10 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="increased fall distance">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/lime_dye.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/players/pipeline/BlockEventPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/players/pipeline/BlockEventPipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/pp/black_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/black_dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/pp/blue_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/blue_dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/pp/brown_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/brown_dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/pp/cyan_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/cyan_dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/pp/gray_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/gray_dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/pp/green_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/green_dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/pp/orange_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/orange_dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/pp/pink_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/pink_dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/pp/purple_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/purple_dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/pp/red_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/red_dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/pp/white_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/white_dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/pp/yellow_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye/yellow_dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/items/resources.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/items/resources.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/block/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/block/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/blocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/blocks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/blocks2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/blocks2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/resources.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/resources.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/smelting/other.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/smelting/other.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +113,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/xbuilders/src/main/java/com/xbuilders/engine/utils/network/netty/packet/join",
+    "last_opened_file_path": "/home/sampw/IdeaProjects/Tessera/src/main/resources/assets/tessera/textures/item/dye",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.15412186",
@@ -113,18 +129,18 @@
       <recent name="com.xbuilders.engine.items.recipes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye" />
       <recent name="D:\xbuilders\src\main\java\com\xbuilders\engine\utils\network\netty\packet\join" />
       <recent name="D:\xbuilders\src\main\resources\data\xbuilders\blocks" />
       <recent name="D:\xbuilders\res\items" />
       <recent name="C:\Users\Patron\Documents\GitHub\Xbuilders\src\main\java\com\xbuilders\engine\utils\json\fasterXML\animalFeedInput" />
-      <recent name="C:\Local Files\github\Xbuilders\res\items\blocks\json" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/tessera/textures/item/dye" />
       <recent name="C:\Local Files\Java\Projects\Xbuilders\meta\screenshots\showcase" />
       <recent name="C:\Local Files\Java\Projects\Xbuilders\meta\blender" />
       <recent name="C:\Local Files\Java\Projects\Xbuilders\meta" />
       <recent name="C:\Local Files\Java\Projects\Xbuilders\assets\test textures" />
-      <recent name="C:\Local Files\Java\Projects\Xbuilders\assets" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="com.xbuilders.engine.client.LocalClient" />

@@ -31,11 +31,11 @@
   },
   {
     "input": [
-      "tessera:stone",
-      "tessera:stone",
+      "tessera:cobblestone",
+      "tessera:cobblestone",
       null,
-      "tessera:stone",
-      "tessera:stone",
+      "tessera:cobblestone",
+      "tessera:cobblestone",
       null,
       null,
       null,

@@ -313,7 +313,7 @@
       "tessera:stone"
     ],
     "output": "tessera:phantom_stone",
-    "amount": 24
+    "amount": 32
   },
   {
     "input": [

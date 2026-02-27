@@ -125,15 +125,15 @@
   {
     "shapeless": false,
     "input": [
-      "#stone",
-      "#stone",
-      "#stone",
-      "#stone",
-      "",
-      "#stone",
-      "#stone",
-      "#stone",
-      "#stone"
+      "tessera:cobblestone",
+      "tessera:cobblestone",
+      "tessera:cobblestone",
+      "tessera:cobblestone",
+      null,
+      "tessera:cobblestone",
+      "tessera:cobblestone",
+      "tessera:cobblestone",
+      "tessera:cobblestone"
     ],
     "output": "tessera:furnace",
     "amount": 1

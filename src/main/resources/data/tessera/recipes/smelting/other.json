@@ -5,6 +5,11 @@
     "amount": 1
   },
   {
+    "input": "tessera:cobblestone",
+    "output": "tessera:stone",
+    "amount": 1
+  },
+  {
     "input": "tessera:bamboo_block",
     "output": "tessera:bamboo_wood",
     "amount": 1

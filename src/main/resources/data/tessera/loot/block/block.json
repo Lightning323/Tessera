@@ -5417,7 +5417,7 @@
   ],
   "tessera:stone": [
     {
-      "item": "tessera:stone",
+      "item": "tessera:cobblestone",
       "chance": 1.0,
       "maxItems": 1
     }
