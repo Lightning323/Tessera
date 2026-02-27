@@ -21,7 +21,7 @@ public class ResourceUtils {
     public static File LOCAL_DIR;
 
     //Individual paths
-    public static File BLOCK_ICON_DIR,PLAYER_GLOBAL_INFO;
+    public static File BLOCK_ICON_DIR, PLAYER_GLOBAL_INFO;
 
 
     static {
@@ -33,7 +33,7 @@ public class ResourceUtils {
         System.out.println("\tLocal path: " + LOCAL_DIR);
         System.out.println("\tResource path: " + RESOURCE_DIR);
 
-        BLOCK_ICON_DIR = file("items\\blocks\\icons");
+        BLOCK_ICON_DIR = resourceFile("items\\blocks\\icons");
     }
 
     public static void initialize(boolean gameDevResources, String appDataDir) {
@@ -50,25 +50,24 @@ public class ResourceUtils {
     }
 
     public static File localFile(String path) {
-        return new File(LOCAL_DIR, path);
+        return new File(LOCAL_DIR, path.replace("\\","/"));
     }
 
-    public static File file(String path) {
-        if (path.startsWith(RESOURCE_DIR.getAbsolutePath())) {
-            return new File(path);
-        }
-        return new File(RESOURCE_DIR, path);
+    public static File resourceFile(String path) {
+        return new File(RESOURCE_DIR, path.replace("\\","/"));
     }
 
     public static File appDataFile(String path) {
-        return new File(APP_DATA_DIR, path);
+        return new File(APP_DATA_DIR, path.replace("\\","/"));
     }
 
     public static File worldFile(String path) {
-        return new File(WORLDS_DIR, path);
+        return new File(WORLDS_DIR, path.replace("\\","/"));
     }
 
-
+    public static String toFormattedPath(File f){
+        return f.getAbsolutePath().replace("\\", "/");
+    }
 
 
     public static byte[] downloadFile(String fileUrl) throws IOException {

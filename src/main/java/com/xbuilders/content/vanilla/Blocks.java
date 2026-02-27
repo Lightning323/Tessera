@@ -1052,7 +1052,7 @@ public class Blocks {
 
         if (Client.DEV_MODE) {//Make ids for dev mode
             try {
-                ItemUtils.block_makeClassJavaFiles(blockList, ResourceUtils.file("\\items\\blocks\\java"));
+                ItemUtils.block_makeClassJavaFiles(blockList, ResourceUtils.resourceFile("\\items\\blocks\\java"));
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

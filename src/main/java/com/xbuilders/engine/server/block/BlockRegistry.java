@@ -110,7 +110,7 @@ public class BlockRegistry {
         return highestId;
     }
 
-    public final File blockIconsDirectory = ResourceUtils.file("items\\blocks\\icons");
+    public final File blockIconsDirectory = ResourceUtils.resourceFile("items\\blocks\\icons");
 
     private void generateBlock3DIcons(Block[] blocks) {
         if (!blockIconsDirectory.exists()) {

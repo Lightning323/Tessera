@@ -15,6 +15,7 @@ import com.google.gson.Gson;
 import com.xbuilders.engine.common.json.JsonManager;
 
 import java.io.File;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.format.DateTimeFormatter;
 
@@ -95,6 +96,7 @@ public class WorldData {
 
     /**
      * Create a deep clone of the worldData
+     *
      * @param other
      */
     public WorldData(WorldData other) {
@@ -111,7 +113,12 @@ public class WorldData {
         }
         this.directory = directory;
         this.name = directory.getName();
-        this.data = gson.fromJson(Files.readString(new File(directory, INFO_FILENAME).toPath()), DataFile.class);
+        Path path = new File(directory, INFO_FILENAME).toPath().normalize();
+        this.data = gson.fromJson(
+                Files.readString(
+                        path
+                )
+                , DataFile.class);
         data.initFields();
     }
 

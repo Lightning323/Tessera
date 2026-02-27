@@ -4,7 +4,6 @@ import com.xbuilders.Main;
 import com.xbuilders.content.vanilla.blockTools.BlockTool;
 import com.xbuilders.content.vanilla.blockTools.BlockTools;
 import com.xbuilders.content.vanilla.blockTools.PrefabUtils;
-import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.common.players.localPlayer.raycasting.CursorRay;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.entity.EntityShader_ArrayTexture;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.entity.block.BlockMeshBundle;
@@ -15,7 +14,6 @@ import com.xbuilders.engine.server.block.BlockRegistry;
 import com.xbuilders.engine.server.entity.Entity;
 import com.xbuilders.engine.common.world.chunk.BlockData;
 import com.xbuilders.engine.common.world.chunk.ChunkVoxels;
-import com.xbuilders.engine.common.utils.LoggingUtils;
 import com.xbuilders.engine.common.resource.ResourceUtils;
 import com.xbuilders.window.render.MVP;
 import org.joml.Matrix4f;
@@ -40,7 +38,7 @@ public class PasteTool extends BlockTool {
         super("Paste", tools, cursorRay);
         hasOptions = true;
         try {
-            setIcon(ResourceUtils.file("blockTools\\paste.png"));
+            setIcon(ResourceUtils.resourceFile("blockTools\\paste.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

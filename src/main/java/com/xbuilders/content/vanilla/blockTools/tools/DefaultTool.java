@@ -13,7 +13,7 @@ public class DefaultTool extends BlockTool {
     public DefaultTool(BlockTools tools, CursorRay cursorRay) {
         super("Default", tools, cursorRay);
         try {
-            setIcon(ResourceUtils.file("blockTools\\default.png"));
+            setIcon(ResourceUtils.resourceFile("blockTools\\default.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

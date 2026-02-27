@@ -20,7 +20,7 @@ public class BoundaryTool extends BlockTool {
     public BoundaryTool(BlockTools tools, CursorRay cursorRay) {
         super("Boundary", tools, cursorRay);
         try {
-            setIcon(ResourceUtils.file("blockTools\\boundary.png"));
+            setIcon(ResourceUtils.resourceFile("blockTools\\boundary.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

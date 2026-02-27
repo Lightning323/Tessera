@@ -1,5 +1,7 @@
 package com.xbuilders.window.nuklear;
 
+import com.xbuilders.Main;
+import com.xbuilders.engine.common.resource.ResourceUtils;
 import com.xbuilders.window.utils.texture.TextureUtils;
 import org.lwjgl.nuklear.NkUserFont;
 import org.lwjgl.nuklear.NkUserFontGlyph;
@@ -14,6 +16,7 @@ import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
 import java.util.ArrayList;
+import java.util.logging.Level;
 
 import static com.xbuilders.window.utils.IOUtil.ioResourceToByteBuffer;
 import static org.lwjgl.nuklear.Nuklear.NK_UTF_INVALID;

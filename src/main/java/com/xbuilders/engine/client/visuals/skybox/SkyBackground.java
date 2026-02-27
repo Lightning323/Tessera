@@ -30,9 +30,9 @@ public class SkyBackground {
         skyBoxMesh = new SkyBoxMesh();
         this.world = world;
         this.mainWindow = mainWindow;
-        skyBoxMesh.loadFromOBJ(ResourceUtils.file("weather\\skybox.obj"));
+        skyBoxMesh.loadFromOBJ(ResourceUtils.resourceFile("weather\\skybox.obj"));
 
-        File texture = ResourceUtils.file("weather\\skybox.png");
+        File texture = ResourceUtils.resourceFile("weather\\skybox.png");
         skyBoxMesh.setTexture(texture);
         skyImage = ImageIO.read(texture);
         skyBoxShader = new SkyBoxShader();

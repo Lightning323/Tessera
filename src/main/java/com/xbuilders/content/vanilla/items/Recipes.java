@@ -94,7 +94,7 @@ public class Recipes {
                 }
             }
         }
-        dyed.writeToFile(ResourceUtils.file("items/recipes/crafting/dyed.json"));
+        dyed.writeToFile(ResourceUtils.resourceFile("items/recipes/crafting/dyed.json"));
         System.out.println("Done synthesizing");
     }
 
@@ -192,8 +192,8 @@ public class Recipes {
             }
         }
         System.out.println("Writing recipes...");
-        variants.writeToFile(ResourceUtils.file("items/recipes/crafting/variants.json"));
-        doorsTrapdoors.writeToFile(ResourceUtils.file("items/recipes/crafting/doors.json"));
+        variants.writeToFile(ResourceUtils.resourceFile("items/recipes/crafting/variants.json"));
+        doorsTrapdoors.writeToFile(ResourceUtils.resourceFile("items/recipes/crafting/doors.json"));
         System.out.println("Done synthesizing");
     }
 

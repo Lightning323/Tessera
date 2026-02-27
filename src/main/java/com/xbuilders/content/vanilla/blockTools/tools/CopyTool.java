@@ -3,7 +3,6 @@ package com.xbuilders.content.vanilla.blockTools.tools;
 import com.xbuilders.Main;
 import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.common.players.localPlayer.raycasting.CursorRay;
-import com.xbuilders.engine.common.utils.LoggingUtils;
 import com.xbuilders.engine.common.resource.ResourceUtils;
 import com.xbuilders.engine.common.math.AABB;
 import com.xbuilders.engine.common.world.chunk.ChunkVoxels;
@@ -27,7 +26,7 @@ public class CopyTool extends BlockTool {
         super("Copy", tools, cursorRay);
         hasOptions = true;
         try {
-            setIcon(ResourceUtils.file("blockTools\\copy.png"));
+            setIcon(ResourceUtils.resourceFile("blockTools\\copy.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

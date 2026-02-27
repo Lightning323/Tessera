@@ -23,7 +23,6 @@ import org.lwjgl.nuklear.NkVec2;
 import org.lwjgl.opengl.GL11;
 
 import static org.lwjgl.opengl.GL11.*;
-import static org.lwjgl.opengles.GLES20.GL_BLEND;
 
 public class GameScene implements WindowEvents {
     public final static Matrix4f projection = new Matrix4f();

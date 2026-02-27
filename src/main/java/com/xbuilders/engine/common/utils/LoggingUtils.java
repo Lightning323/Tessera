@@ -4,20 +4,12 @@
  */
 package com.xbuilders.engine.common.utils;
 
-import com.xbuilders.Main;
-import com.xbuilders.engine.client.Client;
-import com.xbuilders.engine.client.ClientWindow;
 import com.xbuilders.engine.common.resource.ResourceUtils;
 
 import javax.swing.*;
-import java.awt.*;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Date;
-import java.util.logging.Handler;
-import java.util.logging.Level;
-import java.util.logging.LogRecord;
 
 /**
  * @author zipCoder933
@@ -84,7 +76,7 @@ public class LoggingUtils {
 //        parent.setSize(380, 240);
 //    }
 
-    private final static ImageIcon popupWindowIcon = new ImageIcon(ResourceUtils.file("logo.png").getAbsolutePath());
+    private final static ImageIcon popupWindowIcon = new ImageIcon(ResourceUtils.resourceFile("logo.png").getAbsolutePath());
     private static final DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH_mm_ss");
 
     public static String getFileDate() {

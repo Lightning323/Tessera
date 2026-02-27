@@ -36,7 +36,7 @@ public class CircleTool extends BlockTool {
         wallThickness.setMaxValue(3);
         wallThickness.setValueAsNumber(1);
         try {
-            setIcon(ResourceUtils.file("blockTools\\circle.png"));
+            setIcon(ResourceUtils.resourceFile("blockTools\\circle.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
