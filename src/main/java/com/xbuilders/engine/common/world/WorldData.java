@@ -16,7 +16,6 @@ import com.xbuilders.engine.common.json.JsonManager;
 
 import java.io.File;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.time.format.DateTimeFormatter;
 
 import org.joml.Vector3i;
@@ -114,6 +113,15 @@ public class WorldData {
         this.directory = directory;
         this.name = directory.getName();
         Path path = new File(directory, INFO_FILENAME).toPath().normalize();
+        if (!Files.exists(path)) {
+            // Migration fallback for worlds saved with a literal backslash in the filename on Unix-like systems
+            // from old code that used: Paths.get(getDirectory() + "\\" + INFO_FILENAME)
+            Path legacyPath = new File(directory.getParentFile(), directory.getName() + "\\" + INFO_FILENAME).toPath().normalize();
+            if (Files.exists(legacyPath)) {
+                Files.createDirectories(path.getParent());
+                Files.copy(legacyPath, path);
+            }
+        }
         this.data = gson.fromJson(
                 Files.readString(
                         path
@@ -134,7 +142,8 @@ public class WorldData {
         }
         data.lastSaved = System.currentTimeMillis();
         String json = gson.toJson(data);
-        Files.writeString(Paths.get(getDirectory() + "\\" + INFO_FILENAME), json);
+        Path infoPath = new File(getDirectory(), INFO_FILENAME).toPath().normalize();
+        Files.writeString(infoPath, json);
     }
 
     public void makeNew(String name, int size, Terrain terrain, int seed) {
