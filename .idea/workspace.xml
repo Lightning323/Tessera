@@ -9,44 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="changes">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/frag.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/frag_direct.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/frag_direct.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/frag_icon.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/frag_icon.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/frag_test.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/frag_test.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/chunkShader/vertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/chunkShader/vertex.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/entityShader/array texture.fs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/entityShader/array texture.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/entityShader/array texture.vs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/entityShader/array texture.vs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/entityShader/default.fs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/entityShader/default.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/entityShader/default.vs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/entityShader/default.vs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/skybox/sky_shader.fs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/skybox/sky_shader.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Shaders/skybox/sky_shader.vs" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/skybox/sky_shader.vs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/Blocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/Blocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/BoundaryTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/BoundaryTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/CircleTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/CircleTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/CopyTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/CopyTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/DefaultTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/DefaultTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/LineTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/LineTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/PaintTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/PaintTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/PasteTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/PasteTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/PlaneTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/PlaneTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/SphereTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/blockTools/tools/SphereTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/items/Recipes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/items/Recipes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/skins/FoxSkin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/content/vanilla/skins/FoxSkin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/client/visuals/Theme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/client/visuals/Theme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/client/visuals/gameScene/GameMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/client/visuals/gameScene/GameMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/client/visuals/gameScene/GameScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/client/visuals/gameScene/GameScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/client/visuals/skybox/SkyBackground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/client/visuals/skybox/SkyBackground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/common/resource/ResourceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/common/resource/ResourceUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/common/utils/LoggingUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/common/utils/LoggingUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/common/world/WorldData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/common/world/WorldData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/common/world/WorldsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/common/world/WorldsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/server/block/BlockRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/server/block/BlockRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/window/nuklear/NKFontUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/window/nuklear/NKFontUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xbuilders/engine/client/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,15 +47,16 @@
     <option name="branchProtectionPatterns">
       <list>
         <option value="main" />
+        <option value="main.*" />
       </list>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/zipCoder933/Xbuilders.git&quot;,
-    &quot;accountId&quot;: &quot;b507e979-a678-47ff-a6dd-4aa4f5c1b6d3&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Lightning323/Tessera",
+    "accountId": "a72c0324-45b3-4e3c-8b6a-97ca7e06dc1a"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/5.6.2/kryo-5.6.2-sources.jar!/com/esotericsoftware/kryo/io/Input.java" root0="SKIP_INSPECTION" />
   </component>
@@ -300,6 +268,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -309,6 +284,15 @@
       <option name="presentableId" value="Default" />
       <updated>1718977622364</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixes">
+      <option name="closed" value="true" />
+      <created>1772233802378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772233802378</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -328,7 +312,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic bugfixes" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

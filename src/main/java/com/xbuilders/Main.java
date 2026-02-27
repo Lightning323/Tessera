@@ -6,10 +6,10 @@ import com.xbuilders.engine.SkinRegistry;
 import com.xbuilders.engine.server.Server;
 import com.xbuilders.engine.common.utils.LoggingUtils;
 import com.xbuilders.engine.common.resource.ResourceLister;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.logging.*;
 
 /**
  * The client contains everything ONLY on the client
@@ -25,25 +25,7 @@ public class Main {
     public static XbuildersGame game;
     public static SkinRegistry skins;
 
-
-    public static final Logger LOGGER = Logger.getLogger(Client.class.getName());
-
-    static {
-        try {
-            //Log to file
-            FileHandler fileHandler = new FileHandler("latest.log", true);
-            fileHandler.setFormatter(new SimpleFormatter());
-            LOGGER.addHandler(fileHandler);
-
-            // Add this to log to System.out
-            ConsoleHandler consoleHandler = new ConsoleHandler();
-            consoleHandler.setFormatter(new SimpleFormatter());
-            LOGGER.addHandler(consoleHandler);
-
-        } catch (IOException e) {
-            LOGGER.log(Level.SEVERE, "Error setting up file handler", e);
-        }
-    }
+    public static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
 
 
     public static Client getClient() {
@@ -65,13 +47,13 @@ public class Main {
         skins = new SkinRegistry();
         game = new XbuildersGame();
 
-        client = new Client(args, game, LOGGER);
+        client = new Client(args, game);
 
 
         try {
             getClient().window.startWindowThread();
         } catch (Exception e) {
-            LOGGER.log(Level.SEVERE, "Window Thread Failed", e);
+            LOGGER.error("Window Thread Failed", e);
         } finally {
             getClient().window.destroyWindow();
         }

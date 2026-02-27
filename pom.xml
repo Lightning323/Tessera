@@ -303,6 +303,20 @@
             <artifactId>joml</artifactId>
             <version>${joml.version}</version>
         </dependency>
+
+
+        <!-- SLF4J API -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.9</version>
+        </dependency>
+        <!-- Logback (SLF4J Implementation) -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.5.13</version>
+        </dependency>
     </dependencies>
 
 </project>

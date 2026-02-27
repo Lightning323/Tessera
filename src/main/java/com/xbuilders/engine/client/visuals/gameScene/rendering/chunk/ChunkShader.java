@@ -71,7 +71,7 @@ public class ChunkShader extends Shader {
             init(ResourceUtils.localFile(CHUNK_SHADER_DIR + "/vertex.glsl"),
                     fragShader);
         } catch (IOException e) {
-            LOGGER.log(Level.INFO,"error", e);
+            LOGGER.info("error", e);
         }
         mvpUniform = getUniformLocation("MVP");
         maxMult12bitsUniform = getUniformLocation("maxMult12bits");

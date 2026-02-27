@@ -155,7 +155,7 @@ public class ResourceLoader {
                     buffer.write(data, 0, bytesRead);
                 }
             } catch (IOException e) {
-                LOGGER.log(Level.INFO,"error", e);
+                LOGGER.info("error", e);
             }
             return buffer.toByteArray();
         }

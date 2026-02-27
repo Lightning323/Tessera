@@ -70,9 +70,9 @@ public class Client {
         window.gameScene.ui.baseMenu.setOpen(true);
     }
 
-    public Client(String[] args, Game game, Logger LOGGER) throws Exception {
+    public Client(String[] args, Game game) throws Exception {
         this.game = game;
-        LOGGER.finest("XBuilders Client (" + CLIENT_VERSION_STRING + ") started on " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+        LOGGER.info("XBuilders Client (" + CLIENT_VERSION_STRING + ") started on " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
         //Process args
         System.out.println("args: " + Arrays.toString(args));
         String appDataDir = null;
@@ -111,8 +111,6 @@ public class Client {
     }
 
 
-
-
     public void onConnected(boolean success, Throwable cause, ChannelBase channel) {
         prog = new ProgressData(title);
 
@@ -122,7 +120,7 @@ public class Client {
                 try {
                     joinGameUpdate(prog, channel);
                 } catch (Exception e) {
-                    LOGGER.log(Level.INFO, "error", e);
+                    LOGGER.info("error", e);
                     prog.abort();
                 }
             }, () -> {//finished
@@ -140,6 +138,7 @@ public class Client {
 
     /**
      * We can either summon the localServer or we can join an existing server
+     *
      * @param singleplayerWorld
      * @param remoteWorld
      */
@@ -157,7 +156,7 @@ public class Client {
                     Main.setServer(new Server(game, serverWorld, remoteWorld.port)); //Create a server with a real endpoint
                 else Main.setServer(new Server(game, serverWorld)); //Create a server with a fake endpoint
             } catch (InterruptedException e) {
-                LOGGER.log(Level.WARNING, "Error starting server", e);
+                LOGGER.warn("Error starting server", e);
                 return;
             }
 
@@ -180,7 +179,7 @@ public class Client {
                     }
                 };
             } catch (InterruptedException e) {
-                LOGGER.log(Level.WARNING, "Error starting endpoint", e);
+                LOGGER.warn("Error starting endpoint", e);
                 return;
             }
         } else { //Start up fake endpoint
@@ -316,7 +315,7 @@ public class Client {
         try {
             if (Main.getServer() != null) Main.getServer().stop();  //If we have a local server
         } catch (Exception e) {
-            LOGGER.log(Level.INFO, "error", e);
+            LOGGER.info("error", e);
         } finally {
             Main.setServer(null);
             System.gc();

@@ -270,7 +270,7 @@ public class Server {
 
     //Constructors
     public Server(Game game, ServerWorld world) {
-        LOGGER.finest("Server started! (" + SERVER_VERSION_STRING + ")");
+        LOGGER.info("Server started! (" + SERVER_VERSION_STRING + ")");
         this.game = game;
         this.world = world;
         endpoint = new FakeServer() {
@@ -350,7 +350,7 @@ public class Server {
                 eventPipeline.update();
             }
         } catch (Exception e) {
-            LOGGER.log(Level.SEVERE, "Error", e);
+            LOGGER.error( "Error", e);
         } finally {
             stop();
         }
@@ -494,7 +494,7 @@ public class Server {
                 generator.writeEndObject(); // End root object
                 generator.close();
             } catch (IOException e) {
-                LOGGER.log(Level.INFO, "Error saving container data", e);
+                LOGGER.info( "Error saving container data", e);
             }
             entityBytes = baos.toByteArray();
         }
