@@ -1,4 +1,4 @@
-import com.xbuilders.utils.resource.JarResourceLister;
+import com.tessera.utils.resource.JarResourceLister;
 
 import java.util.List;
 
