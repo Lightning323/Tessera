@@ -11,6 +11,6 @@ public class Main_DedicatedServer {
     public static void main(String[] args) {
         System.out.println("Server started: " + Server.VERSION);
         game = new Game();
-        localServer = new Server(game);
+//        localServer = new Server(game);
     }
 }
