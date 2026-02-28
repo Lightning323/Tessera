@@ -8,7 +8,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static com.xbuilders.engine.common.utils.bytes.ByteUtils.*;
+import static com.xbuilders.utils.bytes.ByteUtils.*;
 
 public class ChunkFile_V0 {
 

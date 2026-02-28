@@ -5,7 +5,7 @@ import com.xbuilders.engine.common.packets.ChunkDataPacket;
 import com.xbuilders.engine.common.threadPoolExecutor.PriorityExecutor.ExecutorServiceUtils;
 import com.xbuilders.engine.common.threadPoolExecutor.PriorityExecutor.PriorityThreadPoolExecutor;
 import com.xbuilders.engine.common.threadPoolExecutor.PriorityExecutor.comparator.LowValueComparator;
-import com.xbuilders.engine.common.utils.MiscUtils;
+import com.xbuilders.utils.MiscUtils;
 import com.xbuilders.engine.common.world.chunk.Chunk;
 import com.xbuilders.engine.common.world.chunk.FutureChunk;
 import com.xbuilders.engine.common.world.chunk.ServerChunk;

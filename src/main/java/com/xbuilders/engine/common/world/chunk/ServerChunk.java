@@ -1,6 +1,6 @@
 package com.xbuilders.engine.common.world.chunk;
 
-import com.xbuilders.engine.common.utils.MiscUtils;
+import com.xbuilders.utils.MiscUtils;
 import com.xbuilders.engine.common.world.ServerWorld;
 import com.xbuilders.engine.common.world.Terrain;
 import com.xbuilders.engine.common.world.WorldData;

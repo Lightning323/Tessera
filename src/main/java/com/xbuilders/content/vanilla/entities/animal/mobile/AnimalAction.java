@@ -4,7 +4,7 @@
  */
 package com.xbuilders.content.vanilla.entities.animal.mobile;
 
-import com.xbuilders.engine.common.utils.bytes.ByteUtils;
+import com.xbuilders.utils.bytes.ByteUtils;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

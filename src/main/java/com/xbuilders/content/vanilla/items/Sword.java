@@ -4,7 +4,7 @@ import com.xbuilders.Main;
 import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.server.entity.LivingEntity;
 import com.xbuilders.engine.server.item.Item;
-import com.xbuilders.engine.common.utils.MiscUtils;
+import com.xbuilders.utils.MiscUtils;
 
 public class Sword extends Item {
 

@@ -12,7 +12,7 @@ import com.xbuilders.engine.server.entity.EntitySupplier;
 import com.xbuilders.engine.server.item.ItemStack;
 import com.xbuilders.engine.server.loot.AllLootTables;
 import com.xbuilders.engine.common.players.localPlayer.camera.Camera;
-import com.xbuilders.engine.common.utils.MiscUtils;
+import com.xbuilders.utils.MiscUtils;
 import com.xbuilders.engine.common.math.AABB;
 import com.xbuilders.engine.common.math.MathUtils;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.wireframeBox.Box;

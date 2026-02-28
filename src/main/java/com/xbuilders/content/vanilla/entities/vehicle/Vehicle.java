@@ -15,7 +15,7 @@ import com.xbuilders.engine.common.players.localPlayer.LocalPlayer;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.entity.EntityMesh;
 import com.xbuilders.engine.server.entity.Entity;
 import com.xbuilders.engine.common.math.MathUtils;
-import com.xbuilders.engine.common.resource.ResourceLister;
+import com.xbuilders.utils.resource.ResourceLister;
 import com.xbuilders.engine.common.worldInteraction.collision.PositionHandler;
 import com.xbuilders.content.vanilla.Blocks;
 import com.xbuilders.window.utils.texture.TextureUtils;
@@ -159,7 +159,6 @@ public abstract class Vehicle extends Entity {
     public void goForward(float amount) {
         Vector2f vec = MathUtils.getCircumferencePoint(-getRotationYDeg(), amount);
         worldPosition.add(vec.x, 0, vec.y);
-        multiplayerProps.markStateChanged();
     }
 
     @Override
@@ -182,6 +181,5 @@ public abstract class Vehicle extends Entity {
 
     public void setRotationYDeg(float rotationYDeg) {
         this.rotationYDeg = rotationYDeg;
-        multiplayerProps.markStateChanged();
     }
 }

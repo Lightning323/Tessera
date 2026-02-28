@@ -3,8 +3,8 @@
 // 
 package com.xbuilders.engine.common.world;
 
-import com.xbuilders.engine.common.utils.FileUtils;
-import com.xbuilders.engine.common.resource.ResourceUtils;
+import com.xbuilders.utils.FileUtils;
+import com.xbuilders.utils.resource.ResourceUtils;
 
 import java.io.File;
 import java.io.IOException;

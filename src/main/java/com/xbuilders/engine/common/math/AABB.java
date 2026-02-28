@@ -4,7 +4,7 @@
  */
 package com.xbuilders.engine.common.math;
 
-import com.xbuilders.engine.common.utils.MiscUtils;
+import com.xbuilders.utils.MiscUtils;
 
 import java.nio.FloatBuffer;
 import java.util.Objects;

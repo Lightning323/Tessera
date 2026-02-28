@@ -9,7 +9,7 @@ import com.xbuilders.engine.common.world.chunk.Chunk;
 
 import static com.xbuilders.engine.common.world.chunk.Chunk.WIDTH;
 
-import com.xbuilders.engine.common.utils.MiscUtils;
+import com.xbuilders.utils.MiscUtils;
 import com.xbuilders.engine.common.world.Terrain;
 import com.xbuilders.content.vanilla.Blocks;
 import com.xbuilders.engine.common.option.OptionsList;

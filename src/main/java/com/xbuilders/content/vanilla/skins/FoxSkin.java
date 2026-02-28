@@ -1,9 +1,9 @@
 package com.xbuilders.content.vanilla.skins;
 
 import com.xbuilders.engine.common.players.Player;
-import com.xbuilders.engine.common.players.Skin;
+import com.xbuilders.engine.client.skin.Skin;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.entity.EntityMesh;
-import com.xbuilders.engine.common.resource.ResourceUtils;
+import com.xbuilders.utils.resource.ResourceUtils;
 import com.xbuilders.window.utils.texture.TextureUtils;
 
 import java.io.IOException;

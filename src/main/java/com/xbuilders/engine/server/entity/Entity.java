@@ -19,14 +19,13 @@ import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.entity.EntityShader;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.entity.EntityShader_ArrayTexture;
 import com.xbuilders.engine.server.item.ItemStack;
-import com.xbuilders.engine.common.network.old.multiplayer.EntityMultiplayerInfo;
 import com.xbuilders.engine.common.world.chunk.Chunk;
 import com.xbuilders.engine.common.world.chunk.ChunkVoxels;
 import com.xbuilders.engine.common.world.wcc.WCCf;
 import com.xbuilders.engine.common.world.wcc.WCCi;
 import com.xbuilders.engine.common.json.fasterXML.itemStack.ItemStackDeserializer;
 import com.xbuilders.engine.common.json.fasterXML.itemStack.ItemStackSerializer;
-import com.xbuilders.engine.common.resource.ResourceLoader;
+import com.xbuilders.utils.resource.ResourceLoader;
 import com.xbuilders.engine.common.worldInteraction.collision.EntityAABB;
 import com.xbuilders.window.render.MVP;
 import org.joml.Vector3f;
@@ -94,7 +93,6 @@ public abstract class Entity {
     public EntityAABB aabb;
     public final WCCf chunkPosition;
     public final Vector3f worldPosition;
-    public final EntityMultiplayerInfo multiplayerProps;
     private final Vector3f prevWorldPosition;//KEEP PRIVATE
 
     //Model view projection
@@ -120,8 +118,6 @@ public abstract class Entity {
         prevWorldPosition = new Vector3f();
         chunkPosition = new WCCf();
         needsInitialization = true;
-        multiplayerProps = new EntityMultiplayerInfo(this);
-
         if (uniqueIdentifier == 0)
             this.uniqueIdentifier = entityIdentifierGenerator.nextLong(); //Auto generate the identifier
         else this.uniqueIdentifier = uniqueIdentifier;

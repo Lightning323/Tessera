@@ -2,6 +2,7 @@ package com.xbuilders.engine.client;
 
 import com.xbuilders.Main;
 import com.xbuilders.engine.common.network.netty.NettyClient;
+import com.xbuilders.engine.common.network.NetworkJoinRequest;
 import com.xbuilders.engine.common.packets.AllPackets;
 import com.xbuilders.engine.common.packets.ClientEntrancePacket;
 import com.xbuilders.engine.common.players.localPlayer.LocalPlayer;
@@ -10,35 +11,27 @@ import com.xbuilders.engine.common.network.ChannelBase;
 import com.xbuilders.engine.common.network.ClientBase;
 import com.xbuilders.engine.common.network.fake.FakeClient;
 import com.xbuilders.engine.common.network.fake.FakeServer;
-import com.xbuilders.engine.common.network.old.multiplayer.NetworkJoinRequest;
 import com.xbuilders.engine.common.progress.ProgressData;
-import com.xbuilders.engine.common.resource.ResourceUtils;
-import com.xbuilders.engine.common.utils.LoggingUtils;
+import com.xbuilders.utils.resource.ResourceUtils;
 import com.xbuilders.engine.common.world.*;
 import com.xbuilders.engine.common.world.chunk.Chunk;
 import com.xbuilders.engine.server.Game;
-import com.xbuilders.engine.server.GameMode;
 import com.xbuilders.engine.server.Server;
 import com.xbuilders.engine.common.players.Player;
 import com.xbuilders.window.developmentTools.FrameTester;
 import com.xbuilders.window.developmentTools.MemoryGraph;
 import org.joml.Vector3f;
 
-import java.io.IOException;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import static com.xbuilders.Main.LOGGER;
-import static com.xbuilders.Main.versionStringToNumber;
 import static com.xbuilders.engine.common.players.Player.PLAYER_HEIGHT;
 
 
 public class Client {
-    public static String CLIENT_VERSION_STRING = "1.8.0";
-    public static long CLIENT_VERSION = versionStringToNumber(CLIENT_VERSION_STRING);
+    public static long VERSION = 0;
 
     //The world never changes objects
     public static final ClientWorld world = new ClientWorld();
@@ -69,8 +62,8 @@ public class Client {
     }
 
     public Client(String[] args, Game game) throws Exception {
+        LOGGER.info("Client v{} started", VERSION);
         this.game = game;
-        LOGGER.info("XBuilders Client (" + CLIENT_VERSION_STRING + ") started on " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
         //Process args
         System.out.println("args: " + Arrays.toString(args));
         String appDataDir = null;

@@ -14,7 +14,7 @@ import com.xbuilders.engine.server.entity.Entity;
 import com.xbuilders.engine.common.world.chunk.BlockData;
 import com.xbuilders.engine.common.world.wcc.WCCf;
 import com.xbuilders.engine.common.world.wcc.WCCi;
-import com.xbuilders.engine.common.utils.MiscUtils;
+import com.xbuilders.utils.MiscUtils;
 import com.xbuilders.window.WindowEvents;
 import org.joml.Matrix4f;
 import org.joml.Vector3i;
@@ -198,11 +198,7 @@ public class GameScene implements WindowEvents {
                         text += "\nRAY (hit) (Q): \n\t" + Client.userPlayer.camera.cursorRay.toString() + "\n\t" + rayWCC.toString() + "\n";
                     }
 
-                    if (Client.userPlayer.camera.cursorRay.getEntity() != null) {
-                        Entity e = Client.userPlayer.camera.cursorRay.getEntity();
-                        text += "\nENTITY: " + e.toString() + "\n" +
-                                "\tcontrolledByAnotherPlayer: " + e.multiplayerProps.controlledByAnotherPlayer;
-                    }
+
 
                     ClientChunk chunk = world.getChunk(rayWCC.chunk);
                     text += "\n\nchunk ("+chunk.position.x+", "+chunk.position.y+", "+chunk.position.z+"): ";

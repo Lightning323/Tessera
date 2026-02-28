@@ -17,7 +17,7 @@ import com.xbuilders.engine.common.packets.AllPackets;
 import com.xbuilders.engine.common.players.Player;
 import com.xbuilders.engine.common.players.pipeline.BlockEventPipeline;
 import com.xbuilders.engine.common.players.pipeline.BlockHistory;
-import com.xbuilders.engine.common.utils.bytes.ByteUtils;
+import com.xbuilders.utils.bytes.ByteUtils;
 import com.xbuilders.engine.common.world.ServerWorld;
 import com.xbuilders.engine.common.world.chunk.BlockData;
 import com.xbuilders.engine.common.world.chunk.Chunk;
@@ -35,6 +35,8 @@ import org.joml.Vector3f;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -42,8 +44,7 @@ import static com.xbuilders.Main.LOGGER;
 import static com.xbuilders.Main.versionStringToNumber;
 
 public class Server {
-    public final static String SERVER_VERSION_STRING = "1.0.0";
-    public final static long SERVER_VERSION = versionStringToNumber(SERVER_VERSION_STRING);
+    public final static long VERSION = 0;
     public final static int SERVER_PLAYER_COMMUNICATION_RANGE = 2000;
 
     public final LivePropagationHandler livePropagationHandler = new LivePropagationHandler();
@@ -266,10 +267,8 @@ public class Server {
         return port == -1;
     }
 
-
-    //Constructors
     public Server(Game game, ServerWorld world) {
-        LOGGER.info("Server started! (" + SERVER_VERSION_STRING + ")");
+        LOGGER.info("Server v{} started", VERSION);
         this.game = game;
         this.world = world;
         endpoint = new FakeServer() {

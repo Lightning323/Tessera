@@ -1,9 +1,7 @@
 package com.xbuilders.engine.client.visuals.gameScene.rendering.entity;
 
-import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.server.Registrys;
-import com.xbuilders.engine.common.utils.LoggingUtils;
-import com.xbuilders.engine.common.resource.ResourceUtils;
+import com.xbuilders.utils.resource.ResourceUtils;
 
 import java.io.IOException;
 

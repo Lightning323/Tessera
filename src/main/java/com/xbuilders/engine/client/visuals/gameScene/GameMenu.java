@@ -11,7 +11,7 @@ import com.xbuilders.engine.client.visuals.Theme;
 import com.xbuilders.engine.client.visuals.topMenu.SettingsPage;
 import com.xbuilders.engine.common.world.ClientWorld;
 import com.xbuilders.engine.server.GameMode;
-import com.xbuilders.engine.common.resource.ResourceUtils;
+import com.xbuilders.utils.resource.ResourceUtils;
 import com.xbuilders.window.nuklear.components.NumberBox;
 import org.joml.Vector3f;
 import org.lwjgl.glfw.GLFW;

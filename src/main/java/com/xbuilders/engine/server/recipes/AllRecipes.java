@@ -4,7 +4,7 @@ import com.xbuilders.engine.server.Registrys;
 import com.xbuilders.engine.server.item.Item;
 import com.xbuilders.engine.server.recipes.crafting.CraftingRecipeRegistry;
 import com.xbuilders.engine.server.recipes.smelting.SmeltingRecipeRegistry;
-import com.xbuilders.engine.common.utils.MiscUtils;
+import com.xbuilders.utils.MiscUtils;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -10,8 +10,8 @@ import com.xbuilders.engine.server.block.construction.BlockType;
 import com.xbuilders.engine.server.block.construction.DefaultBlockType;
 import com.xbuilders.engine.server.builtinMechanics.liquid.LiquidBlockType;
 import com.xbuilders.engine.server.item.blockIconRendering.BlockIconRenderer;
-import com.xbuilders.engine.common.utils.IntMap;
-import com.xbuilders.engine.common.resource.ResourceUtils;
+import com.xbuilders.utils.IntMap;
+import com.xbuilders.utils.resource.ResourceUtils;
 
 import java.io.File;
 import java.io.IOException;

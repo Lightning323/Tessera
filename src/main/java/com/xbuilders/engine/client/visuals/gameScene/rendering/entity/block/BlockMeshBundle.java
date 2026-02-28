@@ -4,11 +4,9 @@
  */
 package com.xbuilders.engine.client.visuals.gameScene.rendering.entity.block;
 
-import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.server.Registrys;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.entity.block.meshers.Block_NaiveMesher;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.entity.EntityMesh_ArrayTexture;
-import com.xbuilders.engine.common.utils.LoggingUtils;
 import com.xbuilders.engine.common.world.chunk.ChunkVoxels;
 import org.joml.Vector3i;
 import org.lwjgl.system.MemoryStack;

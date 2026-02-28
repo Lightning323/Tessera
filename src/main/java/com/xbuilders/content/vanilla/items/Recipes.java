@@ -6,7 +6,7 @@ import com.xbuilders.engine.server.block.BlockRegistry;
 import com.xbuilders.engine.server.item.Item;
 import com.xbuilders.engine.server.recipes.crafting.CraftingRecipe;
 import com.xbuilders.engine.server.recipes.crafting.CraftingRecipeRegistry;
-import com.xbuilders.engine.common.resource.ResourceUtils;
+import com.xbuilders.utils.resource.ResourceUtils;
 import com.xbuilders.content.vanilla.blocks.RenderType;
 
 import java.io.IOException;

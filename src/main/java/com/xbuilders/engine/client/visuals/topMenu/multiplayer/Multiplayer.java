@@ -15,7 +15,7 @@ import com.xbuilders.engine.common.players.localPlayer.LocalPlayer;
 import com.xbuilders.engine.client.visuals.topMenu.LoadWorld;
 import com.xbuilders.engine.client.visuals.topMenu.MenuPage;
 import com.xbuilders.engine.client.visuals.topMenu.TopMenu;
-import com.xbuilders.engine.common.network.old.multiplayer.NetworkJoinRequest;
+import com.xbuilders.engine.common.network.NetworkJoinRequest;
 import com.xbuilders.engine.client.visuals.Theme;
 import com.xbuilders.engine.client.visuals.Page;
 import com.xbuilders.window.nuklear.components.NumberBox;

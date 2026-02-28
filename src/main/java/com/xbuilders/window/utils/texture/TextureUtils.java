@@ -4,7 +4,7 @@
  */
 package com.xbuilders.window.utils.texture;
 
-import com.xbuilders.engine.common.resource.ResourceLoader;
+import com.xbuilders.utils.resource.ResourceLoader;
 import com.xbuilders.window.utils.IOUtil;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;

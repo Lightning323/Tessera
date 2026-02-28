@@ -6,8 +6,8 @@ package com.xbuilders.engine.common.world.chunk.saving;
 
 import com.esotericsoftware.kryo.io.Output;
 import com.xbuilders.engine.server.entity.Entity;
-import com.xbuilders.engine.common.utils.bytes.ByteUtils;
-import com.xbuilders.engine.common.utils.bytes.SimpleKyro;
+import com.xbuilders.utils.bytes.ByteUtils;
+import com.xbuilders.utils.bytes.SimpleKyro;
 import com.xbuilders.engine.common.math.MathUtils;
 
 import java.io.*;

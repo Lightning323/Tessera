@@ -231,7 +231,6 @@ public abstract class LandAndWaterAnimal extends ActionAnimal {
     }
 
     private void runAwayAction() {
-        multiplayerProps.controlMode = true;
         setRotationYDeg((float) Math.toDegrees(getYDirectionToPlayer()) + 180 + random.noise(2f, -3, 3));
         goForward(currentAction.velocity, true);
         if (distToPlayer > 20 || currentAction.getDurationLeftMS() < 5000) {
@@ -279,7 +278,6 @@ public abstract class LandAndWaterAnimal extends ActionAnimal {
 
     private void followAction() {
         if (distToPlayer < 15 && playerHasAnimalFeed()) {
-            multiplayerProps.controlMode = true;
             if (getCurrentAction().getTimeSinceStartedMS() > 500
                     && distToPlayer > 4
                     && random.noise(4) > -0.5f) {

@@ -4,7 +4,7 @@ import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.server.block.BlockRegistry;
 import com.xbuilders.engine.server.Registrys;
 import com.xbuilders.engine.server.block.Block;
-import com.xbuilders.engine.common.utils.BFS.ChunkNode;
+import com.xbuilders.utils.BFS.ChunkNode;
 import com.xbuilders.engine.common.math.MathUtils;
 import com.xbuilders.engine.common.world.chunk.Chunk;
 import com.xbuilders.engine.common.world.wcc.WCCi;

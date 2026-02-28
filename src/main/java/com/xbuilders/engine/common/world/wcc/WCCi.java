@@ -3,7 +3,7 @@
 // 
 package com.xbuilders.engine.common.world.wcc;
 
-import com.xbuilders.engine.common.utils.MiscUtils;
+import com.xbuilders.utils.MiscUtils;
 
 import static com.xbuilders.engine.common.math.MathUtils.positiveMod;
 

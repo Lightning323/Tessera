@@ -6,6 +6,7 @@ package com.xbuilders.engine.common.players;
 
 import com.xbuilders.Main;
 import com.xbuilders.engine.client.Client;
+import com.xbuilders.engine.client.skin.Skin;
 import com.xbuilders.engine.common.network.ChannelBase;
 import com.xbuilders.engine.common.worldInteraction.collision.EntityAABB;
 import org.joml.Matrix4f;

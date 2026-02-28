@@ -8,13 +8,12 @@ import com.xbuilders.engine.client.ClientWindow;
 import com.xbuilders.engine.server.Registrys;
 import com.xbuilders.engine.common.players.PositionLock;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.entity.EntityMesh;
-import com.xbuilders.engine.common.utils.LoggingUtils;
 import com.xbuilders.engine.common.math.MathUtils;
 import com.xbuilders.engine.common.math.RandomUtils;
 import com.xbuilders.content.vanilla.entities.animal.LegPair;
 import com.xbuilders.content.vanilla.entities.animal.mobile.AnimalAction;
 import com.xbuilders.content.vanilla.entities.animal.mobile.LandAnimal;
-import com.xbuilders.engine.common.resource.ResourceLister;
+import com.xbuilders.utils.resource.ResourceLister;
 import com.xbuilders.window.utils.obj.OBJLoader;
 import com.xbuilders.window.utils.texture.TextureUtils;
 
@@ -206,7 +205,6 @@ public abstract class QuadPedalLandAnimal extends LandAnimal {
                 currentAction = new AnimalAction(AnimalAction.ActionType.IDLE, 10 * 1000);
             }
         }
-        multiplayerProps.markStateChanged();
         return true;
     }
 }

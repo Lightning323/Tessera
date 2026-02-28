@@ -9,7 +9,7 @@ import com.xbuilders.engine.server.block.Block;
 import com.xbuilders.engine.common.players.localPlayer.raycasting.CursorRay;
 import com.xbuilders.engine.common.players.localPlayer.raycasting.Ray;
 import com.xbuilders.engine.common.players.localPlayer.raycasting.RayCasting;
-import com.xbuilders.engine.common.utils.MiscUtils;
+import com.xbuilders.utils.MiscUtils;
 import com.xbuilders.engine.common.math.MathUtils;
 import com.xbuilders.engine.common.world.chunk.BlockData;
 

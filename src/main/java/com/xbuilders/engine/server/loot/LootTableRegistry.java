@@ -1,7 +1,7 @@
 package com.xbuilders.engine.server.loot;
 
-import com.xbuilders.engine.common.resource.ResourceLister;
-import com.xbuilders.engine.common.resource.ResourceLoader;
+import com.xbuilders.utils.resource.ResourceLister;
+import com.xbuilders.utils.resource.ResourceLoader;
 
 import java.io.IOException;
 

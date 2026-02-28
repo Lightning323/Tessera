@@ -4,9 +4,9 @@
  */
 package com.xbuilders.engine.server.block;
 
-import com.xbuilders.engine.common.utils.FileUtils;
-import com.xbuilders.engine.common.resource.ResourceLister;
-import com.xbuilders.engine.common.resource.ResourceLoader;
+import com.xbuilders.utils.FileUtils;
+import com.xbuilders.utils.resource.ResourceLister;
+import com.xbuilders.utils.resource.ResourceLoader;
 import com.xbuilders.window.utils.texture.Texture;
 import com.xbuilders.window.utils.texture.TextureRequest;
 import com.xbuilders.window.utils.texture.TextureUtils;

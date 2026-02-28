@@ -6,7 +6,6 @@ import com.xbuilders.engine.server.block.Block;
 import com.xbuilders.engine.server.block.construction.BlockTexture;
 import com.xbuilders.engine.server.item.StorageSpace;
 import com.xbuilders.engine.common.world.chunk.BlockData;
-import com.xbuilders.engine.common.utils.LoggingUtils;
 import org.joml.Vector3f;
 
 import java.io.IOException;

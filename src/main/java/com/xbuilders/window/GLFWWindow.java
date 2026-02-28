@@ -488,7 +488,7 @@ public abstract class GLFWWindow {
         glfwWindowHint(GLFW.GLFW_OPENGL_DEBUG_CONTEXT, GLFW.GLFW_TRUE);
     }
 
-    static boolean enableDebugMessages = true;
+    static boolean enableDebugMessages = false;
 
     /**
      * @param enabled if we should print debug messages

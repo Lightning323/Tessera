@@ -63,7 +63,7 @@ public abstract class LivingEntity extends Entity {
     public static final String JSON_LIFETIME = "a_l";
 
     public boolean allowVoluntaryMovement() {
-        return !multiplayerProps.controlledByAnotherPlayer;
+        return false;
     }
 
     public long lastTimeFed;
@@ -178,7 +178,6 @@ public abstract class LivingEntity extends Entity {
     }
 
     public void setRotationYDeg(float rotationYDeg) {
-        multiplayerProps.markStateChanged();
         this.rotationYDeg = rotationYDeg;
     }
 
@@ -216,7 +215,6 @@ public abstract class LivingEntity extends Entity {
         worldPosition.add(vec.x, 0, vec.y);
         if (goForwardCallback != null) goForwardCallback.accept(amount);
         if (jump) jumpIfColliding(400, false);
-        multiplayerProps.markStateChanged();
     }
 
     private long lastJumpTime;

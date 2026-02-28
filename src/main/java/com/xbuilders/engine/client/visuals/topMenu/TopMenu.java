@@ -107,9 +107,6 @@ public class TopMenu {
         settings = new SettingsPage(window.ctx, window, () -> {
             goBack();
         });
-
-        VersionInfo versionInfo = new VersionInfo(window);
-        versionInfo.createUpdatePrompt(ClientWindow.popupMessage);
     }
 
 

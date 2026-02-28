@@ -5,7 +5,7 @@ import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.client.ClientWindow;
 import com.xbuilders.engine.common.threadPoolExecutor.PriorityExecutor.PriorityThreadPoolExecutor;
 import com.xbuilders.engine.common.threadPoolExecutor.PriorityExecutor.comparator.HighValueComparator;
-import com.xbuilders.engine.common.utils.BFS.ChunkNode;
+import com.xbuilders.utils.BFS.ChunkNode;
 import com.xbuilders.engine.server.Registrys;
 import com.xbuilders.engine.server.block.Block;
 import com.xbuilders.engine.server.block.BlockRegistry;

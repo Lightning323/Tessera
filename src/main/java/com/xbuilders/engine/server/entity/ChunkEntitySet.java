@@ -99,8 +99,6 @@ public class ChunkEntitySet {
                 if (chunkUpdatedMesh) {
                     e.hidden_entityOnChunkMeshChanged();
                 }
-                boolean hasMoved = e.updatePosition();
-                e.multiplayerProps.checkAndSendState();
                 if (!e.chunkPosition.chunk.equals(e.chunk.position)) { //Switch chunks
                     Chunk toChunk = world.getChunk(e.chunkPosition.chunk);
                     if (toChunk != null) {

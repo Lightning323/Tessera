@@ -3,9 +3,8 @@ package com.xbuilders.engine.server;
 import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.server.block.Block;
 import com.xbuilders.engine.server.item.Item;
-import com.xbuilders.engine.common.utils.LoggingUtils;
-import com.xbuilders.engine.common.resource.ResourceLister;
-import com.xbuilders.engine.common.resource.ResourceLoader;
+import com.xbuilders.utils.resource.ResourceLister;
+import com.xbuilders.utils.resource.ResourceLoader;
 import com.xbuilders.engine.common.json.JsonManager;
 
 import java.io.File;

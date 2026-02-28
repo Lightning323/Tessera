@@ -1,13 +1,10 @@
 package com.xbuilders.engine.client.settings;
 
-import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.client.visuals.topMenu.multiplayer.ServerEntry;
-import com.xbuilders.engine.common.utils.LoggingUtils;
 import com.xbuilders.engine.common.option.BoundedFloat;
 import com.xbuilders.engine.common.option.BoundedInt;
-import com.xbuilders.engine.common.resource.ResourceUtils;
+import com.xbuilders.utils.resource.ResourceUtils;
 import com.xbuilders.engine.common.world.ClientWorld;
-import com.xbuilders.engine.common.world.World;
 import com.xbuilders.engine.common.world.chunk.Chunk;
 
 import java.io.File;

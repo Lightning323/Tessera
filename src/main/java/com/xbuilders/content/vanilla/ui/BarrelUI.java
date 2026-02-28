@@ -4,7 +4,6 @@ import com.xbuilders.Main;
 import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.server.item.StorageSpace;
 import com.xbuilders.engine.client.visuals.gameScene.items.UI_ItemStackGrid;
-import com.xbuilders.engine.common.utils.LoggingUtils;
 import com.xbuilders.window.NKWindow;
 import org.joml.Vector3f;
 import org.lwjgl.nuklear.NkContext;

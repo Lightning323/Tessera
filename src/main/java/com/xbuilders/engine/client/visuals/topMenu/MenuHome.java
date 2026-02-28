@@ -9,7 +9,6 @@ package com.xbuilders.engine.client.visuals.topMenu;
  * License terms: https://www.lwjgl.org/license
  */
 
-import com.xbuilders.Main;
 import com.xbuilders.engine.client.ClientWindow;
 import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.client.visuals.Page;
@@ -50,11 +49,7 @@ public class MenuHome implements MenuPage {
         if (nk_begin(ctx, "Home", rect, NK_WINDOW_BORDER | NK_WINDOW_TITLE)) {
             nk_style_set_font(ctx, Theme.font_9);
             nk_layout_row_dynamic(ctx, 30, 1);
-            nk_label(ctx, "\n\n" + (
-                    Client.DEV_MODE ?
-                            "DEV MODE" :
-                            ("v" + Client.CLIENT_VERSION_STRING)
-            ) + "\n\n", NK_TEXT_CENTERED);
+            nk_label(ctx, "\n\n" + (Client.DEV_MODE ? "DEV MODE" : "") + "\n\n", NK_TEXT_CENTERED);
 
             nk_style_set_font(ctx, Theme.font_12);
             ctx.style().button().text_alignment(NK_TEXT_ALIGN_CENTERED | NK_TEXT_ALIGN_MIDDLE);
@@ -76,7 +71,7 @@ public class MenuHome implements MenuPage {
                 menu.setPage(Page.SETTINGS);
             }
             if (button(ctx, "QUIT")) {
-               window.dispose();
+                window.dispose();
             }
 
         }

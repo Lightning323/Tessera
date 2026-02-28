@@ -4,11 +4,9 @@
  */
 package com.xbuilders.engine.client.visuals.gameScene.rendering.chunk;
 
-import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.server.Registrys;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.chunk.meshers.bufferSet.vertexSet.CompactVertexSet;
-import com.xbuilders.engine.common.utils.LoggingUtils;
-import com.xbuilders.engine.common.resource.ResourceUtils;
+import com.xbuilders.utils.resource.ResourceUtils;
 import com.xbuilders.engine.common.math.MathUtils;
 import com.xbuilders.window.render.Shader;
 import org.joml.Vector3f;

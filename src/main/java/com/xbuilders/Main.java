@@ -4,12 +4,9 @@ import com.xbuilders.content.vanilla.XbuildersGame;
 import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.SkinRegistry;
 import com.xbuilders.engine.server.Server;
-import com.xbuilders.engine.common.utils.LoggingUtils;
-import com.xbuilders.engine.common.resource.ResourceLister;
+import com.xbuilders.utils.resource.ResourceLister;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.IOException;
 
 /**
  * The client contains everything ONLY on the client

@@ -13,7 +13,7 @@ import com.xbuilders.Main;
 import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.client.ClientWindow;
 import com.xbuilders.engine.common.players.localPlayer.LocalPlayer;
-import com.xbuilders.engine.common.players.Skin;
+import com.xbuilders.engine.client.skin.Skin;
 import com.xbuilders.engine.client.visuals.Page;
 import com.xbuilders.engine.client.visuals.Theme;
 import com.xbuilders.window.nuklear.components.TextBox;

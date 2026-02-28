@@ -134,10 +134,7 @@ public abstract class LandAnimal extends ActionAnimal {
 
 
     public void animal_move() {
-        multiplayerProps.controlMode = false;
-        if (freezeMode || multiplayerProps.controlledByAnotherPlayer) {
-            return;
-        }
+
         if (currentAction == null || currentAction.pastDuration()) {
             if (currentAction == null) {
                 currentAction = newRandomAction(null);
@@ -155,7 +152,6 @@ public abstract class LandAnimal extends ActionAnimal {
                     goForward(currentAction.velocity, jumpOverBlocks);
                     break;
                 case FOLLOW:
-                    multiplayerProps.controlMode = true;
                     setRotationYDeg((float) Math.toDegrees(getYDirectionToPlayer()) + random.noise(2f, -3, 3));
 
                     if (distToPlayer < 15 && playerHasAnimalFeed()) {
@@ -175,7 +171,6 @@ public abstract class LandAnimal extends ActionAnimal {
                     }
                     break;
                 case RUN_AWAY_DIE:
-                    multiplayerProps.controlMode = true;
                     setRotationYDeg((float) Math.toDegrees(getYDirectionToPlayer()) + 180 + random.noise(2f, -3, 3));
                     goForward(currentAction.velocity, true);
 

@@ -1,10 +1,8 @@
 package com.xbuilders.content.vanilla.blockTools;
 
-import com.xbuilders.engine.client.Client;
-import com.xbuilders.engine.common.utils.bytes.ByteUtils;
-import com.xbuilders.engine.common.utils.LoggingUtils;
-import com.xbuilders.engine.common.utils.FileDialog;
-import com.xbuilders.engine.common.resource.ResourceUtils;
+import com.xbuilders.utils.bytes.ByteUtils;
+import com.xbuilders.utils.FileDialog;
+import com.xbuilders.utils.resource.ResourceUtils;
 import com.xbuilders.engine.common.world.chunk.BlockData;
 import com.xbuilders.engine.common.world.chunk.ChunkVoxels;
 import org.joml.Vector3i;
@@ -15,8 +13,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import static com.xbuilders.Main.LOGGER;
 import static com.xbuilders.engine.common.world.chunk.saving.ChunkSavingLoadingUtils.BLOCK_DATA_MAX_BYTES;
-import static com.xbuilders.engine.common.utils.bytes.ByteUtils.bytesToShort;
-import static com.xbuilders.engine.common.utils.bytes.ByteUtils.shortToBytes;
+import static com.xbuilders.utils.bytes.ByteUtils.bytesToShort;
+import static com.xbuilders.utils.bytes.ByteUtils.shortToBytes;
 
 public class PrefabUtils {
 

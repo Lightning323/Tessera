@@ -1,7 +1,7 @@
 package com.xbuilders.engine.common.players.localPlayer.raycasting;
 
 import com.xbuilders.engine.server.entity.Entity;
-import com.xbuilders.engine.common.utils.MiscUtils;
+import com.xbuilders.utils.MiscUtils;
 import com.xbuilders.engine.common.math.AABB;
 
 import java.util.List;

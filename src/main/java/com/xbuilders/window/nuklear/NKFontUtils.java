@@ -1,7 +1,5 @@
 package com.xbuilders.window.nuklear;
 
-import com.xbuilders.Main;
-import com.xbuilders.engine.common.resource.ResourceUtils;
 import com.xbuilders.window.utils.texture.TextureUtils;
 import org.lwjgl.nuklear.NkUserFont;
 import org.lwjgl.nuklear.NkUserFontGlyph;

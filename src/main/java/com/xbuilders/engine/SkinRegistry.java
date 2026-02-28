@@ -1,7 +1,7 @@
 package com.xbuilders.engine;
 
 import com.xbuilders.content.vanilla.skins.FoxSkin;
-import com.xbuilders.engine.common.players.SkinSupplier;
+import com.xbuilders.engine.client.skin.SkinSupplier;
 
 import java.util.HashMap;
 

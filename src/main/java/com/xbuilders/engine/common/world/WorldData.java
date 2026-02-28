@@ -20,7 +20,7 @@ import java.time.format.DateTimeFormatter;
 
 import org.joml.Vector3i;
 
-import static com.xbuilders.engine.common.utils.MiscUtils.formatTime;
+import static com.xbuilders.utils.MiscUtils.formatTime;
 
 public class WorldData {
 

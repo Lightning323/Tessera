@@ -5,8 +5,8 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.xbuilders.engine.client.visuals.RecipeDisplay;
 import com.xbuilders.engine.server.item.Item;
-import com.xbuilders.engine.common.resource.ResourceLister;
-import com.xbuilders.engine.common.resource.ResourceLoader;
+import com.xbuilders.utils.resource.ResourceLister;
+import com.xbuilders.utils.resource.ResourceLoader;
 
 import java.io.File;
 import java.io.IOException;
