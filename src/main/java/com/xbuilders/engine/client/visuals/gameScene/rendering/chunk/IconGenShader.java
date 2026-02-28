@@ -5,12 +5,10 @@
 package com.xbuilders.engine.client.visuals.gameScene.rendering.chunk;
 
 import com.xbuilders.engine.client.visuals.gameScene.rendering.chunk.meshers.bufferSet.vertexSet.CompactVertexSet;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.window.render.Shader;
-
 import java.io.IOException;
-
-import static com.xbuilders.engine.client.visuals.gameScene.rendering.chunk.ChunkShader.CHUNK_SHADER_DIR;
+import static com.xbuilders.utils.resource.PathHandler.CHUNK_SHADER_DIR;
 
 /**
  * @author zipCoder933
@@ -21,8 +19,8 @@ public class IconGenShader extends Shader {
 
     public IconGenShader(int textureLayers) throws IOException {
         init(
-                ResourceUtils.localFile(CHUNK_SHADER_DIR+"/vertex.glsl"),
-                ResourceUtils.localFile(CHUNK_SHADER_DIR+"/frag_icon.glsl"));
+                PathHandler.resourcePath(CHUNK_SHADER_DIR+"/vertex.glsl"),
+                PathHandler.resourcePath(CHUNK_SHADER_DIR+"/frag_icon.glsl"));
         mvpUniform = getUniformLocation("MVP");
         maxMult12bitsUniform = getUniformLocation("maxMult12bits");
         maxMult10bitsUniform = getUniformLocation("maxMult10bits");

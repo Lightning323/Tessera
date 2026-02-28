@@ -4,7 +4,7 @@
  */
 package com.xbuilders.utils;
 
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 
 import javax.swing.*;
 import java.text.DateFormat;
@@ -76,7 +76,7 @@ public class LoggingUtils {
 //        parent.setSize(380, 240);
 //    }
 
-    private final static ImageIcon popupWindowIcon = new ImageIcon(ResourceUtils.resourceFile("logo.png").getAbsolutePath());
+    private final static ImageIcon popupWindowIcon = new ImageIcon(PathHandler.resourcePath("logo.png").getAbsolutePath());
     private static final DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH_mm_ss");
 
     public static String getFileDate() {

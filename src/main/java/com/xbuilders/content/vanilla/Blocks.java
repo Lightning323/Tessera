@@ -8,7 +8,7 @@ import com.xbuilders.engine.server.builtinMechanics.gravityBlock.GravityBlock;
 import com.xbuilders.engine.server.ItemUtils;
 import com.xbuilders.engine.server.Registrys;
 import com.xbuilders.engine.server.block.Block;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.content.vanilla.blocks.*;
 import com.xbuilders.content.vanilla.blocks.blocks.trees.*;
 
@@ -1052,7 +1052,7 @@ public class Blocks {
 
         if (Client.DEV_MODE) {//Make ids for dev mode
             try {
-                ItemUtils.block_makeClassJavaFiles(blockList, ResourceUtils.resourceFile("\\items\\blocks\\java"));
+                ItemUtils.block_makeClassJavaFiles(blockList, PathHandler.resourcePath("\\items\\blocks\\java"));
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

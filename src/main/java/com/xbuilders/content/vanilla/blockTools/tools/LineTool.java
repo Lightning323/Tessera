@@ -5,7 +5,7 @@ import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.server.block.BlockRegistry;
 import com.xbuilders.engine.server.block.Block;
 import com.xbuilders.engine.common.players.localPlayer.raycasting.CursorRay;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.engine.common.math.AABB;
 import com.xbuilders.engine.common.math.MathUtils;
 import com.xbuilders.content.vanilla.blockTools.BlockTool;
@@ -34,7 +34,7 @@ public class LineTool extends BlockTool {
     public LineTool(BlockTools tools, CursorRay cursorRay) {
         super("Line", tools, cursorRay);
         try {
-            setIcon(ResourceUtils.resourceFile("blockTools\\line.png"));
+            setIcon(PathHandler.resourcePath("blockTools\\line.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

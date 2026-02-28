@@ -3,7 +3,7 @@ package com.xbuilders.engine.client.visuals.skybox;
 import com.xbuilders.engine.client.ClientWindow;
 import com.xbuilders.engine.common.world.ClientWorld;
 import com.xbuilders.engine.server.entity.Entity;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import org.joml.Matrix4f;
 import org.joml.Vector3f;
 import org.lwjgl.opengl.GL30;
@@ -30,9 +30,9 @@ public class SkyBackground {
         skyBoxMesh = new SkyBoxMesh();
         this.world = world;
         this.mainWindow = mainWindow;
-        skyBoxMesh.loadFromOBJ(ResourceUtils.resourceFile("weather\\skybox.obj"));
+        skyBoxMesh.loadFromOBJ(PathHandler.resourcePath("weather\\skybox.obj"));
 
-        File texture = ResourceUtils.resourceFile("weather\\skybox.png");
+        File texture = PathHandler.resourcePath("weather\\skybox.png");
         skyBoxMesh.setTexture(texture);
         skyImage = ImageIO.read(texture);
         skyBoxShader = new SkyBoxShader();

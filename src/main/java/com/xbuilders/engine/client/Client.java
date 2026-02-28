@@ -12,7 +12,7 @@ import com.xbuilders.engine.common.network.ClientBase;
 import com.xbuilders.engine.common.network.fake.FakeClient;
 import com.xbuilders.engine.common.network.fake.FakeServer;
 import com.xbuilders.engine.common.progress.ProgressData;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.engine.common.world.*;
 import com.xbuilders.engine.common.world.chunk.Chunk;
 import com.xbuilders.engine.server.Game;
@@ -80,7 +80,7 @@ public class Client {
                 Client.LOAD_WORLD_ON_STARTUP = true;
             }
         }
-        ResourceUtils.initialize(DEV_MODE, appDataDir);
+        PathHandler.initialize(appDataDir);
 
         /**
          * Testers

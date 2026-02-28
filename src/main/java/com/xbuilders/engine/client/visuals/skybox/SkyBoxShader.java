@@ -4,7 +4,7 @@
  */
 package com.xbuilders.engine.client.visuals.skybox;
 
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.window.render.MVP;
 import com.xbuilders.window.render.Shader;
 import org.joml.Matrix4f;
@@ -28,8 +28,8 @@ import static com.xbuilders.Main.LOGGER;
     public SkyBoxShader() {
         try {
             init(
-                    ResourceUtils.localFile("/res/shaders/skybox/sky_shader.vs"),
-                    ResourceUtils.localFile("/res/shaders/skybox/sky_shader.fs"));
+                    PathHandler.resourcePath("/shaders/skybox/sky_shader.vs"),
+                    PathHandler.resourcePath("/shaders/skybox/sky_shader.fs"));
         } catch (IOException e) {
             LOGGER.info("error", e);
         }

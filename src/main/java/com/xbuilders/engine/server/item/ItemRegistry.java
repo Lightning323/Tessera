@@ -8,7 +8,7 @@ import com.xbuilders.engine.server.block.Block;
 import com.xbuilders.engine.server.block.BlockArrayTexture;
 import com.xbuilders.engine.server.entity.EntitySupplier;
 import com.xbuilders.utils.IntMap;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 
 import java.util.HashMap;
 import java.util.List;
@@ -77,7 +77,7 @@ public class ItemRegistry {
                     item.initializationCallback.accept(item);
                 }
                 item.init(blockMap, entityMap, blockAliasToIDMap, entityAliasToIDMap,
-                        textures, ResourceUtils.BLOCK_ICON_DIR, defaultIcon);
+                        textures, PathHandler.BLOCK_ICON_DIR, defaultIcon);
             } catch (Exception e) {
                 LOGGER.info( "An error occured setting up item \"" + item.toString() + "\"", e);
             }

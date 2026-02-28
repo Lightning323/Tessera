@@ -2,7 +2,7 @@ package com.xbuilders.content.vanilla.blockTools;
 
 import com.xbuilders.utils.bytes.ByteUtils;
 import com.xbuilders.utils.FileDialog;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.engine.common.world.chunk.BlockData;
 import com.xbuilders.engine.common.world.chunk.ChunkVoxels;
 import org.joml.Vector3i;
@@ -123,7 +123,7 @@ public class PrefabUtils {
 
     public static ChunkVoxels loadPrefabFromFileDialog() {
         File outFile = FileDialog.fileDialog((fd) -> {
-            File prefabFolder = ResourceUtils.appDataFile("prefabs");
+            File prefabFolder = PathHandler.appDataPath("prefabs");
             if (!prefabFolder.exists()) {
                 prefabFolder.mkdirs();
             }
@@ -152,7 +152,7 @@ public class PrefabUtils {
 
     public static void savePrefabToFileDialog(ChunkVoxels data) {
         FileDialog.fileDialog((fd) -> {
-            File prefabFolder = ResourceUtils.appDataFile("prefabs");
+            File prefabFolder = PathHandler.appDataPath("prefabs");
             if (!prefabFolder.exists()) {
                 prefabFolder.mkdirs();
             }

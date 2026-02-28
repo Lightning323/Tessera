@@ -3,7 +3,7 @@ package com.xbuilders.engine.common.world;
 import com.xbuilders.Main;
 import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.client.ClientWindow;
-import com.xbuilders.engine.client.settings.ClientSettings;
+import com.xbuilders.engine.client.ClientSettings;
 import com.xbuilders.engine.client.visuals.gameScene.GameScene;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.chunk.ChunkShader;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.chunk.mesh.CompactOcclusionMesh;

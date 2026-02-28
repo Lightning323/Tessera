@@ -11,7 +11,7 @@ package com.xbuilders.engine.client.visuals.topMenu;
 
 import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.client.ClientWindow;
-import com.xbuilders.engine.client.settings.ClientSettings;
+import com.xbuilders.engine.client.ClientSettings;
 import com.xbuilders.engine.client.visuals.Page;
 import com.xbuilders.engine.client.visuals.Theme;
 import com.xbuilders.engine.common.option.NuklearField;

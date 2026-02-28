@@ -1,7 +1,7 @@
 package com.xbuilders.engine.client.visuals.gameScene.rendering.entity;
 
 import com.xbuilders.engine.server.Registrys;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 
 import java.io.IOException;
 
@@ -22,8 +22,8 @@ public class EntityShader_ArrayTexture extends EntityShader {
     public void loadShader() {
         try {
             init(
-                    ResourceUtils.localFile("/res/shaders/entityShader/array texture.vs"),
-                    ResourceUtils.localFile("/res/shaders/entityShader/array texture.fs"));
+                    PathHandler.resourcePath("/shaders/entityShader/array texture.vs"),
+                    PathHandler.resourcePath("/shaders/entityShader/array texture.fs"));
         } catch (IOException e) {
             LOGGER.info("error", e);
         }

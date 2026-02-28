@@ -5,7 +5,7 @@ import com.xbuilders.engine.client.Client;
 import com.xbuilders.engine.server.block.BlockRegistry;
 import com.xbuilders.engine.server.block.Block;
 import com.xbuilders.engine.common.players.localPlayer.raycasting.CursorRay;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.engine.common.math.AABB;
 import com.xbuilders.engine.common.world.chunk.Chunk;
 import com.xbuilders.engine.common.world.wcc.WCCi;
@@ -20,7 +20,7 @@ public class BoundaryTool extends BlockTool {
     public BoundaryTool(BlockTools tools, CursorRay cursorRay) {
         super("Boundary", tools, cursorRay);
         try {
-            setIcon(ResourceUtils.resourceFile("blockTools\\boundary.png"));
+            setIcon(PathHandler.resourcePath("blockTools\\boundary.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

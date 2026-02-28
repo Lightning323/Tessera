@@ -11,7 +11,7 @@ import com.xbuilders.engine.client.visuals.Theme;
 import com.xbuilders.engine.client.visuals.topMenu.SettingsPage;
 import com.xbuilders.engine.common.world.ClientWorld;
 import com.xbuilders.engine.server.GameMode;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.window.nuklear.components.NumberBox;
 import org.joml.Vector3f;
 import org.lwjgl.glfw.GLFW;
@@ -106,7 +106,7 @@ public class GameMenu extends UI_GameMenu {
 
     private void openHelpPage() {
         Main.getClient().pauseGame();
-        File helpHtmlPage = ResourceUtils.resourceFile("help-menu/help.html");
+        File helpHtmlPage = PathHandler.resourcePath("help-menu/help.html");
         if (helpHtmlPage.exists()) {
             try {
                 Desktop.getDesktop().open(helpHtmlPage);

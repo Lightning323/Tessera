@@ -4,7 +4,7 @@
 package com.xbuilders.engine.common.world;
 
 import com.xbuilders.utils.FileUtils;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,7 +15,7 @@ import static com.xbuilders.Main.LOGGER;
 public class WorldsHandler {
 
     public static File worldFile(String name) {
-        return new File(ResourceUtils.WORLDS_DIR, formatWorldName(name));
+        return new File(PathHandler.SAVES_DIR, formatWorldName(name));
     }
 
     public static final void makeNewWorld(final WorldData info) throws IOException {
@@ -40,7 +40,7 @@ public class WorldsHandler {
 
     public static ArrayList<WorldData> listWorlds(ArrayList<WorldData> worlds) throws IOException {
         worlds.clear();
-        File[] entries = ResourceUtils.WORLDS_DIR.listFiles();
+        File[] entries = PathHandler.SAVES_DIR.listFiles();
         if (entries == null) return worlds;
 
         for (final File subDir : entries) {

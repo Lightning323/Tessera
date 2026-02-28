@@ -14,7 +14,7 @@ import com.xbuilders.engine.server.block.BlockRegistry;
 import com.xbuilders.engine.server.entity.Entity;
 import com.xbuilders.engine.common.world.chunk.BlockData;
 import com.xbuilders.engine.common.world.chunk.ChunkVoxels;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.window.render.MVP;
 import org.joml.Matrix4f;
 import org.joml.Vector3i;
@@ -37,7 +37,7 @@ public class PasteTool extends BlockTool {
         super("Paste", tools, cursorRay);
         hasOptions = true;
         try {
-            setIcon(ResourceUtils.resourceFile("blockTools\\paste.png"));
+            setIcon(PathHandler.resourcePath("blockTools\\paste.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -47,7 +47,7 @@ public class PasteTool extends BlockTool {
     public void drawOptionsUI(MemoryStack stack, NkContext ctx, NkRect windowSize) {
         nk_layout_row_dynamic(ctx, 30, 2);
         if (Nuklear.nk_button_label(ctx, "Load Prefab")) {
-            Main.getClient().window.gameScene.ui.fileDialog.show(ResourceUtils.appDataFile("prefabs"),
+            Main.getClient().window.gameScene.ui.fileDialog.show(PathHandler.appDataPath("prefabs"),
                     false, "xbprefab", (file) -> {
                         System.out.println("LOADING " + file.getAbsolutePath());
                         try {

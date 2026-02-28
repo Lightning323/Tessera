@@ -4,7 +4,7 @@
  */
 package com.xbuilders.engine.client.visuals.gameScene.rendering.entity;
 
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.window.render.MVP;
 import com.xbuilders.window.render.Shader;
 import org.joml.Matrix4f;
@@ -44,8 +44,8 @@ public class EntityShader extends Shader {
     public void loadShader() {
         try {
             init(
-                    ResourceUtils.localFile("/res/shaders/entityShader/default.vs"),
-                    ResourceUtils.localFile("/res/shaders/entityShader/default.fs"));
+                    PathHandler.resourcePath("/shaders/entityShader/default.vs"),
+                    PathHandler.resourcePath("/shaders/entityShader/default.fs"));
         } catch (IOException e) {
             LOGGER.info("error", e);
         }

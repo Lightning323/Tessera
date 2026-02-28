@@ -7,7 +7,7 @@ package com.xbuilders.engine.client.visuals;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.window.nuklear.NKFontUtils;
 import org.joml.Vector2i;
 import org.lwjgl.nuklear.*;
@@ -43,7 +43,7 @@ public class Theme {
 
 
     public static void initialize(NkContext context) throws IOException {
-        String path2 = ResourceUtils.resourceFile("\\fonts\\Press_Start_2P\\PressStart2P-Regular.ttf").getAbsolutePath();
+        String path2 = PathHandler.resourcePath("\\fonts\\Press_Start_2P\\PressStart2P-Regular.ttf").getAbsolutePath();
      System.out.println(path2);
         fontBuffer = NKFontUtils.loadFontData(path2);
         initFonts(context);

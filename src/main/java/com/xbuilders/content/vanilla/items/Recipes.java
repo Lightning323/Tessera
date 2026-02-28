@@ -6,7 +6,7 @@ import com.xbuilders.engine.server.block.BlockRegistry;
 import com.xbuilders.engine.server.item.Item;
 import com.xbuilders.engine.server.recipes.crafting.CraftingRecipe;
 import com.xbuilders.engine.server.recipes.crafting.CraftingRecipeRegistry;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.content.vanilla.blocks.RenderType;
 
 import java.io.IOException;
@@ -94,7 +94,7 @@ public class Recipes {
                 }
             }
         }
-        dyed.writeToFile(ResourceUtils.resourceFile("items/recipes/crafting/dyed.json"));
+        dyed.writeToFile(PathHandler.resourcePath("items/recipes/crafting/dyed.json"));
         System.out.println("Done synthesizing");
     }
 
@@ -192,8 +192,8 @@ public class Recipes {
             }
         }
         System.out.println("Writing recipes...");
-        variants.writeToFile(ResourceUtils.resourceFile("items/recipes/crafting/variants.json"));
-        doorsTrapdoors.writeToFile(ResourceUtils.resourceFile("items/recipes/crafting/doors.json"));
+        variants.writeToFile(PathHandler.resourcePath("items/recipes/crafting/variants.json"));
+        doorsTrapdoors.writeToFile(PathHandler.resourcePath("items/recipes/crafting/doors.json"));
         System.out.println("Done synthesizing");
     }
 

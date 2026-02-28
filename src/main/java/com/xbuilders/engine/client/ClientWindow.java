@@ -5,13 +5,12 @@
 package com.xbuilders.engine.client;
 
 import com.xbuilders.Main;
-import com.xbuilders.engine.client.settings.ClientSettings;
 import com.xbuilders.engine.client.visuals.Theme;
 import com.xbuilders.engine.client.visuals.gameScene.GameScene;
 import com.xbuilders.engine.client.visuals.topMenu.PopupMessage;
 import com.xbuilders.engine.client.visuals.topMenu.TopMenu;
 import com.xbuilders.utils.resource.ResourceLoader;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.engine.common.world.ClientWorld;
 import com.xbuilders.engine.server.Game;
 import com.xbuilders.engine.server.Registrys;
@@ -203,7 +202,7 @@ public class ClientWindow extends NKWindow {
     private void endScreenshot() {
         if (screenShotInitialized) {
             String formattedDateTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH-mm-ss"));
-            File saveFile = ResourceUtils.appDataFile("screenshots\\" + formattedDateTime + ".png");
+            File saveFile = PathHandler.appDataPath("screenshots\\" + formattedDateTime + ".png");
             Main.getClient().consoleOut("Screenshot saved to: " + saveFile.getAbsolutePath());
             try {
                 saveFile.getParentFile().mkdirs();

@@ -4,14 +4,14 @@
  */
 package com.xbuilders.engine.server.block;
 
-import com.xbuilders.engine.client.settings.ClientSettings;
+import com.xbuilders.engine.client.ClientSettings;
 import com.xbuilders.engine.server.Registrys;
 import com.xbuilders.engine.server.block.construction.BlockType;
 import com.xbuilders.engine.server.block.construction.DefaultBlockType;
 import com.xbuilders.engine.server.builtinMechanics.liquid.LiquidBlockType;
 import com.xbuilders.engine.server.item.blockIconRendering.BlockIconRenderer;
 import com.xbuilders.utils.IntMap;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 
 import java.io.File;
 import java.io.IOException;
@@ -110,7 +110,7 @@ public class BlockRegistry {
         return highestId;
     }
 
-    public final File blockIconsDirectory = ResourceUtils.resourceFile("items\\blocks\\icons");
+    public final File blockIconsDirectory = PathHandler.resourcePath("items\\blocks\\icons");
 
     private void generateBlock3DIcons(Block[] blocks) {
         if (!blockIconsDirectory.exists()) {

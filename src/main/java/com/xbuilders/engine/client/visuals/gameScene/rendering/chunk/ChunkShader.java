@@ -6,7 +6,7 @@ package com.xbuilders.engine.client.visuals.gameScene.rendering.chunk;
 
 import com.xbuilders.engine.server.Registrys;
 import com.xbuilders.engine.client.visuals.gameScene.rendering.chunk.meshers.bufferSet.vertexSet.CompactVertexSet;
-import com.xbuilders.utils.resource.ResourceUtils;
+import com.xbuilders.utils.resource.PathHandler;
 import com.xbuilders.engine.common.math.MathUtils;
 import com.xbuilders.window.render.Shader;
 import org.joml.Vector3f;
@@ -17,13 +17,14 @@ import java.io.File;
 import java.io.IOException;
 
 import static com.xbuilders.Main.LOGGER;
+import static com.xbuilders.utils.resource.PathHandler.CHUNK_SHADER_DIR;
 
 /**
  * @author zipCoder933
  */
 public class ChunkShader extends Shader {
 
-    public static final String CHUNK_SHADER_DIR = "/res/shaders/chunkShader";
+    
 
     public final int mvpUniform;
 
@@ -56,16 +57,16 @@ public class ChunkShader extends Shader {
             File fragShader = null;
             switch (fragmentShader) {
                 case FRAG_MODE_CHUNK:
-                    fragShader = ResourceUtils.localFile(CHUNK_SHADER_DIR + "/frag.glsl");
+                    fragShader = PathHandler.resourcePath(CHUNK_SHADER_DIR + "/frag.glsl");
                     break;
                 case FRAG_MODE_DIRECT:
-                    fragShader = ResourceUtils.localFile(CHUNK_SHADER_DIR + "/frag_direct.glsl");
+                    fragShader = PathHandler.resourcePath(CHUNK_SHADER_DIR + "/frag_direct.glsl");
                     break;
                 case FRAG_MODE_TEST:
-                    fragShader = ResourceUtils.localFile(CHUNK_SHADER_DIR + "/frag_test.glsl");
+                    fragShader = PathHandler.resourcePath(CHUNK_SHADER_DIR + "/frag_test.glsl");
                     break;
             }
-            init(ResourceUtils.localFile(CHUNK_SHADER_DIR + "/vertex.glsl"),
+            init(PathHandler.resourcePath(CHUNK_SHADER_DIR + "/vertex.glsl"),
                     fragShader);
         } catch (IOException e) {
             LOGGER.info("error", e);

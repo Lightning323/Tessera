@@ -1,11 +1,9 @@
 package com.xbuilders.engine.server.commands;
 
-import com.xbuilders.Main;
-import com.xbuilders.engine.client.settings.ClientSettings;
+import com.xbuilders.engine.client.ClientSettings;
 import com.xbuilders.engine.common.players.Player;
 
 import java.util.Objects;
-import java.util.function.Function;
 
 public class Command {
     public final String commandName;
