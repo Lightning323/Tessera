@@ -12,7 +12,6 @@ import org.lwjgl.nuklear.NkRect;
 import org.lwjgl.system.MemoryStack;
 
 import java.io.IOException;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 import static org.lwjgl.nuklear.Nuklear.nk_layout_row_dynamic;
@@ -65,7 +64,7 @@ public class BarrelUI extends ContainerUI {
         try {
             return (barrelStorage.writeToJson());
         } catch (IOException e) {
-            LOGGER.log(Level.INFO, "Error",e);
+            LOGGER.info("Error", e);
             return new byte[0];
         }
     }

@@ -14,7 +14,6 @@ import com.xbuilders.engine.common.world.chunk.Chunk;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
 
 import org.lwjgl.system.MemoryStack;
 
@@ -142,7 +141,7 @@ public class ChunkMeshBundle {
 
             }
         } catch (Exception e) {
-            LOGGER.log(Level.INFO, "error", e);
+            LOGGER.info("error", e);
         }
     }
 

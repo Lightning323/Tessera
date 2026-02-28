@@ -10,7 +10,6 @@ import com.xbuilders.engine.common.utils.LoggingUtils;
 import org.joml.Vector3f;
 
 import java.io.IOException;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -39,7 +38,7 @@ public class BlockFlag extends Block {
                 Main.getServer().setBlockData(data, x, y, z);
                 Client.userPlayer.inventory.clear();
             } catch (IOException e) {
-                LOGGER.log(Level.INFO, "Error", e);
+                LOGGER.info("Error", e);
             }
         });
 
@@ -66,7 +65,7 @@ public class BlockFlag extends Block {
                     }
                 }
             } catch (IOException e) {
-                LOGGER.log(Level.INFO, "Error", e);
+                LOGGER.info("Error", e);
             }
         });
     }

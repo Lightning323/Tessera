@@ -9,7 +9,6 @@ import com.xbuilders.engine.common.resource.ResourceUtils;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -52,7 +51,7 @@ public class WorldsHandler {
                     info.load(subDir);
                     worlds.add(info);
                 } catch (IOException ex) {
-                    LOGGER.log(Level.WARNING, "World \"" + formatWorldName(subDir.getName()) + "\" could not be loaded", ex);
+                    LOGGER.warn( "World \"" + formatWorldName(subDir.getName()) + "\" could not be loaded", ex);
                 }
             }
         }

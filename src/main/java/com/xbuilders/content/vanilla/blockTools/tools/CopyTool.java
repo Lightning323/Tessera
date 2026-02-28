@@ -16,7 +16,6 @@ import org.lwjgl.nuklear.Nuklear;
 import org.lwjgl.system.MemoryStack;
 
 import java.io.IOException;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 import static org.lwjgl.nuklear.Nuklear.nk_layout_row_dynamic;
@@ -42,7 +41,7 @@ public class CopyTool extends BlockTool {
                         try {
                             PasteTool.clipboard = PrefabUtils.loadPrefabFromFile(file);
                         } catch (IOException e) {
-                            LOGGER.log(Level.INFO, "Error", e);
+                            LOGGER.info("Error", e);
                         }
                         System.out.println(PasteTool.clipboard.toString());
                         PasteTool.updateMesh();
@@ -55,7 +54,7 @@ public class CopyTool extends BlockTool {
                         try {
                             PrefabUtils.savePrefabToFile(PasteTool.clipboard, file);
                         } catch (IOException e) {
-                            LOGGER.log(Level.INFO, "Error", e);
+                            LOGGER.info("Error", e);
                         }
                     });
         }

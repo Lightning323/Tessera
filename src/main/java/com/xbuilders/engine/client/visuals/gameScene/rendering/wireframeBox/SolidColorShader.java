@@ -6,8 +6,6 @@ package com.xbuilders.engine.client.visuals.gameScene.rendering.wireframeBox;
 
 import com.xbuilders.window.render.Shader;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import org.joml.Vector4f;
 
@@ -43,7 +41,7 @@ public class SolidColorShader extends Shader {
             colorUnifrom = getUniformLocation("color");
             mvpUniform = getUniformLocation("MVP");
         } catch (IOException ex) {
-            Logger.getLogger(SolidColorShader.class.getName()).log(Level.SEVERE, null, ex);
+            com.xbuilders.Main.LOGGER.error("Unhandled exception in SolidColorShader", ex);
         }
     }
 

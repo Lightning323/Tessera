@@ -15,7 +15,6 @@ import java.io.File;
 import java.nio.file.Files;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -176,7 +175,7 @@ public class ObjToBlockModel {
             Files.writeString(outputFile.toPath(), str);
             System.out.println("\tSaved to: " + outputFile.toString());
         } catch (Exception ex) {
-            LOGGER.log(Level.INFO, "Error", ex);
+            LOGGER.info("Error", ex);
         }
     }
 

@@ -18,7 +18,6 @@ import org.lwjgl.system.MemoryStack;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 import static org.lwjgl.nuklear.Nuklear.*;
@@ -122,7 +121,7 @@ public class FurnaceUI extends ContainerUI {
             furnaceData.lastSmeltTime = System.currentTimeMillis();
             return true;
         } catch (Exception e) {
-            LOGGER.log(Level.INFO, "Error saving container data", e);
+            LOGGER.info("Error saving container data", e);
             return false;
         }
     }
@@ -185,7 +184,7 @@ public class FurnaceUI extends ContainerUI {
                 outputGrid.storageSpace.set(0, furnaceData.outputGrid);
 
             } catch (IOException e) {
-                LOGGER.log(Level.INFO, "Error reading container data", e);
+                LOGGER.info("Error reading container data", e);
             }
         } else {
             furnaceData = new FurnaceData();
@@ -205,7 +204,7 @@ public class FurnaceUI extends ContainerUI {
 
             return baos.toByteArray();
         } catch (IOException e) {
-            LOGGER.log(Level.INFO, "Error saving container data", e);
+            LOGGER.info("Error saving container data", e);
             return new byte[0];
         }
     }

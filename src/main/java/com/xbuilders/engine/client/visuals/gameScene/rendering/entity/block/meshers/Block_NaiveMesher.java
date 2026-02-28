@@ -17,7 +17,6 @@ import com.xbuilders.engine.common.world.chunk.ChunkVoxels;
 import org.joml.Vector3i;
 import org.lwjgl.system.MemoryStack;
 
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -110,7 +109,7 @@ public class Block_NaiveMesher extends BlockMesher {
                                 type.constructBlock(transparentBuffers, block, blockData, neighbors, neighborData, light, null, x, y, z, false);
                             }
                         } catch (Exception e) {
-                            LOGGER.log(Level.INFO,"error", e);
+                            LOGGER.info("error", e);
                         }
                     }
                 }

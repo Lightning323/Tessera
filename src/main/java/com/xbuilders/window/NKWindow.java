@@ -14,8 +14,6 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.DoubleBuffer;
 import java.util.Objects;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.nuklear.Nuklear.*;
@@ -69,7 +67,7 @@ public abstract class NKWindow extends GLFWWindow {
         try {
             setupContext();
         } catch (IOException ex) {
-            Logger.getLogger(NKWindow.class.getName()).log(Level.SEVERE, null, ex);
+            com.xbuilders.Main.LOGGER.error("Unhandled exception in NKWindow", ex);
         }
     }
 

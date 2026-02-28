@@ -16,7 +16,6 @@ import com.xbuilders.engine.common.world.chunk.BlockData;
 import java.awt.*;
 import java.lang.Math;
 import java.nio.IntBuffer;
-import java.util.logging.Level;
 
 import org.joml.*;
 import org.lwjgl.glfw.GLFW;
@@ -123,7 +122,7 @@ public class Camera {
         try {
             robot = new Robot();
         } catch (AWTException e) {
-            LOGGER.log(Level.INFO,"error", e);
+            LOGGER.info("error", e);
         }
 
         target = new Vector3f();

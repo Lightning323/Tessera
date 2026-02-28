@@ -37,7 +37,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 import static com.xbuilders.Main.versionStringToNumber;

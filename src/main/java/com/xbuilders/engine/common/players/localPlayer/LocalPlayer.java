@@ -37,7 +37,6 @@ import java.nio.file.Files;
 import java.util.HashSet;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Predicate;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 import static com.xbuilders.content.vanilla.Blocks.BLOCK_AIR;
@@ -433,7 +432,7 @@ public class LocalPlayer extends Player {
 
                 selectedItemIndex = 0;
             } catch (Exception e) {
-                LOGGER.log(Level.INFO,"error", e);
+                LOGGER.info("error", e);
             }
         }
     }

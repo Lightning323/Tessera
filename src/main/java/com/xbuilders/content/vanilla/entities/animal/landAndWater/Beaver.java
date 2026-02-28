@@ -18,7 +18,6 @@ import org.joml.Vector3f;
 
 import java.io.IOException;
 import java.util.Objects;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -73,7 +72,7 @@ public class Beaver extends LandAndWaterAnimal {
 
 
             } catch (IOException e) {
-                LOGGER.log(Level.INFO, "Error", e);
+                LOGGER.info("Error", e);
             }
         }
     }

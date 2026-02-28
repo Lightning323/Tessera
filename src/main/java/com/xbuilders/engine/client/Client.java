@@ -30,8 +30,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import static com.xbuilders.Main.LOGGER;
 import static com.xbuilders.Main.versionStringToNumber;
@@ -132,7 +130,7 @@ public class Client {
             });
         } else {
             prog.abort();
-            Logger.getLogger(Client.class.getName()).log(Level.WARNING, "Connection refused", cause);
+            com.xbuilders.Main.LOGGER.warn("Connection refused", cause);
         }
     }
 

@@ -9,8 +9,6 @@ import org.joml.Vector3i;
 
 import java.util.Objects;
 import java.util.concurrent.Future;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class Chunk {
 
@@ -140,7 +138,7 @@ public class Chunk {
         try {
             voxels.dispose();
         } catch (Exception ex) {
-            Logger.getLogger(Chunk.class.getName()).log(Level.SEVERE, null, ex);
+            com.xbuilders.Main.LOGGER.error("Unhandled exception in Chunk", ex);
         }
     }
 
@@ -181,6 +179,6 @@ public class Chunk {
     }
 
     public void log(String str) {
-        Main.LOGGER.log(Level.INFO, "CHUNK " + position.x + " " + position.y + " " + position.z + " \t" + str);
+        Main.LOGGER.info( "CHUNK " + position.x + " " + position.y + " " + position.z + " \t" + str);
     }
 }

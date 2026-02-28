@@ -20,8 +20,6 @@ import com.xbuilders.window.nuklear.NKUtils;
 import java.io.IOException;
 import java.nio.IntBuffer;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import org.lwjgl.nuklear.*;
 import org.lwjgl.system.MemoryStack;
@@ -67,7 +65,7 @@ public class LoadWorld implements MenuPage {
                 currentWorld = worlds.get(0);
             }
         } catch (IOException ex) {
-            Logger.getLogger(LoadWorld.class.getName()).log(Level.SEVERE, null, ex);
+            com.xbuilders.Main.LOGGER.error("Unhandled exception in LoadWorld", ex);
         }
     }
 
@@ -145,7 +143,7 @@ public class LoadWorld implements MenuPage {
             try {
                 WorldsHandler.listWorlds(worlds);
             } catch (IOException e) {
-                LOGGER.log(Level.INFO,"error",e);
+                LOGGER.info("error", e);
             }
             currentWorld = null;
 

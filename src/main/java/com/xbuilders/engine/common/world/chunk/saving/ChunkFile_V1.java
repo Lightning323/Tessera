@@ -8,7 +8,6 @@ import org.joml.Vector3f;
 
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 import static com.xbuilders.engine.common.utils.bytes.ByteUtils.bytesToInt;
@@ -106,7 +105,7 @@ public class ChunkFile_V1 {
             start.set(start.get() + length);
             return new BlockData(data);
         } catch (IndexOutOfBoundsException e) {
-            LOGGER.log(Level.INFO, "Error", e);
+            LOGGER.info("Error", e);
             return null; //Catch the error just to be safe
         }
     }
