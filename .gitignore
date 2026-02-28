@@ -12,3 +12,5 @@ error logs
 *.xml~
 *.log
 *.lck
+/out
+/data
