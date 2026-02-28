@@ -130,7 +130,7 @@ public class ClientWindow extends NKWindow {
          */
         int windowWidth = settings.internal_smallWindow ? 680 : 920;
         int windowHeight = settings.internal_smallWindow ? 600 : 720;
-        createWindow("XBuilders", windowWidth, windowHeight);
+        createWindow("tessera", windowWidth, windowHeight);
         GLFW.glfwSwapInterval(settings.video_vsync ? 1 : 0);
 
         //If a fullscreen window is created, we need to set the focus callback so that the user can exit fullscreen if they lose focus

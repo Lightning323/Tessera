@@ -1,12 +1,12 @@
 [
   {
-    "id": "xbuilders:flag_block",
+    "id": "tessera:flag_block",
     "name": "Flag Block",
-    "block": "xbuilders:flag_block"
+    "block": "tessera:flag_block"
   },
   {
-    "id": "xbuilders:spawn_block",
+    "id": "tessera:spawn_block",
     "name": "Spawn Block",
-    "block": "xbuilders:spawn_block"
+    "block": "tessera:spawn_block"
   }
 ]

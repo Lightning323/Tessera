@@ -1,6 +1,6 @@
 [
   {
-    "alias": "xbuilders:bedrock",
+    "alias": "tessera:bedrock",
     "id": 1,
     "texture": {
       "neg_y": "bedrock",
@@ -24,7 +24,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:birch_log",
+    "alias": "tessera:birch_log",
     "id": 2,
     "texture": {
       "neg_y": "birch log",
@@ -49,7 +49,7 @@
     }
   },
   {
-    "alias": "xbuilders:birch_leaves",
+    "alias": "tessera:birch_leaves",
     "id": 3,
     "texture": {
       "neg_y": "birch leaves",
@@ -73,7 +73,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brick",
+    "alias": "tessera:brick",
     "id": 4,
     "texture": {
       "neg_y": "brick",
@@ -96,7 +96,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:vines",
+    "alias": "tessera:vines",
     "id": 5,
     "texture": {
       "neg_y": "vines",
@@ -122,7 +122,7 @@
   },
 
   {
-    "alias": "xbuilders:glass",
+    "alias": "tessera:glass",
     "id": 8,
     "texture": {
       "neg_y": "glass",
@@ -146,7 +146,7 @@
   },
 
   {
-    "alias": "xbuilders:sandstone",
+    "alias": "tessera:sandstone",
     "id": 17,
     "texture": {
       "neg_y": "sandstone",
@@ -169,7 +169,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:andesite",
+    "alias": "tessera:andesite",
     "id": 18,
     "texture": {
       "neg_y": "andesite",
@@ -192,7 +192,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:stone_brick",
+    "alias": "tessera:stone_brick",
     "id": 19,
     "texture": {
       "neg_y": "stone brick",
@@ -215,7 +215,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:torch",
+    "alias": "tessera:torch",
     "id": 20,
     "texture": {
       "neg_y": "torch",
@@ -236,7 +236,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:water",
+    "alias": "tessera:water",
     "id": 21,
     "texture": {
       "neg_y": "water",
@@ -259,7 +259,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lava",
+    "alias": "tessera:lava",
     "id": 25,
     "texture": {
       "neg_y": "lava",
@@ -282,7 +282,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wool",
+    "alias": "tessera:wool",
     "id": 22,
     "texture": {
       "neg_y": "wool",
@@ -306,7 +306,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:snow_grass",
+    "alias": "tessera:snow_grass",
     "id": 23,
     "texture": {
       "neg_y": "snow",
@@ -330,7 +330,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:bookshelf",
+    "alias": "tessera:bookshelf",
     "id": 24,
     "texture": {
       "neg_y": "bookshelf",
@@ -353,7 +353,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:tall_dry_grass_top",
+    "alias": "tessera:tall_dry_grass_top",
     "id": 26,
     "texture": {
       "neg_y": "tall dry grass top",
@@ -374,7 +374,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cracked_stone",
+    "alias": "tessera:cracked_stone",
     "id": 27,
     "texture": {
       "neg_y": "cracked stone",
@@ -397,7 +397,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:stone_with_vines",
+    "alias": "tessera:stone_with_vines",
     "id": 28,
     "texture": {
       "neg_y": "stone with vines",
@@ -420,7 +420,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:tnt_active",
+    "alias": "tessera:tnt_active",
     "id": 29,
     "texture": {
       "neg_y": "tnt active",
@@ -443,7 +443,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:jungle_wood",
+    "alias": "tessera:jungle_wood",
     "id": 30,
     "texture": {
       "neg_y": "jungle planks",
@@ -468,7 +468,7 @@
     }
   },
   {
-    "alias": "xbuilders:jungle_wood_slab",
+    "alias": "tessera:jungle_wood_slab",
     "id": 31,
     "texture": {
       "neg_y": "jungle planks",
@@ -493,7 +493,7 @@
     }
   },
   {
-    "alias": "xbuilders:jungle_wood_stairs",
+    "alias": "tessera:jungle_wood_stairs",
     "id": 32,
     "texture": {
       "neg_y": "jungle planks",
@@ -518,7 +518,7 @@
     }
   },
   {
-    "alias": "xbuilders:honeycomb_block",
+    "alias": "tessera:honeycomb_block",
     "id": 33,
     "texture": {
       "neg_y": "honeycomb",
@@ -541,7 +541,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:mosaic_bamboo_wood",
+    "alias": "tessera:mosaic_bamboo_wood",
     "id": 34,
     "texture": {
       "neg_y": "mosaic bamboo wood",
@@ -566,7 +566,7 @@
     }
   },
   {
-    "alias": "xbuilders:music_box",
+    "alias": "tessera:music_box",
     "id": 35,
     "texture": {
       "neg_y": "music box",
@@ -589,7 +589,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cake",
+    "alias": "tessera:cake",
     "id": 36,
     "texture": {
       "neg_y": "cake",
@@ -612,7 +612,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:jungle_sapling",
+    "alias": "tessera:jungle_sapling",
     "id": 37,
     "texture": {
       "neg_y": "jungle sapling",
@@ -633,7 +633,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:obsidian",
+    "alias": "tessera:obsidian",
     "id": 38,
     "texture": {
       "neg_y": "obsidian",
@@ -656,7 +656,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:burgundy_brick",
+    "alias": "tessera:burgundy_brick",
     "id": 39,
     "texture": {
       "neg_y": "burgundy brick",
@@ -679,7 +679,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:sea_grass",
+    "alias": "tessera:sea_grass",
     "id": 253,
     "texture": {
       "neg_y": "sea grass",
@@ -702,7 +702,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:jungle_fence",
+    "alias": "tessera:jungle_fence",
     "id": 40,
     "texture": {
       "neg_y": "jungle planks",
@@ -727,7 +727,7 @@
     }
   },
   {
-    "alias": "xbuilders:red_flower",
+    "alias": "tessera:red_flower",
     "id": 41,
     "texture": {
       "neg_y": "red flower",
@@ -751,7 +751,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:tall_dry_grass",
+    "alias": "tessera:tall_dry_grass",
     "id": 42,
     "texture": {
       "neg_y": "tall dry grass",
@@ -774,7 +774,7 @@
     }
   },
   {
-    "alias": "xbuilders:red_candle",
+    "alias": "tessera:red_candle",
     "id": 43,
     "texture": {
       "neg_y": "red candle",
@@ -797,7 +797,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_flower",
+    "alias": "tessera:yellow_flower",
     "id": 44,
     "texture": {
       "neg_y": "yellow flower",
@@ -820,7 +820,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:coal_block",
+    "alias": "tessera:coal_block",
     "id": 46,
     "texture": {
       "neg_y": "coal",
@@ -845,7 +845,7 @@
     }
   },
   {
-    "alias": "xbuilders:jungle_leaves",
+    "alias": "tessera:jungle_leaves",
     "id": 47,
     "texture": {
       "neg_y": "jungle leaves",
@@ -871,7 +871,7 @@
     }
   },
   {
-    "alias": "xbuilders:jungle_log",
+    "alias": "tessera:jungle_log",
     "id": 48,
     "texture": {
       "neg_y": "jungle log",
@@ -896,7 +896,7 @@
     }
   },
   {
-    "alias": "xbuilders:tall_grass_top",
+    "alias": "tessera:tall_grass_top",
     "id": 49,
     "texture": {
       "neg_y": "tall grass top",
@@ -919,7 +919,7 @@
     }
   },
   {
-    "alias": "xbuilders:30_hp_engine",
+    "alias": "tessera:30_hp_engine",
     "id": 51,
     "texture": {
       "neg_y": "30 hp engine",
@@ -942,7 +942,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:beehive",
+    "alias": "tessera:beehive",
     "id": 52,
     "texture": {
       "neg_y": "beehive",
@@ -965,7 +965,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:diorite",
+    "alias": "tessera:diorite",
     "id": 53,
     "texture": {
       "neg_y": "diorite",
@@ -988,7 +988,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:polished_diorite",
+    "alias": "tessera:polished_diorite",
     "id": 54,
     "texture": {
       "neg_y": "polished diorite",
@@ -1011,7 +1011,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:polished_andesite",
+    "alias": "tessera:polished_andesite",
     "id": 56,
     "texture": {
       "neg_y": "polished andesite",
@@ -1034,7 +1034,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:spruce_wood",
+    "alias": "tessera:spruce_wood",
     "id": 57,
     "texture": {
       "neg_y": "spruce planks",
@@ -1059,7 +1059,7 @@
     }
   },
   {
-    "alias": "xbuilders:azure_bluet",
+    "alias": "tessera:azure_bluet",
     "id": 58,
     "texture": {
       "neg_y": "azure bluet",
@@ -1082,7 +1082,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dandelion",
+    "alias": "tessera:dandelion",
     "id": 59,
     "texture": {
       "neg_y": "dandelion",
@@ -1105,7 +1105,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_orchid",
+    "alias": "tessera:blue_orchid",
     "id": 60,
     "texture": {
       "neg_y": "blue orchid",
@@ -1128,7 +1128,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:fern",
+    "alias": "tessera:fern",
     "id": 61,
     "texture": {
       "neg_y": "fern",
@@ -1151,7 +1151,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:granite_brick",
+    "alias": "tessera:granite_brick",
     "id": 62,
     "texture": {
       "neg_y": "granite brick",
@@ -1174,7 +1174,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:acacia_wood",
+    "alias": "tessera:acacia_wood",
     "id": 63,
     "texture": {
       "neg_y": "acacia planks",
@@ -1200,7 +1200,7 @@
   },
 
   {
-    "alias": "xbuilders:clay",
+    "alias": "tessera:clay",
     "id": 65,
     "texture": {
       "neg_y": "clay",
@@ -1223,7 +1223,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_concrete",
+    "alias": "tessera:yellow_concrete",
     "id": 66,
     "texture": {
       "neg_y": "yellow concrete",
@@ -1246,7 +1246,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_glazed_teracotta",
+    "alias": "tessera:yellow_glazed_teracotta",
     "id": 67,
     "texture": {
       "neg_y": "yellow glazed teracotta",
@@ -1269,7 +1269,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_concrete",
+    "alias": "tessera:black_concrete",
     "id": 68,
     "texture": {
       "neg_y": "black concrete",
@@ -1292,7 +1292,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_glazed_teracotta",
+    "alias": "tessera:black_glazed_teracotta",
     "id": 69,
     "texture": {
       "neg_y": "black glazed teracotta",
@@ -1315,7 +1315,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_concrete",
+    "alias": "tessera:blue_concrete",
     "id": 70,
     "texture": {
       "neg_y": "blue concrete",
@@ -1338,7 +1338,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_glazed_teracotta",
+    "alias": "tessera:blue_glazed_teracotta",
     "id": 71,
     "texture": {
       "neg_y": "blue glazed teracotta",
@@ -1361,7 +1361,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_concrete",
+    "alias": "tessera:brown_concrete",
     "id": 72,
     "texture": {
       "neg_y": "brown concrete",
@@ -1384,7 +1384,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_glazed_teracotta",
+    "alias": "tessera:brown_glazed_teracotta",
     "id": 73,
     "texture": {
       "neg_y": "brown glazed teracotta",
@@ -1407,7 +1407,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_concrete",
+    "alias": "tessera:cyan_concrete",
     "id": 74,
     "texture": {
       "neg_y": "cyan concrete",
@@ -1430,7 +1430,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_glazed_teracotta",
+    "alias": "tessera:cyan_glazed_teracotta",
     "id": 75,
     "texture": {
       "neg_y": "cyan glazed teracotta",
@@ -1453,7 +1453,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_concrete",
+    "alias": "tessera:gray_concrete",
     "id": 76,
     "texture": {
       "neg_y": "gray concrete",
@@ -1476,7 +1476,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_glazed_teracotta",
+    "alias": "tessera:gray_glazed_teracotta",
     "id": 77,
     "texture": {
       "neg_y": "gray glazed teracotta",
@@ -1499,7 +1499,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_concrete",
+    "alias": "tessera:green_concrete",
     "id": 78,
     "texture": {
       "neg_y": "green concrete",
@@ -1522,7 +1522,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_glazed_teracotta",
+    "alias": "tessera:green_glazed_teracotta",
     "id": 79,
     "texture": {
       "neg_y": "green glazed teracotta",
@@ -1545,7 +1545,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_concrete",
+    "alias": "tessera:light_blue_concrete",
     "id": 80,
     "texture": {
       "neg_y": "light blue concrete",
@@ -1568,7 +1568,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_glazed_teracotta",
+    "alias": "tessera:light_blue_glazed_teracotta",
     "id": 81,
     "texture": {
       "neg_y": "light blue glazed teracotta",
@@ -1591,7 +1591,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_concrete",
+    "alias": "tessera:light_gray_concrete",
     "id": 82,
     "texture": {
       "neg_y": "light gray concrete",
@@ -1614,7 +1614,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_glazed_teracotta",
+    "alias": "tessera:light_gray_glazed_teracotta",
     "id": 83,
     "texture": {
       "neg_y": "light gray glazed teracotta",
@@ -1637,7 +1637,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_concrete",
+    "alias": "tessera:lime_concrete",
     "id": 84,
     "texture": {
       "neg_y": "lime concrete",
@@ -1660,7 +1660,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_glazed_teracotta",
+    "alias": "tessera:lime_glazed_teracotta",
     "id": 85,
     "texture": {
       "neg_y": "lime glazed teracotta",
@@ -1683,7 +1683,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_concrete",
+    "alias": "tessera:magenta_concrete",
     "id": 86,
     "texture": {
       "neg_y": "magenta concrete",
@@ -1706,7 +1706,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_glazed_teracotta",
+    "alias": "tessera:magenta_glazed_teracotta",
     "id": 87,
     "texture": {
       "neg_y": "magenta glazed teracotta",
@@ -1729,7 +1729,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_concrete",
+    "alias": "tessera:orange_concrete",
     "id": 88,
     "texture": {
       "neg_y": "orange concrete",
@@ -1752,7 +1752,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_glazed_teracotta",
+    "alias": "tessera:orange_glazed_teracotta",
     "id": 89,
     "texture": {
       "neg_y": "orange glazed teracotta",
@@ -1775,7 +1775,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_concrete",
+    "alias": "tessera:pink_concrete",
     "id": 90,
     "texture": {
       "neg_y": "pink concrete",
@@ -1798,7 +1798,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_glazed_teracotta",
+    "alias": "tessera:pink_glazed_teracotta",
     "id": 91,
     "texture": {
       "neg_y": "pink glazed teracotta",
@@ -1821,7 +1821,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_concrete",
+    "alias": "tessera:purple_concrete",
     "id": 92,
     "texture": {
       "neg_y": "purple concrete",
@@ -1844,7 +1844,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_glazed_teracotta",
+    "alias": "tessera:purple_glazed_teracotta",
     "id": 93,
     "texture": {
       "neg_y": "purple glazed teracotta",
@@ -1867,7 +1867,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_concrete",
+    "alias": "tessera:red_concrete",
     "id": 94,
     "texture": {
       "neg_y": "red concrete",
@@ -1890,7 +1890,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_glazed_teracotta",
+    "alias": "tessera:red_glazed_teracotta",
     "id": 95,
     "texture": {
       "neg_y": "red glazed teracotta",
@@ -1913,7 +1913,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_concrete",
+    "alias": "tessera:white_concrete",
     "id": 96,
     "texture": {
       "neg_y": "white concrete",
@@ -1936,7 +1936,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_glazed_teracotta",
+    "alias": "tessera:white_glazed_teracotta",
     "id": 97,
     "texture": {
       "neg_y": "white glazed teracotta",
@@ -1959,7 +1959,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brain_coral",
+    "alias": "tessera:brain_coral",
     "id": 98,
     "texture": {
       "neg_y": "brain coral fan",
@@ -1983,7 +1983,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:quartz_pillar_block",
+    "alias": "tessera:quartz_pillar_block",
     "id": 100,
     "texture": {
       "neg_y": "quartz",
@@ -2006,7 +2006,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cobblestone",
+    "alias": "tessera:cobblestone",
     "id": 101,
     "texture": {
       "neg_y": "cobblestone",
@@ -2029,7 +2029,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wool_turquoise",
+    "alias": "tessera:wool_turquoise",
     "id": 102,
     "texture": {
       "neg_y": "wool turquoise",
@@ -2053,7 +2053,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wool_orange",
+    "alias": "tessera:wool_orange",
     "id": 103,
     "texture": {
       "neg_y": "wool orange",
@@ -2077,7 +2077,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_sand",
+    "alias": "tessera:red_sand",
     "id": 104,
     "texture": {
       "neg_y": "red sand",
@@ -2101,7 +2101,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:55_hp_engine",
+    "alias": "tessera:55_hp_engine",
     "id": 106,
     "texture": {
       "neg_y": "30 hp engine",
@@ -2124,7 +2124,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:phantom_stone",
+    "alias": "tessera:phantom_stone",
     "id": 107,
     "texture": {
       "neg_y": "andesite",
@@ -2147,7 +2147,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:phantom_stone_brick",
+    "alias": "tessera:phantom_stone_brick",
     "id": 108,
     "texture": {
       "neg_y": "stone brick",
@@ -2170,7 +2170,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cactus",
+    "alias": "tessera:cactus",
     "id": 109,
     "texture": {
       "neg_y": "cactus",
@@ -2193,7 +2193,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_stone",
+    "alias": "tessera:palisade_stone",
     "id": 110,
     "texture": {
       "neg_y": "palisade stone",
@@ -2216,7 +2216,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_sandstone",
+    "alias": "tessera:red_sandstone",
     "id": 111,
     "texture": {
       "neg_y": "red sandstone",
@@ -2239,7 +2239,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:fire_coral_block",
+    "alias": "tessera:fire_coral_block",
     "id": 112,
     "texture": {
       "neg_y": "fire coral",
@@ -2263,7 +2263,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:candle",
+    "alias": "tessera:candle",
     "id": 113,
     "texture": {
       "neg_y": "candle",
@@ -2286,7 +2286,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_stone_2",
+    "alias": "tessera:palisade_stone_2",
     "id": 114,
     "texture": {
       "neg_y": "palisade stone 2",
@@ -2309,7 +2309,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:fire_coral",
+    "alias": "tessera:fire_coral",
     "id": 115,
     "texture": {
       "neg_y": "fire coral fan",
@@ -2331,7 +2331,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:tall_grass",
+    "alias": "tessera:tall_grass",
     "id": 116,
     "texture": {
       "neg_y": "tall grass",
@@ -2352,7 +2352,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:horn_coral_block",
+    "alias": "tessera:horn_coral_block",
     "id": 117,
     "texture": {
       "neg_y": "horn coral",
@@ -2376,7 +2376,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gold_block",
+    "alias": "tessera:gold_block",
     "id": 118,
     "texture": {
       "neg_y": "gold",
@@ -2399,7 +2399,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:horn_coral_fan",
+    "alias": "tessera:horn_coral_fan",
     "id": 119,
     "texture": {
       "neg_y": "horn coral fan",
@@ -2421,7 +2421,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:tnt",
+    "alias": "tessera:tnt",
     "id": 120,
     "texture": {
       "neg_y": "tnt",
@@ -2444,7 +2444,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:mini_cactus",
+    "alias": "tessera:mini_cactus",
     "id": 123,
     "texture": {
       "neg_y": "mini cactus",
@@ -2465,7 +2465,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:mushroom",
+    "alias": "tessera:mushroom",
     "id": 124,
     "texture": {
       "neg_y": "mushroom",
@@ -2486,7 +2486,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:mushroom_2",
+    "alias": "tessera:mushroom_2",
     "id": 125,
     "texture": {
       "neg_y": "mushroom 2",
@@ -2509,7 +2509,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:roses",
+    "alias": "tessera:roses",
     "id": 126,
     "texture": {
       "neg_y": "roses",
@@ -2532,7 +2532,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wool_purple",
+    "alias": "tessera:wool_purple",
     "id": 127,
     "texture": {
       "neg_y": "wool purple",
@@ -2556,7 +2556,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:birch_wood",
+    "alias": "tessera:birch_wood",
     "id": 128,
     "texture": {
       "neg_y": "bookshelf",
@@ -2581,7 +2581,7 @@
     }
   },
   {
-    "alias": "xbuilders:red_stained_wood",
+    "alias": "tessera:red_stained_wood",
     "id": 129,
     "texture": {
       "neg_y": "red stained wood",
@@ -2604,7 +2604,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:oak_wood",
+    "alias": "tessera:oak_wood",
     "id": 130,
     "texture": {
       "neg_y": "oak planks",
@@ -2629,7 +2629,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_red",
+    "alias": "tessera:wool_red",
     "id": 131,
     "texture": {
       "neg_y": "wool red",
@@ -2655,7 +2655,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_pink",
+    "alias": "tessera:wool_pink",
     "id": 132,
     "texture": {
       "neg_y": "wool pink",
@@ -2681,7 +2681,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_yellow",
+    "alias": "tessera:wool_yellow",
     "id": 133,
     "texture": {
       "neg_y": "wool yellow",
@@ -2707,7 +2707,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_brown",
+    "alias": "tessera:wool_brown",
     "id": 134,
     "texture": {
       "neg_y": "wool brown",
@@ -2733,7 +2733,7 @@
     }
   },
   {
-    "alias": "xbuilders:tube_coral_block",
+    "alias": "tessera:tube_coral_block",
     "id": 135,
     "texture": {
       "neg_y": "tube coral",
@@ -2757,7 +2757,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:tube_coral",
+    "alias": "tessera:tube_coral",
     "id": 136,
     "texture": {
       "neg_y": "tube coral fan",
@@ -2779,7 +2779,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:tube_coral_fan",
+    "alias": "tessera:tube_coral_fan",
     "id": 137,
     "texture": {
       "neg_y": "tube coral fan",
@@ -2801,7 +2801,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wool_deep_blue",
+    "alias": "tessera:wool_deep_blue",
     "id": 138,
     "texture": {
       "neg_y": "wool deep blue",
@@ -2827,7 +2827,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_sky_blue",
+    "alias": "tessera:wool_sky_blue",
     "id": 139,
     "texture": {
       "neg_y": "wool sky blue",
@@ -2853,7 +2853,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_dark_green",
+    "alias": "tessera:wool_dark_green",
     "id": 140,
     "texture": {
       "neg_y": "wool dark green",
@@ -2879,7 +2879,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_green",
+    "alias": "tessera:wool_green",
     "id": 141,
     "texture": {
       "neg_y": "wool green",
@@ -2905,7 +2905,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_gray",
+    "alias": "tessera:wool_gray",
     "id": 142,
     "texture": {
       "neg_y": "wool gray",
@@ -2931,7 +2931,7 @@
     }
   },
   {
-    "alias": "xbuilders:brain_coral_block",
+    "alias": "tessera:brain_coral_block",
     "id": 143,
     "texture": {
       "neg_y": "brain coral block",
@@ -2955,7 +2955,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:diamond_block",
+    "alias": "tessera:diamond_block",
     "id": 144,
     "texture": {
       "neg_y": "diamond",
@@ -2979,7 +2979,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:steel_block",
+    "alias": "tessera:steel_block",
     "id": 145,
     "texture": {
       "neg_y": "steel",
@@ -3003,7 +3003,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:honeycomb_block_stairs",
+    "alias": "tessera:honeycomb_block_stairs",
     "id": 147,
     "texture": {
       "neg_y": "honeycomb",
@@ -3026,7 +3026,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:oak_fence",
+    "alias": "tessera:oak_fence",
     "id": 148,
     "texture": {
       "neg_y": "oak planks",
@@ -3051,7 +3051,7 @@
     }
   },
   {
-    "alias": "xbuilders:birch_fence",
+    "alias": "tessera:birch_fence",
     "id": 149,
     "texture": {
       "neg_y": "bookshelf",
@@ -3076,7 +3076,7 @@
     }
   },
   {
-    "alias": "xbuilders:bubble_coral_block",
+    "alias": "tessera:bubble_coral_block",
     "id": 150,
     "texture": {
       "neg_y": "bubble coral",
@@ -3100,7 +3100,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:bubble_coral",
+    "alias": "tessera:bubble_coral",
     "id": 151,
     "texture": {
       "neg_y": "bubble coral fan",
@@ -3122,7 +3122,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:bubble_coral_fan",
+    "alias": "tessera:bubble_coral_fan",
     "id": 152,
     "texture": {
       "neg_y": "bubble coral fan",
@@ -3144,7 +3144,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:jungle_grass",
+    "alias": "tessera:jungle_grass",
     "id": 153,
     "texture": {
       "neg_y": "jungle grass",
@@ -3168,7 +3168,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lily_pad",
+    "alias": "tessera:lily_pad",
     "id": 154,
     "texture": {
       "neg_y": "lily pad",
@@ -3189,7 +3189,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wool_magenta",
+    "alias": "tessera:wool_magenta",
     "id": 156,
     "texture": {
       "neg_y": "wool magenta",
@@ -3214,7 +3214,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_black",
+    "alias": "tessera:wool_black",
     "id": 157,
     "texture": {
       "neg_y": "wool black",
@@ -3239,7 +3239,7 @@
     }
   },
   {
-    "alias": "xbuilders:granite_brick_stairs",
+    "alias": "tessera:granite_brick_stairs",
     "id": 158,
     "texture": {
       "neg_y": "granite brick",
@@ -3262,7 +3262,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cement",
+    "alias": "tessera:cement",
     "id": 159,
     "texture": {
       "neg_y": "cement",
@@ -3285,7 +3285,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:oak_sapling",
+    "alias": "tessera:oak_sapling",
     "id": 160,
     "texture": {
       "neg_y": "oak sapling",
@@ -3306,7 +3306,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:birch_sapling",
+    "alias": "tessera:birch_sapling",
     "id": 161,
     "texture": {
       "neg_y": "birch sapling",
@@ -3327,7 +3327,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:metal_grate",
+    "alias": "tessera:metal_grate",
     "id": 164,
     "texture": {
       "neg_y": "metal grate",
@@ -3350,7 +3350,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_palisade_sandstone",
+    "alias": "tessera:red_palisade_sandstone",
     "id": 175,
     "texture": {
       "neg_y": "red palisade sandstone",
@@ -3373,7 +3373,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:phantom_sandstone",
+    "alias": "tessera:phantom_sandstone",
     "id": 176,
     "texture": {
       "neg_y": "sandstone",
@@ -3396,7 +3396,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_sandstone",
+    "alias": "tessera:palisade_sandstone",
     "id": 177,
     "texture": {
       "neg_y": "palisade sandstone",
@@ -3419,7 +3419,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:glow_rock",
+    "alias": "tessera:glow_rock",
     "id": 178,
     "texture": {
       "neg_y": "glow rock",
@@ -3442,7 +3442,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_stained_glass",
+    "alias": "tessera:black_stained_glass",
     "id": 179,
     "texture": {
       "neg_y": "black stained glass",
@@ -3465,7 +3465,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_stained_glass",
+    "alias": "tessera:blue_stained_glass",
     "id": 180,
     "texture": {
       "neg_y": "blue stained glass",
@@ -3488,7 +3488,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_stained_glass",
+    "alias": "tessera:brown_stained_glass",
     "id": 181,
     "texture": {
       "neg_y": "brown stained glass",
@@ -3511,7 +3511,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_stained_glass",
+    "alias": "tessera:cyan_stained_glass",
     "id": 182,
     "texture": {
       "neg_y": "cyan stained glass",
@@ -3534,7 +3534,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_stained_glass",
+    "alias": "tessera:gray_stained_glass",
     "id": 183,
     "texture": {
       "neg_y": "gray stained glass",
@@ -3557,7 +3557,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_stained_glass",
+    "alias": "tessera:green_stained_glass",
     "id": 184,
     "texture": {
       "neg_y": "green stained glass",
@@ -3580,7 +3580,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_stained_glass",
+    "alias": "tessera:light_blue_stained_glass",
     "id": 185,
     "texture": {
       "neg_y": "light blue stained glass",
@@ -3603,7 +3603,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_stained_glass",
+    "alias": "tessera:light_gray_stained_glass",
     "id": 186,
     "texture": {
       "neg_y": "light gray stained glass",
@@ -3627,7 +3627,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_stained_glass",
+    "alias": "tessera:lime_stained_glass",
     "id": 187,
     "texture": {
       "neg_y": "lime stained glass",
@@ -3651,7 +3651,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_stained_glass",
+    "alias": "tessera:magenta_stained_glass",
     "id": 188,
     "texture": {
       "neg_y": "magenta stained glass",
@@ -3675,7 +3675,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_stained_glass",
+    "alias": "tessera:orange_stained_glass",
     "id": 189,
     "texture": {
       "neg_y": "orange stained glass",
@@ -3699,7 +3699,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_stained_glass",
+    "alias": "tessera:pink_stained_glass",
     "id": 190,
     "texture": {
       "neg_y": "pink stained glass",
@@ -3723,7 +3723,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_stained_glass",
+    "alias": "tessera:purple_stained_glass",
     "id": 191,
     "texture": {
       "neg_y": "purple stained glass",
@@ -3747,7 +3747,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_stained_glass",
+    "alias": "tessera:red_stained_glass",
     "id": 192,
     "texture": {
       "neg_y": "red stained glass",
@@ -3771,7 +3771,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_stained_glass",
+    "alias": "tessera:white_stained_glass",
     "id": 193,
     "texture": {
       "neg_y": "white stained glass",
@@ -3795,7 +3795,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_stained_glass",
+    "alias": "tessera:yellow_stained_glass",
     "id": 194,
     "texture": {
       "neg_y": "yellow stained glass",
@@ -3819,7 +3819,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dark_oak_fence",
+    "alias": "tessera:dark_oak_fence",
     "id": 195,
     "texture": {
       "neg_y": "spruce planks",
@@ -3842,7 +3842,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:birch_wood_stairs",
+    "alias": "tessera:birch_wood_stairs",
     "id": 196,
     "texture": {
       "neg_y": "bookshelf",
@@ -3865,7 +3865,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:oak_wood_stairs",
+    "alias": "tessera:oak_wood_stairs",
     "id": 197,
     "texture": {
       "neg_y": "oak planks",
@@ -3888,7 +3888,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dark_oak_wood_stairs",
+    "alias": "tessera:dark_oak_wood_stairs",
     "id": 198,
     "texture": {
       "neg_y": "spruce planks",
@@ -3911,7 +3911,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:honeycomb_block_slab",
+    "alias": "tessera:honeycomb_block_slab",
     "id": 199,
     "texture": {
       "neg_y": "honeycomb",
@@ -3934,7 +3934,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:jungle_grass_plant",
+    "alias": "tessera:jungle_grass_plant",
     "id": 200,
     "texture": {
       "neg_y": "jungle grass plant",
@@ -3955,7 +3955,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:prismarine_brick_stairs",
+    "alias": "tessera:prismarine_brick_stairs",
     "id": 201,
     "texture": {
       "neg_y": "prismarine brick",
@@ -3978,7 +3978,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:sandstone_stairs",
+    "alias": "tessera:sandstone_stairs",
     "id": 202,
     "texture": {
       "neg_y": "sandstone",
@@ -4001,7 +4001,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cave_vines_flat",
+    "alias": "tessera:cave_vines_flat",
     "id": 203,
     "texture": {
       "neg_y": "cave vines flat",
@@ -4025,7 +4025,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:polished_diorite_stairs",
+    "alias": "tessera:polished_diorite_stairs",
     "id": 204,
     "texture": {
       "neg_y": "polished diorite",
@@ -4048,7 +4048,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:birch_wood_slab",
+    "alias": "tessera:birch_wood_slab",
     "id": 205,
     "texture": {
       "neg_y": "bookshelf",
@@ -4071,7 +4071,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:oak_wood_slab",
+    "alias": "tessera:oak_wood_slab",
     "id": 206,
     "texture": {
       "neg_y": "oak planks",
@@ -4094,7 +4094,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dark_oak_wood_slab",
+    "alias": "tessera:dark_oak_wood_slab",
     "id": 207,
     "texture": {
       "neg_y": "spruce planks",
@@ -4117,7 +4117,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:bamboo_wood_stairs",
+    "alias": "tessera:bamboo_wood_stairs",
     "id": 208,
     "texture": {
       "neg_y": "bamboo wood",
@@ -4140,7 +4140,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:stone_brick_slab",
+    "alias": "tessera:stone_brick_slab",
     "id": 209,
     "texture": {
       "neg_y": "stone brick",
@@ -4163,7 +4163,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_sandstone_slab",
+    "alias": "tessera:red_sandstone_slab",
     "id": 210,
     "texture": {
       "neg_y": "red sandstone",
@@ -4186,7 +4186,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:sandstone_slab",
+    "alias": "tessera:sandstone_slab",
     "id": 211,
     "texture": {
       "neg_y": "sandstone",
@@ -4209,7 +4209,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dry_grass",
+    "alias": "tessera:dry_grass",
     "id": 212,
     "texture": {
       "neg_y": "dry grass",
@@ -4233,7 +4233,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:polished_andesite_slab",
+    "alias": "tessera:polished_andesite_slab",
     "id": 213,
     "texture": {
       "neg_y": "polished andesite",
@@ -4256,7 +4256,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:iron_ladder",
+    "alias": "tessera:iron_ladder",
     "id": 214,
     "texture": {
       "neg_y": "iron ladder",
@@ -4279,7 +4279,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_vines_flat",
+    "alias": "tessera:red_vines_flat",
     "id": 215,
     "texture": {
       "neg_y": "red vines flat",
@@ -4303,7 +4303,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_candle",
+    "alias": "tessera:yellow_candle",
     "id": 216,
     "texture": {
       "neg_y": "yellow candle",
@@ -4324,7 +4324,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cave_vines",
+    "alias": "tessera:cave_vines",
     "id": 217,
     "texture": {
       "neg_y": "cave vines flat",
@@ -4346,7 +4346,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_candle",
+    "alias": "tessera:green_candle",
     "id": 218,
     "texture": {
       "neg_y": "green candle",
@@ -4367,7 +4367,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:granite",
+    "alias": "tessera:granite",
     "id": 219,
     "texture": {
       "neg_y": "granite",
@@ -4390,7 +4390,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_candle",
+    "alias": "tessera:blue_candle",
     "id": 220,
     "texture": {
       "neg_y": "blue candle",
@@ -4413,7 +4413,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_vines",
+    "alias": "tessera:red_vines",
     "id": 221,
     "texture": {
       "neg_y": "red vines flat",
@@ -4437,7 +4437,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:flat_vines",
+    "alias": "tessera:flat_vines",
     "id": 222,
     "texture": {
       "neg_y": "vines",
@@ -4461,7 +4461,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dark_oak_ladder",
+    "alias": "tessera:dark_oak_ladder",
     "id": 223,
     "texture": {
       "neg_y": "dark oak ladder",
@@ -4484,7 +4484,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dry_grass_plant",
+    "alias": "tessera:dry_grass_plant",
     "id": 224,
     "texture": {
       "neg_y": "dry grass plant",
@@ -4507,7 +4507,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:acacia_leaves",
+    "alias": "tessera:acacia_leaves",
     "id": 225,
     "texture": {
       "neg_y": "acacia leaves",
@@ -4531,7 +4531,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:acacia_log",
+    "alias": "tessera:acacia_log",
     "id": 226,
     "texture": {
       "neg_y": "acacia log",
@@ -4556,7 +4556,7 @@
     }
   },
   {
-    "alias": "xbuilders:fire_coral_fan",
+    "alias": "tessera:fire_coral_fan",
     "id": 227,
     "texture": {
       "neg_y": "fire coral fan",
@@ -4578,7 +4578,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lapis_lazul_block",
+    "alias": "tessera:lapis_lazul_block",
     "id": 229,
     "texture": {
       "neg_y": "lapis lazul",
@@ -4601,7 +4601,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:acacia_sapling",
+    "alias": "tessera:acacia_sapling",
     "id": 230,
     "texture": {
       "neg_y": "acacia sapling",
@@ -4622,7 +4622,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brain_coral_fan",
+    "alias": "tessera:brain_coral_fan",
     "id": 232,
     "texture": {
       "neg_y": "brain coral fan",
@@ -4644,7 +4644,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_rose",
+    "alias": "tessera:white_rose",
     "id": 233,
     "texture": {
       "neg_y": "white rose",
@@ -4665,7 +4665,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:horn_coral",
+    "alias": "tessera:horn_coral",
     "id": 235,
     "texture": {
       "neg_y": "horn coral fan",
@@ -4687,7 +4687,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_rose",
+    "alias": "tessera:red_rose",
     "id": 236,
     "texture": {
       "neg_y": "red rose",
@@ -4708,7 +4708,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:emerald_block",
+    "alias": "tessera:emerald_block",
     "id": 238,
     "texture": {
       "neg_y": "emerald",
@@ -4731,7 +4731,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_eye_susan",
+    "alias": "tessera:black_eye_susan",
     "id": 239,
     "texture": {
       "neg_y": "black eye susan",
@@ -4752,7 +4752,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_tulip",
+    "alias": "tessera:orange_tulip",
     "id": 240,
     "texture": {
       "neg_y": "orange tulip",
@@ -4773,7 +4773,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dead_bush",
+    "alias": "tessera:dead_bush",
     "id": 241,
     "texture": {
       "neg_y": "dead bush",
@@ -4796,7 +4796,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:hay_bail",
+    "alias": "tessera:hay_bail",
     "id": 242,
     "texture": {
       "neg_y": "hay bail",
@@ -4819,7 +4819,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:polished_andesite_stairs",
+    "alias": "tessera:polished_andesite_stairs",
     "id": 243,
     "texture": {
       "neg_y": "polished andesite",
@@ -4842,7 +4842,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:polished_diorite_slab",
+    "alias": "tessera:polished_diorite_slab",
     "id": 244,
     "texture": {
       "neg_y": "polished diorite",
@@ -4865,7 +4865,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:curved_track",
+    "alias": "tessera:curved_track",
     "id": 245,
     "texture": {
       "neg_y": "curved track",
@@ -4886,7 +4886,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:beets",
+    "alias": "tessera:beets",
     "id": 246,
     "texture": {
       "neg_y": "beets",
@@ -4907,7 +4907,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:bamboo_ladder",
+    "alias": "tessera:bamboo_ladder",
     "id": 248,
     "texture": {
       "neg_y": "bamboo ladder",
@@ -4930,7 +4930,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:acacia_fence",
+    "alias": "tessera:acacia_fence",
     "id": 249,
     "texture": {
       "neg_y": "acacia planks",
@@ -4953,7 +4953,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:acacia_wood_stairs",
+    "alias": "tessera:acacia_wood_stairs",
     "id": 250,
     "texture": {
       "neg_y": "acacia planks",
@@ -4976,7 +4976,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:acacia_wood_slab",
+    "alias": "tessera:acacia_wood_slab",
     "id": 251,
     "texture": {
       "neg_y": "acacia planks",
@@ -4999,7 +4999,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:raised_track",
+    "alias": "tessera:raised_track",
     "id": 252,
     "texture": {
       "neg_y": "track",
@@ -5020,7 +5020,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_stained_wood",
+    "alias": "tessera:blue_stained_wood",
     "id": 254,
     "texture": {
       "neg_y": "blue stained wood",
@@ -5046,7 +5046,7 @@
 
 
   {
-    "alias": "xbuilders:bamboo_wood_slab",
+    "alias": "tessera:bamboo_wood_slab",
     "id": 258,
     "texture": {
       "neg_y": "bamboo wood",
@@ -5069,7 +5069,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_sandstone_stairs",
+    "alias": "tessera:red_sandstone_stairs",
     "id": 259,
     "texture": {
       "neg_y": "red sandstone",
@@ -5092,7 +5092,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:stone_brick_stairs",
+    "alias": "tessera:stone_brick_stairs",
     "id": 260,
     "texture": {
       "neg_y": "stone brick",
@@ -5115,7 +5115,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:drivers_seat",
+    "alias": "tessera:drivers_seat",
     "id": 261,
     "texture": {
       "neg_y": "drivers seat",
@@ -5138,7 +5138,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:stone_brick_fence",
+    "alias": "tessera:stone_brick_fence",
     "id": 262,
     "texture": {
       "neg_y": "stone brick",
@@ -5161,7 +5161,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brick_stairs",
+    "alias": "tessera:brick_stairs",
     "id": 263,
     "texture": {
       "neg_y": "brick",
@@ -5184,7 +5184,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brick_slab",
+    "alias": "tessera:brick_slab",
     "id": 264,
     "texture": {
       "neg_y": "brick",
@@ -5207,7 +5207,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:snow_block",
+    "alias": "tessera:snow_block",
     "id": 265,
     "texture": {
       "neg_y": "snow",
@@ -5231,7 +5231,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cobblestone_stairs",
+    "alias": "tessera:cobblestone_stairs",
     "id": 266,
     "texture": {
       "neg_y": "cobblestone",
@@ -5254,7 +5254,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cobblestone_slab",
+    "alias": "tessera:cobblestone_slab",
     "id": 267,
     "texture": {
       "neg_y": "cobblestone",
@@ -5277,7 +5277,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_stone_stairs",
+    "alias": "tessera:palisade_stone_stairs",
     "id": 268,
     "texture": {
       "neg_y": "palisade stone",
@@ -5300,7 +5300,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_stone_slab",
+    "alias": "tessera:palisade_stone_slab",
     "id": 269,
     "texture": {
       "neg_y": "palisade stone",
@@ -5323,7 +5323,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_stone_fence",
+    "alias": "tessera:palisade_stone_fence",
     "id": 270,
     "texture": {
       "neg_y": "palisade stone",
@@ -5346,7 +5346,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_stone_2_stairs",
+    "alias": "tessera:palisade_stone_2_stairs",
     "id": 271,
     "texture": {
       "neg_y": "palisade stone 2",
@@ -5369,7 +5369,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_stone_2_slab",
+    "alias": "tessera:palisade_stone_2_slab",
     "id": 272,
     "texture": {
       "neg_y": "palisade stone 2",
@@ -5392,7 +5392,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_stone_2_fence",
+    "alias": "tessera:palisade_stone_2_fence",
     "id": 273,
     "texture": {
       "neg_y": "palisade stone 2",
@@ -5415,7 +5415,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:polished_diorite_fence",
+    "alias": "tessera:polished_diorite_fence",
     "id": 274,
     "texture": {
       "neg_y": "polished diorite",
@@ -5438,7 +5438,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:polished_andesite_fence",
+    "alias": "tessera:polished_andesite_fence",
     "id": 275,
     "texture": {
       "neg_y": "polished andesite",
@@ -5461,7 +5461,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cracked_stone_stairs",
+    "alias": "tessera:cracked_stone_stairs",
     "id": 276,
     "texture": {
       "neg_y": "cracked stone",
@@ -5484,7 +5484,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cracked_stone_slab",
+    "alias": "tessera:cracked_stone_slab",
     "id": 277,
     "texture": {
       "neg_y": "cracked stone",
@@ -5507,7 +5507,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cracked_stone_fence",
+    "alias": "tessera:cracked_stone_fence",
     "id": 278,
     "texture": {
       "neg_y": "cracked stone",
@@ -5530,7 +5530,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:stone_with_vines_stairs",
+    "alias": "tessera:stone_with_vines_stairs",
     "id": 279,
     "texture": {
       "neg_y": "stone with vines",
@@ -5553,7 +5553,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:stone_with_vines_slab",
+    "alias": "tessera:stone_with_vines_slab",
     "id": 280,
     "texture": {
       "neg_y": "stone with vines",
@@ -5576,7 +5576,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:stone_with_vines_fence",
+    "alias": "tessera:stone_with_vines_fence",
     "id": 281,
     "texture": {
       "neg_y": "stone with vines",
@@ -5599,7 +5599,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:burgundy_brick_stairs",
+    "alias": "tessera:burgundy_brick_stairs",
     "id": 282,
     "texture": {
       "neg_y": "burgundy brick",
@@ -5622,7 +5622,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:burgundy_brick_slab",
+    "alias": "tessera:burgundy_brick_slab",
     "id": 283,
     "texture": {
       "neg_y": "burgundy brick",
@@ -5645,7 +5645,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:burgundy_brick_fence",
+    "alias": "tessera:burgundy_brick_fence",
     "id": 284,
     "texture": {
       "neg_y": "burgundy brick",
@@ -5668,7 +5668,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:switch_junction",
+    "alias": "tessera:switch_junction",
     "id": 285,
     "texture": {
       "neg_y": "switch junction",
@@ -5689,7 +5689,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:track_stop",
+    "alias": "tessera:track_stop",
     "id": 286,
     "texture": {
       "neg_y": "track stop",
@@ -5710,7 +5710,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_palisade_sandstone_stairs",
+    "alias": "tessera:red_palisade_sandstone_stairs",
     "id": 287,
     "texture": {
       "neg_y": "red palisade sandstone",
@@ -5733,7 +5733,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_palisade_sandstone_slab",
+    "alias": "tessera:red_palisade_sandstone_slab",
     "id": 288,
     "texture": {
       "neg_y": "red palisade sandstone",
@@ -5756,7 +5756,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_palisade_sandstone_fence",
+    "alias": "tessera:red_palisade_sandstone_fence",
     "id": 289,
     "texture": {
       "neg_y": "red palisade sandstone",
@@ -5779,7 +5779,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_sandstone_stairs",
+    "alias": "tessera:palisade_sandstone_stairs",
     "id": 290,
     "texture": {
       "neg_y": "palisade sandstone",
@@ -5802,7 +5802,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_sandstone_slab",
+    "alias": "tessera:palisade_sandstone_slab",
     "id": 291,
     "texture": {
       "neg_y": "palisade sandstone",
@@ -5825,7 +5825,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_sandstone_fence",
+    "alias": "tessera:palisade_sandstone_fence",
     "id": 292,
     "texture": {
       "neg_y": "palisade sandstone",
@@ -5848,7 +5848,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wool_stairs",
+    "alias": "tessera:wool_stairs",
     "id": 293,
     "texture": {
       "neg_y": "wool",
@@ -5873,7 +5873,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_slab",
+    "alias": "tessera:wool_slab",
     "id": 294,
     "texture": {
       "neg_y": "wool",
@@ -5898,7 +5898,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_gray_stairs",
+    "alias": "tessera:wool_gray_stairs",
     "id": 295,
     "texture": {
       "neg_y": "wool gray",
@@ -5923,7 +5923,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_gray_slab",
+    "alias": "tessera:wool_gray_slab",
     "id": 296,
     "texture": {
       "neg_y": "wool gray",
@@ -5948,7 +5948,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_red_stairs",
+    "alias": "tessera:wool_red_stairs",
     "id": 297,
     "texture": {
       "neg_y": "wool red",
@@ -5973,7 +5973,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_red_slab",
+    "alias": "tessera:wool_red_slab",
     "id": 298,
     "texture": {
       "neg_y": "wool red",
@@ -5998,7 +5998,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_pink_stairs",
+    "alias": "tessera:wool_pink_stairs",
     "id": 299,
     "texture": {
       "neg_y": "wool pink",
@@ -6023,7 +6023,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_pink_slab",
+    "alias": "tessera:wool_pink_slab",
     "id": 300,
     "texture": {
       "neg_y": "wool pink",
@@ -6048,7 +6048,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_orange_stairs",
+    "alias": "tessera:wool_orange_stairs",
     "id": 301,
     "texture": {
       "neg_y": "wool orange",
@@ -6073,7 +6073,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_orange_slab",
+    "alias": "tessera:wool_orange_slab",
     "id": 302,
     "texture": {
       "neg_y": "wool orange",
@@ -6098,7 +6098,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_yellow_stairs",
+    "alias": "tessera:wool_yellow_stairs",
     "id": 303,
     "texture": {
       "neg_y": "wool yellow",
@@ -6123,7 +6123,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_yellow_slab",
+    "alias": "tessera:wool_yellow_slab",
     "id": 304,
     "texture": {
       "neg_y": "wool yellow",
@@ -6148,7 +6148,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_green_stairs",
+    "alias": "tessera:wool_green_stairs",
     "id": 305,
     "texture": {
       "neg_y": "wool green",
@@ -6173,7 +6173,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_green_slab",
+    "alias": "tessera:wool_green_slab",
     "id": 306,
     "texture": {
       "neg_y": "wool green",
@@ -6198,7 +6198,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_dark_green_stairs",
+    "alias": "tessera:wool_dark_green_stairs",
     "id": 307,
     "texture": {
       "neg_y": "wool dark green",
@@ -6223,7 +6223,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_dark_green_slab",
+    "alias": "tessera:wool_dark_green_slab",
     "id": 308,
     "texture": {
       "neg_y": "wool dark green",
@@ -6248,7 +6248,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_turquoise_stairs",
+    "alias": "tessera:wool_turquoise_stairs",
     "id": 309,
     "texture": {
       "neg_y": "wool turquoise",
@@ -6273,7 +6273,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_turquoise_slab",
+    "alias": "tessera:wool_turquoise_slab",
     "id": 310,
     "texture": {
       "neg_y": "wool turquoise",
@@ -6298,7 +6298,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_deep_blue_stairs",
+    "alias": "tessera:wool_deep_blue_stairs",
     "id": 311,
     "texture": {
       "neg_y": "wool deep blue",
@@ -6323,7 +6323,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_deep_blue_slab",
+    "alias": "tessera:wool_deep_blue_slab",
     "id": 312,
     "texture": {
       "neg_y": "wool deep blue",
@@ -6348,7 +6348,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_sky_blue_stairs",
+    "alias": "tessera:wool_sky_blue_stairs",
     "id": 313,
     "texture": {
       "neg_y": "wool sky blue",
@@ -6373,7 +6373,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_sky_blue_slab",
+    "alias": "tessera:wool_sky_blue_slab",
     "id": 314,
     "texture": {
       "neg_y": "wool sky blue",
@@ -6398,7 +6398,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_brown_stairs",
+    "alias": "tessera:wool_brown_stairs",
     "id": 315,
     "texture": {
       "neg_y": "wool brown",
@@ -6423,7 +6423,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_brown_slab",
+    "alias": "tessera:wool_brown_slab",
     "id": 316,
     "texture": {
       "neg_y": "wool brown",
@@ -6448,7 +6448,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_purple_stairs",
+    "alias": "tessera:wool_purple_stairs",
     "id": 317,
     "texture": {
       "neg_y": "wool purple",
@@ -6473,7 +6473,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_purple_slab",
+    "alias": "tessera:wool_purple_slab",
     "id": 318,
     "texture": {
       "neg_y": "wool purple",
@@ -6498,7 +6498,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_magenta_stairs",
+    "alias": "tessera:wool_magenta_stairs",
     "id": 319,
     "texture": {
       "neg_y": "wool magenta",
@@ -6523,7 +6523,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_magenta_slab",
+    "alias": "tessera:wool_magenta_slab",
     "id": 320,
     "texture": {
       "neg_y": "wool magenta",
@@ -6548,7 +6548,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_black_stairs",
+    "alias": "tessera:wool_black_stairs",
     "id": 321,
     "texture": {
       "neg_y": "wool black",
@@ -6573,7 +6573,7 @@
     }
   },
   {
-    "alias": "xbuilders:wool_black_slab",
+    "alias": "tessera:wool_black_slab",
     "id": 322,
     "texture": {
       "neg_y": "wool black",
@@ -6598,7 +6598,7 @@
     }
   },
   {
-    "alias": "xbuilders:yellow_concrete_stairs",
+    "alias": "tessera:yellow_concrete_stairs",
     "id": 323,
     "texture": {
       "neg_y": "yellow concrete",
@@ -6621,7 +6621,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_concrete_slab",
+    "alias": "tessera:yellow_concrete_slab",
     "id": 324,
     "texture": {
       "neg_y": "yellow concrete",
@@ -6644,7 +6644,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_concrete_fence",
+    "alias": "tessera:yellow_concrete_fence",
     "id": 325,
     "texture": {
       "neg_y": "yellow concrete",
@@ -6667,7 +6667,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_concrete_stairs",
+    "alias": "tessera:black_concrete_stairs",
     "id": 326,
     "texture": {
       "neg_y": "black concrete",
@@ -6690,7 +6690,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_concrete_slab",
+    "alias": "tessera:black_concrete_slab",
     "id": 327,
     "texture": {
       "neg_y": "black concrete",
@@ -6713,7 +6713,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_concrete_fence",
+    "alias": "tessera:black_concrete_fence",
     "id": 328,
     "texture": {
       "neg_y": "black concrete",
@@ -6736,7 +6736,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_concrete_stairs",
+    "alias": "tessera:blue_concrete_stairs",
     "id": 329,
     "texture": {
       "neg_y": "blue concrete",
@@ -6759,7 +6759,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_concrete_slab",
+    "alias": "tessera:blue_concrete_slab",
     "id": 330,
     "texture": {
       "neg_y": "blue concrete",
@@ -6782,7 +6782,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_concrete_fence",
+    "alias": "tessera:blue_concrete_fence",
     "id": 331,
     "texture": {
       "neg_y": "blue concrete",
@@ -6805,7 +6805,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_concrete_stairs",
+    "alias": "tessera:brown_concrete_stairs",
     "id": 332,
     "texture": {
       "neg_y": "brown concrete",
@@ -6828,7 +6828,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_concrete_slab",
+    "alias": "tessera:brown_concrete_slab",
     "id": 333,
     "texture": {
       "neg_y": "brown concrete",
@@ -6851,7 +6851,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_concrete_fence",
+    "alias": "tessera:brown_concrete_fence",
     "id": 334,
     "texture": {
       "neg_y": "brown concrete",
@@ -6874,7 +6874,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_concrete_stairs",
+    "alias": "tessera:cyan_concrete_stairs",
     "id": 335,
     "texture": {
       "neg_y": "cyan concrete",
@@ -6897,7 +6897,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_concrete_slab",
+    "alias": "tessera:cyan_concrete_slab",
     "id": 336,
     "texture": {
       "neg_y": "cyan concrete",
@@ -6920,7 +6920,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_concrete_fence",
+    "alias": "tessera:cyan_concrete_fence",
     "id": 337,
     "texture": {
       "neg_y": "cyan concrete",
@@ -6943,7 +6943,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_concrete_stairs",
+    "alias": "tessera:gray_concrete_stairs",
     "id": 338,
     "texture": {
       "neg_y": "gray concrete",
@@ -6966,7 +6966,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_concrete_slab",
+    "alias": "tessera:gray_concrete_slab",
     "id": 339,
     "texture": {
       "neg_y": "gray concrete",
@@ -6989,7 +6989,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_concrete_fence",
+    "alias": "tessera:gray_concrete_fence",
     "id": 340,
     "texture": {
       "neg_y": "gray concrete",
@@ -7012,7 +7012,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_concrete_stairs",
+    "alias": "tessera:green_concrete_stairs",
     "id": 341,
     "texture": {
       "neg_y": "green concrete",
@@ -7035,7 +7035,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_concrete_slab",
+    "alias": "tessera:green_concrete_slab",
     "id": 342,
     "texture": {
       "neg_y": "green concrete",
@@ -7058,7 +7058,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_concrete_fence",
+    "alias": "tessera:green_concrete_fence",
     "id": 343,
     "texture": {
       "neg_y": "green concrete",
@@ -7081,7 +7081,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_concrete_stairs",
+    "alias": "tessera:light_blue_concrete_stairs",
     "id": 344,
     "texture": {
       "neg_y": "light blue concrete",
@@ -7104,7 +7104,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_concrete_slab",
+    "alias": "tessera:light_blue_concrete_slab",
     "id": 345,
     "texture": {
       "neg_y": "light blue concrete",
@@ -7127,7 +7127,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_concrete_fence",
+    "alias": "tessera:light_blue_concrete_fence",
     "id": 346,
     "texture": {
       "neg_y": "light blue concrete",
@@ -7150,7 +7150,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_concrete_stairs",
+    "alias": "tessera:light_gray_concrete_stairs",
     "id": 347,
     "texture": {
       "neg_y": "light gray concrete",
@@ -7173,7 +7173,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_concrete_slab",
+    "alias": "tessera:light_gray_concrete_slab",
     "id": 348,
     "texture": {
       "neg_y": "light gray concrete",
@@ -7196,7 +7196,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_concrete_fence",
+    "alias": "tessera:light_gray_concrete_fence",
     "id": 349,
     "texture": {
       "neg_y": "light gray concrete",
@@ -7219,7 +7219,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_concrete_stairs",
+    "alias": "tessera:lime_concrete_stairs",
     "id": 350,
     "texture": {
       "neg_y": "lime concrete",
@@ -7242,7 +7242,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_concrete_slab",
+    "alias": "tessera:lime_concrete_slab",
     "id": 351,
     "texture": {
       "neg_y": "lime concrete",
@@ -7265,7 +7265,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_concrete_fence",
+    "alias": "tessera:lime_concrete_fence",
     "id": 352,
     "texture": {
       "neg_y": "lime concrete",
@@ -7288,7 +7288,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_concrete_stairs",
+    "alias": "tessera:magenta_concrete_stairs",
     "id": 353,
     "texture": {
       "neg_y": "magenta concrete",
@@ -7311,7 +7311,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_concrete_slab",
+    "alias": "tessera:magenta_concrete_slab",
     "id": 354,
     "texture": {
       "neg_y": "magenta concrete",
@@ -7334,7 +7334,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_concrete_fence",
+    "alias": "tessera:magenta_concrete_fence",
     "id": 355,
     "texture": {
       "neg_y": "magenta concrete",
@@ -7357,7 +7357,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_concrete_stairs",
+    "alias": "tessera:orange_concrete_stairs",
     "id": 356,
     "texture": {
       "neg_y": "orange concrete",
@@ -7380,7 +7380,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_concrete_slab",
+    "alias": "tessera:orange_concrete_slab",
     "id": 357,
     "texture": {
       "neg_y": "orange concrete",
@@ -7403,7 +7403,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_concrete_fence",
+    "alias": "tessera:orange_concrete_fence",
     "id": 358,
     "texture": {
       "neg_y": "orange concrete",
@@ -7426,7 +7426,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_concrete_stairs",
+    "alias": "tessera:pink_concrete_stairs",
     "id": 359,
     "texture": {
       "neg_y": "pink concrete",
@@ -7449,7 +7449,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_concrete_slab",
+    "alias": "tessera:pink_concrete_slab",
     "id": 360,
     "texture": {
       "neg_y": "pink concrete",
@@ -7472,7 +7472,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_concrete_fence",
+    "alias": "tessera:pink_concrete_fence",
     "id": 361,
     "texture": {
       "neg_y": "pink concrete",
@@ -7495,7 +7495,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_concrete_stairs",
+    "alias": "tessera:purple_concrete_stairs",
     "id": 362,
     "texture": {
       "neg_y": "purple concrete",
@@ -7518,7 +7518,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_concrete_slab",
+    "alias": "tessera:purple_concrete_slab",
     "id": 363,
     "texture": {
       "neg_y": "purple concrete",
@@ -7541,7 +7541,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_concrete_fence",
+    "alias": "tessera:purple_concrete_fence",
     "id": 364,
     "texture": {
       "neg_y": "purple concrete",
@@ -7564,7 +7564,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_concrete_stairs",
+    "alias": "tessera:red_concrete_stairs",
     "id": 365,
     "texture": {
       "neg_y": "red concrete",
@@ -7587,7 +7587,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_concrete_slab",
+    "alias": "tessera:red_concrete_slab",
     "id": 366,
     "texture": {
       "neg_y": "red concrete",
@@ -7610,7 +7610,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_concrete_fence",
+    "alias": "tessera:red_concrete_fence",
     "id": 367,
     "texture": {
       "neg_y": "red concrete",
@@ -7633,7 +7633,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_concrete_stairs",
+    "alias": "tessera:white_concrete_stairs",
     "id": 368,
     "texture": {
       "neg_y": "white concrete",
@@ -7656,7 +7656,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_concrete_slab",
+    "alias": "tessera:white_concrete_slab",
     "id": 369,
     "texture": {
       "neg_y": "white concrete",
@@ -7679,7 +7679,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_concrete_fence",
+    "alias": "tessera:white_concrete_fence",
     "id": 370,
     "texture": {
       "neg_y": "white concrete",
@@ -7702,7 +7702,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_glazed_teracotta_stairs",
+    "alias": "tessera:yellow_glazed_teracotta_stairs",
     "id": 371,
     "texture": {
       "neg_y": "yellow glazed teracotta",
@@ -7725,7 +7725,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_glazed_teracotta_slab",
+    "alias": "tessera:yellow_glazed_teracotta_slab",
     "id": 372,
     "texture": {
       "neg_y": "yellow glazed teracotta",
@@ -7748,7 +7748,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_glazed_teracotta_stairs",
+    "alias": "tessera:black_glazed_teracotta_stairs",
     "id": 373,
     "texture": {
       "neg_y": "black glazed teracotta",
@@ -7771,7 +7771,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_glazed_teracotta_slab",
+    "alias": "tessera:black_glazed_teracotta_slab",
     "id": 374,
     "texture": {
       "neg_y": "black glazed teracotta",
@@ -7794,7 +7794,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_glazed_teracotta_stairs",
+    "alias": "tessera:blue_glazed_teracotta_stairs",
     "id": 375,
     "texture": {
       "neg_y": "blue glazed teracotta",
@@ -7817,7 +7817,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_glazed_teracotta_slab",
+    "alias": "tessera:blue_glazed_teracotta_slab",
     "id": 376,
     "texture": {
       "neg_y": "blue glazed teracotta",
@@ -7840,7 +7840,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_glazed_teracotta_stairs",
+    "alias": "tessera:brown_glazed_teracotta_stairs",
     "id": 377,
     "texture": {
       "neg_y": "brown glazed teracotta",
@@ -7863,7 +7863,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_glazed_teracotta_slab",
+    "alias": "tessera:brown_glazed_teracotta_slab",
     "id": 378,
     "texture": {
       "neg_y": "brown glazed teracotta",
@@ -7886,7 +7886,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_glazed_teracotta_stairs",
+    "alias": "tessera:cyan_glazed_teracotta_stairs",
     "id": 379,
     "texture": {
       "neg_y": "cyan glazed teracotta",
@@ -7909,7 +7909,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_glazed_teracotta_slab",
+    "alias": "tessera:cyan_glazed_teracotta_slab",
     "id": 380,
     "texture": {
       "neg_y": "cyan glazed teracotta",
@@ -7932,7 +7932,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_glazed_teracotta_stairs",
+    "alias": "tessera:gray_glazed_teracotta_stairs",
     "id": 381,
     "texture": {
       "neg_y": "gray glazed teracotta",
@@ -7955,7 +7955,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_glazed_teracotta_slab",
+    "alias": "tessera:gray_glazed_teracotta_slab",
     "id": 382,
     "texture": {
       "neg_y": "gray glazed teracotta",
@@ -7978,7 +7978,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_glazed_teracotta_stairs",
+    "alias": "tessera:green_glazed_teracotta_stairs",
     "id": 383,
     "texture": {
       "neg_y": "green glazed teracotta",
@@ -8001,7 +8001,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_glazed_teracotta_slab",
+    "alias": "tessera:green_glazed_teracotta_slab",
     "id": 384,
     "texture": {
       "neg_y": "green glazed teracotta",
@@ -8024,7 +8024,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_glazed_teracotta_stairs",
+    "alias": "tessera:light_blue_glazed_teracotta_stairs",
     "id": 385,
     "texture": {
       "neg_y": "light blue glazed teracotta",
@@ -8047,7 +8047,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_glazed_teracotta_slab",
+    "alias": "tessera:light_blue_glazed_teracotta_slab",
     "id": 386,
     "texture": {
       "neg_y": "light blue glazed teracotta",
@@ -8070,7 +8070,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_glazed_teracotta_stairs",
+    "alias": "tessera:light_gray_glazed_teracotta_stairs",
     "id": 387,
     "texture": {
       "neg_y": "light gray glazed teracotta",
@@ -8093,7 +8093,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_glazed_teracotta_slab",
+    "alias": "tessera:light_gray_glazed_teracotta_slab",
     "id": 388,
     "texture": {
       "neg_y": "light gray glazed teracotta",
@@ -8116,7 +8116,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_glazed_teracotta_stairs",
+    "alias": "tessera:lime_glazed_teracotta_stairs",
     "id": 389,
     "texture": {
       "neg_y": "lime glazed teracotta",
@@ -8139,7 +8139,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_glazed_teracotta_slab",
+    "alias": "tessera:lime_glazed_teracotta_slab",
     "id": 390,
     "texture": {
       "neg_y": "lime glazed teracotta",
@@ -8162,7 +8162,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_glazed_teracotta_stairs",
+    "alias": "tessera:magenta_glazed_teracotta_stairs",
     "id": 391,
     "texture": {
       "neg_y": "magenta glazed teracotta",
@@ -8185,7 +8185,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_glazed_teracotta_slab",
+    "alias": "tessera:magenta_glazed_teracotta_slab",
     "id": 392,
     "texture": {
       "neg_y": "magenta glazed teracotta",
@@ -8208,7 +8208,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_glazed_teracotta_stairs",
+    "alias": "tessera:orange_glazed_teracotta_stairs",
     "id": 393,
     "texture": {
       "neg_y": "orange glazed teracotta",
@@ -8231,7 +8231,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_glazed_teracotta_slab",
+    "alias": "tessera:orange_glazed_teracotta_slab",
     "id": 394,
     "texture": {
       "neg_y": "orange glazed teracotta",
@@ -8254,7 +8254,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_glazed_teracotta_stairs",
+    "alias": "tessera:pink_glazed_teracotta_stairs",
     "id": 395,
     "texture": {
       "neg_y": "pink glazed teracotta",
@@ -8277,7 +8277,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_glazed_teracotta_slab",
+    "alias": "tessera:pink_glazed_teracotta_slab",
     "id": 396,
     "texture": {
       "neg_y": "pink glazed teracotta",
@@ -8300,7 +8300,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_glazed_teracotta_stairs",
+    "alias": "tessera:purple_glazed_teracotta_stairs",
     "id": 397,
     "texture": {
       "neg_y": "purple glazed teracotta",
@@ -8323,7 +8323,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_glazed_teracotta_slab",
+    "alias": "tessera:purple_glazed_teracotta_slab",
     "id": 398,
     "texture": {
       "neg_y": "purple glazed teracotta",
@@ -8346,7 +8346,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_glazed_teracotta_stairs",
+    "alias": "tessera:red_glazed_teracotta_stairs",
     "id": 399,
     "texture": {
       "neg_y": "red glazed teracotta",
@@ -8369,7 +8369,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_glazed_teracotta_slab",
+    "alias": "tessera:red_glazed_teracotta_slab",
     "id": 400,
     "texture": {
       "neg_y": "red glazed teracotta",
@@ -8392,7 +8392,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_glazed_teracotta_stairs",
+    "alias": "tessera:white_glazed_teracotta_stairs",
     "id": 401,
     "texture": {
       "neg_y": "white glazed teracotta",
@@ -8415,7 +8415,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_glazed_teracotta_slab",
+    "alias": "tessera:white_glazed_teracotta_slab",
     "id": 402,
     "texture": {
       "neg_y": "white glazed teracotta",
@@ -8438,7 +8438,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:oak_ladder",
+    "alias": "tessera:oak_ladder",
     "id": 403,
     "texture": {
       "neg_y": "oak ladder",
@@ -8461,7 +8461,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:minecart_road_block",
+    "alias": "tessera:minecart_road_block",
     "id": 404,
     "texture": {
       "neg_y": "minecart road",
@@ -8484,7 +8484,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:stone",
+    "alias": "tessera:stone",
     "id": 405,
     "texture": {
       "neg_y": "stone",
@@ -8507,7 +8507,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:bamboo_wood_fence",
+    "alias": "tessera:bamboo_wood_fence",
     "id": 406,
     "texture": {
       "neg_y": "bamboo wood",
@@ -8530,7 +8530,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:croissant",
+    "alias": "tessera:croissant",
     "id": 407,
     "texture": {
       "neg_y": "croissant",
@@ -8553,7 +8553,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:minecart_road_slab",
+    "alias": "tessera:minecart_road_slab",
     "id": 408,
     "texture": {
       "neg_y": "minecart road",
@@ -8576,7 +8576,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:prismarine_bricks",
+    "alias": "tessera:prismarine_bricks",
     "id": 409,
     "texture": {
       "neg_y": "prismarine brick",
@@ -8599,7 +8599,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dark_prismarine_bricks",
+    "alias": "tessera:dark_prismarine_bricks",
     "id": 410,
     "texture": {
       "neg_y": "dark prismarine bricks",
@@ -8622,7 +8622,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:glass_stairs",
+    "alias": "tessera:glass_stairs",
     "id": 411,
     "texture": {
       "neg_y": "glass",
@@ -8646,7 +8646,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:glass_slab",
+    "alias": "tessera:glass_slab",
     "id": 412,
     "texture": {
       "neg_y": "glass",
@@ -8670,7 +8670,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_torch",
+    "alias": "tessera:blue_torch",
     "id": 413,
     "texture": {
       "neg_y": "blue torch",
@@ -8691,7 +8691,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cement_stairs",
+    "alias": "tessera:cement_stairs",
     "id": 414,
     "texture": {
       "neg_y": "cement",
@@ -8714,7 +8714,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cement_fence",
+    "alias": "tessera:cement_fence",
     "id": 415,
     "texture": {
       "neg_y": "cement",
@@ -8737,7 +8737,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cement_slab",
+    "alias": "tessera:cement_slab",
     "id": 416,
     "texture": {
       "neg_y": "cement",
@@ -8760,7 +8760,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:obsidian_slab",
+    "alias": "tessera:obsidian_slab",
     "id": 417,
     "texture": {
       "neg_y": "obsidian",
@@ -8783,7 +8783,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:obsidian_fence",
+    "alias": "tessera:obsidian_fence",
     "id": 418,
     "texture": {
       "neg_y": "obsidian",
@@ -8806,7 +8806,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lapis_lazul_stairs",
+    "alias": "tessera:lapis_lazul_stairs",
     "id": 419,
     "texture": {
       "neg_y": "lapis lazul",
@@ -8829,7 +8829,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lapis_lazul_block_slab",
+    "alias": "tessera:lapis_lazul_block_slab",
     "id": 420,
     "texture": {
       "neg_y": "lapis lazul",
@@ -8852,7 +8852,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lapis_lazul_fence",
+    "alias": "tessera:lapis_lazul_fence",
     "id": 421,
     "texture": {
       "neg_y": "lapis lazul",
@@ -8875,7 +8875,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:steel_stairs",
+    "alias": "tessera:steel_stairs",
     "id": 422,
     "texture": {
       "neg_y": "steel",
@@ -8898,7 +8898,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:steel_block_slab",
+    "alias": "tessera:steel_block_slab",
     "id": 423,
     "texture": {
       "neg_y": "steel",
@@ -8921,7 +8921,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:steel_fence",
+    "alias": "tessera:steel_fence",
     "id": 424,
     "texture": {
       "neg_y": "steel",
@@ -8944,7 +8944,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gold_stairs",
+    "alias": "tessera:gold_stairs",
     "id": 425,
     "texture": {
       "neg_y": "gold",
@@ -8967,7 +8967,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gold_block_slab",
+    "alias": "tessera:gold_block_slab",
     "id": 426,
     "texture": {
       "neg_y": "gold",
@@ -8990,7 +8990,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gold_fence",
+    "alias": "tessera:gold_fence",
     "id": 427,
     "texture": {
       "neg_y": "gold",
@@ -9013,7 +9013,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:emerald_stairs",
+    "alias": "tessera:emerald_stairs",
     "id": 428,
     "texture": {
       "neg_y": "emerald",
@@ -9036,7 +9036,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:emerald_block_slab",
+    "alias": "tessera:emerald_block_slab",
     "id": 429,
     "texture": {
       "neg_y": "emerald",
@@ -9059,7 +9059,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:emerald_fence",
+    "alias": "tessera:emerald_fence",
     "id": 430,
     "texture": {
       "neg_y": "emerald",
@@ -9082,7 +9082,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:diamond_stairs",
+    "alias": "tessera:diamond_stairs",
     "id": 431,
     "texture": {
       "neg_y": "diamond",
@@ -9105,7 +9105,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:diamond_block_slab",
+    "alias": "tessera:diamond_block_slab",
     "id": 432,
     "texture": {
       "neg_y": "diamond",
@@ -9128,7 +9128,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:diamond_fence",
+    "alias": "tessera:diamond_fence",
     "id": 433,
     "texture": {
       "neg_y": "diamond",
@@ -9151,7 +9151,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:crosswalk_paint",
+    "alias": "tessera:crosswalk_paint",
     "id": 434,
     "texture": {
       "neg_y": "crosswalk paint",
@@ -9172,7 +9172,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dark_prismarine_brick_stairs",
+    "alias": "tessera:dark_prismarine_brick_stairs",
     "id": 435,
     "texture": {
       "neg_y": "dark prismarine bricks",
@@ -9195,7 +9195,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:prismarine_brick_slab",
+    "alias": "tessera:prismarine_brick_slab",
     "id": 436,
     "texture": {
       "neg_y": "prismarine brick",
@@ -9218,7 +9218,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:obsidian_stairs",
+    "alias": "tessera:obsidian_stairs",
     "id": 437,
     "texture": {
       "neg_y": "obsidian",
@@ -9241,7 +9241,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:prismarine_brick_fence",
+    "alias": "tessera:prismarine_brick_fence",
     "id": 438,
     "texture": {
       "neg_y": "prismarine brick",
@@ -9264,7 +9264,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_sandstone_pillar",
+    "alias": "tessera:red_sandstone_pillar",
     "id": 439,
     "texture": {
       "neg_y": "red sandstone",
@@ -9287,7 +9287,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:stone_brick_pillar",
+    "alias": "tessera:stone_brick_pillar",
     "id": 440,
     "texture": {
       "neg_y": "stone brick",
@@ -9310,7 +9310,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_sandstone_pillar",
+    "alias": "tessera:palisade_sandstone_pillar",
     "id": 441,
     "texture": {
       "neg_y": "palisade sandstone",
@@ -9333,7 +9333,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_stone_pillar",
+    "alias": "tessera:palisade_stone_pillar",
     "id": 442,
     "texture": {
       "neg_y": "palisade stone",
@@ -9356,7 +9356,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:palisade_stone_2_pillar",
+    "alias": "tessera:palisade_stone_2_pillar",
     "id": 443,
     "texture": {
       "neg_y": "palisade stone 2",
@@ -9379,7 +9379,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cracked_stone_pillar",
+    "alias": "tessera:cracked_stone_pillar",
     "id": 444,
     "texture": {
       "neg_y": "cracked stone",
@@ -9402,7 +9402,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:stone_with_vines_pillar",
+    "alias": "tessera:stone_with_vines_pillar",
     "id": 445,
     "texture": {
       "neg_y": "stone with vines",
@@ -9425,7 +9425,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:flat_dragon_vines",
+    "alias": "tessera:flat_dragon_vines",
     "id": 446,
     "texture": {
       "neg_y": "flat dragon vines",
@@ -9449,7 +9449,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dragon_vines",
+    "alias": "tessera:dragon_vines",
     "id": 447,
     "texture": {
       "neg_y": "flat dragon vines",
@@ -9473,7 +9473,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_palisade_sandstone_pillar",
+    "alias": "tessera:red_palisade_sandstone_pillar",
     "id": 448,
     "texture": {
       "neg_y": "red palisade sandstone",
@@ -9496,7 +9496,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:marble_pillar_block",
+    "alias": "tessera:marble_pillar_block",
     "id": 449,
     "texture": {
       "neg_y": "marble",
@@ -9519,7 +9519,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:quartz_pillar",
+    "alias": "tessera:quartz_pillar",
     "id": 450,
     "texture": {
       "neg_y": "quartz",
@@ -9542,7 +9542,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:marble_pillar",
+    "alias": "tessera:marble_pillar",
     "id": 451,
     "texture": {
       "neg_y": "marble",
@@ -9566,7 +9566,7 @@
   },
 
   {
-    "alias": "xbuilders:road_markings",
+    "alias": "tessera:road_markings",
     "id": 453,
     "texture": {
       "neg_y": "road markings",
@@ -9587,7 +9587,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:granite_brick_pillar",
+    "alias": "tessera:granite_brick_pillar",
     "id": 454,
     "texture": {
       "neg_y": "granite brick",
@@ -9610,7 +9610,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:granite_brick_slab",
+    "alias": "tessera:granite_brick_slab",
     "id": 455,
     "texture": {
       "neg_y": "granite brick",
@@ -9633,7 +9633,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:granite_brick_fence",
+    "alias": "tessera:granite_brick_fence",
     "id": 456,
     "texture": {
       "neg_y": "granite brick",
@@ -9656,7 +9656,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:fire",
+    "alias": "tessera:fire",
     "id": 457,
     "texture": {
       "neg_y": "campfire",
@@ -9677,7 +9677,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dark_prismarine_brick_slab",
+    "alias": "tessera:dark_prismarine_brick_slab",
     "id": 458,
     "texture": {
       "neg_y": "dark prismarine bricks",
@@ -9700,7 +9700,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:dark_prismarine_brick_fence",
+    "alias": "tessera:dark_prismarine_brick_fence",
     "id": 459,
     "texture": {
       "neg_y": "dark prismarine bricks",
@@ -9723,7 +9723,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:engraved_sandstone",
+    "alias": "tessera:engraved_sandstone",
     "id": 460,
     "texture": {
       "neg_y": "sandstone",
@@ -9746,7 +9746,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:engraved_red_sandstone",
+    "alias": "tessera:engraved_red_sandstone",
     "id": 461,
     "texture": {
       "neg_y": "red sandstone",
@@ -9769,7 +9769,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_marble_tile",
+    "alias": "tessera:orange_marble_tile",
     "id": 462,
     "texture": {
       "neg_y": "orange marble tile",
@@ -9792,7 +9792,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:checkerboard_chiseled_marble",
+    "alias": "tessera:checkerboard_chiseled_marble",
     "id": 463,
     "texture": {
       "neg_y": "checkerboard chiseled marble",
@@ -9815,7 +9815,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:chiseled_marble",
+    "alias": "tessera:chiseled_marble",
     "id": 464,
     "texture": {
       "neg_y": "chiseled marble",
@@ -9838,7 +9838,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:chiseled_quartz",
+    "alias": "tessera:chiseled_quartz",
     "id": 465,
     "texture": {
       "neg_y": "chiseled quartz",
@@ -9861,7 +9861,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:marble_tile",
+    "alias": "tessera:marble_tile",
     "id": 466,
     "texture": {
       "neg_y": "marble tile",
@@ -9884,7 +9884,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_marble_tile",
+    "alias": "tessera:blue_marble_tile",
     "id": 467,
     "texture": {
       "neg_y": "blue marble tile",
@@ -9907,7 +9907,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_marble_tile",
+    "alias": "tessera:green_marble_tile",
     "id": 468,
     "texture": {
       "neg_y": "green marble tile",
@@ -9930,7 +9930,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_marble_tile_slab",
+    "alias": "tessera:orange_marble_tile_slab",
     "id": 469,
     "texture": {
       "neg_y": "orange marble tile",
@@ -9953,7 +9953,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_marble_tile",
+    "alias": "tessera:gray_marble_tile",
     "id": 470,
     "texture": {
       "neg_y": "gray marble tile",
@@ -9976,7 +9976,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_marble_tile_stairs",
+    "alias": "tessera:orange_marble_tile_stairs",
     "id": 471,
     "texture": {
       "neg_y": "orange marble tile",
@@ -9999,7 +9999,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_marble_tile_slab",
+    "alias": "tessera:green_marble_tile_slab",
     "id": 472,
     "texture": {
       "neg_y": "green marble tile",
@@ -10022,7 +10022,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_stained_glass_stairs",
+    "alias": "tessera:yellow_stained_glass_stairs",
     "id": 473,
     "texture": {
       "neg_y": "yellow stained glass",
@@ -10045,7 +10045,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_stained_glass_slab",
+    "alias": "tessera:yellow_stained_glass_slab",
     "id": 474,
     "texture": {
       "neg_y": "yellow stained glass",
@@ -10068,7 +10068,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_stained_glass_stairs",
+    "alias": "tessera:black_stained_glass_stairs",
     "id": 475,
     "texture": {
       "neg_y": "black stained glass",
@@ -10091,7 +10091,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_stained_glass_slab",
+    "alias": "tessera:black_stained_glass_slab",
     "id": 476,
     "texture": {
       "neg_y": "black stained glass",
@@ -10114,7 +10114,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_stained_glass_stairs",
+    "alias": "tessera:blue_stained_glass_stairs",
     "id": 477,
     "texture": {
       "neg_y": "blue stained glass",
@@ -10137,7 +10137,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_stained_glass_slab",
+    "alias": "tessera:blue_stained_glass_slab",
     "id": 478,
     "texture": {
       "neg_y": "blue stained glass",
@@ -10160,7 +10160,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_stained_glass_stairs",
+    "alias": "tessera:brown_stained_glass_stairs",
     "id": 479,
     "texture": {
       "neg_y": "brown stained glass",
@@ -10183,7 +10183,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_stained_glass_slab",
+    "alias": "tessera:brown_stained_glass_slab",
     "id": 480,
     "texture": {
       "neg_y": "brown stained glass",
@@ -10206,7 +10206,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_stained_glass_stairs",
+    "alias": "tessera:cyan_stained_glass_stairs",
     "id": 481,
     "texture": {
       "neg_y": "cyan stained glass",
@@ -10229,7 +10229,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_stained_glass_slab",
+    "alias": "tessera:cyan_stained_glass_slab",
     "id": 482,
     "texture": {
       "neg_y": "cyan stained glass",
@@ -10252,7 +10252,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_stained_glass_stairs",
+    "alias": "tessera:gray_stained_glass_stairs",
     "id": 483,
     "texture": {
       "neg_y": "gray stained glass",
@@ -10275,7 +10275,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_stained_glass_slab",
+    "alias": "tessera:gray_stained_glass_slab",
     "id": 484,
     "texture": {
       "neg_y": "gray stained glass",
@@ -10298,7 +10298,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_stained_glass_stairs",
+    "alias": "tessera:green_stained_glass_stairs",
     "id": 485,
     "texture": {
       "neg_y": "green stained glass",
@@ -10321,7 +10321,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_stained_glass_slab",
+    "alias": "tessera:green_stained_glass_slab",
     "id": 486,
     "texture": {
       "neg_y": "green stained glass",
@@ -10344,7 +10344,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_stained_glass_stairs",
+    "alias": "tessera:light_blue_stained_glass_stairs",
     "id": 487,
     "texture": {
       "neg_y": "light blue stained glass",
@@ -10367,7 +10367,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_stained_glass_slab",
+    "alias": "tessera:light_blue_stained_glass_slab",
     "id": 488,
     "texture": {
       "neg_y": "light blue stained glass",
@@ -10390,7 +10390,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_stained_glass_stairs",
+    "alias": "tessera:light_gray_stained_glass_stairs",
     "id": 489,
     "texture": {
       "neg_y": "light gray stained glass",
@@ -10413,7 +10413,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_stained_glass_slab",
+    "alias": "tessera:light_gray_stained_glass_slab",
     "id": 490,
     "texture": {
       "neg_y": "light gray stained glass",
@@ -10436,7 +10436,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_stained_glass_stairs",
+    "alias": "tessera:lime_stained_glass_stairs",
     "id": 491,
     "texture": {
       "neg_y": "lime stained glass",
@@ -10459,7 +10459,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_stained_glass_slab",
+    "alias": "tessera:lime_stained_glass_slab",
     "id": 492,
     "texture": {
       "neg_y": "lime stained glass",
@@ -10482,7 +10482,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_stained_glass_stairs",
+    "alias": "tessera:magenta_stained_glass_stairs",
     "id": 493,
     "texture": {
       "neg_y": "magenta stained glass",
@@ -10505,7 +10505,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_stained_glass_slab",
+    "alias": "tessera:magenta_stained_glass_slab",
     "id": 494,
     "texture": {
       "neg_y": "magenta stained glass",
@@ -10528,7 +10528,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_stained_glass_stairs",
+    "alias": "tessera:orange_stained_glass_stairs",
     "id": 495,
     "texture": {
       "neg_y": "orange stained glass",
@@ -10551,7 +10551,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_stained_glass_slab",
+    "alias": "tessera:orange_stained_glass_slab",
     "id": 496,
     "texture": {
       "neg_y": "orange stained glass",
@@ -10574,7 +10574,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_stained_glass_stairs",
+    "alias": "tessera:pink_stained_glass_stairs",
     "id": 497,
     "texture": {
       "neg_y": "pink stained glass",
@@ -10597,7 +10597,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_stained_glass_slab",
+    "alias": "tessera:pink_stained_glass_slab",
     "id": 498,
     "texture": {
       "neg_y": "pink stained glass",
@@ -10620,7 +10620,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_stained_glass_stairs",
+    "alias": "tessera:purple_stained_glass_stairs",
     "id": 499,
     "texture": {
       "neg_y": "purple stained glass",
@@ -10643,7 +10643,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_stained_glass_slab",
+    "alias": "tessera:purple_stained_glass_slab",
     "id": 500,
     "texture": {
       "neg_y": "purple stained glass",
@@ -10666,7 +10666,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_stained_glass_stairs",
+    "alias": "tessera:red_stained_glass_stairs",
     "id": 501,
     "texture": {
       "neg_y": "red stained glass",
@@ -10689,7 +10689,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_stained_glass_slab",
+    "alias": "tessera:red_stained_glass_slab",
     "id": 502,
     "texture": {
       "neg_y": "red stained glass",
@@ -10712,7 +10712,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_stained_glass_stairs",
+    "alias": "tessera:white_stained_glass_stairs",
     "id": 503,
     "texture": {
       "neg_y": "white stained glass",
@@ -10735,7 +10735,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_stained_glass_slab",
+    "alias": "tessera:white_stained_glass_slab",
     "id": 504,
     "texture": {
       "neg_y": "white stained glass",
@@ -10758,7 +10758,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:checkerboard_chiseled_marble_stairs",
+    "alias": "tessera:checkerboard_chiseled_marble_stairs",
     "id": 505,
     "texture": {
       "neg_y": "checkerboard chiseled marble",
@@ -10781,7 +10781,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:checkerboard_chiseled_marble_slab",
+    "alias": "tessera:checkerboard_chiseled_marble_slab",
     "id": 506,
     "texture": {
       "neg_y": "checkerboard chiseled marble",
@@ -10804,7 +10804,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:chiseled_marble_stairs",
+    "alias": "tessera:chiseled_marble_stairs",
     "id": 507,
     "texture": {
       "neg_y": "chiseled marble",
@@ -10827,7 +10827,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:chiseled_marble_slab",
+    "alias": "tessera:chiseled_marble_slab",
     "id": 508,
     "texture": {
       "neg_y": "chiseled marble",
@@ -10850,7 +10850,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:marble_tile_stairs",
+    "alias": "tessera:marble_tile_stairs",
     "id": 509,
     "texture": {
       "neg_y": "marble tile",
@@ -10873,7 +10873,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:marble_tile_slab",
+    "alias": "tessera:marble_tile_slab",
     "id": 510,
     "texture": {
       "neg_y": "marble tile",
@@ -10896,7 +10896,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_marble_tile_stairs",
+    "alias": "tessera:gray_marble_tile_stairs",
     "id": 511,
     "texture": {
       "neg_y": "gray marble tile",
@@ -10919,7 +10919,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_marble_tile_slab",
+    "alias": "tessera:gray_marble_tile_slab",
     "id": 512,
     "texture": {
       "neg_y": "gray marble tile",
@@ -10942,7 +10942,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_marble_tile_stairs",
+    "alias": "tessera:blue_marble_tile_stairs",
     "id": 513,
     "texture": {
       "neg_y": "blue marble tile",
@@ -10965,7 +10965,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_marble_tile_slab",
+    "alias": "tessera:blue_marble_tile_slab",
     "id": 514,
     "texture": {
       "neg_y": "blue marble tile",
@@ -10988,7 +10988,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_marble_tile_stairs",
+    "alias": "tessera:green_marble_tile_stairs",
     "id": 515,
     "texture": {
       "neg_y": "green marble tile",
@@ -11011,7 +11011,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:chiseled_quartz_stairs",
+    "alias": "tessera:chiseled_quartz_stairs",
     "id": 516,
     "texture": {
       "neg_y": "chiseled quartz",
@@ -11034,7 +11034,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:chiseled_quartz_slab",
+    "alias": "tessera:chiseled_quartz_slab",
     "id": 517,
     "texture": {
       "neg_y": "chiseled quartz",
@@ -11057,7 +11057,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:chiseled_quartz_pillar",
+    "alias": "tessera:chiseled_quartz_pillar",
     "id": 518,
     "texture": {
       "neg_y": "chiseled quartz",
@@ -11080,7 +11080,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_marble_tile_pillar",
+    "alias": "tessera:gray_marble_tile_pillar",
     "id": 519,
     "texture": {
       "neg_y": "gray marble tile",
@@ -11103,7 +11103,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_marble_tile_pillar",
+    "alias": "tessera:blue_marble_tile_pillar",
     "id": 520,
     "texture": {
       "neg_y": "blue marble tile",
@@ -11126,7 +11126,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_marble_tile_pillar",
+    "alias": "tessera:green_marble_tile_pillar",
     "id": 521,
     "texture": {
       "neg_y": "green marble tile",
@@ -11149,7 +11149,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_marble_tile_pillar",
+    "alias": "tessera:orange_marble_tile_pillar",
     "id": 522,
     "texture": {
       "neg_y": "orange marble tile",
@@ -11172,7 +11172,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:marble_tile_pillar",
+    "alias": "tessera:marble_tile_pillar",
     "id": 523,
     "texture": {
       "neg_y": "marble tile",
@@ -11195,7 +11195,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lamp",
+    "alias": "tessera:lamp",
     "id": 524,
     "texture": {
       "neg_y": "lamp",
@@ -11218,7 +11218,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_lamp",
+    "alias": "tessera:blue_lamp",
     "id": 525,
     "texture": {
       "neg_y": "blue lamp",
@@ -11241,7 +11241,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:glass_pane",
+    "alias": "tessera:glass_pane",
     "id": 526,
     "texture": {
       "neg_y": "glass",
@@ -11264,7 +11264,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_stained_glass_pane",
+    "alias": "tessera:yellow_stained_glass_pane",
     "id": 527,
     "texture": {
       "neg_y": "yellow stained glass",
@@ -11287,7 +11287,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_stained_glass_pane",
+    "alias": "tessera:black_stained_glass_pane",
     "id": 528,
     "texture": {
       "neg_y": "black stained glass",
@@ -11310,7 +11310,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_stained_glass_pane",
+    "alias": "tessera:blue_stained_glass_pane",
     "id": 529,
     "texture": {
       "neg_y": "blue stained glass",
@@ -11333,7 +11333,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_stained_glass_pane",
+    "alias": "tessera:brown_stained_glass_pane",
     "id": 530,
     "texture": {
       "neg_y": "brown stained glass",
@@ -11356,7 +11356,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_stained_glass_pane",
+    "alias": "tessera:cyan_stained_glass_pane",
     "id": 531,
     "texture": {
       "neg_y": "cyan stained glass",
@@ -11379,7 +11379,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_stained_glass_pane",
+    "alias": "tessera:gray_stained_glass_pane",
     "id": 532,
     "texture": {
       "neg_y": "gray stained glass",
@@ -11402,7 +11402,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_stained_glass_pane",
+    "alias": "tessera:green_stained_glass_pane",
     "id": 533,
     "texture": {
       "neg_y": "green stained glass",
@@ -11425,7 +11425,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_stained_glass_pane",
+    "alias": "tessera:light_blue_stained_glass_pane",
     "id": 534,
     "texture": {
       "neg_y": "light blue stained glass",
@@ -11448,7 +11448,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_stained_glass_pane",
+    "alias": "tessera:light_gray_stained_glass_pane",
     "id": 535,
     "texture": {
       "neg_y": "light gray stained glass",
@@ -11471,7 +11471,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_stained_glass_pane",
+    "alias": "tessera:lime_stained_glass_pane",
     "id": 536,
     "texture": {
       "neg_y": "lime stained glass",
@@ -11494,7 +11494,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_stained_glass_pane",
+    "alias": "tessera:magenta_stained_glass_pane",
     "id": 537,
     "texture": {
       "neg_y": "magenta stained glass",
@@ -11517,7 +11517,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_stained_glass_pane",
+    "alias": "tessera:orange_stained_glass_pane",
     "id": 538,
     "texture": {
       "neg_y": "orange stained glass",
@@ -11540,7 +11540,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_stained_glass_pane",
+    "alias": "tessera:pink_stained_glass_pane",
     "id": 539,
     "texture": {
       "neg_y": "pink stained glass",
@@ -11563,7 +11563,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_stained_glass_pane",
+    "alias": "tessera:purple_stained_glass_pane",
     "id": 540,
     "texture": {
       "neg_y": "purple stained glass",
@@ -11586,7 +11586,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_stained_glass_pane",
+    "alias": "tessera:red_stained_glass_pane",
     "id": 541,
     "texture": {
       "neg_y": "red stained glass",
@@ -11609,7 +11609,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_stained_glass_pane",
+    "alias": "tessera:white_stained_glass_pane",
     "id": 542,
     "texture": {
       "neg_y": "white stained glass",
@@ -11632,7 +11632,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:start_boundary",
+    "alias": "tessera:start_boundary",
     "id": 543,
     "texture": {
       "neg_y": "start boundary",
@@ -11655,7 +11655,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_chiseled_marble_tile",
+    "alias": "tessera:yellow_chiseled_marble_tile",
     "id": 545,
     "texture": {
       "neg_y": "yellow chiseled marble tile",
@@ -11678,7 +11678,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:sunflower",
+    "alias": "tessera:sunflower",
     "id": 546,
     "texture": {
       "neg_y": "sunflower",
@@ -11699,7 +11699,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:sunflower_stalk",
+    "alias": "tessera:sunflower_stalk",
     "id": 547,
     "texture": {
       "neg_y": "sunflower stalk",
@@ -11720,7 +11720,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:mega_tnt",
+    "alias": "tessera:mega_tnt",
     "id": 548,
     "texture": {
       "neg_y": "tnt",
@@ -11743,7 +11743,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:crosstrack",
+    "alias": "tessera:crosstrack",
     "id": 550,
     "texture": {
       "neg_y": "crosstrack",
@@ -11764,7 +11764,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_chiseled_marble_tile",
+    "alias": "tessera:black_chiseled_marble_tile",
     "id": 553,
     "texture": {
       "neg_y": "black chiseled marble tile",
@@ -11787,7 +11787,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_chiseled_marble_tile",
+    "alias": "tessera:blue_chiseled_marble_tile",
     "id": 554,
     "texture": {
       "neg_y": "blue chiseled marble tile",
@@ -11810,7 +11810,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_chiseled_marble_tile",
+    "alias": "tessera:brown_chiseled_marble_tile",
     "id": 555,
     "texture": {
       "neg_y": "brown chiseled marble tile",
@@ -11833,7 +11833,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_chiseled_marble_tile",
+    "alias": "tessera:cyan_chiseled_marble_tile",
     "id": 556,
     "texture": {
       "neg_y": "cyan chiseled marble tile",
@@ -11856,7 +11856,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_chiseled_marble_tile",
+    "alias": "tessera:gray_chiseled_marble_tile",
     "id": 557,
     "texture": {
       "neg_y": "gray chiseled marble tile",
@@ -11879,7 +11879,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_chiseled_marble_tile",
+    "alias": "tessera:green_chiseled_marble_tile",
     "id": 558,
     "texture": {
       "neg_y": "green chiseled marble tile",
@@ -11902,7 +11902,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_blue_chiseled_marble_tile",
+    "alias": "tessera:pastel_blue_chiseled_marble_tile",
     "id": 559,
     "texture": {
       "neg_y": "pastel blue chiseled marble tile",
@@ -11925,7 +11925,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_green_chiseled_marble_tile",
+    "alias": "tessera:pastel_green_chiseled_marble_tile",
     "id": 560,
     "texture": {
       "neg_y": "pastel green chiseled marble tile",
@@ -11948,7 +11948,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_chiseled_marble_tile",
+    "alias": "tessera:magenta_chiseled_marble_tile",
     "id": 561,
     "texture": {
       "neg_y": "magenta chiseled marble tile",
@@ -11971,7 +11971,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_chiseled_marble_tile",
+    "alias": "tessera:orange_chiseled_marble_tile",
     "id": 562,
     "texture": {
       "neg_y": "orange chiseled marble tile",
@@ -11994,7 +11994,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_chiseled_marble_tile",
+    "alias": "tessera:pink_chiseled_marble_tile",
     "id": 563,
     "texture": {
       "neg_y": "pink chiseled marble tile",
@@ -12017,7 +12017,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_chiseled_marble_tile",
+    "alias": "tessera:purple_chiseled_marble_tile",
     "id": 564,
     "texture": {
       "neg_y": "purple chiseled marble tile",
@@ -12040,7 +12040,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:burgundy_chiseled_marble_tile",
+    "alias": "tessera:burgundy_chiseled_marble_tile",
     "id": 565,
     "texture": {
       "neg_y": "burgundy chiseled marble tile",
@@ -12063,7 +12063,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:bamboo_block",
+    "alias": "tessera:bamboo_block",
     "id": 566,
     "texture": {
       "neg_y": "bamboo block top",
@@ -12086,7 +12086,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_red_chiseled_marble_tile",
+    "alias": "tessera:pastel_red_chiseled_marble_tile",
     "id": 567,
     "texture": {
       "neg_y": "pastel red chiseled marble tile",
@@ -12109,7 +12109,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_marble_tile",
+    "alias": "tessera:yellow_marble_tile",
     "id": 568,
     "texture": {
       "neg_y": "yellow marble tile",
@@ -12132,7 +12132,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_marble_tile",
+    "alias": "tessera:black_marble_tile",
     "id": 569,
     "texture": {
       "neg_y": "black marble tile",
@@ -12155,7 +12155,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:ice_block",
+    "alias": "tessera:ice_block",
     "id": 570,
     "texture": {
       "neg_y": "ice",
@@ -12178,7 +12178,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_marble_tile",
+    "alias": "tessera:brown_marble_tile",
     "id": 571,
     "texture": {
       "neg_y": "brown marble tile",
@@ -12201,7 +12201,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_marble_tile",
+    "alias": "tessera:cyan_marble_tile",
     "id": 572,
     "texture": {
       "neg_y": "cyan marble tile",
@@ -12224,7 +12224,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:bamboo_wood",
+    "alias": "tessera:bamboo_wood",
     "id": 573,
     "texture": {
       "neg_y": "bamboo wood",
@@ -12247,7 +12247,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:bottle",
+    "alias": "tessera:bottle",
     "id": 574,
     "texture": {
       "neg_y": "bottle",
@@ -12268,7 +12268,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_blue_marble_tile",
+    "alias": "tessera:pastel_blue_marble_tile",
     "id": 575,
     "texture": {
       "neg_y": "pastel blue marble tile",
@@ -12291,7 +12291,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_green_marble_tile",
+    "alias": "tessera:pastel_green_marble_tile",
     "id": 576,
     "texture": {
       "neg_y": "pastel green marble tile",
@@ -12314,7 +12314,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_marble_tile",
+    "alias": "tessera:magenta_marble_tile",
     "id": 577,
     "texture": {
       "neg_y": "magenta marble tile",
@@ -12337,7 +12337,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cup",
+    "alias": "tessera:cup",
     "id": 578,
     "texture": {
       "neg_y": "cup",
@@ -12358,7 +12358,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_marble_tile",
+    "alias": "tessera:pink_marble_tile",
     "id": 579,
     "texture": {
       "neg_y": "pink marble tile",
@@ -12381,7 +12381,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_marble_tile",
+    "alias": "tessera:purple_marble_tile",
     "id": 580,
     "texture": {
       "neg_y": "purple marble tile",
@@ -12404,7 +12404,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:burgundy_marble_tile",
+    "alias": "tessera:burgundy_marble_tile",
     "id": 581,
     "texture": {
       "neg_y": "burgundy marble tile",
@@ -12427,7 +12427,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_red_marble_tile",
+    "alias": "tessera:pastel_red_marble_tile",
     "id": 582,
     "texture": {
       "neg_y": "pastel red marble tile",
@@ -12450,7 +12450,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wine_glass",
+    "alias": "tessera:wine_glass",
     "id": 583,
     "texture": {
       "neg_y": "wine glass",
@@ -12473,7 +12473,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_stained_wood",
+    "alias": "tessera:yellow_stained_wood",
     "id": 584,
     "texture": {
       "neg_y": "yellow stained wood",
@@ -12496,7 +12496,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_stained_wood",
+    "alias": "tessera:black_stained_wood",
     "id": 585,
     "texture": {
       "neg_y": "black stained wood",
@@ -12519,7 +12519,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_marble_tile_stairs",
+    "alias": "tessera:yellow_marble_tile_stairs",
     "id": 586,
     "texture": {
       "neg_y": "yellow marble tile",
@@ -12542,7 +12542,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_marble_tile_slab",
+    "alias": "tessera:yellow_marble_tile_slab",
     "id": 587,
     "texture": {
       "neg_y": "yellow marble tile",
@@ -12565,7 +12565,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_marble_tile_pillar",
+    "alias": "tessera:yellow_marble_tile_pillar",
     "id": 588,
     "texture": {
       "neg_y": "yellow marble tile",
@@ -12588,7 +12588,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_marble_tile_stairs",
+    "alias": "tessera:black_marble_tile_stairs",
     "id": 589,
     "texture": {
       "neg_y": "black marble tile",
@@ -12611,7 +12611,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_marble_tile_slab",
+    "alias": "tessera:black_marble_tile_slab",
     "id": 590,
     "texture": {
       "neg_y": "black marble tile",
@@ -12634,7 +12634,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_marble_tile_pillar",
+    "alias": "tessera:black_marble_tile_pillar",
     "id": 591,
     "texture": {
       "neg_y": "black marble tile",
@@ -12657,7 +12657,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:bread",
+    "alias": "tessera:bread",
     "id": 592,
     "texture": {
       "neg_y": "bread",
@@ -12680,7 +12680,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_stained_wood",
+    "alias": "tessera:cyan_stained_wood",
     "id": 593,
     "texture": {
       "neg_y": "cyan stained wood",
@@ -12703,7 +12703,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_chiseled_marble_tile_pillar",
+    "alias": "tessera:pink_chiseled_marble_tile_pillar",
     "id": 594,
     "texture": {
       "neg_y": "pink chiseled marble tile",
@@ -12726,7 +12726,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_marble_tile_stairs",
+    "alias": "tessera:brown_marble_tile_stairs",
     "id": 595,
     "texture": {
       "neg_y": "brown marble tile",
@@ -12749,7 +12749,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_marble_tile_slab",
+    "alias": "tessera:brown_marble_tile_slab",
     "id": 596,
     "texture": {
       "neg_y": "brown marble tile",
@@ -12772,7 +12772,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_marble_tile_pillar",
+    "alias": "tessera:brown_marble_tile_pillar",
     "id": 597,
     "texture": {
       "neg_y": "brown marble tile",
@@ -12795,7 +12795,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_marble_tile_stairs",
+    "alias": "tessera:cyan_marble_tile_stairs",
     "id": 598,
     "texture": {
       "neg_y": "cyan marble tile",
@@ -12818,7 +12818,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_marble_tile_slab",
+    "alias": "tessera:cyan_marble_tile_slab",
     "id": 599,
     "texture": {
       "neg_y": "cyan marble tile",
@@ -12841,7 +12841,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_marble_tile_pillar",
+    "alias": "tessera:cyan_marble_tile_pillar",
     "id": 600,
     "texture": {
       "neg_y": "cyan marble tile",
@@ -12864,7 +12864,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_chiseled_marble_tile_stairs",
+    "alias": "tessera:purple_chiseled_marble_tile_stairs",
     "id": 601,
     "texture": {
       "neg_y": "purple chiseled marble tile",
@@ -12887,7 +12887,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_chiseled_marble_tile_slab",
+    "alias": "tessera:purple_chiseled_marble_tile_slab",
     "id": 602,
     "texture": {
       "neg_y": "purple chiseled marble tile",
@@ -12910,7 +12910,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_chiseled_marble_tile_pillar",
+    "alias": "tessera:purple_chiseled_marble_tile_pillar",
     "id": 603,
     "texture": {
       "neg_y": "purple chiseled marble tile",
@@ -12933,7 +12933,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:burgundy_chiseled_marble_tile_stairs",
+    "alias": "tessera:burgundy_chiseled_marble_tile_stairs",
     "id": 604,
     "texture": {
       "neg_y": "burgundy chiseled marble tile",
@@ -12956,7 +12956,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:burgundy_chiseled_marble_tile_slab",
+    "alias": "tessera:burgundy_chiseled_marble_tile_slab",
     "id": 605,
     "texture": {
       "neg_y": "burgundy chiseled marble tile",
@@ -12979,7 +12979,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:burgundy_chiseled_marble_tile_pillar",
+    "alias": "tessera:burgundy_chiseled_marble_tile_pillar",
     "id": 606,
     "texture": {
       "neg_y": "burgundy chiseled marble tile",
@@ -13002,7 +13002,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_blue_marble_tile_stairs",
+    "alias": "tessera:pastel_blue_marble_tile_stairs",
     "id": 607,
     "texture": {
       "neg_y": "pastel blue marble tile",
@@ -13025,7 +13025,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_blue_marble_tile_slab",
+    "alias": "tessera:pastel_blue_marble_tile_slab",
     "id": 608,
     "texture": {
       "neg_y": "pastel blue marble tile",
@@ -13048,7 +13048,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_blue_marble_tile_pillar",
+    "alias": "tessera:pastel_blue_marble_tile_pillar",
     "id": 609,
     "texture": {
       "neg_y": "pastel blue marble tile",
@@ -13071,7 +13071,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_green_marble_tile_stairs",
+    "alias": "tessera:pastel_green_marble_tile_stairs",
     "id": 610,
     "texture": {
       "neg_y": "pastel green marble tile",
@@ -13094,7 +13094,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_green_marble_tile_slab",
+    "alias": "tessera:pastel_green_marble_tile_slab",
     "id": 611,
     "texture": {
       "neg_y": "pastel green marble tile",
@@ -13117,7 +13117,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_green_marble_tile_pillar",
+    "alias": "tessera:pastel_green_marble_tile_pillar",
     "id": 612,
     "texture": {
       "neg_y": "pastel green marble tile",
@@ -13140,7 +13140,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_marble_tile_stairs",
+    "alias": "tessera:magenta_marble_tile_stairs",
     "id": 613,
     "texture": {
       "neg_y": "magenta marble tile",
@@ -13163,7 +13163,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_marble_tile_slab",
+    "alias": "tessera:magenta_marble_tile_slab",
     "id": 614,
     "texture": {
       "neg_y": "magenta marble tile",
@@ -13186,7 +13186,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_marble_tile_pillar",
+    "alias": "tessera:magenta_marble_tile_pillar",
     "id": 615,
     "texture": {
       "neg_y": "magenta marble tile",
@@ -13209,7 +13209,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_red_chiseled_marble_tile_stairs",
+    "alias": "tessera:pastel_red_chiseled_marble_tile_stairs",
     "id": 616,
     "texture": {
       "neg_y": "pastel red chiseled marble tile",
@@ -13232,7 +13232,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_red_chiseled_marble_tile_slab",
+    "alias": "tessera:pastel_red_chiseled_marble_tile_slab",
     "id": 617,
     "texture": {
       "neg_y": "pastel red chiseled marble tile",
@@ -13255,7 +13255,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_red_chiseled_marble_tile_pillar",
+    "alias": "tessera:pastel_red_chiseled_marble_tile_pillar",
     "id": 618,
     "texture": {
       "neg_y": "pastel red chiseled marble tile",
@@ -13278,7 +13278,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_marble_tile_stairs",
+    "alias": "tessera:pink_marble_tile_stairs",
     "id": 619,
     "texture": {
       "neg_y": "pink marble tile",
@@ -13301,7 +13301,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_marble_tile_slab",
+    "alias": "tessera:pink_marble_tile_slab",
     "id": 620,
     "texture": {
       "neg_y": "pink marble tile",
@@ -13324,7 +13324,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_marble_tile_pillar",
+    "alias": "tessera:pink_marble_tile_pillar",
     "id": 621,
     "texture": {
       "neg_y": "pink marble tile",
@@ -13347,7 +13347,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_marble_tile_stairs",
+    "alias": "tessera:purple_marble_tile_stairs",
     "id": 622,
     "texture": {
       "neg_y": "purple marble tile",
@@ -13370,7 +13370,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_marble_tile_slab",
+    "alias": "tessera:purple_marble_tile_slab",
     "id": 623,
     "texture": {
       "neg_y": "purple marble tile",
@@ -13393,7 +13393,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_marble_tile_pillar",
+    "alias": "tessera:purple_marble_tile_pillar",
     "id": 624,
     "texture": {
       "neg_y": "purple marble tile",
@@ -13416,7 +13416,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:burgundy_marble_tile_stairs",
+    "alias": "tessera:burgundy_marble_tile_stairs",
     "id": 625,
     "texture": {
       "neg_y": "burgundy marble tile",
@@ -13439,7 +13439,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:burgundy_marble_tile_slab",
+    "alias": "tessera:burgundy_marble_tile_slab",
     "id": 626,
     "texture": {
       "neg_y": "burgundy marble tile",
@@ -13462,7 +13462,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:burgundy_marble_tile_pillar",
+    "alias": "tessera:burgundy_marble_tile_pillar",
     "id": 627,
     "texture": {
       "neg_y": "burgundy marble tile",
@@ -13485,7 +13485,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_red_marble_tile_stairs",
+    "alias": "tessera:pastel_red_marble_tile_stairs",
     "id": 628,
     "texture": {
       "neg_y": "pastel red marble tile",
@@ -13508,7 +13508,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_red_marble_tile_slab",
+    "alias": "tessera:pastel_red_marble_tile_slab",
     "id": 629,
     "texture": {
       "neg_y": "pastel red marble tile",
@@ -13531,7 +13531,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_red_marble_tile_pillar",
+    "alias": "tessera:pastel_red_marble_tile_pillar",
     "id": 630,
     "texture": {
       "neg_y": "pastel red marble tile",
@@ -13554,7 +13554,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_chiseled_marble_tile_stairs",
+    "alias": "tessera:yellow_chiseled_marble_tile_stairs",
     "id": 631,
     "texture": {
       "neg_y": "yellow chiseled marble tile",
@@ -13577,7 +13577,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_chiseled_marble_tile_slab",
+    "alias": "tessera:yellow_chiseled_marble_tile_slab",
     "id": 632,
     "texture": {
       "neg_y": "yellow chiseled marble tile",
@@ -13600,7 +13600,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_chiseled_marble_tile_pillar",
+    "alias": "tessera:yellow_chiseled_marble_tile_pillar",
     "id": 633,
     "texture": {
       "neg_y": "yellow chiseled marble tile",
@@ -13623,7 +13623,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_chiseled_marble_tile_stairs",
+    "alias": "tessera:black_chiseled_marble_tile_stairs",
     "id": 634,
     "texture": {
       "neg_y": "black chiseled marble tile",
@@ -13646,7 +13646,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_chiseled_marble_tile_slab",
+    "alias": "tessera:black_chiseled_marble_tile_slab",
     "id": 635,
     "texture": {
       "neg_y": "black chiseled marble tile",
@@ -13669,7 +13669,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_chiseled_marble_tile_pillar",
+    "alias": "tessera:black_chiseled_marble_tile_pillar",
     "id": 636,
     "texture": {
       "neg_y": "black chiseled marble tile",
@@ -13692,7 +13692,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_chiseled_marble_tile_stairs",
+    "alias": "tessera:blue_chiseled_marble_tile_stairs",
     "id": 637,
     "texture": {
       "neg_y": "blue chiseled marble tile",
@@ -13715,7 +13715,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_chiseled_marble_tile_slab",
+    "alias": "tessera:blue_chiseled_marble_tile_slab",
     "id": 638,
     "texture": {
       "neg_y": "blue chiseled marble tile",
@@ -13738,7 +13738,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_chiseled_marble_tile_pillar",
+    "alias": "tessera:blue_chiseled_marble_tile_pillar",
     "id": 639,
     "texture": {
       "neg_y": "blue chiseled marble tile",
@@ -13761,7 +13761,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_chiseled_marble_tile_stairs",
+    "alias": "tessera:brown_chiseled_marble_tile_stairs",
     "id": 640,
     "texture": {
       "neg_y": "brown chiseled marble tile",
@@ -13784,7 +13784,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_chiseled_marble_tile_slab",
+    "alias": "tessera:brown_chiseled_marble_tile_slab",
     "id": 641,
     "texture": {
       "neg_y": "brown chiseled marble tile",
@@ -13807,7 +13807,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_chiseled_marble_tile_pillar",
+    "alias": "tessera:brown_chiseled_marble_tile_pillar",
     "id": 642,
     "texture": {
       "neg_y": "brown chiseled marble tile",
@@ -13830,7 +13830,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_chiseled_marble_tile_stairs",
+    "alias": "tessera:cyan_chiseled_marble_tile_stairs",
     "id": 643,
     "texture": {
       "neg_y": "cyan chiseled marble tile",
@@ -13853,7 +13853,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_chiseled_marble_tile_slab",
+    "alias": "tessera:cyan_chiseled_marble_tile_slab",
     "id": 644,
     "texture": {
       "neg_y": "cyan chiseled marble tile",
@@ -13876,7 +13876,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_chiseled_marble_tile_pillar",
+    "alias": "tessera:cyan_chiseled_marble_tile_pillar",
     "id": 645,
     "texture": {
       "neg_y": "cyan chiseled marble tile",
@@ -13899,7 +13899,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_chiseled_marble_tile_stairs",
+    "alias": "tessera:gray_chiseled_marble_tile_stairs",
     "id": 646,
     "texture": {
       "neg_y": "gray chiseled marble tile",
@@ -13922,7 +13922,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_chiseled_marble_tile_slab",
+    "alias": "tessera:gray_chiseled_marble_tile_slab",
     "id": 647,
     "texture": {
       "neg_y": "gray chiseled marble tile",
@@ -13945,7 +13945,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_chiseled_marble_tile_pillar",
+    "alias": "tessera:gray_chiseled_marble_tile_pillar",
     "id": 648,
     "texture": {
       "neg_y": "gray chiseled marble tile",
@@ -13968,7 +13968,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_chiseled_marble_tile_stairs",
+    "alias": "tessera:green_chiseled_marble_tile_stairs",
     "id": 649,
     "texture": {
       "neg_y": "green chiseled marble tile",
@@ -13991,7 +13991,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_chiseled_marble_tile_slab",
+    "alias": "tessera:green_chiseled_marble_tile_slab",
     "id": 650,
     "texture": {
       "neg_y": "green chiseled marble tile",
@@ -14014,7 +14014,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_chiseled_marble_tile_pillar",
+    "alias": "tessera:green_chiseled_marble_tile_pillar",
     "id": 651,
     "texture": {
       "neg_y": "green chiseled marble tile",
@@ -14037,7 +14037,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_blue_chiseled_marble_tile_stairs",
+    "alias": "tessera:pastel_blue_chiseled_marble_tile_stairs",
     "id": 652,
     "texture": {
       "neg_y": "pastel blue chiseled marble tile",
@@ -14060,7 +14060,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_blue_chiseled_marble_tile_slab",
+    "alias": "tessera:pastel_blue_chiseled_marble_tile_slab",
     "id": 653,
     "texture": {
       "neg_y": "pastel blue chiseled marble tile",
@@ -14083,7 +14083,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_blue_chiseled_marble_tile_pillar",
+    "alias": "tessera:pastel_blue_chiseled_marble_tile_pillar",
     "id": 654,
     "texture": {
       "neg_y": "pastel blue chiseled marble tile",
@@ -14106,7 +14106,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_green_chiseled_marble_tile_stairs",
+    "alias": "tessera:pastel_green_chiseled_marble_tile_stairs",
     "id": 655,
     "texture": {
       "neg_y": "pastel green chiseled marble tile",
@@ -14129,7 +14129,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_green_chiseled_marble_tile_slab",
+    "alias": "tessera:pastel_green_chiseled_marble_tile_slab",
     "id": 656,
     "texture": {
       "neg_y": "pastel green chiseled marble tile",
@@ -14152,7 +14152,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pastel_green_chiseled_marble_tile_pillar",
+    "alias": "tessera:pastel_green_chiseled_marble_tile_pillar",
     "id": 657,
     "texture": {
       "neg_y": "pastel green chiseled marble tile",
@@ -14175,7 +14175,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_chiseled_marble_tile_stairs",
+    "alias": "tessera:magenta_chiseled_marble_tile_stairs",
     "id": 658,
     "texture": {
       "neg_y": "magenta chiseled marble tile",
@@ -14198,7 +14198,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_chiseled_marble_tile_slab",
+    "alias": "tessera:magenta_chiseled_marble_tile_slab",
     "id": 659,
     "texture": {
       "neg_y": "magenta chiseled marble tile",
@@ -14221,7 +14221,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_chiseled_marble_tile_pillar",
+    "alias": "tessera:magenta_chiseled_marble_tile_pillar",
     "id": 660,
     "texture": {
       "neg_y": "magenta chiseled marble tile",
@@ -14244,7 +14244,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_chiseled_marble_tile_stairs",
+    "alias": "tessera:orange_chiseled_marble_tile_stairs",
     "id": 661,
     "texture": {
       "neg_y": "orange chiseled marble tile",
@@ -14267,7 +14267,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_chiseled_marble_tile_slab",
+    "alias": "tessera:orange_chiseled_marble_tile_slab",
     "id": 662,
     "texture": {
       "neg_y": "orange chiseled marble tile",
@@ -14290,7 +14290,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_chiseled_marble_tile_pillar",
+    "alias": "tessera:orange_chiseled_marble_tile_pillar",
     "id": 663,
     "texture": {
       "neg_y": "orange chiseled marble tile",
@@ -14313,7 +14313,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_chiseled_marble_tile_stairs",
+    "alias": "tessera:pink_chiseled_marble_tile_stairs",
     "id": 664,
     "texture": {
       "neg_y": "pink chiseled marble tile",
@@ -14336,7 +14336,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_chiseled_marble_tile_slab",
+    "alias": "tessera:pink_chiseled_marble_tile_slab",
     "id": 665,
     "texture": {
       "neg_y": "pink chiseled marble tile",
@@ -14359,7 +14359,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_stained_wood",
+    "alias": "tessera:gray_stained_wood",
     "id": 666,
     "texture": {
       "neg_y": "gray stained wood",
@@ -14382,7 +14382,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_stained_wood",
+    "alias": "tessera:green_stained_wood",
     "id": 667,
     "texture": {
       "neg_y": "green stained wood",
@@ -14405,7 +14405,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_stained_wood",
+    "alias": "tessera:light_blue_stained_wood",
     "id": 668,
     "texture": {
       "neg_y": "light blue stained wood",
@@ -14428,7 +14428,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_stained_wood",
+    "alias": "tessera:lime_stained_wood",
     "id": 669,
     "texture": {
       "neg_y": "lime stained wood",
@@ -14451,7 +14451,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_stained_wood",
+    "alias": "tessera:magenta_stained_wood",
     "id": 670,
     "texture": {
       "neg_y": "magenta stained wood",
@@ -14474,7 +14474,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_stained_wood",
+    "alias": "tessera:orange_stained_wood",
     "id": 671,
     "texture": {
       "neg_y": "orange stained wood",
@@ -14497,7 +14497,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_stained_wood",
+    "alias": "tessera:pink_stained_wood",
     "id": 672,
     "texture": {
       "neg_y": "pink stained wood",
@@ -14520,7 +14520,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_stained_wood",
+    "alias": "tessera:purple_stained_wood",
     "id": 673,
     "texture": {
       "neg_y": "purple stained wood",
@@ -14543,7 +14543,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_space_tile_stairs",
+    "alias": "tessera:white_space_tile_stairs",
     "id": 674,
     "texture": {
       "neg_y": "white space tile",
@@ -14566,7 +14566,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_stained_wood",
+    "alias": "tessera:white_stained_wood",
     "id": 675,
     "texture": {
       "neg_y": "white stained wood",
@@ -14589,7 +14589,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:engraved_sandstone_2",
+    "alias": "tessera:engraved_sandstone_2",
     "id": 676,
     "texture": {
       "neg_y": "sandstone",
@@ -14612,7 +14612,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:engraved_red_sandstone_2",
+    "alias": "tessera:engraved_red_sandstone_2",
     "id": 677,
     "texture": {
       "neg_y": "red sandstone",
@@ -14635,7 +14635,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:peony_bush",
+    "alias": "tessera:peony_bush",
     "id": 678,
     "texture": {
       "neg_y": "peony bush",
@@ -14658,7 +14658,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:ice_block_stairs",
+    "alias": "tessera:ice_block_stairs",
     "id": 679,
     "texture": {
       "neg_y": "ice",
@@ -14681,7 +14681,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:ice_block_slab",
+    "alias": "tessera:ice_block_slab",
     "id": 680,
     "texture": {
       "neg_y": "ice",
@@ -14704,7 +14704,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:solar_panel",
+    "alias": "tessera:solar_panel",
     "id": 681,
     "texture": {
       "neg_y": "solar l",
@@ -14727,7 +14727,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:mosaic_bamboo_wood_stairs",
+    "alias": "tessera:mosaic_bamboo_wood_stairs",
     "id": 682,
     "texture": {
       "neg_y": "mosaic bamboo wood",
@@ -14750,7 +14750,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:mosaic_bamboo_wood_slab",
+    "alias": "tessera:mosaic_bamboo_wood_slab",
     "id": 683,
     "texture": {
       "neg_y": "mosaic bamboo wood",
@@ -14773,7 +14773,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:mosaic_bamboo_wood_fence",
+    "alias": "tessera:mosaic_bamboo_wood_fence",
     "id": 684,
     "texture": {
       "neg_y": "mosaic bamboo wood",
@@ -14796,7 +14796,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_stained_wood_stairs",
+    "alias": "tessera:yellow_stained_wood_stairs",
     "id": 685,
     "texture": {
       "neg_y": "yellow stained wood",
@@ -14819,7 +14819,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_stained_wood_slab",
+    "alias": "tessera:yellow_stained_wood_slab",
     "id": 686,
     "texture": {
       "neg_y": "yellow stained wood",
@@ -14842,7 +14842,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_stained_wood_fence",
+    "alias": "tessera:yellow_stained_wood_fence",
     "id": 687,
     "texture": {
       "neg_y": "yellow stained wood",
@@ -14865,7 +14865,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_stained_wood_stairs",
+    "alias": "tessera:black_stained_wood_stairs",
     "id": 688,
     "texture": {
       "neg_y": "black stained wood",
@@ -14888,7 +14888,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_stained_wood_slab",
+    "alias": "tessera:black_stained_wood_slab",
     "id": 689,
     "texture": {
       "neg_y": "black stained wood",
@@ -14911,7 +14911,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_stained_wood_fence",
+    "alias": "tessera:black_stained_wood_fence",
     "id": 690,
     "texture": {
       "neg_y": "black stained wood",
@@ -14934,7 +14934,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_stained_wood_stairs",
+    "alias": "tessera:blue_stained_wood_stairs",
     "id": 691,
     "texture": {
       "neg_y": "blue stained wood",
@@ -14957,7 +14957,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_stained_wood_slab",
+    "alias": "tessera:blue_stained_wood_slab",
     "id": 692,
     "texture": {
       "neg_y": "blue stained wood",
@@ -14980,7 +14980,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_stained_wood_fence",
+    "alias": "tessera:blue_stained_wood_fence",
     "id": 693,
     "texture": {
       "neg_y": "blue stained wood",
@@ -15003,7 +15003,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_stained_wood_stairs",
+    "alias": "tessera:cyan_stained_wood_stairs",
     "id": 694,
     "texture": {
       "neg_y": "cyan stained wood",
@@ -15026,7 +15026,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_stained_wood_slab",
+    "alias": "tessera:cyan_stained_wood_slab",
     "id": 695,
     "texture": {
       "neg_y": "cyan stained wood",
@@ -15049,7 +15049,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_stained_wood_fence",
+    "alias": "tessera:cyan_stained_wood_fence",
     "id": 696,
     "texture": {
       "neg_y": "cyan stained wood",
@@ -15072,7 +15072,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_stained_wood_stairs",
+    "alias": "tessera:gray_stained_wood_stairs",
     "id": 697,
     "texture": {
       "neg_y": "gray stained wood",
@@ -15095,7 +15095,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_stained_wood_slab",
+    "alias": "tessera:gray_stained_wood_slab",
     "id": 698,
     "texture": {
       "neg_y": "gray stained wood",
@@ -15118,7 +15118,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_stained_wood_fence",
+    "alias": "tessera:gray_stained_wood_fence",
     "id": 699,
     "texture": {
       "neg_y": "gray stained wood",
@@ -15141,7 +15141,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_stained_wood_stairs",
+    "alias": "tessera:green_stained_wood_stairs",
     "id": 700,
     "texture": {
       "neg_y": "green stained wood",
@@ -15164,7 +15164,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_stained_wood_slab",
+    "alias": "tessera:green_stained_wood_slab",
     "id": 701,
     "texture": {
       "neg_y": "green stained wood",
@@ -15187,7 +15187,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_stained_wood_fence",
+    "alias": "tessera:green_stained_wood_fence",
     "id": 702,
     "texture": {
       "neg_y": "green stained wood",
@@ -15210,7 +15210,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_stained_wood_stairs",
+    "alias": "tessera:light_blue_stained_wood_stairs",
     "id": 703,
     "texture": {
       "neg_y": "light blue stained wood",
@@ -15233,7 +15233,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_stained_wood_slab",
+    "alias": "tessera:light_blue_stained_wood_slab",
     "id": 704,
     "texture": {
       "neg_y": "light blue stained wood",
@@ -15256,7 +15256,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_stained_wood_fence",
+    "alias": "tessera:light_blue_stained_wood_fence",
     "id": 705,
     "texture": {
       "neg_y": "light blue stained wood",
@@ -15279,7 +15279,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_stained_wood_stairs",
+    "alias": "tessera:lime_stained_wood_stairs",
     "id": 706,
     "texture": {
       "neg_y": "lime stained wood",
@@ -15302,7 +15302,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_stained_wood_slab",
+    "alias": "tessera:lime_stained_wood_slab",
     "id": 707,
     "texture": {
       "neg_y": "lime stained wood",
@@ -15325,7 +15325,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_stained_wood_fence",
+    "alias": "tessera:lime_stained_wood_fence",
     "id": 708,
     "texture": {
       "neg_y": "lime stained wood",
@@ -15348,7 +15348,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_stained_wood_stairs",
+    "alias": "tessera:magenta_stained_wood_stairs",
     "id": 709,
     "texture": {
       "neg_y": "magenta stained wood",
@@ -15371,7 +15371,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_stained_wood_slab",
+    "alias": "tessera:magenta_stained_wood_slab",
     "id": 710,
     "texture": {
       "neg_y": "magenta stained wood",
@@ -15394,7 +15394,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_stained_wood_fence",
+    "alias": "tessera:magenta_stained_wood_fence",
     "id": 711,
     "texture": {
       "neg_y": "magenta stained wood",
@@ -15417,7 +15417,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_stained_wood_stairs",
+    "alias": "tessera:orange_stained_wood_stairs",
     "id": 712,
     "texture": {
       "neg_y": "orange stained wood",
@@ -15440,7 +15440,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_stained_wood_slab",
+    "alias": "tessera:orange_stained_wood_slab",
     "id": 713,
     "texture": {
       "neg_y": "orange stained wood",
@@ -15463,7 +15463,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_stained_wood_fence",
+    "alias": "tessera:orange_stained_wood_fence",
     "id": 714,
     "texture": {
       "neg_y": "orange stained wood",
@@ -15486,7 +15486,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_stained_wood_stairs",
+    "alias": "tessera:pink_stained_wood_stairs",
     "id": 715,
     "texture": {
       "neg_y": "pink stained wood",
@@ -15509,7 +15509,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_stained_wood_slab",
+    "alias": "tessera:pink_stained_wood_slab",
     "id": 716,
     "texture": {
       "neg_y": "pink stained wood",
@@ -15532,7 +15532,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_stained_wood_fence",
+    "alias": "tessera:pink_stained_wood_fence",
     "id": 717,
     "texture": {
       "neg_y": "pink stained wood",
@@ -15555,7 +15555,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_stained_wood_stairs",
+    "alias": "tessera:purple_stained_wood_stairs",
     "id": 718,
     "texture": {
       "neg_y": "purple stained wood",
@@ -15578,7 +15578,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_stained_wood_slab",
+    "alias": "tessera:purple_stained_wood_slab",
     "id": 719,
     "texture": {
       "neg_y": "purple stained wood",
@@ -15601,7 +15601,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_stained_wood_fence",
+    "alias": "tessera:purple_stained_wood_fence",
     "id": 720,
     "texture": {
       "neg_y": "purple stained wood",
@@ -15624,7 +15624,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_stained_wood_stairs",
+    "alias": "tessera:red_stained_wood_stairs",
     "id": 721,
     "texture": {
       "neg_y": "red stained wood",
@@ -15647,7 +15647,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_stained_wood_slab",
+    "alias": "tessera:red_stained_wood_slab",
     "id": 722,
     "texture": {
       "neg_y": "red stained wood",
@@ -15670,7 +15670,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_stained_wood_fence",
+    "alias": "tessera:red_stained_wood_fence",
     "id": 723,
     "texture": {
       "neg_y": "red stained wood",
@@ -15693,7 +15693,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_stained_wood_stairs",
+    "alias": "tessera:white_stained_wood_stairs",
     "id": 724,
     "texture": {
       "neg_y": "white stained wood",
@@ -15716,7 +15716,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_stained_wood_slab",
+    "alias": "tessera:white_stained_wood_slab",
     "id": 725,
     "texture": {
       "neg_y": "white stained wood",
@@ -15739,7 +15739,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_stained_wood_fence",
+    "alias": "tessera:white_stained_wood_fence",
     "id": 726,
     "texture": {
       "neg_y": "white stained wood",
@@ -15762,7 +15762,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_space_tile",
+    "alias": "tessera:white_space_tile",
     "id": 727,
     "texture": {
       "neg_y": "white space tile",
@@ -15785,7 +15785,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_space_tile",
+    "alias": "tessera:gray_space_tile",
     "id": 728,
     "texture": {
       "neg_y": "gray space tile",
@@ -15808,7 +15808,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_space_tile_slab",
+    "alias": "tessera:white_space_tile_slab",
     "id": 729,
     "texture": {
       "neg_y": "white space tile",
@@ -15831,7 +15831,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_space_tile_stairs",
+    "alias": "tessera:gray_space_tile_stairs",
     "id": 730,
     "texture": {
       "neg_y": "gray space tile",
@@ -15854,7 +15854,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_space_tile_slab",
+    "alias": "tessera:gray_space_tile_slab",
     "id": 731,
     "texture": {
       "neg_y": "gray space tile",
@@ -15877,7 +15877,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:spruce_log",
+    "alias": "tessera:spruce_log",
     "id": 732,
     "texture": {
       "neg_y": "spruce log",
@@ -15902,7 +15902,7 @@
     }
   },
   {
-    "alias": "xbuilders:spruce_leaves",
+    "alias": "tessera:spruce_leaves",
     "id": 733,
     "texture": {
       "neg_y": "spruce leaves",
@@ -15926,7 +15926,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:spruce_sapling",
+    "alias": "tessera:spruce_sapling",
     "id": 734,
     "texture": {
       "neg_y": "spruce sapling",
@@ -15947,7 +15947,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:merge_track",
+    "alias": "tessera:merge_track",
     "id": 736,
     "texture": {
       "neg_y": "merge track",
@@ -15968,7 +15968,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:20_hp_engine",
+    "alias": "tessera:20_hp_engine",
     "id": 741,
     "texture": {
       "neg_y": "30 hp engine",
@@ -15991,7 +15991,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:70_hp_engine",
+    "alias": "tessera:70_hp_engine",
     "id": 744,
     "texture": {
       "neg_y": "30 hp engine",
@@ -16014,7 +16014,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:silver_brick",
+    "alias": "tessera:silver_brick",
     "id": 747,
     "texture": {
       "neg_y": "silver brick",
@@ -16037,7 +16037,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:large_helicopter_blade",
+    "alias": "tessera:large_helicopter_blade",
     "id": 749,
     "texture": {
       "neg_y": "large helicopter blade",
@@ -16060,7 +16060,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:small_helicopter_blade",
+    "alias": "tessera:small_helicopter_blade",
     "id": 750,
     "texture": {
       "neg_y": "large helicopter blade",
@@ -16083,7 +16083,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_carpet",
+    "alias": "tessera:yellow_carpet",
     "id": 752,
     "texture": {
       "neg_y": "yellow glazed teracotta",
@@ -16104,7 +16104,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:black_carpet",
+    "alias": "tessera:black_carpet",
     "id": 753,
     "texture": {
       "neg_y": "black glazed teracotta",
@@ -16125,7 +16125,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_carpet",
+    "alias": "tessera:blue_carpet",
     "id": 754,
     "texture": {
       "neg_y": "blue glazed teracotta",
@@ -16146,7 +16146,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_carpet",
+    "alias": "tessera:brown_carpet",
     "id": 755,
     "texture": {
       "neg_y": "brown glazed teracotta",
@@ -16167,7 +16167,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_carpet",
+    "alias": "tessera:cyan_carpet",
     "id": 756,
     "texture": {
       "neg_y": "cyan glazed teracotta",
@@ -16188,7 +16188,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_carpet",
+    "alias": "tessera:gray_carpet",
     "id": 757,
     "texture": {
       "neg_y": "gray glazed teracotta",
@@ -16209,7 +16209,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_carpet",
+    "alias": "tessera:green_carpet",
     "id": 758,
     "texture": {
       "neg_y": "green glazed teracotta",
@@ -16230,7 +16230,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_blue_carpet",
+    "alias": "tessera:light_blue_carpet",
     "id": 759,
     "texture": {
       "neg_y": "light blue glazed teracotta",
@@ -16251,7 +16251,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_carpet",
+    "alias": "tessera:light_gray_carpet",
     "id": 760,
     "texture": {
       "neg_y": "light gray glazed teracotta",
@@ -16272,7 +16272,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lime_carpet",
+    "alias": "tessera:lime_carpet",
     "id": 761,
     "texture": {
       "neg_y": "lime glazed teracotta",
@@ -16293,7 +16293,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_carpet",
+    "alias": "tessera:magenta_carpet",
     "id": 762,
     "texture": {
       "neg_y": "magenta glazed teracotta",
@@ -16314,7 +16314,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_carpet",
+    "alias": "tessera:orange_carpet",
     "id": 763,
     "texture": {
       "neg_y": "orange glazed teracotta",
@@ -16335,7 +16335,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_carpet",
+    "alias": "tessera:pink_carpet",
     "id": 764,
     "texture": {
       "neg_y": "pink glazed teracotta",
@@ -16356,7 +16356,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_carpet",
+    "alias": "tessera:purple_carpet",
     "id": 765,
     "texture": {
       "neg_y": "purple glazed teracotta",
@@ -16377,7 +16377,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_carpet",
+    "alias": "tessera:red_carpet",
     "id": 766,
     "texture": {
       "neg_y": "red glazed teracotta",
@@ -16398,7 +16398,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_carpet",
+    "alias": "tessera:white_carpet",
     "id": 767,
     "texture": {
       "neg_y": "white glazed teracotta",
@@ -16419,7 +16419,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gold_seat",
+    "alias": "tessera:gold_seat",
     "id": 768,
     "texture": {
       "neg_y": "gold seat",
@@ -16442,7 +16442,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gold_siding",
+    "alias": "tessera:gold_siding",
     "id": 769,
     "texture": {
       "neg_y": "gold siding",
@@ -16465,7 +16465,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:tan_seat",
+    "alias": "tessera:tan_seat",
     "id": 770,
     "texture": {
       "neg_y": "tan seat",
@@ -16488,7 +16488,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:tan_siding",
+    "alias": "tessera:tan_siding",
     "id": 771,
     "texture": {
       "neg_y": "tan siding",
@@ -16511,7 +16511,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_seat",
+    "alias": "tessera:brown_seat",
     "id": 772,
     "texture": {
       "neg_y": "brown seat",
@@ -16534,7 +16534,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:brown_siding",
+    "alias": "tessera:brown_siding",
     "id": 773,
     "texture": {
       "neg_y": "brown siding",
@@ -16557,7 +16557,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_seat",
+    "alias": "tessera:cyan_seat",
     "id": 774,
     "texture": {
       "neg_y": "cyan seat",
@@ -16580,7 +16580,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:cyan_siding",
+    "alias": "tessera:cyan_siding",
     "id": 775,
     "texture": {
       "neg_y": "cyan siding",
@@ -16603,7 +16603,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_seat",
+    "alias": "tessera:gray_seat",
     "id": 776,
     "texture": {
       "neg_y": "gray seat",
@@ -16626,7 +16626,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gray_siding",
+    "alias": "tessera:gray_siding",
     "id": 777,
     "texture": {
       "neg_y": "gray siding",
@@ -16649,7 +16649,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_seat",
+    "alias": "tessera:green_seat",
     "id": 778,
     "texture": {
       "neg_y": "green seat",
@@ -16672,7 +16672,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:green_siding",
+    "alias": "tessera:green_siding",
     "id": 779,
     "texture": {
       "neg_y": "green siding",
@@ -16695,7 +16695,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_seat",
+    "alias": "tessera:blue_seat",
     "id": 780,
     "texture": {
       "neg_y": "blue seat",
@@ -16718,7 +16718,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:blue_siding",
+    "alias": "tessera:blue_siding",
     "id": 781,
     "texture": {
       "neg_y": "blue siding",
@@ -16741,7 +16741,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_seat",
+    "alias": "tessera:light_gray_seat",
     "id": 782,
     "texture": {
       "neg_y": "light gray seat",
@@ -16764,7 +16764,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_gray_siding",
+    "alias": "tessera:light_gray_siding",
     "id": 783,
     "texture": {
       "neg_y": "light gray siding",
@@ -16787,7 +16787,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_green_seat",
+    "alias": "tessera:light_green_seat",
     "id": 784,
     "texture": {
       "neg_y": "light green seat",
@@ -16810,7 +16810,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:light_green_siding",
+    "alias": "tessera:light_green_siding",
     "id": 785,
     "texture": {
       "neg_y": "light green siding",
@@ -16833,7 +16833,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_seat",
+    "alias": "tessera:magenta_seat",
     "id": 786,
     "texture": {
       "neg_y": "magenta seat",
@@ -16856,7 +16856,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:magenta_siding",
+    "alias": "tessera:magenta_siding",
     "id": 787,
     "texture": {
       "neg_y": "magenta siding",
@@ -16879,7 +16879,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_seat",
+    "alias": "tessera:orange_seat",
     "id": 788,
     "texture": {
       "neg_y": "orange seat",
@@ -16902,7 +16902,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:orange_siding",
+    "alias": "tessera:orange_siding",
     "id": 789,
     "texture": {
       "neg_y": "orange siding",
@@ -16925,7 +16925,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_seat",
+    "alias": "tessera:pink_seat",
     "id": 790,
     "texture": {
       "neg_y": "pink seat",
@@ -16948,7 +16948,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pink_siding",
+    "alias": "tessera:pink_siding",
     "id": 791,
     "texture": {
       "neg_y": "pink siding",
@@ -16971,7 +16971,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_seat",
+    "alias": "tessera:purple_seat",
     "id": 792,
     "texture": {
       "neg_y": "purple seat",
@@ -16994,7 +16994,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:purple_siding",
+    "alias": "tessera:purple_siding",
     "id": 793,
     "texture": {
       "neg_y": "purple siding",
@@ -17017,7 +17017,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_seat",
+    "alias": "tessera:red_seat",
     "id": 794,
     "texture": {
       "neg_y": "red seat",
@@ -17040,7 +17040,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:red_siding",
+    "alias": "tessera:red_siding",
     "id": 795,
     "texture": {
       "neg_y": "red siding",
@@ -17063,7 +17063,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_seat",
+    "alias": "tessera:white_seat",
     "id": 796,
     "texture": {
       "neg_y": "white seat",
@@ -17086,7 +17086,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:white_siding",
+    "alias": "tessera:white_siding",
     "id": 797,
     "texture": {
       "neg_y": "white siding",
@@ -17109,7 +17109,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_seat",
+    "alias": "tessera:yellow_seat",
     "id": 798,
     "texture": {
       "neg_y": "yellow seat",
@@ -17132,7 +17132,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:yellow_siding",
+    "alias": "tessera:yellow_siding",
     "id": 799,
     "texture": {
       "neg_y": "yellow siding",
@@ -17155,7 +17155,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wire",
+    "alias": "tessera:wire",
     "id": 737,
     "texture": {
       "neg_y": "red wire",

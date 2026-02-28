@@ -67,7 +67,7 @@ public class Client {
         //Process args
         System.out.println("args: " + Arrays.toString(args));
         String appDataDir = null;
-        title = "XBuilders";
+        title = "tessera";
 
         for (String arg : args) {
             if (arg.equals("devmode")) {

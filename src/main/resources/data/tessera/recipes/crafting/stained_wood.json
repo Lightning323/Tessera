@@ -3,128 +3,128 @@
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:yellow_dye"
+      "tessera:yellow_dye"
     ],
-    "output": "xbuilders:yellow_stained_wood",
+    "output": "tessera:yellow_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:black_dye"
+      "tessera:black_dye"
     ],
-    "output": "xbuilders:black_stained_wood",
+    "output": "tessera:black_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:cyan_dye"
+      "tessera:cyan_dye"
     ],
-    "output": "xbuilders:cyan_stained_wood",
+    "output": "tessera:cyan_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:gray_dye"
+      "tessera:gray_dye"
     ],
-    "output": "xbuilders:gray_stained_wood",
+    "output": "tessera:gray_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:green_dye"
+      "tessera:green_dye"
     ],
-    "output": "xbuilders:green_stained_wood",
+    "output": "tessera:green_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:blue_dye",
-      "xbuilders:white_dye"
+      "tessera:blue_dye",
+      "tessera:white_dye"
     ],
-    "output": "xbuilders:light_blue_stained_wood",
+    "output": "tessera:light_blue_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:red_dye"
+      "tessera:red_dye"
     ],
-    "output": "xbuilders:red_stained_wood",
+    "output": "tessera:red_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:blue_dye"
+      "tessera:blue_dye"
     ],
-    "output": "xbuilders:blue_stained_wood",
+    "output": "tessera:blue_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:lime_dye"
+      "tessera:lime_dye"
     ],
-    "output": "xbuilders:lime_stained_wood",
+    "output": "tessera:lime_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:magenta_dye"
+      "tessera:magenta_dye"
     ],
-    "output": "xbuilders:magenta_stained_wood",
+    "output": "tessera:magenta_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:orange_dye"
+      "tessera:orange_dye"
     ],
-    "output": "xbuilders:orange_stained_wood",
+    "output": "tessera:orange_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:magenta_dye",
-      "xbuilders:white_dye"
+      "tessera:magenta_dye",
+      "tessera:white_dye"
     ],
-    "output": "xbuilders:pink_stained_wood",
+    "output": "tessera:pink_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:purple_dye"
+      "tessera:purple_dye"
     ],
-    "output": "xbuilders:purple_stained_wood",
+    "output": "tessera:purple_stained_wood",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
       "#wood",
-      "xbuilders:white_dye"
+      "tessera:white_dye"
     ],
-    "output": "xbuilders:white_stained_wood",
+    "output": "tessera:white_stained_wood",
     "amount": 1
   }
 ]

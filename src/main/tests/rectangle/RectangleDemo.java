@@ -2,11 +2,11 @@
 // * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 // */
 //
-//package com.xbuilders.tests.rectangle;
+//package com.tessera.tests.rectangle;
 //
-//import com.xbuilders.engine.client.visuals.RectOverlay;
-//import com.xbuilders.window.Window;
-//import com.xbuilders.window.utils.texture.TextureUtils;
+//import com.tessera.engine.client.visuals.RectOverlay;
+//import com.tessera.window.Window;
+//import com.tessera.window.utils.texture.TextureUtils;
 //import org.lwjgl.opengl.GL11;
 //
 //import javax.imageio.ImageIO;

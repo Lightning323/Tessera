@@ -8,11 +8,11 @@
       null,
       null,
       null,
-      "xbuilders:wheat",
-      "xbuilders:wheat",
-      "xbuilders:wheat"
+      "tessera:wheat",
+      "tessera:wheat",
+      "tessera:wheat"
     ],
-    "output": "xbuilders:bread",
+    "output": "tessera:bread",
     "amount": 1
   },
   {
@@ -22,77 +22,77 @@
       null,
       null,
       null,
-      "xbuilders:wheat",
+      "tessera:wheat",
       null,
-      "xbuilders:wheat",
+      "tessera:wheat",
       null,
-      "xbuilders:wheat"
+      "tessera:wheat"
     ],
-    "output": "xbuilders:croissant",
+    "output": "tessera:croissant",
     "amount": 1
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:carrot",
-      "xbuilders:carrot",
-      "xbuilders:carrot",
-      "xbuilders:sugar",
-      "xbuilders:sugar",
-      "xbuilders:sugar",
-      "xbuilders:wheat",
-      "xbuilders:wheat",
-      "xbuilders:wheat"
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:wheat",
+      "tessera:wheat",
+      "tessera:wheat"
     ],
-    "output": "xbuilders:cake",
+    "output": "tessera:cake",
     "amount": 1
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:apple",
-      "xbuilders:apple",
-      "xbuilders:apple",
-      "xbuilders:sugar",
-      "xbuilders:sugar",
-      "xbuilders:sugar",
-      "xbuilders:wheat",
-      "xbuilders:wheat",
-      "xbuilders:wheat"
+      "tessera:apple",
+      "tessera:apple",
+      "tessera:apple",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:wheat",
+      "tessera:wheat",
+      "tessera:wheat"
     ],
-    "output": "xbuilders:apple_pie",
+    "output": "tessera:apple_pie",
     "amount": 2
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:pumpkin",
-      "xbuilders:pumpkin",
-      "xbuilders:pumpkin",
-      "xbuilders:sugar",
-      "xbuilders:sugar",
-      "xbuilders:sugar",
-      "xbuilders:wheat",
-      "xbuilders:wheat",
-      "xbuilders:wheat"
+      "tessera:pumpkin",
+      "tessera:pumpkin",
+      "tessera:pumpkin",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:wheat",
+      "tessera:wheat",
+      "tessera:wheat"
     ],
-    "output": "xbuilders:pumpkin_pie",
+    "output": "tessera:pumpkin_pie",
     "amount": 2
   },
   {
     "shapeless": false,
     "input": [
       null,
-      "xbuilders:sugar",
+      "tessera:sugar",
       null,
-      "xbuilders:sugar",
-      "xbuilders:wheat",
-      "xbuilders:sugar",
+      "tessera:sugar",
+      "tessera:wheat",
+      "tessera:sugar",
       null,
-      "xbuilders:sugar",
+      "tessera:sugar",
       null
     ],
-    "output": "xbuilders:cookie",
+    "output": "tessera:cookie",
     "amount": 1
   }
 ]

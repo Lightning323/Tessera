@@ -11,118 +11,118 @@
       "#wood",
       null
     ],
-    "output": "xbuilders:stick",
+    "output": "tessera:stick",
     "amount": 4
   },
   {
     "input": [
-      "xbuilders:wool",
-      "xbuilders:wool",
-      "xbuilders:wool",
-      "xbuilders:string",
-      "xbuilders:gold_ingot",
-      "xbuilders:string",
-      "xbuilders:wool",
-      "xbuilders:wool",
-      "xbuilders:wool"
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:string",
+      "tessera:gold_ingot",
+      "tessera:string",
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:wool"
     ],
-    "output": "xbuilders:saddle",
+    "output": "tessera:saddle",
     "amount": 1
   },
   {
     "input": [
-      "xbuilders:tnt",
-      "xbuilders:tnt",
-      "xbuilders:tnt",
-      "xbuilders:tnt",
-      "xbuilders:tnt",
-      "xbuilders:tnt"
+      "tessera:tnt",
+      "tessera:tnt",
+      "tessera:tnt",
+      "tessera:tnt",
+      "tessera:tnt",
+      "tessera:tnt"
     ],
     "shapeless": true,
-    "output": "xbuilders:mega_tnt",
+    "output": "tessera:mega_tnt",
     "amount": 1
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:carrot",
-      "xbuilders:carrot",
-      "xbuilders:carrot",
-      "xbuilders:carrot",
-      "xbuilders:gold_ingot",
-      "xbuilders:carrot",
-      "xbuilders:carrot",
-      "xbuilders:carrot",
-      "xbuilders:carrot"
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:gold_ingot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot"
     ],
-    "output": "xbuilders:animal_feed",
+    "output": "tessera:animal_feed",
     "amount": 32
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:coal",
-      "xbuilders:stick"
+      "tessera:coal",
+      "tessera:stick"
     ],
-    "output": "xbuilders:torch",
+    "output": "tessera:torch",
     "amount": 4
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:torch",
-      "xbuilders:blue_dye"
+      "tessera:torch",
+      "tessera:blue_dye"
     ],
-    "output": "xbuilders:blue_torch",
+    "output": "tessera:blue_torch",
     "amount": 2
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:charcoal",
-      "xbuilders:stick"
+      "tessera:charcoal",
+      "tessera:stick"
     ],
-    "output": "xbuilders:torch",
+    "output": "tessera:torch",
     "amount": 4
   },
   {
     "input": [
-      "xbuilders:iron_ingot",
+      "tessera:iron_ingot",
       null,
-      "xbuilders:iron_ingot",
+      "tessera:iron_ingot",
       null,
-      "xbuilders:iron_ingot",
+      "tessera:iron_ingot",
       null,
       null,
       null,
       null
     ],
-    "output": "xbuilders:bucket",
+    "output": "tessera:bucket",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:obsidian",
-      "xbuilders:water"
+      "tessera:obsidian",
+      "tessera:water"
     ],
-    "output": "xbuilders:lava",
+    "output": "tessera:lava",
     "amount": 1
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:stone",
-      "xbuilders:stone",
-      "xbuilders:stone",
-      "xbuilders:stone",
-      "xbuilders:coal",
-      "xbuilders:stone",
-      "xbuilders:raw_iron",
-      "xbuilders:raw_iron",
-      "xbuilders:raw_iron"
+      "tessera:stone",
+      "tessera:stone",
+      "tessera:stone",
+      "tessera:stone",
+      "tessera:coal",
+      "tessera:stone",
+      "tessera:raw_iron",
+      "tessera:raw_iron",
+      "tessera:raw_iron"
     ],
-    "output": "xbuilders:furnace",
+    "output": "tessera:furnace",
     "amount": 1
   },
   {
@@ -138,52 +138,52 @@
       "#wood",
       "#wood"
     ],
-    "output": "xbuilders:barrel",
+    "output": "tessera:barrel",
     "amount": 1
   },
   {
     "input": [
-      "xbuilders:stick",
+      "tessera:stick",
       null,
-      "xbuilders:stick",
-      "xbuilders:stick",
-      "xbuilders:iron_ingot",
-      "xbuilders:stick",
-      "xbuilders:stick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:iron_ingot",
+      "tessera:stick",
+      "tessera:stick",
       null,
-      "xbuilders:stick"
+      "tessera:stick"
     ],
-    "output": "xbuilders:track",
+    "output": "tessera:track",
     "amount": 16
   },
   {
     "input": [
-      "xbuilders:stick",
-      "xbuilders:stick",
-      "xbuilders:stick",
-      "xbuilders:gold_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:gold_ingot",
-      "xbuilders:stick",
-      "xbuilders:stick",
-      "xbuilders:stick"
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:gold_ingot",
+      "tessera:iron_ingot",
+      "tessera:gold_ingot",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:stick"
     ],
-    "output": "xbuilders:switch_junction",
+    "output": "tessera:switch_junction",
     "amount": 4
   },
   {
     "input": [
-      "xbuilders:stick",
+      "tessera:stick",
       null,
-      "xbuilders:stick",
-      "xbuilders:stick",
-      "xbuilders:gold_ingot",
-      "xbuilders:stick",
-      "xbuilders:stick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:gold_ingot",
+      "tessera:stick",
+      "tessera:stick",
       null,
-      "xbuilders:stick"
+      "tessera:stick"
     ],
-    "output": "xbuilders:track_stop",
+    "output": "tessera:track_stop",
     "amount": 4
   },
   {
@@ -191,121 +191,105 @@
       null,
       null,
       null,
-      "xbuilders:iron_ingot",
+      "tessera:iron_ingot",
       null,
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot"
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot"
     ],
-    "output": "xbuilders:iron_minecart",
+    "output": "tessera:iron_minecart",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:iron_minecart",
-      "xbuilders:red_dye"
+      "tessera:iron_minecart",
+      "tessera:red_dye"
     ],
-    "output": "xbuilders:red_minecart",
+    "output": "tessera:red_minecart",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:sugar",
-      "xbuilders:sugar",
-      "xbuilders:sugar",
-      "xbuilders:sugar"
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:sugar"
     ],
-    "output": "xbuilders:string",
+    "output": "tessera:string",
     "amount": 16
   },
   {
     "input": [
-      "xbuilders:string",
-      "xbuilders:string",
-      "xbuilders:string",
-      "xbuilders:string",
-      "xbuilders:string",
-      "xbuilders:string",
-      "xbuilders:string",
-      "xbuilders:string",
-      "xbuilders:string"
+      "tessera:string",
+      "tessera:string",
+      "tessera:string",
+      "tessera:string",
+      "tessera:string",
+      "tessera:string",
+      "tessera:string",
+      "tessera:string",
+      "tessera:string"
     ],
-    "output": "xbuilders:wool",
+    "output": "tessera:wool",
     "amount": 16
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:iron_minecart",
-      "xbuilders:charcoal"
+      "tessera:iron_minecart",
+      "tessera:charcoal"
     ],
-    "output": "xbuilders:charcoal_minecart",
+    "output": "tessera:charcoal_minecart",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:iron_minecart",
-      "xbuilders:blue_dye"
+      "tessera:iron_minecart",
+      "tessera:blue_dye"
     ],
-    "output": "xbuilders:blue_minecart",
+    "output": "tessera:blue_minecart",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:sugar_cane",
-      "xbuilders:sugar_cane",
-      "xbuilders:sugar_cane",
-      "xbuilders:sugar_cane"
+      "tessera:sugar_cane",
+      "tessera:sugar_cane",
+      "tessera:sugar_cane",
+      "tessera:sugar_cane"
     ],
-    "output": "xbuilders:sugar",
+    "output": "tessera:sugar",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:iron_minecart",
-      "xbuilders:yellow_dye"
+      "tessera:iron_minecart",
+      "tessera:yellow_dye"
     ],
-    "output": "xbuilders:yellow_minecart",
+    "output": "tessera:yellow_minecart",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:iron_minecart",
-      "xbuilders:green_dye"
+      "tessera:iron_minecart",
+      "tessera:green_dye"
     ],
-    "output": "xbuilders:green_minecart",
+    "output": "tessera:green_minecart",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:iron_minecart",
-      "xbuilders:cyan_dye"
+      "tessera:iron_minecart",
+      "tessera:cyan_dye"
     ],
-    "output": "xbuilders:cyan_minecart",
-    "amount": 1
-  },
-  {
-    "shapeless": false,
-    "input": [
-      null,
-      null,
-      null,
-      "xbuilders:oak_wood",
-      null,
-      "xbuilders:oak_wood",
-      "xbuilders:oak_wood",
-      "xbuilders:oak_wood",
-      "xbuilders:oak_wood"
-    ],
-    "output": "xbuilders:oak_boat",
+    "output": "tessera:cyan_minecart",
     "amount": 1
   },
   {
@@ -314,14 +298,14 @@
       null,
       null,
       null,
-      "xbuilders:spruce_wood",
+      "tessera:oak_wood",
       null,
-      "xbuilders:spruce_wood",
-      "xbuilders:spruce_wood",
-      "xbuilders:spruce_wood",
-      "xbuilders:spruce_wood"
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood"
     ],
-    "output": "xbuilders:spruce_boat",
+    "output": "tessera:oak_boat",
     "amount": 1
   },
   {
@@ -330,14 +314,14 @@
       null,
       null,
       null,
-      "xbuilders:acacia_wood",
+      "tessera:spruce_wood",
       null,
-      "xbuilders:acacia_wood",
-      "xbuilders:acacia_wood",
-      "xbuilders:acacia_wood",
-      "xbuilders:acacia_wood"
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood"
     ],
-    "output": "xbuilders:acacia_boat",
+    "output": "tessera:spruce_boat",
     "amount": 1
   },
   {
@@ -346,14 +330,14 @@
       null,
       null,
       null,
-      "xbuilders:jungle_wood",
+      "tessera:acacia_wood",
       null,
-      "xbuilders:jungle_wood",
-      "xbuilders:jungle_wood",
-      "xbuilders:jungle_wood",
-      "xbuilders:jungle_wood"
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood"
     ],
-    "output": "xbuilders:jungle_boat",
+    "output": "tessera:acacia_boat",
     "amount": 1
   },
   {
@@ -362,70 +346,86 @@
       null,
       null,
       null,
-      "xbuilders:birch_wood",
+      "tessera:jungle_wood",
       null,
-      "xbuilders:birch_wood",
-      "xbuilders:birch_wood",
-      "xbuilders:birch_wood",
-      "xbuilders:birch_wood"
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood"
     ],
-    "output": "xbuilders:birch_boat",
+    "output": "tessera:jungle_boat",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:birch_wood",
+      null,
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood"
+    ],
+    "output": "tessera:birch_boat",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:dead_bush"
+      "tessera:dead_bush"
     ],
-    "output": "xbuilders:stick",
+    "output": "tessera:stick",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:acacia_log"
+      "tessera:acacia_log"
     ],
-    "output": "xbuilders:acacia_wood",
+    "output": "tessera:acacia_wood",
     "amount": 4
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:birch_log"
+      "tessera:birch_log"
     ],
-    "output": "xbuilders:birch_wood",
+    "output": "tessera:birch_wood",
     "amount": 4
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:jungle_log"
+      "tessera:jungle_log"
     ],
-    "output": "xbuilders:jungle_wood",
+    "output": "tessera:jungle_wood",
     "amount": 4
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:oak_log"
+      "tessera:oak_log"
     ],
-    "output": "xbuilders:oak_wood",
+    "output": "tessera:oak_wood",
     "amount": 4
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:spruce_log"
+      "tessera:spruce_log"
     ],
-    "output": "xbuilders:spruce_wood",
+    "output": "tessera:spruce_wood",
     "amount": 4
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:dark_oak_log"
+      "tessera:dark_oak_log"
     ],
-    "output": "xbuilders:dark_oak_wood",
+    "output": "tessera:dark_oak_wood",
     "amount": 4
   }
 ]

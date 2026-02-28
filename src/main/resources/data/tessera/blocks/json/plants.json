@@ -1,6 +1,6 @@
 [
   {
-    "alias": "xbuilders:pumpkin_seeds",
+    "alias": "tessera:pumpkin_seeds",
     "id": 1002,
     "texture": {
       "neg_y": "pumpkin_seed",
@@ -15,7 +15,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wheat_seeds",
+    "alias": "tessera:wheat_seeds",
     "id": 162,
     "texture": {
       "neg_y": "wheat seeds",
@@ -36,7 +36,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:carrot_seeds",
+    "alias": "tessera:carrot_seeds",
     "id": 163,
     "texture": {
       "neg_y": "carrot seeds",
@@ -57,7 +57,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:potato_seeds",
+    "alias": "tessera:potato_seeds",
     "id": 165,
     "texture": {
       "neg_y": "carrot seeds",
@@ -78,7 +78,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:potato_growth_1",
+    "alias": "tessera:potato_growth_1",
     "id": 166,
     "texture": {
       "neg_y": "a1",
@@ -92,7 +92,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:potato_growth_2",
+    "alias": "tessera:potato_growth_2",
     "id": 167,
     "texture": {
       "neg_y": "a2",
@@ -106,7 +106,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:carrot_growth_1",
+    "alias": "tessera:carrot_growth_1",
     "id": 549,
     "texture": {
       "neg_y": "a1",
@@ -120,7 +120,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:carrot_growth_2",
+    "alias": "tessera:carrot_growth_2",
     "id": 735,
     "texture": {
       "neg_y": "a2",
@@ -134,7 +134,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:beetroot_growth_1",
+    "alias": "tessera:beetroot_growth_1",
     "id": 738,
     "texture": {
       "neg_y": "a1",
@@ -148,7 +148,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:beetroot_growth_2",
+    "alias": "tessera:beetroot_growth_2",
     "id": 739,
     "texture": {
       "neg_y": "a2",
@@ -162,7 +162,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wheat_growth_1",
+    "alias": "tessera:wheat_growth_1",
     "id": 168,
     "texture": {
       "neg_y": "b1",
@@ -183,7 +183,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wheat_growth_2",
+    "alias": "tessera:wheat_growth_2",
     "id": 169,
     "texture": {
       "neg_y": "b2",
@@ -204,7 +204,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wheat_growth_3",
+    "alias": "tessera:wheat_growth_3",
     "id": 170,
     "texture": {
       "neg_y": "b3",
@@ -225,7 +225,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wheat_growth_4",
+    "alias": "tessera:wheat_growth_4",
     "id": 171,
     "texture": {
       "neg_y": "b4",
@@ -246,7 +246,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wheat_growth_5",
+    "alias": "tessera:wheat_growth_5",
     "id": 172,
     "texture": {
       "neg_y": "b5",
@@ -267,7 +267,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wheat_growth_6",
+    "alias": "tessera:wheat_growth_6",
     "id": 173,
     "texture": {
       "neg_y": "b6",
@@ -288,7 +288,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:wheat",
+    "alias": "tessera:wheat",
     "id": 121,
     "texture": {
       "neg_y": "wheat",
@@ -309,7 +309,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:carrots",
+    "alias": "tessera:carrots",
     "id": 122,
     "texture": {
       "neg_y": "carrots  plant",
@@ -330,7 +330,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:potatoes",
+    "alias": "tessera:potatoes",
     "id": 146,
     "texture": {
       "neg_y": "potatoes plant",
@@ -351,7 +351,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:beetroot_seeds",
+    "alias": "tessera:beetroot_seeds",
     "id": 247,
     "texture": {
       "neg_y": "carrot seeds",
@@ -372,7 +372,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:sugar_cane",
+    "alias": "tessera:sugar_cane",
     "id": 15,
     "texture": {
       "neg_y": "sugar_cane",
@@ -394,7 +394,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:bamboo",
+    "alias": "tessera:bamboo",
     "id": 740,
     "texture": {
       "neg_y": "bamboo_sprite",
@@ -416,7 +416,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:bamboo_sapling",
+    "alias": "tessera:bamboo_sapling",
     "id": 742,
     "texture": {
       "neg_y": "bamboo_stage0.png",

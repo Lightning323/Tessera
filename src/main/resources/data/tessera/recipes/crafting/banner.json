@@ -1,126 +1,126 @@
 [
   {
     "input": [
-      "xbuilders:stick",
-      "xbuilders:stick",
+      "tessera:stick",
+      "tessera:stick",
       null,
-      "xbuilders:string",
-      "xbuilders:string",
+      "tessera:string",
+      "tessera:string",
       null,
-      "xbuilders:string",
-      "xbuilders:string",
+      "tessera:string",
+      "tessera:string",
       null
     ],
-    "output": "xbuilders:white_banner",
+    "output": "tessera:white_banner",
     "amount": 4
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_banner",
-      "xbuilders:red_dye"
+      "tessera:white_banner",
+      "tessera:red_dye"
     ],
-    "output": "xbuilders:red_banner",
+    "output": "tessera:red_banner",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_banner",
-      "xbuilders:orange_dye"
+      "tessera:white_banner",
+      "tessera:orange_dye"
     ],
-    "output": "xbuilders:orange_banner",
+    "output": "tessera:orange_banner",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_banner",
-      "xbuilders:yellow_dye"
+      "tessera:white_banner",
+      "tessera:yellow_dye"
     ],
-    "output": "xbuilders:yellow_banner",
+    "output": "tessera:yellow_banner",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_banner",
-      "xbuilders:green_dye"
+      "tessera:white_banner",
+      "tessera:green_dye"
     ],
-    "output": "xbuilders:green_banner",
+    "output": "tessera:green_banner",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_banner",
-      "xbuilders:blue_dye"
+      "tessera:white_banner",
+      "tessera:blue_dye"
     ],
-    "output": "xbuilders:blue_banner",
+    "output": "tessera:blue_banner",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_banner",
-      "xbuilders:purple_dye"
+      "tessera:white_banner",
+      "tessera:purple_dye"
     ],
-    "output": "xbuilders:purple_banner",
+    "output": "tessera:purple_banner",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_banner",
-      "xbuilders:gray_dye"
+      "tessera:white_banner",
+      "tessera:gray_dye"
     ],
-    "output": "xbuilders:gray_banner",
+    "output": "tessera:gray_banner",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_banner",
-      "xbuilders:lime_dye"
+      "tessera:white_banner",
+      "tessera:lime_dye"
     ],
-    "output": "xbuilders:lime_banner",
+    "output": "tessera:lime_banner",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_banner",
-      "xbuilders:magenta_dye"
+      "tessera:white_banner",
+      "tessera:magenta_dye"
     ],
-    "output": "xbuilders:pink_banner",
+    "output": "tessera:pink_banner",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_banner",
-      "xbuilders:brown_dye"
+      "tessera:white_banner",
+      "tessera:brown_dye"
     ],
-    "output": "xbuilders:royal_banner",
+    "output": "tessera:royal_banner",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_banner",
-      "xbuilders:black_dye"
+      "tessera:white_banner",
+      "tessera:black_dye"
     ],
-    "output": "xbuilders:regal_banner",
+    "output": "tessera:regal_banner",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_banner",
-      "xbuilders:black_dye",
-      "xbuilders:blue_dye"
+      "tessera:white_banner",
+      "tessera:black_dye",
+      "tessera:blue_dye"
     ],
-    "output": "xbuilders:xbuilders_banner",
+    "output": "tessera:tessera_banner",
     "amount": 1
   }
 ]

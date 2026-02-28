@@ -129,7 +129,7 @@ public class ItemUtils {
     }
 
     private static String nameToJavaName(String prefix, String name) {
-        name = name.replaceFirst("xbuilders:", "").trim().toUpperCase();
+        name = name.replaceFirst("tessera:", "").trim().toUpperCase();
         if (!name.startsWith(prefix.toUpperCase())) name = prefix + "_" + name;
         return name.toUpperCase()
                 .replaceAll("hidden", "")
@@ -156,33 +156,6 @@ public class ItemUtils {
         Files.writeString(new File(directory, "BlockClasses.java").toPath(), blockClasses.toString());
         Files.writeString(new File(directory, "BlockIDs.java").toPath(), blockIDs.toString());
     }
-
-    private static String nameToID(String name) {
-        String id = name.toLowerCase().replaceAll(" ", "-");
-        return "xbuilders:" + id;
-    }
-
-//    public static void synthesizeItems(ArrayList<Block> blocks,
-//                                       ArrayList<EntitySupplier> allEntities, File outputFile) throws IOException {
-//        ArrayList<Item> items = new ArrayList<>();
-//        for (Block block : blocks) {
-//            if (block == null) continue;
-//            if (block.name.toLowerCase().contains("hidden")) continue;
-//            Item item = new Item(nameToID(block.name), block.name);
-//            item.setBlock(block.id);
-//            items.add(item);
-//        }
-//        for (EntitySupplier entity : allEntities) {
-//            if (entity == null) continue;
-//            if (entity.name.toLowerCase().contains("hidden")) continue;
-//            System.out.println(entity.name);
-//            Item item = new Item(nameToID(entity.name), entity.name);
-//            item.setEntity(entity.id);
-//            items.add(item);
-//        }
-//        String json = JsonManager.gson_itemAdapter.toJson(items);
-//        Files.writeString(outputFile.toPath(), json);
-//    }
 
 
     public static void exportBlocksToJson(List<Block> list, File out) {

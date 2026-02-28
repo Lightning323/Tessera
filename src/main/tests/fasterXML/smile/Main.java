@@ -33,9 +33,9 @@ public class Main {
         module.addSerializer(smileObject.class, new RecordSerializer()); // Register the custom serializer
         module.addDeserializer(smileObject.class, new RecordDeserializer()); // Register the custom deserializer
 
-        Item item = new Item("xbuilders:hat", "Hat");
+        Item item = new Item("tessera:hat", "Hat");
         HashMap<String, Item> itemMap = new HashMap<>();
-        itemMap.put("xbuilders:hat", item);
+        itemMap.put("tessera:hat", item);
 
         module.addSerializer(ItemStack.class, new ItemStackSerializer()); // Register the custom serializer
         module.addDeserializer(ItemStack.class, new ItemStackDeserializer()); // Register the custom deserializer

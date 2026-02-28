@@ -16,7 +16,7 @@ public class CraftingRecipe extends Recipe {
      * There are a few ways to define a crafting recipe input:
      * <p>
      * #tag             Specific to a tag
-     * xbuilders:item   Specific to an item
+     * tessera:item   Specific to an item
      */
 
     public boolean shapeless = false;

@@ -2,41 +2,41 @@
   {
     "shapeless": false,
     "input": [
-      "xbuilders:bamboo",
-      "xbuilders:bamboo",
-      "xbuilders:bamboo",
-      "xbuilders:bamboo",
-      "xbuilders:bamboo",
-      "xbuilders:bamboo",
-      "xbuilders:bamboo",
-      "xbuilders:bamboo",
-      "xbuilders:bamboo"
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo"
     ],
-    "output": "xbuilders:bamboo_block",
+    "output": "tessera:bamboo_block",
     "amount": 1
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:bamboo_wood",
-      "xbuilders:bamboo_wood",
+      "tessera:bamboo_wood",
+      "tessera:bamboo_wood",
       null,
-      "xbuilders:bamboo_wood",
-      "xbuilders:bamboo_wood",
+      "tessera:bamboo_wood",
+      "tessera:bamboo_wood",
       null,
       null,
       null,
       null
     ],
-    "output": "xbuilders:mosaic_bamboo_wood",
+    "output": "tessera:mosaic_bamboo_wood",
     "amount": 4
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:bamboo_block"
+      "tessera:bamboo_block"
     ],
-    "output": "xbuilders:bamboo",
+    "output": "tessera:bamboo",
     "amount": 9
   }
 ]

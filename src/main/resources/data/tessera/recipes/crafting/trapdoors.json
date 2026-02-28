@@ -2,9 +2,9 @@
   {
     "shapeless": true,
     "input": [
-      "xbuilders:acacia_trapdoor"
+      "tessera:acacia_trapdoor"
     ],
-    "output": "xbuilders:acacia2_trapdoor",
+    "output": "tessera:acacia2_trapdoor",
     "amount": 1
   },
   {
@@ -13,22 +13,22 @@
       null,
       null,
       null,
-      "xbuilders:acacia_wood",
-      "xbuilders:acacia_wood",
-      "xbuilders:acacia_wood",
-      "xbuilders:acacia_wood",
-      "xbuilders:acacia_wood",
-      "xbuilders:acacia_wood"
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood"
     ],
-    "output": "xbuilders:acacia_trapdoor",
+    "output": "tessera:acacia_trapdoor",
     "amount": 6
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:bamboo_trapdoor"
+      "tessera:bamboo_trapdoor"
     ],
-    "output": "xbuilders:bamboo_2_trapdoor",
+    "output": "tessera:bamboo_2_trapdoor",
     "amount": 1
   },
   {
@@ -37,14 +37,14 @@
       null,
       null,
       null,
-      "xbuilders:bamboo_block",
-      "xbuilders:bamboo_block",
-      "xbuilders:bamboo_block",
-      "xbuilders:bamboo_block",
-      "xbuilders:bamboo_block",
-      "xbuilders:bamboo_block"
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
+      "tessera:bamboo_block"
     ],
-    "output": "xbuilders:bamboo_trapdoor",
+    "output": "tessera:bamboo_trapdoor",
     "amount": 6
   },
   {
@@ -53,14 +53,14 @@
       null,
       null,
       null,
-      "xbuilders:birch_wood",
-      "xbuilders:birch_wood",
-      "xbuilders:birch_wood",
-      "xbuilders:birch_wood",
-      "xbuilders:birch_wood",
-      "xbuilders:birch_wood"
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood"
     ],
-    "output": "xbuilders:birch_trapdoor",
+    "output": "tessera:birch_trapdoor",
     "amount": 6
   },
   {
@@ -69,14 +69,14 @@
       null,
       null,
       null,
-      "xbuilders:glass",
-      "xbuilders:glass",
-      "xbuilders:glass",
-      "xbuilders:glass",
-      "xbuilders:glass",
-      "xbuilders:glass"
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:glass"
     ],
-    "output": "xbuilders:glass_trapdoor",
+    "output": "tessera:glass_trapdoor",
     "amount": 6
   },
   {
@@ -85,30 +85,30 @@
       null,
       null,
       null,
-      "xbuilders:iron_ingot",
-      "xbuilders:gray_concrete",
-      "xbuilders:gray_concrete",
-      "xbuilders:gray_concrete",
-      "xbuilders:gray_concrete",
-      "xbuilders:gray_concrete"
+      "tessera:iron_ingot",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete"
     ],
-    "output": "xbuilders:gray_space_trapdoor_trapdoor",
+    "output": "tessera:gray_space_trapdoor_trapdoor",
     "amount": 6
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:jungle_trapdoor"
+      "tessera:jungle_trapdoor"
     ],
-    "output": "xbuilders:jungle_2_trapdoor",
+    "output": "tessera:jungle_2_trapdoor",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:oak_2_trapdoor"
+      "tessera:oak_2_trapdoor"
     ],
-    "output": "xbuilders:renaissance_trapdoor",
+    "output": "tessera:renaissance_trapdoor",
     "amount": 1
   },
   {
@@ -117,22 +117,22 @@
       null,
       null,
       null,
-      "xbuilders:jungle_wood",
-      "xbuilders:jungle_wood",
-      "xbuilders:jungle_wood",
-      "xbuilders:jungle_wood",
-      "xbuilders:jungle_wood",
-      "xbuilders:jungle_wood"
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood"
     ],
-    "output": "xbuilders:jungle_trapdoor",
+    "output": "tessera:jungle_trapdoor",
     "amount": 6
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:oak_trapdoor"
+      "tessera:oak_trapdoor"
     ],
-    "output": "xbuilders:oak_2_trapdoor",
+    "output": "tessera:oak_2_trapdoor",
     "amount": 1
   },
   {
@@ -141,30 +141,14 @@
       null,
       null,
       null,
-      "xbuilders:oak_wood",
-      "xbuilders:oak_wood",
-      "xbuilders:oak_wood",
-      "xbuilders:oak_wood",
-      "xbuilders:oak_wood",
-      "xbuilders:oak_wood"
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood"
     ],
-    "output": "xbuilders:oak_trapdoor",
-    "amount": 6
-  },
-  {
-    "shapeless": false,
-    "input": [
-      null,
-      null,
-      null,
-      "xbuilders:red_stained_wood",
-      "xbuilders:red_stained_wood",
-      "xbuilders:red_stained_wood",
-      "xbuilders:red_stained_wood",
-      "xbuilders:red_stained_wood",
-      "xbuilders:red_stained_wood"
-    ],
-    "output": "xbuilders:red_trapdoor",
+    "output": "tessera:oak_trapdoor",
     "amount": 6
   },
   {
@@ -173,57 +157,14 @@
       null,
       null,
       null,
-      "xbuilders:purple_stained_wood",
-      "xbuilders:purple_stained_wood",
-      "xbuilders:purple_stained_wood",
-      "xbuilders:purple_stained_wood",
-      "xbuilders:purple_stained_wood",
-      "xbuilders:purple_stained_wood"
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood"
     ],
-    "output": "xbuilders:warped_trapdoor",
-    "amount": 6
-  },
-  {
-    "shapeless": true,
-    "input": [
-      "xbuilders:birch_trapdoor",
-      "xbuilders:white_siding"
-    ],
-    "output": "xbuilders:cladded_birch_trapdoor",
-    "amount": 1
-  },
-  {
-    "shapeless": true,
-    "input": [
-      "xbuilders:red_trapdoor",
-      "xbuilders:white_siding"
-    ],
-    "output": "xbuilders:cladded_redwood_trapdoor",
-    "amount": 1
-  },
-  {
-    "shapeless": true,
-    "input": [
-      "xbuilders:white_trapdoor",
-      "xbuilders:white_siding"
-    ],
-    "output": "xbuilders:cladded_white_trapdoor",
-    "amount": 1
-  },
-  {
-    "shapeless": false,
-    "input": [
-      null,
-      null,
-      null,
-      "xbuilders:spruce_wood",
-      "xbuilders:spruce_wood",
-      "xbuilders:spruce_wood",
-      "xbuilders:spruce_wood",
-      "xbuilders:spruce_wood",
-      "xbuilders:spruce_wood"
-    ],
-    "output": "xbuilders:spruce_trapdoor",
+    "output": "tessera:red_trapdoor",
     "amount": 6
   },
   {
@@ -232,14 +173,73 @@
       null,
       null,
       null,
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot"
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood"
     ],
-    "output": "xbuilders:iron_trapdoor",
+    "output": "tessera:warped_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:birch_trapdoor",
+      "tessera:white_siding"
+    ],
+    "output": "tessera:cladded_birch_trapdoor",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:red_trapdoor",
+      "tessera:white_siding"
+    ],
+    "output": "tessera:cladded_redwood_trapdoor",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_trapdoor",
+      "tessera:white_siding"
+    ],
+    "output": "tessera:cladded_white_trapdoor",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood"
+    ],
+    "output": "tessera:spruce_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot"
+    ],
+    "output": "tessera:iron_trapdoor",
     "amount": 12
   },
   {
@@ -248,14 +248,14 @@
       null,
       null,
       null,
-      "xbuilders:iron_ingot",
-      "xbuilders:white_concrete",
-      "xbuilders:white_concrete",
-      "xbuilders:white_concrete",
-      "xbuilders:white_concrete",
-      "xbuilders:white_concrete"
+      "tessera:iron_ingot",
+      "tessera:white_concrete",
+      "tessera:white_concrete",
+      "tessera:white_concrete",
+      "tessera:white_concrete",
+      "tessera:white_concrete"
     ],
-    "output": "xbuilders:white_space_trapdoor_trapdoor",
+    "output": "tessera:white_space_trapdoor_trapdoor",
     "amount": 6
   },
   {
@@ -264,14 +264,14 @@
       null,
       null,
       null,
-      "xbuilders:white_stained_wood",
-      "xbuilders:white_stained_wood",
-      "xbuilders:white_stained_wood",
-      "xbuilders:white_stained_wood",
-      "xbuilders:white_stained_wood",
-      "xbuilders:white_stained_wood"
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood"
     ],
-    "output": "xbuilders:white_trapdoor",
+    "output": "tessera:white_trapdoor",
     "amount": 6
   }
 ]

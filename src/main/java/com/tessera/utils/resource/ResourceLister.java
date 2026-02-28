@@ -65,10 +65,10 @@ public class ResourceLister {
 
     /**
      * When we load resources, if we are running from the IDE, we get something like this
-     * C:/Local Files/github/Xbuilders/target/classes/assets/xbuilders/textures/item/pp/crimson_door.png
+     * C:/Local Files/github/tessera/target/classes/assets/tessera/textures/item/pp/crimson_door.png
      * <p>
      * Whereas if we are running from the JAR file, we get something like this
-     * assets/xbuilders/textures/item/pp/crimson_door.png
+     * assets/tessera/textures/item/pp/crimson_door.png
      */
     public static void init() {
         if (resourceList != null) return;

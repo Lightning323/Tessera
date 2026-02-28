@@ -1,6 +1,6 @@
 [
   {
-    "alias": "xbuilders:test_block",
+    "alias": "tessera:test_block",
     "id": -1,
     "texture": {
       "pos_y": "test\\neg y",
@@ -23,7 +23,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:test_orientable",
+    "alias": "tessera:test_orientable",
     "id": -2,
     "texture": {
       "pos_y": "test\\neg y",
@@ -46,7 +46,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:test_slab",
+    "alias": "tessera:test_slab",
     "id": -3,
     "texture": {
       "pos_y": "test\\neg y",
@@ -69,7 +69,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:test_trapdoor",
+    "alias": "tessera:test_trapdoor",
     "id": -4,
     "texture": {
       "pos_y": "test\\neg y",
@@ -92,7 +92,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:test_fence_gate",
+    "alias": "tessera:test_fence_gate",
     "id": -5,
     "texture": {
       "pos_y": "test\\neg y",
@@ -115,7 +115,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:test_door_half",
+    "alias": "tessera:test_door_half",
     "id": -6,
     "texture": {
       "pos_y": "test\\neg y",

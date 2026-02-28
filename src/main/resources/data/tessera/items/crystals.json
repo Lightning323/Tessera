@@ -1,96 +1,96 @@
 [
   {
-    "id": "xbuilders:amethyst_block",
+    "id": "tessera:amethyst_block",
     "name": "Amethyst Block",
-    "block": "xbuilders:amethyst_block",
+    "block": "tessera:amethyst_block",
     "tags": [
       "crystal"
     ]
   },
   {
-    "id": "xbuilders:aquamarine_block",
+    "id": "tessera:aquamarine_block",
     "name": "Aquamarine Block",
-    "block": "xbuilders:aquamarine_block",
+    "block": "tessera:aquamarine_block",
     "tags": [
       "crystal"
     ]
   },
   {
-    "id": "xbuilders:jade_block",
+    "id": "tessera:jade_block",
     "name": "Jade Block",
-    "block": "xbuilders:jade_block",
+    "block": "tessera:jade_block",
     "tags": [
       "crystal"
     ]
   },
   {
-    "id": "xbuilders:ruby_block",
+    "id": "tessera:ruby_block",
     "name": "Ruby Block",
-    "block": "xbuilders:ruby_block",
+    "block": "tessera:ruby_block",
     "tags": [
       "crystal"
     ]
   },
   {
-    "id": "xbuilders:polished_amethyst_block",
+    "id": "tessera:polished_amethyst_block",
     "name": "Polished Amethyst Block",
-    "block": "xbuilders:polished_amethyst_block",
+    "block": "tessera:polished_amethyst_block",
     "tags": [
       "crystal"
     ]
   },
   {
-    "id": "xbuilders:polished_aquamarine_block",
+    "id": "tessera:polished_aquamarine_block",
     "name": "Polished Aquamarine Block",
-    "block": "xbuilders:polished_aquamarine_block",
+    "block": "tessera:polished_aquamarine_block",
     "tags": [
       "crystal"
     ]
   },
   {
-    "id": "xbuilders:polished_jade_block",
+    "id": "tessera:polished_jade_block",
     "name": "Polished Jade Block",
-    "block": "xbuilders:polished_jade_block",
+    "block": "tessera:polished_jade_block",
     "tags": [
       "crystal"
     ]
   },
   {
-    "id": "xbuilders:polished_ruby_block",
+    "id": "tessera:polished_ruby_block",
     "name": "Polished Ruby Block",
-    "block": "xbuilders:polished_ruby_block",
+    "block": "tessera:polished_ruby_block",
     "tags": [
       "crystal"
     ]
   },
   {
-    "id": "xbuilders:amethyst_crystal",
+    "id": "tessera:amethyst_crystal",
     "name": "Amethyst Crystal",
-    "block": "xbuilders:amethyst_crystal",
+    "block": "tessera:amethyst_crystal",
     "tags": [
       "crystal"
     ]
   },
   {
-    "id": "xbuilders:ruby_crystal",
+    "id": "tessera:ruby_crystal",
     "name": "Ruby Crystal",
-    "block": "xbuilders:ruby_crystal",
+    "block": "tessera:ruby_crystal",
     "tags": [
       "crystal"
     ]
   },
   {
-    "id": "xbuilders:jade_crystal",
+    "id": "tessera:jade_crystal",
     "name": "Jade Crystal",
-    "block": "xbuilders:jade_crystal",
+    "block": "tessera:jade_crystal",
     "tags": [
       "crystal"
     ]
   },
   {
-    "id": "xbuilders:aquamarine_crystal",
+    "id": "tessera:aquamarine_crystal",
     "name": "Aquamarine Crystal",
-    "block": "xbuilders:aquamarine_crystal",
+    "block": "tessera:aquamarine_crystal",
     "tags": [
       "crystal"
     ]

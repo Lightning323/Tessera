@@ -1,114 +1,114 @@
 [
   {
-    "id": "xbuilders:bamboo",
+    "id": "tessera:bamboo",
     "name": "Bamboo",
-    "block": "xbuilders:bamboo_sapling",
+    "block": "tessera:bamboo_sapling",
     "icon": "bamboo.png"
   },
   {
-    "id": "xbuilders:bamboo_stalk",
+    "id": "tessera:bamboo_stalk",
     "name": "Bamboo Stalk",
-    "block": "xbuilders:bamboo"
+    "block": "tessera:bamboo"
   },
   {
-    "id": "xbuilders:sugar_cane",
+    "id": "tessera:sugar_cane",
     "name": "Sugar Cane Plant",
     "icon": "sugar_cane.png",
     "block": 15
   },
   {
-    "id": "xbuilders:sugar",
+    "id": "tessera:sugar",
     "name": "Sugar",
     "icon": "sugar.png"
   },
   {
-    "id": "xbuilders:honeycomb",
+    "id": "tessera:honeycomb",
     "name": "Honeycomb",
     "icon": "honeycomb.png"
   },
   {
-    "id": "xbuilders:bucket",
+    "id": "tessera:bucket",
     "name": "Bucket",
     "maxStackSize": 1,
     "icon": "bucket.png"
   },
   {
-    "id": "xbuilders:red_dye",
+    "id": "tessera:red_dye",
     "name": "Red Dye",
     "icon": "pp/red_dye.png"
   },
   {
-    "id": "xbuilders:orange_dye",
+    "id": "tessera:orange_dye",
     "name": "Orange Dye",
     "icon": "pp/orange_dye.png"
   },
   {
-    "id": "xbuilders:yellow_dye",
+    "id": "tessera:yellow_dye",
     "name": "Yellow Dye",
     "icon": "pp/yellow_dye.png"
   },
   {
-    "id": "xbuilders:green_dye",
+    "id": "tessera:green_dye",
     "name": "Green Dye",
     "icon": "pp/green_dye.png"
   },
   {
-    "id": "xbuilders:lime_dye",
+    "id": "tessera:lime_dye",
     "name": "Lime Dye",
     "icon": "pp/lime_dye.png"
   },
   {
-    "id": "xbuilders:cyan_dye",
+    "id": "tessera:cyan_dye",
     "name": "Cyan Dye",
     "icon": "pp/cyan_dye.png"
   },
   {
-    "id": "xbuilders:blue_dye",
+    "id": "tessera:blue_dye",
     "name": "Blue Dye",
     "icon": "pp/blue_dye.png"
   },
   {
-    "id": "xbuilders:purple_dye",
+    "id": "tessera:purple_dye",
     "name": "Purple Dye",
     "icon": "pp/purple_dye.png"
   },
   {
-    "id": "xbuilders:magenta_dye",
+    "id": "tessera:magenta_dye",
     "name": "Magenta Dye",
     "icon": "pp/magenta_dye.png"
   },
   {
-    "id": "xbuilders:gray_dye",
+    "id": "tessera:gray_dye",
     "name": "Gray Dye",
     "icon": "pp/gray_dye.png"
   },
   {
-    "id": "xbuilders:light_gray_dye",
+    "id": "tessera:light_gray_dye",
     "name": "Light Gray Dye",
     "icon": "pp/light_gray_dye.png"
   },
   {
-    "id": "xbuilders:brown_dye",
+    "id": "tessera:brown_dye",
     "name": "Brown Dye",
     "icon": "pp/brown_dye.png"
   },
   {
-    "id": "xbuilders:black_dye",
+    "id": "tessera:black_dye",
     "name": "Black Dye",
     "icon": "pp/black_dye.png"
   },
   {
-    "id": "xbuilders:white_dye",
+    "id": "tessera:white_dye",
     "name": "White Dye",
     "icon": "pp/white_dye.png"
   },
   {
-    "id": "xbuilders:gunpowder",
+    "id": "tessera:gunpowder",
     "name": "Gunpowder",
     "icon": "gunpowder.png"
   },
   {
-    "id": "xbuilders:flint",
+    "id": "tessera:flint",
     "name": "Flint",
     "icon": "flint.png"
   }

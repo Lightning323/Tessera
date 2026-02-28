@@ -1,78 +1,78 @@
 [
   {
-    "id": "xbuilders:diamond_ore",
+    "id": "tessera:diamond_ore",
     "name": "Diamond Ore",
-    "block": "xbuilders:diamond_ore"
+    "block": "tessera:diamond_ore"
   },
   {
-    "id": "xbuilders:diamond",
+    "id": "tessera:diamond",
     "name": "Diamond",
     "icon": "ores\\diamond.png"
   },
   {
-    "id": "xbuilders:coal_ore",
+    "id": "tessera:coal_ore",
     "name": "Coal Ore",
-    "block": "xbuilders:coal_ore"
+    "block": "tessera:coal_ore"
   },
   {
-    "id": "xbuilders:coal",
+    "id": "tessera:coal",
     "name": "Coal",
     "tags": ["flammable"],
     "icon": "ores\\coal.png"
   },
   {
-    "id": "xbuilders:charcoal",
+    "id": "tessera:charcoal",
     "name": "Charcoal",
     "tags": ["flammable"],
     "icon": "charcoal.png"
   },
   {
-    "id": "xbuilders:iron_ore",
+    "id": "tessera:iron_ore",
     "name": "Iron Ore",
-    "block": "xbuilders:iron_ore"
+    "block": "tessera:iron_ore"
   },
   {
-    "id": "xbuilders:raw_iron",
+    "id": "tessera:raw_iron",
     "name": "Raw Iron",
     "icon": "ores\\iron_nugget.png"
   },
   {
-    "id": "xbuilders:iron_ingot",
+    "id": "tessera:iron_ingot",
     "name": "Iron Ingot",
     "icon": "ores\\iron_ingot.png"
   },
   {
-    "id": "xbuilders:gold_ore",
+    "id": "tessera:gold_ore",
     "name": "Gold Ore",
-    "block": "xbuilders:gold_ore"
+    "block": "tessera:gold_ore"
   },
   {
-    "id": "xbuilders:gold_ingot",
+    "id": "tessera:gold_ingot",
     "name": "Gold Ingot",
     "icon": "ores\\gold_ingot.png"
   },
   {
-    "id": "xbuilders:raw_gold",
+    "id": "tessera:raw_gold",
     "name": "Raw Gold",
     "icon": "ores\\gold_nugget.png"
   },
   {
-    "id": "xbuilders:lapis_ore",
+    "id": "tessera:lapis_ore",
     "name": "Lapis Lazuli Ore",
-    "block": "xbuilders:lapis_ore"
+    "block": "tessera:lapis_ore"
   },
   {
-    "id": "xbuilders:lapis_lazuli",
+    "id": "tessera:lapis_lazuli",
     "name": "Lapis Lazuli",
     "icon": "ores\\lapis_lazuli.png"
   },
   {
-    "id": "xbuilders:emerald_ore",
+    "id": "tessera:emerald_ore",
     "name": "Emerald Ore",
-    "block": "xbuilders:emerald_ore"
+    "block": "tessera:emerald_ore"
   },
   {
-    "id": "xbuilders:emerald",
+    "id": "tessera:emerald",
     "name": "Emerald",
     "icon": "ores\\emerald.png"
   }

@@ -1,6 +1,6 @@
 [
   {
-    "alias": "xbuilders:diamond_ore",
+    "alias": "tessera:diamond_ore",
     "id": 105,
     "texture": {
       "neg_y": "pp/diamond_ore",
@@ -18,7 +18,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:coal_ore",
+    "alias": "tessera:coal_ore",
     "id": 228,
     "texture": {
       "neg_y": "pp/coal_ore",
@@ -36,7 +36,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:iron_ore",
+    "alias": "tessera:iron_ore",
     "id": 234,
     "texture": {
       "neg_y": "pp/iron_ore",
@@ -54,7 +54,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gold_ore",
+    "alias": "tessera:gold_ore",
     "id": 237,
     "texture": {
       "neg_y": "pp/gold_ore",
@@ -72,7 +72,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:lapis_ore",
+    "alias": "tessera:lapis_ore",
     "id": 544,
     "texture": {
       "neg_y": "pp/lapis_ore",
@@ -90,7 +90,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:emerald_ore",
+    "alias": "tessera:emerald_ore",
     "id": 551,
     "texture": {
       "neg_y": "pp/emerald_ore",

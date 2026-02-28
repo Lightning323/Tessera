@@ -1,42 +1,42 @@
 {
-  "xbuilders:diamond_ore": [
+  "tessera:diamond_ore": [
     {
-      "item": "xbuilders:diamond",
+      "item": "tessera:diamond",
       "chance": 1.0,
       "maxItems": 3
     }
   ],
-  "xbuilders:coal_ore": [
+  "tessera:coal_ore": [
     {
-      "item": "xbuilders:coal",
+      "item": "tessera:coal",
       "chance": 1.0,
       "maxItems": 3
     }
   ],
-  "xbuilders:iron_ore": [
+  "tessera:iron_ore": [
     {
-      "item": "xbuilders:raw_iron",
+      "item": "tessera:raw_iron",
       "chance": 1.0,
       "maxItems": 1
     }
   ],
-  "xbuilders:gold_ore": [
+  "tessera:gold_ore": [
     {
-      "item": "xbuilders:raw_gold",
+      "item": "tessera:raw_gold",
       "chance": 1.0,
       "maxItems": 1
     }
   ],
-  "xbuilders:emerald_ore": [
+  "tessera:emerald_ore": [
     {
-      "item": "xbuilders:emerald",
+      "item": "tessera:emerald",
       "chance": 1.0,
       "maxItems": 1
     }
   ],
-  "xbuilders:lapis_ore": [
+  "tessera:lapis_ore": [
     {
-      "item": "xbuilders:lapis_lazuli",
+      "item": "tessera:lapis_lazuli",
       "chance": 1,
       "maxItems": 3
     }

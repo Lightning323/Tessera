@@ -1,141 +1,141 @@
 [
   {
     "input": [
-      "xbuilders:gold_ingot",
-      "xbuilders:gold_ingot",
-      "xbuilders:gold_ingot",
-      "xbuilders:gold_ingot",
-      "xbuilders:gold_ingot",
-      "xbuilders:gold_ingot",
-      "xbuilders:gold_ingot",
-      "xbuilders:gold_ingot",
-      "xbuilders:gold_ingot"
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot"
     ],
-    "output": "xbuilders:gold_block",
+    "output": "tessera:gold_block",
     "amount": 1
   },
   {
     "input": [
-      "xbuilders:coal",
-      "xbuilders:coal",
-      "xbuilders:coal",
-      "xbuilders:coal",
-      "xbuilders:coal",
-      "xbuilders:coal",
-      "xbuilders:coal",
-      "xbuilders:coal",
-      "xbuilders:coal"
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal"
     ],
-    "output": "xbuilders:coal_block",
+    "output": "tessera:coal_block",
     "amount": 1
   },
   {
     "input": [
-      "xbuilders:coal_block"
+      "tessera:coal_block"
     ],
     "shapeless": true,
-    "output": "xbuilders:coal",
+    "output": "tessera:coal",
     "amount": 9
   },
   {
     "input": [
-      "xbuilders:diamond",
-      "xbuilders:diamond",
-      "xbuilders:diamond",
-      "xbuilders:diamond",
-      "xbuilders:diamond",
-      "xbuilders:diamond",
-      "xbuilders:diamond",
-      "xbuilders:diamond",
-      "xbuilders:diamond"
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond"
     ],
-    "output": "xbuilders:diamond_block",
+    "output": "tessera:diamond_block",
     "amount": 1
   },
   {
     "input": [
-      "xbuilders:emerald",
-      "xbuilders:emerald",
-      "xbuilders:emerald",
-      "xbuilders:emerald",
-      "xbuilders:emerald",
-      "xbuilders:emerald",
-      "xbuilders:emerald",
-      "xbuilders:emerald",
-      "xbuilders:emerald"
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald"
     ],
-    "output": "xbuilders:emerald_block",
+    "output": "tessera:emerald_block",
     "amount": 1
   },
   {
     "input": [
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot"
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot"
     ],
-    "output": "xbuilders:iron_block",
+    "output": "tessera:iron_block",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:gold_block"
+      "tessera:gold_block"
     ],
-    "output": "xbuilders:gold_ingot",
-    "amount": 9
-  },
-  {
-    "shapeless": true,
-    "input": [
-      "xbuilders:diamond_block"
-    ],
-    "output": "xbuilders:diamond",
+    "output": "tessera:gold_ingot",
     "amount": 9
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:emerald_block"
+      "tessera:diamond_block"
     ],
-    "output": "xbuilders:emerald",
+    "output": "tessera:diamond",
     "amount": 9
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:iron_block"
+      "tessera:emerald_block"
     ],
-    "output": "xbuilders:iron_ingot",
+    "output": "tessera:emerald",
+    "amount": 9
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:iron_block"
+    ],
+    "output": "tessera:iron_ingot",
     "amount": 9
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:lapis_lazuli",
-      "xbuilders:lapis_lazuli",
-      "xbuilders:lapis_lazuli",
-      "xbuilders:lapis_lazuli",
-      "xbuilders:lapis_lazuli",
-      "xbuilders:lapis_lazuli",
-      "xbuilders:lapis_lazuli",
-      "xbuilders:lapis_lazuli",
-      "xbuilders:lapis_lazuli"
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli"
     ],
-    "output": "xbuilders:lapis_lazul_block",
+    "output": "tessera:lapis_lazul_block",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:lapis_lazul_block"
+      "tessera:lapis_lazul_block"
     ],
-    "output": "xbuilders:lapis_lazuli",
+    "output": "tessera:lapis_lazuli",
     "amount": 9
   }
 ]

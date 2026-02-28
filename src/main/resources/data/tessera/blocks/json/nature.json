@@ -1,6 +1,6 @@
 [
   {
-    "alias": "xbuilders:dirt",
+    "alias": "tessera:dirt",
     "id": 6,
     "texture": {
       "neg_y": "dirt",
@@ -24,7 +24,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pansies",
+    "alias": "tessera:pansies",
     "id": 7,
     "texture": {
       "neg_y": "pansies",
@@ -47,7 +47,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:grass",
+    "alias": "tessera:grass",
     "id": 9,
     "texture": {
       "neg_y": "grass",
@@ -71,7 +71,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:gravel",
+    "alias": "tessera:gravel",
     "id": 10,
     "texture": {
       "neg_y": "gravel",
@@ -95,7 +95,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:oak_log",
+    "alias": "tessera:oak_log",
     "id": 11,
     "texture": {
       "neg_y": "oak log",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "alias": "xbuilders:oak_leaves",
+    "alias": "tessera:oak_leaves",
     "id": 12,
     "texture": {
       "neg_y": "oak leaves",
@@ -144,7 +144,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:plant_grass",
+    "alias": "tessera:plant_grass",
     "id": 14,
     "texture": {
       "neg_y": "plant grass",
@@ -167,7 +167,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:sand",
+    "alias": "tessera:sand",
     "id": 16,
     "texture": {
       "neg_y": "sand",
@@ -191,7 +191,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pumpkin",
+    "alias": "tessera:pumpkin",
     "id": 1000,
     "texture": {
       "neg_y": "pumpkin_top",
@@ -209,7 +209,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:pumpkin_seed",
+    "alias": "tessera:pumpkin_seed",
     "id": 1001,
     "texture": {
       "neg_y": "pumpkin_stem.png",

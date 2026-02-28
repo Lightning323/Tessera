@@ -42,7 +42,7 @@ public class EntityRegistry {
 
     public void setup(List<EntitySupplier> inputEntities) {
         HashSet<String> uniqueAliases = new HashSet<>();
-        ENTITY_ITEM_DROP = new EntitySupplier("xbuilders:item_drop", (uniqueID2) -> new ItemDrop(uniqueID2));
+        ENTITY_ITEM_DROP = new EntitySupplier("tessera:item_drop", (uniqueID2) -> new ItemDrop(uniqueID2));
         inputEntities.add(ENTITY_ITEM_DROP);
 
         verifyEntityIds(inputEntities);

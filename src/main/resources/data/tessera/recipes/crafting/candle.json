@@ -2,46 +2,46 @@
   {
     "shapeless": true,
     "input": [
-      "xbuilders:torch",
-      "xbuilders:honeycomb"
+      "tessera:torch",
+      "tessera:honeycomb"
     ],
-    "output": "xbuilders:candle",
+    "output": "tessera:candle",
     "amount": 4
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:candle",
-      "xbuilders:red_dye"
+      "tessera:candle",
+      "tessera:red_dye"
     ],
-    "output": "xbuilders:red_candle",
+    "output": "tessera:red_candle",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:candle",
-      "xbuilders:blue_dye"
+      "tessera:candle",
+      "tessera:blue_dye"
     ],
-    "output": "xbuilders:blue_candle",
+    "output": "tessera:blue_candle",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:candle",
-      "xbuilders:yellow_dye"
+      "tessera:candle",
+      "tessera:yellow_dye"
     ],
-    "output": "xbuilders:yellow_candle",
+    "output": "tessera:yellow_candle",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:candle",
-      "xbuilders:green_dye"
+      "tessera:candle",
+      "tessera:green_dye"
     ],
-    "output": "xbuilders:green_candle",
+    "output": "tessera:green_candle",
     "amount": 1
   }
 ]

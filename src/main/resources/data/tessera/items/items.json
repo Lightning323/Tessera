@@ -1,76 +1,76 @@
 [
   {
-    "id": "xbuilders:bedrock",
+    "id": "tessera:bedrock",
     "name": "Bedrock",
     "block": 1
   },
   {
-    "id": "xbuilders:birch_log",
+    "id": "tessera:birch_log",
     "name": "Birch Log",
     "block": 2
   },
   {
-    "id": "xbuilders:birch_leaves",
+    "id": "tessera:birch_leaves",
     "name": "Birch Leaves",
     "block": 3
   },
   {
-    "id": "xbuilders:brick",
+    "id": "tessera:brick",
     "name": "Brick",
     "block": 4
   },
   {
-    "id": "xbuilders:vines",
+    "id": "tessera:vines",
     "name": "Vines",
     "block": 5
   },
   {
-    "id": "xbuilders:dirt",
+    "id": "tessera:dirt",
     "name": "Dirt",
     "block": 6
   },
   {
-    "id": "xbuilders:pansies",
+    "id": "tessera:pansies",
     "name": "Pansies",
     "block": 7
   },
   {
-    "id": "xbuilders:glass",
+    "id": "tessera:glass",
     "name": "Glass",
     "block": 8
   },
   {
-    "id": "xbuilders:grass",
+    "id": "tessera:grass",
     "name": "Grass",
     "block": 9
   },
   {
-    "id": "xbuilders:gravel",
+    "id": "tessera:gravel",
     "name": "Gravel",
     "block": 10
   },
   {
-    "id": "xbuilders:oak_log",
+    "id": "tessera:oak_log",
     "name": "Oak Log",
     "block": 11
   },
   {
-    "id": "xbuilders:oak_leaves",
+    "id": "tessera:oak_leaves",
     "name": "Oak Leaves",
     "block": 12
   },
   {
-    "id": "xbuilders:plant_grass",
+    "id": "tessera:plant_grass",
     "name": "Plant Grass",
     "block": 14
   },
   {
-    "id": "xbuilders:sand",
+    "id": "tessera:sand",
     "name": "Sand",
     "block": 16
   },
   {
-    "id": "xbuilders:andesite",
+    "id": "tessera:andesite",
     "name": "Andesite",
     "block": 18,
     "tags": [
@@ -78,57 +78,57 @@
     ]
   },
   {
-    "id": "xbuilders:stone_brick",
+    "id": "tessera:stone_brick",
     "name": "Stone Brick",
     "block": 19
   },
   {
-    "id": "xbuilders:torch",
+    "id": "tessera:torch",
     "name": "Torch",
     "icon": "torch.png",
     "block": 20
   },
   {
-    "id": "xbuilders:water_bucket",
+    "id": "tessera:water_bucket",
     "name": "Water Bucket",
     "maxStackSize": 1,
     "icon": "water_bucket.png",
     "block": 21
   },
   {
-    "id": "xbuilders:lava_bucket",
+    "id": "tessera:lava_bucket",
     "name": "Lava Bucket",
     "maxStackSize": 1,
     "icon": "lava_bucket.png",
     "block": 25
   },
   {
-    "id": "xbuilders:wool",
+    "id": "tessera:wool",
     "name": "Wool",
     "block": 22
   },
   {
-    "id": "xbuilders:snow",
+    "id": "tessera:snow",
     "name": "Snow",
     "block": 23
   },
   {
-    "id": "xbuilders:bookshelf",
+    "id": "tessera:bookshelf",
     "name": "Bookshelf",
     "block": 24
   },
   {
-    "id": "xbuilders:cracked_stone",
+    "id": "tessera:cracked_stone",
     "name": "Cracked Stone",
     "block": 27
   },
   {
-    "id": "xbuilders:stone_with_vines",
+    "id": "tessera:stone_with_vines",
     "name": "Stone With Vines",
     "block": 28
   },
   {
-    "id": "xbuilders:jungle_wood",
+    "id": "tessera:jungle_wood",
     "name": "Jungle Wood",
     "block": 30,
     "tags": [
@@ -136,103 +136,103 @@
     ]
   },
   {
-    "id": "xbuilders:jungle_wood_slab",
+    "id": "tessera:jungle_wood_slab",
     "name": "Jungle Wood Slab",
     "block": 31
   },
   {
-    "id": "xbuilders:jungle_wood_stairs",
+    "id": "tessera:jungle_wood_stairs",
     "name": "Jungle Wood Stairs",
     "block": 32
   },
   {
-    "id": "xbuilders:honeycomb_block",
+    "id": "tessera:honeycomb_block",
     "name": "Honeycomb Block",
     "block": 33
   },
   {
-    "id": "xbuilders:mosaic_bamboo_wood",
+    "id": "tessera:mosaic_bamboo_wood",
     "name": "Mosaic Bamboo Wood",
     "block": 34
   },
   {
-    "id": "xbuilders:music_box",
+    "id": "tessera:music_box",
     "name": "Music Box",
     "block": 35
   },
   {
-    "id": "xbuilders:jungle_sapling",
+    "id": "tessera:jungle_sapling",
     "name": "Jungle Sapling",
     "block": 37
   },
   {
-    "id": "xbuilders:obsidian",
+    "id": "tessera:obsidian",
     "name": "Obsidian",
     "block": 38
   },
   {
-    "id": "xbuilders:burgundy_brick",
+    "id": "tessera:burgundy_brick",
     "name": "Burgundy Brick",
     "block": 39
   },
   {
-    "id": "xbuilders:sea_grass",
+    "id": "tessera:sea_grass",
     "name": "Sea Grass",
     "icon": "sea_grass.png",
     "block": 253
   },
   {
-    "id": "xbuilders:jungle_fence",
+    "id": "tessera:jungle_fence",
     "name": "Jungle Fence",
     "block": 40
   },
   {
-    "id": "xbuilders:red_flower",
+    "id": "tessera:red_flower",
     "name": "Red Flower",
     "block": 41
   },
   {
-    "id": "xbuilders:tall_dry_grass",
+    "id": "tessera:tall_dry_grass",
     "name": "Tall Dry Grass",
     "block": 42
   },
   {
-    "id": "xbuilders:red_candle",
+    "id": "tessera:red_candle",
     "name": "Red Candle",
     "block": 43
   },
   {
-    "id": "xbuilders:yellow_flower",
+    "id": "tessera:yellow_flower",
     "name": "Yellow Flower",
     "block": 44
   },
   {
-    "id": "xbuilders:coal_block",
+    "id": "tessera:coal_block",
     "name": "Coal Block",
     "block": 46
   },
   {
-    "id": "xbuilders:jungle_leaves",
+    "id": "tessera:jungle_leaves",
     "name": "Jungle Leaves",
     "block": 47
   },
   {
-    "id": "xbuilders:jungle_log",
+    "id": "tessera:jungle_log",
     "name": "Jungle Log",
     "block": 48
   },
   {
-    "id": "xbuilders:30_hp_engine",
+    "id": "tessera:30_hp_engine",
     "name": "30 HP Engine",
     "block": 51
   },
   {
-    "id": "xbuilders:beehive",
+    "id": "tessera:beehive",
     "name": "Beehive",
     "block": 52
   },
   {
-    "id": "xbuilders:diorite",
+    "id": "tessera:diorite",
     "name": "Diorite",
     "block": 53,
     "tags": [
@@ -240,47 +240,47 @@
     ]
   },
   {
-    "id": "xbuilders:polished_diorite",
+    "id": "tessera:polished_diorite",
     "name": "Polished Diorite",
     "block": 54
   },
   {
-    "id": "xbuilders:polished_andesite",
+    "id": "tessera:polished_andesite",
     "name": "Polished Andesite",
     "block": 56
   },
   {
-    "id": "xbuilders:spruce_wood",
+    "id": "tessera:spruce_wood",
     "name": "Spruce Wood",
     "block": 57
   },
   {
-    "id": "xbuilders:azure_bluet",
+    "id": "tessera:azure_bluet",
     "name": "Azure Bluet",
     "block": 58
   },
   {
-    "id": "xbuilders:dandelion",
+    "id": "tessera:dandelion",
     "name": "Dandelion",
     "block": 59
   },
   {
-    "id": "xbuilders:blue_orchid",
+    "id": "tessera:blue_orchid",
     "name": "Blue Orchid",
     "block": 60
   },
   {
-    "id": "xbuilders:fern",
+    "id": "tessera:fern",
     "name": "Fern",
     "block": 61
   },
   {
-    "id": "xbuilders:granite_brick",
+    "id": "tessera:granite_brick",
     "name": "Granite Brick",
     "block": 62
   },
   {
-    "id": "xbuilders:acacia_wood",
+    "id": "tessera:acacia_wood",
     "name": "Acacia Wood",
     "tags": [
       "wood"
@@ -288,182 +288,182 @@
     "block": 63
   },
   {
-    "id": "xbuilders:clay",
+    "id": "tessera:clay",
     "name": "Clay",
     "block": 65
   },
   {
-    "id": "xbuilders:yellow_concrete",
+    "id": "tessera:yellow_concrete",
     "name": "Yellow Concrete",
     "block": 66
   },
   {
-    "id": "xbuilders:yellow_glazed_teracotta",
+    "id": "tessera:yellow_glazed_teracotta",
     "name": "Yellow Glazed Teracotta",
     "block": 67
   },
   {
-    "id": "xbuilders:black_concrete",
+    "id": "tessera:black_concrete",
     "name": "Black Concrete",
     "block": 68
   },
   {
-    "id": "xbuilders:black_glazed_teracotta",
+    "id": "tessera:black_glazed_teracotta",
     "name": "Black Glazed Teracotta",
     "block": 69
   },
   {
-    "id": "xbuilders:blue_concrete",
+    "id": "tessera:blue_concrete",
     "name": "Blue Concrete",
     "block": 70
   },
   {
-    "id": "xbuilders:blue_glazed_teracotta",
+    "id": "tessera:blue_glazed_teracotta",
     "name": "Blue Glazed Teracotta",
     "block": 71
   },
   {
-    "id": "xbuilders:brown_concrete",
+    "id": "tessera:brown_concrete",
     "name": "Brown Concrete",
     "block": 72
   },
   {
-    "id": "xbuilders:brown_glazed_teracotta",
+    "id": "tessera:brown_glazed_teracotta",
     "name": "Brown Glazed Teracotta",
     "block": 73
   },
   {
-    "id": "xbuilders:cyan_concrete",
+    "id": "tessera:cyan_concrete",
     "name": "Cyan Concrete",
     "block": 74
   },
   {
-    "id": "xbuilders:cyan_glazed_teracotta",
+    "id": "tessera:cyan_glazed_teracotta",
     "name": "Cyan Glazed Teracotta",
     "block": 75
   },
   {
-    "id": "xbuilders:gray_concrete",
+    "id": "tessera:gray_concrete",
     "name": "Gray Concrete",
     "block": 76
   },
   {
-    "id": "xbuilders:gray_glazed_teracotta",
+    "id": "tessera:gray_glazed_teracotta",
     "name": "Gray Glazed Teracotta",
     "block": 77
   },
   {
-    "id": "xbuilders:green_concrete",
+    "id": "tessera:green_concrete",
     "name": "Green Concrete",
     "block": 78
   },
   {
-    "id": "xbuilders:green_glazed_teracotta",
+    "id": "tessera:green_glazed_teracotta",
     "name": "Green Glazed Teracotta",
     "block": 79
   },
   {
-    "id": "xbuilders:light_blue_concrete",
+    "id": "tessera:light_blue_concrete",
     "name": "Light Blue Concrete",
     "block": 80
   },
   {
-    "id": "xbuilders:light_blue_glazed_teracotta",
+    "id": "tessera:light_blue_glazed_teracotta",
     "name": "Light Blue Glazed Teracotta",
     "block": 81
   },
   {
-    "id": "xbuilders:light_gray_concrete",
+    "id": "tessera:light_gray_concrete",
     "name": "Light Gray Concrete",
     "block": 82
   },
   {
-    "id": "xbuilders:light_gray_glazed_teracotta",
+    "id": "tessera:light_gray_glazed_teracotta",
     "name": "Light Gray Glazed Teracotta",
     "block": 83
   },
   {
-    "id": "xbuilders:lime_concrete",
+    "id": "tessera:lime_concrete",
     "name": "Lime Concrete",
     "block": 84
   },
   {
-    "id": "xbuilders:lime_glazed_teracotta",
+    "id": "tessera:lime_glazed_teracotta",
     "name": "Lime Glazed Teracotta",
     "block": 85
   },
   {
-    "id": "xbuilders:magenta_concrete",
+    "id": "tessera:magenta_concrete",
     "name": "Magenta Concrete",
     "block": 86
   },
   {
-    "id": "xbuilders:magenta_glazed_teracotta",
+    "id": "tessera:magenta_glazed_teracotta",
     "name": "Magenta Glazed Teracotta",
     "block": 87
   },
   {
-    "id": "xbuilders:orange_concrete",
+    "id": "tessera:orange_concrete",
     "name": "Orange Concrete",
     "block": 88
   },
   {
-    "id": "xbuilders:orange_glazed_teracotta",
+    "id": "tessera:orange_glazed_teracotta",
     "name": "Orange Glazed Teracotta",
     "block": 89
   },
   {
-    "id": "xbuilders:pink_concrete",
+    "id": "tessera:pink_concrete",
     "name": "Pink Concrete",
     "block": 90
   },
   {
-    "id": "xbuilders:pink_glazed_teracotta",
+    "id": "tessera:pink_glazed_teracotta",
     "name": "Pink Glazed Teracotta",
     "block": 91
   },
   {
-    "id": "xbuilders:purple_concrete",
+    "id": "tessera:purple_concrete",
     "name": "Purple Concrete",
     "block": 92
   },
   {
-    "id": "xbuilders:purple_glazed_teracotta",
+    "id": "tessera:purple_glazed_teracotta",
     "name": "Purple Glazed Teracotta",
     "block": 93
   },
   {
-    "id": "xbuilders:red_concrete",
+    "id": "tessera:red_concrete",
     "name": "Red Concrete",
     "block": 94
   },
   {
-    "id": "xbuilders:red_glazed_teracotta",
+    "id": "tessera:red_glazed_teracotta",
     "name": "Red Glazed Teracotta",
     "block": 95
   },
   {
-    "id": "xbuilders:white_concrete",
+    "id": "tessera:white_concrete",
     "name": "White Concrete",
     "block": 96
   },
   {
-    "id": "xbuilders:white_glazed_teracotta",
+    "id": "tessera:white_glazed_teracotta",
     "name": "White Glazed Teracotta",
     "block": 97
   },
   {
-    "id": "xbuilders:brain_coral",
+    "id": "tessera:brain_coral",
     "name": "Brain Coral",
     "block": 98
   },
   {
-    "id": "xbuilders:quartz_pillar_block",
+    "id": "tessera:quartz_pillar_block",
     "name": "Quartz Pillar Block",
     "block": 100
   },
   {
-    "id": "xbuilders:cobblestone",
+    "id": "tessera:cobblestone",
     "name": "Cobblestone",
     "block": 101,
     "tags": [
@@ -471,117 +471,117 @@
     ]
   },
   {
-    "id": "xbuilders:wool_turquoise",
+    "id": "tessera:wool_turquoise",
     "name": "Wool Turquoise",
     "block": 102
   },
   {
-    "id": "xbuilders:wool_orange",
+    "id": "tessera:wool_orange",
     "name": "Wool Orange",
     "block": 103
   },
   {
-    "id": "xbuilders:red_sand",
+    "id": "tessera:red_sand",
     "name": "Red Sand",
     "block": 104
   },
   {
-    "id": "xbuilders:55_hp_engine",
+    "id": "tessera:55_hp_engine",
     "name": "55 HP Engine",
     "block": 106
   },
   {
-    "id": "xbuilders:phantom_stone",
+    "id": "tessera:phantom_stone",
     "name": "Phantom Stone",
     "block": 107
   },
   {
-    "id": "xbuilders:phantom_stone_brick",
+    "id": "tessera:phantom_stone_brick",
     "name": "Phantom Stone Brick",
     "block": 108
   },
   {
-    "id": "xbuilders:cactus",
+    "id": "tessera:cactus",
     "name": "Cactus",
     "block": 109
   },
   {
-    "id": "xbuilders:palisade_stone",
+    "id": "tessera:palisade_stone",
     "name": "Palisade Stone",
     "block": 110
   },
   {
-    "id": "xbuilders:fire_coral_block",
+    "id": "tessera:fire_coral_block",
     "name": "Fire Coral Block",
     "block": 112
   },
   {
-    "id": "xbuilders:candle",
+    "id": "tessera:candle",
     "name": "Candle",
     "block": 113
   },
   {
-    "id": "xbuilders:palisade_stone_2",
+    "id": "tessera:palisade_stone_2",
     "name": "Palisade Stone 2",
     "block": 114
   },
   {
-    "id": "xbuilders:fire_coral",
+    "id": "tessera:fire_coral",
     "name": "Fire Coral",
     "block": 115
   },
   {
-    "id": "xbuilders:tall_grass",
+    "id": "tessera:tall_grass",
     "name": "Tall Grass",
     "block": 116
   },
   {
-    "id": "xbuilders:horn_coral_block",
+    "id": "tessera:horn_coral_block",
     "name": "Horn Coral Block",
     "block": 117
   },
   {
-    "id": "xbuilders:gold_block",
+    "id": "tessera:gold_block",
     "name": "Gold Block",
     "block": 118
   },
   {
-    "id": "xbuilders:horn_coral_fan",
+    "id": "tessera:horn_coral_fan",
     "name": "Horn Coral Fan",
     "block": 119
   },
   {
-    "id": "xbuilders:tnt",
+    "id": "tessera:tnt",
     "name": "TNT",
     "block": 120
   },
   {
-    "id": "xbuilders:mini_cactus",
+    "id": "tessera:mini_cactus",
     "name": "Mini Cactus",
     "block": 123
   },
   {
-    "id": "xbuilders:mushroom",
+    "id": "tessera:mushroom",
     "name": "Mushroom",
     "block": 124
   },
   {
-    "id": "xbuilders:mushroom_2",
+    "id": "tessera:mushroom_2",
     "name": "Mushroom 2",
     "block": 125
   },
   {
-    "id": "xbuilders:roses",
+    "id": "tessera:roses",
     "name": "Roses",
     "block": 126
   },
   {
-    "id": "xbuilders:wool_purple",
+    "id": "tessera:wool_purple",
     "name": "Wool Purple",
     "block": 127
   },
   {
-    "id": "xbuilders:birch_wood",
+    "id": "tessera:birch_wood",
     "name": "Birch Wood",
     "block": 128,
     "tags": [
@@ -589,7 +589,7 @@
     ]
   },
   {
-    "id": "xbuilders:red_stained_wood",
+    "id": "tessera:red_stained_wood",
     "name": "Red Stained Wood",
     "block": 129,
     "tags": [
@@ -597,7 +597,7 @@
     ]
   },
   {
-    "id": "xbuilders:oak_wood",
+    "id": "tessera:oak_wood",
     "name": "Oak Wood",
     "block": 130,
     "tags": [
@@ -605,377 +605,377 @@
     ]
   },
   {
-    "id": "xbuilders:wool_red",
+    "id": "tessera:wool_red",
     "name": "Wool Red",
     "block": 131
   },
   {
-    "id": "xbuilders:wool_pink",
+    "id": "tessera:wool_pink",
     "name": "Wool Pink",
     "block": 132
   },
   {
-    "id": "xbuilders:wool_yellow",
+    "id": "tessera:wool_yellow",
     "name": "Wool Yellow",
     "block": 133
   },
   {
-    "id": "xbuilders:wool_brown",
+    "id": "tessera:wool_brown",
     "name": "Wool Brown",
     "block": 134
   },
   {
-    "id": "xbuilders:tube_coral_block",
+    "id": "tessera:tube_coral_block",
     "name": "Tube Coral Block",
     "block": 135
   },
   {
-    "id": "xbuilders:tube_coral",
+    "id": "tessera:tube_coral",
     "name": "Tube Coral",
     "block": 136
   },
   {
-    "id": "xbuilders:tube_coral_fan",
+    "id": "tessera:tube_coral_fan",
     "name": "Tube Coral Fan",
     "block": 137
   },
   {
-    "id": "xbuilders:wool_deep_blue",
+    "id": "tessera:wool_deep_blue",
     "name": "Wool Deep Blue",
     "block": 138
   },
   {
-    "id": "xbuilders:wool_sky_blue",
+    "id": "tessera:wool_sky_blue",
     "name": "Wool Sky Blue",
     "block": 139
   },
   {
-    "id": "xbuilders:wool_dark_green",
+    "id": "tessera:wool_dark_green",
     "name": "Wool Dark Green",
     "block": 140
   },
   {
-    "id": "xbuilders:wool_green",
+    "id": "tessera:wool_green",
     "name": "Wool Green",
     "block": 141
   },
   {
-    "id": "xbuilders:wool_gray",
+    "id": "tessera:wool_gray",
     "name": "Wool Gray",
     "block": 142
   },
   {
-    "id": "xbuilders:brain_coral_block",
+    "id": "tessera:brain_coral_block",
     "name": "Brain Coral Block",
     "block": 143
   },
   {
-    "id": "xbuilders:diamond_block",
+    "id": "tessera:diamond_block",
     "name": "Diamond Block",
     "block": 144
   },
   {
-    "id": "xbuilders:iron_block",
+    "id": "tessera:iron_block",
     "name": "Iron Block",
     "block": 145
   },
   {
-    "id": "xbuilders:honeycomb_block_stairs",
+    "id": "tessera:honeycomb_block_stairs",
     "name": "Honeycomb Block Stairs",
     "block": 147
   },
   {
-    "id": "xbuilders:oak_fence",
+    "id": "tessera:oak_fence",
     "name": "Oak Fence",
     "block": 148
   },
   {
-    "id": "xbuilders:birch_fence",
+    "id": "tessera:birch_fence",
     "name": "Birch Fence",
     "block": 149
   },
   {
-    "id": "xbuilders:bubble_coral_block",
+    "id": "tessera:bubble_coral_block",
     "name": "Bubble Coral Block",
     "block": 150
   },
   {
-    "id": "xbuilders:bubble_coral",
+    "id": "tessera:bubble_coral",
     "name": "Bubble Coral",
     "block": 151
   },
   {
-    "id": "xbuilders:bubble_coral_fan",
+    "id": "tessera:bubble_coral_fan",
     "name": "Bubble Coral Fan",
     "block": 152
   },
   {
-    "id": "xbuilders:jungle_grass",
+    "id": "tessera:jungle_grass",
     "name": "Jungle Grass",
     "block": 153
   },
   {
-    "id": "xbuilders:lily_pad",
+    "id": "tessera:lily_pad",
     "name": "Lily Pad",
     "block": 154
   },
   {
-    "id": "xbuilders:track",
+    "id": "tessera:track",
     "name": "Track",
     "block": 155
   },
   {
-    "id": "xbuilders:wool_magenta",
+    "id": "tessera:wool_magenta",
     "name": "Wool Magenta",
     "block": 156
   },
   {
-    "id": "xbuilders:wool_black",
+    "id": "tessera:wool_black",
     "name": "Wool Black",
     "block": 157
   },
   {
-    "id": "xbuilders:granite_brick_stairs",
+    "id": "tessera:granite_brick_stairs",
     "name": "Granite Brick Stairs",
     "block": 158
   },
   {
-    "id": "xbuilders:concrete",
+    "id": "tessera:concrete",
     "name": "Concrete",
     "block": 159
   },
   {
-    "id": "xbuilders:oak_sapling",
+    "id": "tessera:oak_sapling",
     "name": "Oak Sapling",
     "block": 160
   },
   {
-    "id": "xbuilders:birch_sapling",
+    "id": "tessera:birch_sapling",
     "name": "Birch Sapling",
     "block": 161
   },
   {
-    "id": "xbuilders:wheat_seeds",
+    "id": "tessera:wheat_seeds",
     "name": "Wheat Seeds",
     "block": 162
   },
   {
-    "id": "xbuilders:carrot_seeds",
+    "id": "tessera:carrot_seeds",
     "name": "Carrot Seeds",
     "block": 163
   },
   {
-    "id": "xbuilders:metal_grate",
+    "id": "tessera:metal_grate",
     "name": "Metal Grate",
     "block": 164
   },
   {
-    "id": "xbuilders:potato_seeds",
+    "id": "tessera:potato_seeds",
     "name": "Potato Seeds",
     "block": 165
   },
   {
-    "id": "xbuilders:pumpkin_seeds",
+    "id": "tessera:pumpkin_seeds",
     "name": "Pumpkin Seeds",
-    "block": "xbuilders:pumpkin_seeds"
+    "block": "tessera:pumpkin_seeds"
   },
   {
-    "id": "xbuilders:pumpkin",
+    "id": "tessera:pumpkin",
     "name": "Pumpkin",
-    "block": "xbuilders:pumpkin"
+    "block": "tessera:pumpkin"
   },
   {
-    "id": "xbuilders:glow_rock",
+    "id": "tessera:glow_rock",
     "name": "Glow Rock",
     "block": 178
   },
   {
-    "id": "xbuilders:black_stained_glass",
+    "id": "tessera:black_stained_glass",
     "name": "Black_Stained Glass",
     "block": 179
   },
   {
-    "id": "xbuilders:blue_stained_glass",
+    "id": "tessera:blue_stained_glass",
     "name": "Blue_Stained Glass",
     "block": 180
   },
   {
-    "id": "xbuilders:brown_stained_glass",
+    "id": "tessera:brown_stained_glass",
     "name": "Brown_Stained Glass",
     "block": 181
   },
   {
-    "id": "xbuilders:cyan_stained_glass",
+    "id": "tessera:cyan_stained_glass",
     "name": "Cyan_Stained Glass",
     "block": 182
   },
   {
-    "id": "xbuilders:gray_stained_glass",
+    "id": "tessera:gray_stained_glass",
     "name": "Gray_Stained Glass",
     "block": 183
   },
   {
-    "id": "xbuilders:green_stained_glass",
+    "id": "tessera:green_stained_glass",
     "name": "Green_Stained Glass",
     "block": 184
   },
   {
-    "id": "xbuilders:light_blue_stained_glass",
+    "id": "tessera:light_blue_stained_glass",
     "name": "Light Blue_Stained Glass",
     "block": 185
   },
   {
-    "id": "xbuilders:light_gray_stained_glass",
+    "id": "tessera:light_gray_stained_glass",
     "name": "Light Gray_Stained Glass",
     "block": 186
   },
   {
-    "id": "xbuilders:lime_stained_glass",
+    "id": "tessera:lime_stained_glass",
     "name": "Lime_Stained Glass",
     "block": 187
   },
   {
-    "id": "xbuilders:magenta_stained_glass",
+    "id": "tessera:magenta_stained_glass",
     "name": "Magenta_Stained Glass",
     "block": 188
   },
   {
-    "id": "xbuilders:orange_stained_glass",
+    "id": "tessera:orange_stained_glass",
     "name": "Orange_Stained Glass",
     "block": 189
   },
   {
-    "id": "xbuilders:pink_stained_glass",
+    "id": "tessera:pink_stained_glass",
     "name": "Pink_Stained Glass",
     "block": 190
   },
   {
-    "id": "xbuilders:purple_stained_glass",
+    "id": "tessera:purple_stained_glass",
     "name": "Purple_Stained Glass",
     "block": 191
   },
   {
-    "id": "xbuilders:red_stained_glass",
+    "id": "tessera:red_stained_glass",
     "name": "Red_Stained Glass",
     "block": 192
   },
   {
-    "id": "xbuilders:white_stained_glass",
+    "id": "tessera:white_stained_glass",
     "name": "White_Stained Glass",
     "block": 193
   },
   {
-    "id": "xbuilders:yellow_stained_glass",
+    "id": "tessera:yellow_stained_glass",
     "name": "Yellow_Stained Glass",
     "block": 194
   },
   {
-    "id": "xbuilders:dark_oak_fence",
+    "id": "tessera:dark_oak_fence",
     "name": "Dark Oak Fence",
     "block": 195
   },
   {
-    "id": "xbuilders:birch_wood_stairs",
+    "id": "tessera:birch_wood_stairs",
     "name": "Birch Wood Stairs",
     "block": 196
   },
   {
-    "id": "xbuilders:oak_wood_stairs",
+    "id": "tessera:oak_wood_stairs",
     "name": "Oak Wood Stairs",
     "block": 197
   },
   {
-    "id": "xbuilders:dark_oak_wood_stairs",
+    "id": "tessera:dark_oak_wood_stairs",
     "name": "Dark Oak Wood Stairs",
     "block": 198
   },
   {
-    "id": "xbuilders:honeycomb_block_slab",
+    "id": "tessera:honeycomb_block_slab",
     "name": "Honeycomb Block Slab",
     "block": 199
   },
   {
-    "id": "xbuilders:jungle_grass_plant",
+    "id": "tessera:jungle_grass_plant",
     "name": "Jungle Grass Plant",
     "block": 200
   },
   {
-    "id": "xbuilders:prismarine_brick_stairs",
+    "id": "tessera:prismarine_brick_stairs",
     "name": "Prismarine Brick Stairs",
     "block": 201
   },
   {
-    "id": "xbuilders:cave_vines_flat",
+    "id": "tessera:cave_vines_flat",
     "name": "Cave Vines Flat",
     "block": 203
   },
   {
-    "id": "xbuilders:polished_diorite_stairs",
+    "id": "tessera:polished_diorite_stairs",
     "name": "Polished Diorite Stairs",
     "block": 204
   },
   {
-    "id": "xbuilders:birch_wood_slab",
+    "id": "tessera:birch_wood_slab",
     "name": "Birch Wood Slab",
     "block": 205
   },
   {
-    "id": "xbuilders:oak_wood_slab",
+    "id": "tessera:oak_wood_slab",
     "name": "Oak Wood Slab",
     "block": 206
   },
   {
-    "id": "xbuilders:dark_oak_wood_slab",
+    "id": "tessera:dark_oak_wood_slab",
     "name": "Dark Oak Wood Slab",
     "block": 207
   },
   {
-    "id": "xbuilders:bamboo_wood_stairs",
+    "id": "tessera:bamboo_wood_stairs",
     "name": "Bamboo Wood Stairs",
     "block": 208
   },
   {
-    "id": "xbuilders:stone_brick_slab",
+    "id": "tessera:stone_brick_slab",
     "name": "Stone Brick Slab",
     "block": 209
   },
   {
-    "id": "xbuilders:dry_grass",
+    "id": "tessera:dry_grass",
     "name": "Dry Grass",
     "block": 212
   },
   {
-    "id": "xbuilders:polished_andesite_slab",
+    "id": "tessera:polished_andesite_slab",
     "name": "Polished Andesite Slab",
     "block": 213
   },
   {
-    "id": "xbuilders:iron_ladder",
+    "id": "tessera:iron_ladder",
     "name": "Iron Ladder",
     "block": 214
   },
   {
-    "id": "xbuilders:red_vines_flat",
+    "id": "tessera:red_vines_flat",
     "name": "Red Vines Flat",
     "block": 215
   },
   {
-    "id": "xbuilders:yellow_candle",
+    "id": "tessera:yellow_candle",
     "name": "Yellow Candle",
     "block": 216
   },
   {
-    "id": "xbuilders:cave_vines",
+    "id": "tessera:cave_vines",
     "name": "Cave Vines",
     "block": 217
   },
   {
-    "id": "xbuilders:green_candle",
+    "id": "tessera:green_candle",
     "name": "Green Candle",
     "block": 218
   },
   {
-    "id": "xbuilders:granite",
+    "id": "tessera:granite",
     "name": "Granite",
     "block": 219,
     "tags": [
@@ -983,842 +983,842 @@
     ]
   },
   {
-    "id": "xbuilders:blue_candle",
+    "id": "tessera:blue_candle",
     "name": "Blue Candle",
     "block": 220
   },
   {
-    "id": "xbuilders:red_vines",
+    "id": "tessera:red_vines",
     "name": "Red Vines",
     "block": 221
   },
   {
-    "id": "xbuilders:flat_vines",
+    "id": "tessera:flat_vines",
     "name": "Flat Vines",
     "block": 222
   },
   {
-    "id": "xbuilders:dark_oak_ladder",
+    "id": "tessera:dark_oak_ladder",
     "name": "Dark Oak Ladder",
     "block": 223
   },
   {
-    "id": "xbuilders:dry_grass_plant",
+    "id": "tessera:dry_grass_plant",
     "name": "Dry Grass Plant",
     "block": 224
   },
   {
-    "id": "xbuilders:acacia_leaves",
+    "id": "tessera:acacia_leaves",
     "name": "Acacia Leaves",
     "block": 225
   },
   {
-    "id": "xbuilders:acacia_log",
+    "id": "tessera:acacia_log",
     "name": "Acacia Log",
     "block": 226
   },
   {
-    "id": "xbuilders:fire_coral_fan",
+    "id": "tessera:fire_coral_fan",
     "name": "Fire Coral Fan",
     "block": 227
   },
   {
-    "id": "xbuilders:lapis_lazul_block",
+    "id": "tessera:lapis_lazul_block",
     "name": "Lapis Lazul Block",
     "block": 229
   },
   {
-    "id": "xbuilders:acacia_sapling",
+    "id": "tessera:acacia_sapling",
     "name": "Acacia Sapling",
     "block": 230
   },
   {
-    "id": "xbuilders:brain_coral_fan",
+    "id": "tessera:brain_coral_fan",
     "name": "Brain Coral Fan",
     "block": 232
   },
   {
-    "id": "xbuilders:white_rose",
+    "id": "tessera:white_rose",
     "name": "White Rose",
     "block": 233
   },
   {
-    "id": "xbuilders:horn_coral",
+    "id": "tessera:horn_coral",
     "name": "Horn Coral",
     "block": 235
   },
   {
-    "id": "xbuilders:red_rose",
+    "id": "tessera:red_rose",
     "name": "Red Rose",
     "block": 236
   },
   {
-    "id": "xbuilders:emerald_block",
+    "id": "tessera:emerald_block",
     "name": "Emerald Block",
     "block": 238
   },
   {
-    "id": "xbuilders:black_eye_susan",
+    "id": "tessera:black_eye_susan",
     "name": "Black_Eye Susan",
     "block": 239
   },
   {
-    "id": "xbuilders:orange_tulip",
+    "id": "tessera:orange_tulip",
     "name": "Orange Tulip",
     "block": 240
   },
   {
-    "id": "xbuilders:dead_bush",
+    "id": "tessera:dead_bush",
     "name": "Dead Bush",
     "block": 241
   },
   {
-    "id": "xbuilders:hay_bail",
+    "id": "tessera:hay_bail",
     "name": "Hay Bail",
     "block": 242
   },
   {
-    "id": "xbuilders:polished_andesite_stairs",
+    "id": "tessera:polished_andesite_stairs",
     "name": "Polished Andesite Stairs",
     "block": 243
   },
   {
-    "id": "xbuilders:polished_diorite_slab",
+    "id": "tessera:polished_diorite_slab",
     "name": "Polished Diorite Slab",
     "block": 244
   },
   {
-    "id": "xbuilders:beetroot_seeds",
+    "id": "tessera:beetroot_seeds",
     "name": "Beetroot Seeds",
     "block": 247
   },
   {
-    "id": "xbuilders:bamboo_ladder",
+    "id": "tessera:bamboo_ladder",
     "name": "Bamboo Ladder",
     "block": 248
   },
   {
-    "id": "xbuilders:acacia_fence",
+    "id": "tessera:acacia_fence",
     "name": "Acacia Fence",
     "block": 249
   },
   {
-    "id": "xbuilders:acacia_wood_stairs",
+    "id": "tessera:acacia_wood_stairs",
     "name": "Acacia Wood Stairs",
     "block": 250
   },
   {
-    "id": "xbuilders:acacia_wood_slab",
+    "id": "tessera:acacia_wood_slab",
     "name": "Acacia Wood Slab",
     "block": 251
   },
   {
-    "id": "xbuilders:blue_stained_wood",
+    "id": "tessera:blue_stained_wood",
     "name": "Blue Stained Wood",
     "block": 254
   },
   {
-    "id": "xbuilders:bamboo_wood_slab",
+    "id": "tessera:bamboo_wood_slab",
     "name": "Bamboo Wood Slab",
     "block": 258
   },
   {
-    "id": "xbuilders:stone_brick_stairs",
+    "id": "tessera:stone_brick_stairs",
     "name": "Stone Brick Stairs",
     "block": 260
   },
   {
-    "id": "xbuilders:drivers_seat",
+    "id": "tessera:drivers_seat",
     "name": "Drivers Seat",
     "block": 261
   },
   {
-    "id": "xbuilders:stone_brick_fence",
+    "id": "tessera:stone_brick_fence",
     "name": "Stone Brick Fence",
     "block": 262
   },
   {
-    "id": "xbuilders:brick_stairs",
+    "id": "tessera:brick_stairs",
     "name": "Brick Stairs",
     "block": 263
   },
   {
-    "id": "xbuilders:brick_slab",
+    "id": "tessera:brick_slab",
     "name": "Brick Slab",
     "block": 264
   },
   {
-    "id": "xbuilders:snow_block",
+    "id": "tessera:snow_block",
     "name": "Snow Block",
     "block": 265
   },
   {
-    "id": "xbuilders:cobblestone_stairs",
+    "id": "tessera:cobblestone_stairs",
     "name": "Cobblestone Stairs",
     "block": 266
   },
   {
-    "id": "xbuilders:cobblestone_slab",
+    "id": "tessera:cobblestone_slab",
     "name": "Cobblestone Slab",
     "block": 267
   },
   {
-    "id": "xbuilders:palisade_stone_stairs",
+    "id": "tessera:palisade_stone_stairs",
     "name": "Palisade Stone Stairs",
     "block": 268
   },
   {
-    "id": "xbuilders:palisade_stone_slab",
+    "id": "tessera:palisade_stone_slab",
     "name": "Palisade Stone Slab",
     "block": 269
   },
   {
-    "id": "xbuilders:palisade_stone_fence",
+    "id": "tessera:palisade_stone_fence",
     "name": "Palisade Stone Fence",
     "block": 270
   },
   {
-    "id": "xbuilders:palisade_stone_2_stairs",
+    "id": "tessera:palisade_stone_2_stairs",
     "name": "Palisade Stone 2 Stairs",
     "block": 271
   },
   {
-    "id": "xbuilders:palisade_stone_2_slab",
+    "id": "tessera:palisade_stone_2_slab",
     "name": "Palisade Stone 2 Slab",
     "block": 272
   },
   {
-    "id": "xbuilders:palisade_stone_2_fence",
+    "id": "tessera:palisade_stone_2_fence",
     "name": "Palisade Stone 2 Fence",
     "block": 273
   },
   {
-    "id": "xbuilders:polished_diorite_fence",
+    "id": "tessera:polished_diorite_fence",
     "name": "Polished Diorite Fence",
     "block": 274
   },
   {
-    "id": "xbuilders:polished_andesite_fence",
+    "id": "tessera:polished_andesite_fence",
     "name": "Polished Andesite Fence",
     "block": 275
   },
   {
-    "id": "xbuilders:cracked_stone_stairs",
+    "id": "tessera:cracked_stone_stairs",
     "name": "Cracked Stone Stairs",
     "block": 276
   },
   {
-    "id": "xbuilders:cracked_stone_slab",
+    "id": "tessera:cracked_stone_slab",
     "name": "Cracked Stone Slab",
     "block": 277
   },
   {
-    "id": "xbuilders:cracked_stone_fence",
+    "id": "tessera:cracked_stone_fence",
     "name": "Cracked Stone Fence",
     "block": 278
   },
   {
-    "id": "xbuilders:stone_with_vines_stairs",
+    "id": "tessera:stone_with_vines_stairs",
     "name": "Stone With Vines Stairs",
     "block": 279
   },
   {
-    "id": "xbuilders:stone_with_vines_slab",
+    "id": "tessera:stone_with_vines_slab",
     "name": "Stone With Vines Slab",
     "block": 280
   },
   {
-    "id": "xbuilders:stone_with_vines_fence",
+    "id": "tessera:stone_with_vines_fence",
     "name": "Stone With Vines Fence",
     "block": 281
   },
   {
-    "id": "xbuilders:burgundy_brick_stairs",
+    "id": "tessera:burgundy_brick_stairs",
     "name": "Burgundy Brick Stairs",
     "block": 282
   },
   {
-    "id": "xbuilders:burgundy_brick_slab",
+    "id": "tessera:burgundy_brick_slab",
     "name": "Burgundy Brick Slab",
     "block": 283
   },
   {
-    "id": "xbuilders:burgundy_brick_fence",
+    "id": "tessera:burgundy_brick_fence",
     "name": "Burgundy Brick Fence",
     "block": 284
   },
   {
-    "id": "xbuilders:switch_junction",
+    "id": "tessera:switch_junction",
     "name": "Switch Junction",
     "block": 285
   },
   {
-    "id": "xbuilders:track_stop",
+    "id": "tessera:track_stop",
     "name": "Track Stop",
     "block": 286
   },
   {
-    "id": "xbuilders:wool_stairs",
+    "id": "tessera:wool_stairs",
     "name": "Wool Stairs",
     "block": 293
   },
   {
-    "id": "xbuilders:wool_slab",
+    "id": "tessera:wool_slab",
     "name": "Wool Slab",
     "block": 294
   },
   {
-    "id": "xbuilders:wool_gray_stairs",
+    "id": "tessera:wool_gray_stairs",
     "name": "Wool Gray Stairs",
     "block": 295
   },
   {
-    "id": "xbuilders:wool_gray_slab",
+    "id": "tessera:wool_gray_slab",
     "name": "Wool Gray Slab",
     "block": 296
   },
   {
-    "id": "xbuilders:wool_red_stairs",
+    "id": "tessera:wool_red_stairs",
     "name": "Wool Red Stairs",
     "block": 297
   },
   {
-    "id": "xbuilders:wool_red_slab",
+    "id": "tessera:wool_red_slab",
     "name": "Wool Red Slab",
     "block": 298
   },
   {
-    "id": "xbuilders:wool_pink_stairs",
+    "id": "tessera:wool_pink_stairs",
     "name": "Wool Pink Stairs",
     "block": 299
   },
   {
-    "id": "xbuilders:wool_pink_slab",
+    "id": "tessera:wool_pink_slab",
     "name": "Wool Pink Slab",
     "block": 300
   },
   {
-    "id": "xbuilders:wool_orange_stairs",
+    "id": "tessera:wool_orange_stairs",
     "name": "Wool Orange Stairs",
     "block": 301
   },
   {
-    "id": "xbuilders:wool_orange_slab",
+    "id": "tessera:wool_orange_slab",
     "name": "Wool Orange Slab",
     "block": 302
   },
   {
-    "id": "xbuilders:wool_yellow_stairs",
+    "id": "tessera:wool_yellow_stairs",
     "name": "Wool Yellow Stairs",
     "block": 303
   },
   {
-    "id": "xbuilders:wool_yellow_slab",
+    "id": "tessera:wool_yellow_slab",
     "name": "Wool Yellow Slab",
     "block": 304
   },
   {
-    "id": "xbuilders:wool_green_stairs",
+    "id": "tessera:wool_green_stairs",
     "name": "Wool Green Stairs",
     "block": 305
   },
   {
-    "id": "xbuilders:wool_green_slab",
+    "id": "tessera:wool_green_slab",
     "name": "Wool Green Slab",
     "block": 306
   },
   {
-    "id": "xbuilders:wool_dark_green_stairs",
+    "id": "tessera:wool_dark_green_stairs",
     "name": "Wool Dark Green Stairs",
     "block": 307
   },
   {
-    "id": "xbuilders:wool_dark_green_slab",
+    "id": "tessera:wool_dark_green_slab",
     "name": "Wool Dark Green Slab",
     "block": 308
   },
   {
-    "id": "xbuilders:wool_turquoise_stairs",
+    "id": "tessera:wool_turquoise_stairs",
     "name": "Wool Turquoise Stairs",
     "block": 309
   },
   {
-    "id": "xbuilders:wool_turquoise_slab",
+    "id": "tessera:wool_turquoise_slab",
     "name": "Wool Turquoise Slab",
     "block": 310
   },
   {
-    "id": "xbuilders:wool_deep_blue_stairs",
+    "id": "tessera:wool_deep_blue_stairs",
     "name": "Wool Deep Blue Stairs",
     "block": 311
   },
   {
-    "id": "xbuilders:wool_deep_blue_slab",
+    "id": "tessera:wool_deep_blue_slab",
     "name": "Wool Deep Blue Slab",
     "block": 312
   },
   {
-    "id": "xbuilders:wool_sky_blue_stairs",
+    "id": "tessera:wool_sky_blue_stairs",
     "name": "Wool Sky Blue Stairs",
     "block": 313
   },
   {
-    "id": "xbuilders:wool_sky_blue_slab",
+    "id": "tessera:wool_sky_blue_slab",
     "name": "Wool Sky Blue Slab",
     "block": 314
   },
   {
-    "id": "xbuilders:wool_brown_stairs",
+    "id": "tessera:wool_brown_stairs",
     "name": "Wool Brown Stairs",
     "block": 315
   },
   {
-    "id": "xbuilders:wool_brown_slab",
+    "id": "tessera:wool_brown_slab",
     "name": "Wool Brown Slab",
     "block": 316
   },
   {
-    "id": "xbuilders:wool_purple_stairs",
+    "id": "tessera:wool_purple_stairs",
     "name": "Wool Purple Stairs",
     "block": 317
   },
   {
-    "id": "xbuilders:wool_purple_slab",
+    "id": "tessera:wool_purple_slab",
     "name": "Wool Purple Slab",
     "block": 318
   },
   {
-    "id": "xbuilders:wool_magenta_stairs",
+    "id": "tessera:wool_magenta_stairs",
     "name": "Wool Magenta Stairs",
     "block": 319
   },
   {
-    "id": "xbuilders:wool_magenta_slab",
+    "id": "tessera:wool_magenta_slab",
     "name": "Wool Magenta Slab",
     "block": 320
   },
   {
-    "id": "xbuilders:wool_black_stairs",
+    "id": "tessera:wool_black_stairs",
     "name": "Wool Black Stairs",
     "block": 321
   },
   {
-    "id": "xbuilders:wool_black_slab",
+    "id": "tessera:wool_black_slab",
     "name": "Wool Black Slab",
     "block": 322
   },
   {
-    "id": "xbuilders:yellow_concrete_stairs",
+    "id": "tessera:yellow_concrete_stairs",
     "name": "Yellow Concrete Stairs",
     "block": 323
   },
   {
-    "id": "xbuilders:yellow_concrete_slab",
+    "id": "tessera:yellow_concrete_slab",
     "name": "Yellow Concrete Slab",
     "block": 324
   },
   {
-    "id": "xbuilders:yellow_concrete_fence",
+    "id": "tessera:yellow_concrete_fence",
     "name": "Yellow Concrete Fence",
     "block": 325
   },
   {
-    "id": "xbuilders:black_concrete_stairs",
+    "id": "tessera:black_concrete_stairs",
     "name": "Black Concrete Stairs",
     "block": 326
   },
   {
-    "id": "xbuilders:black_concrete_slab",
+    "id": "tessera:black_concrete_slab",
     "name": "Black Concrete Slab",
     "block": 327
   },
   {
-    "id": "xbuilders:black_concrete_fence",
+    "id": "tessera:black_concrete_fence",
     "name": "Black Concrete Fence",
     "block": 328
   },
   {
-    "id": "xbuilders:blue_concrete_stairs",
+    "id": "tessera:blue_concrete_stairs",
     "name": "Blue Concrete Stairs",
     "block": 329
   },
   {
-    "id": "xbuilders:blue_concrete_slab",
+    "id": "tessera:blue_concrete_slab",
     "name": "Blue Concrete Slab",
     "block": 330
   },
   {
-    "id": "xbuilders:blue_concrete_fence",
+    "id": "tessera:blue_concrete_fence",
     "name": "Blue Concrete Fence",
     "block": 331
   },
   {
-    "id": "xbuilders:brown_concrete_stairs",
+    "id": "tessera:brown_concrete_stairs",
     "name": "Brown Concrete Stairs",
     "block": 332
   },
   {
-    "id": "xbuilders:brown_concrete_slab",
+    "id": "tessera:brown_concrete_slab",
     "name": "Brown Concrete Slab",
     "block": 333
   },
   {
-    "id": "xbuilders:brown_concrete_fence",
+    "id": "tessera:brown_concrete_fence",
     "name": "Brown Concrete Fence",
     "block": 334
   },
   {
-    "id": "xbuilders:cyan_concrete_stairs",
+    "id": "tessera:cyan_concrete_stairs",
     "name": "Cyan Concrete Stairs",
     "block": 335
   },
   {
-    "id": "xbuilders:cyan_concrete_slab",
+    "id": "tessera:cyan_concrete_slab",
     "name": "Cyan Concrete Slab",
     "block": 336
   },
   {
-    "id": "xbuilders:cyan_concrete_fence",
+    "id": "tessera:cyan_concrete_fence",
     "name": "Cyan Concrete Fence",
     "block": 337
   },
   {
-    "id": "xbuilders:gray_concrete_stairs",
+    "id": "tessera:gray_concrete_stairs",
     "name": "Gray Concrete Stairs",
     "block": 338
   },
   {
-    "id": "xbuilders:gray_concrete_slab",
+    "id": "tessera:gray_concrete_slab",
     "name": "Gray Concrete Slab",
     "block": 339
   },
   {
-    "id": "xbuilders:gray_concrete_fence",
+    "id": "tessera:gray_concrete_fence",
     "name": "Gray Concrete Fence",
     "block": 340
   },
   {
-    "id": "xbuilders:green_concrete_stairs",
+    "id": "tessera:green_concrete_stairs",
     "name": "Green Concrete Stairs",
     "block": 341
   },
   {
-    "id": "xbuilders:green_concrete_slab",
+    "id": "tessera:green_concrete_slab",
     "name": "Green Concrete Slab",
     "block": 342
   },
   {
-    "id": "xbuilders:green_concrete_fence",
+    "id": "tessera:green_concrete_fence",
     "name": "Green Concrete Fence",
     "block": 343
   },
   {
-    "id": "xbuilders:light_blue_concrete_stairs",
+    "id": "tessera:light_blue_concrete_stairs",
     "name": "Light Blue Concrete Stairs",
     "block": 344
   },
   {
-    "id": "xbuilders:light_blue_concrete_slab",
+    "id": "tessera:light_blue_concrete_slab",
     "name": "Light Blue Concrete Slab",
     "block": 345
   },
   {
-    "id": "xbuilders:light_blue_concrete_fence",
+    "id": "tessera:light_blue_concrete_fence",
     "name": "Light Blue Concrete Fence",
     "block": 346
   },
   {
-    "id": "xbuilders:light_gray_concrete_stairs",
+    "id": "tessera:light_gray_concrete_stairs",
     "name": "Light Gray Concrete Stairs",
     "block": 347
   },
   {
-    "id": "xbuilders:light_gray_concrete_slab",
+    "id": "tessera:light_gray_concrete_slab",
     "name": "Light Gray Concrete Slab",
     "block": 348
   },
   {
-    "id": "xbuilders:light_gray_concrete_fence",
+    "id": "tessera:light_gray_concrete_fence",
     "name": "Light Gray Concrete Fence",
     "block": 349
   },
   {
-    "id": "xbuilders:lime_concrete_stairs",
+    "id": "tessera:lime_concrete_stairs",
     "name": "Lime Concrete Stairs",
     "block": 350
   },
   {
-    "id": "xbuilders:lime_concrete_slab",
+    "id": "tessera:lime_concrete_slab",
     "name": "Lime Concrete Slab",
     "block": 351
   },
   {
-    "id": "xbuilders:lime_concrete_fence",
+    "id": "tessera:lime_concrete_fence",
     "name": "Lime Concrete Fence",
     "block": 352
   },
   {
-    "id": "xbuilders:magenta_concrete_stairs",
+    "id": "tessera:magenta_concrete_stairs",
     "name": "Magenta Concrete Stairs",
     "block": 353
   },
   {
-    "id": "xbuilders:magenta_concrete_slab",
+    "id": "tessera:magenta_concrete_slab",
     "name": "Magenta Concrete Slab",
     "block": 354
   },
   {
-    "id": "xbuilders:magenta_concrete_fence",
+    "id": "tessera:magenta_concrete_fence",
     "name": "Magenta Concrete Fence",
     "block": 355
   },
   {
-    "id": "xbuilders:orange_concrete_stairs",
+    "id": "tessera:orange_concrete_stairs",
     "name": "Orange Concrete Stairs",
     "block": 356
   },
   {
-    "id": "xbuilders:orange_concrete_slab",
+    "id": "tessera:orange_concrete_slab",
     "name": "Orange Concrete Slab",
     "block": 357
   },
   {
-    "id": "xbuilders:orange_concrete_fence",
+    "id": "tessera:orange_concrete_fence",
     "name": "Orange Concrete Fence",
     "block": 358
   },
   {
-    "id": "xbuilders:pink_concrete_stairs",
+    "id": "tessera:pink_concrete_stairs",
     "name": "Pink Concrete Stairs",
     "block": 359
   },
   {
-    "id": "xbuilders:pink_concrete_slab",
+    "id": "tessera:pink_concrete_slab",
     "name": "Pink Concrete Slab",
     "block": 360
   },
   {
-    "id": "xbuilders:pink_concrete_fence",
+    "id": "tessera:pink_concrete_fence",
     "name": "Pink Concrete Fence",
     "block": 361
   },
   {
-    "id": "xbuilders:purple_concrete_stairs",
+    "id": "tessera:purple_concrete_stairs",
     "name": "Purple Concrete Stairs",
     "block": 362
   },
   {
-    "id": "xbuilders:purple_concrete_slab",
+    "id": "tessera:purple_concrete_slab",
     "name": "Purple Concrete Slab",
     "block": 363
   },
   {
-    "id": "xbuilders:purple_concrete_fence",
+    "id": "tessera:purple_concrete_fence",
     "name": "Purple Concrete Fence",
     "block": 364
   },
   {
-    "id": "xbuilders:red_concrete_stairs",
+    "id": "tessera:red_concrete_stairs",
     "name": "Red Concrete Stairs",
     "block": 365
   },
   {
-    "id": "xbuilders:red_concrete_slab",
+    "id": "tessera:red_concrete_slab",
     "name": "Red Concrete Slab",
     "block": 366
   },
   {
-    "id": "xbuilders:red_concrete_fence",
+    "id": "tessera:red_concrete_fence",
     "name": "Red Concrete Fence",
     "block": 367
   },
   {
-    "id": "xbuilders:white_concrete_stairs",
+    "id": "tessera:white_concrete_stairs",
     "name": "White Concrete Stairs",
     "block": 368
   },
   {
-    "id": "xbuilders:white_concrete_slab",
+    "id": "tessera:white_concrete_slab",
     "name": "White Concrete Slab",
     "block": 369
   },
   {
-    "id": "xbuilders:white_concrete_fence",
+    "id": "tessera:white_concrete_fence",
     "name": "White Concrete Fence",
     "block": 370
   },
   {
-    "id": "xbuilders:yellow_glazed_teracotta_stairs",
+    "id": "tessera:yellow_glazed_teracotta_stairs",
     "name": "Yellow Glazed Teracotta Stairs",
     "block": 371
   },
   {
-    "id": "xbuilders:yellow_glazed_teracotta_slab",
+    "id": "tessera:yellow_glazed_teracotta_slab",
     "name": "Yellow Glazed Teracotta Slab",
     "block": 372
   },
   {
-    "id": "xbuilders:black_glazed_teracotta_stairs",
+    "id": "tessera:black_glazed_teracotta_stairs",
     "name": "Black Glazed Teracotta Stairs",
     "block": 373
   },
   {
-    "id": "xbuilders:black_glazed_teracotta_slab",
+    "id": "tessera:black_glazed_teracotta_slab",
     "name": "Black Glazed Teracotta Slab",
     "block": 374
   },
   {
-    "id": "xbuilders:blue_glazed_teracotta_stairs",
+    "id": "tessera:blue_glazed_teracotta_stairs",
     "name": "Blue Glazed Teracotta Stairs",
     "block": 375
   },
   {
-    "id": "xbuilders:blue_glazed_teracotta_slab",
+    "id": "tessera:blue_glazed_teracotta_slab",
     "name": "Blue Glazed Teracotta Slab",
     "block": 376
   },
   {
-    "id": "xbuilders:brown_glazed_teracotta_stairs",
+    "id": "tessera:brown_glazed_teracotta_stairs",
     "name": "Brown Glazed Teracotta Stairs",
     "block": 377
   },
   {
-    "id": "xbuilders:brown_glazed_teracotta_slab",
+    "id": "tessera:brown_glazed_teracotta_slab",
     "name": "Brown Glazed Teracotta Slab",
     "block": 378
   },
   {
-    "id": "xbuilders:cyan_glazed_teracotta_stairs",
+    "id": "tessera:cyan_glazed_teracotta_stairs",
     "name": "Cyan Glazed Teracotta Stairs",
     "block": 379
   },
   {
-    "id": "xbuilders:cyan_glazed_teracotta_slab",
+    "id": "tessera:cyan_glazed_teracotta_slab",
     "name": "Cyan Glazed Teracotta Slab",
     "block": 380
   },
   {
-    "id": "xbuilders:gray_glazed_teracotta_stairs",
+    "id": "tessera:gray_glazed_teracotta_stairs",
     "name": "Gray Glazed Teracotta Stairs",
     "block": 381
   },
   {
-    "id": "xbuilders:gray_glazed_teracotta_slab",
+    "id": "tessera:gray_glazed_teracotta_slab",
     "name": "Gray Glazed Teracotta Slab",
     "block": 382
   },
   {
-    "id": "xbuilders:green_glazed_teracotta_stairs",
+    "id": "tessera:green_glazed_teracotta_stairs",
     "name": "Green Glazed Teracotta Stairs",
     "block": 383
   },
   {
-    "id": "xbuilders:green_glazed_teracotta_slab",
+    "id": "tessera:green_glazed_teracotta_slab",
     "name": "Green Glazed Teracotta Slab",
     "block": 384
   },
   {
-    "id": "xbuilders:light_blue_glazed_teracotta_stairs",
+    "id": "tessera:light_blue_glazed_teracotta_stairs",
     "name": "Light Blue Glazed Teracotta Stairs",
     "block": 385
   },
   {
-    "id": "xbuilders:light_blue_glazed_teracotta_slab",
+    "id": "tessera:light_blue_glazed_teracotta_slab",
     "name": "Light Blue Glazed Teracotta Slab",
     "block": 386
   },
   {
-    "id": "xbuilders:light_gray_glazed_teracotta_stairs",
+    "id": "tessera:light_gray_glazed_teracotta_stairs",
     "name": "Light Gray Glazed Teracotta Stairs",
     "block": 387
   },
   {
-    "id": "xbuilders:light_gray_glazed_teracotta_slab",
+    "id": "tessera:light_gray_glazed_teracotta_slab",
     "name": "Light Gray Glazed Teracotta Slab",
     "block": 388
   },
   {
-    "id": "xbuilders:lime_glazed_teracotta_stairs",
+    "id": "tessera:lime_glazed_teracotta_stairs",
     "name": "Lime Glazed Teracotta Stairs",
     "block": 389
   },
   {
-    "id": "xbuilders:lime_glazed_teracotta_slab",
+    "id": "tessera:lime_glazed_teracotta_slab",
     "name": "Lime Glazed Teracotta Slab",
     "block": 390
   },
   {
-    "id": "xbuilders:magenta_glazed_teracotta_stairs",
+    "id": "tessera:magenta_glazed_teracotta_stairs",
     "name": "Magenta Glazed Teracotta Stairs",
     "block": 391
   },
   {
-    "id": "xbuilders:magenta_glazed_teracotta_slab",
+    "id": "tessera:magenta_glazed_teracotta_slab",
     "name": "Magenta Glazed Teracotta Slab",
     "block": 392
   },
   {
-    "id": "xbuilders:orange_glazed_teracotta_stairs",
+    "id": "tessera:orange_glazed_teracotta_stairs",
     "name": "Orange Glazed Teracotta Stairs",
     "block": 393
   },
   {
-    "id": "xbuilders:orange_glazed_teracotta_slab",
+    "id": "tessera:orange_glazed_teracotta_slab",
     "name": "Orange Glazed Teracotta Slab",
     "block": 394
   },
   {
-    "id": "xbuilders:pink_glazed_teracotta_stairs",
+    "id": "tessera:pink_glazed_teracotta_stairs",
     "name": "Pink Glazed Teracotta Stairs",
     "block": 395
   },
   {
-    "id": "xbuilders:pink_glazed_teracotta_slab",
+    "id": "tessera:pink_glazed_teracotta_slab",
     "name": "Pink Glazed Teracotta Slab",
     "block": 396
   },
   {
-    "id": "xbuilders:purple_glazed_teracotta_stairs",
+    "id": "tessera:purple_glazed_teracotta_stairs",
     "name": "Purple Glazed Teracotta Stairs",
     "block": 397
   },
   {
-    "id": "xbuilders:purple_glazed_teracotta_slab",
+    "id": "tessera:purple_glazed_teracotta_slab",
     "name": "Purple Glazed Teracotta Slab",
     "block": 398
   },
   {
-    "id": "xbuilders:red_glazed_teracotta_stairs",
+    "id": "tessera:red_glazed_teracotta_stairs",
     "name": "Red Glazed Teracotta Stairs",
     "block": 399
   },
   {
-    "id": "xbuilders:red_glazed_teracotta_slab",
+    "id": "tessera:red_glazed_teracotta_slab",
     "name": "Red Glazed Teracotta Slab",
     "block": 400
   },
   {
-    "id": "xbuilders:white_glazed_teracotta_stairs",
+    "id": "tessera:white_glazed_teracotta_stairs",
     "name": "White Glazed Teracotta Stairs",
     "block": 401
   },
   {
-    "id": "xbuilders:white_glazed_teracotta_slab",
+    "id": "tessera:white_glazed_teracotta_slab",
     "name": "White Glazed Teracotta Slab",
     "block": 402
   },
   {
-    "id": "xbuilders:ladder",
+    "id": "tessera:ladder",
     "name": "Ladder",
     "block": 403
   },
   {
-    "id": "xbuilders:minecart_road_block",
+    "id": "tessera:minecart_road_block",
     "name": "Minecart Road Block",
     "block": 404
   },
   {
-    "id": "xbuilders:stone",
+    "id": "tessera:stone",
     "name": "Stone",
     "block": 405,
     "tags": [
@@ -1826,773 +1826,773 @@
     ]
   },
   {
-    "id": "xbuilders:bamboo_wood_fence",
+    "id": "tessera:bamboo_wood_fence",
     "name": "Bamboo Wood Fence",
     "block": 406
   },
   {
-    "id": "xbuilders:minecart_road_slab",
+    "id": "tessera:minecart_road_slab",
     "name": "Minecart Road Slab",
     "block": 408
   },
   {
-    "id": "xbuilders:prismarine_bricks",
+    "id": "tessera:prismarine_bricks",
     "name": "Prismarine Bricks",
     "block": 409
   },
   {
-    "id": "xbuilders:dark_prismarine_bricks",
+    "id": "tessera:dark_prismarine_bricks",
     "name": "Dark Prismarine Bricks",
     "block": 410
   },
   {
-    "id": "xbuilders:glass_stairs",
+    "id": "tessera:glass_stairs",
     "name": "Glass Stairs",
     "block": 411
   },
   {
-    "id": "xbuilders:glass_slab",
+    "id": "tessera:glass_slab",
     "name": "Glass Slab",
     "block": 412
   },
   {
-    "id": "xbuilders:blue_torch",
+    "id": "tessera:blue_torch",
     "name": "Blue Torch",
     "icon": "blue_torch.png",
     "block": 413
   },
   {
-    "id": "xbuilders:concrete_stairs",
+    "id": "tessera:concrete_stairs",
     "name": "concrete Stairs",
     "block": 414
   },
   {
-    "id": "xbuilders:concrete_fence",
+    "id": "tessera:concrete_fence",
     "name": "concrete Fence",
     "block": 415
   },
   {
-    "id": "xbuilders:concrete_slab",
+    "id": "tessera:concrete_slab",
     "name": "concrete Slab",
     "block": 416
   },
   {
-    "id": "xbuilders:obsidian_slab",
+    "id": "tessera:obsidian_slab",
     "name": "Obsidian Slab",
     "block": 417
   },
   {
-    "id": "xbuilders:obsidian_fence",
+    "id": "tessera:obsidian_fence",
     "name": "Obsidian Fence",
     "block": 418
   },
   {
-    "id": "xbuilders:lapis_lazul_stairs",
+    "id": "tessera:lapis_lazul_stairs",
     "name": "Lapis Lazul Stairs",
     "block": 419
   },
   {
-    "id": "xbuilders:lapis_lazul_block_slab",
+    "id": "tessera:lapis_lazul_block_slab",
     "name": "Lapis Lazul Block Slab",
     "block": 420
   },
   {
-    "id": "xbuilders:lapis_lazul_fence",
+    "id": "tessera:lapis_lazul_fence",
     "name": "Lapis Lazul Fence",
     "block": 421
   },
   {
-    "id": "xbuilders:iron_stairs",
+    "id": "tessera:iron_stairs",
     "name": "Iron Stairs",
     "block": 422
   },
   {
-    "id": "xbuilders:iron_block_slab",
+    "id": "tessera:iron_block_slab",
     "name": "Iron Slab",
     "block": 423
   },
   {
-    "id": "xbuilders:iron_fence",
+    "id": "tessera:iron_fence",
     "name": "Iron Fence",
     "block": 424
   },
   {
-    "id": "xbuilders:gold_stairs",
+    "id": "tessera:gold_stairs",
     "name": "Gold Stairs",
     "block": 425
   },
   {
-    "id": "xbuilders:gold_slab",
+    "id": "tessera:gold_slab",
     "name": "Gold Block Slab",
     "block": 426
   },
   {
-    "id": "xbuilders:gold_fence",
+    "id": "tessera:gold_fence",
     "name": "Gold Fence",
     "block": 427
   },
   {
-    "id": "xbuilders:emerald_stairs",
+    "id": "tessera:emerald_stairs",
     "name": "Emerald Stairs",
     "block": 428
   },
   {
-    "id": "xbuilders:emerald_block_slab",
+    "id": "tessera:emerald_block_slab",
     "name": "Emerald Block Slab",
     "block": 429
   },
   {
-    "id": "xbuilders:emerald_fence",
+    "id": "tessera:emerald_fence",
     "name": "Emerald Fence",
     "block": 430
   },
   {
-    "id": "xbuilders:diamond_stairs",
+    "id": "tessera:diamond_stairs",
     "name": "Diamond Stairs",
     "block": 431
   },
   {
-    "id": "xbuilders:diamond_block_slab",
+    "id": "tessera:diamond_block_slab",
     "name": "Diamond Block Slab",
     "block": 432
   },
   {
-    "id": "xbuilders:diamond_fence",
+    "id": "tessera:diamond_fence",
     "name": "Diamond Fence",
     "block": 433
   },
   {
-    "id": "xbuilders:crosswalk_paint",
+    "id": "tessera:crosswalk_paint",
     "name": "Crosswalk Paint",
     "block": 434
   },
   {
-    "id": "xbuilders:dark_prismarine_brick_stairs",
+    "id": "tessera:dark_prismarine_brick_stairs",
     "name": "Dark Prismarine Brick Stairs",
     "block": 435
   },
   {
-    "id": "xbuilders:prismarine_brick_slab",
+    "id": "tessera:prismarine_brick_slab",
     "name": "Prismarine Brick Slab",
     "block": 436
   },
   {
-    "id": "xbuilders:obsidian_stairs",
+    "id": "tessera:obsidian_stairs",
     "name": "Obsidian Stairs",
     "block": 437
   },
   {
-    "id": "xbuilders:prismarine_brick_fence",
+    "id": "tessera:prismarine_brick_fence",
     "name": "Prismarine Brick Fence",
     "block": 438
   },
   {
-    "id": "xbuilders:stone_brick_pillar",
+    "id": "tessera:stone_brick_pillar",
     "name": "Stone Brick Pillar",
     "block": 440
   },
   {
-    "id": "xbuilders:palisade_stone_pillar",
+    "id": "tessera:palisade_stone_pillar",
     "name": "Palisade Stone Pillar",
     "block": 442
   },
   {
-    "id": "xbuilders:palisade_stone_2_pillar",
+    "id": "tessera:palisade_stone_2_pillar",
     "name": "Palisade Stone 2 Pillar",
     "block": 443
   },
   {
-    "id": "xbuilders:cracked_stone_pillar",
+    "id": "tessera:cracked_stone_pillar",
     "name": "Cracked Stone Pillar",
     "block": 444
   },
   {
-    "id": "xbuilders:stone_with_vines_pillar",
+    "id": "tessera:stone_with_vines_pillar",
     "name": "Stone With Vines Pillar",
     "block": 445
   },
   {
-    "id": "xbuilders:flat_dragon_vines",
+    "id": "tessera:flat_dragon_vines",
     "name": "Flat Dragon Vines",
     "block": 446
   },
   {
-    "id": "xbuilders:dragon_vines",
+    "id": "tessera:dragon_vines",
     "name": "Dragon Vines",
     "block": 447
   },
   {
-    "id": "xbuilders:marble_pillar_block",
+    "id": "tessera:marble_pillar_block",
     "name": "Marble Pillar Block",
     "block": 449
   },
   {
-    "id": "xbuilders:quartz_pillar",
+    "id": "tessera:quartz_pillar",
     "name": "Quartz Pillar",
     "block": 450
   },
   {
-    "id": "xbuilders:marble_pillar",
+    "id": "tessera:marble_pillar",
     "name": "Marble Pillar",
     "block": 451
   },
   {
-    "id": "xbuilders:road_markings",
+    "id": "tessera:road_markings",
     "name": "Road Markings",
     "block": 453
   },
   {
-    "id": "xbuilders:granite_brick_pillar",
+    "id": "tessera:granite_brick_pillar",
     "name": "Granite Brick Pillar",
     "block": 454
   },
   {
-    "id": "xbuilders:granite_brick_slab",
+    "id": "tessera:granite_brick_slab",
     "name": "Granite Brick Slab",
     "block": 455
   },
   {
-    "id": "xbuilders:granite_brick_fence",
+    "id": "tessera:granite_brick_fence",
     "name": "Granite Brick Fence",
     "block": 456
   },
   {
-    "id": "xbuilders:dark_prismarine_brick_slab",
+    "id": "tessera:dark_prismarine_brick_slab",
     "name": "Dark Prismarine Brick Slab",
     "block": 458
   },
   {
-    "id": "xbuilders:dark_prismarine_brick_fence",
+    "id": "tessera:dark_prismarine_brick_fence",
     "name": "Dark Prismarine Brick Fence",
     "block": 459
   },
   {
-    "id": "xbuilders:orange_marble_tile",
+    "id": "tessera:orange_marble_tile",
     "name": "Orange Marble Tile",
     "block": 462
   },
   {
-    "id": "xbuilders:checkerboard_chiseled_marble",
+    "id": "tessera:checkerboard_chiseled_marble",
     "name": "Checkerboard Chiseled Marble",
     "block": 463
   },
   {
-    "id": "xbuilders:chiseled_marble",
+    "id": "tessera:chiseled_marble",
     "name": "Chiseled Marble",
     "block": 464
   },
   {
-    "id": "xbuilders:chiseled_quartz",
+    "id": "tessera:chiseled_quartz",
     "name": "Chiseled Quartz",
     "block": 465
   },
   {
-    "id": "xbuilders:marble_tile",
+    "id": "tessera:marble_tile",
     "name": "Marble Tile",
     "block": 466
   },
   {
-    "id": "xbuilders:blue_marble_tile",
+    "id": "tessera:blue_marble_tile",
     "name": "Blue Marble Tile",
     "block": 467
   },
   {
-    "id": "xbuilders:green_marble_tile",
+    "id": "tessera:green_marble_tile",
     "name": "Green Marble Tile",
     "block": 468
   },
   {
-    "id": "xbuilders:orange_marble_tile_slab",
+    "id": "tessera:orange_marble_tile_slab",
     "name": "Orange Marble Tile Slab",
     "block": 469
   },
   {
-    "id": "xbuilders:gray_marble_tile",
+    "id": "tessera:gray_marble_tile",
     "name": "Gray Marble Tile",
     "block": 470
   },
   {
-    "id": "xbuilders:orange_marble_tile_stairs",
+    "id": "tessera:orange_marble_tile_stairs",
     "name": "Orange Marble Tile Stairs",
     "block": 471
   },
   {
-    "id": "xbuilders:green_marble_tile_slab",
+    "id": "tessera:green_marble_tile_slab",
     "name": "Green Marble Tile Slab",
     "block": 472
   },
   {
-    "id": "xbuilders:yellow_stained_glass_stairs",
+    "id": "tessera:yellow_stained_glass_stairs",
     "name": "Yellow_Stained Glass Stairs",
     "block": 473
   },
   {
-    "id": "xbuilders:yellow_stained_glass_slab",
+    "id": "tessera:yellow_stained_glass_slab",
     "name": "Yellow_Stained Glass Slab",
     "block": 474
   },
   {
-    "id": "xbuilders:black_stained_glass_stairs",
+    "id": "tessera:black_stained_glass_stairs",
     "name": "Black_Stained Glass Stairs",
     "block": 475
   },
   {
-    "id": "xbuilders:black_stained_glass_slab",
+    "id": "tessera:black_stained_glass_slab",
     "name": "Black_Stained Glass Slab",
     "block": 476
   },
   {
-    "id": "xbuilders:blue_stained_glass_stairs",
+    "id": "tessera:blue_stained_glass_stairs",
     "name": "Blue_Stained Glass Stairs",
     "block": 477
   },
   {
-    "id": "xbuilders:blue_stained_glass_slab",
+    "id": "tessera:blue_stained_glass_slab",
     "name": "Blue_Stained Glass Slab",
     "block": 478
   },
   {
-    "id": "xbuilders:brown_stained_glass_stairs",
+    "id": "tessera:brown_stained_glass_stairs",
     "name": "Brown_Stained Glass Stairs",
     "block": 479
   },
   {
-    "id": "xbuilders:brown_stained_glass_slab",
+    "id": "tessera:brown_stained_glass_slab",
     "name": "Brown_Stained Glass Slab",
     "block": 480
   },
   {
-    "id": "xbuilders:cyan_stained_glass_stairs",
+    "id": "tessera:cyan_stained_glass_stairs",
     "name": "Cyan_Stained Glass Stairs",
     "block": 481
   },
   {
-    "id": "xbuilders:cyan_stained_glass_slab",
+    "id": "tessera:cyan_stained_glass_slab",
     "name": "Cyan_Stained Glass Slab",
     "block": 482
   },
   {
-    "id": "xbuilders:gray_stained_glass_stairs",
+    "id": "tessera:gray_stained_glass_stairs",
     "name": "Gray_Stained Glass Stairs",
     "block": 483
   },
   {
-    "id": "xbuilders:gray_stained_glass_slab",
+    "id": "tessera:gray_stained_glass_slab",
     "name": "Gray_Stained Glass Slab",
     "block": 484
   },
   {
-    "id": "xbuilders:green_stained_glass_stairs",
+    "id": "tessera:green_stained_glass_stairs",
     "name": "Green_Stained Glass Stairs",
     "block": 485
   },
   {
-    "id": "xbuilders:green_stained_glass_slab",
+    "id": "tessera:green_stained_glass_slab",
     "name": "Green_Stained Glass Slab",
     "block": 486
   },
   {
-    "id": "xbuilders:light_blue_stained_glass_stairs",
+    "id": "tessera:light_blue_stained_glass_stairs",
     "name": "Light Blue_Stained Glass Stairs",
     "block": 487
   },
   {
-    "id": "xbuilders:light_blue_stained_glass_slab",
+    "id": "tessera:light_blue_stained_glass_slab",
     "name": "Light Blue_Stained Glass Slab",
     "block": 488
   },
   {
-    "id": "xbuilders:light_gray_stained_glass_stairs",
+    "id": "tessera:light_gray_stained_glass_stairs",
     "name": "Light Gray_Stained Glass Stairs",
     "block": 489
   },
   {
-    "id": "xbuilders:light_gray_stained_glass_slab",
+    "id": "tessera:light_gray_stained_glass_slab",
     "name": "Light Gray_Stained Glass Slab",
     "block": 490
   },
   {
-    "id": "xbuilders:lime_stained_glass_stairs",
+    "id": "tessera:lime_stained_glass_stairs",
     "name": "Lime_Stained Glass Stairs",
     "block": 491
   },
   {
-    "id": "xbuilders:lime_stained_glass_slab",
+    "id": "tessera:lime_stained_glass_slab",
     "name": "Lime_Stained Glass Slab",
     "block": 492
   },
   {
-    "id": "xbuilders:magenta_stained_glass_stairs",
+    "id": "tessera:magenta_stained_glass_stairs",
     "name": "Magenta_Stained Glass Stairs",
     "block": 493
   },
   {
-    "id": "xbuilders:magenta_stained_glass_slab",
+    "id": "tessera:magenta_stained_glass_slab",
     "name": "Magenta_Stained Glass Slab",
     "block": 494
   },
   {
-    "id": "xbuilders:orange_stained_glass_stairs",
+    "id": "tessera:orange_stained_glass_stairs",
     "name": "Orange_Stained Glass Stairs",
     "block": 495
   },
   {
-    "id": "xbuilders:orange_stained_glass_slab",
+    "id": "tessera:orange_stained_glass_slab",
     "name": "Orange_Stained Glass Slab",
     "block": 496
   },
   {
-    "id": "xbuilders:pink_stained_glass_stairs",
+    "id": "tessera:pink_stained_glass_stairs",
     "name": "Pink_Stained Glass Stairs",
     "block": 497
   },
   {
-    "id": "xbuilders:pink_stained_glass_slab",
+    "id": "tessera:pink_stained_glass_slab",
     "name": "Pink_Stained Glass Slab",
     "block": 498
   },
   {
-    "id": "xbuilders:purple_stained_glass_stairs",
+    "id": "tessera:purple_stained_glass_stairs",
     "name": "Purple_Stained Glass Stairs",
     "block": 499
   },
   {
-    "id": "xbuilders:purple_stained_glass_slab",
+    "id": "tessera:purple_stained_glass_slab",
     "name": "Purple_Stained Glass Slab",
     "block": 500
   },
   {
-    "id": "xbuilders:red_stained_glass_stairs",
+    "id": "tessera:red_stained_glass_stairs",
     "name": "Red_Stained Glass Stairs",
     "block": 501
   },
   {
-    "id": "xbuilders:red_stained_glass_slab",
+    "id": "tessera:red_stained_glass_slab",
     "name": "Red_Stained Glass Slab",
     "block": 502
   },
   {
-    "id": "xbuilders:white_stained_glass_stairs",
+    "id": "tessera:white_stained_glass_stairs",
     "name": "White_Stained Glass Stairs",
     "block": 503
   },
   {
-    "id": "xbuilders:white_stained_glass_slab",
+    "id": "tessera:white_stained_glass_slab",
     "name": "White_Stained Glass Slab",
     "block": 504
   },
   {
-    "id": "xbuilders:checkerboard_chiseled_marble_stairs",
+    "id": "tessera:checkerboard_chiseled_marble_stairs",
     "name": "Checkerboard Chiseled Marble Stairs",
     "block": 505
   },
   {
-    "id": "xbuilders:checkerboard_chiseled_marble_slab",
+    "id": "tessera:checkerboard_chiseled_marble_slab",
     "name": "Checkerboard Chiseled Marble Slab",
     "block": 506
   },
   {
-    "id": "xbuilders:chiseled_marble_stairs",
+    "id": "tessera:chiseled_marble_stairs",
     "name": "Chiseled Marble Stairs",
     "block": 507
   },
   {
-    "id": "xbuilders:chiseled_marble_slab",
+    "id": "tessera:chiseled_marble_slab",
     "name": "Chiseled Marble Slab",
     "block": 508
   },
   {
-    "id": "xbuilders:marble_tile_stairs",
+    "id": "tessera:marble_tile_stairs",
     "name": "Marble Tile Stairs",
     "block": 509
   },
   {
-    "id": "xbuilders:marble_tile_slab",
+    "id": "tessera:marble_tile_slab",
     "name": "Marble Tile Slab",
     "block": 510
   },
   {
-    "id": "xbuilders:gray_marble_tile_stairs",
+    "id": "tessera:gray_marble_tile_stairs",
     "name": "Gray Marble Tile Stairs",
     "block": 511
   },
   {
-    "id": "xbuilders:gray_marble_tile_slab",
+    "id": "tessera:gray_marble_tile_slab",
     "name": "Gray Marble Tile Slab",
     "block": 512
   },
   {
-    "id": "xbuilders:blue_marble_tile_stairs",
+    "id": "tessera:blue_marble_tile_stairs",
     "name": "Blue Marble Tile Stairs",
     "block": 513
   },
   {
-    "id": "xbuilders:blue_marble_tile_slab",
+    "id": "tessera:blue_marble_tile_slab",
     "name": "Blue Marble Tile Slab",
     "block": 514
   },
   {
-    "id": "xbuilders:green_marble_tile_stairs",
+    "id": "tessera:green_marble_tile_stairs",
     "name": "Green Marble Tile Stairs",
     "block": 515
   },
   {
-    "id": "xbuilders:chiseled_quartz_stairs",
+    "id": "tessera:chiseled_quartz_stairs",
     "name": "Chiseled Quartz Stairs",
     "block": 516
   },
   {
-    "id": "xbuilders:chiseled_quartz_slab",
+    "id": "tessera:chiseled_quartz_slab",
     "name": "Chiseled Quartz Slab",
     "block": 517
   },
   {
-    "id": "xbuilders:chiseled_quartz_pillar",
+    "id": "tessera:chiseled_quartz_pillar",
     "name": "Chiseled Quartz Pillar",
     "block": 518
   },
   {
-    "id": "xbuilders:gray_marble_tile_pillar",
+    "id": "tessera:gray_marble_tile_pillar",
     "name": "Gray Marble Tile Pillar",
     "block": 519
   },
   {
-    "id": "xbuilders:blue_marble_tile_pillar",
+    "id": "tessera:blue_marble_tile_pillar",
     "name": "Blue Marble Tile Pillar",
     "block": 520
   },
   {
-    "id": "xbuilders:green_marble_tile_pillar",
+    "id": "tessera:green_marble_tile_pillar",
     "name": "Green Marble Tile Pillar",
     "block": 521
   },
   {
-    "id": "xbuilders:orange_marble_tile_pillar",
+    "id": "tessera:orange_marble_tile_pillar",
     "name": "Orange Marble Tile Pillar",
     "block": 522
   },
   {
-    "id": "xbuilders:marble_tile_pillar",
+    "id": "tessera:marble_tile_pillar",
     "name": "Marble Tile Pillar",
     "block": 523
   },
   {
-    "id": "xbuilders:lamp",
+    "id": "tessera:lamp",
     "name": "Lamp",
     "block": 524
   },
   {
-    "id": "xbuilders:blue_lamp",
+    "id": "tessera:blue_lamp",
     "name": "Blue Lamp",
     "block": 525
   },
   {
-    "id": "xbuilders:glass_pane",
+    "id": "tessera:glass_pane",
     "name": "Glass Pane",
     "block": 526
   },
   {
-    "id": "xbuilders:yellow_stained_glass_pane",
+    "id": "tessera:yellow_stained_glass_pane",
     "name": "Yellow_Stained Glass Pane",
     "block": 527
   },
   {
-    "id": "xbuilders:black_stained_glass_pane",
+    "id": "tessera:black_stained_glass_pane",
     "name": "Black_Stained Glass Pane",
     "block": 528
   },
   {
-    "id": "xbuilders:blue_stained_glass_pane",
+    "id": "tessera:blue_stained_glass_pane",
     "name": "Blue_Stained Glass Pane",
     "block": 529
   },
   {
-    "id": "xbuilders:brown_stained_glass_pane",
+    "id": "tessera:brown_stained_glass_pane",
     "name": "Brown_Stained Glass Pane",
     "block": 530
   },
   {
-    "id": "xbuilders:cyan_stained_glass_pane",
+    "id": "tessera:cyan_stained_glass_pane",
     "name": "Cyan_Stained Glass Pane",
     "block": 531
   },
   {
-    "id": "xbuilders:gray_stained_glass_pane",
+    "id": "tessera:gray_stained_glass_pane",
     "name": "Gray_Stained Glass Pane",
     "block": 532
   },
   {
-    "id": "xbuilders:green_stained_glass_pane",
+    "id": "tessera:green_stained_glass_pane",
     "name": "Green_Stained Glass Pane",
     "block": 533
   },
   {
-    "id": "xbuilders:light_blue_stained_glass_pane",
+    "id": "tessera:light_blue_stained_glass_pane",
     "name": "Light Blue_Stained Glass Pane",
     "block": 534
   },
   {
-    "id": "xbuilders:light_gray_stained_glass_pane",
+    "id": "tessera:light_gray_stained_glass_pane",
     "name": "Light Gray_Stained Glass Pane",
     "block": 535
   },
   {
-    "id": "xbuilders:lime_stained_glass_pane",
+    "id": "tessera:lime_stained_glass_pane",
     "name": "Lime_Stained Glass Pane",
     "block": 536
   },
   {
-    "id": "xbuilders:magenta_stained_glass_pane",
+    "id": "tessera:magenta_stained_glass_pane",
     "name": "Magenta_Stained Glass Pane",
     "block": 537
   },
   {
-    "id": "xbuilders:orange_stained_glass_pane",
+    "id": "tessera:orange_stained_glass_pane",
     "name": "Orange_Stained Glass Pane",
     "block": 538
   },
   {
-    "id": "xbuilders:pink_stained_glass_pane",
+    "id": "tessera:pink_stained_glass_pane",
     "name": "Pink_Stained Glass Pane",
     "block": 539
   },
   {
-    "id": "xbuilders:purple_stained_glass_pane",
+    "id": "tessera:purple_stained_glass_pane",
     "name": "Purple_Stained Glass Pane",
     "block": 540
   },
   {
-    "id": "xbuilders:red_stained_glass_pane",
+    "id": "tessera:red_stained_glass_pane",
     "name": "Red_Stained Glass Pane",
     "block": 541
   },
   {
-    "id": "xbuilders:white_stained_glass_pane",
+    "id": "tessera:white_stained_glass_pane",
     "name": "White_Stained Glass Pane",
     "block": 542
   },
   {
-    "id": "xbuilders:yellow_chiseled_marble_tile",
+    "id": "tessera:yellow_chiseled_marble_tile",
     "name": "Yellow Chiseled Marble Tile",
     "block": 545
   },
   {
-    "id": "xbuilders:mega_tnt",
+    "id": "tessera:mega_tnt",
     "name": "Mega TNT",
     "block": 548
   },
   {
-    "id": "xbuilders:sunflower_seeds",
+    "id": "tessera:sunflower_seeds",
     "name": "Sunflower Seeds",
     "block": 549
   },
   {
-    "id": "xbuilders:crosstrack",
+    "id": "tessera:crosstrack",
     "name": "CrossTrack",
     "block": 550
   },
   {
-    "id": "xbuilders:black_chiseled_marble_tile",
+    "id": "tessera:black_chiseled_marble_tile",
     "name": "Black Chiseled Marble Tile",
     "block": 553
   },
   {
-    "id": "xbuilders:blue_chiseled_marble_tile",
+    "id": "tessera:blue_chiseled_marble_tile",
     "name": "Blue Chiseled Marble Tile",
     "block": 554
   },
   {
-    "id": "xbuilders:brown_chiseled_marble_tile",
+    "id": "tessera:brown_chiseled_marble_tile",
     "name": "Brown Chiseled Marble Tile",
     "block": 555
   },
   {
-    "id": "xbuilders:cyan_chiseled_marble_tile",
+    "id": "tessera:cyan_chiseled_marble_tile",
     "name": "Cyan Chiseled Marble Tile",
     "block": 556
   },
   {
-    "id": "xbuilders:gray_chiseled_marble_tile",
+    "id": "tessera:gray_chiseled_marble_tile",
     "name": "Gray Chiseled Marble Tile",
     "block": 557
   },
   {
-    "id": "xbuilders:green_chiseled_marble_tile",
+    "id": "tessera:green_chiseled_marble_tile",
     "name": "Green Chiseled Marble Tile",
     "block": 558
   },
   {
-    "id": "xbuilders:pastel_blue_chiseled_marble_tile",
+    "id": "tessera:pastel_blue_chiseled_marble_tile",
     "name": "Pastel_Blue Chiseled Marble Tile",
     "block": 559
   },
   {
-    "id": "xbuilders:pastel_green_chiseled_marble_tile",
+    "id": "tessera:pastel_green_chiseled_marble_tile",
     "name": "Pastel_Green Chiseled Marble Tile",
     "block": 560
   },
   {
-    "id": "xbuilders:magenta_chiseled_marble_tile",
+    "id": "tessera:magenta_chiseled_marble_tile",
     "name": "Magenta Chiseled Marble Tile",
     "block": 561
   },
   {
-    "id": "xbuilders:orange_chiseled_marble_tile",
+    "id": "tessera:orange_chiseled_marble_tile",
     "name": "Orange Chiseled Marble Tile",
     "block": 562
   },
   {
-    "id": "xbuilders:pink_chiseled_marble_tile",
+    "id": "tessera:pink_chiseled_marble_tile",
     "name": "Pink Chiseled Marble Tile",
     "block": 563
   },
   {
-    "id": "xbuilders:purple_chiseled_marble_tile",
+    "id": "tessera:purple_chiseled_marble_tile",
     "name": "Purple Chiseled Marble Tile",
     "block": 564
   },
   {
-    "id": "xbuilders:burgundy_chiseled_marble_tile",
+    "id": "tessera:burgundy_chiseled_marble_tile",
     "name": "Burgundy Chiseled Marble Tile",
     "block": 565
   },
   {
-    "id": "xbuilders:bamboo_block",
+    "id": "tessera:bamboo_block",
     "name": "Bamboo Block",
     "block": 566
   },
   {
-    "id": "xbuilders:pastel_red_chiseled_marble_tile",
+    "id": "tessera:pastel_red_chiseled_marble_tile",
     "name": "Pastel_Red Chiseled Marble Tile",
     "block": 567
   },
   {
-    "id": "xbuilders:yellow_marble_tile",
+    "id": "tessera:yellow_marble_tile",
     "name": "Yellow Marble Tile",
     "block": 568
   },
   {
-    "id": "xbuilders:black_marble_tile",
+    "id": "tessera:black_marble_tile",
     "name": "Black Marble Tile",
     "block": 569
   },
   {
-    "id": "xbuilders:ice_block",
+    "id": "tessera:ice_block",
     "name": "Ice Block",
     "block": 570
   },
   {
-    "id": "xbuilders:brown_marble_tile",
+    "id": "tessera:brown_marble_tile",
     "name": "Brown Marble Tile",
     "block": 571
   },
   {
-    "id": "xbuilders:cyan_marble_tile",
+    "id": "tessera:cyan_marble_tile",
     "name": "Cyan Marble Tile",
     "block": 572
   },
   {
-    "id": "xbuilders:bamboo_wood",
+    "id": "tessera:bamboo_wood",
     "name": "Bamboo Wood",
     "block": 573,
     "tags": [
@@ -2600,57 +2600,57 @@
     ]
   },
   {
-    "id": "xbuilders:bottle",
+    "id": "tessera:bottle",
     "name": "Bottle",
     "block": 574
   },
   {
-    "id": "xbuilders:pastel_blue_marble_tile",
+    "id": "tessera:pastel_blue_marble_tile",
     "name": "Pastel_Blue Marble Tile",
     "block": 575
   },
   {
-    "id": "xbuilders:pastel_green_marble_tile",
+    "id": "tessera:pastel_green_marble_tile",
     "name": "Pastel_Green Marble Tile",
     "block": 576
   },
   {
-    "id": "xbuilders:magenta_marble_tile",
+    "id": "tessera:magenta_marble_tile",
     "name": "Magenta Marble Tile",
     "block": 577
   },
   {
-    "id": "xbuilders:cup",
+    "id": "tessera:cup",
     "name": "Cup",
     "block": 578
   },
   {
-    "id": "xbuilders:pink_marble_tile",
+    "id": "tessera:pink_marble_tile",
     "name": "Pink Marble Tile",
     "block": 579
   },
   {
-    "id": "xbuilders:purple_marble_tile",
+    "id": "tessera:purple_marble_tile",
     "name": "Purple Marble Tile",
     "block": 580
   },
   {
-    "id": "xbuilders:burgundy_marble_tile",
+    "id": "tessera:burgundy_marble_tile",
     "name": "Burgundy Marble Tile",
     "block": 581
   },
   {
-    "id": "xbuilders:pastel_red_marble_tile",
+    "id": "tessera:pastel_red_marble_tile",
     "name": "Pastel_Red Marble Tile",
     "block": 582
   },
   {
-    "id": "xbuilders:wine_glass",
+    "id": "tessera:wine_glass",
     "name": "Wine Glass",
     "block": 583
   },
   {
-    "id": "xbuilders:yellow_stained_wood",
+    "id": "tessera:yellow_stained_wood",
     "name": "Yellow Stained Wood",
     "block": 584,
     "tags": [
@@ -2658,7 +2658,7 @@
     ]
   },
   {
-    "id": "xbuilders:black_stained_wood",
+    "id": "tessera:black_stained_wood",
     "name": "Black Stained Wood",
     "block": 585,
     "tags": [
@@ -2666,37 +2666,37 @@
     ]
   },
   {
-    "id": "xbuilders:yellow_marble_tile_stairs",
+    "id": "tessera:yellow_marble_tile_stairs",
     "name": "Yellow Marble Tile Stairs",
     "block": 586
   },
   {
-    "id": "xbuilders:yellow_marble_tile_slab",
+    "id": "tessera:yellow_marble_tile_slab",
     "name": "Yellow Marble Tile Slab",
     "block": 587
   },
   {
-    "id": "xbuilders:yellow_marble_tile_pillar",
+    "id": "tessera:yellow_marble_tile_pillar",
     "name": "Yellow Marble Tile Pillar",
     "block": 588
   },
   {
-    "id": "xbuilders:black_marble_tile_stairs",
+    "id": "tessera:black_marble_tile_stairs",
     "name": "Black Marble Tile Stairs",
     "block": 589
   },
   {
-    "id": "xbuilders:black_marble_tile_slab",
+    "id": "tessera:black_marble_tile_slab",
     "name": "Black Marble Tile Slab",
     "block": 590
   },
   {
-    "id": "xbuilders:black_marble_tile_pillar",
+    "id": "tessera:black_marble_tile_pillar",
     "name": "Black Marble Tile Pillar",
     "block": 591
   },
   {
-    "id": "xbuilders:cyan_stained_wood",
+    "id": "tessera:cyan_stained_wood",
     "name": "Cyan Stained Wood",
     "block": 593,
     "tags": [
@@ -2704,367 +2704,367 @@
     ]
   },
   {
-    "id": "xbuilders:pink_chiseled_marble_tile_pillar",
+    "id": "tessera:pink_chiseled_marble_tile_pillar",
     "name": "Pink Chiseled Marble Tile Pillar",
     "block": 594
   },
   {
-    "id": "xbuilders:brown_marble_tile_stairs",
+    "id": "tessera:brown_marble_tile_stairs",
     "name": "Brown Marble Tile Stairs",
     "block": 595
   },
   {
-    "id": "xbuilders:brown_marble_tile_slab",
+    "id": "tessera:brown_marble_tile_slab",
     "name": "Brown Marble Tile Slab",
     "block": 596
   },
   {
-    "id": "xbuilders:brown_marble_tile_pillar",
+    "id": "tessera:brown_marble_tile_pillar",
     "name": "Brown Marble Tile Pillar",
     "block": 597
   },
   {
-    "id": "xbuilders:cyan_marble_tile_stairs",
+    "id": "tessera:cyan_marble_tile_stairs",
     "name": "Cyan Marble Tile Stairs",
     "block": 598
   },
   {
-    "id": "xbuilders:cyan_marble_tile_slab",
+    "id": "tessera:cyan_marble_tile_slab",
     "name": "Cyan Marble Tile Slab",
     "block": 599
   },
   {
-    "id": "xbuilders:cyan_marble_tile_pillar",
+    "id": "tessera:cyan_marble_tile_pillar",
     "name": "Cyan Marble Tile Pillar",
     "block": 600
   },
   {
-    "id": "xbuilders:purple_chiseled_marble_tile_stairs",
+    "id": "tessera:purple_chiseled_marble_tile_stairs",
     "name": "Purple Chiseled Marble Tile Stairs",
     "block": 601
   },
   {
-    "id": "xbuilders:purple_chiseled_marble_tile_slab",
+    "id": "tessera:purple_chiseled_marble_tile_slab",
     "name": "Purple Chiseled Marble Tile Slab",
     "block": 602
   },
   {
-    "id": "xbuilders:purple_chiseled_marble_tile_pillar",
+    "id": "tessera:purple_chiseled_marble_tile_pillar",
     "name": "Purple Chiseled Marble Tile Pillar",
     "block": 603
   },
   {
-    "id": "xbuilders:burgundy_chiseled_marble_tile_stairs",
+    "id": "tessera:burgundy_chiseled_marble_tile_stairs",
     "name": "Burgundy Chiseled Marble Tile Stairs",
     "block": 604
   },
   {
-    "id": "xbuilders:burgundy_chiseled_marble_tile_slab",
+    "id": "tessera:burgundy_chiseled_marble_tile_slab",
     "name": "Burgundy Chiseled Marble Tile Slab",
     "block": 605
   },
   {
-    "id": "xbuilders:burgundy_chiseled_marble_tile_pillar",
+    "id": "tessera:burgundy_chiseled_marble_tile_pillar",
     "name": "Burgundy Chiseled Marble Tile Pillar",
     "block": 606
   },
   {
-    "id": "xbuilders:pastel_blue_marble_tile_stairs",
+    "id": "tessera:pastel_blue_marble_tile_stairs",
     "name": "Pastel_Blue Marble Tile Stairs",
     "block": 607
   },
   {
-    "id": "xbuilders:pastel_blue_marble_tile_slab",
+    "id": "tessera:pastel_blue_marble_tile_slab",
     "name": "Pastel_Blue Marble Tile Slab",
     "block": 608
   },
   {
-    "id": "xbuilders:pastel_blue_marble_tile_pillar",
+    "id": "tessera:pastel_blue_marble_tile_pillar",
     "name": "Pastel_Blue Marble Tile Pillar",
     "block": 609
   },
   {
-    "id": "xbuilders:pastel_green_marble_tile_stairs",
+    "id": "tessera:pastel_green_marble_tile_stairs",
     "name": "Pastel_Green Marble Tile Stairs",
     "block": 610
   },
   {
-    "id": "xbuilders:pastel_green_marble_tile_slab",
+    "id": "tessera:pastel_green_marble_tile_slab",
     "name": "Pastel_Green Marble Tile Slab",
     "block": 611
   },
   {
-    "id": "xbuilders:pastel_green_marble_tile_pillar",
+    "id": "tessera:pastel_green_marble_tile_pillar",
     "name": "Pastel_Green Marble Tile Pillar",
     "block": 612
   },
   {
-    "id": "xbuilders:magenta_marble_tile_stairs",
+    "id": "tessera:magenta_marble_tile_stairs",
     "name": "Magenta Marble Tile Stairs",
     "block": 613
   },
   {
-    "id": "xbuilders:magenta_marble_tile_slab",
+    "id": "tessera:magenta_marble_tile_slab",
     "name": "Magenta Marble Tile Slab",
     "block": 614
   },
   {
-    "id": "xbuilders:magenta_marble_tile_pillar",
+    "id": "tessera:magenta_marble_tile_pillar",
     "name": "Magenta Marble Tile Pillar",
     "block": 615
   },
   {
-    "id": "xbuilders:pastel_red_chiseled_marble_tile_stairs",
+    "id": "tessera:pastel_red_chiseled_marble_tile_stairs",
     "name": "Pastel_Red Chiseled Marble Tile Stairs",
     "block": 616
   },
   {
-    "id": "xbuilders:pastel_red_chiseled_marble_tile_slab",
+    "id": "tessera:pastel_red_chiseled_marble_tile_slab",
     "name": "Pastel_Red Chiseled Marble Tile Slab",
     "block": 617
   },
   {
-    "id": "xbuilders:pastel_red_chiseled_marble_tile_pillar",
+    "id": "tessera:pastel_red_chiseled_marble_tile_pillar",
     "name": "Pastel_Red Chiseled Marble Tile Pillar",
     "block": 618
   },
   {
-    "id": "xbuilders:pink_marble_tile_stairs",
+    "id": "tessera:pink_marble_tile_stairs",
     "name": "Pink Marble Tile Stairs",
     "block": 619
   },
   {
-    "id": "xbuilders:pink_marble_tile_slab",
+    "id": "tessera:pink_marble_tile_slab",
     "name": "Pink Marble Tile Slab",
     "block": 620
   },
   {
-    "id": "xbuilders:pink_marble_tile_pillar",
+    "id": "tessera:pink_marble_tile_pillar",
     "name": "Pink Marble Tile Pillar",
     "block": 621
   },
   {
-    "id": "xbuilders:purple_marble_tile_stairs",
+    "id": "tessera:purple_marble_tile_stairs",
     "name": "Purple Marble Tile Stairs",
     "block": 622
   },
   {
-    "id": "xbuilders:purple_marble_tile_slab",
+    "id": "tessera:purple_marble_tile_slab",
     "name": "Purple Marble Tile Slab",
     "block": 623
   },
   {
-    "id": "xbuilders:purple_marble_tile_pillar",
+    "id": "tessera:purple_marble_tile_pillar",
     "name": "Purple Marble Tile Pillar",
     "block": 624
   },
   {
-    "id": "xbuilders:burgundy_marble_tile_stairs",
+    "id": "tessera:burgundy_marble_tile_stairs",
     "name": "Burgundy Marble Tile Stairs",
     "block": 625
   },
   {
-    "id": "xbuilders:burgundy_marble_tile_slab",
+    "id": "tessera:burgundy_marble_tile_slab",
     "name": "Burgundy Marble Tile Slab",
     "block": 626
   },
   {
-    "id": "xbuilders:burgundy_marble_tile_pillar",
+    "id": "tessera:burgundy_marble_tile_pillar",
     "name": "Burgundy Marble Tile Pillar",
     "block": 627
   },
   {
-    "id": "xbuilders:pastel_red_marble_tile_stairs",
+    "id": "tessera:pastel_red_marble_tile_stairs",
     "name": "Pastel_Red Marble Tile Stairs",
     "block": 628
   },
   {
-    "id": "xbuilders:pastel_red_marble_tile_slab",
+    "id": "tessera:pastel_red_marble_tile_slab",
     "name": "Pastel_Red Marble Tile Slab",
     "block": 629
   },
   {
-    "id": "xbuilders:pastel_red_marble_tile_pillar",
+    "id": "tessera:pastel_red_marble_tile_pillar",
     "name": "Pastel_Red Marble Tile Pillar",
     "block": 630
   },
   {
-    "id": "xbuilders:yellow_chiseled_marble_tile_stairs",
+    "id": "tessera:yellow_chiseled_marble_tile_stairs",
     "name": "Yellow Chiseled Marble Tile Stairs",
     "block": 631
   },
   {
-    "id": "xbuilders:yellow_chiseled_marble_tile_slab",
+    "id": "tessera:yellow_chiseled_marble_tile_slab",
     "name": "Yellow Chiseled Marble Tile Slab",
     "block": 632
   },
   {
-    "id": "xbuilders:yellow_chiseled_marble_tile_pillar",
+    "id": "tessera:yellow_chiseled_marble_tile_pillar",
     "name": "Yellow Chiseled Marble Tile Pillar",
     "block": 633
   },
   {
-    "id": "xbuilders:black_chiseled_marble_tile_stairs",
+    "id": "tessera:black_chiseled_marble_tile_stairs",
     "name": "Black Chiseled Marble Tile Stairs",
     "block": 634
   },
   {
-    "id": "xbuilders:black_chiseled_marble_tile_slab",
+    "id": "tessera:black_chiseled_marble_tile_slab",
     "name": "Black Chiseled Marble Tile Slab",
     "block": 635
   },
   {
-    "id": "xbuilders:black_chiseled_marble_tile_pillar",
+    "id": "tessera:black_chiseled_marble_tile_pillar",
     "name": "Black Chiseled Marble Tile Pillar",
     "block": 636
   },
   {
-    "id": "xbuilders:blue_chiseled_marble_tile_stairs",
+    "id": "tessera:blue_chiseled_marble_tile_stairs",
     "name": "Blue Chiseled Marble Tile Stairs",
     "block": 637
   },
   {
-    "id": "xbuilders:blue_chiseled_marble_tile_slab",
+    "id": "tessera:blue_chiseled_marble_tile_slab",
     "name": "Blue Chiseled Marble Tile Slab",
     "block": 638
   },
   {
-    "id": "xbuilders:blue_chiseled_marble_tile_pillar",
+    "id": "tessera:blue_chiseled_marble_tile_pillar",
     "name": "Blue Chiseled Marble Tile Pillar",
     "block": 639
   },
   {
-    "id": "xbuilders:brown_chiseled_marble_tile_stairs",
+    "id": "tessera:brown_chiseled_marble_tile_stairs",
     "name": "Brown Chiseled Marble Tile Stairs",
     "block": 640
   },
   {
-    "id": "xbuilders:brown_chiseled_marble_tile_slab",
+    "id": "tessera:brown_chiseled_marble_tile_slab",
     "name": "Brown Chiseled Marble Tile Slab",
     "block": 641
   },
   {
-    "id": "xbuilders:brown_chiseled_marble_tile_pillar",
+    "id": "tessera:brown_chiseled_marble_tile_pillar",
     "name": "Brown Chiseled Marble Tile Pillar",
     "block": 642
   },
   {
-    "id": "xbuilders:cyan_chiseled_marble_tile_stairs",
+    "id": "tessera:cyan_chiseled_marble_tile_stairs",
     "name": "Cyan Chiseled Marble Tile Stairs",
     "block": 643
   },
   {
-    "id": "xbuilders:cyan_chiseled_marble_tile_slab",
+    "id": "tessera:cyan_chiseled_marble_tile_slab",
     "name": "Cyan Chiseled Marble Tile Slab",
     "block": 644
   },
   {
-    "id": "xbuilders:cyan_chiseled_marble_tile_pillar",
+    "id": "tessera:cyan_chiseled_marble_tile_pillar",
     "name": "Cyan Chiseled Marble Tile Pillar",
     "block": 645
   },
   {
-    "id": "xbuilders:gray_chiseled_marble_tile_stairs",
+    "id": "tessera:gray_chiseled_marble_tile_stairs",
     "name": "Gray Chiseled Marble Tile Stairs",
     "block": 646
   },
   {
-    "id": "xbuilders:gray_chiseled_marble_tile_slab",
+    "id": "tessera:gray_chiseled_marble_tile_slab",
     "name": "Gray Chiseled Marble Tile Slab",
     "block": 647
   },
   {
-    "id": "xbuilders:gray_chiseled_marble_tile_pillar",
+    "id": "tessera:gray_chiseled_marble_tile_pillar",
     "name": "Gray Chiseled Marble Tile Pillar",
     "block": 648
   },
   {
-    "id": "xbuilders:green_chiseled_marble_tile_stairs",
+    "id": "tessera:green_chiseled_marble_tile_stairs",
     "name": "Green Chiseled Marble Tile Stairs",
     "block": 649
   },
   {
-    "id": "xbuilders:green_chiseled_marble_tile_slab",
+    "id": "tessera:green_chiseled_marble_tile_slab",
     "name": "Green Chiseled Marble Tile Slab",
     "block": 650
   },
   {
-    "id": "xbuilders:green_chiseled_marble_tile_pillar",
+    "id": "tessera:green_chiseled_marble_tile_pillar",
     "name": "Green Chiseled Marble Tile Pillar",
     "block": 651
   },
   {
-    "id": "xbuilders:pastel_blue_chiseled_marble_tile_stairs",
+    "id": "tessera:pastel_blue_chiseled_marble_tile_stairs",
     "name": "Pastel_Blue Chiseled Marble Tile Stairs",
     "block": 652
   },
   {
-    "id": "xbuilders:pastel_blue_chiseled_marble_tile_slab",
+    "id": "tessera:pastel_blue_chiseled_marble_tile_slab",
     "name": "Pastel_Blue Chiseled Marble Tile Slab",
     "block": 653
   },
   {
-    "id": "xbuilders:pastel_blue_chiseled_marble_tile_pillar",
+    "id": "tessera:pastel_blue_chiseled_marble_tile_pillar",
     "name": "Pastel_Blue Chiseled Marble Tile Pillar",
     "block": 654
   },
   {
-    "id": "xbuilders:pastel_green_chiseled_marble_tile_stairs",
+    "id": "tessera:pastel_green_chiseled_marble_tile_stairs",
     "name": "Pastel_Green Chiseled Marble Tile Stairs",
     "block": 655
   },
   {
-    "id": "xbuilders:pastel_green_chiseled_marble_tile_slab",
+    "id": "tessera:pastel_green_chiseled_marble_tile_slab",
     "name": "Pastel_Green Chiseled Marble Tile Slab",
     "block": 656
   },
   {
-    "id": "xbuilders:pastel_green_chiseled_marble_tile_pillar",
+    "id": "tessera:pastel_green_chiseled_marble_tile_pillar",
     "name": "Pastel_Green Chiseled Marble Tile Pillar",
     "block": 657
   },
   {
-    "id": "xbuilders:magenta_chiseled_marble_tile_stairs",
+    "id": "tessera:magenta_chiseled_marble_tile_stairs",
     "name": "Magenta Chiseled Marble Tile Stairs",
     "block": 658
   },
   {
-    "id": "xbuilders:magenta_chiseled_marble_tile_slab",
+    "id": "tessera:magenta_chiseled_marble_tile_slab",
     "name": "Magenta Chiseled Marble Tile Slab",
     "block": 659
   },
   {
-    "id": "xbuilders:magenta_chiseled_marble_tile_pillar",
+    "id": "tessera:magenta_chiseled_marble_tile_pillar",
     "name": "Magenta Chiseled Marble Tile Pillar",
     "block": 660
   },
   {
-    "id": "xbuilders:orange_chiseled_marble_tile_stairs",
+    "id": "tessera:orange_chiseled_marble_tile_stairs",
     "name": "Orange Chiseled Marble Tile Stairs",
     "block": 661
   },
   {
-    "id": "xbuilders:orange_chiseled_marble_tile_slab",
+    "id": "tessera:orange_chiseled_marble_tile_slab",
     "name": "Orange Chiseled Marble Tile Slab",
     "block": 662
   },
   {
-    "id": "xbuilders:orange_chiseled_marble_tile_pillar",
+    "id": "tessera:orange_chiseled_marble_tile_pillar",
     "name": "Orange Chiseled Marble Tile Pillar",
     "block": 663
   },
   {
-    "id": "xbuilders:pink_chiseled_marble_tile_stairs",
+    "id": "tessera:pink_chiseled_marble_tile_stairs",
     "name": "Pink Chiseled Marble Tile Stairs",
     "block": 664
   },
   {
-    "id": "xbuilders:pink_chiseled_marble_tile_slab",
+    "id": "tessera:pink_chiseled_marble_tile_slab",
     "name": "Pink Chiseled Marble Tile Slab",
     "block": 665
   },
   {
-    "id": "xbuilders:gray_stained_wood",
+    "id": "tessera:gray_stained_wood",
     "name": "Gray Stained Wood",
     "block": 666,
     "tags": [
@@ -3072,7 +3072,7 @@
     ]
   },
   {
-    "id": "xbuilders:green_stained_wood",
+    "id": "tessera:green_stained_wood",
     "name": "Green Stained Wood",
     "block": 667,
     "tags": [
@@ -3080,7 +3080,7 @@
     ]
   },
   {
-    "id": "xbuilders:light_blue_stained_wood",
+    "id": "tessera:light_blue_stained_wood",
     "name": "Light Blue Stained Wood",
     "block": 668,
     "tags": [
@@ -3088,7 +3088,7 @@
     ]
   },
   {
-    "id": "xbuilders:lime_stained_wood",
+    "id": "tessera:lime_stained_wood",
     "name": "Lime Stained Wood",
     "block": 669,
     "tags": [
@@ -3096,7 +3096,7 @@
     ]
   },
   {
-    "id": "xbuilders:magenta_stained_wood",
+    "id": "tessera:magenta_stained_wood",
     "name": "Magenta Stained Wood",
     "block": 670,
     "tags": [
@@ -3104,7 +3104,7 @@
     ]
   },
   {
-    "id": "xbuilders:orange_stained_wood",
+    "id": "tessera:orange_stained_wood",
     "name": "Orange Stained Wood",
     "block": 671,
     "tags": [
@@ -3112,7 +3112,7 @@
     ]
   },
   {
-    "id": "xbuilders:pink_stained_wood",
+    "id": "tessera:pink_stained_wood",
     "name": "Pink Stained Wood",
     "block": 672,
     "tags": [
@@ -3120,7 +3120,7 @@
     ]
   },
   {
-    "id": "xbuilders:purple_stained_wood",
+    "id": "tessera:purple_stained_wood",
     "name": "Purple Stained Wood",
     "block": 673,
     "tags": [
@@ -3128,12 +3128,12 @@
     ]
   },
   {
-    "id": "xbuilders:white_space_tile_stairs",
+    "id": "tessera:white_space_tile_stairs",
     "name": "White Space Tile Stairs",
     "block": 674
   },
   {
-    "id": "xbuilders:white_stained_wood",
+    "id": "tessera:white_stained_wood",
     "name": "White Stained Wood",
     "block": 675,
     "tags": [
@@ -3141,597 +3141,597 @@
     ]
   },
   {
-    "id": "xbuilders:peony_bush",
+    "id": "tessera:peony_bush",
     "name": "Peony Bush",
     "block": 678
   },
   {
-    "id": "xbuilders:ice_block_stairs",
+    "id": "tessera:ice_block_stairs",
     "name": "Ice Block Stairs",
     "block": 679
   },
   {
-    "id": "xbuilders:ice_block_slab",
+    "id": "tessera:ice_block_slab",
     "name": "Ice Block Slab",
     "block": 680
   },
   {
-    "id": "xbuilders:solar_panel",
+    "id": "tessera:solar_panel",
     "name": "Solar Panel",
     "block": 681
   },
   {
-    "id": "xbuilders:mosaic_bamboo_wood_stairs",
+    "id": "tessera:mosaic_bamboo_wood_stairs",
     "name": "Mosaic Bamboo Wood Stairs",
     "block": 682
   },
   {
-    "id": "xbuilders:mosaic_bamboo_wood_slab",
+    "id": "tessera:mosaic_bamboo_wood_slab",
     "name": "Mosaic Bamboo Wood Slab",
     "block": 683
   },
   {
-    "id": "xbuilders:mosaic_bamboo_wood_fence",
+    "id": "tessera:mosaic_bamboo_wood_fence",
     "name": "Mosaic Bamboo Wood Fence",
     "block": 684
   },
   {
-    "id": "xbuilders:yellow_stained_wood_stairs",
+    "id": "tessera:yellow_stained_wood_stairs",
     "name": "Yellow Stained Wood Stairs",
     "block": 685
   },
   {
-    "id": "xbuilders:yellow_stained_wood_slab",
+    "id": "tessera:yellow_stained_wood_slab",
     "name": "Yellow Stained Wood Slab",
     "block": 686
   },
   {
-    "id": "xbuilders:yellow_stained_wood_fence",
+    "id": "tessera:yellow_stained_wood_fence",
     "name": "Yellow Stained Wood Fence",
     "block": 687
   },
   {
-    "id": "xbuilders:black_stained_wood_stairs",
+    "id": "tessera:black_stained_wood_stairs",
     "name": "Black Stained Wood Stairs",
     "block": 688
   },
   {
-    "id": "xbuilders:black_stained_wood_slab",
+    "id": "tessera:black_stained_wood_slab",
     "name": "Black Stained Wood Slab",
     "block": 689
   },
   {
-    "id": "xbuilders:black_stained_wood_fence",
+    "id": "tessera:black_stained_wood_fence",
     "name": "Black Stained Wood Fence",
     "block": 690
   },
   {
-    "id": "xbuilders:blue_stained_wood_stairs",
+    "id": "tessera:blue_stained_wood_stairs",
     "name": "Blue Stained Wood Stairs",
     "block": 691
   },
   {
-    "id": "xbuilders:blue_stained_wood_slab",
+    "id": "tessera:blue_stained_wood_slab",
     "name": "Blue Stained Wood Slab",
     "block": 692
   },
   {
-    "id": "xbuilders:blue_stained_wood_fence",
+    "id": "tessera:blue_stained_wood_fence",
     "name": "Blue Stained Wood Fence",
     "block": 693
   },
   {
-    "id": "xbuilders:cyan_stained_wood_stairs",
+    "id": "tessera:cyan_stained_wood_stairs",
     "name": "Cyan Stained Wood Stairs",
     "block": 694
   },
   {
-    "id": "xbuilders:cyan_stained_wood_slab",
+    "id": "tessera:cyan_stained_wood_slab",
     "name": "Cyan Stained Wood Slab",
     "block": 695
   },
   {
-    "id": "xbuilders:cyan_stained_wood_fence",
+    "id": "tessera:cyan_stained_wood_fence",
     "name": "Cyan Stained Wood Fence",
     "block": 696
   },
   {
-    "id": "xbuilders:gray_stained_wood_stairs",
+    "id": "tessera:gray_stained_wood_stairs",
     "name": "Gray Stained Wood Stairs",
     "block": 697
   },
   {
-    "id": "xbuilders:gray_stained_wood_slab",
+    "id": "tessera:gray_stained_wood_slab",
     "name": "Gray Stained Wood Slab",
     "block": 698
   },
   {
-    "id": "xbuilders:gray_stained_wood_fence",
+    "id": "tessera:gray_stained_wood_fence",
     "name": "Gray Stained Wood Fence",
     "block": 699
   },
   {
-    "id": "xbuilders:green_stained_wood_stairs",
+    "id": "tessera:green_stained_wood_stairs",
     "name": "Green Stained Wood Stairs",
     "block": 700
   },
   {
-    "id": "xbuilders:green_stained_wood_slab",
+    "id": "tessera:green_stained_wood_slab",
     "name": "Green Stained Wood Slab",
     "block": 701
   },
   {
-    "id": "xbuilders:green_stained_wood_fence",
+    "id": "tessera:green_stained_wood_fence",
     "name": "Green Stained Wood Fence",
     "block": 702
   },
   {
-    "id": "xbuilders:light_blue_stained_wood_stairs",
+    "id": "tessera:light_blue_stained_wood_stairs",
     "name": "Light Blue Stained Wood Stairs",
     "block": 703
   },
   {
-    "id": "xbuilders:light_blue_stained_wood_slab",
+    "id": "tessera:light_blue_stained_wood_slab",
     "name": "Light Blue Stained Wood Slab",
     "block": 704
   },
   {
-    "id": "xbuilders:light_blue_stained_wood_fence",
+    "id": "tessera:light_blue_stained_wood_fence",
     "name": "Light Blue Stained Wood Fence",
     "block": 705
   },
   {
-    "id": "xbuilders:lime_stained_wood_stairs",
+    "id": "tessera:lime_stained_wood_stairs",
     "name": "Lime Stained Wood Stairs",
     "block": 706
   },
   {
-    "id": "xbuilders:lime_stained_wood_slab",
+    "id": "tessera:lime_stained_wood_slab",
     "name": "Lime Stained Wood Slab",
     "block": 707
   },
   {
-    "id": "xbuilders:lime_stained_wood_fence",
+    "id": "tessera:lime_stained_wood_fence",
     "name": "Lime Stained Wood Fence",
     "block": 708
   },
   {
-    "id": "xbuilders:magenta_stained_wood_stairs",
+    "id": "tessera:magenta_stained_wood_stairs",
     "name": "Magenta Stained Wood Stairs",
     "block": 709
   },
   {
-    "id": "xbuilders:magenta_stained_wood_slab",
+    "id": "tessera:magenta_stained_wood_slab",
     "name": "Magenta Stained Wood Slab",
     "block": 710
   },
   {
-    "id": "xbuilders:magenta_stained_wood_fence",
+    "id": "tessera:magenta_stained_wood_fence",
     "name": "Magenta Stained Wood Fence",
     "block": 711
   },
   {
-    "id": "xbuilders:orange_stained_wood_stairs",
+    "id": "tessera:orange_stained_wood_stairs",
     "name": "Orange Stained Wood Stairs",
     "block": 712
   },
   {
-    "id": "xbuilders:orange_stained_wood_slab",
+    "id": "tessera:orange_stained_wood_slab",
     "name": "Orange Stained Wood Slab",
     "block": 713
   },
   {
-    "id": "xbuilders:orange_stained_wood_fence",
+    "id": "tessera:orange_stained_wood_fence",
     "name": "Orange Stained Wood Fence",
     "block": 714
   },
   {
-    "id": "xbuilders:pink_stained_wood_stairs",
+    "id": "tessera:pink_stained_wood_stairs",
     "name": "Pink Stained Wood Stairs",
     "block": 715
   },
   {
-    "id": "xbuilders:pink_stained_wood_slab",
+    "id": "tessera:pink_stained_wood_slab",
     "name": "Pink Stained Wood Slab",
     "block": 716
   },
   {
-    "id": "xbuilders:pink_stained_wood_fence",
+    "id": "tessera:pink_stained_wood_fence",
     "name": "Pink Stained Wood Fence",
     "block": 717
   },
   {
-    "id": "xbuilders:purple_stained_wood_stairs",
+    "id": "tessera:purple_stained_wood_stairs",
     "name": "Purple Stained Wood Stairs",
     "block": 718
   },
   {
-    "id": "xbuilders:purple_stained_wood_slab",
+    "id": "tessera:purple_stained_wood_slab",
     "name": "Purple Stained Wood Slab",
     "block": 719
   },
   {
-    "id": "xbuilders:purple_stained_wood_fence",
+    "id": "tessera:purple_stained_wood_fence",
     "name": "Purple Stained Wood Fence",
     "block": 720
   },
   {
-    "id": "xbuilders:red_stained_wood_stairs",
+    "id": "tessera:red_stained_wood_stairs",
     "name": "Red Stained Wood Stairs",
     "block": 721
   },
   {
-    "id": "xbuilders:red_stained_wood_slab",
+    "id": "tessera:red_stained_wood_slab",
     "name": "Red Stained Wood Slab",
     "block": 722
   },
   {
-    "id": "xbuilders:red_stained_wood_fence",
+    "id": "tessera:red_stained_wood_fence",
     "name": "Red Stained Wood Fence",
     "block": 723
   },
   {
-    "id": "xbuilders:white_stained_wood_stairs",
+    "id": "tessera:white_stained_wood_stairs",
     "name": "White Stained Wood Stairs",
     "block": 724
   },
   {
-    "id": "xbuilders:white_stained_wood_slab",
+    "id": "tessera:white_stained_wood_slab",
     "name": "White Stained Wood Slab",
     "block": 725
   },
   {
-    "id": "xbuilders:white_stained_wood_fence",
+    "id": "tessera:white_stained_wood_fence",
     "name": "White Stained Wood Fence",
     "block": 726
   },
   {
-    "id": "xbuilders:white_space_tile",
+    "id": "tessera:white_space_tile",
     "name": "White Space Tile",
     "block": 727
   },
   {
-    "id": "xbuilders:gray_space_tile",
+    "id": "tessera:gray_space_tile",
     "name": "Gray Space Tile",
     "block": 728
   },
   {
-    "id": "xbuilders:white_space_tile_slab",
+    "id": "tessera:white_space_tile_slab",
     "name": "White Space Tile Slab",
     "block": 729
   },
   {
-    "id": "xbuilders:gray_space_tile_stairs",
+    "id": "tessera:gray_space_tile_stairs",
     "name": "Gray Space Tile Stairs",
     "block": 730
   },
   {
-    "id": "xbuilders:gray_space_tile_slab",
+    "id": "tessera:gray_space_tile_slab",
     "name": "Gray Space Tile Slab",
     "block": 731
   },
   {
-    "id": "xbuilders:spruce_log",
+    "id": "tessera:spruce_log",
     "name": "Spruce Log",
     "block": 732
   },
   {
-    "id": "xbuilders:spruce_leaves",
+    "id": "tessera:spruce_leaves",
     "name": "Spruce Leaves",
     "block": 733
   },
   {
-    "id": "xbuilders:spruce_sapling",
+    "id": "tessera:spruce_sapling",
     "name": "Spruce Sapling",
     "block": 734
   },
   {
-    "id": "xbuilders:merge_track",
+    "id": "tessera:merge_track",
     "name": "Merge Track",
     "block": 736
   },
   {
-    "id": "xbuilders:20_hp_engine",
+    "id": "tessera:20_hp_engine",
     "name": "20 HP Engine",
     "block": 741
   },
   {
-    "id": "xbuilders:70_hp_engine",
+    "id": "tessera:70_hp_engine",
     "name": "70 HP Engine",
     "block": 744
   },
   {
-    "id": "xbuilders:silver_brick",
+    "id": "tessera:silver_brick",
     "name": "Silver Brick",
     "block": 747
   },
   {
-    "id": "xbuilders:large_helicopter_blade",
+    "id": "tessera:large_helicopter_blade",
     "name": "Large Helicopter Blade",
     "block": 749
   },
   {
-    "id": "xbuilders:small_helicopter_blade",
+    "id": "tessera:small_helicopter_blade",
     "name": "Small Helicopter Blade",
     "block": 750
   },
   {
-    "id": "xbuilders:yellow_carpet",
+    "id": "tessera:yellow_carpet",
     "name": "Yellow Carpet",
     "block": 752
   },
   {
-    "id": "xbuilders:black_carpet",
+    "id": "tessera:black_carpet",
     "name": "Black Carpet",
     "block": 753
   },
   {
-    "id": "xbuilders:blue_carpet",
+    "id": "tessera:blue_carpet",
     "name": "Blue Carpet",
     "block": 754
   },
   {
-    "id": "xbuilders:brown_carpet",
+    "id": "tessera:brown_carpet",
     "name": "Brown Carpet",
     "block": 755
   },
   {
-    "id": "xbuilders:cyan_carpet",
+    "id": "tessera:cyan_carpet",
     "name": "Cyan Carpet",
     "block": 756
   },
   {
-    "id": "xbuilders:gray_carpet",
+    "id": "tessera:gray_carpet",
     "name": "Gray Carpet",
     "block": 757
   },
   {
-    "id": "xbuilders:green_carpet",
+    "id": "tessera:green_carpet",
     "name": "Green Carpet",
     "block": 758
   },
   {
-    "id": "xbuilders:light_blue_carpet",
+    "id": "tessera:light_blue_carpet",
     "name": "Light Blue Carpet",
     "block": 759
   },
   {
-    "id": "xbuilders:light_gray_carpet",
+    "id": "tessera:light_gray_carpet",
     "name": "Light Gray Carpet",
     "block": 760
   },
   {
-    "id": "xbuilders:lime_carpet",
+    "id": "tessera:lime_carpet",
     "name": "Lime Carpet",
     "block": 761
   },
   {
-    "id": "xbuilders:magenta_carpet",
+    "id": "tessera:magenta_carpet",
     "name": "Magenta Carpet",
     "block": 762
   },
   {
-    "id": "xbuilders:orange_carpet",
+    "id": "tessera:orange_carpet",
     "name": "Orange Carpet",
     "block": 763
   },
   {
-    "id": "xbuilders:pink_carpet",
+    "id": "tessera:pink_carpet",
     "name": "Pink Carpet",
     "block": 764
   },
   {
-    "id": "xbuilders:purple_carpet",
+    "id": "tessera:purple_carpet",
     "name": "Purple Carpet",
     "block": 765
   },
   {
-    "id": "xbuilders:red_carpet",
+    "id": "tessera:red_carpet",
     "name": "Red Carpet",
     "block": 766
   },
   {
-    "id": "xbuilders:white_carpet",
+    "id": "tessera:white_carpet",
     "name": "White Carpet",
     "block": 767
   },
   {
-    "id": "xbuilders:gold_seat",
+    "id": "tessera:gold_seat",
     "name": "Gold Seat",
     "block": 768
   },
   {
-    "id": "xbuilders:gold_siding",
+    "id": "tessera:gold_siding",
     "name": "Gold Siding",
     "block": 769
   },
   {
-    "id": "xbuilders:tan_seat",
+    "id": "tessera:tan_seat",
     "name": "Tan Seat",
     "block": 770
   },
   {
-    "id": "xbuilders:tan_siding",
+    "id": "tessera:tan_siding",
     "name": "Tan Siding",
     "block": 771
   },
   {
-    "id": "xbuilders:brown_seat",
+    "id": "tessera:brown_seat",
     "name": "Brown Seat",
     "block": 772
   },
   {
-    "id": "xbuilders:brown_siding",
+    "id": "tessera:brown_siding",
     "name": "Brown Siding",
     "block": 773
   },
   {
-    "id": "xbuilders:cyan_seat",
+    "id": "tessera:cyan_seat",
     "name": "Cyan Seat",
     "block": 774
   },
   {
-    "id": "xbuilders:cyan_siding",
+    "id": "tessera:cyan_siding",
     "name": "Cyan Siding",
     "block": 775
   },
   {
-    "id": "xbuilders:gray_seat",
+    "id": "tessera:gray_seat",
     "name": "Gray Seat",
     "block": 776
   },
   {
-    "id": "xbuilders:gray_siding",
+    "id": "tessera:gray_siding",
     "name": "Gray Siding",
     "block": 777
   },
   {
-    "id": "xbuilders:green_seat",
+    "id": "tessera:green_seat",
     "name": "Green Seat",
     "block": 778
   },
   {
-    "id": "xbuilders:green_siding",
+    "id": "tessera:green_siding",
     "name": "Green Siding",
     "block": 779
   },
   {
-    "id": "xbuilders:blue_seat",
+    "id": "tessera:blue_seat",
     "name": "Blue Seat",
     "block": 780
   },
   {
-    "id": "xbuilders:blue_siding",
+    "id": "tessera:blue_siding",
     "name": "Blue Siding",
     "block": 781
   },
   {
-    "id": "xbuilders:light_gray_seat",
+    "id": "tessera:light_gray_seat",
     "name": "Light Gray Seat",
     "block": 782
   },
   {
-    "id": "xbuilders:light_gray_siding",
+    "id": "tessera:light_gray_siding",
     "name": "Light Gray Siding",
     "block": 783
   },
   {
-    "id": "xbuilders:light_green_seat",
+    "id": "tessera:light_green_seat",
     "name": "Light Green Seat",
     "block": 784
   },
   {
-    "id": "xbuilders:light_green_siding",
+    "id": "tessera:light_green_siding",
     "name": "Light Green Siding",
     "block": 785
   },
   {
-    "id": "xbuilders:magenta_seat",
+    "id": "tessera:magenta_seat",
     "name": "Magenta Seat",
     "block": 786
   },
   {
-    "id": "xbuilders:magenta_siding",
+    "id": "tessera:magenta_siding",
     "name": "Magenta Siding",
     "block": 787
   },
   {
-    "id": "xbuilders:orange_seat",
+    "id": "tessera:orange_seat",
     "name": "Orange Seat",
     "block": 788
   },
   {
-    "id": "xbuilders:orange_siding",
+    "id": "tessera:orange_siding",
     "name": "Orange Siding",
     "block": 789
   },
   {
-    "id": "xbuilders:pink_seat",
+    "id": "tessera:pink_seat",
     "name": "Pink Seat",
     "block": 790
   },
   {
-    "id": "xbuilders:pink_siding",
+    "id": "tessera:pink_siding",
     "name": "Pink Siding",
     "block": 791
   },
   {
-    "id": "xbuilders:purple_seat",
+    "id": "tessera:purple_seat",
     "name": "Purple Seat",
     "block": 792
   },
   {
-    "id": "xbuilders:purple_siding",
+    "id": "tessera:purple_siding",
     "name": "Purple Siding",
     "block": 793
   },
   {
-    "id": "xbuilders:red_seat",
+    "id": "tessera:red_seat",
     "name": "Red Seat",
     "block": 794
   },
   {
-    "id": "xbuilders:red_siding",
+    "id": "tessera:red_siding",
     "name": "Red Siding",
     "block": 795
   },
   {
-    "id": "xbuilders:white_seat",
+    "id": "tessera:white_seat",
     "name": "White Seat",
     "block": 796
   },
   {
-    "id": "xbuilders:white_siding",
+    "id": "tessera:white_siding",
     "name": "White Siding",
     "block": 797
   },
   {
-    "id": "xbuilders:yellow_seat",
+    "id": "tessera:yellow_seat",
     "name": "Yellow Seat",
     "block": 798
   },
   {
-    "id": "xbuilders:yellow_siding",
+    "id": "tessera:yellow_siding",
     "name": "Yellow Siding",
     "block": 799
   },
   {
-    "id": "xbuilders:wire",
+    "id": "tessera:wire",
     "name": "Wire",
     "block": 737
   },
   {
-    "id": "xbuilders:test_block",
+    "id": "tessera:test_block",
     "name": "Test Block",
     "block": -1
   },
   {
-    "id": "xbuilders:test_orientable",
+    "id": "tessera:test_orientable",
     "name": "Test Orientable",
     "block": -2
   },
   {
-    "id": "xbuilders:test_slab",
+    "id": "tessera:test_slab",
     "name": "Test Slab",
     "block": -3
   },
   {
-    "id": "xbuilders:test_trapdoor",
+    "id": "tessera:test_trapdoor",
     "name": "Test Trapdoor",
     "block": -4
   },
   {
-    "id": "xbuilders:test_fence_gate",
+    "id": "tessera:test_fence_gate",
     "name": "Test Fence Gate",
     "block": -5
   },
   {
-    "id": "xbuilders:test_door_half",
+    "id": "tessera:test_door_half",
     "name": "Test Door Half",
     "block": -6
   },
   {
-    "id": "xbuilders:acacia_door_2",
+    "id": "tessera:acacia_door_2",
     "name": "Acacia Door 2",
     "tags": [
       "door"
@@ -3740,7 +3740,7 @@
     "block": 937
   },
   {
-    "id": "xbuilders:acacia_door",
+    "id": "tessera:acacia_door",
     "name": "Acacia Door",
     "tags": [
       "door"
@@ -3749,7 +3749,7 @@
     "block": 938
   },
   {
-    "id": "xbuilders:bamboo_2_door",
+    "id": "tessera:bamboo_2_door",
     "name": "Bamboo 2 Door",
     "tags": [
       "door"
@@ -3758,7 +3758,7 @@
     "block": 939
   },
   {
-    "id": "xbuilders:bamboo_door",
+    "id": "tessera:bamboo_door",
     "name": "Bamboo Door",
     "tags": [
       "door"
@@ -3767,7 +3767,7 @@
     "block": 940
   },
   {
-    "id": "xbuilders:birch_door",
+    "id": "tessera:birch_door",
     "name": "Birch Door",
     "tags": [
       "door"
@@ -3776,7 +3776,7 @@
     "block": 941
   },
   {
-    "id": "xbuilders:cladded_blue_door",
+    "id": "tessera:cladded_blue_door",
     "name": "Cladded Blue Door",
     "tags": [
       "door"
@@ -3785,7 +3785,7 @@
     "block": 942
   },
   {
-    "id": "xbuilders:cladded_green_door",
+    "id": "tessera:cladded_green_door",
     "name": "Cladded Green Door",
     "tags": [
       "door"
@@ -3794,7 +3794,7 @@
     "block": 943
   },
   {
-    "id": "xbuilders:cladded_magenta_door",
+    "id": "tessera:cladded_magenta_door",
     "name": "Cladded Magenta Door",
     "tags": [
       "door"
@@ -3803,7 +3803,7 @@
     "block": 944
   },
   {
-    "id": "xbuilders:cladded_door",
+    "id": "tessera:cladded_door",
     "name": "Cladded Door",
     "tags": [
       "door"
@@ -3812,7 +3812,7 @@
     "block": 945
   },
   {
-    "id": "xbuilders:french_bamboo_windows_door",
+    "id": "tessera:french_bamboo_windows_door",
     "name": "French Bamboo Windows Door",
     "tags": [
       "door"
@@ -3821,7 +3821,7 @@
     "block": 946
   },
   {
-    "id": "xbuilders:french_bamboo_door",
+    "id": "tessera:french_bamboo_door",
     "name": "French Bamboo Door",
     "tags": [
       "door"
@@ -3830,7 +3830,7 @@
     "block": 947
   },
   {
-    "id": "xbuilders:french_blue_windows_door",
+    "id": "tessera:french_blue_windows_door",
     "name": "French Blue Windows Door",
     "tags": [
       "door"
@@ -3839,7 +3839,7 @@
     "block": 948
   },
   {
-    "id": "xbuilders:french_blue_door",
+    "id": "tessera:french_blue_door",
     "name": "French Blue Door",
     "tags": [
       "door"
@@ -3848,7 +3848,7 @@
     "block": 949
   },
   {
-    "id": "xbuilders:french_green_windows_door",
+    "id": "tessera:french_green_windows_door",
     "name": "French Green Windows Door",
     "icon": "door\\generic.png",
     "tags": [
@@ -3857,7 +3857,7 @@
     "block": 950
   },
   {
-    "id": "xbuilders:french_green_door",
+    "id": "tessera:french_green_door",
     "name": "French Green Door",
     "icon": "door\\generic.png",
     "tags": [
@@ -3866,7 +3866,7 @@
     "block": 951
   },
   {
-    "id": "xbuilders:french_magenta_windows_door",
+    "id": "tessera:french_magenta_windows_door",
     "name": "French Magenta Windows Door",
     "icon": "door\\generic.png",
     "tags": [
@@ -3875,7 +3875,7 @@
     "block": 952
   },
   {
-    "id": "xbuilders:french_magenta_door",
+    "id": "tessera:french_magenta_door",
     "name": "French Magenta Door",
     "icon": "door\\generic.png",
     "tags": [
@@ -3884,7 +3884,7 @@
     "block": 953
   },
   {
-    "id": "xbuilders:french_windows_door",
+    "id": "tessera:french_windows_door",
     "name": "French Windows Door",
     "icon": "door\\generic.png",
     "tags": [
@@ -3893,7 +3893,7 @@
     "block": 954
   },
   {
-    "id": "xbuilders:french_door",
+    "id": "tessera:french_door",
     "name": "French Door",
     "icon": "door\\generic.png",
     "tags": [
@@ -3902,7 +3902,7 @@
     "block": 955
   },
   {
-    "id": "xbuilders:glass_door",
+    "id": "tessera:glass_door",
     "name": "Glass Door",
     "icon": "door\\glass.png",
     "tags": [
@@ -3911,7 +3911,7 @@
     "block": 956
   },
   {
-    "id": "xbuilders:gray_space_door",
+    "id": "tessera:gray_space_door",
     "name": "Gray Space Door",
     "icon": "door\\space (4).png",
     "tags": [
@@ -3920,7 +3920,7 @@
     "block": 957
   },
   {
-    "id": "xbuilders:gray_space_control_panel_door",
+    "id": "tessera:gray_space_control_panel_door",
     "name": "Gray Space Control_Panel Door",
     "icon": "door\\space (1).png",
     "tags": [
@@ -3929,7 +3929,7 @@
     "block": 958
   },
   {
-    "id": "xbuilders:gray_space_door_2",
+    "id": "tessera:gray_space_door_2",
     "name": "Gray Space Door 2",
     "icon": "door\\space (1).png",
     "tags": [
@@ -3938,7 +3938,7 @@
     "block": 959
   },
   {
-    "id": "xbuilders:italian_bamboo_windows_door",
+    "id": "tessera:italian_bamboo_windows_door",
     "name": "Italian Bamboo Windows Door",
     "icon": "door\\italian.png",
     "tags": [
@@ -3947,7 +3947,7 @@
     "block": 960
   },
   {
-    "id": "xbuilders:italian_bamboo_door",
+    "id": "tessera:italian_bamboo_door",
     "name": "Italian Bamboo Door",
     "icon": "door\\italian.png",
     "tags": [
@@ -3956,7 +3956,7 @@
     "block": 961
   },
   {
-    "id": "xbuilders:italian_blue_windows_door",
+    "id": "tessera:italian_blue_windows_door",
     "name": "Italian Blue Windows Door",
     "icon": "door\\italian.png",
     "tags": [
@@ -3965,7 +3965,7 @@
     "block": 962
   },
   {
-    "id": "xbuilders:italian_blue_door",
+    "id": "tessera:italian_blue_door",
     "name": "Italian Blue Door",
     "icon": "door\\italian.png",
     "tags": [
@@ -3974,7 +3974,7 @@
     "block": 963
   },
   {
-    "id": "xbuilders:italian_green_windows_door",
+    "id": "tessera:italian_green_windows_door",
     "name": "Italian Green Windows Door",
     "icon": "door\\italian.png",
     "tags": [
@@ -3983,7 +3983,7 @@
     "block": 964
   },
   {
-    "id": "xbuilders:italian_green_door",
+    "id": "tessera:italian_green_door",
     "name": "Italian Green Door",
     "icon": "door\\italian.png",
     "tags": [
@@ -3992,7 +3992,7 @@
     "block": 965
   },
   {
-    "id": "xbuilders:italian_magenta_windows_door",
+    "id": "tessera:italian_magenta_windows_door",
     "name": "Italian Magenta Windows Door",
     "icon": "door\\italian.png",
     "tags": [
@@ -4001,7 +4001,7 @@
     "block": 966
   },
   {
-    "id": "xbuilders:italian_magenta_door",
+    "id": "tessera:italian_magenta_door",
     "name": "Italian Magenta Door",
     "icon": "door\\italian.png",
     "tags": [
@@ -4010,7 +4010,7 @@
     "block": 967
   },
   {
-    "id": "xbuilders:italian_windows_door",
+    "id": "tessera:italian_windows_door",
     "name": "Italian Windows Door",
     "icon": "door\\generic.png",
     "tags": [
@@ -4019,7 +4019,7 @@
     "block": 968
   },
   {
-    "id": "xbuilders:italian_door",
+    "id": "tessera:italian_door",
     "name": "Italian Door",
     "icon": "door\\italian.png",
     "tags": [
@@ -4028,7 +4028,7 @@
     "block": 969
   },
   {
-    "id": "xbuilders:jungle_2_door",
+    "id": "tessera:jungle_2_door",
     "name": "Jungle 2 Door",
     "icon": "door\\jungle2.png",
     "tags": [
@@ -4037,7 +4037,7 @@
     "block": 970
   },
   {
-    "id": "xbuilders:jungle_door",
+    "id": "tessera:jungle_door",
     "name": "Jungle Door",
     "icon": "door\\jungle.png",
     "tags": [
@@ -4046,7 +4046,7 @@
     "block": 971
   },
   {
-    "id": "xbuilders:oak_2_door",
+    "id": "tessera:oak_2_door",
     "name": "Oak 2 Door",
     "icon": "door\\icon_0_0.png",
     "tags": [
@@ -4055,7 +4055,7 @@
     "block": 972
   },
   {
-    "id": "xbuilders:oak_renaissance_door",
+    "id": "tessera:oak_renaissance_door",
     "name": "Oak Renaissance Door",
     "icon": "door\\icon_17_0.png",
     "tags": [
@@ -4064,7 +4064,7 @@
     "block": 973
   },
   {
-    "id": "xbuilders:oak_door",
+    "id": "tessera:oak_door",
     "name": "Oak Door",
     "icon": "door\\icon_6_0.png",
     "tags": [
@@ -4073,7 +4073,7 @@
     "block": 974
   },
   {
-    "id": "xbuilders:oval_bamboo_door",
+    "id": "tessera:oval_bamboo_door",
     "name": "Oval Bamboo Door",
     "icon": "door\\oval.png",
     "tags": [
@@ -4082,7 +4082,7 @@
     "block": 975
   },
   {
-    "id": "xbuilders:oval_blue_door",
+    "id": "tessera:oval_blue_door",
     "name": "Oval Blue Door",
     "icon": "door\\oval.png",
     "tags": [
@@ -4091,7 +4091,7 @@
     "block": 976
   },
   {
-    "id": "xbuilders:oval_green_door",
+    "id": "tessera:oval_green_door",
     "name": "Oval Green Door",
     "icon": "door\\oval.png",
     "tags": [
@@ -4100,7 +4100,7 @@
     "block": 977
   },
   {
-    "id": "xbuilders:oval_magenta_door",
+    "id": "tessera:oval_magenta_door",
     "name": "Oval Magenta Door",
     "icon": "door\\oval.png",
     "tags": [
@@ -4109,7 +4109,7 @@
     "block": 978
   },
   {
-    "id": "xbuilders:oval_door",
+    "id": "tessera:oval_door",
     "name": "Oval Door",
     "icon": "door\\oval.png",
     "tags": [
@@ -4118,7 +4118,7 @@
     "block": 979
   },
   {
-    "id": "xbuilders:party_blue_door",
+    "id": "tessera:party_blue_door",
     "name": "Party Blue Door",
     "icon": "door\\party blue.png",
     "tags": [
@@ -4127,7 +4127,7 @@
     "block": 980
   },
   {
-    "id": "xbuilders:party_green_door",
+    "id": "tessera:party_green_door",
     "name": "Party Green Door",
     "icon": "door\\party green.png",
     "tags": [
@@ -4136,7 +4136,7 @@
     "block": 981
   },
   {
-    "id": "xbuilders:party_magenta_door",
+    "id": "tessera:party_magenta_door",
     "name": "Party Magenta Door",
     "icon": "door\\party magenta.png",
     "tags": [
@@ -4145,7 +4145,7 @@
     "block": 982
   },
   {
-    "id": "xbuilders:party_purple_door",
+    "id": "tessera:party_purple_door",
     "name": "Party Purple Door",
     "icon": "door\\party purple.png",
     "tags": [
@@ -4154,7 +4154,7 @@
     "block": 983
   },
   {
-    "id": "xbuilders:party_red_door",
+    "id": "tessera:party_red_door",
     "name": "Party Red Door",
     "icon": "door\\party red.png",
     "tags": [
@@ -4163,7 +4163,7 @@
     "block": 984
   },
   {
-    "id": "xbuilders:party_yellow_door",
+    "id": "tessera:party_yellow_door",
     "name": "Party Yellow Door",
     "icon": "door\\party yellow.png",
     "tags": [
@@ -4172,7 +4172,7 @@
     "block": 985
   },
   {
-    "id": "xbuilders:red_door",
+    "id": "tessera:red_door",
     "name": "Red Door",
     "icon": "door\\red.png",
     "tags": [
@@ -4181,7 +4181,7 @@
     "block": 986
   },
   {
-    "id": "xbuilders:spruce_2_door",
+    "id": "tessera:spruce_2_door",
     "name": "Spruce 2 Door",
     "icon": "door\\icon_6_0.png",
     "tags": [
@@ -4190,7 +4190,7 @@
     "block": 987
   },
   {
-    "id": "xbuilders:spruce_door",
+    "id": "tessera:spruce_door",
     "name": "Spruce Door",
     "icon": "door\\spruce.png",
     "tags": [
@@ -4199,7 +4199,7 @@
     "block": 988
   },
   {
-    "id": "xbuilders:iron_door",
+    "id": "tessera:iron_door",
     "name": "iron Door",
     "icon": "door\\icon_7_0.png",
     "tags": [
@@ -4208,7 +4208,7 @@
     "block": 989
   },
   {
-    "id": "xbuilders:warped_door",
+    "id": "tessera:warped_door",
     "name": "Warped Door",
     "icon": "door\\warped.png",
     "tags": [
@@ -4217,7 +4217,7 @@
     "block": 990
   },
   {
-    "id": "xbuilders:web_door",
+    "id": "tessera:web_door",
     "name": "Web Door",
     "icon": "door\\web.png",
     "tags": [
@@ -4226,7 +4226,7 @@
     "block": 991
   },
   {
-    "id": "xbuilders:white_space_door",
+    "id": "tessera:white_space_door",
     "name": "White Space Door",
     "icon": "door\\space (2).png",
     "tags": [
@@ -4235,7 +4235,7 @@
     "block": 992
   },
   {
-    "id": "xbuilders:white_space_control_panel_door",
+    "id": "tessera:white_space_control_panel_door",
     "name": "White Space Control_Panel Door",
     "icon": "door\\space (3).png",
     "tags": [
@@ -4244,7 +4244,7 @@
     "block": 993
   },
   {
-    "id": "xbuilders:white_space_door_2",
+    "id": "tessera:white_space_door_2",
     "name": "White Space Door 2",
     "icon": "door\\space (3).png",
     "tags": [
@@ -4253,7 +4253,7 @@
     "block": 994
   },
   {
-    "id": "xbuilders:white_door",
+    "id": "tessera:white_door",
     "name": "White Door",
     "icon": "door\\generic.png",
     "tags": [
@@ -4262,578 +4262,578 @@
     "block": 995
   },
   {
-    "id": "xbuilders:jungle_fence_gate",
+    "id": "tessera:jungle_fence_gate",
     "name": "Jungle Fence Gate",
     "block": 800
   },
   {
-    "id": "xbuilders:oak_fence_gate",
+    "id": "tessera:oak_fence_gate",
     "name": "Oak Fence Gate",
     "block": 801
   },
   {
-    "id": "xbuilders:birch_fence_gate",
+    "id": "tessera:birch_fence_gate",
     "name": "Birch Fence Gate",
     "block": 802
   },
   {
-    "id": "xbuilders:dark_oak_fence_gate",
+    "id": "tessera:dark_oak_fence_gate",
     "name": "Dark Oak Fence Gate",
     "block": 803
   },
   {
-    "id": "xbuilders:acacia_fence_gate",
+    "id": "tessera:acacia_fence_gate",
     "name": "Acacia Fence Gate",
     "block": 804
   },
   {
-    "id": "xbuilders:stone_brick_fence_gate",
+    "id": "tessera:stone_brick_fence_gate",
     "name": "Stone Brick Fence Gate",
     "block": 805
   },
   {
-    "id": "xbuilders:palisade_stone_fence_gate",
+    "id": "tessera:palisade_stone_fence_gate",
     "name": "Palisade Stone Fence Gate",
     "block": 806
   },
   {
-    "id": "xbuilders:palisade_stone_2_fence_gate",
+    "id": "tessera:palisade_stone_2_fence_gate",
     "name": "Palisade Stone 2 Fence Gate",
     "block": 807
   },
   {
-    "id": "xbuilders:polished_diorite_fence_gate",
+    "id": "tessera:polished_diorite_fence_gate",
     "name": "Polished Diorite Fence Gate",
     "block": 808
   },
   {
-    "id": "xbuilders:polished_andesite_fence_gate",
+    "id": "tessera:polished_andesite_fence_gate",
     "name": "Polished Andesite Fence Gate",
     "block": 809
   },
   {
-    "id": "xbuilders:cracked_stone_fence_gate",
+    "id": "tessera:cracked_stone_fence_gate",
     "name": "Cracked Stone Fence Gate",
     "block": 810
   },
   {
-    "id": "xbuilders:stone_with_vines_fence_gate",
+    "id": "tessera:stone_with_vines_fence_gate",
     "name": "Stone With Vines Fence Gate",
     "block": 811
   },
   {
-    "id": "xbuilders:burgundy_brick_fence_gate",
+    "id": "tessera:burgundy_brick_fence_gate",
     "name": "Burgundy Brick Fence Gate",
     "block": 812
   },
   {
-    "id": "xbuilders:yellow_concrete_fence_gate",
+    "id": "tessera:yellow_concrete_fence_gate",
     "name": "Yellow Concrete Fence Gate",
     "block": 815
   },
   {
-    "id": "xbuilders:black_concrete_fence_gate",
+    "id": "tessera:black_concrete_fence_gate",
     "name": "Black Concrete Fence Gate",
     "block": 816
   },
   {
-    "id": "xbuilders:blue_concrete_fence_gate",
+    "id": "tessera:blue_concrete_fence_gate",
     "name": "Blue Concrete Fence Gate",
     "block": 817
   },
   {
-    "id": "xbuilders:brown_concrete_fence_gate",
+    "id": "tessera:brown_concrete_fence_gate",
     "name": "Brown Concrete Fence Gate",
     "block": 818
   },
   {
-    "id": "xbuilders:cyan_concrete_fence_gate",
+    "id": "tessera:cyan_concrete_fence_gate",
     "name": "Cyan Concrete Fence Gate",
     "block": 819
   },
   {
-    "id": "xbuilders:gray_concrete_fence_gate",
+    "id": "tessera:gray_concrete_fence_gate",
     "name": "Gray Concrete Fence Gate",
     "block": 820
   },
   {
-    "id": "xbuilders:green_concrete_fence_gate",
+    "id": "tessera:green_concrete_fence_gate",
     "name": "Green Concrete Fence Gate",
     "block": 821
   },
   {
-    "id": "xbuilders:light_blue_concrete_fence_gate",
+    "id": "tessera:light_blue_concrete_fence_gate",
     "name": "Light Blue Concrete Fence Gate",
     "block": 822
   },
   {
-    "id": "xbuilders:light_gray_concrete_fence_gate",
+    "id": "tessera:light_gray_concrete_fence_gate",
     "name": "Light Gray Concrete Fence Gate",
     "block": 823
   },
   {
-    "id": "xbuilders:lime_concrete_fence_gate",
+    "id": "tessera:lime_concrete_fence_gate",
     "name": "Lime Concrete Fence Gate",
     "block": 824
   },
   {
-    "id": "xbuilders:magenta_concrete_fence_gate",
+    "id": "tessera:magenta_concrete_fence_gate",
     "name": "Magenta Concrete Fence Gate",
     "block": 825
   },
   {
-    "id": "xbuilders:orange_concrete_fence_gate",
+    "id": "tessera:orange_concrete_fence_gate",
     "name": "Orange Concrete Fence Gate",
     "block": 826
   },
   {
-    "id": "xbuilders:pink_concrete_fence_gate",
+    "id": "tessera:pink_concrete_fence_gate",
     "name": "Pink Concrete Fence Gate",
     "block": 827
   },
   {
-    "id": "xbuilders:purple_concrete_fence_gate",
+    "id": "tessera:purple_concrete_fence_gate",
     "name": "Purple Concrete Fence Gate",
     "block": 828
   },
   {
-    "id": "xbuilders:red_concrete_fence_gate",
+    "id": "tessera:red_concrete_fence_gate",
     "name": "Red Concrete Fence Gate",
     "block": 829
   },
   {
-    "id": "xbuilders:white_concrete_fence_gate",
+    "id": "tessera:white_concrete_fence_gate",
     "name": "White Concrete Fence Gate",
     "block": 830
   },
   {
-    "id": "xbuilders:bamboo_wood_fence_gate",
+    "id": "tessera:bamboo_wood_fence_gate",
     "name": "Bamboo Wood Fence Gate",
     "block": 831
   },
   {
-    "id": "xbuilders:concrete_fence_gate",
+    "id": "tessera:concrete_fence_gate",
     "name": "concrete Fence Gate",
     "block": 832
   },
   {
-    "id": "xbuilders:obsidian_fence_gate",
+    "id": "tessera:obsidian_fence_gate",
     "name": "Obsidian Fence Gate",
     "block": 833
   },
   {
-    "id": "xbuilders:lapis_lazul_fence_gate",
+    "id": "tessera:lapis_lazul_fence_gate",
     "name": "Lapis Lazul Fence Gate",
     "block": 834
   },
   {
-    "id": "xbuilders:iron_fence_gate",
+    "id": "tessera:iron_fence_gate",
     "name": "iron Fence Gate",
     "block": 835
   },
   {
-    "id": "xbuilders:gold_fence_gate",
+    "id": "tessera:gold_fence_gate",
     "name": "Gold Fence Gate",
     "block": 836
   },
   {
-    "id": "xbuilders:emerald_fence_gate",
+    "id": "tessera:emerald_fence_gate",
     "name": "Emerald Fence Gate",
     "block": 837
   },
   {
-    "id": "xbuilders:diamond_fence_gate",
+    "id": "tessera:diamond_fence_gate",
     "name": "Diamond Fence Gate",
     "block": 838
   },
   {
-    "id": "xbuilders:prismarine_brick_fence_gate",
+    "id": "tessera:prismarine_brick_fence_gate",
     "name": "Prismarine Brick Fence Gate",
     "block": 839
   },
   {
-    "id": "xbuilders:granite_brick_fence_gate",
+    "id": "tessera:granite_brick_fence_gate",
     "name": "Granite Brick Fence Gate",
     "block": 840
   },
   {
-    "id": "xbuilders:dark_prismarine_brick_fence_gate",
+    "id": "tessera:dark_prismarine_brick_fence_gate",
     "name": "Dark Prismarine Brick Fence Gate",
     "block": 841
   },
   {
-    "id": "xbuilders:mosaic_bamboo_wood_fence_gate",
+    "id": "tessera:mosaic_bamboo_wood_fence_gate",
     "name": "Mosaic Bamboo Wood Fence Gate",
     "block": 842
   },
   {
-    "id": "xbuilders:yellow_stained_wood_fence_gate",
+    "id": "tessera:yellow_stained_wood_fence_gate",
     "name": "Yellow Stained Wood Fence Gate",
     "block": 843
   },
   {
-    "id": "xbuilders:black_stained_wood_fence_gate",
+    "id": "tessera:black_stained_wood_fence_gate",
     "name": "Black Stained Wood Fence Gate",
     "block": 844
   },
   {
-    "id": "xbuilders:blue_stained_wood_fence_gate",
+    "id": "tessera:blue_stained_wood_fence_gate",
     "name": "Blue Stained Wood Fence Gate",
     "block": 845
   },
   {
-    "id": "xbuilders:cyan_stained_wood_fence_gate",
+    "id": "tessera:cyan_stained_wood_fence_gate",
     "name": "Cyan Stained Wood Fence Gate",
     "block": 846
   },
   {
-    "id": "xbuilders:gray_stained_wood_fence_gate",
+    "id": "tessera:gray_stained_wood_fence_gate",
     "name": "Gray Stained Wood Fence Gate",
     "block": 847
   },
   {
-    "id": "xbuilders:green_stained_wood_fence_gate",
+    "id": "tessera:green_stained_wood_fence_gate",
     "name": "Green Stained Wood Fence Gate",
     "block": 848
   },
   {
-    "id": "xbuilders:light_blue_stained_wood_fence_gate",
+    "id": "tessera:light_blue_stained_wood_fence_gate",
     "name": "Light Blue Stained Wood Fence Gate",
     "block": 849
   },
   {
-    "id": "xbuilders:lime_stained_wood_fence_gate",
+    "id": "tessera:lime_stained_wood_fence_gate",
     "name": "Lime Stained Wood Fence Gate",
     "block": 850
   },
   {
-    "id": "xbuilders:magenta_stained_wood_fence_gate",
+    "id": "tessera:magenta_stained_wood_fence_gate",
     "name": "Magenta Stained Wood Fence Gate",
     "block": 851
   },
   {
-    "id": "xbuilders:orange_stained_wood_fence_gate",
+    "id": "tessera:orange_stained_wood_fence_gate",
     "name": "Orange Stained Wood Fence Gate",
     "block": 852
   },
   {
-    "id": "xbuilders:pink_stained_wood_fence_gate",
+    "id": "tessera:pink_stained_wood_fence_gate",
     "name": "Pink Stained Wood Fence Gate",
     "block": 853
   },
   {
-    "id": "xbuilders:purple_stained_wood_fence_gate",
+    "id": "tessera:purple_stained_wood_fence_gate",
     "name": "Purple Stained Wood Fence Gate",
     "block": 854
   },
   {
-    "id": "xbuilders:red_stained_wood_fence_gate",
+    "id": "tessera:red_stained_wood_fence_gate",
     "name": "Red Stained Wood Fence Gate",
     "block": 855
   },
   {
-    "id": "xbuilders:white_stained_wood_fence_gate",
+    "id": "tessera:white_stained_wood_fence_gate",
     "name": "White Stained Wood Fence Gate",
     "block": 856
   },
   {
-    "id": "xbuilders:edison_light",
+    "id": "tessera:edison_light",
     "name": "Edison Light",
     "block": 55
   },
   {
-    "id": "xbuilders:electric_light",
+    "id": "tessera:electric_light",
     "name": "Electric Light",
     "block": 174
   },
   {
-    "id": "xbuilders:sea_light",
+    "id": "tessera:sea_light",
     "name": "Sea Light",
     "block": 13
   },
   {
-    "id": "xbuilders:acacia_trapdoor",
+    "id": "tessera:acacia_trapdoor",
     "name": "Acacia Trapdoor",
     "block": 857
   },
   {
-    "id": "xbuilders:acacia2_trapdoor",
+    "id": "tessera:acacia2_trapdoor",
     "name": "Acacia2 Trapdoor",
     "block": 858
   },
   {
-    "id": "xbuilders:bamboo_2_trapdoor",
+    "id": "tessera:bamboo_2_trapdoor",
     "name": "Bamboo 2 Trapdoor",
     "block": 859
   },
   {
-    "id": "xbuilders:bamboo_trapdoor",
+    "id": "tessera:bamboo_trapdoor",
     "name": "Bamboo Trapdoor",
     "block": 860
   },
   {
-    "id": "xbuilders:birch_trapdoor",
+    "id": "tessera:birch_trapdoor",
     "name": "Birch Trapdoor",
     "block": 861
   },
   {
-    "id": "xbuilders:cladded_birch_trapdoor",
+    "id": "tessera:cladded_birch_trapdoor",
     "name": "Cladded Birch Trapdoor",
     "block": 862
   },
   {
-    "id": "xbuilders:cladded_redwood_trapdoor",
+    "id": "tessera:cladded_redwood_trapdoor",
     "name": "Cladded Redwood Trapdoor",
     "block": 863
   },
   {
-    "id": "xbuilders:cladded_white_trapdoor",
+    "id": "tessera:cladded_white_trapdoor",
     "name": "Cladded White Trapdoor",
     "block": 864
   },
   {
-    "id": "xbuilders:glass_trapdoor",
+    "id": "tessera:glass_trapdoor",
     "name": "Glass Trapdoor",
     "block": 865
   },
   {
-    "id": "xbuilders:gray_space_trapdoor_trapdoor",
+    "id": "tessera:gray_space_trapdoor_trapdoor",
     "name": "Gray Space Trapdoor Trapdoor",
     "block": 866
   },
   {
-    "id": "xbuilders:jungle_2_trapdoor",
+    "id": "tessera:jungle_2_trapdoor",
     "name": "Jungle 2 Trapdoor",
     "block": 867
   },
   {
-    "id": "xbuilders:jungle_trapdoor",
+    "id": "tessera:jungle_trapdoor",
     "name": "Jungle Trapdoor",
     "block": 868
   },
   {
-    "id": "xbuilders:oak_2_trapdoor",
+    "id": "tessera:oak_2_trapdoor",
     "name": "Oak 2 Trapdoor",
     "block": 869
   },
   {
-    "id": "xbuilders:oak_trapdoor",
+    "id": "tessera:oak_trapdoor",
     "name": "Oak Trapdoor",
     "block": 870
   },
   {
-    "id": "xbuilders:red_trapdoor",
+    "id": "tessera:red_trapdoor",
     "name": "Red Trapdoor",
     "block": 871
   },
   {
-    "id": "xbuilders:renaissance_trapdoor",
+    "id": "tessera:renaissance_trapdoor",
     "name": "Renaissance Trapdoor",
     "block": 872
   },
   {
-    "id": "xbuilders:spruce_trapdoor",
+    "id": "tessera:spruce_trapdoor",
     "name": "Spruce Trapdoor",
     "block": 873
   },
   {
-    "id": "xbuilders:iron_trapdoor",
+    "id": "tessera:iron_trapdoor",
     "name": "iron Trapdoor",
     "block": 874
   },
   {
-    "id": "xbuilders:warped_trapdoor",
+    "id": "tessera:warped_trapdoor",
     "name": "Warped Trapdoor",
     "block": 875
   },
   {
-    "id": "xbuilders:white_space_trapdoor_trapdoor",
+    "id": "tessera:white_space_trapdoor_trapdoor",
     "name": "White Space Trapdoor Trapdoor",
     "block": 876
   },
   {
-    "id": "xbuilders:white_trapdoor",
+    "id": "tessera:white_trapdoor",
     "name": "White Trapdoor",
     "block": 877
   },
   {
-    "id": "xbuilders:red_banner",
+    "id": "tessera:red_banner",
     "name": "Red Banner",
-    "entity": "xbuilders:red_banner",
+    "entity": "tessera:red_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:orange_banner",
+    "id": "tessera:orange_banner",
     "name": "Orange Banner",
-    "entity": "xbuilders:orange_banner",
+    "entity": "tessera:orange_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:yellow_banner",
+    "id": "tessera:yellow_banner",
     "name": "Yellow Banner",
-    "entity": "xbuilders:yellow_banner",
+    "entity": "tessera:yellow_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:lime_banner",
+    "id": "tessera:lime_banner",
     "name": "Lime Banner",
-    "entity": "xbuilders:lime_banner",
+    "entity": "tessera:lime_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:green_banner",
+    "id": "tessera:green_banner",
     "name": "Green Banner",
-    "entity": "xbuilders:green_banner",
+    "entity": "tessera:green_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:blue_banner",
+    "id": "tessera:blue_banner",
     "name": "Blue Banner",
-    "entity": "xbuilders:blue_banner",
+    "entity": "tessera:blue_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:gray_banner",
+    "id": "tessera:gray_banner",
     "name": "Gray Banner",
-    "entity": "xbuilders:gray_banner",
+    "entity": "tessera:gray_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:pink_banner",
+    "id": "tessera:pink_banner",
     "name": "Pink Banner",
-    "entity": "xbuilders:pink_banner",
+    "entity": "tessera:pink_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:purple_banner",
+    "id": "tessera:purple_banner",
     "name": "Purple Banner",
-    "entity": "xbuilders:purple_banner",
+    "entity": "tessera:purple_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:white_banner",
+    "id": "tessera:white_banner",
     "name": "White Banner",
-    "entity": "xbuilders:white_banner",
+    "entity": "tessera:white_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:xbuilders_banner",
-    "name": "Xbuilders Banner",
-    "entity": "xbuilders:xbuilders_banner",
+    "id": "tessera:tessera_banner",
+    "name": "tessera Banner",
+    "entity": "tessera:tessera_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:regal_banner",
+    "id": "tessera:regal_banner",
     "name": "Regal Banner",
-    "entity": "xbuilders:regal_banner",
+    "entity": "tessera:regal_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:royal_banner",
+    "id": "tessera:royal_banner",
     "name": "Royal Banner",
-    "entity": "xbuilders:royal_banner",
+    "entity": "tessera:royal_banner",
     "icon": "banner.png"
   },
   {
-    "id": "xbuilders:oak_boat",
+    "id": "tessera:oak_boat",
     "name": "Oak Boat",
-    "entity": "xbuilders:oak_boat",
+    "entity": "tessera:oak_boat",
     "icon": "boat\\oak.png"
   },
   {
-    "id": "xbuilders:dark_oak_boat",
+    "id": "tessera:dark_oak_boat",
     "name": "Dark Oak Boat",
-    "entity": "xbuilders:dark_oak_boat",
+    "entity": "tessera:dark_oak_boat",
     "icon": "boat\\dark_oak.png"
   },
   {
-    "id": "xbuilders:spruce_boat",
+    "id": "tessera:spruce_boat",
     "name": "Spruce Boat",
-    "entity": "xbuilders:spruce_boat",
+    "entity": "tessera:spruce_boat",
     "icon": "boat\\spruce.png"
   },
   {
-    "id": "xbuilders:acacia_boat",
+    "id": "tessera:acacia_boat",
     "name": "Acacia Boat",
-    "entity": "xbuilders:acacia_boat",
+    "entity": "tessera:acacia_boat",
     "icon": "boat\\acacia.png"
   },
   {
-    "id": "xbuilders:jungle_boat",
+    "id": "tessera:jungle_boat",
     "name": "Jungle Boat",
-    "entity": "xbuilders:jungle_boat",
+    "entity": "tessera:jungle_boat",
     "icon": "boat\\jungle.png"
   },
   {
-    "id": "xbuilders:birch_boat",
+    "id": "tessera:birch_boat",
     "name": "Birch Boat",
-    "entity": "xbuilders:birch_boat",
+    "entity": "tessera:birch_boat",
     "icon": "boat\\birch.png"
   },
   {
-    "id": "xbuilders:blue_minecart",
+    "id": "tessera:blue_minecart",
     "name": "Blue Minecart",
-    "entity": "xbuilders:blue_minecart",
+    "entity": "tessera:blue_minecart",
     "icon": "minecart\\blue.png"
   },
   {
-    "id": "xbuilders:charcoal_minecart",
+    "id": "tessera:charcoal_minecart",
     "name": "Charcoal Minecart",
-    "entity": "xbuilders:charcoal_minecart",
+    "entity": "tessera:charcoal_minecart",
     "icon": "minecart\\black.png"
   },
   {
-    "id": "xbuilders:cyan_minecart",
+    "id": "tessera:cyan_minecart",
     "name": "Cyan Minecart",
-    "entity": "xbuilders:cyan_minecart",
+    "entity": "tessera:cyan_minecart",
     "icon": "minecart\\cyan.png"
   },
   {
-    "id": "xbuilders:green_minecart",
+    "id": "tessera:green_minecart",
     "name": "Green Minecart",
-    "entity": "xbuilders:green_minecart",
+    "entity": "tessera:green_minecart",
     "icon": "minecart\\green.png"
   },
   {
-    "id": "xbuilders:iron_minecart",
+    "id": "tessera:iron_minecart",
     "name": "Iron Minecart",
-    "entity": "xbuilders:iron_minecart",
+    "entity": "tessera:iron_minecart",
     "icon": "minecart\\white.png"
   },
   {
-    "id": "xbuilders:red_minecart",
+    "id": "tessera:red_minecart",
     "name": "Red Minecart",
-    "entity": "xbuilders:red_minecart",
+    "entity": "tessera:red_minecart",
     "icon": "minecart\\red.png"
   },
   {
-    "id": "xbuilders:yellow_minecart",
+    "id": "tessera:yellow_minecart",
     "name": "Yellow Minecart",
-    "entity": "xbuilders:yellow_minecart",
+    "entity": "tessera:yellow_minecart",
     "icon": "minecart\\yellow.png"
   },
   {
-    "id": "xbuilders:barrel",
+    "id": "tessera:barrel",
     "name": "Barrel",
     "block": 45
   },
   {
-    "id": "xbuilders:crafting_table",
+    "id": "tessera:crafting_table",
     "name": "Crafting Table",
     "block": 50
   },
   {
-    "id": "xbuilders:furnace",
+    "id": "tessera:furnace",
     "name": "Furnace",
     "block": 99
   },
   {
-    "id": "xbuilders:stick",
+    "id": "tessera:stick",
     "name": "Stick",
     "icon": "stick.png"
   },
   {
-    "id": "xbuilders:string",
+    "id": "tessera:string",
     "name": "String",
     "icon": "string.png"
   }

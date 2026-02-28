@@ -1,10 +1,8 @@
-![Xbuilders landscape](assets/images/b.jpg)
+![tessera landscape](assets/images/b.jpg)
 
-# Xbuilders
+# Tessera
 **A voxel game written in Java + LWJGL.**
 
-## Running the Game
-1. There should be a file called "XBuilders3.jar". Double-click to run it.
 
 If nothing happens, it could be that you dont have JRE 17 installed on your machine.
 1. Test if you have java installed with `java -version`

@@ -11,7 +11,7 @@
       "#stone",
       null
     ],
-    "output": "xbuilders:palisade_stone",
+    "output": "tessera:palisade_stone",
     "amount": 4
   },
   {
@@ -26,22 +26,22 @@
       null,
       "#stone"
     ],
-    "output": "xbuilders:palisade_stone_2",
+    "output": "tessera:palisade_stone_2",
     "amount": 5
   },
   {
     "input": [
-      "xbuilders:stone",
-      "xbuilders:stone",
+      "tessera:stone",
+      "tessera:stone",
       null,
-      "xbuilders:stone",
-      "xbuilders:stone",
+      "tessera:stone",
+      "tessera:stone",
       null,
       null,
       null,
       null
     ],
-    "output": "xbuilders:stone_brick",
+    "output": "tessera:stone_brick",
     "amount": 4
   },
   {
@@ -50,37 +50,37 @@
       "#stone",
       "#wood"
     ],
-    "output": "xbuilders:tan_siding",
+    "output": "tessera:tan_siding",
     "amount": 2
   },
   {
     "input": [
-      "xbuilders:granite",
-      "xbuilders:granite",
+      "tessera:granite",
+      "tessera:granite",
       null,
-      "xbuilders:granite",
-      "xbuilders:granite",
+      "tessera:granite",
+      "tessera:granite",
       null,
       null,
       null,
       null
     ],
-    "output": "xbuilders:granite_brick",
+    "output": "tessera:granite_brick",
     "amount": 4
   },
   {
     "input": [
-      "xbuilders:gunpowder",
-      "xbuilders:granite",
-      "xbuilders:gunpowder",
-      "xbuilders:sand",
-      "xbuilders:sand",
-      "xbuilders:sand",
-      "xbuilders:gunpowder",
-      "xbuilders:granite",
-      "xbuilders:gunpowder"
+      "tessera:gunpowder",
+      "tessera:granite",
+      "tessera:gunpowder",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:gunpowder",
+      "tessera:granite",
+      "tessera:gunpowder"
     ],
-    "output": "xbuilders:tnt",
+    "output": "tessera:tnt",
     "amount": 2
   }
 ]

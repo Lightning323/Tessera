@@ -1,65 +1,65 @@
 {
-  "xbuilders:acacia_leaves": [
+  "tessera:acacia_leaves": [
     {
-      "item": "xbuilders:stick",
+      "item": "tessera:stick",
       "chance": 0.1,
       "maxItems": 2
     },
     {
-      "item": "xbuilders:acacia_sapling",
+      "item": "tessera:acacia_sapling",
       "chance": 0.1,
       "maxItems": 1
     }
   ],
-  "xbuilders:spruce_leaves": [
+  "tessera:spruce_leaves": [
     {
-      "item": "xbuilders:stick",
+      "item": "tessera:stick",
       "chance": 0.1,
       "maxItems": 2
     },
     {
-      "item": "xbuilders:spruce_sapling",
+      "item": "tessera:spruce_sapling",
       "chance": 0.1,
       "maxItems": 1
     }
   ],
-  "xbuilders:jungle_leaves": [
+  "tessera:jungle_leaves": [
     {
-      "item": "xbuilders:stick",
+      "item": "tessera:stick",
       "chance": 0.1,
       "maxItems": 2
     },
     {
-      "item": "xbuilders:jungle_sapling",
+      "item": "tessera:jungle_sapling",
       "chance": 0.1,
       "maxItems": 1
     }
   ],
-  "xbuilders:oak_leaves": [
+  "tessera:oak_leaves": [
     {
-      "item": "xbuilders:stick",
+      "item": "tessera:stick",
       "chance": 0.1,
       "maxItems": 2
     },
     {
-      "item": "xbuilders:oak_sapling",
+      "item": "tessera:oak_sapling",
       "chance": 0.1,
       "maxItems": 1
     }
   ],
-  "xbuilders:birch_leaves": [
+  "tessera:birch_leaves": [
     {
-      "item": "xbuilders:stick",
+      "item": "tessera:stick",
       "chance": 0.1,
       "maxItems": 2
     },
     {
-      "item": "xbuilders:apple",
+      "item": "tessera:apple",
       "chance": 0.1,
       "maxItems": 2
     },
     {
-      "item": "xbuilders:birch_sapling",
+      "item": "tessera:birch_sapling",
       "chance": 0.1,
       "maxItems": 1
     }

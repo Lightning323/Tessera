@@ -131,7 +131,6 @@ public class TopMenu {
                 titleYEnd.put(0, (int) (window.getHeight() * 0.19));
             }
 
-            //Draw the XBUILDERS title
             window.ctx.style().window().fixed_background().data().color().set(Theme.color_transparent);
             nk_rect(0, titleYEnd.get(0), window.getWidth(), titleHeight, windowDims);
             titleYEnd.put(0, titleYEnd.get(0) + titleHeight);

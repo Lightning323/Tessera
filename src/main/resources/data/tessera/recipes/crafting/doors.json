@@ -2,116 +2,116 @@
   {
     "shapeless": true,
     "input": [
-      "xbuilders:acacia_door"
+      "tessera:acacia_door"
     ],
-    "output": "xbuilders:acacia_door_2",
+    "output": "tessera:acacia_door_2",
     "amount": 1
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:acacia_wood",
-      "xbuilders:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
       null,
-      "xbuilders:acacia_wood",
-      "xbuilders:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
       null,
-      "xbuilders:acacia_wood",
-      "xbuilders:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
       null
     ],
-    "output": "xbuilders:acacia_door",
+    "output": "tessera:acacia_door",
     "amount": 3
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:bamboo_door"
+      "tessera:bamboo_door"
     ],
-    "output": "xbuilders:bamboo_2_door",
+    "output": "tessera:bamboo_2_door",
     "amount": 1
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:bamboo_block",
-      "xbuilders:bamboo_block",
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
       null,
-      "xbuilders:bamboo_block",
-      "xbuilders:bamboo_block",
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
       null,
-      "xbuilders:bamboo_block",
-      "xbuilders:bamboo_block",
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
       null
     ],
-    "output": "xbuilders:bamboo_door",
+    "output": "tessera:bamboo_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:birch_wood",
-      "xbuilders:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
       null,
-      "xbuilders:birch_wood",
-      "xbuilders:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
       null,
-      "xbuilders:birch_wood",
-      "xbuilders:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
       null
     ],
-    "output": "xbuilders:birch_door",
+    "output": "tessera:birch_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:white_siding",
-      "xbuilders:white_siding",
+      "tessera:white_siding",
+      "tessera:white_siding",
       null,
-      "xbuilders:white_siding",
-      "xbuilders:white_siding",
+      "tessera:white_siding",
+      "tessera:white_siding",
       null,
-      "xbuilders:white_siding",
-      "xbuilders:white_siding",
+      "tessera:white_siding",
+      "tessera:white_siding",
       null
     ],
-    "output": "xbuilders:cladded_door",
+    "output": "tessera:cladded_door",
     "amount": 3
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:cladded_door",
-      "xbuilders:blue_dye"
+      "tessera:cladded_door",
+      "tessera:blue_dye"
     ],
-    "output": "xbuilders:cladded_blue_door",
+    "output": "tessera:cladded_blue_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:cladded_door",
-      "xbuilders:green_dye"
+      "tessera:cladded_door",
+      "tessera:green_dye"
     ],
-    "output": "xbuilders:cladded_green_door",
+    "output": "tessera:cladded_green_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:cladded_door",
-      "xbuilders:magenta_dye"
+      "tessera:cladded_door",
+      "tessera:magenta_dye"
     ],
-    "output": "xbuilders:cladded_magenta_door",
+    "output": "tessera:cladded_magenta_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:french_door"
+      "tessera:french_door"
     ],
-    "output": "xbuilders:french_windows_door",
+    "output": "tessera:french_windows_door",
     "amount": 1
   },
   {
@@ -127,83 +127,83 @@
       "#door",
       null
     ],
-    "output": "xbuilders:french_door",
+    "output": "tessera:french_door",
     "amount": 12
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:french_bamboo_door"
+      "tessera:french_bamboo_door"
     ],
-    "output": "xbuilders:french_bamboo_windows_door",
+    "output": "tessera:french_bamboo_windows_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:mosaic_bamboo_wood",
-      "xbuilders:french_door"
+      "tessera:mosaic_bamboo_wood",
+      "tessera:french_door"
     ],
-    "output": "xbuilders:french_bamboo_door",
+    "output": "tessera:french_bamboo_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:french_blue_door"
+      "tessera:french_blue_door"
     ],
-    "output": "xbuilders:french_blue_windows_door",
+    "output": "tessera:french_blue_windows_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:french_door",
-      "xbuilders:blue_dye"
+      "tessera:french_door",
+      "tessera:blue_dye"
     ],
-    "output": "xbuilders:french_blue_door",
+    "output": "tessera:french_blue_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:french_green_door"
+      "tessera:french_green_door"
     ],
-    "output": "xbuilders:french_green_windows_door",
+    "output": "tessera:french_green_windows_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:french_door",
-      "xbuilders:green_dye"
+      "tessera:french_door",
+      "tessera:green_dye"
     ],
-    "output": "xbuilders:french_green_door",
+    "output": "tessera:french_green_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:french_magenta_door"
+      "tessera:french_magenta_door"
     ],
-    "output": "xbuilders:french_magenta_windows_door",
+    "output": "tessera:french_magenta_windows_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:french_door",
-      "xbuilders:magenta_dye"
+      "tessera:french_door",
+      "tessera:magenta_dye"
     ],
-    "output": "xbuilders:french_magenta_door",
+    "output": "tessera:french_magenta_door",
     "amount": 3
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:italian_door"
+      "tessera:italian_door"
     ],
-    "output": "xbuilders:italian_windows_door",
+    "output": "tessera:italian_windows_door",
     "amount": 1
   },
   {
@@ -219,131 +219,131 @@
       null,
       "#door"
     ],
-    "output": "xbuilders:italian_door",
+    "output": "tessera:italian_door",
     "amount": 12
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:italian_door",
-      "xbuilders:mosaic_bamboo_wood"
+      "tessera:italian_door",
+      "tessera:mosaic_bamboo_wood"
     ],
-    "output": "xbuilders:italian_bamboo_door",
+    "output": "tessera:italian_bamboo_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:italian_bamboo_door"
+      "tessera:italian_bamboo_door"
     ],
-    "output": "xbuilders:italian_bamboo_windows_door",
+    "output": "tessera:italian_bamboo_windows_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:italian_blue_door"
+      "tessera:italian_blue_door"
     ],
-    "output": "xbuilders:italian_blue_windows_door",
+    "output": "tessera:italian_blue_windows_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:italian_door",
-      "xbuilders:blue_dye"
+      "tessera:italian_door",
+      "tessera:blue_dye"
     ],
-    "output": "xbuilders:italian_blue_door",
+    "output": "tessera:italian_blue_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:italian_green_door"
+      "tessera:italian_green_door"
     ],
-    "output": "xbuilders:italian_green_windows_door",
+    "output": "tessera:italian_green_windows_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:italian_door",
-      "xbuilders:green_dye"
+      "tessera:italian_door",
+      "tessera:green_dye"
     ],
-    "output": "xbuilders:italian_green_door",
+    "output": "tessera:italian_green_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:italian_magenta_door"
+      "tessera:italian_magenta_door"
     ],
-    "output": "xbuilders:italian_magenta_windows_door",
+    "output": "tessera:italian_magenta_windows_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:italian_door",
-      "xbuilders:magenta_dye"
+      "tessera:italian_door",
+      "tessera:magenta_dye"
     ],
-    "output": "xbuilders:italian_magenta_door",
+    "output": "tessera:italian_magenta_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:jungle_door"
+      "tessera:jungle_door"
     ],
-    "output": "xbuilders:jungle_2_door",
-    "amount": 1
-  },
-  {
-    "shapeless": false,
-    "input": [
-      "xbuilders:jungle_wood",
-      "xbuilders:jungle_wood",
-      null,
-      "xbuilders:jungle_wood",
-      "xbuilders:jungle_wood",
-      null,
-      "xbuilders:jungle_wood",
-      "xbuilders:jungle_wood",
-      null
-    ],
-    "output": "xbuilders:jungle_door",
-    "amount": 3
-  },
-  {
-    "shapeless": true,
-    "input": [
-      "xbuilders:oak_door"
-    ],
-    "output": "xbuilders:oak_2_door",
-    "amount": 3
-  },
-  {
-    "shapeless": true,
-    "input": [
-      "xbuilders:oak_2_door"
-    ],
-    "output": "xbuilders:oak_renaissance_door",
+    "output": "tessera:jungle_2_door",
     "amount": 1
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:oak_wood",
-      "xbuilders:oak_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
       null,
-      "xbuilders:oak_wood",
-      "xbuilders:oak_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
       null,
-      "xbuilders:oak_wood",
-      "xbuilders:oak_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
       null
     ],
-    "output": "xbuilders:oak_door",
+    "output": "tessera:jungle_door",
+    "amount": 3
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:oak_door"
+    ],
+    "output": "tessera:oak_2_door",
+    "amount": 3
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:oak_2_door"
+    ],
+    "output": "tessera:oak_renaissance_door",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      null,
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      null,
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      null
+    ],
+    "output": "tessera:oak_door",
     "amount": 3
   },
   {
@@ -359,313 +359,313 @@
       null,
       null
     ],
-    "output": "xbuilders:oval_door",
+    "output": "tessera:oval_door",
     "amount": 6
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:oval_door",
-      "xbuilders:mosaic_bamboo_wood"
+      "tessera:oval_door",
+      "tessera:mosaic_bamboo_wood"
     ],
-    "output": "xbuilders:oval_bamboo_door",
+    "output": "tessera:oval_bamboo_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:oval_door",
-      "xbuilders:blue_dye"
+      "tessera:oval_door",
+      "tessera:blue_dye"
     ],
-    "output": "xbuilders:oval_blue_door",
+    "output": "tessera:oval_blue_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:oval_door",
-      "xbuilders:green_dye"
+      "tessera:oval_door",
+      "tessera:green_dye"
     ],
-    "output": "xbuilders:oval_green_door",
+    "output": "tessera:oval_green_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:oval_door",
-      "xbuilders:magenta_dye"
+      "tessera:oval_door",
+      "tessera:magenta_dye"
     ],
-    "output": "xbuilders:oval_magenta_door",
+    "output": "tessera:oval_magenta_door",
     "amount": 1
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:light_blue_concrete",
-      "xbuilders:light_blue_concrete",
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete",
       null,
-      "xbuilders:light_blue_concrete",
-      "xbuilders:light_blue_concrete",
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete",
       null,
-      "xbuilders:light_blue_concrete",
-      "xbuilders:light_blue_concrete",
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete",
       null
     ],
-    "output": "xbuilders:party_blue_door",
+    "output": "tessera:party_blue_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:green_concrete",
-      "xbuilders:green_concrete",
+      "tessera:green_concrete",
+      "tessera:green_concrete",
       null,
-      "xbuilders:green_concrete",
-      "xbuilders:green_concrete",
+      "tessera:green_concrete",
+      "tessera:green_concrete",
       null,
-      "xbuilders:green_concrete",
-      "xbuilders:green_concrete",
+      "tessera:green_concrete",
+      "tessera:green_concrete",
       null
     ],
-    "output": "xbuilders:party_green_door",
+    "output": "tessera:party_green_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:magenta_concrete",
-      "xbuilders:magenta_concrete",
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete",
       null,
-      "xbuilders:magenta_concrete",
-      "xbuilders:magenta_concrete",
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete",
       null,
-      "xbuilders:magenta_concrete",
-      "xbuilders:magenta_concrete",
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete",
       null
     ],
-    "output": "xbuilders:party_magenta_door",
+    "output": "tessera:party_magenta_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:purple_concrete",
-      "xbuilders:purple_concrete",
+      "tessera:purple_concrete",
+      "tessera:purple_concrete",
       null,
-      "xbuilders:purple_concrete",
-      "xbuilders:purple_concrete",
+      "tessera:purple_concrete",
+      "tessera:purple_concrete",
       null,
-      "xbuilders:purple_concrete",
-      "xbuilders:purple_concrete",
+      "tessera:purple_concrete",
+      "tessera:purple_concrete",
       null
     ],
-    "output": "xbuilders:party_purple_door",
+    "output": "tessera:party_purple_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:red_concrete",
-      "xbuilders:red_concrete",
+      "tessera:red_concrete",
+      "tessera:red_concrete",
       null,
-      "xbuilders:red_concrete",
-      "xbuilders:red_concrete",
+      "tessera:red_concrete",
+      "tessera:red_concrete",
       null,
-      "xbuilders:red_concrete",
-      "xbuilders:red_concrete",
+      "tessera:red_concrete",
+      "tessera:red_concrete",
       null
     ],
-    "output": "xbuilders:party_red_door",
+    "output": "tessera:party_red_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:yellow_concrete",
-      "xbuilders:yellow_concrete",
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete",
       null,
-      "xbuilders:yellow_concrete",
-      "xbuilders:yellow_concrete",
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete",
       null,
-      "xbuilders:yellow_concrete",
-      "xbuilders:yellow_concrete",
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete",
       null
     ],
-    "output": "xbuilders:party_yellow_door",
+    "output": "tessera:party_yellow_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
       null,
-      "xbuilders:purple_stained_wood",
-      "xbuilders:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
       null,
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
       null
     ],
-    "output": "xbuilders:web_door",
+    "output": "tessera:web_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:purple_stained_wood",
-      "xbuilders:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
       null,
-      "xbuilders:purple_stained_wood",
-      "xbuilders:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
       null,
-      "xbuilders:purple_stained_wood",
-      "xbuilders:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
       null
     ],
-    "output": "xbuilders:warped_door",
+    "output": "tessera:warped_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:red_stained_wood",
-      "xbuilders:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
       null,
-      "xbuilders:red_stained_wood",
-      "xbuilders:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
       null,
-      "xbuilders:red_stained_wood",
-      "xbuilders:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
       null
     ],
-    "output": "xbuilders:red_door",
+    "output": "tessera:red_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:white_stained_wood",
-      "xbuilders:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
       null,
-      "xbuilders:white_stained_wood",
-      "xbuilders:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
       null,
-      "xbuilders:white_stained_wood",
-      "xbuilders:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
       null
     ],
-    "output": "xbuilders:white_door",
+    "output": "tessera:white_door",
     "amount": 3
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:spruce_door"
+      "tessera:spruce_door"
     ],
-    "output": "xbuilders:spruce_2_door",
+    "output": "tessera:spruce_2_door",
     "amount": 1
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:spruce_wood",
-      "xbuilders:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
       null,
-      "xbuilders:spruce_wood",
-      "xbuilders:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
       null,
-      "xbuilders:spruce_wood",
-      "xbuilders:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
       null
     ],
-    "output": "xbuilders:spruce_door",
+    "output": "tessera:spruce_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
       null,
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
       null,
-      "xbuilders:iron_ingot",
-      "xbuilders:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
       null
     ],
-    "output": "xbuilders:iron_door",
+    "output": "tessera:iron_door",
     "amount": 3
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:glass",
-      "xbuilders:glass",
+      "tessera:glass",
+      "tessera:glass",
       null,
-      "xbuilders:glass",
-      "xbuilders:glass",
+      "tessera:glass",
+      "tessera:glass",
       null,
-      "xbuilders:glass",
-      "xbuilders:glass",
+      "tessera:glass",
+      "tessera:glass",
       null
     ],
-    "output": "xbuilders:glass_door",
+    "output": "tessera:glass_door",
     "amount": 3
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:iron_door",
-      "xbuilders:gray_concrete"
+      "tessera:iron_door",
+      "tessera:gray_concrete"
     ],
-    "output": "xbuilders:gray_space_door",
+    "output": "tessera:gray_space_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:gray_space_door",
-      "xbuilders:solar_panel"
+      "tessera:gray_space_door",
+      "tessera:solar_panel"
     ],
-    "output": "xbuilders:gray_space_control_panel_door",
+    "output": "tessera:gray_space_control_panel_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:iron_door",
-      "xbuilders:solar_panel"
+      "tessera:iron_door",
+      "tessera:solar_panel"
     ],
-    "output": "xbuilders:gray_space_door_2",
+    "output": "tessera:gray_space_door_2",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:iron_door",
-      "xbuilders:white_concrete"
+      "tessera:iron_door",
+      "tessera:white_concrete"
     ],
-    "output": "xbuilders:white_space_door",
+    "output": "tessera:white_space_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:white_space_door",
-      "xbuilders:solar_panel"
+      "tessera:white_space_door",
+      "tessera:solar_panel"
     ],
-    "output": "xbuilders:white_space_control_panel_door",
+    "output": "tessera:white_space_control_panel_door",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:iron_door",
-      "xbuilders:solar_panel"
+      "tessera:iron_door",
+      "tessera:solar_panel"
     ],
-    "output": "xbuilders:white_space_door_2",
+    "output": "tessera:white_space_door_2",
     "amount": 1
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "alias": "xbuilders:amethyst_block",
+    "alias": "tessera:amethyst_block",
     "id": 745,
     "texture": {
       "neg_y": "crystal\\amethyst_block",
@@ -24,7 +24,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:aquamarine_block",
+    "alias": "tessera:aquamarine_block",
     "id": 746,
     "texture": {
       "neg_y": "crystal\\aquamarine_block",
@@ -48,7 +48,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:jade_block",
+    "alias": "tessera:jade_block",
     "id": 748,
     "texture": {
       "neg_y": "crystal\\jade_block",
@@ -72,7 +72,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:ruby_block",
+    "alias": "tessera:ruby_block",
     "id": 751,
     "texture": {
       "neg_y": "crystal\\ruby_block",
@@ -96,7 +96,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:polished_amethyst_block",
+    "alias": "tessera:polished_amethyst_block",
     "id": 998,
     "texture": {
       "neg_y": "crystal\\smooth_amethyst_block",
@@ -120,7 +120,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:polished_aquamarine_block",
+    "alias": "tessera:polished_aquamarine_block",
     "id": 997,
     "texture": {
       "neg_y": "crystal\\smooth_aquamarine_block",
@@ -144,7 +144,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:polished_jade_block",
+    "alias": "tessera:polished_jade_block",
     "id": 996,
     "texture": {
       "neg_y": "crystal\\smooth_jade_block",
@@ -168,7 +168,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:polished_ruby_block",
+    "alias": "tessera:polished_ruby_block",
     "id": 999,
     "texture": {
       "neg_y": "crystal\\smooth_ruby_block",
@@ -192,7 +192,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:amethyst_crystal",
+    "alias": "tessera:amethyst_crystal",
     "id": 64,
     "texture": {
       "neg_y": "crystal\\amethyst crystal",
@@ -216,7 +216,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:ruby_crystal",
+    "alias": "tessera:ruby_crystal",
     "id": 255,
     "texture": {
       "neg_y": "crystal\\ruby crystal",
@@ -240,7 +240,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:jade_crystal",
+    "alias": "tessera:jade_crystal",
     "id": 256,
     "texture": {
       "neg_y": "crystal\\jade crystal",
@@ -264,7 +264,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:aquamarine_crystal",
+    "alias": "tessera:aquamarine_crystal",
     "id": 257,
     "texture": {
       "neg_y": "crystal\\aquamarine crystal",

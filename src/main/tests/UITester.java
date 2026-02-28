@@ -2,17 +2,17 @@
 // * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 // * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
 // */
-//package com.xbuilders.tests;
+//package com.tessera.tests;
 //
-//import com.xbuilders.engine.game.model.Game;
-//import com.xbuilders.engine.game.model.items.ItemList;
-//import com.xbuilders.engine.game.model.items.item.blockIconRendering.BlockIconRenderer;
-//import com.xbuilders.engine.client.visuals.localServer.GameUI;
-//import com.xbuilders.engine.utils.resource.ResourceUtils;
-//import com.xbuilders.game.MyGame;
-//import com.xbuilders.window.GLFWWindow;
-//import com.xbuilders.window.NKWindow;
-//import com.xbuilders.window.developmentTools.MemoryProfiler;
+//import com.tessera.engine.game.model.Game;
+//import com.tessera.engine.game.model.items.ItemList;
+//import com.tessera.engine.game.model.items.item.blockIconRendering.BlockIconRenderer;
+//import com.tessera.engine.client.visuals.localServer.GameUI;
+//import com.tessera.engine.utils.resource.ResourceUtils;
+//import com.tessera.game.MyGame;
+//import com.tessera.window.GLFWWindow;
+//import com.tessera.window.NKWindow;
+//import com.tessera.window.developmentTools.MemoryProfiler;
 //import org.lwjgl.nuklear.NkVec2;
 //
 //import java.io.IOException;

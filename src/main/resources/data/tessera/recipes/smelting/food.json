@@ -1,12 +1,12 @@
 [
   {
-    "input": "xbuilders:bread",
-    "output": "xbuilders:french_bread",
+    "input": "tessera:bread",
+    "output": "tessera:french_bread",
     "amount": 1
   },
   {
-    "input": "xbuilders:potato",
-    "output": "xbuilders:baked_potato",
+    "input": "tessera:potato",
+    "output": "tessera:baked_potato",
     "amount": 1
   }
 ]

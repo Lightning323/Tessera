@@ -1,118 +1,118 @@
 [
   {
     "input": [
-      "xbuilders:sand",
-      "xbuilders:sand",
-      "xbuilders:sand",
-      "xbuilders:sand",
-      "xbuilders:sand",
-      "xbuilders:sand",
-      "xbuilders:sand",
-      "xbuilders:sand",
-      "xbuilders:sand"
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand"
     ],
-    "output": "xbuilders:sandstone",
+    "output": "tessera:sandstone",
     "amount": 8
   },
   {
     "input": [
-      "xbuilders:red_sand",
-      "xbuilders:red_sand",
-      "xbuilders:red_sand",
-      "xbuilders:red_sand",
-      "xbuilders:red_sand",
-      "xbuilders:red_sand",
-      "xbuilders:red_sand",
-      "xbuilders:red_sand",
-      "xbuilders:red_sand"
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand"
     ],
-    "output": "xbuilders:red_sandstone",
+    "output": "tessera:red_sandstone",
     "amount": 8
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:red_sandstone",
-      "xbuilders:red_sandstone",
-      "xbuilders:red_sandstone",
-      "xbuilders:red_sandstone"
+      "tessera:red_sandstone",
+      "tessera:red_sandstone",
+      "tessera:red_sandstone",
+      "tessera:red_sandstone"
     ],
-    "output": "xbuilders:red_palisade_sandstone",
+    "output": "tessera:red_palisade_sandstone",
     "amount": 4
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:sandstone",
-      "xbuilders:sandstone",
-      "xbuilders:sandstone",
-      "xbuilders:sandstone"
+      "tessera:sandstone",
+      "tessera:sandstone",
+      "tessera:sandstone",
+      "tessera:sandstone"
     ],
-    "output": "xbuilders:palisade_sandstone",
+    "output": "tessera:palisade_sandstone",
     "amount": 4
   },
   {
     "shapeless": false,
     "input": [
       "",
-      "xbuilders:palisade_sandstone",
+      "tessera:palisade_sandstone",
       "",
-      "xbuilders:palisade_sandstone",
+      "tessera:palisade_sandstone",
       "",
-      "xbuilders:palisade_sandstone",
+      "tessera:palisade_sandstone",
       "",
-      "xbuilders:palisade_sandstone",
+      "tessera:palisade_sandstone",
       ""
     ],
-    "output": "xbuilders:engraved_sandstone",
+    "output": "tessera:engraved_sandstone",
     "amount": 4
   },
   {
     "shapeless": true,
     "input": [
       "",
-      "xbuilders:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
       "",
-      "xbuilders:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
       "",
-      "xbuilders:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
       "",
-      "xbuilders:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
       ""
     ],
-    "output": "xbuilders:engraved_red_sandstone",
+    "output": "tessera:engraved_red_sandstone",
     "amount": 4
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:palisade_sandstone",
+      "tessera:palisade_sandstone",
       "",
-      "xbuilders:palisade_sandstone",
+      "tessera:palisade_sandstone",
       "",
-      "xbuilders:palisade_sandstone",
+      "tessera:palisade_sandstone",
       "",
-      "xbuilders:palisade_sandstone",
+      "tessera:palisade_sandstone",
       "",
-      "xbuilders:palisade_sandstone"
+      "tessera:palisade_sandstone"
     ],
-    "output": "xbuilders:engraved_sandstone_2",
+    "output": "tessera:engraved_sandstone_2",
     "amount": 5
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
       "",
-      "xbuilders:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
       "",
-      "xbuilders:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
       "",
-      "xbuilders:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
       "",
-      "xbuilders:red_palisade_sandstone"
+      "tessera:red_palisade_sandstone"
     ],
-    "output": "xbuilders:engraved_red_sandstone_2",
+    "output": "tessera:engraved_red_sandstone_2",
     "amount": 5
   }
 ]

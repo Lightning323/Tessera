@@ -1,106 +1,106 @@
 {
-  "xbuilders:bamboo": [
+  "tessera:bamboo": [
     {
-      "item": "xbuilders:bamboo",
+      "item": "tessera:bamboo",
       "chance": 1.0,
       "maxItems": 1
     }
   ],
-  "xbuilders:bamboo_sapling": [
+  "tessera:bamboo_sapling": [
     {
-      "item": "xbuilders:bamboo",
+      "item": "tessera:bamboo",
       "chance": 1.0,
       "maxItems": 1
     }
   ],
-  "xbuilders:sugar_cane": [
+  "tessera:sugar_cane": [
     {
-      "item": "xbuilders:sugar_cane",
+      "item": "tessera:sugar_cane",
       "chance": 1.0,
       "maxItems": 1
     }
   ],
-  "xbuilders:wheat": [
+  "tessera:wheat": [
     {
-      "item": "xbuilders:wheat",
+      "item": "tessera:wheat",
       "chance": 1.0,
       "maxItems": 2
     },
     {
-      "item": "xbuilders:wheat_seeds",
+      "item": "tessera:wheat_seeds",
       "chance": 1,
       "maxItems": 1
     },
     {
-      "item": "xbuilders:wheat_seeds",
+      "item": "tessera:wheat_seeds",
       "chance": 0.6,
       "maxItems": 1
     }
   ],
-  "xbuilders:pumpkin": [
+  "tessera:pumpkin": [
     {
-      "item": "xbuilders:pumpkin",
+      "item": "tessera:pumpkin",
       "chance": 1.0,
       "maxItems": 2
     },
     {
-      "item": "xbuilders:pumpkin_seeds",
+      "item": "tessera:pumpkin_seeds",
       "chance": 1,
       "maxItems": 1
     },
     {
-      "item": "xbuilders:pumpkin_seeds",
+      "item": "tessera:pumpkin_seeds",
       "chance": 0.6,
       "maxItems": 1
     }
   ],
-  "xbuilders:beets": [
+  "tessera:beets": [
     {
-      "item": "xbuilders:beet",
+      "item": "tessera:beet",
       "chance": 1.0,
       "maxItems": 2
     },
     {
-      "item": "xbuilders:beetroot_seeds",
+      "item": "tessera:beetroot_seeds",
       "chance": 1,
       "maxItems": 1
     },
     {
-      "item": "xbuilders:beetroot_seeds",
+      "item": "tessera:beetroot_seeds",
       "chance": 0.6,
       "maxItems": 1
     }
   ],
-  "xbuilders:potatoes": [
+  "tessera:potatoes": [
     {
-      "item": "xbuilders:potato",
+      "item": "tessera:potato",
       "chance": 1.0,
       "maxItems": 2
     },
     {
-      "item": "xbuilders:potato_seeds",
+      "item": "tessera:potato_seeds",
       "chance": 1,
       "maxItems": 1
     },
     {
-      "item": "xbuilders:potato_seeds",
+      "item": "tessera:potato_seeds",
       "chance": 0.6,
       "maxItems": 1
     }
   ],
-  "xbuilders:carrots": [
+  "tessera:carrots": [
     {
-      "item": "xbuilders:carrot",
+      "item": "tessera:carrot",
       "chance": 1.0,
       "maxItems": 2
     },
     {
-      "item": "xbuilders:carrot_seeds",
+      "item": "tessera:carrot_seeds",
       "chance": 1,
       "maxItems": 1
     },
     {
-      "item": "xbuilders:carrot_seeds",
+      "item": "tessera:carrot_seeds",
       "chance": 0.6,
       "maxItems": 1
     }

@@ -1,230 +1,230 @@
 [
   {
     "input": [
-      "xbuilders:polished_andesite",
+      "tessera:polished_andesite",
       null,
-      "xbuilders:polished_andesite",
+      "tessera:polished_andesite",
       null,
       null,
       null,
-      "xbuilders:polished_andesite",
+      "tessera:polished_andesite",
       null,
-      "xbuilders:polished_andesite"
+      "tessera:polished_andesite"
     ],
-    "output": "xbuilders:marble_tile",
+    "output": "tessera:marble_tile",
     "amount": 8
   },
   {
     "input": [
-      "xbuilders:polished_diorite",
+      "tessera:polished_diorite",
       null,
-      "xbuilders:polished_diorite",
+      "tessera:polished_diorite",
       null,
       null,
       null,
-      "xbuilders:polished_diorite",
+      "tessera:polished_diorite",
       null,
-      "xbuilders:polished_diorite"
+      "tessera:polished_diorite"
     ],
-    "output": "xbuilders:marble_tile",
+    "output": "tessera:marble_tile",
     "amount": 8
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:marble_tile",
+      "tessera:marble_tile",
       null,
-      "xbuilders:marble_tile",
+      "tessera:marble_tile",
       null,
       null,
       null,
-      "xbuilders:marble_tile",
+      "tessera:marble_tile",
       null,
-      "xbuilders:marble_tile"
+      "tessera:marble_tile"
     ],
-    "output": "xbuilders:marble_pillar_block",
+    "output": "tessera:marble_pillar_block",
     "amount": 4
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:marble_tile",
+      "tessera:marble_tile",
       null,
-      "xbuilders:black_marble_tile",
+      "tessera:black_marble_tile",
       null,
       null,
       null,
-      "xbuilders:black_marble_tile",
+      "tessera:black_marble_tile",
       null,
-      "xbuilders:marble_tile"
+      "tessera:marble_tile"
     ],
-    "output": "xbuilders:checkerboard_chiseled_marble",
+    "output": "tessera:checkerboard_chiseled_marble",
     "amount": 4
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:blue_dye"
+      "tessera:marble_tile",
+      "tessera:blue_dye"
     ],
-    "output": "xbuilders:blue_marble_tile",
+    "output": "tessera:blue_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:green_dye"
+      "tessera:marble_tile",
+      "tessera:green_dye"
     ],
-    "output": "xbuilders:green_marble_tile",
+    "output": "tessera:green_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:orange_dye"
+      "tessera:marble_tile",
+      "tessera:orange_dye"
     ],
-    "output": "xbuilders:orange_marble_tile",
+    "output": "tessera:orange_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:black_dye"
+      "tessera:marble_tile",
+      "tessera:black_dye"
     ],
-    "output": "xbuilders:black_marble_tile",
+    "output": "tessera:black_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:yellow_dye"
+      "tessera:marble_tile",
+      "tessera:yellow_dye"
     ],
-    "output": "xbuilders:yellow_marble_tile",
+    "output": "tessera:yellow_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:blue_dye",
-      "xbuilders:white_dye"
+      "tessera:marble_tile",
+      "tessera:blue_dye",
+      "tessera:white_dye"
     ],
-    "output": "xbuilders:pastel_blue_marble_tile",
+    "output": "tessera:pastel_blue_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:blue_marble_tile",
-      "xbuilders:white_dye"
+      "tessera:blue_marble_tile",
+      "tessera:white_dye"
     ],
-    "output": "xbuilders:pastel_blue_marble_tile",
+    "output": "tessera:pastel_blue_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:green_marble_tile",
-      "xbuilders:white_dye"
+      "tessera:green_marble_tile",
+      "tessera:white_dye"
     ],
-    "output": "xbuilders:pastel_green_marble_tile",
+    "output": "tessera:pastel_green_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:gray_marble_tile",
-      "xbuilders:black_dye"
+      "tessera:gray_marble_tile",
+      "tessera:black_dye"
     ],
-    "output": "xbuilders:black_marble_tile",
+    "output": "tessera:black_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:cyan_dye"
+      "tessera:marble_tile",
+      "tessera:cyan_dye"
     ],
-    "output": "xbuilders:cyan_marble_tile",
+    "output": "tessera:cyan_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:magenta_dye"
+      "tessera:marble_tile",
+      "tessera:magenta_dye"
     ],
-    "output": "xbuilders:magenta_marble_tile",
+    "output": "tessera:magenta_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:magenta_dye",
-      "xbuilders:white_dye"
+      "tessera:marble_tile",
+      "tessera:magenta_dye",
+      "tessera:white_dye"
     ],
-    "output": "xbuilders:pink_marble_tile",
+    "output": "tessera:pink_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:purple_dye"
+      "tessera:marble_tile",
+      "tessera:purple_dye"
     ],
-    "output": "xbuilders:purple_marble_tile",
+    "output": "tessera:purple_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:red_dye"
+      "tessera:marble_tile",
+      "tessera:red_dye"
     ],
-    "output": "xbuilders:pastel_red_marble_tile",
+    "output": "tessera:pastel_red_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:red_dye",
-      "xbuilders:red_dye"
+      "tessera:marble_tile",
+      "tessera:red_dye",
+      "tessera:red_dye"
     ],
-    "output": "xbuilders:burgundy_marble_tile",
+    "output": "tessera:burgundy_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:brown_dye"
+      "tessera:marble_tile",
+      "tessera:brown_dye"
     ],
-    "output": "xbuilders:brown_marble_tile",
+    "output": "tessera:brown_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:green_dye",
-      "xbuilders:white_dye"
+      "tessera:marble_tile",
+      "tessera:green_dye",
+      "tessera:white_dye"
     ],
-    "output": "xbuilders:pastel_green_marble_tile",
+    "output": "tessera:pastel_green_marble_tile",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:marble_tile",
-      "xbuilders:gray_dye"
+      "tessera:marble_tile",
+      "tessera:gray_dye"
     ],
-    "output": "xbuilders:gray_marble_tile",
+    "output": "tessera:gray_marble_tile",
     "amount": 1
   }
 ]

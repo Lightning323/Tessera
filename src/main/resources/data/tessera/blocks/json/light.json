@@ -1,6 +1,6 @@
 [
   {
-    "alias": "xbuilders:edison_light",
+    "alias": "tessera:edison_light",
     "id": 55,
     "texture": {
       "pos_y": "edison light",
@@ -23,7 +23,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:electric_light",
+    "alias": "tessera:electric_light",
     "id": 174,
     "texture": {
       "pos_y": "electric light",
@@ -46,7 +46,7 @@
     "properties": {}
   },
   {
-    "alias": "xbuilders:sea_light",
+    "alias": "tessera:sea_light",
     "id": 13,
     "texture": {
       "pos_y": "sea light",

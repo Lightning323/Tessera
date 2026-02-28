@@ -1,62 +1,62 @@
 [
   {
     "input": [
-      "xbuilders:stick",
+      "tessera:stick",
       null,
-      "xbuilders:stick",
-      "xbuilders:stick",
-      "xbuilders:stick",
-      "xbuilders:stick",
-      "xbuilders:stick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:stick",
       null,
-      "xbuilders:stick"
+      "tessera:stick"
     ],
-    "output": "xbuilders:ladder",
+    "output": "tessera:ladder",
     "amount": 16
   },
   {
     "input": [
-      "xbuilders:stick",
+      "tessera:stick",
       null,
-      "xbuilders:stick",
-      "xbuilders:iron_ingot",
-      "xbuilders:stick",
-      "xbuilders:iron_ingot",
-      "xbuilders:stick",
+      "tessera:stick",
+      "tessera:iron_ingot",
+      "tessera:stick",
+      "tessera:iron_ingot",
+      "tessera:stick",
       null,
-      "xbuilders:stick"
+      "tessera:stick"
     ],
-    "output": "xbuilders:iron_ladder",
+    "output": "tessera:iron_ladder",
     "amount": 64
   },
   {
     "input": [
-      "xbuilders:stick",
+      "tessera:stick",
       null,
-      "xbuilders:stick",
-      "xbuilders:stick",
-      "xbuilders:bamboo",
-      "xbuilders:stick",
-      "xbuilders:stick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:bamboo",
+      "tessera:stick",
+      "tessera:stick",
       null,
-      "xbuilders:stick"
+      "tessera:stick"
     ],
-    "output": "xbuilders:bamboo_ladder",
+    "output": "tessera:bamboo_ladder",
     "amount": 24
   },
   {
     "input": [
-      "xbuilders:stick",
+      "tessera:stick",
       null,
-      "xbuilders:stick",
-      "xbuilders:stick",
-      "xbuilders:spruce_wood",
-      "xbuilders:stick",
-      "xbuilders:stick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:spruce_wood",
+      "tessera:stick",
+      "tessera:stick",
       null,
-      "xbuilders:stick"
+      "tessera:stick"
     ],
-    "output": "xbuilders:dark_oak_ladder",
+    "output": "tessera:dark_oak_ladder",
     "amount": 24
   }
 ]

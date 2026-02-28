@@ -1,21 +1,21 @@
 [
   {
-    "animalID": "xbuilders:horse",
-    "foodID": "xbuilders:animal_apple",
+    "animalID": "tessera:horse",
+    "foodID": "tessera:animal_apple",
     "output": [
       {
-        "item": "xbuilders:wool",
+        "item": "tessera:wool",
         "chance": 1.0,
         "maxItems": 1
       }
     ]
   },
   {
-    "animalID": "xbuilders:dog",
-    "foodID": "xbuilders:animal_apple",
+    "animalID": "tessera:dog",
+    "foodID": "tessera:animal_apple",
     "output": [
       {
-        "item": "xbuilders:gold_ingot",
+        "item": "tessera:gold_ingot",
         "chance": 0.5,
         "maxItems": 2
       }

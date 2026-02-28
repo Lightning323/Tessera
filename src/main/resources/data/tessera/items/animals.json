@@ -1,62 +1,62 @@
 [
   {
-    "id": "xbuilders:fox",
+    "id": "tessera:fox",
     "name": "Fox",
-    "entity": "xbuilders:fox",
+    "entity": "tessera:fox",
     "icon": "egg.png"
   },
   {
-    "id": "xbuilders:cat",
+    "id": "tessera:cat",
     "name": "Cat",
-    "entity": "xbuilders:cat",
+    "entity": "tessera:cat",
     "icon": "egg.png"
   },
   {
-    "id": "xbuilders:rabbit",
+    "id": "tessera:rabbit",
     "name": "Rabbit",
-    "entity": "xbuilders:rabbit",
+    "entity": "tessera:rabbit",
     "icon": "egg.png"
   },
   {
-    "id": "xbuilders:horse",
+    "id": "tessera:horse",
     "name": "Horse",
-    "entity": "xbuilders:horse",
+    "entity": "tessera:horse",
     "icon": "egg.png"
   },
   {
-    "id": "xbuilders:mule",
+    "id": "tessera:mule",
     "name": "Mule",
-    "entity": "xbuilders:mule",
+    "entity": "tessera:mule",
     "icon": "egg.png"
   },
   {
-    "id": "xbuilders:dog",
+    "id": "tessera:dog",
     "name": "Dog",
-    "entity": "xbuilders:dog",
+    "entity": "tessera:dog",
     "icon": "egg.png"
   },
   {
-    "id": "xbuilders:sea_turtle",
+    "id": "tessera:sea_turtle",
     "name": "Sea Turtle",
-    "entity": "xbuilders:sea_turtle",
+    "entity": "tessera:sea_turtle",
     "icon": "egg.png"
   },
   {
-    "id": "xbuilders:beaver",
+    "id": "tessera:beaver",
     "name": "Beaver",
-    "entity": "xbuilders:beaver",
+    "entity": "tessera:beaver",
     "icon": "beaver egg.png"
   },
   {
-    "id": "xbuilders:butterfly_fish",
+    "id": "tessera:butterfly_fish",
     "name": "Butterfly Fish",
-    "entity": "xbuilders:butterfly_fish",
+    "entity": "tessera:butterfly_fish",
     "icon": "fish egg.png"
   },
   {
-    "id": "xbuilders:angler_fish",
+    "id": "tessera:angler_fish",
     "name": "Angler Fish",
-    "entity": "xbuilders:angler_fish",
+    "entity": "tessera:angler_fish",
     "icon": "fish egg.png"
   }
 ]

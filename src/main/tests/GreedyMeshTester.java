@@ -2,22 +2,22 @@
 // * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 // * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
 // */
-//package com.xbuilders.tests;
+//package com.tessera.tests;
 //
-//import com.xbuilders.engine.game.model.items.BlockList;
-//import com.xbuilders.engine.game.model.items.block.Block;
-//import com.xbuilders.engine.game.model.items.block.BlockArrayTexture;
-//import com.xbuilders.engine.client.visuals.localServer.rendering.chunk.meshers.bufferSet.BufferSet;
-//import com.xbuilders.engine.client.visuals.localServer.rendering.chunk.meshers.GreedyMesher;
-//import com.xbuilders.engine.client.visuals.localServer.rendering.chunk.withBakedLight.GreedyMesherWithLight;
-//import com.xbuilders.engine.client.visuals.localServer.rendering.old.GreedyMesherNublada;
-//import com.xbuilders.engine.utils.MiscUtils;
-//import com.xbuilders.engine.utils.resource.ResourceUtils;
-//import com.xbuilders.engine.utils.math.PerlinNoise;
-//import com.xbuilders.window.development.MemoryProfiler;
-//import com.xbuilders.window.utils.preformance.Stopwatch;
-//import com.xbuilders.engine.game.model.world.chunk.ChunkVoxels;
-//import com.xbuilders.game.MyGame;
+//import com.tessera.engine.game.model.items.BlockList;
+//import com.tessera.engine.game.model.items.block.Block;
+//import com.tessera.engine.game.model.items.block.BlockArrayTexture;
+//import com.tessera.engine.client.visuals.localServer.rendering.chunk.meshers.bufferSet.BufferSet;
+//import com.tessera.engine.client.visuals.localServer.rendering.chunk.meshers.GreedyMesher;
+//import com.tessera.engine.client.visuals.localServer.rendering.chunk.withBakedLight.GreedyMesherWithLight;
+//import com.tessera.engine.client.visuals.localServer.rendering.old.GreedyMesherNublada;
+//import com.tessera.engine.utils.MiscUtils;
+//import com.tessera.engine.utils.resource.ResourceUtils;
+//import com.tessera.engine.utils.math.PerlinNoise;
+//import com.tessera.window.development.MemoryProfiler;
+//import com.tessera.window.utils.preformance.Stopwatch;
+//import com.tessera.engine.game.model.world.chunk.ChunkVoxels;
+//import com.tessera.game.MyGame;
 //import java.io.IOException;
 //
 //import java.util.HashMap;
@@ -38,16 +38,16 @@
 //
 //    public final static PerlinNoise fastNoise = new PerlinNoise(0.0, 1000);
 //    static Stopwatch watch_Nublada = new Stopwatch();
-//    static Stopwatch watch_XbuildersLight = new Stopwatch();
-//    static Stopwatch watch_Xbuilders = new Stopwatch();
-//    static long times_xbuilders = 0;
-//    static long times_nublada, times_xbuilders_light;
+//    static Stopwatch watch_tesseraLight = new Stopwatch();
+//    static Stopwatch watch_tessera = new Stopwatch();
+//    static long times_tessera = 0;
+//    static long times_nublada, times_tessera_light;
 //    static ChunkVoxels voxels = new ChunkVoxels(32, 32, 32);
 //
 //    enum Mode {
 //        TEST_SPEED,
 //        TEST_NUBLADA_MEMORY,
-//        TEST_XBUILDERS_MEMORY
+//        TEST_tessera_MEMORY
 //    }
 //
 //    private static void generateVoxels() {
@@ -88,8 +88,8 @@
 //        generateVoxels();
 //
 //        GreedyMesherNublada mesher_Nublada = new GreedyMesherNublada(voxels, blockList);
-//        GreedyMesher mesher_Xbuilders = new GreedyMesher(voxels, blockList);
-//        GreedyMesherWithLight mesher_XbuildersLight = new GreedyMesherWithLight(voxels, blockList);
+//        GreedyMesher mesher_tessera = new GreedyMesher(voxels, blockList);
+//        GreedyMesherWithLight mesher_tesseraLight = new GreedyMesherWithLight(voxels, blockList);
 //
 //        long startMem = MemoryProfiler.getMemoryUsed();
 //        long totalMemory = 0;
@@ -101,10 +101,10 @@
 //
 //                //TEST XB
 //                try (MemoryStack stack = org.lwjgl.system.MemoryStack.stackPush()) {
-//                    watch_Xbuilders.start();
-//                    mesher_Xbuilders.compute(new BufferSet(), new BufferSet(),
+//                    watch_tessera.start();
+//                    mesher_tessera.compute(new BufferSet(), new BufferSet(),
 //                            new Vector3i(0, 0, 0), stack, 1);
-//                    watch_Xbuilders.calculateElapsedTime();
+//                    watch_tessera.calculateElapsedTime();
 //                }
 //
 //                //TEST NUBLADA
@@ -114,21 +114,21 @@
 //
 //                //TEST XB WITH LIGHT
 //                try (MemoryStack stack = org.lwjgl.system.MemoryStack.stackPush()) {
-//                    watch_XbuildersLight.start();
-//                    mesher_XbuildersLight.compute(new BufferSet(), new BufferSet(),
+//                    watch_tesseraLight.start();
+//                    mesher_tesseraLight.compute(new BufferSet(), new BufferSet(),
 //                            new Vector3i(0, 0, 0), stack, 1);
-//                    watch_XbuildersLight.calculateElapsedTime();
+//                    watch_tesseraLight.calculateElapsedTime();
 //                }
 //
 //                //CALCULATE TIMES
 //                if (b > start) {
-//                    times_xbuilders += (watch_Xbuilders.getElapsedMilliseconds());
+//                    times_tessera += (watch_tessera.getElapsedMilliseconds());
 //                    times_nublada += (watch_Nublada.getElapsedMilliseconds());
-//                    times_xbuilders_light += (watch_XbuildersLight.getElapsedMilliseconds());
+//                    times_tessera_light += (watch_tesseraLight.getElapsedMilliseconds());
 //
 //                    System.out.print("NUBLADA:\t" + watch_Nublada.toString());
-//                    System.out.print("\tXBUILDERS:\t" + watch_Xbuilders.toString());
-//                    System.out.print("\tXBUILDERS LIGHT:\t" + watch_XbuildersLight.toString());
+//                    System.out.print("\ttessera:\t" + watch_tessera.toString());
+//                    System.out.print("\ttessera LIGHT:\t" + watch_tesseraLight.toString());
 //                    System.out.println("\t\t (trial " + b + "/" + trials + ") (" + MemoryProfiler.getMemoryUsageAsString() + ") seed:" + fastNoise.getSeed());
 //                }
 //            }
@@ -138,26 +138,26 @@
 //                    watch_Nublada.start();
 //                    mesher_Nublada.compute(new Vector3i(0, 0, 0));
 //                    watch_Nublada.calculateElapsedTime();
-//                } else if (mode == Mode.TEST_XBUILDERS_MEMORY) {
+//                } else if (mode == Mode.TEST_tessera_MEMORY) {
 //                    try (MemoryStack stack = org.lwjgl.system.MemoryStack.stackPush()) {
-//                        watch_Xbuilders.start();
+//                        watch_tessera.start();
 //                        BufferSet buff1 = new BufferSet();
 //                        BufferSet buff2 = new BufferSet();
-//                        GreedyMesher mesher_Xbuilders2 = new GreedyMesher(voxels, blockList);
-////                        mesher_Xbuilders2.compute(buff1, buff2, new Vector3i(0, 0, 0), false, stack);
-//                        watch_Xbuilders.calculateElapsedTime();
+//                        GreedyMesher mesher_tessera2 = new GreedyMesher(voxels, blockList);
+////                        mesher_tessera2.compute(buff1, buff2, new Vector3i(0, 0, 0), false, stack);
+//                        watch_tessera.calculateElapsedTime();
 //
 ////                        MemoryUtil.memFree(buff1.getVertexSet());
 ////                        MemoryUtil.memFree(buff2.getVertexSet());
 //                    }
 //                }
 //
-//                times_xbuilders += (watch_Xbuilders.getElapsedMilliseconds());
+//                times_tessera += (watch_tessera.getElapsedMilliseconds());
 //                times_nublada += (watch_Nublada.getElapsedMilliseconds());
 //                if (mode == Mode.TEST_NUBLADA_MEMORY) {
 //                    System.out.print("NUBLADA:\t" + watch_Nublada.toString());
 //                } else {
-//                    System.out.print("XBUILDERS:\t" + watch_Xbuilders.toString());
+//                    System.out.print("tessera:\t" + watch_tessera.toString());
 //                }
 //                System.out.println("\t\t (trial " + b + "/" + trials + ") (" + MemoryProfiler.getMemoryUsageAsString() + ") seed:" + fastNoise.getSeed());
 //                long memDiff = MemoryProfiler.getMemoryUsed() - startMem;
@@ -172,8 +172,8 @@
 //
 //        int realTrials = (trials - start);
 //        System.out.println("\nNUBLADA TIME AVERAGE:\t" + (times_nublada / realTrials) + " ms"
-//                + "\nXBUILDERS TIME AVERAGE:\t" + (times_xbuilders / realTrials) + " ms"
-//                + "\nXBUILDERS (W/ LIGHT) TIME AVERAGE:\t" + (times_xbuilders_light / realTrials) + " ms"
+//                + "\ntessera TIME AVERAGE:\t" + (times_tessera / realTrials) + " ms"
+//                + "\ntessera (W/ LIGHT) TIME AVERAGE:\t" + (times_tessera_light / realTrials) + " ms"
 //                + "\n\nTotal Memory used:\t" + MemoryProfiler.formatBytes(totalMemory)
 //                + "\nMemory used/compute (avg):\t" + MemoryProfiler.formatBytes(totalMemory / trials));
 //

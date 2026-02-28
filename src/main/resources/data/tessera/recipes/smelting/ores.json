@@ -1,12 +1,12 @@
 [
   {
-    "input": "xbuilders:raw_iron",
-    "output": "xbuilders:iron_ingot",
+    "input": "tessera:raw_iron",
+    "output": "tessera:iron_ingot",
     "amount": 1
   },
   {
-    "input": "xbuilders:raw_gold",
-    "output": "xbuilders:gold_ingot",
+    "input": "tessera:raw_gold",
+    "output": "tessera:gold_ingot",
     "amount": 1
   }
 ]

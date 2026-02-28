@@ -1,6 +1,6 @@
 [
   {
-    "alias": "xbuilders:acacia2_door_top",
+    "alias": "tessera:acacia2_door_top",
     "id": 878,
     "texture": {
       "pos_y": "door\\acacia2_0_0.png",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "alias": "xbuilders:acacia_door_top",
+    "alias": "tessera:acacia_door_top",
     "id": 879,
     "texture": {
       "pos_y": "door\\acacia_0_0.png",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "alias": "xbuilders:bamboo_2_door_top",
+    "alias": "tessera:bamboo_2_door_top",
     "id": 880,
     "texture": {
       "pos_y": "door\\bamboo 2_0_0.png",
@@ -78,7 +78,7 @@
     }
   },
   {
-    "alias": "xbuilders:bamboo_door_top",
+    "alias": "tessera:bamboo_door_top",
     "id": 881,
     "texture": {
       "pos_y": "door\\bamboo_0_0.png",
@@ -104,7 +104,7 @@
     }
   },
   {
-    "alias": "xbuilders:birch_door_top",
+    "alias": "tessera:birch_door_top",
     "id": 882,
     "texture": {
       "pos_y": "door\\birch_0_0.png",
@@ -130,7 +130,7 @@
     }
   },
   {
-    "alias": "xbuilders:cladded_blue_door_top",
+    "alias": "tessera:cladded_blue_door_top",
     "id": 883,
     "texture": {
       "pos_y": "door\\cladded blue_0_0.png",
@@ -156,7 +156,7 @@
     }
   },
   {
-    "alias": "xbuilders:cladded_green_door_top",
+    "alias": "tessera:cladded_green_door_top",
     "id": 884,
     "texture": {
       "pos_y": "door\\cladded green_0_0.png",
@@ -182,7 +182,7 @@
     }
   },
   {
-    "alias": "xbuilders:cladded_magenta_door_top",
+    "alias": "tessera:cladded_magenta_door_top",
     "id": 885,
     "texture": {
       "pos_y": "door\\cladded magenta_0_0.png",
@@ -208,7 +208,7 @@
     }
   },
   {
-    "alias": "xbuilders:cladded_door_top",
+    "alias": "tessera:cladded_door_top",
     "id": 886,
     "texture": {
       "pos_y": "door\\cladded_0_0.png",
@@ -234,7 +234,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_bamboo_windows_door_top",
+    "alias": "tessera:french_bamboo_windows_door_top",
     "id": 887,
     "texture": {
       "pos_y": "door\\french bamboo windows_0_0.png",
@@ -260,7 +260,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_bamboo_door_top",
+    "alias": "tessera:french_bamboo_door_top",
     "id": 888,
     "texture": {
       "pos_y": "door\\french bamboo_0_0.png",
@@ -286,7 +286,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_blue_windows_door_top",
+    "alias": "tessera:french_blue_windows_door_top",
     "id": 889,
     "texture": {
       "pos_y": "door\\french blue windows_0_0.png",
@@ -312,7 +312,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_blue_door_top",
+    "alias": "tessera:french_blue_door_top",
     "id": 890,
     "texture": {
       "pos_y": "door\\french blue_0_0.png",
@@ -338,7 +338,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_green_windows_door_top",
+    "alias": "tessera:french_green_windows_door_top",
     "id": 891,
     "texture": {
       "pos_y": "door\\french green windows_0_0.png",
@@ -364,7 +364,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_green_door_top",
+    "alias": "tessera:french_green_door_top",
     "id": 892,
     "texture": {
       "pos_y": "door\\french green_0_0.png",
@@ -390,7 +390,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_magenta_windows_door_top",
+    "alias": "tessera:french_magenta_windows_door_top",
     "id": 893,
     "texture": {
       "pos_y": "door\\french magenta windows_0_0.png",
@@ -416,7 +416,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_magenta_door_top",
+    "alias": "tessera:french_magenta_door_top",
     "id": 894,
     "texture": {
       "pos_y": "door\\french magenta_0_0.png",
@@ -442,7 +442,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_windows_door_top",
+    "alias": "tessera:french_windows_door_top",
     "id": 895,
     "texture": {
       "pos_y": "door\\french windows_0_0.png",
@@ -468,7 +468,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_door_top",
+    "alias": "tessera:french_door_top",
     "id": 896,
     "texture": {
       "pos_y": "door\\french_0_0.png",
@@ -494,7 +494,7 @@
     }
   },
   {
-    "alias": "xbuilders:glass_door_top",
+    "alias": "tessera:glass_door_top",
     "id": 897,
     "texture": {
       "pos_y": "door\\glass_0_0.png",
@@ -520,7 +520,7 @@
     }
   },
   {
-    "alias": "xbuilders:gray_space_door_top",
+    "alias": "tessera:gray_space_door_top",
     "id": 898,
     "texture": {
       "pos_y": "door\\gray 1_0_0.png",
@@ -546,7 +546,7 @@
     }
   },
   {
-    "alias": "xbuilders:gray_space_control_panel_door_top",
+    "alias": "tessera:gray_space_control_panel_door_top",
     "id": 899,
     "texture": {
       "pos_y": "door\\gray 2 control-panel_0_0.png",
@@ -572,7 +572,7 @@
     }
   },
   {
-    "alias": "xbuilders:gray_2_door_top",
+    "alias": "tessera:gray_2_door_top",
     "id": 900,
     "texture": {
       "pos_y": "door\\gray 2_0_0.png",
@@ -598,7 +598,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_bamboo_windows_door_top",
+    "alias": "tessera:italian_bamboo_windows_door_top",
     "id": 901,
     "texture": {
       "pos_y": "door\\italian bamboo windows_0_0.png",
@@ -624,7 +624,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_bamboo_door_top",
+    "alias": "tessera:italian_bamboo_door_top",
     "id": 902,
     "texture": {
       "pos_y": "door\\italian bamboo_0_0.png",
@@ -650,7 +650,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_blue_windows_door_top",
+    "alias": "tessera:italian_blue_windows_door_top",
     "id": 903,
     "texture": {
       "pos_y": "door\\italian blue windows_0_0.png",
@@ -676,7 +676,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_blue_door_top",
+    "alias": "tessera:italian_blue_door_top",
     "id": 904,
     "texture": {
       "pos_y": "door\\italian blue_0_0.png",
@@ -702,7 +702,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_green_windows_door_top",
+    "alias": "tessera:italian_green_windows_door_top",
     "id": 905,
     "texture": {
       "pos_y": "door\\italian green windows_0_0.png",
@@ -728,7 +728,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_green_door_top",
+    "alias": "tessera:italian_green_door_top",
     "id": 906,
     "texture": {
       "pos_y": "door\\italian green_0_0.png",
@@ -754,7 +754,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_magenta_windows_door_top",
+    "alias": "tessera:italian_magenta_windows_door_top",
     "id": 907,
     "texture": {
       "pos_y": "door\\italian magenta windows_0_0.png",
@@ -780,7 +780,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_magenta_door_top",
+    "alias": "tessera:italian_magenta_door_top",
     "id": 908,
     "texture": {
       "pos_y": "door\\italian magenta_0_0.png",
@@ -806,7 +806,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_windows_door_top",
+    "alias": "tessera:italian_windows_door_top",
     "id": 909,
     "texture": {
       "pos_y": "door\\italian windows_0_0.png",
@@ -832,7 +832,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_door_top",
+    "alias": "tessera:italian_door_top",
     "id": 910,
     "texture": {
       "pos_y": "door\\italian_0_0.png",
@@ -858,7 +858,7 @@
     }
   },
   {
-    "alias": "xbuilders:jungle_2_door_top",
+    "alias": "tessera:jungle_2_door_top",
     "id": 911,
     "texture": {
       "pos_y": "door\\jungle 2_0_0.png",
@@ -884,7 +884,7 @@
     }
   },
   {
-    "alias": "xbuilders:jungle_door_top",
+    "alias": "tessera:jungle_door_top",
     "id": 912,
     "texture": {
       "pos_y": "door\\jungle_0_0.png",
@@ -910,7 +910,7 @@
     }
   },
   {
-    "alias": "xbuilders:oak_2_door_top",
+    "alias": "tessera:oak_2_door_top",
     "id": 913,
     "texture": {
       "pos_y": "door\\oak 2_0_0.png",
@@ -936,7 +936,7 @@
     }
   },
   {
-    "alias": "xbuilders:oak_renaissance_door_top",
+    "alias": "tessera:oak_renaissance_door_top",
     "id": 914,
     "texture": {
       "pos_y": "door\\oak renaissance_0_0.png",
@@ -962,7 +962,7 @@
     }
   },
   {
-    "alias": "xbuilders:oak_door_top",
+    "alias": "tessera:oak_door_top",
     "id": 915,
     "texture": {
       "pos_y": "door\\oak_0_0.png",
@@ -988,7 +988,7 @@
     }
   },
   {
-    "alias": "xbuilders:oval_bamboo_door_top",
+    "alias": "tessera:oval_bamboo_door_top",
     "id": 916,
     "texture": {
       "pos_y": "door\\oval bamboo_0_0.png",
@@ -1014,7 +1014,7 @@
     }
   },
   {
-    "alias": "xbuilders:oval_blue_door_top",
+    "alias": "tessera:oval_blue_door_top",
     "id": 917,
     "texture": {
       "pos_y": "door\\oval blue_0_0.png",
@@ -1040,7 +1040,7 @@
     }
   },
   {
-    "alias": "xbuilders:oval_green_door_top",
+    "alias": "tessera:oval_green_door_top",
     "id": 918,
     "texture": {
       "pos_y": "door\\oval green_0_0.png",
@@ -1066,7 +1066,7 @@
     }
   },
   {
-    "alias": "xbuilders:oval_magenta_door_top",
+    "alias": "tessera:oval_magenta_door_top",
     "id": 919,
     "texture": {
       "pos_y": "door\\oval magenta_0_0.png",
@@ -1092,7 +1092,7 @@
     }
   },
   {
-    "alias": "xbuilders:oval_door_top",
+    "alias": "tessera:oval_door_top",
     "id": 920,
     "texture": {
       "pos_y": "door\\oval_0_0.png",
@@ -1118,7 +1118,7 @@
     }
   },
   {
-    "alias": "xbuilders:party_blue_door_top",
+    "alias": "tessera:party_blue_door_top",
     "id": 921,
     "texture": {
       "pos_y": "door\\party blue_0_0.png",
@@ -1144,7 +1144,7 @@
     }
   },
   {
-    "alias": "xbuilders:party_green_door_top",
+    "alias": "tessera:party_green_door_top",
     "id": 922,
     "texture": {
       "pos_y": "door\\party green_0_0.png",
@@ -1170,7 +1170,7 @@
     }
   },
   {
-    "alias": "xbuilders:party_magenta_door_top",
+    "alias": "tessera:party_magenta_door_top",
     "id": 923,
     "texture": {
       "pos_y": "door\\party magenta_0_0.png",
@@ -1196,7 +1196,7 @@
     }
   },
   {
-    "alias": "xbuilders:party_purple_door_top",
+    "alias": "tessera:party_purple_door_top",
     "id": 924,
     "texture": {
       "pos_y": "door\\party purple_0_0.png",
@@ -1222,7 +1222,7 @@
     }
   },
   {
-    "alias": "xbuilders:party_red_door_top",
+    "alias": "tessera:party_red_door_top",
     "id": 925,
     "texture": {
       "pos_y": "door\\party red_0_0.png",
@@ -1248,7 +1248,7 @@
     }
   },
   {
-    "alias": "xbuilders:party_yellow_door_top",
+    "alias": "tessera:party_yellow_door_top",
     "id": 926,
     "texture": {
       "pos_y": "door\\party yellow_0_0.png",
@@ -1274,7 +1274,7 @@
     }
   },
   {
-    "alias": "xbuilders:red_door_top",
+    "alias": "tessera:red_door_top",
     "id": 927,
     "texture": {
       "pos_y": "door\\red_0_0.png",
@@ -1300,7 +1300,7 @@
     }
   },
   {
-    "alias": "xbuilders:spruce_2_door_top",
+    "alias": "tessera:spruce_2_door_top",
     "id": 928,
     "texture": {
       "pos_y": "door\\spruce 2_0_0.png",
@@ -1326,7 +1326,7 @@
     }
   },
   {
-    "alias": "xbuilders:spruce_door_top",
+    "alias": "tessera:spruce_door_top",
     "id": 929,
     "texture": {
       "pos_y": "door\\spruce_0_0.png",
@@ -1352,7 +1352,7 @@
     }
   },
   {
-    "alias": "xbuilders:steel_door_top",
+    "alias": "tessera:steel_door_top",
     "id": 930,
     "texture": {
       "pos_y": "door\\steel_0_0.png",
@@ -1378,7 +1378,7 @@
     }
   },
   {
-    "alias": "xbuilders:warped_door_top",
+    "alias": "tessera:warped_door_top",
     "id": 931,
     "texture": {
       "pos_y": "door\\warped_0_0.png",
@@ -1404,7 +1404,7 @@
     }
   },
   {
-    "alias": "xbuilders:web_door_top",
+    "alias": "tessera:web_door_top",
     "id": 932,
     "texture": {
       "pos_y": "door\\web_0_0.png",
@@ -1430,7 +1430,7 @@
     }
   },
   {
-    "alias": "xbuilders:white_1_door_top",
+    "alias": "tessera:white_1_door_top",
     "id": 933,
     "texture": {
       "pos_y": "door\\white 1_0_0.png",
@@ -1456,7 +1456,7 @@
     }
   },
   {
-    "alias": "xbuilders:white_2_control_panel_door_top",
+    "alias": "tessera:white_2_control_panel_door_top",
     "id": 934,
     "texture": {
       "pos_y": "door\\white 2 control-panel_0_0.png",
@@ -1482,7 +1482,7 @@
     }
   },
   {
-    "alias": "xbuilders:white_2_door_top",
+    "alias": "tessera:white_2_door_top",
     "id": 935,
     "texture": {
       "pos_y": "door\\white 2_0_0.png",
@@ -1508,7 +1508,7 @@
     }
   },
   {
-    "alias": "xbuilders:white_door_top",
+    "alias": "tessera:white_door_top",
     "id": 936,
     "texture": {
       "pos_y": "door\\white_0_0.png",
@@ -1534,7 +1534,7 @@
     }
   },
   {
-    "alias": "xbuilders:acacia_door_2",
+    "alias": "tessera:acacia_door_2",
     "id": 937,
     "texture": {
       "pos_y": "door\\acacia2_0_1.png",
@@ -1560,7 +1560,7 @@
     }
   },
   {
-    "alias": "xbuilders:acacia_door",
+    "alias": "tessera:acacia_door",
     "id": 938,
     "texture": {
       "pos_y": "door\\acacia_0_1.png",
@@ -1586,7 +1586,7 @@
     }
   },
   {
-    "alias": "xbuilders:bamboo_2_door",
+    "alias": "tessera:bamboo_2_door",
     "id": 939,
     "texture": {
       "pos_y": "door\\bamboo 2_0_1.png",
@@ -1612,7 +1612,7 @@
     }
   },
   {
-    "alias": "xbuilders:bamboo_door",
+    "alias": "tessera:bamboo_door",
     "id": 940,
     "texture": {
       "pos_y": "door\\bamboo_0_1.png",
@@ -1638,7 +1638,7 @@
     }
   },
   {
-    "alias": "xbuilders:birch_door",
+    "alias": "tessera:birch_door",
     "id": 941,
     "texture": {
       "pos_y": "door\\birch_0_1.png",
@@ -1664,7 +1664,7 @@
     }
   },
   {
-    "alias": "xbuilders:cladded_blue_door",
+    "alias": "tessera:cladded_blue_door",
     "id": 942,
     "texture": {
       "pos_y": "door\\cladded blue_0_1.png",
@@ -1690,7 +1690,7 @@
     }
   },
   {
-    "alias": "xbuilders:cladded_green_door",
+    "alias": "tessera:cladded_green_door",
     "id": 943,
     "texture": {
       "pos_y": "door\\cladded green_0_1.png",
@@ -1716,7 +1716,7 @@
     }
   },
   {
-    "alias": "xbuilders:cladded_magenta_door",
+    "alias": "tessera:cladded_magenta_door",
     "id": 944,
     "texture": {
       "pos_y": "door\\cladded magenta_0_1.png",
@@ -1742,7 +1742,7 @@
     }
   },
   {
-    "alias": "xbuilders:cladded_door",
+    "alias": "tessera:cladded_door",
     "id": 945,
     "texture": {
       "pos_y": "door\\cladded_0_1.png",
@@ -1768,7 +1768,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_bamboo_windows_door",
+    "alias": "tessera:french_bamboo_windows_door",
     "id": 946,
     "texture": {
       "pos_y": "door\\french bamboo windows_0_1.png",
@@ -1794,7 +1794,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_bamboo_door",
+    "alias": "tessera:french_bamboo_door",
     "id": 947,
     "texture": {
       "pos_y": "door\\french bamboo_0_1.png",
@@ -1820,7 +1820,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_blue_windows_door",
+    "alias": "tessera:french_blue_windows_door",
     "id": 948,
     "texture": {
       "pos_y": "door\\french blue windows_0_1.png",
@@ -1846,7 +1846,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_blue_door",
+    "alias": "tessera:french_blue_door",
     "id": 949,
     "texture": {
       "pos_y": "door\\french blue_0_1.png",
@@ -1872,7 +1872,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_green_windows_door",
+    "alias": "tessera:french_green_windows_door",
     "id": 950,
     "texture": {
       "pos_y": "door\\french green windows_0_1.png",
@@ -1898,7 +1898,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_green_door",
+    "alias": "tessera:french_green_door",
     "id": 951,
     "texture": {
       "pos_y": "door\\french green_0_1.png",
@@ -1924,7 +1924,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_magenta_windows_door",
+    "alias": "tessera:french_magenta_windows_door",
     "id": 952,
     "texture": {
       "pos_y": "door\\french magenta windows_0_1.png",
@@ -1950,7 +1950,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_magenta_door",
+    "alias": "tessera:french_magenta_door",
     "id": 953,
     "texture": {
       "pos_y": "door\\french magenta_0_1.png",
@@ -1976,7 +1976,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_windows_door",
+    "alias": "tessera:french_windows_door",
     "id": 954,
     "texture": {
       "pos_y": "door\\french windows_0_1.png",
@@ -2002,7 +2002,7 @@
     }
   },
   {
-    "alias": "xbuilders:french_door",
+    "alias": "tessera:french_door",
     "id": 955,
     "texture": {
       "pos_y": "door\\french_0_1.png",
@@ -2028,7 +2028,7 @@
     }
   },
   {
-    "alias": "xbuilders:glass_door",
+    "alias": "tessera:glass_door",
     "id": 956,
     "texture": {
       "pos_y": "door\\glass_0_1.png",
@@ -2054,7 +2054,7 @@
     }
   },
   {
-    "alias": "xbuilders:gray_space_door",
+    "alias": "tessera:gray_space_door",
     "id": 957,
     "texture": {
       "pos_y": "door\\gray 1_0_1.png",
@@ -2080,7 +2080,7 @@
     }
   },
   {
-    "alias": "xbuilders:gray_space_control_panel_door",
+    "alias": "tessera:gray_space_control_panel_door",
     "id": 958,
     "texture": {
       "pos_y": "door\\gray 2 control-panel_0_1.png",
@@ -2106,7 +2106,7 @@
     }
   },
   {
-    "alias": "xbuilders:gray_space_door_2",
+    "alias": "tessera:gray_space_door_2",
     "id": 959,
     "texture": {
       "pos_y": "door\\gray 2_0_1.png",
@@ -2132,7 +2132,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_bamboo_windows_door",
+    "alias": "tessera:italian_bamboo_windows_door",
     "id": 960,
     "texture": {
       "pos_y": "door\\italian bamboo windows_0_1.png",
@@ -2158,7 +2158,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_bamboo_door",
+    "alias": "tessera:italian_bamboo_door",
     "id": 961,
     "texture": {
       "pos_y": "door\\italian bamboo_0_1.png",
@@ -2184,7 +2184,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_blue_windows_door",
+    "alias": "tessera:italian_blue_windows_door",
     "id": 962,
     "texture": {
       "pos_y": "door\\italian blue windows_0_1.png",
@@ -2210,7 +2210,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_blue_door",
+    "alias": "tessera:italian_blue_door",
     "id": 963,
     "texture": {
       "pos_y": "door\\italian blue_0_1.png",
@@ -2236,7 +2236,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_green_windows_door",
+    "alias": "tessera:italian_green_windows_door",
     "id": 964,
     "texture": {
       "pos_y": "door\\italian green windows_0_1.png",
@@ -2262,7 +2262,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_green_door",
+    "alias": "tessera:italian_green_door",
     "id": 965,
     "texture": {
       "pos_y": "door\\italian green_0_1.png",
@@ -2288,7 +2288,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_magenta_windows_door",
+    "alias": "tessera:italian_magenta_windows_door",
     "id": 966,
     "texture": {
       "pos_y": "door\\italian magenta windows_0_1.png",
@@ -2314,7 +2314,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_magenta_door",
+    "alias": "tessera:italian_magenta_door",
     "id": 967,
     "texture": {
       "pos_y": "door\\italian magenta_0_1.png",
@@ -2340,7 +2340,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_windows_door",
+    "alias": "tessera:italian_windows_door",
     "id": 968,
     "texture": {
       "pos_y": "door\\italian windows_0_1.png",
@@ -2366,7 +2366,7 @@
     }
   },
   {
-    "alias": "xbuilders:italian_door",
+    "alias": "tessera:italian_door",
     "id": 969,
     "texture": {
       "pos_y": "door\\italian_0_1.png",
@@ -2392,7 +2392,7 @@
     }
   },
   {
-    "alias": "xbuilders:jungle_2_door",
+    "alias": "tessera:jungle_2_door",
     "id": 970,
     "texture": {
       "pos_y": "door\\jungle 2_0_1.png",
@@ -2418,7 +2418,7 @@
     }
   },
   {
-    "alias": "xbuilders:jungle_door",
+    "alias": "tessera:jungle_door",
     "id": 971,
     "texture": {
       "pos_y": "door\\jungle_0_1.png",
@@ -2444,7 +2444,7 @@
     }
   },
   {
-    "alias": "xbuilders:oak_2_door",
+    "alias": "tessera:oak_2_door",
     "id": 972,
     "texture": {
       "pos_y": "door\\oak 2_0_1.png",
@@ -2470,7 +2470,7 @@
     }
   },
   {
-    "alias": "xbuilders:oak_renaissance_door",
+    "alias": "tessera:oak_renaissance_door",
     "id": 973,
     "texture": {
       "pos_y": "door\\oak renaissance_0_1.png",
@@ -2496,7 +2496,7 @@
     }
   },
   {
-    "alias": "xbuilders:oak_door",
+    "alias": "tessera:oak_door",
     "id": 974,
     "texture": {
       "pos_y": "door\\oak_0_1.png",
@@ -2522,7 +2522,7 @@
     }
   },
   {
-    "alias": "xbuilders:oval_bamboo_door",
+    "alias": "tessera:oval_bamboo_door",
     "id": 975,
     "texture": {
       "pos_y": "door\\oval bamboo_0_1.png",
@@ -2548,7 +2548,7 @@
     }
   },
   {
-    "alias": "xbuilders:oval_blue_door",
+    "alias": "tessera:oval_blue_door",
     "id": 976,
     "texture": {
       "pos_y": "door\\oval blue_0_1.png",
@@ -2574,7 +2574,7 @@
     }
   },
   {
-    "alias": "xbuilders:oval_green_door",
+    "alias": "tessera:oval_green_door",
     "id": 977,
     "texture": {
       "pos_y": "door\\oval green_0_1.png",
@@ -2600,7 +2600,7 @@
     }
   },
   {
-    "alias": "xbuilders:oval_magenta_door",
+    "alias": "tessera:oval_magenta_door",
     "id": 978,
     "texture": {
       "pos_y": "door\\oval magenta_0_1.png",
@@ -2626,7 +2626,7 @@
     }
   },
   {
-    "alias": "xbuilders:oval_door",
+    "alias": "tessera:oval_door",
     "id": 979,
     "texture": {
       "pos_y": "door\\oval_0_1.png",
@@ -2652,7 +2652,7 @@
     }
   },
   {
-    "alias": "xbuilders:party_blue_door",
+    "alias": "tessera:party_blue_door",
     "id": 980,
     "texture": {
       "pos_y": "door\\party blue_0_1.png",
@@ -2678,7 +2678,7 @@
     }
   },
   {
-    "alias": "xbuilders:party_green_door",
+    "alias": "tessera:party_green_door",
     "id": 981,
     "texture": {
       "pos_y": "door\\party green_0_1.png",
@@ -2704,7 +2704,7 @@
     }
   },
   {
-    "alias": "xbuilders:party_magenta_door",
+    "alias": "tessera:party_magenta_door",
     "id": 982,
     "texture": {
       "pos_y": "door\\party magenta_0_1.png",
@@ -2730,7 +2730,7 @@
     }
   },
   {
-    "alias": "xbuilders:party_purple_door",
+    "alias": "tessera:party_purple_door",
     "id": 983,
     "texture": {
       "pos_y": "door\\party purple_0_1.png",
@@ -2756,7 +2756,7 @@
     }
   },
   {
-    "alias": "xbuilders:party_red_door",
+    "alias": "tessera:party_red_door",
     "id": 984,
     "texture": {
       "pos_y": "door\\party red_0_1.png",
@@ -2782,7 +2782,7 @@
     }
   },
   {
-    "alias": "xbuilders:party_yellow_door",
+    "alias": "tessera:party_yellow_door",
     "id": 985,
     "texture": {
       "pos_y": "door\\party yellow_0_1.png",
@@ -2808,7 +2808,7 @@
     }
   },
   {
-    "alias": "xbuilders:red_door",
+    "alias": "tessera:red_door",
     "id": 986,
     "texture": {
       "pos_y": "door\\red_0_1.png",
@@ -2834,7 +2834,7 @@
     }
   },
   {
-    "alias": "xbuilders:spruce_2_door",
+    "alias": "tessera:spruce_2_door",
     "id": 987,
     "texture": {
       "pos_y": "door\\spruce 2_0_1.png",
@@ -2860,7 +2860,7 @@
     }
   },
   {
-    "alias": "xbuilders:spruce_door",
+    "alias": "tessera:spruce_door",
     "id": 988,
     "texture": {
       "pos_y": "door\\spruce_0_1.png",
@@ -2886,7 +2886,7 @@
     }
   },
   {
-    "alias": "xbuilders:steel_door",
+    "alias": "tessera:steel_door",
     "id": 989,
     "texture": {
       "pos_y": "door\\steel_0_1.png",
@@ -2912,7 +2912,7 @@
     }
   },
   {
-    "alias": "xbuilders:warped_door",
+    "alias": "tessera:warped_door",
     "id": 990,
     "texture": {
       "pos_y": "door\\warped_0_1.png",
@@ -2938,7 +2938,7 @@
     }
   },
   {
-    "alias": "xbuilders:web_door",
+    "alias": "tessera:web_door",
     "id": 991,
     "texture": {
       "pos_y": "door\\web_0_1.png",
@@ -2964,7 +2964,7 @@
     }
   },
   {
-    "alias": "xbuilders:white_space_door",
+    "alias": "tessera:white_space_door",
     "id": 992,
     "texture": {
       "pos_y": "door\\white 1_0_1.png",
@@ -2990,7 +2990,7 @@
     }
   },
   {
-    "alias": "xbuilders:white_space_control_panel_door",
+    "alias": "tessera:white_space_control_panel_door",
     "id": 993,
     "texture": {
       "pos_y": "door\\white 2 control-panel_0_1.png",
@@ -3016,7 +3016,7 @@
     }
   },
   {
-    "alias": "xbuilders:white_space_door_2",
+    "alias": "tessera:white_space_door_2",
     "id": 994,
     "texture": {
       "pos_y": "door\\white 2_0_1.png",
@@ -3042,7 +3042,7 @@
     }
   },
   {
-    "alias": "xbuilders:white_door",
+    "alias": "tessera:white_door",
     "id": 995,
     "texture": {
       "pos_y": "door\\white_0_1.png",

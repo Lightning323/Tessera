@@ -7,165 +7,165 @@
       "#wood",
       "#wood"
     ],
-    "output": "xbuilders:crafting_table",
+    "output": "tessera:crafting_table",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:sand",
-      "xbuilders:sand",
-      "xbuilders:sand",
-      "xbuilders:sand",
-      "xbuilders:gravel",
-      "xbuilders:gravel",
-      "xbuilders:gravel",
-      "xbuilders:gravel"
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:gravel",
+      "tessera:gravel",
+      "tessera:gravel",
+      "tessera:gravel"
     ],
-    "output": "xbuilders:concrete",
+    "output": "tessera:concrete",
     "amount": 32
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:honeycomb",
-      "xbuilders:honeycomb",
-      "xbuilders:honeycomb",
-      "xbuilders:honeycomb",
-      "xbuilders:honeycomb",
-      "xbuilders:honeycomb",
-      "xbuilders:honeycomb",
-      "xbuilders:honeycomb",
-      "xbuilders:honeycomb"
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb"
     ],
-    "output": "xbuilders:honeycomb_block",
+    "output": "tessera:honeycomb_block",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:sea_grass",
-      "xbuilders:sea_grass",
-      "xbuilders:sea_grass"
+      "tessera:sea_grass",
+      "tessera:sea_grass",
+      "tessera:sea_grass"
     ],
-    "output": "xbuilders:lily_pad",
+    "output": "tessera:lily_pad",
     "amount": 3
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:honeycomb_block"
+      "tessera:honeycomb_block"
     ],
-    "output": "xbuilders:honeycomb",
+    "output": "tessera:honeycomb",
     "amount": 9
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:charcoal",
-      "xbuilders:charcoal",
-      "xbuilders:charcoal",
-      "xbuilders:concrete",
-      "xbuilders:concrete",
-      "xbuilders:concrete",
-      "xbuilders:concrete",
-      "xbuilders:concrete",
-      "xbuilders:concrete"
+      "tessera:charcoal",
+      "tessera:charcoal",
+      "tessera:charcoal",
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:concrete"
     ],
-    "output": "xbuilders:minecart_road_block",
+    "output": "tessera:minecart_road_block",
     "amount": 32
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:torch",
-      "xbuilders:torch",
+      "tessera:torch",
+      "tessera:torch",
       null,
-      "xbuilders:torch",
-      "xbuilders:torch",
+      "tessera:torch",
+      "tessera:torch",
       null,
       null,
       null,
       null
     ],
-    "output": "xbuilders:electric_light",
+    "output": "tessera:electric_light",
     "amount": 4
   },
 
   {
     "shapeless": true,
     "input": [
-      "xbuilders:electric_light"
+      "tessera:electric_light"
     ],
-    "output": "xbuilders:edison_light",
+    "output": "tessera:edison_light",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:edison_light"
+      "tessera:edison_light"
     ],
-    "output": "xbuilders:sea_light",
+    "output": "tessera:sea_light",
     "amount": 1
   },
   {
     "shapeless": true,
     "input": [
-      "xbuilders:sea_light"
+      "tessera:sea_light"
     ],
-    "output": "xbuilders:electric_light",
+    "output": "tessera:electric_light",
     "amount": 1
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:white_dye",
-      "xbuilders:white_dye",
-      "xbuilders:white_dye",
-      "xbuilders:charcoal"
+      "tessera:white_dye",
+      "tessera:white_dye",
+      "tessera:white_dye",
+      "tessera:charcoal"
     ],
-    "output": "xbuilders:road_markings",
+    "output": "tessera:road_markings",
     "amount": 16
   },
   {
     "shapeless": false,
     "input": [
-      "xbuilders:yellow_dye",
-      "xbuilders:yellow_dye",
-      "xbuilders:yellow_dye",
-      "xbuilders:charcoal"
+      "tessera:yellow_dye",
+      "tessera:yellow_dye",
+      "tessera:yellow_dye",
+      "tessera:charcoal"
     ],
-    "output": "xbuilders:crosswalk_paint",
+    "output": "tessera:crosswalk_paint",
     "amount": 16
   },
   {
     "input": [
       null,
-      "xbuilders:track",
+      "tessera:track",
       null,
-      "xbuilders:track",
+      "tessera:track",
       null,
-      "xbuilders:track",
+      "tessera:track",
       null,
-      "xbuilders:track",
+      "tessera:track",
       null
     ],
-    "output": "xbuilders:crosstrack",
+    "output": "tessera:crosstrack",
     "amount": 8
   },
   {
     "input": [
-      "xbuilders:track",
+      "tessera:track",
       null,
-      "xbuilders:track",
+      "tessera:track",
       null,
-      "xbuilders:track",
+      "tessera:track",
       null,
       null,
-      "xbuilders:track",
+      "tessera:track",
       null
     ],
-    "output": "xbuilders:merge_track",
+    "output": "tessera:merge_track",
     "amount": 8
   }
 ]

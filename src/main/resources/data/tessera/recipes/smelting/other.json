@@ -1,42 +1,42 @@
 [
   {
     "input": "#wood",
-    "output": "xbuilders:charcoal",
+    "output": "tessera:charcoal",
     "amount": 1
   },
   {
-    "input": "xbuilders:bamboo_block",
-    "output": "xbuilders:bamboo_wood",
+    "input": "tessera:bamboo_block",
+    "output": "tessera:bamboo_wood",
     "amount": 1
   },
   {
-    "input": "xbuilders:diorite",
-    "output": "xbuilders:polished_diorite",
+    "input": "tessera:diorite",
+    "output": "tessera:polished_diorite",
     "amount": 1
   },
   {
-    "input": "xbuilders:andesite",
-    "output": "xbuilders:polished_andesite",
+    "input": "tessera:andesite",
+    "output": "tessera:polished_andesite",
     "amount": 1
   },
   {
-    "input": "xbuilders:sand",
-    "output": "xbuilders:glass",
+    "input": "tessera:sand",
+    "output": "tessera:glass",
     "amount": 1
   },
   {
-    "input": "xbuilders:red_sand",
-    "output": "xbuilders:glass",
+    "input": "tessera:red_sand",
+    "output": "tessera:glass",
     "amount": 1
   },
   {
-    "input": "xbuilders:apple",
-    "output": "xbuilders:animal_apple",
+    "input": "tessera:apple",
+    "output": "tessera:animal_apple",
     "amount": 2
   },
   {
-    "input": "xbuilders:granite",
-    "output": "xbuilders:gunpowder",
+    "input": "tessera:granite",
+    "output": "tessera:gunpowder",
     "amount": 1
   }
 ]

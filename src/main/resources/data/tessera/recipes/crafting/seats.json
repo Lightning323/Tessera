@@ -8,11 +8,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_yellow_slab",
-      "xbuilders:wool_slab",
-      "xbuilders:wool_yellow_slab"
+      "tessera:wool_yellow_slab",
+      "tessera:wool_slab",
+      "tessera:wool_yellow_slab"
     ],
-    "output": "xbuilders:gold_seat",
+    "output": "tessera:gold_seat",
     "amount": 6
   },
   {
@@ -24,11 +24,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_yellow_slab",
-      "xbuilders:wool_brown_slab",
-      "xbuilders:wool_yellow_slab"
+      "tessera:wool_yellow_slab",
+      "tessera:wool_brown_slab",
+      "tessera:wool_yellow_slab"
     ],
-    "output": "xbuilders:tan_seat",
+    "output": "tessera:tan_seat",
     "amount": 6
   },
   {
@@ -40,11 +40,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_brown_slab",
-      "xbuilders:wool_brown_slab",
-      "xbuilders:wool_brown_slab"
+      "tessera:wool_brown_slab",
+      "tessera:wool_brown_slab",
+      "tessera:wool_brown_slab"
     ],
-    "output": "xbuilders:brown_seat",
+    "output": "tessera:brown_seat",
     "amount": 6
   },
   {
@@ -56,11 +56,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_turquoise_slab",
-      "xbuilders:wool_turquoise_slab",
-      "xbuilders:wool_turquoise_slab"
+      "tessera:wool_turquoise_slab",
+      "tessera:wool_turquoise_slab",
+      "tessera:wool_turquoise_slab"
     ],
-    "output": "xbuilders:cyan_seat",
+    "output": "tessera:cyan_seat",
     "amount": 6
   },
   {
@@ -72,11 +72,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_gray_slab",
-      "xbuilders:wool_gray_slab",
-      "xbuilders:wool_gray_slab"
+      "tessera:wool_gray_slab",
+      "tessera:wool_gray_slab",
+      "tessera:wool_gray_slab"
     ],
-    "output": "xbuilders:gray_seat",
+    "output": "tessera:gray_seat",
     "amount": 6
   },
   {
@@ -88,11 +88,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_dark_green_slab",
-      "xbuilders:wool_dark_green_slab",
-      "xbuilders:wool_dark_green_slab"
+      "tessera:wool_dark_green_slab",
+      "tessera:wool_dark_green_slab",
+      "tessera:wool_dark_green_slab"
     ],
-    "output": "xbuilders:green_seat",
+    "output": "tessera:green_seat",
     "amount": 6
   },
   {
@@ -102,13 +102,13 @@
       null,
       null,
       null,
-      "xbuilders:wool_sky_blue_slab",
+      "tessera:wool_sky_blue_slab",
       null,
-      "xbuilders:wool_deep_blue_slab",
-      "xbuilders:wool_sky_blue_slab",
-      "xbuilders:wool_deep_blue_slab"
+      "tessera:wool_deep_blue_slab",
+      "tessera:wool_sky_blue_slab",
+      "tessera:wool_deep_blue_slab"
     ],
-    "output": "xbuilders:drivers_seat",
+    "output": "tessera:drivers_seat",
     "amount": 1
   },
   {
@@ -120,11 +120,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_deep_blue_slab",
-      "xbuilders:wool_deep_blue_slab",
-      "xbuilders:wool_deep_blue_slab"
+      "tessera:wool_deep_blue_slab",
+      "tessera:wool_deep_blue_slab",
+      "tessera:wool_deep_blue_slab"
     ],
-    "output": "xbuilders:blue_seat",
+    "output": "tessera:blue_seat",
     "amount": 6
   },
   {
@@ -136,11 +136,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_slab",
-      "xbuilders:wool_gray_slab",
-      "xbuilders:wool_slab"
+      "tessera:wool_slab",
+      "tessera:wool_gray_slab",
+      "tessera:wool_slab"
     ],
-    "output": "xbuilders:light_gray_seat",
+    "output": "tessera:light_gray_seat",
     "amount": 6
   },
   {
@@ -152,11 +152,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_green_slab",
-      "xbuilders:wool_green_slab",
-      "xbuilders:wool_green_slab"
+      "tessera:wool_green_slab",
+      "tessera:wool_green_slab",
+      "tessera:wool_green_slab"
     ],
-    "output": "xbuilders:light_green_seat",
+    "output": "tessera:light_green_seat",
     "amount": 6
   },
   {
@@ -168,11 +168,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_magenta_slab",
-      "xbuilders:wool_magenta_slab",
-      "xbuilders:wool_magenta_slab"
+      "tessera:wool_magenta_slab",
+      "tessera:wool_magenta_slab",
+      "tessera:wool_magenta_slab"
     ],
-    "output": "xbuilders:magenta_seat",
+    "output": "tessera:magenta_seat",
     "amount": 6
   },
   {
@@ -184,11 +184,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_orange_slab",
-      "xbuilders:wool_orange_slab",
-      "xbuilders:wool_orange_slab"
+      "tessera:wool_orange_slab",
+      "tessera:wool_orange_slab",
+      "tessera:wool_orange_slab"
     ],
-    "output": "xbuilders:orange_seat",
+    "output": "tessera:orange_seat",
     "amount": 6
   },
   {
@@ -200,11 +200,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_magenta_slab",
-      "xbuilders:wool_slab",
-      "xbuilders:wool_magenta_slab"
+      "tessera:wool_magenta_slab",
+      "tessera:wool_slab",
+      "tessera:wool_magenta_slab"
     ],
-    "output": "xbuilders:pink_seat",
+    "output": "tessera:pink_seat",
     "amount": 6
   },
   {
@@ -216,11 +216,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_purple_slab",
-      "xbuilders:wool_purple_slab",
-      "xbuilders:wool_purple_slab"
+      "tessera:wool_purple_slab",
+      "tessera:wool_purple_slab",
+      "tessera:wool_purple_slab"
     ],
-    "output": "xbuilders:purple_seat",
+    "output": "tessera:purple_seat",
     "amount": 6
   },
   {
@@ -232,11 +232,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_red_slab",
-      "xbuilders:wool_red_slab",
-      "xbuilders:wool_red_slab"
+      "tessera:wool_red_slab",
+      "tessera:wool_red_slab",
+      "tessera:wool_red_slab"
     ],
-    "output": "xbuilders:red_seat",
+    "output": "tessera:red_seat",
     "amount": 6
   },
   {
@@ -248,11 +248,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_slab",
-      "xbuilders:wool_slab",
-      "xbuilders:wool_slab"
+      "tessera:wool_slab",
+      "tessera:wool_slab",
+      "tessera:wool_slab"
     ],
-    "output": "xbuilders:white_seat",
+    "output": "tessera:white_seat",
     "amount": 6
   },
   {
@@ -264,11 +264,11 @@
       null,
       null,
       null,
-      "xbuilders:wool_yellow_slab",
-      "xbuilders:wool_yellow_slab",
-      "xbuilders:wool_yellow_slab"
+      "tessera:wool_yellow_slab",
+      "tessera:wool_yellow_slab",
+      "tessera:wool_yellow_slab"
     ],
-    "output": "xbuilders:yellow_seat",
+    "output": "tessera:yellow_seat",
     "amount": 6
   }
 ]
