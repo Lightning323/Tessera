@@ -16,7 +16,6 @@ import org.joml.Vector3i;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 import static com.xbuilders.Main.game;
@@ -288,7 +287,7 @@ public abstract class World<T extends Chunk> {
 //        try {
 //            getData().save();
 //        } catch (IOException ex) {
-//            LOGGER.log(Level.INFO, "World \"" + getData().getName() + "\" could not be saved", ex);
+//            LOGGER.info( "World \"" + getData().getName() + "\" could not be saved", ex);
 //        }
     }
 
@@ -307,7 +306,7 @@ public abstract class World<T extends Chunk> {
         this.data = data;
         this.terrain = game.getTerrainFromInfo(data);
         if (terrain == null) {
-            LOGGER.log(Level.SEVERE, "Terrain not found");
+            LOGGER.error("Terrain not found");
         } else System.out.println("Terrain: " + this.terrain);
     }
 }

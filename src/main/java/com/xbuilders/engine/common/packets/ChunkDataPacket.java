@@ -16,7 +16,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.logging.Level;
 
 /**
  * This packet is all about sending chunks to the client
@@ -100,7 +99,7 @@ public class ChunkDataPacket extends Packet {
             chunk.markAsModified();
             chunk.progressGenState(ClientChunk.GEN_VOXELS_GENERATED);
         } catch (IOException | ChunkReadingException e) {
-            Main.LOGGER.log(Level.WARNING, "Failed to read chunk data", e);
+            Main.LOGGER.warn("Failed to read chunk data", e);
         }
     }
 

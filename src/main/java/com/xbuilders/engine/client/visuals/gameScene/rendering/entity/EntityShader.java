@@ -13,7 +13,6 @@ import org.joml.Matrix4f;
 import org.joml.Vector3f;
 
 import java.io.IOException;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -50,7 +49,7 @@ public class EntityShader extends Shader {
                     ResourceUtils.localFile("/res/shaders/entityShader/default.vs"),
                     ResourceUtils.localFile("/res/shaders/entityShader/default.fs"));
         } catch (IOException e) {
-            LOGGER.log(Level.INFO,"error", e);
+            LOGGER.info("error", e);
         }
     }
 

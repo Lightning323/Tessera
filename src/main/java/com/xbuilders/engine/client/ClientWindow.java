@@ -28,7 +28,6 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -210,7 +209,7 @@ public class ClientWindow extends NKWindow {
                 saveFile.getParentFile().mkdirs();
                 ImageIO.write(readPixelsOfWindow(), "png", saveFile);
             } catch (IOException e) {
-                LOGGER.log(Level.INFO, "Could not save screenshot", e);
+                LOGGER.info("Could not save screenshot", e);
             }
             screenShotInitialized = false;
             screenshot = false;

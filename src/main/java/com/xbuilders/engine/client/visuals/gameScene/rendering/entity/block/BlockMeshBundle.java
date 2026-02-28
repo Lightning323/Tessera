@@ -13,7 +13,6 @@ import com.xbuilders.engine.common.world.chunk.ChunkVoxels;
 import org.joml.Vector3i;
 import org.lwjgl.system.MemoryStack;
 
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -64,7 +63,7 @@ public class BlockMeshBundle {
                 transBuffer.makeVertexSet();
             }
         } catch (Exception e) {
-            LOGGER.log(Level.INFO,"error", e);
+            LOGGER.info("error", e);
         }
     }
 

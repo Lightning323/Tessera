@@ -16,7 +16,6 @@ import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
 import java.util.ArrayList;
-import java.util.logging.Level;
 
 import static com.xbuilders.window.utils.IOUtil.ioResourceToByteBuffer;
 import static org.lwjgl.nuklear.Nuklear.NK_UTF_INVALID;

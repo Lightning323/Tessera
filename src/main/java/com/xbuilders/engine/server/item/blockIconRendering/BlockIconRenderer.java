@@ -21,8 +21,6 @@ import com.xbuilders.window.utils.texture.TextureUtils;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import org.joml.Matrix4f;
 import org.joml.Vector3f;
@@ -150,7 +148,7 @@ public class BlockIconRenderer {
                 GLFW.glfwDestroyWindow(window1);
                 lock.unlock();
             } catch (Exception ex) {
-                Logger.getLogger(BlockIconRenderer.class.getName()).log(Level.SEVERE, null, ex);
+                com.xbuilders.Main.LOGGER.error("Unhandled exception in BlockIconRenderer", ex);
             }
         });
     }

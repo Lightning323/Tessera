@@ -14,7 +14,6 @@ import java.io.*;
 import java.nio.file.Files;
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.logging.Level;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
@@ -70,7 +69,7 @@ public class ChunkSavingLoadingUtils {
         try (FileOutputStream fos = new FileOutputStream(f)) {
             return writeChunk(chunk, fos);
         } catch (IOException e) {
-            LOGGER.log(Level.SEVERE, "Failed to write chunk to file", e);
+            LOGGER.error("Failed to write chunk to file", e);
             return false;
         }
     }
@@ -129,7 +128,7 @@ public class ChunkSavingLoadingUtils {
             out.close();
 
         } catch (Exception e) {
-            LOGGER.log(Level.INFO, "Error", e);
+            LOGGER.info("Error", e);
             return false;
         }
         // }
@@ -227,7 +226,7 @@ public class ChunkSavingLoadingUtils {
             File backupFile = backupFile(f);
 
             //Create the log
-            LOGGER.log(Level.WARNING, "Error occurred reading chunk: " + chunk +
+            LOGGER.warn( "Error occurred reading chunk: " + chunk +
                     " \nBackup File Exists: " + backupFile.exists() +
                     (hasDetectedIfFileWasReadCorrectly.get() ? " \nFile Read Correctly: " + fileReadCorrectly : ""), ex);
 
@@ -244,7 +243,7 @@ public class ChunkSavingLoadingUtils {
             File backupFile = backupFile(f);
 
             //Create the log
-            LOGGER.log(Level.WARNING, "Error occurred reading chunk: " + chunk +
+            LOGGER.warn( "Error occurred reading chunk: " + chunk +
                     " \nBackup File Exists: " + backupFile.exists() +
                     (hasDetectedIfFileWasReadCorrectly.get() ? " \nFile Read Correctly: " + fileReadCorrectly : ""), ex);
 

@@ -13,8 +13,6 @@ import java.util.HashMap;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class FakeChannel extends ChannelBase {
     private final FakeServer server;
@@ -62,11 +60,11 @@ public class FakeChannel extends ChannelBase {
                             client.receive(packet);
                         }
                     } catch (Exception e) {
-                        Main.LOGGER.log(Level.WARNING, "Failed to receive fake packet", e);
+                        Main.LOGGER.warn("Failed to receive fake packet", e);
                     }
                 }
             } catch (InterruptedException ignored) {
-                Logger.getLogger(FakeChannel.class.getName()).log(Level.SEVERE, "FakeChannel interrupted!", ignored);
+                com.xbuilders.Main.LOGGER.error("FakeChannel interrupted!", ignored);
             }
         });
         processingThread.start();

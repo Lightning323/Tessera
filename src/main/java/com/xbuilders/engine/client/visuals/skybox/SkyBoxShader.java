@@ -12,7 +12,6 @@ import com.xbuilders.window.render.Shader;
 import org.joml.Matrix4f;
 
 import java.io.IOException;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -34,7 +33,7 @@ import static com.xbuilders.Main.LOGGER;
                     ResourceUtils.localFile("/res/shaders/skybox/sky_shader.vs"),
                     ResourceUtils.localFile("/res/shaders/skybox/sky_shader.fs"));
         } catch (IOException e) {
-            LOGGER.log(Level.INFO,"error", e);
+            LOGGER.info("error", e);
         }
         uniform_cycle_value = getUniformLocation("cycle_value");
         uniform_projViewMatrix = getUniformLocation("projViewMatrix");

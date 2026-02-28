@@ -18,7 +18,6 @@ import com.xbuilders.engine.common.world.wcc.WCCi;
 import org.joml.Vector3i;
 import org.lwjgl.system.MemoryStack;
 
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 import static com.xbuilders.engine.common.math.MathUtils.positiveMod;
@@ -119,7 +118,7 @@ public class Chunk_NaiveMesher extends ChunkMesher<VertexSet> {
                                             neighbors, neighborData, lightNeghbors, chunk, x, y, z, isUsingGreedyMesher);
                                 }
                             } catch (Exception e) {
-                                LOGGER.log(Level.INFO,"error", e);
+                                LOGGER.info("error", e);
                             }
                         }
                     }

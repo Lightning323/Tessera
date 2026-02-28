@@ -20,7 +20,6 @@ import com.xbuilders.window.utils.texture.TextureUtils;
 
 import java.io.IOException;
 import java.util.Objects;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -104,7 +103,7 @@ public abstract class QuadPedalLandAnimal extends LandAnimal {
             this.saddle = ead.saddle;
             this.textures = ead.textures;
         } catch (IOException e) {
-            LOGGER.log(Level.INFO, "Error", e);
+            LOGGER.info("Error", e);
         }
 
         if (hasData) {

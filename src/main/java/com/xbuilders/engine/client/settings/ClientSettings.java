@@ -14,7 +14,6 @@ import java.io.File;
 import java.lang.reflect.Field;
 import java.nio.file.Files;
 import java.util.ArrayList;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 import static com.xbuilders.engine.client.settings.EngineSettingsUtils.gson;
@@ -82,7 +81,7 @@ public class ClientSettings {
             // Save to JSON
             Files.write(settingsFile.toPath(), gson.toJson(this).getBytes());
         } catch (Exception e) {
-            LOGGER.log(Level.INFO,"error", e);
+            LOGGER.info("error", e);
         }
     }
 

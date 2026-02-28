@@ -17,7 +17,6 @@ import com.xbuilders.engine.common.math.MathUtils;
 import org.joml.Vector3f;
 
 import java.io.IOException;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -76,7 +75,7 @@ public class ItemDrop extends Entity {
                 }
                 if (definitionData.stack == null) destroy();
             } catch (Exception e) {
-                LOGGER.log(Level.INFO,"error",e);
+                LOGGER.info("error", e);
             }
         }
     }

@@ -20,8 +20,6 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.nio.IntBuffer;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import static org.lwjgl.nuklear.Nuklear.*;
 import static org.lwjgl.opengl.GL11C.*;
@@ -175,7 +173,7 @@ public class TopMenu {
                 localClient.loadWorld(worlds.get(0), null);
             }
         } catch (IOException ex) {
-            Logger.getLogger(TopMenu.class.getName()).log(Level.SEVERE, null, ex);
+            com.xbuilders.Main.LOGGER.error("Unhandled exception in TopMenu", ex);
         }
 
     }

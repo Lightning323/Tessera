@@ -7,7 +7,6 @@ import com.xbuilders.engine.common.resource.ResourceUtils;
 import com.xbuilders.window.utils.texture.TextureUtils;
 
 import java.io.IOException;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -31,7 +30,7 @@ public class FoxSkin extends Skin {
                             ResourceUtils.resourceFile("skins\\fox\\" + texture + ".png"),
                     false).id;
         } catch (IOException e) {
-            LOGGER.log(Level.INFO, "Error", e);
+            LOGGER.info("Error", e);
         }
     }
 

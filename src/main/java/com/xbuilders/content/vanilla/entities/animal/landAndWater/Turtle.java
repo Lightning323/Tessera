@@ -20,7 +20,6 @@ import com.xbuilders.window.utils.texture.TextureUtils;
 
 import java.io.IOException;
 import java.util.Objects;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
@@ -75,7 +74,7 @@ public class Turtle extends LandAndWaterAnimal {
                 left_back_fin.loadFromOBJ(resourceLoader.getResourceAsStream("assets/xbuilders/entities/animal\\turtle\\left_back_fin.obj"));
                 right_back_fin.loadFromOBJ(resourceLoader.getResourceAsStream("assets/xbuilders/entities/animal\\turtle\\right_back_fin.obj"));
             } catch (IOException e) {
-                LOGGER.log(Level.INFO, "Error", e);
+                LOGGER.info("Error", e);
             }
         }
 

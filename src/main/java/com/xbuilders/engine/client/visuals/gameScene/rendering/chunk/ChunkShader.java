@@ -17,7 +17,6 @@ import org.joml.Vector4f;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.logging.Level;
 
 import static com.xbuilders.Main.LOGGER;
 
