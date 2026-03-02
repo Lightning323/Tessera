@@ -3,7 +3,7 @@ res/items/blocks/icons
 logs
 .idea/workspace.xml
 /.idea
-/out/
+/out
+/dist
 hs_err_pid*.log
 *.*~
-

@@ -19,7 +19,7 @@ public class Main {
 
 
     public static final String TITLE = "Tessera";
-    public static final String VERSION = "1.8.0";
+    public static final String VERSION = "1.0.0";
 
     private static Client localClient;
     public static TesseraGame game;

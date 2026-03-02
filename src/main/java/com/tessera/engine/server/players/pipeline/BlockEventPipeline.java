@@ -287,7 +287,7 @@ public class BlockEventPipeline {
                     }
                 });
 
-        if(elapsedMS>0)        System.out.println("Sunlight calculation finished for " + totalUpdates + " voxels in " + (elapsedMS ) + "ms");
+//        if(elapsedMS>0)        System.out.println("Sunlight calculation finished for " + totalUpdates + " voxels in " + (elapsedMS ) + "ms");
 
         if (longSunlight.get()) {
             Main.getClient().consoleOut("Sunlight calculation finished " + (elapsedMS / 1000) + "s");
