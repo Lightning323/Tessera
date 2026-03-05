@@ -5,5 +5,5 @@ logs
 /.idea
 /out
 /dist
-hs_err_pid*.log
+/hs_err*.log
 *.*~
