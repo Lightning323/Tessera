@@ -9,36 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="Added Tessera.jar to main file">
-      <change beforePath="$PROJECT_DIR$/meta/blender/blocks and entities.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver blockbench/assets (1)/back leg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver blockbench/assets (1)/body.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver blockbench/assets (1)/head.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver blockbench/assets (1)/materials.mtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver blockbench/assets (1)/model.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver blockbench/assets (1)/tail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver blockbench/assets (1)/testModel.mtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver blockbench/assets (1)/testModel.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver blockbench/model.bbmodel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver/beaver layour.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver/beaver uv.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver/beaver.mtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver/beaver.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/entities/animals/beaver/beaver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/test textures/iron ladder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/test textures/neg x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/test textures/neg y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/test textures/neg z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/test textures/planks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/test textures/pos x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/test textures/pos y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/test textures/pos z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/test textures/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/test textures/snow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/test textures/steel_0_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/blender/test textures/tv2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-    </list>
+    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="remove log files from git" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -330,7 +301,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772739352160</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="remove meta files">
+      <option name="closed" value="true" />
+      <created>1772739561281</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772739561281</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove log files from git">
+      <option name="closed" value="true" />
+      <created>1772739694647</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1772739694647</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -353,7 +340,9 @@
     <MESSAGE value="small bugfixes and improvements&#10;- fixed quit button&#10;- fixed icon generation&#10;-" />
     <MESSAGE value="increased fall distance" />
     <MESSAGE value="Added Tessera.jar to main file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Tessera.jar to main file" />
+    <MESSAGE value="remove meta files" />
+    <MESSAGE value="remove log files from git" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove log files from git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

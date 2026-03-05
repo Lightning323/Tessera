@@ -7,3 +7,4 @@ logs
 /dist
 /hs_err*.log
 *.*~
+.idea/workspace.xml
