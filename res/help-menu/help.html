@@ -1,237 +1,255 @@
 <html>
-
-<head>
+  <head>
     <title>Tessera Help Reference</title>
-    <link rel="icon" href="images/icon.ico"/>
-    <link href="bootstrap.css" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icon.ico" />
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        table td {
-            border: 1px solid #ddd;
-            padding: 5px 10px;
-            padding-right: 20px;
-        }
+      table td {
+        border: 1px solid #ddd;
+        padding: 5px 10px;
+        padding-right: 20px;
+      }
 
-        #blockModes td {
-            padding: 5px 20px;
-            padding-right: 20px;
-        }
+      #blockModes td {
+        padding: 5px 20px;
+        padding-right: 20px;
+      }
 
-        table{
-        width:100%;}
+      table {
+        width: 100%;
+      }
 
-        table th {
-            background-color: #ddd;
-            padding-right: 20px;
-        }
+      table th {
+        background-color: #ddd;
+        padding-right: 20px;
+      }
 
-        h1,
-        h2,
-        h3 {
-            font-family: 'Press Start 2P', arial;
-            /*background-color: #eee;*/
-            padding: 5px;
-            color: #333;
-            font-size: 1em;
-        }
+      h1,
+      h2,
+      h3 {
+        font-family: "Press Start 2P", arial;
+        /*background-color: #eee;*/
+        padding: 5px;
+        color: #333;
+        font-size: 1em;
+      }
 
+      h1 {
+        font-size: 1.3em;
+        text-transform: capitalize;
+      }
 
-        h1 {
-            font-size: 1.3em;
-            text-transform: capitalize;
-        }
+      h2 {
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 1em;
+        color: rgb(0, 76, 255);
+        text-transform: uppercase;
+      }
 
-        h2 {
-            margin-top: 30px;
-            font-weight: 700;
-            font-size: 1em;
-            color: rgb(0, 76, 255);
-            text-transform: uppercase;
-        }
+      h3 {
+        font-size: 1em;
+        margin-top: 30px;
+      }
 
-        h3 {
-            font-size: 1em;
-            margin-top: 30px;
-        }
-
-        h4 {
-            font-size: 1.05em;
-            font-weight: 700;
-
-        }
+      h4 {
+        font-size: 1.05em;
+        font-weight: 700;
+      }
     </style>
-</head>
+  </head>
 
-<body style="background-color: #eee;">
-<div class="container">
-    <div class="row">
+  <body style="background-color: #eee">
+    <div class="container">
+      <div class="row">
         <div class="col-sm-1"></div>
-        <div class="col-md-10" style="background-color: #fff;padding:50px 20px;">
-            <h1>Keyboard and Mouse Reference</h1>
+        <div
+          class="col-md-10"
+          style="background-color: #fff; padding: 50px 20px"
+        >
+          <h1>Keyboard and Mouse Reference</h1>
 
-            <h2>MOUSE ACTIONS</h2>
-            <table>
-                <tr>
-                    <th>Mouse Button</th>
-                    <th>Corresponding Action</th>
-                </tr>
-                <tr>
-                    <td>Left Mouse Button</td>
-                    <td>Create block.</td>
-                </tr>
-                <tr>
-                    <td>Right Mouse Button</td>
-                    <td>Delete block.</td>
-                </tr>
-                <tr>
-                    <td>Center Mouse Button</td>
-                    <td>Pick block</td>
-                </tr>
-                <tr>
-                    <td>Mouse Scroll</td>
-                    <td>Select block from block panel</td>
-                </tr>
-            </table>
+          <h2>MOUSE ACTIONS</h2>
+          <table>
+            <tr>
+              <th>Mouse Button</th>
+              <th>Corresponding Action</th>
+            </tr>
+            <tr>
+              <td>Left Mouse Button</td>
+              <td>Create block.</td>
+            </tr>
+            <tr>
+              <td>Right Mouse Button</td>
+              <td>Delete block.</td>
+            </tr>
+            <tr>
+              <td>Center Mouse Button</td>
+              <td>Pick block</td>
+            </tr>
+            <tr>
+              <td>Mouse Scroll</td>
+              <td>Select block from block panel</td>
+            </tr>
+          </table>
 
-            <h2>Player movement</h2>
-            <table>
-                <tr>
-                    <th>Key</th>
-                    <th>Corresponding Action</th>
-                </tr>
+          <h2>Player movement</h2>
+          <table>
+            <tr>
+              <th>Key</th>
+              <th>Corresponding Action</th>
+            </tr>
 
-                <tr>
-                    <td>WASD or Arrow Keys</td>
-                    <td>Move Player</td>
-                </tr>
-                <tr>
-                    <td>F</td>
-                    <td>Fly up</td>
-                </tr>
-                <tr>
-                    <td>Ctrl</td>
-                    <td>Fly down</td>
-                </tr>
-                <tr>
-                    <td>Shift</td>
-                    <td>Run</td>
-                </tr>
-                <tr>
-                    <td>Space Bar</td>
-                    <td>Jump / Toggle Fly / Climb Up Ladders</td>
-                </tr>
-            </table>
+            <tr>
+              <td>WASD or Arrow Keys</td>
+              <td>Move Player</td>
+            </tr>
+            <tr>
+              <td>F</td>
+              <td>Fly up</td>
+            </tr>
+            <tr>
+              <td>Ctrl</td>
+              <td>Fly down</td>
+            </tr>
+            <tr>
+              <td>Shift</td>
+              <td>Run</td>
+            </tr>
+            <tr>
+              <td>Space Bar</td>
+              <td>Jump / Toggle Fly / Climb Up Ladders</td>
+            </tr>
+          </table>
 
-            <h2>KEY ACTIONS</h2>
-            <table>
-                <tr>
-                    <th>Key</th>
-                    <th>Corresponding Action</th>
-                </tr>
-                <tr>
-                    <td>Esc</td>
-                    <td>Toggle Game Menu</td>
-                </tr>
-                <tr>
-                    <td>E</td>
-                    <td>Toggle Block Menu</td>
-                </tr>
-                <tr>
-                    <td>-</td>
-                    <td>Simulate destroy click</td>
-                </tr>
-                <tr>
-                    <td>+</td>
-                    <td>Simulate create click</td>
-                </tr>
-                <tr>
-                    <td>0</td>
-                    <td>Simulate middle-mouse click</td>
-                </tr>
-                <tr>
-                    <td> &lt</td>
-                    <td>Select <b>left</b> block from menu</td>
-                </tr>
-                <tr>
-                    <td> &gt</td>
-                    <td>Select <b>right</b> block from menu</td>
-                </tr>
-                <tr>
-                    <td>Tab</td>
-                    <td>Select in midair</td>
-                </tr>
-                <tr>
-                    <td>Alt</td>
-                    <td>(Hold) open block tool pallete</td>
-                </tr>
+          <h2>KEY ACTIONS</h2>
+          <table>
+            <tr>
+              <th>Key</th>
+              <th>Corresponding Action</th>
+            </tr>
+            <tr>
+              <td>Esc</td>
+              <td>Toggle Game Menu</td>
+            </tr>
+            <tr>
+              <td>E</td>
+              <td>Toggle Block Menu</td>
+            </tr>
+            <tr>
+              <td>R</td>
+              <td>Toggle Recipe Menu</td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td>Simulate destroy click</td>
+            </tr>
+            <tr>
+              <td>+</td>
+              <td>Simulate create click</td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Simulate middle-mouse click</td>
+            </tr>
+            <tr>
+              <td>&lt</td>
+              <td>Select <b>left</b> block from menu</td>
+            </tr>
+            <tr>
+              <td>&gt</td>
+              <td>Select <b>right</b> block from menu</td>
+            </tr>
+            <tr>
+              <td>Tab</td>
+              <td>Select in midair</td>
+            </tr>
+            <tr>
+              <td>Alt</td>
+              <td>(Hold) open block tool pallete</td>
+            </tr>
+          </table>
+          <h2>OTHER ACTIONS</h2>
+          <table>
+            <tr>
+              <th>Key</th>
+              <th>Corresponding Action</th>
+            </tr>
+            <tr>
+              <td>F3</td>
+              <td>Toggle dev stats</td>
+            </tr>
+            <tr>
+              <td>F4</td>
+              <td>Toggle UI visibility</td>
+            </tr>
+            <tr>
+              <td>F5</td>
+              <td>Toggle wireframe</td>
+            </tr>
+            <tr>
+              <td>F6</td>
+              <td>Toggle bounding box mode</td>
+            </tr>
+          </table>
 
-            </table>
-            <h2>OTHER ACTIONS</h2>
-            <table>
-                <tr>
-                    <th>Key</th>
-                    <th>Corresponding Action</th>
-                </tr>
-                <tr>
-                    <td>F3</td>
-                    <td>Toggle dev stats</td>
-                </tr>
-                <tr>
-                    <td>F4</td>
-                    <td>Toggle UI visibility</td>
-                </tr>
-                <tr>
-                    <td>F5</td>
-                    <td>Toggle wireframe</td>
-                </tr>
-                <tr>
-                    <td>F6</td>
-                    <td>Toggle bounding box mode</td>
-                </tr>
-            </table>
-
-            <h2>BLOCK TOOLS</h2>
-            <p><b>Hold ALT to switch between all block tools.</b> Below are the most common block tools:</p>
-            <table id="blockModes">
-                <tr>
-                    <th>Activation Key</th>
-                    <th>Corresponding Action</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Default mode.</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Boundary of blocks.<br>
-                    (K to place boundary inside block)</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Plane of blocks</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Line of blocks.<br>
-                        (Scroll to change length)</td>
-                </tr>
-                <tr>
-                    <td>Ctrl+C</td>
-                    <td>Copies a set of blocks within a boundary.<br>
-                        (K to place boundary inside block)</td>
-                </tr>
-                <tr>
-                    <td>Ctrl+V</td>
-                    <td>Pastes a copied boundary of blocks.<br>
-                    (Scroll to change vertex, R to rotate)<br>
-                Additionally, you can use the arrow keys and shift+up/down arrow key to move the paste point after it has been set</td>
-                </tr>
-            </table>
+          <h2>BLOCK TOOLS</h2>
+          <p>
+            <b>Hold ALT to switch between all block tools.</b> Below are the
+            most common block tools:
+          </p>
+          <table id="blockModes">
+            <tr>
+              <th>Activation Key</th>
+              <th>Corresponding Action</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Default mode.</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                Boundary of blocks.<br />
+                (K to place boundary inside block)
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Plane of blocks</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>
+                Line of blocks.<br />
+                (Scroll to change length)
+              </td>
+            </tr>
+            <tr>
+              <td>Ctrl+C</td>
+              <td>
+                Copies a set of blocks within a boundary.<br />
+                (K to place boundary inside block)
+              </td>
+            </tr>
+            <tr>
+              <td>Ctrl+V</td>
+              <td>
+                Pastes a copied boundary of blocks.<br />
+                (Scroll to change vertex, R to rotate)<br />
+                Additionally, you can use the arrow keys and shift+up/down arrow
+                key to move the paste point after it has been set
+              </td>
+            </tr>
+          </table>
         </div>
+      </div>
     </div>
-</div>
-</body>
-
+  </body>
 </html>

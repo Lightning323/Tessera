@@ -54,9 +54,10 @@ public abstract class GLFWWindow {
     private int[] vpSize = {0, 0};
     private int[] monitorSize = {0, 0};
     private boolean forceClose = false;
+    private double lastFrameTime;
 
     public void close() {
-        forceClose=true;
+        forceClose = true;
     }
 
     protected GLCapabilities capabilities;
@@ -326,7 +327,8 @@ public abstract class GLFWWindow {
     public Vector2d getCursorVector() {
         return cursor;
     }
-    //// </editor-fold>
+
+    /// / </editor-fold>
 
     public static final Object windowCreateLock = new Object();
     private static boolean isGLFWInitialized = false;
@@ -410,6 +412,8 @@ public abstract class GLFWWindow {
         tickMPF();
     }
 
+
+
     private IntBuffer intBuffer(int value) {
         return BufferUtils.createIntBuffer(1).put(0, value);
     }
@@ -438,6 +442,7 @@ public abstract class GLFWWindow {
         initDebugs();
         initCallbacks();
         startMPF();
+        lastFrameTime = glfwGetTime();
     }
 
     public void destroyWindow() {
@@ -580,7 +585,7 @@ public abstract class GLFWWindow {
      * be 33.3333ms. That’s all you need to know.
      */
 
-    public float frameDeltaSec = 1f;
+    public double frameDeltaSec = 1f;
     public float smoothFrameDeltaSec = 1f;
 
     private ValueSmoother smoothed = new ValueSmoother(20);
@@ -622,13 +627,15 @@ public abstract class GLFWWindow {
      */
 
     protected void tickMPF() {
-        frameDeltaSec = (System.nanoTime() - timer) / 1000000000f;
-        timer = System.nanoTime();
-        smoothed.add(frameDeltaSec);
+        double currentTime = glfwGetTime();
+        // Correct math for seconds
+        frameDeltaSec = currentTime - lastFrameTime;
+        lastFrameTime = currentTime;
+
+        // Update smoothing
+        smoothed.add((float) frameDeltaSec);
         smoothFrameDeltaSec = smoothed.getAverage();
 
-        // do {// Measure speed
-        double currentTime = glfwGetTime();
         nbFrames++;
         if (currentTime - lastTime >= updateIntervalSec) {// If last prinf() was more than 1 sec ago
             // printf and reset timer
@@ -637,9 +644,19 @@ public abstract class GLFWWindow {
             nbFrames = 0;
             lastTime += updateIntervalSec;
         }
-        // }
     }
-    // </editor-fold>
+
+    /**
+     *
+     * @return the frame delta in seconds
+     */
+    public double getFrameDeltaSec() {
+        return frameDeltaSec;
+    }
+
+    public float getSmoothFrameDeltaSec(){
+        return  smoothFrameDeltaSec;
+    }
 
 
 }

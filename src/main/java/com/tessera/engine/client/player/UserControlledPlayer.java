@@ -69,10 +69,14 @@ public class UserControlledPlayer extends Player implements GameSceneEvents {
     public final static float MAX_FOOD = 20f;
     public final static float MAX_OXYGEN = 20f;
 
-    public final static float IDLE_FOOD_DEPLETION = 0.00001f;
-    public final static float MOVING_FOOD_DEPLETION = 0.0003f;
-    public final static float RUNNING_FOOD_DEPLETION = 0.0007f;
-    public final static float HEALTH_REGEN_SPEED = 0.0006f;
+    public final static float IDLE_FOOD_DEPLETION = 0.0001f;
+    public final static float MOVING_FOOD_DEPLETION = 0.1f;
+    public final static float RUNNING_FOOD_DEPLETION = 0.2f;
+    public final static float HEALTH_REGEN_SPEED = 6;
+    public final static float OXYGEN_DEATH_SPEED = 9;
+    public final static float OXYGEN_DEPLETION_SPEED = 1;
+    public final static float OXYGEN_REGEN_SPEED = .2f;
+    public final static float ENTER_DAMAGE_MULTIPLIER = 5;
 
 
     private float status_health;
@@ -110,9 +114,7 @@ public class UserControlledPlayer extends Player implements GameSceneEvents {
 
     private void updateHealthbars(Block playerHead, Block playerFeet, Block playerWaist) {
         if (Main.getServer().getGameMode() == GameMode.ADVENTURE) {
-
-            float multiplier = 1;
-
+            float delta = (float) window.getFrameDeltaSec();
             /**
              * Food can go higher than the maximum level, but it cant go lower than zero
              */
@@ -123,12 +125,12 @@ public class UserControlledPlayer extends Player implements GameSceneEvents {
                 if (Main.getServer().getDifficulty() == Difficulty.HARD) difficulty = 2f;
 
                 if (isRidingEntity()) { //Dont deplete hunger if we are riding something
-                    status_food -= IDLE_FOOD_DEPLETION * difficulty * multiplier; //Baseline hunger deplation
+                    status_food -= IDLE_FOOD_DEPLETION * difficulty * delta; //Baseline hunger deplation
                 } else {
-                    if (runningMode) status_food -= RUNNING_FOOD_DEPLETION * difficulty * multiplier; //Running
+                    if (runningMode) status_food -= RUNNING_FOOD_DEPLETION * difficulty * delta; //Running
                     else if (forwardKeyPressed() || backwardKeyPressed())
-                        status_food -= MOVING_FOOD_DEPLETION * difficulty * multiplier; //Walking
-                    else status_food -= IDLE_FOOD_DEPLETION * difficulty * multiplier; //Baseline hunger deplation
+                        status_food -= MOVING_FOOD_DEPLETION * difficulty * delta; //Walking
+                    else status_food -= IDLE_FOOD_DEPLETION * difficulty * delta; //Baseline hunger deplation
                 }
             }
 
@@ -137,19 +139,21 @@ public class UserControlledPlayer extends Player implements GameSceneEvents {
              */
             float enterDamage = Math.max(Math.max(playerHead.enterDamage, playerFeet.enterDamage), playerWaist.enterDamage);
             if (enterDamage > 0) {
-                status_health -= enterDamage;
+                status_health -= enterDamage * ENTER_DAMAGE_MULTIPLIER * delta;
             } else if (status_oxygen <= 0 || status_food <= 0) {
-                status_health -= 0.2f * multiplier;
+                status_health -= OXYGEN_DEATH_SPEED * delta;
             } else if (status_health < MAX_HEALTH && status_food > 3) {//Regenerate
-                status_health += HEALTH_REGEN_SPEED * multiplier;
+                status_health += HEALTH_REGEN_SPEED * delta;
             }
 
             /**
              * Oxygen
              */
             if (playerHead.isLiquid()) {
-                status_oxygen -= 0.02f * multiplier;
-            } else if (status_oxygen < MAX_OXYGEN) status_oxygen += 0.02f * multiplier;
+                status_oxygen -= OXYGEN_DEPLETION_SPEED * delta;
+            } else if (status_oxygen < MAX_OXYGEN) {
+                status_oxygen += OXYGEN_REGEN_SPEED * delta;
+            }
 
 
             if (status_health <= 0) {
