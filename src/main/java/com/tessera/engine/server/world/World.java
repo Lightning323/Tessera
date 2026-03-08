@@ -90,7 +90,7 @@ public class World {
     public static final int PLAYER_CHUNK_MESH_THREADS = 3; //The number of threads allocated to player based chunk updating
 
     public static int VIEW_DIST_MIN = Chunk.WIDTH * 2;
-    public static int VIEW_DIST_MAX = Chunk.WIDTH * 16; //Allowing higher view distances increases flexibility
+    public static int VIEW_DIST_MAX = Chunk.WIDTH * 32; //Allowing higher view distances increases flexibility
 
     private int maxChunksForViewDistance;
     private final AtomicInteger viewDistance = new AtomicInteger(VIEW_DIST_MIN);
