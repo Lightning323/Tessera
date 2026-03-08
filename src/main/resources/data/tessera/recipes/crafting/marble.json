@@ -1,0 +1,230 @@
+[
+  {
+    "input": [
+      "tessera:polished_andesite",
+      null,
+      "tessera:polished_andesite",
+      null,
+      null,
+      null,
+      "tessera:polished_andesite",
+      null,
+      "tessera:polished_andesite"
+    ],
+    "output": "tessera:marble_tile",
+    "amount": 8
+  },
+  {
+    "input": [
+      "tessera:polished_diorite",
+      null,
+      "tessera:polished_diorite",
+      null,
+      null,
+      null,
+      "tessera:polished_diorite",
+      null,
+      "tessera:polished_diorite"
+    ],
+    "output": "tessera:marble_tile",
+    "amount": 8
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:marble_tile",
+      null,
+      "tessera:marble_tile",
+      null,
+      null,
+      null,
+      "tessera:marble_tile",
+      null,
+      "tessera:marble_tile"
+    ],
+    "output": "tessera:marble_pillar_block",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:marble_tile",
+      null,
+      "tessera:black_marble_tile",
+      null,
+      null,
+      null,
+      "tessera:black_marble_tile",
+      null,
+      "tessera:marble_tile"
+    ],
+    "output": "tessera:checkerboard_chiseled_marble",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:blue_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:green_dye"
+    ],
+    "output": "tessera:green_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:orange_dye"
+    ],
+    "output": "tessera:orange_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:black_dye"
+    ],
+    "output": "tessera:black_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:yellow_dye"
+    ],
+    "output": "tessera:yellow_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:blue_dye",
+      "tessera:white_dye"
+    ],
+    "output": "tessera:pastel_blue_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:blue_marble_tile",
+      "tessera:white_dye"
+    ],
+    "output": "tessera:pastel_blue_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:green_marble_tile",
+      "tessera:white_dye"
+    ],
+    "output": "tessera:pastel_green_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:gray_marble_tile",
+      "tessera:black_dye"
+    ],
+    "output": "tessera:black_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:cyan_dye"
+    ],
+    "output": "tessera:cyan_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:magenta_dye"
+    ],
+    "output": "tessera:magenta_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:magenta_dye",
+      "tessera:white_dye"
+    ],
+    "output": "tessera:pink_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:purple_dye"
+    ],
+    "output": "tessera:purple_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:red_dye"
+    ],
+    "output": "tessera:pastel_red_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:red_dye",
+      "tessera:red_dye"
+    ],
+    "output": "tessera:burgundy_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:brown_dye"
+    ],
+    "output": "tessera:brown_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:green_dye",
+      "tessera:white_dye"
+    ],
+    "output": "tessera:pastel_green_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile",
+      "tessera:gray_dye"
+    ],
+    "output": "tessera:gray_marble_tile",
+    "amount": 1
+  }
+]

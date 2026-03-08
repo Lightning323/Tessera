@@ -1,0 +1,62 @@
+[
+  {
+    "input": [
+      "tessera:stick",
+      null,
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:stick",
+      null,
+      "tessera:stick"
+    ],
+    "output": "tessera:ladder",
+    "amount": 16
+  },
+  {
+    "input": [
+      "tessera:stick",
+      null,
+      "tessera:stick",
+      "tessera:iron_ingot",
+      "tessera:stick",
+      "tessera:iron_ingot",
+      "tessera:stick",
+      null,
+      "tessera:stick"
+    ],
+    "output": "tessera:iron_ladder",
+    "amount": 64
+  },
+  {
+    "input": [
+      "tessera:stick",
+      null,
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:bamboo",
+      "tessera:stick",
+      "tessera:stick",
+      null,
+      "tessera:stick"
+    ],
+    "output": "tessera:bamboo_ladder",
+    "amount": 24
+  },
+  {
+    "input": [
+      "tessera:stick",
+      null,
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:spruce_wood",
+      "tessera:stick",
+      "tessera:stick",
+      null,
+      "tessera:stick"
+    ],
+    "output": "tessera:dark_oak_ladder",
+    "amount": 24
+  }
+]

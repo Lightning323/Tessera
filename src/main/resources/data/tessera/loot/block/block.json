@@ -1,0 +1,6320 @@
+{
+  "tessera:lime_stained_wood_fence_gate": [
+    {
+      "item": "tessera:lime_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_blue_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:pastel_blue_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:20_hp_engine": [
+    {
+      "item": "tessera:20_hp_engine",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:electric_light": [
+    {
+      "item": "tessera:electric_light",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_red_stairs": [
+    {
+      "item": "tessera:wool_red_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dark_oak_fence": [
+    {
+      "item": "tessera:dark_oak_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_2_door": [
+    {
+      "item": "tessera:jungle_2_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_stained_wood_stairs": [
+    {
+      "item": "tessera:lime_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_stained_glass_stairs": [
+    {
+      "item": "tessera:red_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_stained_wood_fence_gate": [
+    {
+      "item": "tessera:magenta_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_stained_wood": [
+    {
+      "item": "tessera:yellow_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_siding": [
+    {
+      "item": "tessera:brown_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_marble_tile": [
+    {
+      "item": "tessera:cyan_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:mosaic_bamboo_wood_slab": [
+    {
+      "item": "tessera:mosaic_bamboo_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_marble_tile_stairs": [
+    {
+      "item": "tessera:green_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gold_block_slab": [
+    {
+      "item": "tessera:gold_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:black_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_glazed_teracotta": [
+    {
+      "item": "tessera:red_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_stone_pillar": [
+    {
+      "item": "tessera:palisade_stone_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:gray_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:horn_coral": [
+    {
+      "item": "tessera:horn_coral",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_stained_wood_stairs": [
+    {
+      "item": "tessera:green_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_stained_wood_fence": [
+    {
+      "item": "tessera:blue_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_marble_tile_pillar": [
+    {
+      "item": "tessera:cyan_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_deep_blue_slab": [
+    {
+      "item": "tessera:wool_deep_blue_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_brown_slab": [
+    {
+      "item": "tessera:wool_brown_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_marble_tile_slab": [
+    {
+      "item": "tessera:magenta_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_concrete_fence": [
+    {
+      "item": "tessera:pink_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_diorite_fence": [
+    {
+      "item": "tessera:polished_diorite_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cracked_stone_stairs": [
+    {
+      "item": "tessera:cracked_stone_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_concrete_fence": [
+    {
+      "item": "tessera:lime_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone_with_vines_stairs": [
+    {
+      "item": "tessera:stone_with_vines_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_stained_glass_slab": [
+    {
+      "item": "tessera:purple_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bamboo_wood_fence_gate": [
+    {
+      "item": "tessera:bamboo_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_concrete_slab": [
+    {
+      "item": "tessera:green_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:silver_brick": [
+    {
+      "item": "tessera:silver_brick",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_space_control_panel_door": [
+    {
+      "item": "tessera:white_space_control_panel_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:minecart_road_block": [
+    {
+      "item": "tessera:minecart_road_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:light_blue_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:marble_tile_pillar": [
+    {
+      "item": "tessera:marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_andesite_fence_gate": [
+    {
+      "item": "tessera:polished_andesite_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_glazed_teracotta": [
+    {
+      "item": "tessera:cyan_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_glazed_teracotta": [
+    {
+      "item": "tessera:magenta_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:birch_log": [
+    {
+      "item": "tessera:birch_log",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_stained_glass_stairs": [
+    {
+      "item": "tessera:white_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_concrete_stairs": [
+    {
+      "item": "tessera:lime_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_andesite_stairs": [
+    {
+      "item": "tessera:polished_andesite_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_stained_glass_slab": [
+    {
+      "item": "tessera:light_gray_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_carpet": [
+    {
+      "item": "tessera:gray_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_concrete": [
+    {
+      "item": "tessera:black_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:italian_door": [
+    {
+      "item": "tessera:italian_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_carpet": [
+    {
+      "item": "tessera:black_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_stained_wood_fence_gate": [
+    {
+      "item": "tessera:green_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+
+  "tessera:red_sandstone_pillar": [
+    {
+      "item": "tessera:red_sandstone_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_red_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:pastel_red_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_sapling": [
+    {
+      "item": "tessera:oak_sapling",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_stained_wood": [
+    {
+      "item": "tessera:lime_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_stained_wood": [
+    {
+      "item": "tessera:purple_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_stained_wood_fence": [
+    {
+      "item": "tessera:pink_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_stained_wood_fence_gate": [
+    {
+      "item": "tessera:pink_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_concrete_stairs": [
+    {
+      "item": "tessera:black_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_chiseled_marble_tile": [
+    {
+      "item": "tessera:cyan_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:chiseled_quartz_pillar": [
+    {
+      "item": "tessera:chiseled_quartz_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_stained_wood_stairs": [
+    {
+      "item": "tessera:red_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_carpet": [
+    {
+      "item": "tessera:pink_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:birch_trapdoor": [
+    {
+      "item": "tessera:birch_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:granite_brick": [
+    {
+      "item": "tessera:granite_brick",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:sunflower_seeds": [
+    {
+      "item": "tessera:sunflower_seeds",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_stained_glass": [
+    {
+      "item": "tessera:white_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_concrete_fence": [
+    {
+      "item": "tessera:magenta_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:french_bamboo_windows_door": [
+    {
+      "item": "tessera:french_bamboo_windows_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:sand": [
+    {
+      "item": "tessera:sand",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wire": [
+    {
+      "item": "tessera:wire",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_orange_slab": [
+    {
+      "item": "tessera:wool_orange_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_concrete_slab": [
+    {
+      "item": "tessera:orange_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_stained_glass_stairs": [
+    {
+      "item": "tessera:orange_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:purple_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_stained_glass_pane": [
+    {
+      "item": "tessera:blue_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_stained_wood_slab": [
+    {
+      "item": "tessera:pink_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:fire_coral_block": [
+    {
+      "item": "tessera:fire_coral_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_orange_stairs": [
+    {
+      "item": "tessera:wool_orange_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_siding": [
+    {
+      "item": "tessera:cyan_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_stained_wood_fence": [
+    {
+      "item": "tessera:gray_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:checkerboard_chiseled_marble_slab": [
+    {
+      "item": "tessera:checkerboard_chiseled_marble_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cracked_stone_fence": [
+    {
+      "item": "tessera:cracked_stone_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_pink_slab": [
+    {
+      "item": "tessera:wool_pink_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_turquoise_slab": [
+    {
+      "item": "tessera:wool_turquoise_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:beehive": [
+    {
+      "item": "tessera:beehive",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_concrete": [
+    {
+      "item": "tessera:green_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_concrete": [
+    {
+      "item": "tessera:gray_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_wood": [
+    {
+      "item": "tessera:jungle_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_stained_glass_pane": [
+    {
+      "item": "tessera:gray_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_stained_glass_pane": [
+    {
+      "item": "tessera:pink_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:croissant": [
+    {
+      "item": "tessera:croissant",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_stained_wood": [
+    {
+      "item": "tessera:black_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:beetroot_seeds": [
+    {
+      "item": "tessera:beetroot_seeds",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_carpet": [
+    {
+      "item": "tessera:purple_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:white_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_space_tile": [
+    {
+      "item": "tessera:white_space_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:party_red_door": [
+    {
+      "item": "tessera:party_red_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_blue_marble_tile_stairs": [
+    {
+      "item": "tessera:pastel_blue_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_marble_tile_pillar": [
+    {
+      "item": "tessera:blue_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_stone_2_stairs": [
+    {
+      "item": "tessera:palisade_stone_2_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:yellow_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dark_prismarine_brick_fence_gate": [
+    {
+      "item": "tessera:dark_prismarine_brick_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_concrete_fence": [
+    {
+      "item": "tessera:white_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_marble_tile": [
+    {
+      "item": "tessera:black_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_stained_wood_slab": [
+    {
+      "item": "tessera:blue_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_chiseled_marble_tile": [
+    {
+      "item": "tessera:black_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:purple_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_pink_stairs": [
+    {
+      "item": "tessera:wool_pink_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_siding": [
+    {
+      "item": "tessera:orange_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_sandstone": [
+    {
+      "item": "tessera:red_sandstone",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_concrete_fence_gate": [
+    {
+      "item": "tessera:lime_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_concrete_stairs": [
+    {
+      "item": "tessera:orange_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_door": [
+    {
+      "item": "tessera:red_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_carpet": [
+    {
+      "item": "tessera:blue_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:acacia_wood_stairs": [
+    {
+      "item": "tessera:acacia_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:purple_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:phantom_stone_brick": [
+    {
+      "item": "tessera:phantom_stone_brick",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:obsidian_slab": [
+    {
+      "item": "tessera:obsidian_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:party_purple_door": [
+    {
+      "item": "tessera:party_purple_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:music_box": [
+    {
+      "item": "tessera:music_box",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:tall_dry_grass": [
+    {
+      "item": "tessera:wheat_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:carrot_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:potato_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:beetroot_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_stained_glass": [
+    {
+      "item": "tessera:red_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:burgundy_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_marble_tile": [
+    {
+      "item": "tessera:yellow_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_marble_tile_slab": [
+    {
+      "item": "tessera:burgundy_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_stained_wood_fence_gate": [
+    {
+      "item": "tessera:blue_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:birch_wood_stairs": [
+    {
+      "item": "tessera:birch_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_palisade_sandstone_fence": [
+    {
+      "item": "tessera:red_palisade_sandstone_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone_with_vines_slab": [
+    {
+      "item": "tessera:stone_with_vines_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_concrete_stairs": [
+    {
+      "item": "tessera:brown_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:diorite": [
+    {
+      "item": "tessera:diorite",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_concrete_slab": [
+    {
+      "item": "tessera:cyan_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_stained_glass_pane": [
+    {
+      "item": "tessera:red_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:fire_coral_fan": [
+    {
+      "item": "tessera:fire_coral_fan",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_glazed_teracotta_slab": [
+    {
+      "item": "tessera:light_gray_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_green_marble_tile_stairs": [
+    {
+      "item": "tessera:pastel_green_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_gray_stairs": [
+    {
+      "item": "tessera:wool_gray_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:emerald_fence_gate": [
+    {
+      "item": "tessera:emerald_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:party_green_door": [
+    {
+      "item": "tessera:party_green_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:prismarine_brick_fence_gate": [
+    {
+      "item": "tessera:prismarine_brick_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gravel": [
+    {
+      "item": "tessera:gravel",
+      "chance": 1.0,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:flint",
+      "chance": 0.1,
+      "maxItems": 1
+    }
+  ],
+  "tessera:coal_block": [
+    {
+      "item": "tessera:coal_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_andesite_slab": [
+    {
+      "item": "tessera:polished_andesite_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_concrete_stairs": [
+    {
+      "item": "tessera:green_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone_brick_pillar": [
+    {
+      "item": "tessera:stone_brick_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oval_blue_door": [
+    {
+      "item": "tessera:oval_blue_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_log": [
+    {
+      "item": "tessera:jungle_log",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_turquoise": [
+    {
+      "item": "tessera:wool_turquoise",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:tnt": [
+    {
+      "item": "tessera:tnt",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:checkerboard_chiseled_marble_stairs": [
+    {
+      "item": "tessera:checkerboard_chiseled_marble_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:glass_stairs": [
+    {
+      "item": "tessera:glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_stained_wood_stairs": [
+    {
+      "item": "tessera:blue_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dark_prismarine_brick_slab": [
+    {
+      "item": "tessera:dark_prismarine_brick_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:sandstone": [
+    {
+      "item": "tessera:sandstone",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:birch_sapling": [
+    {
+      "item": "tessera:birch_sapling",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_marble_tile_slab": [
+    {
+      "item": "tessera:gray_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:chiseled_marble_slab": [
+    {
+      "item": "tessera:chiseled_marble_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bedrock": [
+    {
+      "item": "tessera:bedrock",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bubble_coral_block": [
+    {
+      "item": "tessera:bubble_coral_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_stained_glass": [
+    {
+      "item": "tessera:magenta_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_marble_tile_slab": [
+    {
+      "item": "tessera:cyan_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:party_blue_door": [
+    {
+      "item": "tessera:party_blue_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_candle": [
+    {
+      "item": "tessera:red_candle",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:chiseled_quartz_slab": [
+    {
+      "item": "tessera:chiseled_quartz_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oval_magenta_door": [
+    {
+      "item": "tessera:oval_magenta_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_stained_wood": [
+    {
+      "item": "tessera:light_blue_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone_with_vines": [
+    {
+      "item": "tessera:stone_with_vines",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+
+  "tessera:french_magenta_windows_door": [
+    {
+      "item": "tessera:french_magenta_windows_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dark_oak_wood_slab": [
+    {
+      "item": "tessera:dark_oak_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_concrete_fence_gate": [
+    {
+      "item": "tessera:red_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_andesite_fence": [
+    {
+      "item": "tessera:polished_andesite_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_glazed_teracotta_slab": [
+    {
+      "item": "tessera:magenta_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_concrete_fence_gate": [
+    {
+      "item": "tessera:green_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:prismarine_brick_slab": [
+    {
+      "item": "tessera:prismarine_brick_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:italian_blue_windows_door": [
+    {
+      "item": "tessera:italian_blue_windows_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_chiseled_marble_tile": [
+    {
+      "item": "tessera:orange_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_seat": [
+    {
+      "item": "tessera:white_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_stained_wood_stairs": [
+    {
+      "item": "tessera:light_blue_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:chiseled_quartz": [
+    {
+      "item": "tessera:chiseled_quartz",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:test_fence_gate": [
+    {
+      "item": "tessera:test_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:glass_trapdoor": [
+    {
+      "item": "tessera:glass_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_concrete_fence": [
+    {
+      "item": "tessera:light_blue_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_marble_tile_slab": [
+    {
+      "item": "tessera:blue_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_blue_marble_tile": [
+    {
+      "item": "tessera:pastel_blue_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_concrete_stairs": [
+    {
+      "item": "tessera:white_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_brown_stairs": [
+    {
+      "item": "tessera:wool_brown_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_concrete_fence_gate": [
+    {
+      "item": "tessera:light_gray_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cave_vines": [
+    {
+      "item": "tessera:cave_vines",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_chiseled_marble_tile": [
+    {
+      "item": "tessera:purple_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_marble_tile_pillar": [
+    {
+      "item": "tessera:yellow_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_concrete_fence": [
+    {
+      "item": "tessera:red_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:tube_coral": [
+    {
+      "item": "tessera:tube_coral",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_glazed_teracotta_slab": [
+    {
+      "item": "tessera:brown_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:magenta_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_glazed_teracotta": [
+    {
+      "item": "tessera:black_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:snow_grass": [
+    {
+      "item": "tessera:dirt",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:pink_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_red_marble_tile_stairs": [
+    {
+      "item": "tessera:pastel_red_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_stained_wood_slab": [
+    {
+      "item": "tessera:white_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lapis_lazul_fence_gate": [
+    {
+      "item": "tessera:lapis_lazul_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_green_marble_tile": [
+    {
+      "item": "tessera:pastel_green_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:prismarine_bricks": [
+    {
+      "item": "tessera:prismarine_bricks",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_marble_tile_stairs": [
+    {
+      "item": "tessera:blue_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lapis_lazul_fence": [
+    {
+      "item": "tessera:lapis_lazul_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_torch": [
+    {
+      "item": "tessera:blue_torch",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_marble_tile_pillar": [
+    {
+      "item": "tessera:burgundy_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_stained_wood_slab": [
+    {
+      "item": "tessera:lime_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_glazed_teracotta": [
+    {
+      "item": "tessera:yellow_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_stained_wood_fence": [
+    {
+      "item": "tessera:white_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_concrete_slab": [
+    {
+      "item": "tessera:brown_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_stone_fence_gate": [
+    {
+      "item": "tessera:palisade_stone_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_sky_blue_slab": [
+    {
+      "item": "tessera:wool_sky_blue_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_stained_glass_slab": [
+    {
+      "item": "tessera:magenta_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:tube_coral_fan": [
+    {
+      "item": "tessera:tube_coral_fan",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_dark_green": [
+    {
+      "item": "tessera:wool_dark_green",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_magenta_slab": [
+    {
+      "item": "tessera:wool_magenta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_marble_tile_stairs": [
+    {
+      "item": "tessera:magenta_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lamp": [
+    {
+      "item": "tessera:lamp",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_stained_wood_stairs": [
+    {
+      "item": "tessera:cyan_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_glazed_teracotta_slab": [
+    {
+      "item": "tessera:pink_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_stained_wood_fence": [
+    {
+      "item": "tessera:red_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_stained_wood_fence_gate": [
+    {
+      "item": "tessera:purple_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_red_chiseled_marble_tile": [
+    {
+      "item": "tessera:pastel_red_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:iron_ladder": [
+    {
+      "item": "tessera:iron_ladder",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_glazed_teracotta_slab": [
+    {
+      "item": "tessera:lime_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_glazed_teracotta_slab": [
+    {
+      "item": "tessera:light_blue_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bubble_coral_fan": [
+    {
+      "item": "tessera:bubble_coral_fan",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_palisade_sandstone": [
+    {
+      "item": "tessera:red_palisade_sandstone",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:gray_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_stained_glass_pane": [
+    {
+      "item": "tessera:black_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_concrete_stairs": [
+    {
+      "item": "tessera:cyan_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_glazed_teracotta": [
+    {
+      "item": "tessera:purple_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_red_marble_tile_pillar": [
+    {
+      "item": "tessera:pastel_red_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gold_fence_gate": [
+    {
+      "item": "tessera:gold_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cake": [
+    {
+      "item": "tessera:cake",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_glazed_teracotta_slab": [
+    {
+      "item": "tessera:red_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:blue_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:pink_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_lamp": [
+    {
+      "item": "tessera:blue_lamp",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_stained_wood_fence": [
+    {
+      "item": "tessera:magenta_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_glazed_teracotta_slab": [
+    {
+      "item": "tessera:black_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:iron_stairs": [
+    {
+      "item": "tessera:iron_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:yellow_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:orange_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:ice_block_slab": [
+    {
+      "item": "tessera:ice_block_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:honeycomb_block_stairs": [
+    {
+      "item": "tessera:honeycomb_block_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_sand": [
+    {
+      "item": "tessera:red_sand",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_chiseled_marble_tile": [
+    {
+      "item": "tessera:green_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:yellow_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_green_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:pastel_green_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cladded_white_trapdoor": [
+    {
+      "item": "tessera:cladded_white_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_blue_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:pastel_blue_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cup": [
+    {
+      "item": "tessera:cup",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_stained_glass_pane": [
+    {
+      "item": "tessera:white_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_marble_tile": [
+    {
+      "item": "tessera:pink_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_stained_wood": [
+    {
+      "item": "tessera:magenta_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:red_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_marble_tile_stairs": [
+    {
+      "item": "tessera:burgundy_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:acacia_wood": [
+    {
+      "item": "tessera:acacia_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_marble_tile": [
+    {
+      "item": "tessera:burgundy_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:clay": [
+    {
+      "item": "tessera:clay",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_stained_wood_fence": [
+    {
+      "item": "tessera:yellow_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:green_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_sky_blue_stairs": [
+    {
+      "item": "tessera:wool_sky_blue_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_siding": [
+    {
+      "item": "tessera:white_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_stained_glass": [
+    {
+      "item": "tessera:brown_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:renaissance_trapdoor": [
+    {
+      "item": "tessera:renaissance_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_stained_wood_fence_gate": [
+    {
+      "item": "tessera:light_blue_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_space_trapdoor_trapdoor": [
+    {
+      "item": "tessera:gray_space_trapdoor_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_brick": [
+    {
+      "item": "tessera:burgundy_brick",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gold_block": [
+    {
+      "item": "tessera:gold_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_stained_wood": [
+    {
+      "item": "tessera:blue_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:diamond_stairs": [
+    {
+      "item": "tessera:diamond_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_trapdoor": [
+    {
+      "item": "tessera:red_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:pink_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dry_grass_plant": [
+    {
+      "item": "tessera:dry_grass_plant",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_stained_glass_pane": [
+    {
+      "item": "tessera:light_blue_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_diorite_stairs": [
+    {
+      "item": "tessera:polished_diorite_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:acacia_wood_slab": [
+    {
+      "item": "tessera:acacia_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:iron_fence_gate": [
+    {
+      "item": "tessera:iron_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_marble_tile": [
+    {
+      "item": "tessera:magenta_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_vines": [
+    {
+      "item": "tessera:red_vines",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:cyan_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bamboo_2_trapdoor": [
+    {
+      "item": "tessera:bamboo_2_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_stairs": [
+    {
+      "item": "tessera:wool_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bamboo_door": [
+    {
+      "item": "tessera:bamboo_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_stained_glass_slab": [
+    {
+      "item": "tessera:green_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_stained_wood": [
+    {
+      "item": "tessera:white_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_stained_wood": [
+    {
+      "item": "tessera:red_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_seat": [
+    {
+      "item": "tessera:pink_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_stained_glass_pane": [
+    {
+      "item": "tessera:cyan_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_red_marble_tile": [
+    {
+      "item": "tessera:pastel_red_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_marble_tile_slab": [
+    {
+      "item": "tessera:purple_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_2_door": [
+    {
+      "item": "tessera:oak_2_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:brown_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_space_tile": [
+    {
+      "item": "tessera:gray_space_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_stained_wood_fence_gate": [
+    {
+      "item": "tessera:yellow_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_stone_stairs": [
+    {
+      "item": "tessera:palisade_stone_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:tall_grass": [
+    {
+      "item": "tessera:wheat_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:carrot_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:potato_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:beetroot_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_concrete_slab": [
+    {
+      "item": "tessera:light_blue_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:test_door_half": [
+    {
+      "item": "tessera:test_door_half",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_marble_tile_pillar": [
+    {
+      "item": "tessera:pink_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_seat": [
+    {
+      "item": "tessera:brown_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:cyan_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:glass": [
+    {
+      "item": "tessera:glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_dark_green_stairs": [
+    {
+      "item": "tessera:wool_dark_green_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:sea_light": [
+    {
+      "item": "tessera:sea_light",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_glazed_teracotta": [
+    {
+      "item": "tessera:brown_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dead_bush": [
+    {
+      "item": "tessera:dead_bush",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bubble_coral": [
+    {
+      "item": "tessera:bubble_coral",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:sandstone_slab": [
+    {
+      "item": "tessera:sandstone_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_siding": [
+    {
+      "item": "tessera:magenta_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:italian_bamboo_windows_door": [
+    {
+      "item": "tessera:italian_bamboo_windows_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:large_helicopter_blade": [
+    {
+      "item": "tessera:large_helicopter_blade",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:french_door": [
+    {
+      "item": "tessera:french_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_brick_stairs": [
+    {
+      "item": "tessera:burgundy_brick_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wine_glass": [
+    {
+      "item": "tessera:wine_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_stained_glass": [
+    {
+      "item": "tessera:lime_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_concrete_slab": [
+    {
+      "item": "tessera:gray_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:mosaic_bamboo_wood": [
+    {
+      "item": "tessera:mosaic_bamboo_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:granite_brick_fence_gate": [
+    {
+      "item": "tessera:granite_brick_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:acacia_door_2": [
+    {
+      "item": "tessera:acacia_door_2",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_chiseled_marble_tile": [
+    {
+      "item": "tessera:yellow_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:granite_brick_stairs": [
+    {
+      "item": "tessera:granite_brick_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:iron_trapdoor": [
+    {
+      "item": "tessera:iron_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_magenta": [
+    {
+      "item": "tessera:wool_magenta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_marble_tile_pillar": [
+    {
+      "item": "tessera:green_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cobblestone_slab": [
+    {
+      "item": "tessera:cobblestone_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:french_blue_windows_door": [
+    {
+      "item": "tessera:french_blue_windows_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_black_stairs": [
+    {
+      "item": "tessera:wool_black_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_stained_wood": [
+    {
+      "item": "tessera:gray_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_stained_glass": [
+    {
+      "item": "tessera:black_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_stained_glass_stairs": [
+    {
+      "item": "tessera:purple_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_red_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:pastel_red_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_marble_tile": [
+    {
+      "item": "tessera:blue_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:metal_grate": [
+    {
+      "item": "tessera:metal_grate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:glass_slab": [
+    {
+      "item": "tessera:glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_stained_glass_pane": [
+    {
+      "item": "tessera:lime_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_siding": [
+    {
+      "item": "tessera:light_gray_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_concrete": [
+    {
+      "item": "tessera:light_gray_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_log": [
+    {
+      "item": "tessera:oak_log",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:spruce_trapdoor": [
+    {
+      "item": "tessera:spruce_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_red_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:pastel_red_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_grass": [
+    {
+      "item": "tessera:dirt",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_concrete_stairs": [
+    {
+      "item": "tessera:gray_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_space_trapdoor_trapdoor": [
+    {
+      "item": "tessera:white_space_trapdoor_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:phantom_stone": [
+    {
+      "item": "tessera:phantom_stone",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_black": [
+    {
+      "item": "tessera:wool_black",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:birch_wood_slab": [
+    {
+      "item": "tessera:birch_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:italian_magenta_door": [
+    {
+      "item": "tessera:italian_magenta_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:gray_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_stained_wood_stairs": [
+    {
+      "item": "tessera:pink_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_carpet": [
+    {
+      "item": "tessera:red_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:pink_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_concrete_slab": [
+    {
+      "item": "tessera:purple_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:chiseled_marble_stairs": [
+    {
+      "item": "tessera:chiseled_marble_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:spruce_sapling": [
+    {
+      "item": "tessera:spruce_sapling",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+
+  "tessera:brown_chiseled_marble_tile": [
+    {
+      "item": "tessera:brown_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_space_control_panel_door": [
+    {
+      "item": "tessera:gray_space_control_panel_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:emerald_stairs": [
+    {
+      "item": "tessera:emerald_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:concrete_fence": [
+    {
+      "item": "tessera:concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_stained_glass_slab": [
+    {
+      "item": "tessera:pink_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:iron_fence": [
+    {
+      "item": "tessera:iron_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_sky_blue": [
+    {
+      "item": "tessera:wool_sky_blue",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cracked_stone_fence_gate": [
+    {
+      "item": "tessera:cracked_stone_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_flower": [
+    {
+      "item": "tessera:red_flower",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_stained_wood_fence": [
+    {
+      "item": "tessera:green_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_carpet": [
+    {
+      "item": "tessera:lime_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:cyan_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_wood_stairs": [
+    {
+      "item": "tessera:oak_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:party_magenta_door": [
+    {
+      "item": "tessera:party_magenta_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:acacia2_trapdoor": [
+    {
+      "item": "tessera:acacia2_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_marble_tile": [
+    {
+      "item": "tessera:purple_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:barrel": [
+    {
+      "item": "tessera:barrel",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_glazed_teracotta": [
+    {
+      "item": "tessera:blue_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:diamond_block": [
+    {
+      "item": "tessera:diamond_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_stained_wood_slab": [
+    {
+      "item": "tessera:light_blue_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_rose": [
+    {
+      "item": "tessera:red_rose",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_glazed_teracotta_slab": [
+    {
+      "item": "tessera:blue_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_stone_2_slab": [
+    {
+      "item": "tessera:palisade_stone_2_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:blue_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_orange": [
+    {
+      "item": "tessera:wool_orange",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_carpet": [
+    {
+      "item": "tessera:light_blue_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:drivers_seat": [
+    {
+      "item": "tessera:drivers_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_glazed_teracotta": [
+    {
+      "item": "tessera:gray_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_blue_marble_tile_slab": [
+    {
+      "item": "tessera:pastel_blue_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_candle": [
+    {
+      "item": "tessera:blue_candle",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:test_orientable": [
+    {
+      "item": "tessera:test_orientable",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:acacia_trapdoor": [
+    {
+      "item": "tessera:acacia_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_concrete_fence": [
+    {
+      "item": "tessera:yellow_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_stained_glass_stairs": [
+    {
+      "item": "tessera:black_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_stained_wood": [
+    {
+      "item": "tessera:orange_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_concrete_slab": [
+    {
+      "item": "tessera:blue_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_concrete": [
+    {
+      "item": "tessera:pink_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_seat": [
+    {
+      "item": "tessera:green_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_space_door": [
+    {
+      "item": "tessera:gray_space_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_stained_glass_stairs": [
+    {
+      "item": "tessera:yellow_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:marble_tile_slab": [
+    {
+      "item": "tessera:marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_stained_glass_pane": [
+    {
+      "item": "tessera:purple_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_palisade_sandstone_fence_gate": [
+    {
+      "item": "tessera:red_palisade_sandstone_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:prismarine_brick_fence": [
+    {
+      "item": "tessera:prismarine_brick_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cracked_stone_pillar": [
+    {
+      "item": "tessera:cracked_stone_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dark_prismarine_brick_fence": [
+    {
+      "item": "tessera:dark_prismarine_brick_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_stained_glass_stairs": [
+    {
+      "item": "tessera:light_gray_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone_brick_fence_gate": [
+    {
+      "item": "tessera:stone_brick_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_concrete_stairs": [
+    {
+      "item": "tessera:yellow_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_blue_marble_tile_pillar": [
+    {
+      "item": "tessera:pastel_blue_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:glow_rock": [
+    {
+      "item": "tessera:glow_rock",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_sandstone_fence": [
+    {
+      "item": "tessera:palisade_sandstone_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dark_prismarine_brick_stairs": [
+    {
+      "item": "tessera:dark_prismarine_brick_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dark_oak_fence_gate": [
+    {
+      "item": "tessera:dark_oak_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_glazed_teracotta": [
+    {
+      "item": "tessera:lime_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_deep_blue_stairs": [
+    {
+      "item": "tessera:wool_deep_blue_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_andesite": [
+    {
+      "item": "tessera:polished_andesite",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_glazed_teracotta": [
+    {
+      "item": "tessera:pink_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:black_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:french_windows_door": [
+    {
+      "item": "tessera:french_windows_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:horn_coral_fan": [
+    {
+      "item": "tessera:horn_coral_fan",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:iron_door": [
+    {
+      "item": "tessera:iron_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_green": [
+    {
+      "item": "tessera:wool_green",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_concrete_fence_gate": [
+    {
+      "item": "tessera:blue_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:warped_door": [
+    {
+      "item": "tessera:warped_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_purple_stairs": [
+    {
+      "item": "tessera:wool_purple_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:quartz_pillar": [
+    {
+      "item": "tessera:quartz_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_sandstone_stairs": [
+    {
+      "item": "tessera:red_sandstone_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_green_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:pastel_green_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_stained_wood_stairs": [
+    {
+      "item": "tessera:purple_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_stained_glass_stairs": [
+    {
+      "item": "tessera:cyan_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_seat": [
+    {
+      "item": "tessera:cyan_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gold_seat": [
+    {
+      "item": "tessera:gold_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_marble_tile_slab": [
+    {
+      "item": "tessera:yellow_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_marble_tile_stairs": [
+    {
+      "item": "tessera:pink_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_yellow_stairs": [
+    {
+      "item": "tessera:wool_yellow_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:italian_green_windows_door": [
+    {
+      "item": "tessera:italian_green_windows_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cracked_stone": [
+    {
+      "item": "tessera:cracked_stone",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_stained_glass_stairs": [
+    {
+      "item": "tessera:brown_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_marble_tile_slab": [
+    {
+      "item": "tessera:black_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:emerald_fence": [
+    {
+      "item": "tessera:emerald_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_deep_blue": [
+    {
+      "item": "tessera:wool_deep_blue",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_glazed_teracotta": [
+    {
+      "item": "tessera:white_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_wood": [
+    {
+      "item": "tessera:oak_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:birch_wood": [
+    {
+      "item": "tessera:birch_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_concrete_slab": [
+    {
+      "item": "tessera:white_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_stained_wood_slab": [
+    {
+      "item": "tessera:purple_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:brown_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_stained_wood_fence_gate": [
+    {
+      "item": "tessera:cyan_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_2_trapdoor": [
+    {
+      "item": "tessera:oak_2_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:light_gray_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:honeycomb_block_slab": [
+    {
+      "item": "tessera:honeycomb_block_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_dark_green_slab": [
+    {
+      "item": "tessera:wool_dark_green_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_stained_wood_fence_gate": [
+    {
+      "item": "tessera:red_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:yellow_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_sapling": [
+    {
+      "item": "tessera:jungle_sapling",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_siding": [
+    {
+      "item": "tessera:gray_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_candle": [
+    {
+      "item": "tessera:yellow_candle",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cladded_magenta_door": [
+    {
+      "item": "tessera:cladded_magenta_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_stained_wood": [
+    {
+      "item": "tessera:pink_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+
+  "tessera:bottle": [
+    {
+      "item": "tessera:bottle",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_stained_glass": [
+    {
+      "item": "tessera:blue_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:grass": [
+    {
+      "item": "tessera:dirt",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:farmland": [
+    {
+      "item": "tessera:dirt",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:iron_block": [
+    {
+      "item": "tessera:iron_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_grass_plant": [
+    {
+      "item": "tessera:wheat_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:carrot_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:potato_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:beetroot_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_concrete": [
+    {
+      "item": "tessera:purple_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_marble_tile_stairs": [
+    {
+      "item": "tessera:orange_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone_brick_slab": [
+    {
+      "item": "tessera:stone_brick_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_chiseled_marble_tile": [
+    {
+      "item": "tessera:pink_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_stone_2_fence": [
+    {
+      "item": "tessera:palisade_stone_2_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:engraved_sandstone": [
+    {
+      "item": "tessera:engraved_sandstone",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lily_pad": [
+    {
+      "item": "tessera:lily_pad",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_concrete": [
+    {
+      "item": "tessera:orange_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_stained_glass_pane": [
+    {
+      "item": "tessera:brown_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_stained_wood_slab": [
+    {
+      "item": "tessera:green_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_stone": [
+    {
+      "item": "tessera:palisade_stone",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_green_seat": [
+    {
+      "item": "tessera:light_green_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:italian_windows_door": [
+    {
+      "item": "tessera:italian_windows_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brain_coral": [
+    {
+      "item": "tessera:brain_coral",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_carpet": [
+    {
+      "item": "tessera:brown_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_concrete_fence": [
+    {
+      "item": "tessera:gray_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_carpet": [
+    {
+      "item": "tessera:cyan_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_concrete": [
+    {
+      "item": "tessera:light_blue_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_glazed_teracotta": [
+    {
+      "item": "tessera:light_gray_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bamboo_wood_stairs": [
+    {
+      "item": "tessera:bamboo_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cladded_green_door": [
+    {
+      "item": "tessera:cladded_green_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_orchid": [
+    {
+      "item": "tessera:blue_orchid",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:spruce_wood": [
+    {
+      "item": "tessera:spruce_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dandelion": [
+    {
+      "item": "tessera:dandelion",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_concrete_slab": [
+    {
+      "item": "tessera:magenta_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_blue_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:pastel_blue_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_concrete_stairs": [
+    {
+      "item": "tessera:light_gray_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:purple_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_space_door_2": [
+    {
+      "item": "tessera:white_space_door_2",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_chiseled_marble_tile": [
+    {
+      "item": "tessera:burgundy_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_concrete_fence": [
+    {
+      "item": "tessera:green_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_marble_tile_slab": [
+    {
+      "item": "tessera:green_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cobblestone_stairs": [
+    {
+      "item": "tessera:cobblestone_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:tan_siding": [
+    {
+      "item": "tessera:tan_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:minecart_road_slab": [
+    {
+      "item": "tessera:minecart_road_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_concrete_slab": [
+    {
+      "item": "tessera:red_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_concrete_stairs": [
+    {
+      "item": "tessera:purple_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_pink": [
+    {
+      "item": "tessera:wool_pink",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_brick_fence_gate": [
+    {
+      "item": "tessera:burgundy_brick_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_fence": [
+    {
+      "item": "tessera:jungle_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_concrete_fence_gate": [
+    {
+      "item": "tessera:magenta_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:vines": [
+    {
+      "item": "tessera:vines",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:obsidian_fence": [
+    {
+      "item": "tessera:obsidian_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:ladder": [
+    {
+      "item": "tessera:ladder",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_stained_glass": [
+    {
+      "item": "tessera:purple_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_glazed_teracotta_slab": [
+    {
+      "item": "tessera:purple_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_marble_tile_pillar": [
+    {
+      "item": "tessera:black_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_renaissance_door": [
+    {
+      "item": "tessera:oak_renaissance_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_stained_wood": [
+    {
+      "item": "tessera:green_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:mosaic_bamboo_wood_fence_gate": [
+    {
+      "item": "tessera:mosaic_bamboo_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_stone_2": [
+    {
+      "item": "tessera:palisade_stone_2",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:obsidian_stairs": [
+    {
+      "item": "tessera:obsidian_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cracked_stone_slab": [
+    {
+      "item": "tessera:cracked_stone_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:concrete_slab": [
+    {
+      "item": "tessera:concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_stained_glass_stairs": [
+    {
+      "item": "tessera:light_blue_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cladded_blue_door": [
+    {
+      "item": "tessera:cladded_blue_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_purple": [
+    {
+      "item": "tessera:wool_purple",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_rose": [
+    {
+      "item": "tessera:white_rose",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_stained_glass": [
+    {
+      "item": "tessera:cyan_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone_brick_stairs": [
+    {
+      "item": "tessera:stone_brick_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:web_door": [
+    {
+      "item": "tessera:web_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:70_hp_engine": [
+    {
+      "item": "tessera:70_hp_engine",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:quartz_pillar_block": [
+    {
+      "item": "tessera:quartz_pillar_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:blue_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:mushroom_2": [
+    {
+      "item": "tessera:mushroom_2",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_purple_slab": [
+    {
+      "item": "tessera:wool_purple_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_stained_glass_slab": [
+    {
+      "item": "tessera:red_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:flat_vines": [
+    {
+      "item": "tessera:flat_vines",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone_with_vines_fence": [
+    {
+      "item": "tessera:stone_with_vines_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_concrete_fence": [
+    {
+      "item": "tessera:orange_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:italian_green_door": [
+    {
+      "item": "tessera:italian_green_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_concrete_stairs": [
+    {
+      "item": "tessera:blue_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:brown_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_space_tile_stairs": [
+    {
+      "item": "tessera:gray_space_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:small_helicopter_blade": [
+    {
+      "item": "tessera:small_helicopter_blade",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:french_magenta_door": [
+    {
+      "item": "tessera:french_magenta_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cladded_birch_trapdoor": [
+    {
+      "item": "tessera:cladded_birch_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_stone_slab": [
+    {
+      "item": "tessera:palisade_stone_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_concrete_fence_gate": [
+    {
+      "item": "tessera:yellow_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_yellow": [
+    {
+      "item": "tessera:wool_yellow",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_vines_flat": [
+    {
+      "item": "tessera:red_vines_flat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_concrete": [
+    {
+      "item": "tessera:red_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_seat": [
+    {
+      "item": "tessera:light_gray_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_slab": [
+    {
+      "item": "tessera:wool_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_space_door_2": [
+    {
+      "item": "tessera:gray_space_door_2",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_stained_glass_slab": [
+    {
+      "item": "tessera:yellow_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_trapdoor": [
+    {
+      "item": "tessera:oak_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:chiseled_marble": [
+    {
+      "item": "tessera:chiseled_marble",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_seat": [
+    {
+      "item": "tessera:gray_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:marble_tile_stairs": [
+    {
+      "item": "tessera:marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_marble_tile_slab": [
+    {
+      "item": "tessera:brown_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_diorite_slab": [
+    {
+      "item": "tessera:polished_diorite_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_concrete_fence": [
+    {
+      "item": "tessera:cyan_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bookshelf": [
+    {
+      "item": "tessera:bookshelf",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:track_stop": [
+    {
+      "item": "tessera:track_stop",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:concrete_stairs": [
+    {
+      "item": "tessera:concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:flat_dragon_vines": [
+    {
+      "item": "tessera:flat_dragon_vines",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_palisade_sandstone_slab": [
+    {
+      "item": "tessera:red_palisade_sandstone_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_marble_tile_pillar": [
+    {
+      "item": "tessera:magenta_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:acacia_fence": [
+    {
+      "item": "tessera:acacia_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_seat": [
+    {
+      "item": "tessera:yellow_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:fire_coral": [
+    {
+      "item": "tessera:fire_coral",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_concrete_slab": [
+    {
+      "item": "tessera:light_gray_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gold_siding": [
+    {
+      "item": "tessera:gold_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_carpet": [
+    {
+      "item": "tessera:orange_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_trapdoor": [
+    {
+      "item": "tessera:white_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bamboo_wood": [
+    {
+      "item": "tessera:bamboo_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone_with_vines_fence_gate": [
+    {
+      "item": "tessera:stone_with_vines_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_stained_glass_stairs": [
+    {
+      "item": "tessera:magenta_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_stained_glass_pane": [
+    {
+      "item": "tessera:orange_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_glazed_teracotta_slab": [
+    {
+      "item": "tessera:cyan_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:acacia_door": [
+    {
+      "item": "tessera:acacia_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cladded_door": [
+    {
+      "item": "tessera:cladded_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:mini_cactus": [
+    {
+      "item": "tessera:mini_cactus",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_flower": [
+    {
+      "item": "tessera:yellow_flower",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_stained_wood_fence": [
+    {
+      "item": "tessera:orange_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_siding": [
+    {
+      "item": "tessera:purple_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:french_blue_door": [
+    {
+      "item": "tessera:french_blue_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_marble_tile_stairs": [
+    {
+      "item": "tessera:yellow_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_concrete_fence_gate": [
+    {
+      "item": "tessera:gray_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bamboo_trapdoor": [
+    {
+      "item": "tessera:bamboo_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:plant_grass": [
+    {
+      "item": "tessera:plant_grass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bread": [
+    {
+      "item": "tessera:bread",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_marble_tile_slab": [
+    {
+      "item": "tessera:orange_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oval_bamboo_door": [
+    {
+      "item": "tessera:oval_bamboo_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_stained_glass": [
+    {
+      "item": "tessera:yellow_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:torch": [
+    {
+      "item": "tessera:torch",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone_brick": [
+    {
+      "item": "tessera:stone_brick",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_siding": [
+    {
+      "item": "tessera:blue_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:candle": [
+    {
+      "item": "tessera:candle",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:honeycomb_block": [
+    {
+      "item": "tessera:honeycomb_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_concrete": [
+    {
+      "item": "tessera:blue_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_concrete_slab": [
+    {
+      "item": "tessera:pink_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lapis_lazul_stairs": [
+    {
+      "item": "tessera:lapis_lazul_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:iron_block_slab": [
+    {
+      "item": "tessera:iron_block_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_red_slab": [
+    {
+      "item": "tessera:wool_red_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_stained_wood_fence": [
+    {
+      "item": "tessera:light_blue_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_red": [
+    {
+      "item": "tessera:wool_red",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:orange_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_seat": [
+    {
+      "item": "tessera:magenta_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_stained_glass_slab": [
+    {
+      "item": "tessera:blue_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:gray_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_glazed_teracotta_slab": [
+    {
+      "item": "tessera:yellow_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:birch_fence_gate": [
+    {
+      "item": "tessera:birch_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bamboo_ladder": [
+    {
+      "item": "tessera:bamboo_ladder",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:blue_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_concrete_fence_gate": [
+    {
+      "item": "tessera:purple_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dirt": [
+    {
+      "item": "tessera:dirt",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:granite_brick_fence": [
+    {
+      "item": "tessera:granite_brick_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_concrete_fence": [
+    {
+      "item": "tessera:light_gray_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:snow_block": [
+    {
+      "item": "tessera:snow_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_concrete_fence": [
+    {
+      "item": "tessera:brown_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:green_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_siding": [
+    {
+      "item": "tessera:yellow_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_concrete": [
+    {
+      "item": "tessera:yellow_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:marble_pillar_block": [
+    {
+      "item": "tessera:marble_pillar_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:mosaic_bamboo_wood_fence": [
+    {
+      "item": "tessera:mosaic_bamboo_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_marble_tile": [
+    {
+      "item": "tessera:orange_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:spruce_log": [
+    {
+      "item": "tessera:spruce_log",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brain_coral_fan": [
+    {
+      "item": "tessera:brain_coral_fan",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_marble_tile_slab": [
+    {
+      "item": "tessera:pink_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cladded_redwood_trapdoor": [
+    {
+      "item": "tessera:cladded_redwood_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:switch_junction": [
+    {
+      "item": "tessera:switch_junction",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:granite_brick_pillar": [
+    {
+      "item": "tessera:granite_brick_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:orange_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_fence_gate": [
+    {
+      "item": "tessera:jungle_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cobblestone": [
+    {
+      "item": "tessera:cobblestone",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_brick_slab": [
+    {
+      "item": "tessera:burgundy_brick_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_siding": [
+    {
+      "item": "tessera:pink_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:merge_track": [
+    {
+      "item": "tessera:merge_track",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:black_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:green_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brick": [
+    {
+      "item": "tessera:brick",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_stained_wood_slab": [
+    {
+      "item": "tessera:red_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:horn_coral_block": [
+    {
+      "item": "tessera:horn_coral_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:black_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_siding": [
+    {
+      "item": "tessera:green_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lapis_lazul_block": [
+    {
+      "item": "tessera:lapis_lazul_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_green_slab": [
+    {
+      "item": "tessera:wool_green_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_brown": [
+    {
+      "item": "tessera:wool_brown",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:acacia_log": [
+    {
+      "item": "tessera:acacia_log",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_stained_wood_stairs": [
+    {
+      "item": "tessera:black_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oval_door": [
+    {
+      "item": "tessera:oval_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_carpet": [
+    {
+      "item": "tessera:magenta_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_stained_wood_stairs": [
+    {
+      "item": "tessera:orange_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dark_oak_ladder": [
+    {
+      "item": "tessera:dark_oak_ladder",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_chiseled_marble_tile": [
+    {
+      "item": "tessera:gray_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_concrete_fence": [
+    {
+      "item": "tessera:purple_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_stained_wood_stairs": [
+    {
+      "item": "tessera:white_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_stained_glass_stairs": [
+    {
+      "item": "tessera:green_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:cyan_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_sandstone_fence_gate": [
+    {
+      "item": "tessera:palisade_sandstone_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_green_marble_tile_pillar": [
+    {
+      "item": "tessera:pastel_green_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_marble_tile_stairs": [
+    {
+      "item": "tessera:purple_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_concrete_fence_gate": [
+    {
+      "item": "tessera:pink_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_glazed_teracotta_slab": [
+    {
+      "item": "tessera:white_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_stained_glass_pane": [
+    {
+      "item": "tessera:magenta_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cave_vines_flat": [
+    {
+      "item": "tessera:cave_vines_flat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brick_slab": [
+    {
+      "item": "tessera:brick_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:glass_pane": [
+    {
+      "item": "tessera:glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_stained_wood_stairs": [
+    {
+      "item": "tessera:yellow_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_palisade_sandstone_stairs": [
+    {
+      "item": "tessera:red_palisade_sandstone_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:fire": [
+    {
+      "item": "tessera:fire",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:andesite": [
+    {
+      "item": "tessera:andesite",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:mushroom": [
+    {
+      "item": "tessera:mushroom",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_stained_glass_slab": [
+    {
+      "item": "tessera:orange_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:straight_track": [
+    {
+      "item": "tessera:track",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_chiseled_marble_tile": [
+    {
+      "item": "tessera:blue_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_green_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:pastel_green_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_stained_glass": [
+    {
+      "item": "tessera:pink_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_stained_wood_fence": [
+    {
+      "item": "tessera:black_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_magenta_stairs": [
+    {
+      "item": "tessera:wool_magenta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_green_stairs": [
+    {
+      "item": "tessera:wool_green_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_red_marble_tile_slab": [
+    {
+      "item": "tessera:pastel_red_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gold_fence": [
+    {
+      "item": "tessera:gold_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:mosaic_bamboo_wood_stairs": [
+    {
+      "item": "tessera:mosaic_bamboo_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:french_bamboo_door": [
+    {
+      "item": "tessera:french_bamboo_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:glass_door": [
+    {
+      "item": "tessera:glass_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cactus": [
+    {
+      "item": "tessera:cactus",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_stained_wood_slab": [
+    {
+      "item": "tessera:yellow_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_wood_slab": [
+    {
+      "item": "tessera:oak_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_concrete_slab": [
+    {
+      "item": "tessera:lime_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_stained_glass_pane": [
+    {
+      "item": "tessera:yellow_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_stained_wood_stairs": [
+    {
+      "item": "tessera:gray_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_sandstone_slab": [
+    {
+      "item": "tessera:palisade_sandstone_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:spruce_2_door": [
+    {
+      "item": "tessera:spruce_2_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_stained_glass": [
+    {
+      "item": "tessera:gray_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dragon_vines": [
+    {
+      "item": "tessera:dragon_vines",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:party_yellow_door": [
+    {
+      "item": "tessera:party_yellow_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:magenta_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:concrete": [
+    {
+      "item": "tessera:concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:test_slab": [
+    {
+      "item": "tessera:test_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_door": [
+    {
+      "item": "tessera:white_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:granite_brick_slab": [
+    {
+      "item": "tessera:granite_brick_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_marble_tile": [
+    {
+      "item": "tessera:gray_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:diamond_fence_gate": [
+    {
+      "item": "tessera:diamond_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_glazed_teracotta_slab": [
+    {
+      "item": "tessera:orange_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lapis_lazul_block_slab": [
+    {
+      "item": "tessera:lapis_lazul_block_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_seat": [
+    {
+      "item": "tessera:orange_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:phantom_sandstone": [
+    {
+      "item": "tessera:phantom_sandstone",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool": [
+    {
+      "item": "tessera:wool",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:italian_magenta_windows_door": [
+    {
+      "item": "tessera:italian_magenta_windows_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_trapdoor": [
+    {
+      "item": "tessera:jungle_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bamboo_wood_slab": [
+    {
+      "item": "tessera:bamboo_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dark_prismarine_bricks": [
+    {
+      "item": "tessera:dark_prismarine_bricks",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_marble_tile": [
+    {
+      "item": "tessera:green_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_chiseled_marble_tile": [
+    {
+      "item": "tessera:magenta_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dark_oak_wood_stairs": [
+    {
+      "item": "tessera:dark_oak_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_carpet": [
+    {
+      "item": "tessera:white_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:acacia_fence_gate": [
+    {
+      "item": "tessera:acacia_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_stained_wood_fence_gate": [
+    {
+      "item": "tessera:black_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:birch_fence": [
+    {
+      "item": "tessera:birch_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bamboo_block": [
+    {
+      "item": "tessera:bamboo_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_carpet": [
+    {
+      "item": "tessera:yellow_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_stained_wood_slab": [
+    {
+      "item": "tessera:magenta_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:carrot_seeds": [
+    {
+      "item": "tessera:carrot_seeds",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:italian_bamboo_door": [
+    {
+      "item": "tessera:italian_bamboo_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_concrete_fence_gate": [
+    {
+      "item": "tessera:brown_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_marble_tile_pillar": [
+    {
+      "item": "tessera:gray_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_stained_glass_slab": [
+    {
+      "item": "tessera:white_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:obsidian": [
+    {
+      "item": "tessera:obsidian",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_sandstone": [
+    {
+      "item": "tessera:palisade_sandstone",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_blue_chiseled_marble_tile": [
+    {
+      "item": "tessera:pastel_blue_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_chiseled_marble_tile_slab": [
+    {
+      "item": "tessera:magenta_chiseled_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_concrete_stairs": [
+    {
+      "item": "tessera:light_blue_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oval_green_door": [
+    {
+      "item": "tessera:oval_green_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wheat_seeds": [
+    {
+      "item": "tessera:wheat_seeds",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:burgundy_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brain_coral_block": [
+    {
+      "item": "tessera:brain_coral_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_stained_glass_stairs": [
+    {
+      "item": "tessera:pink_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_concrete_fence": [
+    {
+      "item": "tessera:blue_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_marble_tile_pillar": [
+    {
+      "item": "tessera:orange_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:30_hp_engine": [
+    {
+      "item": "tessera:30_hp_engine",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_concrete": [
+    {
+      "item": "tessera:white_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:brown_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_stone_2_fence_gate": [
+    {
+      "item": "tessera:palisade_stone_2_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:sea_grass": [
+    {
+      "item": "tessera:sea_grass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_gray_slab": [
+    {
+      "item": "tessera:wool_gray_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone_brick_fence": [
+    {
+      "item": "tessera:stone_brick_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_concrete": [
+    {
+      "item": "tessera:cyan_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:prismarine_brick_stairs": [
+    {
+      "item": "tessera:prismarine_brick_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:crosstrack": [
+    {
+      "item": "tessera:crosstrack",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_wood_stairs": [
+    {
+      "item": "tessera:jungle_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:55_hp_engine": [
+    {
+      "item": "tessera:55_hp_engine",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_stone_fence": [
+    {
+      "item": "tessera:palisade_stone_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_stained_wood_stairs": [
+    {
+      "item": "tessera:magenta_stained_wood_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_glazed_teracotta_slab": [
+    {
+      "item": "tessera:gray_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_stained_wood_fence": [
+    {
+      "item": "tessera:lime_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_stained_glass_stairs": [
+    {
+      "item": "tessera:gray_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_carpet": [
+    {
+      "item": "tessera:green_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:sandstone_stairs": [
+    {
+      "item": "tessera:sandstone_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:checkerboard_chiseled_marble": [
+    {
+      "item": "tessera:checkerboard_chiseled_marble",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_black_slab": [
+    {
+      "item": "tessera:wool_black_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_sandstone_pillar": [
+    {
+      "item": "tessera:palisade_sandstone_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:tube_coral_block": [
+    {
+      "item": "tessera:tube_coral_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_chiseled_marble_tile_pillar": [
+    {
+      "item": "tessera:magenta_chiseled_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_candle": [
+    {
+      "item": "tessera:green_candle",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:ice_block_stairs": [
+    {
+      "item": "tessera:ice_block_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_seat": [
+    {
+      "item": "tessera:blue_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_stained_wood_fence": [
+    {
+      "item": "tessera:cyan_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone": [
+    {
+      "item": "tessera:stone",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_fence": [
+    {
+      "item": "tessera:oak_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:azure_bluet": [
+    {
+      "item": "tessera:azure_bluet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_tulip": [
+    {
+      "item": "tessera:orange_tulip",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_glazed_teracotta_stairs": [
+    {
+      "item": "tessera:lime_glazed_teracotta_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:green_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_yellow_slab": [
+    {
+      "item": "tessera:wool_yellow_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:crosswalk_paint": [
+    {
+      "item": "tessera:crosswalk_paint",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_green_siding": [
+    {
+      "item": "tessera:light_green_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_stained_glass_slab": [
+    {
+      "item": "tessera:gray_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_glazed_teracotta_slab": [
+    {
+      "item": "tessera:green_glazed_teracotta_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_stained_glass_pane": [
+    {
+      "item": "tessera:light_gray_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_fence_gate": [
+    {
+      "item": "tessera:oak_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:burgundy_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:fern": [
+    {
+      "item": "tessera:fern",
+      "chance": 1.0,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:wheat_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:carrot_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:potato_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:beetroot_seeds",
+      "chance": 0.1,
+      "maxItems": 1
+    }
+  ],
+  "tessera:tan_seat": [
+    {
+      "item": "tessera:tan_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:burgundy_brick_fence": [
+    {
+      "item": "tessera:burgundy_brick_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_concrete_stairs": [
+    {
+      "item": "tessera:magenta_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_stained_glass": [
+    {
+      "item": "tessera:light_blue_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_stained_glass_slab": [
+    {
+      "item": "tessera:brown_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_stained_glass_slab": [
+    {
+      "item": "tessera:black_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pansies": [
+    {
+      "item": "tessera:pansies",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:emerald_block": [
+    {
+      "item": "tessera:emerald_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:engraved_red_sandstone": [
+    {
+      "item": "tessera:engraved_red_sandstone",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_wood_slab": [
+    {
+      "item": "tessera:jungle_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bamboo_wood_fence": [
+    {
+      "item": "tessera:bamboo_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_stained_glass_pane": [
+    {
+      "item": "tessera:green_stained_glass_pane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:concrete_fence_gate": [
+    {
+      "item": "tessera:concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_stained_glass": [
+    {
+      "item": "tessera:orange_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:engraved_sandstone_2": [
+    {
+      "item": "tessera:engraved_sandstone_2",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:birch_door": [
+    {
+      "item": "tessera:birch_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:marble_tile": [
+    {
+      "item": "tessera:marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_stained_wood_fence_gate": [
+    {
+      "item": "tessera:gray_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_concrete_stairs": [
+    {
+      "item": "tessera:red_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:warped_trapdoor": [
+    {
+      "item": "tessera:warped_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:emerald_block_slab": [
+    {
+      "item": "tessera:emerald_block_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_door": [
+    {
+      "item": "tessera:oak_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_chiseled_marble_tile_stairs": [
+    {
+      "item": "tessera:orange_chiseled_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_stained_glass": [
+    {
+      "item": "tessera:light_gray_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_gray": [
+    {
+      "item": "tessera:wool_gray",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_stained_glass_stairs": [
+    {
+      "item": "tessera:lime_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:stone_with_vines_pillar": [
+    {
+      "item": "tessera:stone_with_vines_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_2_trapdoor": [
+    {
+      "item": "tessera:jungle_2_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_space_tile_slab": [
+    {
+      "item": "tessera:gray_space_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_siding": [
+    {
+      "item": "tessera:red_siding",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_concrete": [
+    {
+      "item": "tessera:brown_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:road_markings": [
+    {
+      "item": "tessera:road_markings",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_eye_susan": [
+    {
+      "item": "tessera:black_eye_susan",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wool_turquoise_stairs": [
+    {
+      "item": "tessera:wool_turquoise_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_space_tile_slab": [
+    {
+      "item": "tessera:white_space_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_marble_tile_stairs": [
+    {
+      "item": "tessera:brown_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_space_tile_stairs": [
+    {
+      "item": "tessera:white_space_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:obsidian_fence_gate": [
+    {
+      "item": "tessera:obsidian_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_stained_glass_slab": [
+    {
+      "item": "tessera:light_blue_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_glazed_teracotta": [
+    {
+      "item": "tessera:green_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:magenta_concrete": [
+    {
+      "item": "tessera:magenta_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:dry_grass": [
+    {
+      "item": "tessera:dirt",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_concrete_slab": [
+    {
+      "item": "tessera:black_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:chiseled_quartz_stairs": [
+    {
+      "item": "tessera:chiseled_quartz_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_stained_wood_slab": [
+    {
+      "item": "tessera:orange_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:hay_bail": [
+    {
+      "item": "tessera:hay_bail",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:edison_light": [
+    {
+      "item": "tessera:edison_light",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_glazed_teracotta": [
+    {
+      "item": "tessera:light_blue_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:roses": [
+    {
+      "item": "tessera:roses",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:acacia_sapling": [
+    {
+      "item": "tessera:acacia_sapling",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:peony_bush": [
+    {
+      "item": "tessera:peony_bush",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brick_stairs": [
+    {
+      "item": "tessera:brick_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:french_green_windows_door": [
+    {
+      "item": "tessera:french_green_windows_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_stained_glass_slab": [
+    {
+      "item": "tessera:lime_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_green_chiseled_marble_tile": [
+    {
+      "item": "tessera:pastel_green_chiseled_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_stained_wood_fence_gate": [
+    {
+      "item": "tessera:white_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_palisade_sandstone_pillar": [
+    {
+      "item": "tessera:red_palisade_sandstone_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:diamond_fence": [
+    {
+      "item": "tessera:diamond_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:solar_panel": [
+    {
+      "item": "tessera:solar_panel",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:italian_blue_door": [
+    {
+      "item": "tessera:italian_blue_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:spruce_door": [
+    {
+      "item": "tessera:spruce_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_blue_concrete_fence_gate": [
+    {
+      "item": "tessera:light_blue_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:ice_block": [
+    {
+      "item": "tessera:ice_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:green_stained_glass": [
+    {
+      "item": "tessera:green_stained_glass",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_stained_wood_fence": [
+    {
+      "item": "tessera:purple_stained_wood_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gold_stairs": [
+    {
+      "item": "tessera:gold_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_marble_tile_pillar": [
+    {
+      "item": "tessera:brown_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_diorite": [
+    {
+      "item": "tessera:polished_diorite",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_glazed_teracotta": [
+    {
+      "item": "tessera:orange_glazed_teracotta",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_concrete_fence_gate": [
+    {
+      "item": "tessera:orange_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_stained_wood_slab": [
+    {
+      "item": "tessera:cyan_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_concrete_fence": [
+    {
+      "item": "tessera:black_concrete_fence",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_seat": [
+    {
+      "item": "tessera:red_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_stained_wood_slab": [
+    {
+      "item": "tessera:black_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_stained_wood_slab": [
+    {
+      "item": "tessera:gray_stained_wood_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_seat": [
+    {
+      "item": "tessera:purple_seat",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lime_concrete": [
+    {
+      "item": "tessera:lime_concrete",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_stone_2_pillar": [
+    {
+      "item": "tessera:palisade_stone_2_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:mega_tnt": [
+    {
+      "item": "tessera:mega_tnt",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_diorite_fence_gate": [
+    {
+      "item": "tessera:polished_diorite_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:potato_seeds": [
+    {
+      "item": "tessera:potato_seeds",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:light_gray_carpet": [
+    {
+      "item": "tessera:light_gray_carpet",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:diamond_block_slab": [
+    {
+      "item": "tessera:diamond_block_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_concrete_fence_gate": [
+    {
+      "item": "tessera:white_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pink_concrete_stairs": [
+    {
+      "item": "tessera:pink_concrete_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pastel_green_marble_tile_slab": [
+    {
+      "item": "tessera:pastel_green_marble_tile_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:french_green_door": [
+    {
+      "item": "tessera:french_green_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_marble_tile_stairs": [
+    {
+      "item": "tessera:black_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_stained_glass_slab": [
+    {
+      "item": "tessera:cyan_stained_glass_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:test_trapdoor": [
+    {
+      "item": "tessera:test_trapdoor",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:yellow_concrete_slab": [
+    {
+      "item": "tessera:yellow_concrete_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_door": [
+    {
+      "item": "tessera:jungle_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bamboo_2_door": [
+    {
+      "item": "tessera:bamboo_2_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_concrete_fence_gate": [
+    {
+      "item": "tessera:cyan_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:engraved_red_sandstone_2": [
+    {
+      "item": "tessera:engraved_red_sandstone_2",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_marble_tile_stairs": [
+    {
+      "item": "tessera:cyan_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:black_concrete_fence_gate": [
+    {
+      "item": "tessera:black_concrete_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:white_space_door": [
+    {
+      "item": "tessera:white_space_door",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:orange_stained_wood_fence_gate": [
+    {
+      "item": "tessera:orange_stained_wood_fence_gate",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:palisade_sandstone_stairs": [
+    {
+      "item": "tessera:palisade_sandstone_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gray_marble_tile_stairs": [
+    {
+      "item": "tessera:gray_marble_tile_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:brown_marble_tile": [
+    {
+      "item": "tessera:brown_marble_tile",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:marble_pillar": [
+    {
+      "item": "tessera:marble_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:red_sandstone_slab": [
+    {
+      "item": "tessera:red_sandstone_slab",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:granite": [
+    {
+      "item": "tessera:granite",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:blue_stained_glass_stairs": [
+    {
+      "item": "tessera:blue_stained_glass_stairs",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:cyan_stained_wood": [
+    {
+      "item": "tessera:cyan_stained_wood",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:purple_marble_tile_pillar": [
+    {
+      "item": "tessera:purple_marble_tile_pillar",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:crafting_table": [
+    {
+      "item": "tessera:crafting_table",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:furnace": [
+    {
+      "item": "tessera:furnace",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:spawn_block": [
+    {
+      "item": "tessera:spawn_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ]
+}

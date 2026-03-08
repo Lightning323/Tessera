@@ -1,0 +1,130 @@
+[
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:yellow_dye"
+    ],
+    "output": "tessera:yellow_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:black_dye"
+    ],
+    "output": "tessera:black_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:cyan_dye"
+    ],
+    "output": "tessera:cyan_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:gray_dye"
+    ],
+    "output": "tessera:gray_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:green_dye"
+    ],
+    "output": "tessera:green_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:blue_dye",
+      "tessera:white_dye"
+    ],
+    "output": "tessera:light_blue_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:red_dye"
+    ],
+    "output": "tessera:red_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:blue_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:lime_dye"
+    ],
+    "output": "tessera:lime_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:magenta_dye"
+    ],
+    "output": "tessera:magenta_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:orange_dye"
+    ],
+    "output": "tessera:orange_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:magenta_dye",
+      "tessera:white_dye"
+    ],
+    "output": "tessera:pink_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:purple_dye"
+    ],
+    "output": "tessera:purple_stained_wood",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "tessera:white_dye"
+    ],
+    "output": "tessera:white_stained_wood",
+    "amount": 1
+  }
+]

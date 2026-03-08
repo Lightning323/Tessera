@@ -1,0 +1,86 @@
+[
+  {
+    "input": [
+      null,
+      "#stone",
+      null,
+      "#stone",
+      null,
+      "#stone",
+      null,
+      "#stone",
+      null
+    ],
+    "output": "tessera:palisade_stone",
+    "amount": 4
+  },
+  {
+    "input": [
+      "#stone",
+      null,
+      "#stone",
+      null,
+      "#stone",
+      null,
+      "#stone",
+      null,
+      "#stone"
+    ],
+    "output": "tessera:palisade_stone_2",
+    "amount": 5
+  },
+  {
+    "input": [
+      "tessera:stone",
+      "tessera:stone",
+      null,
+      "tessera:stone",
+      "tessera:stone",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:stone_brick",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "#stone",
+      "#wood"
+    ],
+    "output": "tessera:tan_siding",
+    "amount": 2
+  },
+  {
+    "input": [
+      "tessera:granite",
+      "tessera:granite",
+      null,
+      "tessera:granite",
+      "tessera:granite",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:granite_brick",
+    "amount": 4
+  },
+  {
+    "input": [
+      "tessera:gunpowder",
+      "tessera:granite",
+      "tessera:gunpowder",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:gunpowder",
+      "tessera:granite",
+      "tessera:gunpowder"
+    ],
+    "output": "tessera:tnt",
+    "amount": 2
+  }
+]

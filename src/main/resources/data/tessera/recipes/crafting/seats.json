@@ -1,0 +1,274 @@
+[
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_yellow_slab",
+      "tessera:wool_slab",
+      "tessera:wool_yellow_slab"
+    ],
+    "output": "tessera:gold_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_yellow_slab",
+      "tessera:wool_brown_slab",
+      "tessera:wool_yellow_slab"
+    ],
+    "output": "tessera:tan_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_brown_slab",
+      "tessera:wool_brown_slab",
+      "tessera:wool_brown_slab"
+    ],
+    "output": "tessera:brown_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_turquoise_slab",
+      "tessera:wool_turquoise_slab",
+      "tessera:wool_turquoise_slab"
+    ],
+    "output": "tessera:cyan_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_gray_slab",
+      "tessera:wool_gray_slab",
+      "tessera:wool_gray_slab"
+    ],
+    "output": "tessera:gray_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_dark_green_slab",
+      "tessera:wool_dark_green_slab",
+      "tessera:wool_dark_green_slab"
+    ],
+    "output": "tessera:green_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_sky_blue_slab",
+      null,
+      "tessera:wool_deep_blue_slab",
+      "tessera:wool_sky_blue_slab",
+      "tessera:wool_deep_blue_slab"
+    ],
+    "output": "tessera:drivers_seat",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_deep_blue_slab",
+      "tessera:wool_deep_blue_slab",
+      "tessera:wool_deep_blue_slab"
+    ],
+    "output": "tessera:blue_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_slab",
+      "tessera:wool_gray_slab",
+      "tessera:wool_slab"
+    ],
+    "output": "tessera:light_gray_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_green_slab",
+      "tessera:wool_green_slab",
+      "tessera:wool_green_slab"
+    ],
+    "output": "tessera:light_green_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_magenta_slab",
+      "tessera:wool_magenta_slab",
+      "tessera:wool_magenta_slab"
+    ],
+    "output": "tessera:magenta_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_orange_slab",
+      "tessera:wool_orange_slab",
+      "tessera:wool_orange_slab"
+    ],
+    "output": "tessera:orange_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_magenta_slab",
+      "tessera:wool_slab",
+      "tessera:wool_magenta_slab"
+    ],
+    "output": "tessera:pink_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_purple_slab",
+      "tessera:wool_purple_slab",
+      "tessera:wool_purple_slab"
+    ],
+    "output": "tessera:purple_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_red_slab",
+      "tessera:wool_red_slab",
+      "tessera:wool_red_slab"
+    ],
+    "output": "tessera:red_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_slab",
+      "tessera:wool_slab",
+      "tessera:wool_slab"
+    ],
+    "output": "tessera:white_seat",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_yellow_slab",
+      "tessera:wool_yellow_slab",
+      "tessera:wool_yellow_slab"
+    ],
+    "output": "tessera:yellow_seat",
+    "amount": 6
+  }
+]

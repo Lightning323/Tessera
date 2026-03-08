@@ -1,0 +1,431 @@
+[
+  {
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      "#wood",
+      null,
+      null,
+      "#wood",
+      null
+    ],
+    "output": "tessera:stick",
+    "amount": 4
+  },
+  {
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:string",
+      "tessera:gold_ingot",
+      "tessera:string",
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:wool"
+    ],
+    "output": "tessera:saddle",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:tnt",
+      "tessera:tnt",
+      "tessera:tnt",
+      "tessera:tnt",
+      "tessera:tnt",
+      "tessera:tnt"
+    ],
+    "shapeless": true,
+    "output": "tessera:mega_tnt",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:gold_ingot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot"
+    ],
+    "output": "tessera:animal_feed",
+    "amount": 32
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:coal",
+      "tessera:stick"
+    ],
+    "output": "tessera:torch",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:torch",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:blue_torch",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:charcoal",
+      "tessera:stick"
+    ],
+    "output": "tessera:torch",
+    "amount": 4
+  },
+  {
+    "input": [
+      "tessera:iron_ingot",
+      null,
+      "tessera:iron_ingot",
+      null,
+      "tessera:iron_ingot",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:bucket",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:obsidian",
+      "tessera:water"
+    ],
+    "output": "tessera:lava",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:stone",
+      "tessera:stone",
+      "tessera:stone",
+      "tessera:stone",
+      "tessera:coal",
+      "tessera:stone",
+      "tessera:raw_iron",
+      "tessera:raw_iron",
+      "tessera:raw_iron"
+    ],
+    "output": "tessera:furnace",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "#wood",
+      "#wood",
+      "#wood",
+      "#wood",
+      null,
+      "#wood",
+      "#wood",
+      "#wood",
+      "#wood"
+    ],
+    "output": "tessera:barrel",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:stick",
+      null,
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:iron_ingot",
+      "tessera:stick",
+      "tessera:stick",
+      null,
+      "tessera:stick"
+    ],
+    "output": "tessera:track",
+    "amount": 16
+  },
+  {
+    "input": [
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:gold_ingot",
+      "tessera:iron_ingot",
+      "tessera:gold_ingot",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:stick"
+    ],
+    "output": "tessera:switch_junction",
+    "amount": 4
+  },
+  {
+    "input": [
+      "tessera:stick",
+      null,
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:gold_ingot",
+      "tessera:stick",
+      "tessera:stick",
+      null,
+      "tessera:stick"
+    ],
+    "output": "tessera:track_stop",
+    "amount": 4
+  },
+  {
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:iron_ingot",
+      null,
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot"
+    ],
+    "output": "tessera:iron_minecart",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:iron_minecart",
+      "tessera:red_dye"
+    ],
+    "output": "tessera:red_minecart",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:sugar"
+    ],
+    "output": "tessera:string",
+    "amount": 16
+  },
+  {
+    "input": [
+      "tessera:string",
+      "tessera:string",
+      "tessera:string",
+      "tessera:string",
+      "tessera:string",
+      "tessera:string",
+      "tessera:string",
+      "tessera:string",
+      "tessera:string"
+    ],
+    "output": "tessera:wool",
+    "amount": 16
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:iron_minecart",
+      "tessera:charcoal"
+    ],
+    "output": "tessera:charcoal_minecart",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:iron_minecart",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:blue_minecart",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:sugar_cane",
+      "tessera:sugar_cane",
+      "tessera:sugar_cane",
+      "tessera:sugar_cane"
+    ],
+    "output": "tessera:sugar",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:iron_minecart",
+      "tessera:yellow_dye"
+    ],
+    "output": "tessera:yellow_minecart",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:iron_minecart",
+      "tessera:green_dye"
+    ],
+    "output": "tessera:green_minecart",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:iron_minecart",
+      "tessera:cyan_dye"
+    ],
+    "output": "tessera:cyan_minecart",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:oak_wood",
+      null,
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood"
+    ],
+    "output": "tessera:oak_boat",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:spruce_wood",
+      null,
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood"
+    ],
+    "output": "tessera:spruce_boat",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:acacia_wood",
+      null,
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood"
+    ],
+    "output": "tessera:acacia_boat",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:jungle_wood",
+      null,
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood"
+    ],
+    "output": "tessera:jungle_boat",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:birch_wood",
+      null,
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood"
+    ],
+    "output": "tessera:birch_boat",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:dead_bush"
+    ],
+    "output": "tessera:stick",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:acacia_log"
+    ],
+    "output": "tessera:acacia_wood",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:birch_log"
+    ],
+    "output": "tessera:birch_wood",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:jungle_log"
+    ],
+    "output": "tessera:jungle_wood",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:oak_log"
+    ],
+    "output": "tessera:oak_wood",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:spruce_log"
+    ],
+    "output": "tessera:spruce_wood",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:dark_oak_log"
+    ],
+    "output": "tessera:dark_oak_wood",
+    "amount": 4
+  }
+]

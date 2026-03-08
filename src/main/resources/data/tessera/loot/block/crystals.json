@@ -1,0 +1,86 @@
+{
+  "tessera:amethyst_crystal": [
+    {
+      "item": "tessera:amethyst_crystal",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:aquamarine_crystal": [
+    {
+      "item": "tessera:aquamarine_crystal",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jade_crystal": [
+    {
+      "item": "tessera:jade_crystal",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:ruby_crystal": [
+    {
+      "item": "tessera:ruby_crystal",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:amethyst_block": [
+    {
+      "item": "tessera:amethyst_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:aquamarine_block": [
+    {
+      "item": "tessera:aquamarine_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jade_block": [
+    {
+      "item": "tessera:jade_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:ruby_block": [
+    {
+      "item": "tessera:ruby_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_amethyst_block": [
+    {
+      "item": "tessera:polished_amethyst_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_aquamarine_block": [
+    {
+      "item": "tessera:polished_aquamarine_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_jade_block": [
+    {
+      "item": "tessera:polished_jade_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:polished_ruby_block": [
+    {
+      "item": "tessera:polished_ruby_block",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ]
+}

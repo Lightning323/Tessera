@@ -1,0 +1,444 @@
+[
+  {
+    "input": [
+      "#wood",
+      "#wood",
+      "#wood",
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:wooden_pickaxe",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "#wood",
+      "#wood",
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:wooden_hoe",
+    "amount": 1
+  },
+  {
+    "input": [
+      "#wood",
+      "#wood",
+      null,
+      "#wood",
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:wooden_axe",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "#wood",
+      null,
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:wooden_shovel",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:iron_hoe",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:iron_pickaxe",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      null,
+      "tessera:iron_ingot",
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:iron_axe",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "tessera:iron_ingot",
+      null,
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:iron_shovel",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:golden_hoe",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:golden_pickaxe",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      null,
+      "tessera:gold_ingot",
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:golden_axe",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "tessera:gold_ingot",
+      null,
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:golden_shovel",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "tessera:diamond",
+      "tessera:diamond",
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:diamond_hoe",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:diamond_pickaxe",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:diamond",
+      "tessera:diamond",
+      null,
+      "tessera:diamond",
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:diamond_axe",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "tessera:diamond",
+      null,
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:diamond_shovel",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "tessera:diamond",
+      null,
+      null,
+      "tessera:diamond",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:diamond_sword",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "#wood",
+      null,
+      null,
+      "#wood",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:wooden_sword",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "#stone",
+      null,
+      null,
+      "#stone",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:stone_sword",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "tessera:iron_ingot",
+      null,
+      null,
+      "tessera:iron_ingot",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:iron_sword",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "tessera:gold_ingot",
+      null,
+      null,
+      "tessera:gold_ingot",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:golden_sword",
+    "amount": 1
+  },
+  {
+    "input": [
+      "#wood",
+      "#wood",
+      "#wood",
+      "#wood",
+      "#wood",
+      "#wood",
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:swatter",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:stone",
+      "tessera:andesite",
+      "tessera:stone",
+      "tessera:andesite",
+      "tessera:torch",
+      "tessera:andesite",
+      "tessera:stone",
+      "tessera:andesite",
+      "tessera:stone"
+    ],
+    "output": "tessera:spawn_block",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "#stone",
+      "#stone",
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:stone_hoe",
+    "amount": 1
+  },
+  {
+    "input": [
+      "#stone",
+      "#stone",
+      "#stone",
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:stone_pickaxe",
+    "amount": 1
+  },
+  {
+    "input": [
+      "#stone",
+      "#stone",
+      null,
+      "#stone",
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:stone_axe",
+    "amount": 1
+  },
+  {
+    "input": [
+      null,
+      "#stone",
+      null,
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:stone_shovel",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      null,
+      null,
+      "tessera:stick",
+      null,
+      null,
+      "tessera:stick",
+      null
+    ],
+    "output": "tessera:hoe",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:lapis_lazul_block",
+      "tessera:lapis_lazul_block",
+      "tessera:lapis_lazul_block",
+      "tessera:emerald",      "tessera:torch",      "tessera:emerald",
+      "tessera:lapis_lazul_block",
+      "tessera:lapis_lazul_block",
+      "tessera:lapis_lazul_block"
+    ],
+    "output": "tessera:flashlight",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:flint",
+      "tessera:iron_ingot"
+    ],
+    "output": "tessera:flint_and_steel",
+    "amount": 1
+  }
+]

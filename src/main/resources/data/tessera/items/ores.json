@@ -1,0 +1,79 @@
+[
+  {
+    "id": "tessera:diamond_ore",
+    "name": "Diamond Ore",
+    "block": "tessera:diamond_ore"
+  },
+  {
+    "id": "tessera:diamond",
+    "name": "Diamond",
+    "icon": "ores\\diamond.png"
+  },
+  {
+    "id": "tessera:coal_ore",
+    "name": "Coal Ore",
+    "block": "tessera:coal_ore"
+  },
+  {
+    "id": "tessera:coal",
+    "name": "Coal",
+    "tags": ["flammable"],
+    "icon": "ores\\coal.png"
+  },
+  {
+    "id": "tessera:charcoal",
+    "name": "Charcoal",
+    "tags": ["flammable"],
+    "icon": "charcoal.png"
+  },
+  {
+    "id": "tessera:iron_ore",
+    "name": "Iron Ore",
+    "block": "tessera:iron_ore"
+  },
+  {
+    "id": "tessera:raw_iron",
+    "name": "Raw Iron",
+    "icon": "ores\\iron_nugget.png"
+  },
+  {
+    "id": "tessera:iron_ingot",
+    "name": "Iron Ingot",
+    "icon": "ores\\iron_ingot.png"
+  },
+  {
+    "id": "tessera:gold_ore",
+    "name": "Gold Ore",
+    "block": "tessera:gold_ore"
+  },
+  {
+    "id": "tessera:gold_ingot",
+    "name": "Gold Ingot",
+    "icon": "ores\\gold_ingot.png"
+  },
+  {
+    "id": "tessera:raw_gold",
+    "name": "Raw Gold",
+    "icon": "ores\\gold_nugget.png"
+  },
+  {
+    "id": "tessera:lapis_ore",
+    "name": "Lapis Lazuli Ore",
+    "block": "tessera:lapis_ore"
+  },
+  {
+    "id": "tessera:lapis_lazuli",
+    "name": "Lapis Lazuli",
+    "icon": "ores\\lapis_lazuli.png"
+  },
+  {
+    "id": "tessera:emerald_ore",
+    "name": "Emerald Ore",
+    "block": "tessera:emerald_ore"
+  },
+  {
+    "id": "tessera:emerald",
+    "name": "Emerald",
+    "icon": "ores\\emerald.png"
+  }
+]

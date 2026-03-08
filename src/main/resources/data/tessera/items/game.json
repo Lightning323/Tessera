@@ -1,0 +1,12 @@
+[
+  {
+    "id": "tessera:flag_block",
+    "name": "Flag Block",
+    "block": "tessera:flag_block"
+  },
+  {
+    "id": "tessera:spawn_block",
+    "name": "Spawn Block",
+    "block": "tessera:spawn_block"
+  }
+]

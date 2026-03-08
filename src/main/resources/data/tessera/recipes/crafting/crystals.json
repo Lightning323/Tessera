@@ -1,0 +1,110 @@
+[
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:amethyst_crystal",
+      "tessera:amethyst_crystal",
+      "tessera:amethyst_crystal",
+      "tessera:amethyst_crystal",
+      "tessera:amethyst_crystal",
+      "tessera:amethyst_crystal",
+      "tessera:amethyst_crystal",
+      "tessera:amethyst_crystal",
+      "tessera:amethyst_crystal"
+    ],
+    "output": "tessera:amethyst_block",
+    "amount": 2
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:aquamarine_crystal",
+      "tessera:aquamarine_crystal",
+      "tessera:aquamarine_crystal",
+      "tessera:aquamarine_crystal",
+      "tessera:aquamarine_crystal",
+      "tessera:aquamarine_crystal",
+      "tessera:aquamarine_crystal",
+      "tessera:aquamarine_crystal",
+      "tessera:aquamarine_crystal"
+    ],
+    "output": "tessera:aquamarine_block",
+    "amount": 2
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:jade_crystal",
+      "tessera:jade_crystal",
+      "tessera:jade_crystal",
+      "tessera:jade_crystal",
+      "tessera:jade_crystal",
+      "tessera:jade_crystal",
+      "tessera:jade_crystal",
+      "tessera:jade_crystal",
+      "tessera:jade_crystal"
+    ],
+    "output": "tessera:jade_block",
+    "amount": 2
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:ruby_crystal",
+      "tessera:ruby_crystal",
+      "tessera:ruby_crystal",
+      "tessera:ruby_crystal",
+      "tessera:ruby_crystal",
+      "tessera:ruby_crystal",
+      "tessera:ruby_crystal",
+      "tessera:ruby_crystal",
+      "tessera:ruby_crystal"
+    ],
+    "output": "tessera:ruby_block",
+    "amount": 2
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:ruby_block",
+      "tessera:ruby_block",
+      "tessera:ruby_block",
+      "tessera:ruby_block"
+    ],
+    "output": "tessera:polished_ruby_block",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:amethyst_block",
+      "tessera:amethyst_block",
+      "tessera:amethyst_block",
+      "tessera:amethyst_block"
+    ],
+    "output": "tessera:polished_amethyst_block",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:aquamarine_block",
+      "tessera:aquamarine_block",
+      "tessera:aquamarine_block",
+      "tessera:aquamarine_block"
+    ],
+    "output": "tessera:polished_aquamarine_block",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:jade_block",
+      "tessera:jade_block",
+      "tessera:jade_block",
+      "tessera:jade_block"
+    ],
+    "output": "tessera:polished_jade_block",
+    "amount": 4
+  }
+]

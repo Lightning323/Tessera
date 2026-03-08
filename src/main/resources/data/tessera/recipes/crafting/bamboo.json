@@ -1,0 +1,42 @@
+[
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo",
+      "tessera:bamboo"
+    ],
+    "output": "tessera:bamboo_block",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:bamboo_wood",
+      "tessera:bamboo_wood",
+      null,
+      "tessera:bamboo_wood",
+      "tessera:bamboo_wood",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:mosaic_bamboo_wood",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:bamboo_block"
+    ],
+    "output": "tessera:bamboo",
+    "amount": 9
+  }
+]

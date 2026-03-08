@@ -1,0 +1,98 @@
+[
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wheat",
+      "tessera:wheat",
+      "tessera:wheat"
+    ],
+    "output": "tessera:bread",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      "tessera:wheat",
+      null,
+      "tessera:wheat",
+      null,
+      "tessera:wheat"
+    ],
+    "output": "tessera:croissant",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:carrot",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:wheat",
+      "tessera:wheat",
+      "tessera:wheat"
+    ],
+    "output": "tessera:cake",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:apple",
+      "tessera:apple",
+      "tessera:apple",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:wheat",
+      "tessera:wheat",
+      "tessera:wheat"
+    ],
+    "output": "tessera:apple_pie",
+    "amount": 2
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:pumpkin",
+      "tessera:pumpkin",
+      "tessera:pumpkin",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:sugar",
+      "tessera:wheat",
+      "tessera:wheat",
+      "tessera:wheat"
+    ],
+    "output": "tessera:pumpkin_pie",
+    "amount": 2
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:sugar",
+      null,
+      "tessera:sugar",
+      "tessera:wheat",
+      "tessera:sugar",
+      null,
+      "tessera:sugar",
+      null
+    ],
+    "output": "tessera:cookie",
+    "amount": 1
+  }
+]

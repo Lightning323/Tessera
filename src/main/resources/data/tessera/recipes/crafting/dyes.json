@@ -1,0 +1,182 @@
+[
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:azure_bluet"
+    ],
+    "output": "tessera:blue_dye",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:pansies"
+    ],
+    "output": "tessera:blue_dye",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:blue_orchid"
+    ],
+    "output": "tessera:purple_dye",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:blue_dye",
+      "tessera:yellow_dye"
+    ],
+    "output": "tessera:green_dye",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:dry_grass_plant"
+    ],
+    "output": "tessera:lime_dye",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:dandelion"
+    ],
+    "output": "tessera:yellow_dye",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:red_rose"
+    ],
+    "output": "tessera:red_dye",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:roses"
+    ],
+    "output": "tessera:red_dye",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_rose"
+    ],
+    "output": "tessera:white_dye",
+    "amount": 8
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:red_dye",
+      "tessera:yellow_dye"
+    ],
+    "output": "tessera:orange_dye",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:red_dye",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:purple_dye",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:yellow_dye",
+      "tessera:green_dye"
+    ],
+    "output": "tessera:lime_dye",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:plant_grass"
+    ],
+    "output": "tessera:green_dye",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:fern"
+    ],
+    "output": "tessera:green_dye",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:jungle_grass_plant"
+    ],
+    "output": "tessera:green_dye",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:red_dye",
+      "tessera:white_dye"
+    ],
+    "output": "tessera:magenta_dye",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:green_dye",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:cyan_dye",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:red_dye",
+      "tessera:yellow_dye",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:black_dye",
+    "amount": 3
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:black_dye",
+      "tessera:white_dye"
+    ],
+    "output": "tessera:gray_dye",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:gray_dye",
+      "tessera:white_dye"
+    ],
+    "output": "tessera:light_gray_dye",
+    "amount": 2
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:red_dye",
+      "tessera:yellow_dye",
+      "tessera:green_dye"
+    ],
+    "output": "tessera:brown_dye",
+    "amount": 3
+  }
+]

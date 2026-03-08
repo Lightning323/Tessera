@@ -1,0 +1,882 @@
+[
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:yellow_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:yellow_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:black_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:black_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:blue_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:blue_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:brown_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:brown_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:cyan_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:cyan_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:gray_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:gray_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:green_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:green_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:blue_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:light_blue_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:gray_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:light_gray_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:lime_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:lime_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:magenta_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:magenta_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:orange_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:orange_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:purple_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:purple_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:red_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:red_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:white_dye",
+      "tessera:concrete",
+      "tessera:concrete",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:white_concrete",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:orange_dye",
+      "tessera:wool",
+      "tessera:wool",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:wool_orange",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:purple_dye",
+      "tessera:wool",
+      "tessera:wool",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:wool_purple",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:red_dye",
+      "tessera:wool",
+      "tessera:wool",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:wool_red",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:yellow_dye",
+      "tessera:wool",
+      "tessera:wool",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:wool_yellow",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:brown_dye",
+      "tessera:wool",
+      "tessera:wool",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:wool_brown",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:blue_dye",
+      "tessera:wool",
+      "tessera:wool",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:wool_deep_blue",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:blue_dye",
+      "tessera:wool",
+      "tessera:wool",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:wool_sky_blue",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:green_dye",
+      "tessera:wool",
+      "tessera:wool",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:wool_dark_green",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:green_dye",
+      "tessera:wool",
+      "tessera:wool",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:wool_green",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:gray_dye",
+      "tessera:wool",
+      "tessera:wool",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:wool_gray",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:magenta_dye",
+      "tessera:wool",
+      "tessera:wool",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:wool_magenta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:black_dye",
+      "tessera:wool",
+      "tessera:wool",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:wool_black",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:black_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:black_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:blue_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:blue_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:brown_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:brown_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:cyan_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:cyan_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:gray_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:gray_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:green_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:green_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:blue_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:light_blue_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:gray_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:light_gray_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:lime_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:lime_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:magenta_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:magenta_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:orange_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:orange_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:purple_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:purple_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:red_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:red_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:white_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:white_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:yellow_dye",
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:yellow_stained_glass",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:brown_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:brown_siding",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:cyan_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:cyan_siding",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:gray_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:gray_siding",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:green_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:green_siding",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:blue_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:blue_siding",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:gray_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:light_gray_siding",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:green_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:light_green_siding",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:magenta_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:magenta_siding",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:orange_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:orange_siding",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:purple_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:purple_siding",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:red_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:red_siding",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:white_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:white_siding",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      "tessera:yellow_dye",
+      "tessera:tan_siding",
+      "tessera:tan_siding",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:yellow_siding",
+    "amount": 4
+  }
+]

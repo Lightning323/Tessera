@@ -1,0 +1,12 @@
+[
+  {
+    "input": "tessera:bread",
+    "output": "tessera:french_bread",
+    "amount": 1
+  },
+  {
+    "input": "tessera:potato",
+    "output": "tessera:baked_potato",
+    "amount": 1
+  }
+]

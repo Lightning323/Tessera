@@ -1,0 +1,171 @@
+[
+  {
+    "shapeless": true,
+    "input": [
+      "#wood",
+      "#wood",
+      "#wood",
+      "#wood"
+    ],
+    "output": "tessera:crafting_table",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:gravel",
+      "tessera:gravel",
+      "tessera:gravel",
+      "tessera:gravel"
+    ],
+    "output": "tessera:concrete",
+    "amount": 32
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb",
+      "tessera:honeycomb"
+    ],
+    "output": "tessera:honeycomb_block",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:sea_grass",
+      "tessera:sea_grass",
+      "tessera:sea_grass"
+    ],
+    "output": "tessera:lily_pad",
+    "amount": 3
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:honeycomb_block"
+    ],
+    "output": "tessera:honeycomb",
+    "amount": 9
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:charcoal",
+      "tessera:charcoal",
+      "tessera:charcoal",
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:concrete",
+      "tessera:concrete"
+    ],
+    "output": "tessera:minecart_road_block",
+    "amount": 32
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:torch",
+      "tessera:torch",
+      null,
+      "tessera:torch",
+      "tessera:torch",
+      null,
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:electric_light",
+    "amount": 4
+  },
+
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:electric_light"
+    ],
+    "output": "tessera:edison_light",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:edison_light"
+    ],
+    "output": "tessera:sea_light",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:sea_light"
+    ],
+    "output": "tessera:electric_light",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:white_dye",
+      "tessera:white_dye",
+      "tessera:white_dye",
+      "tessera:charcoal"
+    ],
+    "output": "tessera:road_markings",
+    "amount": 16
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:yellow_dye",
+      "tessera:yellow_dye",
+      "tessera:yellow_dye",
+      "tessera:charcoal"
+    ],
+    "output": "tessera:crosswalk_paint",
+    "amount": 16
+  },
+  {
+    "input": [
+      null,
+      "tessera:track",
+      null,
+      "tessera:track",
+      null,
+      "tessera:track",
+      null,
+      "tessera:track",
+      null
+    ],
+    "output": "tessera:crosstrack",
+    "amount": 8
+  },
+  {
+    "input": [
+      "tessera:track",
+      null,
+      "tessera:track",
+      null,
+      "tessera:track",
+      null,
+      null,
+      "tessera:track",
+      null
+    ],
+    "output": "tessera:merge_track",
+    "amount": 8
+  }
+]

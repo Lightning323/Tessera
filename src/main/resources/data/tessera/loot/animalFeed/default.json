@@ -1,0 +1,24 @@
+[
+  {
+    "animalID": "tessera:horse",
+    "foodID": "tessera:animal_apple",
+    "output": [
+      {
+        "item": "tessera:wool",
+        "chance": 1.0,
+        "maxItems": 1
+      }
+    ]
+  },
+  {
+    "animalID": "tessera:dog",
+    "foodID": "tessera:animal_apple",
+    "output": [
+      {
+        "item": "tessera:gold_ingot",
+        "chance": 0.5,
+        "maxItems": 2
+      }
+    ]
+  }
+]

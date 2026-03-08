@@ -1,0 +1,42 @@
+[
+  {
+    "input": "#wood",
+    "output": "tessera:charcoal",
+    "amount": 1
+  },
+  {
+    "input": "tessera:bamboo_block",
+    "output": "tessera:bamboo_wood",
+    "amount": 1
+  },
+  {
+    "input": "tessera:diorite",
+    "output": "tessera:polished_diorite",
+    "amount": 1
+  },
+  {
+    "input": "tessera:andesite",
+    "output": "tessera:polished_andesite",
+    "amount": 1
+  },
+  {
+    "input": "tessera:sand",
+    "output": "tessera:glass",
+    "amount": 1
+  },
+  {
+    "input": "tessera:red_sand",
+    "output": "tessera:glass",
+    "amount": 1
+  },
+  {
+    "input": "tessera:apple",
+    "output": "tessera:animal_apple",
+    "amount": 2
+  },
+  {
+    "input": "tessera:granite",
+    "output": "tessera:gunpowder",
+    "amount": 1
+  }
+]

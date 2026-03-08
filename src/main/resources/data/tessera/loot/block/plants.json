@@ -1,0 +1,108 @@
+{
+  "tessera:bamboo": [
+    {
+      "item": "tessera:bamboo",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:bamboo_sapling": [
+    {
+      "item": "tessera:bamboo",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:sugar_cane": [
+    {
+      "item": "tessera:sugar_cane",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:wheat": [
+    {
+      "item": "tessera:wheat",
+      "chance": 1.0,
+      "maxItems": 2
+    },
+    {
+      "item": "tessera:wheat_seeds",
+      "chance": 1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:wheat_seeds",
+      "chance": 0.6,
+      "maxItems": 1
+    }
+  ],
+  "tessera:pumpkin": [
+    {
+      "item": "tessera:pumpkin",
+      "chance": 1.0,
+      "maxItems": 2
+    },
+    {
+      "item": "tessera:pumpkin_seeds",
+      "chance": 1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:pumpkin_seeds",
+      "chance": 0.6,
+      "maxItems": 1
+    }
+  ],
+  "tessera:beets": [
+    {
+      "item": "tessera:beet",
+      "chance": 1.0,
+      "maxItems": 2
+    },
+    {
+      "item": "tessera:beetroot_seeds",
+      "chance": 1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:beetroot_seeds",
+      "chance": 0.6,
+      "maxItems": 1
+    }
+  ],
+  "tessera:potatoes": [
+    {
+      "item": "tessera:potato",
+      "chance": 1.0,
+      "maxItems": 2
+    },
+    {
+      "item": "tessera:potato_seeds",
+      "chance": 1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:potato_seeds",
+      "chance": 0.6,
+      "maxItems": 1
+    }
+  ],
+  "tessera:carrots": [
+    {
+      "item": "tessera:carrot",
+      "chance": 1.0,
+      "maxItems": 2
+    },
+    {
+      "item": "tessera:carrot_seeds",
+      "chance": 1,
+      "maxItems": 1
+    },
+    {
+      "item": "tessera:carrot_seeds",
+      "chance": 0.6,
+      "maxItems": 1
+    }
+  ]
+}

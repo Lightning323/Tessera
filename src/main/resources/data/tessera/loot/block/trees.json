@@ -1,0 +1,67 @@
+{
+  "tessera:acacia_leaves": [
+    {
+      "item": "tessera:stick",
+      "chance": 0.1,
+      "maxItems": 2
+    },
+    {
+      "item": "tessera:acacia_sapling",
+      "chance": 0.1,
+      "maxItems": 1
+    }
+  ],
+  "tessera:spruce_leaves": [
+    {
+      "item": "tessera:stick",
+      "chance": 0.1,
+      "maxItems": 2
+    },
+    {
+      "item": "tessera:spruce_sapling",
+      "chance": 0.1,
+      "maxItems": 1
+    }
+  ],
+  "tessera:jungle_leaves": [
+    {
+      "item": "tessera:stick",
+      "chance": 0.1,
+      "maxItems": 2
+    },
+    {
+      "item": "tessera:jungle_sapling",
+      "chance": 0.1,
+      "maxItems": 1
+    }
+  ],
+  "tessera:oak_leaves": [
+    {
+      "item": "tessera:stick",
+      "chance": 0.1,
+      "maxItems": 2
+    },
+    {
+      "item": "tessera:oak_sapling",
+      "chance": 0.1,
+      "maxItems": 1
+    }
+  ],
+  "tessera:birch_leaves": [
+    {
+      "item": "tessera:stick",
+      "chance": 0.1,
+      "maxItems": 2
+    },
+    {
+      "item": "tessera:apple",
+      "chance": 0.1,
+      "maxItems": 2
+    },
+    {
+      "item": "tessera:birch_sapling",
+      "chance": 0.1,
+      "maxItems": 1
+    }
+  ]
+}

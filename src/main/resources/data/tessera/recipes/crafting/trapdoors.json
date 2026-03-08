@@ -1,0 +1,277 @@
+[
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:acacia_trapdoor"
+    ],
+    "output": "tessera:acacia2_trapdoor",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood"
+    ],
+    "output": "tessera:acacia_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:bamboo_trapdoor"
+    ],
+    "output": "tessera:bamboo_2_trapdoor",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
+      "tessera:bamboo_block"
+    ],
+    "output": "tessera:bamboo_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood"
+    ],
+    "output": "tessera:birch_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:glass"
+    ],
+    "output": "tessera:glass_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:iron_ingot",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete"
+    ],
+    "output": "tessera:gray_space_trapdoor_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:jungle_trapdoor"
+    ],
+    "output": "tessera:jungle_2_trapdoor",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:oak_2_trapdoor"
+    ],
+    "output": "tessera:renaissance_trapdoor",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood"
+    ],
+    "output": "tessera:jungle_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:oak_trapdoor"
+    ],
+    "output": "tessera:oak_2_trapdoor",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood"
+    ],
+    "output": "tessera:oak_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood"
+    ],
+    "output": "tessera:red_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood"
+    ],
+    "output": "tessera:warped_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:birch_trapdoor",
+      "tessera:white_siding"
+    ],
+    "output": "tessera:cladded_birch_trapdoor",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:red_trapdoor",
+      "tessera:white_siding"
+    ],
+    "output": "tessera:cladded_redwood_trapdoor",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_trapdoor",
+      "tessera:white_siding"
+    ],
+    "output": "tessera:cladded_white_trapdoor",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood"
+    ],
+    "output": "tessera:spruce_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot"
+    ],
+    "output": "tessera:iron_trapdoor",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:iron_ingot",
+      "tessera:white_concrete",
+      "tessera:white_concrete",
+      "tessera:white_concrete",
+      "tessera:white_concrete",
+      "tessera:white_concrete"
+    ],
+    "output": "tessera:white_space_trapdoor_trapdoor",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood"
+    ],
+    "output": "tessera:white_trapdoor",
+    "amount": 6
+  }
+]

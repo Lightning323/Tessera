@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tessera:fox",
+    "name": "Fox",
+    "entity": "tessera:fox",
+    "icon": "egg.png"
+  },
+  {
+    "id": "tessera:cat",
+    "name": "Cat",
+    "entity": "tessera:cat",
+    "icon": "egg.png"
+  },
+  {
+    "id": "tessera:rabbit",
+    "name": "Rabbit",
+    "entity": "tessera:rabbit",
+    "icon": "egg.png"
+  },
+  {
+    "id": "tessera:horse",
+    "name": "Horse",
+    "entity": "tessera:horse",
+    "icon": "egg.png"
+  },
+  {
+    "id": "tessera:mule",
+    "name": "Mule",
+    "entity": "tessera:mule",
+    "icon": "egg.png"
+  },
+  {
+    "id": "tessera:dog",
+    "name": "Dog",
+    "entity": "tessera:dog",
+    "icon": "egg.png"
+  },
+  {
+    "id": "tessera:sea_turtle",
+    "name": "Sea Turtle",
+    "entity": "tessera:sea_turtle",
+    "icon": "egg.png"
+  },
+  {
+    "id": "tessera:beaver",
+    "name": "Beaver",
+    "entity": "tessera:beaver",
+    "icon": "beaver egg.png"
+  },
+  {
+    "id": "tessera:butterfly_fish",
+    "name": "Butterfly Fish",
+    "entity": "tessera:butterfly_fish",
+    "icon": "fish egg.png"
+  },
+  {
+    "id": "tessera:angler_fish",
+    "name": "Angler Fish",
+    "entity": "tessera:angler_fish",
+    "icon": "fish egg.png"
+  }
+]

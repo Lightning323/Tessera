@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tessera:sandstone",
+    "name": "Sandstone",
+    "block": 17
+  },
+  {
+    "id": "tessera:red_sandstone",
+    "name": "Red Sandstone",
+    "block": 111
+  },
+  {
+    "id": "tessera:red_palisade_sandstone",
+    "name": "Red Palisade Sandstone",
+    "block": 175
+  },
+  {
+    "id": "tessera:phantom_sandstone",
+    "name": "Phantom Sandstone",
+    "block": 176
+  },
+  {
+    "id": "tessera:palisade_sandstone",
+    "name": "Palisade Sandstone",
+    "block": 177
+  },
+  {
+    "id": "tessera:sandstone_stairs",
+    "name": "Sandstone Stairs",
+    "block": 202
+  },
+  {
+    "id": "tessera:engraved_sandstone_2",
+    "name": "Engraved Sandstone 2",
+    "block": 676
+  },
+  {
+    "id": "tessera:engraved_red_sandstone_2",
+    "name": "Engraved Red Sandstone 2",
+    "block": 677
+  },
+  {
+    "id": "tessera:red_palisade_sandstone_fence_gate",
+    "name": "Red Palisade Sandstone Fence Gate",
+    "block": 813
+  },
+  {
+    "id": "tessera:palisade_sandstone_fence_gate",
+    "name": "Palisade Sandstone Fence Gate",
+    "block": 814
+  },
+  {
+    "id": "tessera:red_sandstone_slab",
+    "name": "Red Sandstone Slab",
+    "block": 210
+  },
+  {
+    "id": "tessera:sandstone_slab",
+    "name": "Sandstone Slab",
+    "block": 211
+  },
+  {
+    "id": "tessera:red_sandstone_stairs",
+    "name": "Red Sandstone Stairs",
+    "block": 259
+  },
+  {
+    "id": "tessera:red_palisade_sandstone_stairs",
+    "name": "Red Palisade Sandstone Stairs",
+    "block": 287
+  },
+  {
+    "id": "tessera:red_palisade_sandstone_slab",
+    "name": "Red Palisade Sandstone Slab",
+    "block": 288
+  },
+  {
+    "id": "tessera:red_palisade_sandstone_fence",
+    "name": "Red Palisade Sandstone Fence",
+    "block": 289
+  },
+  {
+    "id": "tessera:palisade_sandstone_stairs",
+    "name": "Palisade Sandstone Stairs",
+    "block": 290
+  },
+  {
+    "id": "tessera:palisade_sandstone_slab",
+    "name": "Palisade Sandstone Slab",
+    "block": 291
+  },
+  {
+    "id": "tessera:palisade_sandstone_fence",
+    "name": "Palisade Sandstone Fence",
+    "block": 292
+  },
+  {
+    "id": "tessera:red_sandstone_pillar",
+    "name": "Red Sandstone Pillar",
+    "block": 439
+  },
+  {
+    "id": "tessera:palisade_sandstone_pillar",
+    "name": "Palisade Sandstone Pillar",
+    "block": 441
+  },
+  {
+    "id": "tessera:red_palisade_sandstone_pillar",
+    "name": "Red Palisade Sandstone Pillar",
+    "block": 448
+  },
+  {
+    "id": "tessera:engraved_sandstone",
+    "name": "Engraved Sandstone",
+    "block": 460
+  },
+  {
+    "id": "tessera:engraved_red_sandstone",
+    "name": "Engraved Red Sandstone",
+    "block": 461
+  }
+]

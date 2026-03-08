@@ -1,0 +1,118 @@
+[
+  {
+    "input": [
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand",
+      "tessera:sand"
+    ],
+    "output": "tessera:sandstone",
+    "amount": 8
+  },
+  {
+    "input": [
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand",
+      "tessera:red_sand"
+    ],
+    "output": "tessera:red_sandstone",
+    "amount": 8
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:red_sandstone",
+      "tessera:red_sandstone",
+      "tessera:red_sandstone",
+      "tessera:red_sandstone"
+    ],
+    "output": "tessera:red_palisade_sandstone",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:sandstone",
+      "tessera:sandstone",
+      "tessera:sandstone",
+      "tessera:sandstone"
+    ],
+    "output": "tessera:palisade_sandstone",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "",
+      "tessera:palisade_sandstone",
+      "",
+      "tessera:palisade_sandstone",
+      "",
+      "tessera:palisade_sandstone",
+      "",
+      "tessera:palisade_sandstone",
+      ""
+    ],
+    "output": "tessera:engraved_sandstone",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "",
+      "tessera:red_palisade_sandstone",
+      "",
+      "tessera:red_palisade_sandstone",
+      "",
+      "tessera:red_palisade_sandstone",
+      "",
+      "tessera:red_palisade_sandstone",
+      ""
+    ],
+    "output": "tessera:engraved_red_sandstone",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:palisade_sandstone",
+      "",
+      "tessera:palisade_sandstone",
+      "",
+      "tessera:palisade_sandstone",
+      "",
+      "tessera:palisade_sandstone",
+      "",
+      "tessera:palisade_sandstone"
+    ],
+    "output": "tessera:engraved_sandstone_2",
+    "amount": 5
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:red_palisade_sandstone",
+      "",
+      "tessera:red_palisade_sandstone",
+      "",
+      "tessera:red_palisade_sandstone",
+      "",
+      "tessera:red_palisade_sandstone",
+      "",
+      "tessera:red_palisade_sandstone"
+    ],
+    "output": "tessera:engraved_red_sandstone_2",
+    "amount": 5
+  }
+]

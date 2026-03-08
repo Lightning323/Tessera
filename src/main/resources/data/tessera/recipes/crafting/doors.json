@@ -1,0 +1,671 @@
+[
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:acacia_door"
+    ],
+    "output": "tessera:acacia_door_2",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      null,
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      null,
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      null
+    ],
+    "output": "tessera:acacia_door",
+    "amount": 3
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:bamboo_door"
+    ],
+    "output": "tessera:bamboo_2_door",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
+      null,
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
+      null,
+      "tessera:bamboo_block",
+      "tessera:bamboo_block",
+      null
+    ],
+    "output": "tessera:bamboo_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      null,
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      null,
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      null
+    ],
+    "output": "tessera:birch_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:white_siding",
+      "tessera:white_siding",
+      null,
+      "tessera:white_siding",
+      "tessera:white_siding",
+      null,
+      "tessera:white_siding",
+      "tessera:white_siding",
+      null
+    ],
+    "output": "tessera:cladded_door",
+    "amount": 3
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:cladded_door",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:cladded_blue_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:cladded_door",
+      "tessera:green_dye"
+    ],
+    "output": "tessera:cladded_green_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:cladded_door",
+      "tessera:magenta_dye"
+    ],
+    "output": "tessera:cladded_magenta_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:french_door"
+    ],
+    "output": "tessera:french_windows_door",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "#door",
+      null,
+      "#door",
+      null,
+      "#door",
+      null,
+      "#door",
+      null
+    ],
+    "output": "tessera:french_door",
+    "amount": 12
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:french_bamboo_door"
+    ],
+    "output": "tessera:french_bamboo_windows_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:mosaic_bamboo_wood",
+      "tessera:french_door"
+    ],
+    "output": "tessera:french_bamboo_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:french_blue_door"
+    ],
+    "output": "tessera:french_blue_windows_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:french_door",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:french_blue_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:french_green_door"
+    ],
+    "output": "tessera:french_green_windows_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:french_door",
+      "tessera:green_dye"
+    ],
+    "output": "tessera:french_green_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:french_magenta_door"
+    ],
+    "output": "tessera:french_magenta_windows_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:french_door",
+      "tessera:magenta_dye"
+    ],
+    "output": "tessera:french_magenta_door",
+    "amount": 3
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:italian_door"
+    ],
+    "output": "tessera:italian_windows_door",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "#door",
+      null,
+      "#door",
+      null,
+      null,
+      null,
+      "#door",
+      null,
+      "#door"
+    ],
+    "output": "tessera:italian_door",
+    "amount": 12
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:italian_door",
+      "tessera:mosaic_bamboo_wood"
+    ],
+    "output": "tessera:italian_bamboo_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:italian_bamboo_door"
+    ],
+    "output": "tessera:italian_bamboo_windows_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:italian_blue_door"
+    ],
+    "output": "tessera:italian_blue_windows_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:italian_door",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:italian_blue_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:italian_green_door"
+    ],
+    "output": "tessera:italian_green_windows_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:italian_door",
+      "tessera:green_dye"
+    ],
+    "output": "tessera:italian_green_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:italian_magenta_door"
+    ],
+    "output": "tessera:italian_magenta_windows_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:italian_door",
+      "tessera:magenta_dye"
+    ],
+    "output": "tessera:italian_magenta_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:jungle_door"
+    ],
+    "output": "tessera:jungle_2_door",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      null,
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      null,
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      null
+    ],
+    "output": "tessera:jungle_door",
+    "amount": 3
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:oak_door"
+    ],
+    "output": "tessera:oak_2_door",
+    "amount": 3
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:oak_2_door"
+    ],
+    "output": "tessera:oak_renaissance_door",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      null,
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      null,
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      null
+    ],
+    "output": "tessera:oak_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "#door",
+      null,
+      "#door",
+      null,
+      null,
+      null
+    ],
+    "output": "tessera:oval_door",
+    "amount": 6
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:oval_door",
+      "tessera:mosaic_bamboo_wood"
+    ],
+    "output": "tessera:oval_bamboo_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:oval_door",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:oval_blue_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:oval_door",
+      "tessera:green_dye"
+    ],
+    "output": "tessera:oval_green_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:oval_door",
+      "tessera:magenta_dye"
+    ],
+    "output": "tessera:oval_magenta_door",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete",
+      null,
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete",
+      null,
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete",
+      null
+    ],
+    "output": "tessera:party_blue_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:green_concrete",
+      "tessera:green_concrete",
+      null,
+      "tessera:green_concrete",
+      "tessera:green_concrete",
+      null,
+      "tessera:green_concrete",
+      "tessera:green_concrete",
+      null
+    ],
+    "output": "tessera:party_green_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete",
+      null,
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete",
+      null,
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete",
+      null
+    ],
+    "output": "tessera:party_magenta_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:purple_concrete",
+      "tessera:purple_concrete",
+      null,
+      "tessera:purple_concrete",
+      "tessera:purple_concrete",
+      null,
+      "tessera:purple_concrete",
+      "tessera:purple_concrete",
+      null
+    ],
+    "output": "tessera:party_purple_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:red_concrete",
+      "tessera:red_concrete",
+      null,
+      "tessera:red_concrete",
+      "tessera:red_concrete",
+      null,
+      "tessera:red_concrete",
+      "tessera:red_concrete",
+      null
+    ],
+    "output": "tessera:party_red_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete",
+      null,
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete",
+      null,
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete",
+      null
+    ],
+    "output": "tessera:party_yellow_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      null,
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      null,
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      null
+    ],
+    "output": "tessera:web_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      null,
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      null,
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      null
+    ],
+    "output": "tessera:warped_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      null,
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      null,
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      null
+    ],
+    "output": "tessera:red_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      null,
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      null,
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      null
+    ],
+    "output": "tessera:white_door",
+    "amount": 3
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:spruce_door"
+    ],
+    "output": "tessera:spruce_2_door",
+    "amount": 1
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      null,
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      null,
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      null
+    ],
+    "output": "tessera:spruce_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      null,
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      null,
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      null
+    ],
+    "output": "tessera:iron_door",
+    "amount": 3
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      "tessera:glass",
+      "tessera:glass",
+      null
+    ],
+    "output": "tessera:glass_door",
+    "amount": 3
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:iron_door",
+      "tessera:gray_concrete"
+    ],
+    "output": "tessera:gray_space_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:gray_space_door",
+      "tessera:solar_panel"
+    ],
+    "output": "tessera:gray_space_control_panel_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:iron_door",
+      "tessera:solar_panel"
+    ],
+    "output": "tessera:gray_space_door_2",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:iron_door",
+      "tessera:white_concrete"
+    ],
+    "output": "tessera:white_space_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_space_door",
+      "tessera:solar_panel"
+    ],
+    "output": "tessera:white_space_control_panel_door",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:iron_door",
+      "tessera:solar_panel"
+    ],
+    "output": "tessera:white_space_door_2",
+    "amount": 1
+  }
+]

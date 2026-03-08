@@ -1,0 +1,141 @@
+[
+  {
+    "input": [
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot"
+    ],
+    "output": "tessera:gold_block",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal",
+      "tessera:coal"
+    ],
+    "output": "tessera:coal_block",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:coal_block"
+    ],
+    "shapeless": true,
+    "output": "tessera:coal",
+    "amount": 9
+  },
+  {
+    "input": [
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:diamond"
+    ],
+    "output": "tessera:diamond_block",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:emerald"
+    ],
+    "output": "tessera:emerald_block",
+    "amount": 1
+  },
+  {
+    "input": [
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot"
+    ],
+    "output": "tessera:iron_block",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:gold_block"
+    ],
+    "output": "tessera:gold_ingot",
+    "amount": 9
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:diamond_block"
+    ],
+    "output": "tessera:diamond",
+    "amount": 9
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:emerald_block"
+    ],
+    "output": "tessera:emerald",
+    "amount": 9
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:iron_block"
+    ],
+    "output": "tessera:iron_ingot",
+    "amount": 9
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli"
+    ],
+    "output": "tessera:lapis_lazul_block",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:lapis_lazul_block"
+    ],
+    "output": "tessera:lapis_lazuli",
+    "amount": 9
+  }
+]

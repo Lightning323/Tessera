@@ -1,0 +1,47 @@
+[
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:torch",
+      "tessera:honeycomb"
+    ],
+    "output": "tessera:candle",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:candle",
+      "tessera:red_dye"
+    ],
+    "output": "tessera:red_candle",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:candle",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:blue_candle",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:candle",
+      "tessera:yellow_dye"
+    ],
+    "output": "tessera:yellow_candle",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:candle",
+      "tessera:green_dye"
+    ],
+    "output": "tessera:green_candle",
+    "amount": 1
+  }
+]

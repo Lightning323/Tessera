@@ -1,0 +1,258 @@
+[
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:yellow_concrete",
+      null,
+      "tessera:yellow_concrete",
+      null,
+      null,
+      null,
+      "tessera:yellow_concrete",
+      null,
+      "tessera:yellow_concrete"
+    ],
+    "output": "tessera:yellow_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:black_concrete",
+      null,
+      "tessera:black_concrete",
+      null,
+      null,
+      null,
+      "tessera:black_concrete",
+      null,
+      "tessera:black_concrete"
+    ],
+    "output": "tessera:black_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:blue_concrete",
+      null,
+      "tessera:blue_concrete",
+      null,
+      null,
+      null,
+      "tessera:blue_concrete",
+      null,
+      "tessera:blue_concrete"
+    ],
+    "output": "tessera:blue_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:brown_concrete",
+      null,
+      "tessera:brown_concrete",
+      null,
+      null,
+      null,
+      "tessera:brown_concrete",
+      null,
+      "tessera:brown_concrete"
+    ],
+    "output": "tessera:brown_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:cyan_concrete",
+      null,
+      "tessera:cyan_concrete",
+      null,
+      null,
+      null,
+      "tessera:cyan_concrete",
+      null,
+      "tessera:cyan_concrete"
+    ],
+    "output": "tessera:cyan_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:gray_concrete",
+      null,
+      "tessera:gray_concrete",
+      null,
+      null,
+      null,
+      "tessera:gray_concrete",
+      null,
+      "tessera:gray_concrete"
+    ],
+    "output": "tessera:gray_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:green_concrete",
+      null,
+      "tessera:green_concrete",
+      null,
+      null,
+      null,
+      "tessera:green_concrete",
+      null,
+      "tessera:green_concrete"
+    ],
+    "output": "tessera:green_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:light_blue_concrete",
+      null,
+      "tessera:light_blue_concrete",
+      null,
+      null,
+      null,
+      "tessera:light_blue_concrete",
+      null,
+      "tessera:light_blue_concrete"
+    ],
+    "output": "tessera:light_blue_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:light_gray_concrete",
+      null,
+      "tessera:light_gray_concrete",
+      null,
+      null,
+      null,
+      "tessera:light_gray_concrete",
+      null,
+      "tessera:light_gray_concrete"
+    ],
+    "output": "tessera:light_gray_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:lime_concrete",
+      null,
+      "tessera:lime_concrete",
+      null,
+      null,
+      null,
+      "tessera:lime_concrete",
+      null,
+      "tessera:lime_concrete"
+    ],
+    "output": "tessera:lime_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:magenta_concrete",
+      null,
+      "tessera:magenta_concrete",
+      null,
+      null,
+      null,
+      "tessera:magenta_concrete",
+      null,
+      "tessera:magenta_concrete"
+    ],
+    "output": "tessera:magenta_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:pink_concrete",
+      null,
+      "tessera:pink_concrete",
+      null,
+      null,
+      null,
+      "tessera:pink_concrete",
+      null,
+      "tessera:pink_concrete"
+    ],
+    "output": "tessera:pink_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:purple_concrete",
+      null,
+      "tessera:purple_concrete",
+      null,
+      null,
+      null,
+      "tessera:purple_concrete",
+      null,
+      "tessera:purple_concrete"
+    ],
+    "output": "tessera:purple_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:orange_concrete",
+      null,
+      "tessera:orange_concrete",
+      null,
+      null,
+      null,
+      "tessera:orange_concrete",
+      null,
+      "tessera:orange_concrete"
+    ],
+    "output": "tessera:orange_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:white_concrete",
+      null,
+      "tessera:white_concrete",
+      null,
+      null,
+      null,
+      "tessera:white_concrete",
+      null,
+      "tessera:white_concrete"
+    ],
+    "output": "tessera:white_glazed_teracotta",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:red_concrete",
+      null,
+      "tessera:red_concrete",
+      null,
+      null,
+      null,
+      "tessera:red_concrete",
+      null,
+      "tessera:red_concrete"
+    ],
+    "output": "tessera:red_glazed_teracotta",
+    "amount": 4
+  }
+]

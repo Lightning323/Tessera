@@ -1,0 +1,7538 @@
+[
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood"
+    ],
+    "output": "tessera:jungle_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:jungle_wood",
+      null,
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood"
+    ],
+    "output": "tessera:jungle_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:jungle_wood",
+      "tessera:stick",
+      "tessera:jungle_wood",
+      "tessera:jungle_wood",
+      "tessera:stick",
+      "tessera:jungle_wood"
+    ],
+    "output": "tessera:jungle_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:honeycomb_block",
+      null,
+      "tessera:honeycomb_block",
+      "tessera:honeycomb_block",
+      "tessera:honeycomb_block",
+      "tessera:honeycomb_block",
+      "tessera:honeycomb_block"
+    ],
+    "output": "tessera:honeycomb_block_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:oak_wood",
+      "tessera:stick",
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:stick",
+      "tessera:oak_wood"
+    ],
+    "output": "tessera:oak_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:birch_wood",
+      "tessera:stick",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:stick",
+      "tessera:birch_wood"
+    ],
+    "output": "tessera:birch_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:granite_brick",
+      null,
+      "tessera:granite_brick",
+      "tessera:granite_brick",
+      "tessera:granite_brick",
+      "tessera:granite_brick",
+      "tessera:granite_brick"
+    ],
+    "output": "tessera:granite_brick_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:spruce_wood",
+      "tessera:stick",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:stick",
+      "tessera:spruce_wood"
+    ],
+    "output": "tessera:dark_oak_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:birch_wood",
+      null,
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood"
+    ],
+    "output": "tessera:birch_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:oak_wood",
+      null,
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood"
+    ],
+    "output": "tessera:oak_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:spruce_wood",
+      null,
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood"
+    ],
+    "output": "tessera:dark_oak_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:honeycomb_block",
+      "tessera:honeycomb_block",
+      "tessera:honeycomb_block"
+    ],
+    "output": "tessera:honeycomb_block_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:prismarine_bricks",
+      null,
+      "tessera:prismarine_bricks",
+      "tessera:prismarine_bricks",
+      "tessera:prismarine_bricks",
+      "tessera:prismarine_bricks",
+      "tessera:prismarine_bricks"
+    ],
+    "output": "tessera:prismarine_brick_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:sandstone",
+      null,
+      "tessera:sandstone",
+      "tessera:sandstone",
+      "tessera:sandstone",
+      "tessera:sandstone",
+      "tessera:sandstone"
+    ],
+    "output": "tessera:sandstone_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:polished_diorite",
+      null,
+      "tessera:polished_diorite",
+      "tessera:polished_diorite",
+      "tessera:polished_diorite",
+      "tessera:polished_diorite",
+      "tessera:polished_diorite"
+    ],
+    "output": "tessera:polished_diorite_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:birch_wood",
+      "tessera:birch_wood",
+      "tessera:birch_wood"
+    ],
+    "output": "tessera:birch_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:oak_wood",
+      "tessera:oak_wood",
+      "tessera:oak_wood"
+    ],
+    "output": "tessera:oak_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:spruce_wood",
+      "tessera:spruce_wood",
+      "tessera:spruce_wood"
+    ],
+    "output": "tessera:dark_oak_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:bamboo_wood",
+      null,
+      "tessera:bamboo_wood",
+      "tessera:bamboo_wood",
+      "tessera:bamboo_wood",
+      "tessera:bamboo_wood",
+      "tessera:bamboo_wood"
+    ],
+    "output": "tessera:bamboo_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:stone_brick",
+      "tessera:stone_brick",
+      "tessera:stone_brick"
+    ],
+    "output": "tessera:stone_brick_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:red_sandstone",
+      "tessera:red_sandstone",
+      "tessera:red_sandstone"
+    ],
+    "output": "tessera:red_sandstone_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:sandstone",
+      "tessera:sandstone",
+      "tessera:sandstone"
+    ],
+    "output": "tessera:sandstone_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:polished_andesite",
+      "tessera:polished_andesite",
+      "tessera:polished_andesite"
+    ],
+    "output": "tessera:polished_andesite_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:polished_andesite",
+      null,
+      "tessera:polished_andesite",
+      "tessera:polished_andesite",
+      "tessera:polished_andesite",
+      "tessera:polished_andesite",
+      "tessera:polished_andesite"
+    ],
+    "output": "tessera:polished_andesite_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:polished_diorite",
+      "tessera:polished_diorite",
+      "tessera:polished_diorite"
+    ],
+    "output": "tessera:polished_diorite_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:acacia_wood",
+      "tessera:stick",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:stick",
+      "tessera:acacia_wood"
+    ],
+    "output": "tessera:acacia_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:acacia_wood",
+      null,
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood"
+    ],
+    "output": "tessera:acacia_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:acacia_wood",
+      "tessera:acacia_wood",
+      "tessera:acacia_wood"
+    ],
+    "output": "tessera:acacia_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:bamboo_wood",
+      "tessera:bamboo_wood",
+      "tessera:bamboo_wood"
+    ],
+    "output": "tessera:bamboo_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:red_sandstone",
+      null,
+      "tessera:red_sandstone",
+      "tessera:red_sandstone",
+      "tessera:red_sandstone",
+      "tessera:red_sandstone",
+      "tessera:red_sandstone"
+    ],
+    "output": "tessera:red_sandstone_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:stone_brick",
+      null,
+      "tessera:stone_brick",
+      "tessera:stone_brick",
+      "tessera:stone_brick",
+      "tessera:stone_brick",
+      "tessera:stone_brick"
+    ],
+    "output": "tessera:stone_brick_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stone_brick",
+      "tessera:stick",
+      "tessera:stone_brick",
+      "tessera:stone_brick",
+      "tessera:stick",
+      "tessera:stone_brick"
+    ],
+    "output": "tessera:stone_brick_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:brick",
+      null,
+      "tessera:brick",
+      "tessera:brick",
+      "tessera:brick",
+      "tessera:brick",
+      "tessera:brick"
+    ],
+    "output": "tessera:brick_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:brick",
+      "tessera:brick",
+      "tessera:brick"
+    ],
+    "output": "tessera:brick_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:cobblestone",
+      null,
+      "tessera:cobblestone",
+      "tessera:cobblestone",
+      "tessera:cobblestone",
+      "tessera:cobblestone",
+      "tessera:cobblestone"
+    ],
+    "output": "tessera:cobblestone_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:cobblestone",
+      "tessera:cobblestone",
+      "tessera:cobblestone"
+    ],
+    "output": "tessera:cobblestone_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:palisade_stone",
+      null,
+      "tessera:palisade_stone",
+      "tessera:palisade_stone",
+      "tessera:palisade_stone",
+      "tessera:palisade_stone",
+      "tessera:palisade_stone"
+    ],
+    "output": "tessera:palisade_stone_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:palisade_stone",
+      "tessera:palisade_stone",
+      "tessera:palisade_stone"
+    ],
+    "output": "tessera:palisade_stone_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:palisade_stone",
+      "tessera:stick",
+      "tessera:palisade_stone",
+      "tessera:palisade_stone",
+      "tessera:stick",
+      "tessera:palisade_stone"
+    ],
+    "output": "tessera:palisade_stone_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:palisade_stone_2",
+      null,
+      "tessera:palisade_stone_2",
+      "tessera:palisade_stone_2",
+      "tessera:palisade_stone_2",
+      "tessera:palisade_stone_2",
+      "tessera:palisade_stone_2"
+    ],
+    "output": "tessera:palisade_stone_2_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:palisade_stone_2",
+      "tessera:palisade_stone_2",
+      "tessera:palisade_stone_2"
+    ],
+    "output": "tessera:palisade_stone_2_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:palisade_stone_2",
+      "tessera:stick",
+      "tessera:palisade_stone_2",
+      "tessera:palisade_stone_2",
+      "tessera:stick",
+      "tessera:palisade_stone_2"
+    ],
+    "output": "tessera:palisade_stone_2_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:polished_diorite",
+      "tessera:stick",
+      "tessera:polished_diorite",
+      "tessera:polished_diorite",
+      "tessera:stick",
+      "tessera:polished_diorite"
+    ],
+    "output": "tessera:polished_diorite_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:polished_andesite",
+      "tessera:stick",
+      "tessera:polished_andesite",
+      "tessera:polished_andesite",
+      "tessera:stick",
+      "tessera:polished_andesite"
+    ],
+    "output": "tessera:polished_andesite_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:cracked_stone",
+      null,
+      "tessera:cracked_stone",
+      "tessera:cracked_stone",
+      "tessera:cracked_stone",
+      "tessera:cracked_stone",
+      "tessera:cracked_stone"
+    ],
+    "output": "tessera:cracked_stone_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:cracked_stone",
+      "tessera:cracked_stone",
+      "tessera:cracked_stone"
+    ],
+    "output": "tessera:cracked_stone_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:cracked_stone",
+      "tessera:stick",
+      "tessera:cracked_stone",
+      "tessera:cracked_stone",
+      "tessera:stick",
+      "tessera:cracked_stone"
+    ],
+    "output": "tessera:cracked_stone_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:stone_with_vines",
+      null,
+      "tessera:stone_with_vines",
+      "tessera:stone_with_vines",
+      "tessera:stone_with_vines",
+      "tessera:stone_with_vines",
+      "tessera:stone_with_vines"
+    ],
+    "output": "tessera:stone_with_vines_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:stone_with_vines",
+      "tessera:stone_with_vines",
+      "tessera:stone_with_vines"
+    ],
+    "output": "tessera:stone_with_vines_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stone_with_vines",
+      "tessera:stick",
+      "tessera:stone_with_vines",
+      "tessera:stone_with_vines",
+      "tessera:stick",
+      "tessera:stone_with_vines"
+    ],
+    "output": "tessera:stone_with_vines_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:burgundy_brick",
+      null,
+      "tessera:burgundy_brick",
+      "tessera:burgundy_brick",
+      "tessera:burgundy_brick",
+      "tessera:burgundy_brick",
+      "tessera:burgundy_brick"
+    ],
+    "output": "tessera:burgundy_brick_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:burgundy_brick",
+      "tessera:burgundy_brick",
+      "tessera:burgundy_brick"
+    ],
+    "output": "tessera:burgundy_brick_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:burgundy_brick",
+      "tessera:stick",
+      "tessera:burgundy_brick",
+      "tessera:burgundy_brick",
+      "tessera:stick",
+      "tessera:burgundy_brick"
+    ],
+    "output": "tessera:burgundy_brick_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:red_palisade_sandstone",
+      null,
+      "tessera:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone"
+    ],
+    "output": "tessera:red_palisade_sandstone_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone"
+    ],
+    "output": "tessera:red_palisade_sandstone_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:red_palisade_sandstone",
+      "tessera:stick",
+      "tessera:red_palisade_sandstone",
+      "tessera:red_palisade_sandstone",
+      "tessera:stick",
+      "tessera:red_palisade_sandstone"
+    ],
+    "output": "tessera:red_palisade_sandstone_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:palisade_sandstone",
+      null,
+      "tessera:palisade_sandstone",
+      "tessera:palisade_sandstone",
+      "tessera:palisade_sandstone",
+      "tessera:palisade_sandstone",
+      "tessera:palisade_sandstone"
+    ],
+    "output": "tessera:palisade_sandstone_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:palisade_sandstone",
+      "tessera:palisade_sandstone",
+      "tessera:palisade_sandstone"
+    ],
+    "output": "tessera:palisade_sandstone_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:palisade_sandstone",
+      "tessera:stick",
+      "tessera:palisade_sandstone",
+      "tessera:palisade_sandstone",
+      "tessera:stick",
+      "tessera:palisade_sandstone"
+    ],
+    "output": "tessera:palisade_sandstone_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool",
+      null,
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:wool"
+    ],
+    "output": "tessera:wool_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool",
+      "tessera:wool",
+      "tessera:wool"
+    ],
+    "output": "tessera:wool_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_gray",
+      null,
+      "tessera:wool_gray",
+      "tessera:wool_gray",
+      "tessera:wool_gray",
+      "tessera:wool_gray",
+      "tessera:wool_gray"
+    ],
+    "output": "tessera:wool_gray_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_gray",
+      "tessera:wool_gray",
+      "tessera:wool_gray"
+    ],
+    "output": "tessera:wool_gray_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_red",
+      null,
+      "tessera:wool_red",
+      "tessera:wool_red",
+      "tessera:wool_red",
+      "tessera:wool_red",
+      "tessera:wool_red"
+    ],
+    "output": "tessera:wool_red_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_red",
+      "tessera:wool_red",
+      "tessera:wool_red"
+    ],
+    "output": "tessera:wool_red_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_pink",
+      null,
+      "tessera:wool_pink",
+      "tessera:wool_pink",
+      "tessera:wool_pink",
+      "tessera:wool_pink",
+      "tessera:wool_pink"
+    ],
+    "output": "tessera:wool_pink_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_pink",
+      "tessera:wool_pink",
+      "tessera:wool_pink"
+    ],
+    "output": "tessera:wool_pink_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_orange",
+      null,
+      "tessera:wool_orange",
+      "tessera:wool_orange",
+      "tessera:wool_orange",
+      "tessera:wool_orange",
+      "tessera:wool_orange"
+    ],
+    "output": "tessera:wool_orange_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_orange",
+      "tessera:wool_orange",
+      "tessera:wool_orange"
+    ],
+    "output": "tessera:wool_orange_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_yellow",
+      null,
+      "tessera:wool_yellow",
+      "tessera:wool_yellow",
+      "tessera:wool_yellow",
+      "tessera:wool_yellow",
+      "tessera:wool_yellow"
+    ],
+    "output": "tessera:wool_yellow_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_yellow",
+      "tessera:wool_yellow",
+      "tessera:wool_yellow"
+    ],
+    "output": "tessera:wool_yellow_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_green",
+      null,
+      "tessera:wool_green",
+      "tessera:wool_green",
+      "tessera:wool_green",
+      "tessera:wool_green",
+      "tessera:wool_green"
+    ],
+    "output": "tessera:wool_green_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_green",
+      "tessera:wool_green",
+      "tessera:wool_green"
+    ],
+    "output": "tessera:wool_green_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_dark_green",
+      null,
+      "tessera:wool_dark_green",
+      "tessera:wool_dark_green",
+      "tessera:wool_dark_green",
+      "tessera:wool_dark_green",
+      "tessera:wool_dark_green"
+    ],
+    "output": "tessera:wool_dark_green_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_dark_green",
+      "tessera:wool_dark_green",
+      "tessera:wool_dark_green"
+    ],
+    "output": "tessera:wool_dark_green_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_turquoise",
+      null,
+      "tessera:wool_turquoise",
+      "tessera:wool_turquoise",
+      "tessera:wool_turquoise",
+      "tessera:wool_turquoise",
+      "tessera:wool_turquoise"
+    ],
+    "output": "tessera:wool_turquoise_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_turquoise",
+      "tessera:wool_turquoise",
+      "tessera:wool_turquoise"
+    ],
+    "output": "tessera:wool_turquoise_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_deep_blue",
+      null,
+      "tessera:wool_deep_blue",
+      "tessera:wool_deep_blue",
+      "tessera:wool_deep_blue",
+      "tessera:wool_deep_blue",
+      "tessera:wool_deep_blue"
+    ],
+    "output": "tessera:wool_deep_blue_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_deep_blue",
+      "tessera:wool_deep_blue",
+      "tessera:wool_deep_blue"
+    ],
+    "output": "tessera:wool_deep_blue_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_sky_blue",
+      null,
+      "tessera:wool_sky_blue",
+      "tessera:wool_sky_blue",
+      "tessera:wool_sky_blue",
+      "tessera:wool_sky_blue",
+      "tessera:wool_sky_blue"
+    ],
+    "output": "tessera:wool_sky_blue_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_sky_blue",
+      "tessera:wool_sky_blue",
+      "tessera:wool_sky_blue"
+    ],
+    "output": "tessera:wool_sky_blue_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_brown",
+      null,
+      "tessera:wool_brown",
+      "tessera:wool_brown",
+      "tessera:wool_brown",
+      "tessera:wool_brown",
+      "tessera:wool_brown"
+    ],
+    "output": "tessera:wool_brown_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_brown",
+      "tessera:wool_brown",
+      "tessera:wool_brown"
+    ],
+    "output": "tessera:wool_brown_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_purple",
+      null,
+      "tessera:wool_purple",
+      "tessera:wool_purple",
+      "tessera:wool_purple",
+      "tessera:wool_purple",
+      "tessera:wool_purple"
+    ],
+    "output": "tessera:wool_purple_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_purple",
+      "tessera:wool_purple",
+      "tessera:wool_purple"
+    ],
+    "output": "tessera:wool_purple_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_magenta",
+      null,
+      "tessera:wool_magenta",
+      "tessera:wool_magenta",
+      "tessera:wool_magenta",
+      "tessera:wool_magenta",
+      "tessera:wool_magenta"
+    ],
+    "output": "tessera:wool_magenta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_magenta",
+      "tessera:wool_magenta",
+      "tessera:wool_magenta"
+    ],
+    "output": "tessera:wool_magenta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:wool_black",
+      null,
+      "tessera:wool_black",
+      "tessera:wool_black",
+      "tessera:wool_black",
+      "tessera:wool_black",
+      "tessera:wool_black"
+    ],
+    "output": "tessera:wool_black_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:wool_black",
+      "tessera:wool_black",
+      "tessera:wool_black"
+    ],
+    "output": "tessera:wool_black_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:yellow_concrete",
+      null,
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete"
+    ],
+    "output": "tessera:yellow_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete"
+    ],
+    "output": "tessera:yellow_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:yellow_concrete",
+      "tessera:stick",
+      "tessera:yellow_concrete",
+      "tessera:yellow_concrete",
+      "tessera:stick",
+      "tessera:yellow_concrete"
+    ],
+    "output": "tessera:yellow_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:black_concrete",
+      null,
+      "tessera:black_concrete",
+      "tessera:black_concrete",
+      "tessera:black_concrete",
+      "tessera:black_concrete",
+      "tessera:black_concrete"
+    ],
+    "output": "tessera:black_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:black_concrete",
+      "tessera:black_concrete",
+      "tessera:black_concrete"
+    ],
+    "output": "tessera:black_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:black_concrete",
+      "tessera:stick",
+      "tessera:black_concrete",
+      "tessera:black_concrete",
+      "tessera:stick",
+      "tessera:black_concrete"
+    ],
+    "output": "tessera:black_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:blue_concrete",
+      null,
+      "tessera:blue_concrete",
+      "tessera:blue_concrete",
+      "tessera:blue_concrete",
+      "tessera:blue_concrete",
+      "tessera:blue_concrete"
+    ],
+    "output": "tessera:blue_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:blue_concrete",
+      "tessera:blue_concrete",
+      "tessera:blue_concrete"
+    ],
+    "output": "tessera:blue_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:blue_concrete",
+      "tessera:stick",
+      "tessera:blue_concrete",
+      "tessera:blue_concrete",
+      "tessera:stick",
+      "tessera:blue_concrete"
+    ],
+    "output": "tessera:blue_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:brown_concrete",
+      null,
+      "tessera:brown_concrete",
+      "tessera:brown_concrete",
+      "tessera:brown_concrete",
+      "tessera:brown_concrete",
+      "tessera:brown_concrete"
+    ],
+    "output": "tessera:brown_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:brown_concrete",
+      "tessera:brown_concrete",
+      "tessera:brown_concrete"
+    ],
+    "output": "tessera:brown_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:brown_concrete",
+      "tessera:stick",
+      "tessera:brown_concrete",
+      "tessera:brown_concrete",
+      "tessera:stick",
+      "tessera:brown_concrete"
+    ],
+    "output": "tessera:brown_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:cyan_concrete",
+      null,
+      "tessera:cyan_concrete",
+      "tessera:cyan_concrete",
+      "tessera:cyan_concrete",
+      "tessera:cyan_concrete",
+      "tessera:cyan_concrete"
+    ],
+    "output": "tessera:cyan_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:cyan_concrete",
+      "tessera:cyan_concrete",
+      "tessera:cyan_concrete"
+    ],
+    "output": "tessera:cyan_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:cyan_concrete",
+      "tessera:stick",
+      "tessera:cyan_concrete",
+      "tessera:cyan_concrete",
+      "tessera:stick",
+      "tessera:cyan_concrete"
+    ],
+    "output": "tessera:cyan_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:gray_concrete",
+      null,
+      "tessera:gray_concrete",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete"
+    ],
+    "output": "tessera:gray_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:gray_concrete",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete"
+    ],
+    "output": "tessera:gray_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:gray_concrete",
+      "tessera:stick",
+      "tessera:gray_concrete",
+      "tessera:gray_concrete",
+      "tessera:stick",
+      "tessera:gray_concrete"
+    ],
+    "output": "tessera:gray_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:green_concrete",
+      null,
+      "tessera:green_concrete",
+      "tessera:green_concrete",
+      "tessera:green_concrete",
+      "tessera:green_concrete",
+      "tessera:green_concrete"
+    ],
+    "output": "tessera:green_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:green_concrete",
+      "tessera:green_concrete",
+      "tessera:green_concrete"
+    ],
+    "output": "tessera:green_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:green_concrete",
+      "tessera:stick",
+      "tessera:green_concrete",
+      "tessera:green_concrete",
+      "tessera:stick",
+      "tessera:green_concrete"
+    ],
+    "output": "tessera:green_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:light_blue_concrete",
+      null,
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete"
+    ],
+    "output": "tessera:light_blue_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete"
+    ],
+    "output": "tessera:light_blue_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:light_blue_concrete",
+      "tessera:stick",
+      "tessera:light_blue_concrete",
+      "tessera:light_blue_concrete",
+      "tessera:stick",
+      "tessera:light_blue_concrete"
+    ],
+    "output": "tessera:light_blue_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:light_gray_concrete",
+      null,
+      "tessera:light_gray_concrete",
+      "tessera:light_gray_concrete",
+      "tessera:light_gray_concrete",
+      "tessera:light_gray_concrete",
+      "tessera:light_gray_concrete"
+    ],
+    "output": "tessera:light_gray_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:light_gray_concrete",
+      "tessera:light_gray_concrete",
+      "tessera:light_gray_concrete"
+    ],
+    "output": "tessera:light_gray_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:light_gray_concrete",
+      "tessera:stick",
+      "tessera:light_gray_concrete",
+      "tessera:light_gray_concrete",
+      "tessera:stick",
+      "tessera:light_gray_concrete"
+    ],
+    "output": "tessera:light_gray_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:lime_concrete",
+      null,
+      "tessera:lime_concrete",
+      "tessera:lime_concrete",
+      "tessera:lime_concrete",
+      "tessera:lime_concrete",
+      "tessera:lime_concrete"
+    ],
+    "output": "tessera:lime_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:lime_concrete",
+      "tessera:lime_concrete",
+      "tessera:lime_concrete"
+    ],
+    "output": "tessera:lime_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:lime_concrete",
+      "tessera:stick",
+      "tessera:lime_concrete",
+      "tessera:lime_concrete",
+      "tessera:stick",
+      "tessera:lime_concrete"
+    ],
+    "output": "tessera:lime_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:magenta_concrete",
+      null,
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete"
+    ],
+    "output": "tessera:magenta_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete"
+    ],
+    "output": "tessera:magenta_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:magenta_concrete",
+      "tessera:stick",
+      "tessera:magenta_concrete",
+      "tessera:magenta_concrete",
+      "tessera:stick",
+      "tessera:magenta_concrete"
+    ],
+    "output": "tessera:magenta_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:orange_concrete",
+      null,
+      "tessera:orange_concrete",
+      "tessera:orange_concrete",
+      "tessera:orange_concrete",
+      "tessera:orange_concrete",
+      "tessera:orange_concrete"
+    ],
+    "output": "tessera:orange_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:orange_concrete",
+      "tessera:orange_concrete",
+      "tessera:orange_concrete"
+    ],
+    "output": "tessera:orange_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:orange_concrete",
+      "tessera:stick",
+      "tessera:orange_concrete",
+      "tessera:orange_concrete",
+      "tessera:stick",
+      "tessera:orange_concrete"
+    ],
+    "output": "tessera:orange_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:pink_concrete",
+      null,
+      "tessera:pink_concrete",
+      "tessera:pink_concrete",
+      "tessera:pink_concrete",
+      "tessera:pink_concrete",
+      "tessera:pink_concrete"
+    ],
+    "output": "tessera:pink_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:pink_concrete",
+      "tessera:pink_concrete",
+      "tessera:pink_concrete"
+    ],
+    "output": "tessera:pink_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:pink_concrete",
+      "tessera:stick",
+      "tessera:pink_concrete",
+      "tessera:pink_concrete",
+      "tessera:stick",
+      "tessera:pink_concrete"
+    ],
+    "output": "tessera:pink_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:purple_concrete",
+      null,
+      "tessera:purple_concrete",
+      "tessera:purple_concrete",
+      "tessera:purple_concrete",
+      "tessera:purple_concrete",
+      "tessera:purple_concrete"
+    ],
+    "output": "tessera:purple_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:purple_concrete",
+      "tessera:purple_concrete",
+      "tessera:purple_concrete"
+    ],
+    "output": "tessera:purple_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:purple_concrete",
+      "tessera:stick",
+      "tessera:purple_concrete",
+      "tessera:purple_concrete",
+      "tessera:stick",
+      "tessera:purple_concrete"
+    ],
+    "output": "tessera:purple_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:red_concrete",
+      null,
+      "tessera:red_concrete",
+      "tessera:red_concrete",
+      "tessera:red_concrete",
+      "tessera:red_concrete",
+      "tessera:red_concrete"
+    ],
+    "output": "tessera:red_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:red_concrete",
+      "tessera:red_concrete",
+      "tessera:red_concrete"
+    ],
+    "output": "tessera:red_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:red_concrete",
+      "tessera:stick",
+      "tessera:red_concrete",
+      "tessera:red_concrete",
+      "tessera:stick",
+      "tessera:red_concrete"
+    ],
+    "output": "tessera:red_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:white_concrete",
+      null,
+      "tessera:white_concrete",
+      "tessera:white_concrete",
+      "tessera:white_concrete",
+      "tessera:white_concrete",
+      "tessera:white_concrete"
+    ],
+    "output": "tessera:white_concrete_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:white_concrete",
+      "tessera:white_concrete",
+      "tessera:white_concrete"
+    ],
+    "output": "tessera:white_concrete_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:white_concrete",
+      "tessera:stick",
+      "tessera:white_concrete",
+      "tessera:white_concrete",
+      "tessera:stick",
+      "tessera:white_concrete"
+    ],
+    "output": "tessera:white_concrete_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:yellow_glazed_teracotta",
+      null,
+      "tessera:yellow_glazed_teracotta",
+      "tessera:yellow_glazed_teracotta",
+      "tessera:yellow_glazed_teracotta",
+      "tessera:yellow_glazed_teracotta",
+      "tessera:yellow_glazed_teracotta"
+    ],
+    "output": "tessera:yellow_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:yellow_glazed_teracotta",
+      "tessera:yellow_glazed_teracotta",
+      "tessera:yellow_glazed_teracotta"
+    ],
+    "output": "tessera:yellow_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:black_glazed_teracotta",
+      null,
+      "tessera:black_glazed_teracotta",
+      "tessera:black_glazed_teracotta",
+      "tessera:black_glazed_teracotta",
+      "tessera:black_glazed_teracotta",
+      "tessera:black_glazed_teracotta"
+    ],
+    "output": "tessera:black_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:black_glazed_teracotta",
+      "tessera:black_glazed_teracotta",
+      "tessera:black_glazed_teracotta"
+    ],
+    "output": "tessera:black_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:blue_glazed_teracotta",
+      null,
+      "tessera:blue_glazed_teracotta",
+      "tessera:blue_glazed_teracotta",
+      "tessera:blue_glazed_teracotta",
+      "tessera:blue_glazed_teracotta",
+      "tessera:blue_glazed_teracotta"
+    ],
+    "output": "tessera:blue_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:blue_glazed_teracotta",
+      "tessera:blue_glazed_teracotta",
+      "tessera:blue_glazed_teracotta"
+    ],
+    "output": "tessera:blue_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:brown_glazed_teracotta",
+      null,
+      "tessera:brown_glazed_teracotta",
+      "tessera:brown_glazed_teracotta",
+      "tessera:brown_glazed_teracotta",
+      "tessera:brown_glazed_teracotta",
+      "tessera:brown_glazed_teracotta"
+    ],
+    "output": "tessera:brown_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:brown_glazed_teracotta",
+      "tessera:brown_glazed_teracotta",
+      "tessera:brown_glazed_teracotta"
+    ],
+    "output": "tessera:brown_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:cyan_glazed_teracotta",
+      null,
+      "tessera:cyan_glazed_teracotta",
+      "tessera:cyan_glazed_teracotta",
+      "tessera:cyan_glazed_teracotta",
+      "tessera:cyan_glazed_teracotta",
+      "tessera:cyan_glazed_teracotta"
+    ],
+    "output": "tessera:cyan_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:cyan_glazed_teracotta",
+      "tessera:cyan_glazed_teracotta",
+      "tessera:cyan_glazed_teracotta"
+    ],
+    "output": "tessera:cyan_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:gray_glazed_teracotta",
+      null,
+      "tessera:gray_glazed_teracotta",
+      "tessera:gray_glazed_teracotta",
+      "tessera:gray_glazed_teracotta",
+      "tessera:gray_glazed_teracotta",
+      "tessera:gray_glazed_teracotta"
+    ],
+    "output": "tessera:gray_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:gray_glazed_teracotta",
+      "tessera:gray_glazed_teracotta",
+      "tessera:gray_glazed_teracotta"
+    ],
+    "output": "tessera:gray_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:green_glazed_teracotta",
+      null,
+      "tessera:green_glazed_teracotta",
+      "tessera:green_glazed_teracotta",
+      "tessera:green_glazed_teracotta",
+      "tessera:green_glazed_teracotta",
+      "tessera:green_glazed_teracotta"
+    ],
+    "output": "tessera:green_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:green_glazed_teracotta",
+      "tessera:green_glazed_teracotta",
+      "tessera:green_glazed_teracotta"
+    ],
+    "output": "tessera:green_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:light_blue_glazed_teracotta",
+      null,
+      "tessera:light_blue_glazed_teracotta",
+      "tessera:light_blue_glazed_teracotta",
+      "tessera:light_blue_glazed_teracotta",
+      "tessera:light_blue_glazed_teracotta",
+      "tessera:light_blue_glazed_teracotta"
+    ],
+    "output": "tessera:light_blue_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:light_blue_glazed_teracotta",
+      "tessera:light_blue_glazed_teracotta",
+      "tessera:light_blue_glazed_teracotta"
+    ],
+    "output": "tessera:light_blue_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:light_gray_glazed_teracotta",
+      null,
+      "tessera:light_gray_glazed_teracotta",
+      "tessera:light_gray_glazed_teracotta",
+      "tessera:light_gray_glazed_teracotta",
+      "tessera:light_gray_glazed_teracotta",
+      "tessera:light_gray_glazed_teracotta"
+    ],
+    "output": "tessera:light_gray_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:light_gray_glazed_teracotta",
+      "tessera:light_gray_glazed_teracotta",
+      "tessera:light_gray_glazed_teracotta"
+    ],
+    "output": "tessera:light_gray_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:lime_glazed_teracotta",
+      null,
+      "tessera:lime_glazed_teracotta",
+      "tessera:lime_glazed_teracotta",
+      "tessera:lime_glazed_teracotta",
+      "tessera:lime_glazed_teracotta",
+      "tessera:lime_glazed_teracotta"
+    ],
+    "output": "tessera:lime_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:lime_glazed_teracotta",
+      "tessera:lime_glazed_teracotta",
+      "tessera:lime_glazed_teracotta"
+    ],
+    "output": "tessera:lime_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:magenta_glazed_teracotta",
+      null,
+      "tessera:magenta_glazed_teracotta",
+      "tessera:magenta_glazed_teracotta",
+      "tessera:magenta_glazed_teracotta",
+      "tessera:magenta_glazed_teracotta",
+      "tessera:magenta_glazed_teracotta"
+    ],
+    "output": "tessera:magenta_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:magenta_glazed_teracotta",
+      "tessera:magenta_glazed_teracotta",
+      "tessera:magenta_glazed_teracotta"
+    ],
+    "output": "tessera:magenta_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:orange_glazed_teracotta",
+      null,
+      "tessera:orange_glazed_teracotta",
+      "tessera:orange_glazed_teracotta",
+      "tessera:orange_glazed_teracotta",
+      "tessera:orange_glazed_teracotta",
+      "tessera:orange_glazed_teracotta"
+    ],
+    "output": "tessera:orange_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:orange_glazed_teracotta",
+      "tessera:orange_glazed_teracotta",
+      "tessera:orange_glazed_teracotta"
+    ],
+    "output": "tessera:orange_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:pink_glazed_teracotta",
+      null,
+      "tessera:pink_glazed_teracotta",
+      "tessera:pink_glazed_teracotta",
+      "tessera:pink_glazed_teracotta",
+      "tessera:pink_glazed_teracotta",
+      "tessera:pink_glazed_teracotta"
+    ],
+    "output": "tessera:pink_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:pink_glazed_teracotta",
+      "tessera:pink_glazed_teracotta",
+      "tessera:pink_glazed_teracotta"
+    ],
+    "output": "tessera:pink_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:purple_glazed_teracotta",
+      null,
+      "tessera:purple_glazed_teracotta",
+      "tessera:purple_glazed_teracotta",
+      "tessera:purple_glazed_teracotta",
+      "tessera:purple_glazed_teracotta",
+      "tessera:purple_glazed_teracotta"
+    ],
+    "output": "tessera:purple_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:purple_glazed_teracotta",
+      "tessera:purple_glazed_teracotta",
+      "tessera:purple_glazed_teracotta"
+    ],
+    "output": "tessera:purple_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:red_glazed_teracotta",
+      null,
+      "tessera:red_glazed_teracotta",
+      "tessera:red_glazed_teracotta",
+      "tessera:red_glazed_teracotta",
+      "tessera:red_glazed_teracotta",
+      "tessera:red_glazed_teracotta"
+    ],
+    "output": "tessera:red_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:red_glazed_teracotta",
+      "tessera:red_glazed_teracotta",
+      "tessera:red_glazed_teracotta"
+    ],
+    "output": "tessera:red_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:white_glazed_teracotta",
+      null,
+      "tessera:white_glazed_teracotta",
+      "tessera:white_glazed_teracotta",
+      "tessera:white_glazed_teracotta",
+      "tessera:white_glazed_teracotta",
+      "tessera:white_glazed_teracotta"
+    ],
+    "output": "tessera:white_glazed_teracotta_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:white_glazed_teracotta",
+      "tessera:white_glazed_teracotta",
+      "tessera:white_glazed_teracotta"
+    ],
+    "output": "tessera:white_glazed_teracotta_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:bamboo_wood",
+      "tessera:stick",
+      "tessera:bamboo_wood",
+      "tessera:bamboo_wood",
+      "tessera:stick",
+      "tessera:bamboo_wood"
+    ],
+    "output": "tessera:bamboo_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:minecart_road_block",
+      "tessera:minecart_road_block",
+      "tessera:minecart_road_block"
+    ],
+    "output": "tessera:minecart_road_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:glass",
+      null,
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:glass"
+    ],
+    "output": "tessera:glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:glass",
+      "tessera:glass",
+      "tessera:glass"
+    ],
+    "output": "tessera:glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:cement",
+      null,
+      "tessera:cement",
+      "tessera:cement",
+      "tessera:cement",
+      "tessera:cement",
+      "tessera:cement"
+    ],
+    "output": "tessera:cement_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:cement",
+      "tessera:stick",
+      "tessera:cement",
+      "tessera:cement",
+      "tessera:stick",
+      "tessera:cement"
+    ],
+    "output": "tessera:cement_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:cement",
+      "tessera:cement",
+      "tessera:cement"
+    ],
+    "output": "tessera:cement_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:obsidian",
+      "tessera:obsidian",
+      "tessera:obsidian"
+    ],
+    "output": "tessera:obsidian_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:obsidian",
+      "tessera:stick",
+      "tessera:obsidian",
+      "tessera:obsidian",
+      "tessera:stick",
+      "tessera:obsidian"
+    ],
+    "output": "tessera:obsidian_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:lapis_lazul_block",
+      null,
+      "tessera:lapis_lazul_block",
+      "tessera:lapis_lazul_block",
+      "tessera:lapis_lazul_block",
+      "tessera:lapis_lazul_block",
+      "tessera:lapis_lazul_block"
+    ],
+    "output": "tessera:lapis_lazul_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:lapis_lazul_block",
+      "tessera:lapis_lazul_block",
+      "tessera:lapis_lazul_block"
+    ],
+    "output": "tessera:lapis_lazul_block_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:lapis_lazuli",
+      "tessera:stick",
+      "tessera:lapis_lazuli",
+      "tessera:lapis_lazuli",
+      "tessera:stick",
+      "tessera:lapis_lazuli"
+    ],
+    "output": "tessera:lapis_lazul_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:iron_block",
+      null,
+      "tessera:iron_block",
+      "tessera:iron_block",
+      "tessera:iron_block",
+      "tessera:iron_block",
+      "tessera:iron_block"
+    ],
+    "output": "tessera:iron_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:iron_block",
+      "tessera:iron_block",
+      "tessera:iron_block"
+    ],
+    "output": "tessera:iron_block_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:iron_ingot",
+      "tessera:stick",
+      "tessera:iron_ingot",
+      "tessera:iron_ingot",
+      "tessera:stick",
+      "tessera:iron_ingot"
+    ],
+    "output": "tessera:iron_fence",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:gold_block",
+      null,
+      "tessera:gold_block",
+      "tessera:gold_block",
+      "tessera:gold_block",
+      "tessera:gold_block",
+      "tessera:gold_block"
+    ],
+    "output": "tessera:gold_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:gold_block",
+      "tessera:gold_block",
+      "tessera:gold_block"
+    ],
+    "output": "tessera:gold_block_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:gold_ingot",
+      "tessera:stick",
+      "tessera:gold_ingot",
+      "tessera:gold_ingot",
+      "tessera:stick",
+      "tessera:gold_ingot"
+    ],
+    "output": "tessera:gold_fence",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:emerald_block",
+      null,
+      "tessera:emerald_block",
+      "tessera:emerald_block",
+      "tessera:emerald_block",
+      "tessera:emerald_block",
+      "tessera:emerald_block"
+    ],
+    "output": "tessera:emerald_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:emerald_block",
+      "tessera:emerald_block",
+      "tessera:emerald_block"
+    ],
+    "output": "tessera:emerald_block_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:emerald",
+      "tessera:stick",
+      "tessera:emerald",
+      "tessera:emerald",
+      "tessera:stick",
+      "tessera:emerald"
+    ],
+    "output": "tessera:emerald_fence",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:diamond_block",
+      null,
+      "tessera:diamond_block",
+      "tessera:diamond_block",
+      "tessera:diamond_block",
+      "tessera:diamond_block",
+      "tessera:diamond_block"
+    ],
+    "output": "tessera:diamond_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:diamond_block",
+      "tessera:diamond_block",
+      "tessera:diamond_block"
+    ],
+    "output": "tessera:diamond_block_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:diamond",
+      "tessera:stick",
+      "tessera:diamond",
+      "tessera:diamond",
+      "tessera:stick",
+      "tessera:diamond"
+    ],
+    "output": "tessera:diamond_fence",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:dark_prismarine_bricks",
+      null,
+      "tessera:dark_prismarine_bricks",
+      "tessera:dark_prismarine_bricks",
+      "tessera:dark_prismarine_bricks",
+      "tessera:dark_prismarine_bricks",
+      "tessera:dark_prismarine_bricks"
+    ],
+    "output": "tessera:dark_prismarine_brick_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:prismarine_bricks",
+      "tessera:prismarine_bricks",
+      "tessera:prismarine_bricks"
+    ],
+    "output": "tessera:prismarine_brick_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:obsidian",
+      null,
+      "tessera:obsidian",
+      "tessera:obsidian",
+      "tessera:obsidian",
+      "tessera:obsidian",
+      "tessera:obsidian"
+    ],
+    "output": "tessera:obsidian_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:prismarine_bricks",
+      "tessera:stick",
+      "tessera:prismarine_bricks",
+      "tessera:prismarine_bricks",
+      "tessera:stick",
+      "tessera:prismarine_bricks"
+    ],
+    "output": "tessera:prismarine_brick_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:red_sandstone",
+      null,
+      null,
+      "tessera:red_sandstone",
+      null,
+      null,
+      "tessera:red_sandstone",
+      null
+    ],
+    "output": "tessera:red_sandstone_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:stone_brick",
+      null,
+      null,
+      "tessera:stone_brick",
+      null,
+      null,
+      "tessera:stone_brick",
+      null
+    ],
+    "output": "tessera:stone_brick_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:palisade_sandstone",
+      null,
+      null,
+      "tessera:palisade_sandstone",
+      null,
+      null,
+      "tessera:palisade_sandstone",
+      null
+    ],
+    "output": "tessera:palisade_sandstone_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:palisade_stone",
+      null,
+      null,
+      "tessera:palisade_stone",
+      null,
+      null,
+      "tessera:palisade_stone",
+      null
+    ],
+    "output": "tessera:palisade_stone_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:palisade_stone_2",
+      null,
+      null,
+      "tessera:palisade_stone_2",
+      null,
+      null,
+      "tessera:palisade_stone_2",
+      null
+    ],
+    "output": "tessera:palisade_stone_2_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:cracked_stone",
+      null,
+      null,
+      "tessera:cracked_stone",
+      null,
+      null,
+      "tessera:cracked_stone",
+      null
+    ],
+    "output": "tessera:cracked_stone_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:stone_with_vines",
+      null,
+      null,
+      "tessera:stone_with_vines",
+      null,
+      null,
+      "tessera:stone_with_vines",
+      null
+    ],
+    "output": "tessera:stone_with_vines_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:red_palisade_sandstone",
+      null,
+      null,
+      "tessera:red_palisade_sandstone",
+      null,
+      null,
+      "tessera:red_palisade_sandstone",
+      null
+    ],
+    "output": "tessera:red_palisade_sandstone_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:quartz_pillar_block",
+      null,
+      null,
+      "tessera:quartz_pillar_block",
+      null,
+      null,
+      "tessera:quartz_pillar_block",
+      null
+    ],
+    "output": "tessera:quartz_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:marble_pillar_block",
+      null,
+      null,
+      "tessera:marble_pillar_block",
+      null,
+      null,
+      "tessera:marble_pillar_block",
+      null
+    ],
+    "output": "tessera:marble_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:granite_brick",
+      null,
+      null,
+      "tessera:granite_brick",
+      null,
+      null,
+      "tessera:granite_brick",
+      null
+    ],
+    "output": "tessera:granite_brick_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:granite_brick",
+      "tessera:granite_brick",
+      "tessera:granite_brick"
+    ],
+    "output": "tessera:granite_brick_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:granite_brick",
+      "tessera:stick",
+      "tessera:granite_brick",
+      "tessera:granite_brick",
+      "tessera:stick",
+      "tessera:granite_brick"
+    ],
+    "output": "tessera:granite_brick_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:dark_prismarine_bricks",
+      "tessera:dark_prismarine_bricks",
+      "tessera:dark_prismarine_bricks"
+    ],
+    "output": "tessera:dark_prismarine_brick_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:dark_prismarine_bricks",
+      "tessera:stick",
+      "tessera:dark_prismarine_bricks",
+      "tessera:dark_prismarine_bricks",
+      "tessera:stick",
+      "tessera:dark_prismarine_bricks"
+    ],
+    "output": "tessera:dark_prismarine_brick_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:orange_marble_tile",
+      "tessera:orange_marble_tile",
+      "tessera:orange_marble_tile"
+    ],
+    "output": "tessera:orange_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:orange_marble_tile",
+      null,
+      "tessera:orange_marble_tile",
+      "tessera:orange_marble_tile",
+      "tessera:orange_marble_tile",
+      "tessera:orange_marble_tile",
+      "tessera:orange_marble_tile"
+    ],
+    "output": "tessera:orange_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:green_marble_tile",
+      "tessera:green_marble_tile",
+      "tessera:green_marble_tile"
+    ],
+    "output": "tessera:green_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:yellow_stained_glass",
+      null,
+      "tessera:yellow_stained_glass",
+      "tessera:yellow_stained_glass",
+      "tessera:yellow_stained_glass",
+      "tessera:yellow_stained_glass",
+      "tessera:yellow_stained_glass"
+    ],
+    "output": "tessera:yellow_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:yellow_stained_glass",
+      "tessera:yellow_stained_glass",
+      "tessera:yellow_stained_glass"
+    ],
+    "output": "tessera:yellow_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:black_stained_glass",
+      null,
+      "tessera:black_stained_glass",
+      "tessera:black_stained_glass",
+      "tessera:black_stained_glass",
+      "tessera:black_stained_glass",
+      "tessera:black_stained_glass"
+    ],
+    "output": "tessera:black_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:black_stained_glass",
+      "tessera:black_stained_glass",
+      "tessera:black_stained_glass"
+    ],
+    "output": "tessera:black_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:blue_stained_glass",
+      null,
+      "tessera:blue_stained_glass",
+      "tessera:blue_stained_glass",
+      "tessera:blue_stained_glass",
+      "tessera:blue_stained_glass",
+      "tessera:blue_stained_glass"
+    ],
+    "output": "tessera:blue_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:blue_stained_glass",
+      "tessera:blue_stained_glass",
+      "tessera:blue_stained_glass"
+    ],
+    "output": "tessera:blue_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:brown_stained_glass",
+      null,
+      "tessera:brown_stained_glass",
+      "tessera:brown_stained_glass",
+      "tessera:brown_stained_glass",
+      "tessera:brown_stained_glass",
+      "tessera:brown_stained_glass"
+    ],
+    "output": "tessera:brown_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:brown_stained_glass",
+      "tessera:brown_stained_glass",
+      "tessera:brown_stained_glass"
+    ],
+    "output": "tessera:brown_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:cyan_stained_glass",
+      null,
+      "tessera:cyan_stained_glass",
+      "tessera:cyan_stained_glass",
+      "tessera:cyan_stained_glass",
+      "tessera:cyan_stained_glass",
+      "tessera:cyan_stained_glass"
+    ],
+    "output": "tessera:cyan_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:cyan_stained_glass",
+      "tessera:cyan_stained_glass",
+      "tessera:cyan_stained_glass"
+    ],
+    "output": "tessera:cyan_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:gray_stained_glass",
+      null,
+      "tessera:gray_stained_glass",
+      "tessera:gray_stained_glass",
+      "tessera:gray_stained_glass",
+      "tessera:gray_stained_glass",
+      "tessera:gray_stained_glass"
+    ],
+    "output": "tessera:gray_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:gray_stained_glass",
+      "tessera:gray_stained_glass",
+      "tessera:gray_stained_glass"
+    ],
+    "output": "tessera:gray_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:green_stained_glass",
+      null,
+      "tessera:green_stained_glass",
+      "tessera:green_stained_glass",
+      "tessera:green_stained_glass",
+      "tessera:green_stained_glass",
+      "tessera:green_stained_glass"
+    ],
+    "output": "tessera:green_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:green_stained_glass",
+      "tessera:green_stained_glass",
+      "tessera:green_stained_glass"
+    ],
+    "output": "tessera:green_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:light_blue_stained_glass",
+      null,
+      "tessera:light_blue_stained_glass",
+      "tessera:light_blue_stained_glass",
+      "tessera:light_blue_stained_glass",
+      "tessera:light_blue_stained_glass",
+      "tessera:light_blue_stained_glass"
+    ],
+    "output": "tessera:light_blue_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:light_blue_stained_glass",
+      "tessera:light_blue_stained_glass",
+      "tessera:light_blue_stained_glass"
+    ],
+    "output": "tessera:light_blue_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:light_gray_stained_glass",
+      null,
+      "tessera:light_gray_stained_glass",
+      "tessera:light_gray_stained_glass",
+      "tessera:light_gray_stained_glass",
+      "tessera:light_gray_stained_glass",
+      "tessera:light_gray_stained_glass"
+    ],
+    "output": "tessera:light_gray_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:light_gray_stained_glass",
+      "tessera:light_gray_stained_glass",
+      "tessera:light_gray_stained_glass"
+    ],
+    "output": "tessera:light_gray_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:lime_stained_glass",
+      null,
+      "tessera:lime_stained_glass",
+      "tessera:lime_stained_glass",
+      "tessera:lime_stained_glass",
+      "tessera:lime_stained_glass",
+      "tessera:lime_stained_glass"
+    ],
+    "output": "tessera:lime_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:lime_stained_glass",
+      "tessera:lime_stained_glass",
+      "tessera:lime_stained_glass"
+    ],
+    "output": "tessera:lime_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:magenta_stained_glass",
+      null,
+      "tessera:magenta_stained_glass",
+      "tessera:magenta_stained_glass",
+      "tessera:magenta_stained_glass",
+      "tessera:magenta_stained_glass",
+      "tessera:magenta_stained_glass"
+    ],
+    "output": "tessera:magenta_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:magenta_stained_glass",
+      "tessera:magenta_stained_glass",
+      "tessera:magenta_stained_glass"
+    ],
+    "output": "tessera:magenta_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:orange_stained_glass",
+      null,
+      "tessera:orange_stained_glass",
+      "tessera:orange_stained_glass",
+      "tessera:orange_stained_glass",
+      "tessera:orange_stained_glass",
+      "tessera:orange_stained_glass"
+    ],
+    "output": "tessera:orange_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:orange_stained_glass",
+      "tessera:orange_stained_glass",
+      "tessera:orange_stained_glass"
+    ],
+    "output": "tessera:orange_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:pink_stained_glass",
+      null,
+      "tessera:pink_stained_glass",
+      "tessera:pink_stained_glass",
+      "tessera:pink_stained_glass",
+      "tessera:pink_stained_glass",
+      "tessera:pink_stained_glass"
+    ],
+    "output": "tessera:pink_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:pink_stained_glass",
+      "tessera:pink_stained_glass",
+      "tessera:pink_stained_glass"
+    ],
+    "output": "tessera:pink_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:purple_stained_glass",
+      null,
+      "tessera:purple_stained_glass",
+      "tessera:purple_stained_glass",
+      "tessera:purple_stained_glass",
+      "tessera:purple_stained_glass",
+      "tessera:purple_stained_glass"
+    ],
+    "output": "tessera:purple_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:purple_stained_glass",
+      "tessera:purple_stained_glass",
+      "tessera:purple_stained_glass"
+    ],
+    "output": "tessera:purple_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:red_stained_glass",
+      null,
+      "tessera:red_stained_glass",
+      "tessera:red_stained_glass",
+      "tessera:red_stained_glass",
+      "tessera:red_stained_glass",
+      "tessera:red_stained_glass"
+    ],
+    "output": "tessera:red_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:red_stained_glass",
+      "tessera:red_stained_glass",
+      "tessera:red_stained_glass"
+    ],
+    "output": "tessera:red_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:white_stained_glass",
+      null,
+      "tessera:white_stained_glass",
+      "tessera:white_stained_glass",
+      "tessera:white_stained_glass",
+      "tessera:white_stained_glass",
+      "tessera:white_stained_glass"
+    ],
+    "output": "tessera:white_stained_glass_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:white_stained_glass",
+      "tessera:white_stained_glass",
+      "tessera:white_stained_glass"
+    ],
+    "output": "tessera:white_stained_glass_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:checkerboard_chiseled_marble",
+      null,
+      "tessera:checkerboard_chiseled_marble",
+      "tessera:checkerboard_chiseled_marble",
+      "tessera:checkerboard_chiseled_marble",
+      "tessera:checkerboard_chiseled_marble",
+      "tessera:checkerboard_chiseled_marble"
+    ],
+    "output": "tessera:checkerboard_chiseled_marble_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:checkerboard_chiseled_marble",
+      "tessera:checkerboard_chiseled_marble",
+      "tessera:checkerboard_chiseled_marble"
+    ],
+    "output": "tessera:checkerboard_chiseled_marble_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:chiseled_marble",
+      null,
+      "tessera:chiseled_marble",
+      "tessera:chiseled_marble",
+      "tessera:chiseled_marble",
+      "tessera:chiseled_marble",
+      "tessera:chiseled_marble"
+    ],
+    "output": "tessera:chiseled_marble_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:chiseled_marble",
+      "tessera:chiseled_marble",
+      "tessera:chiseled_marble"
+    ],
+    "output": "tessera:chiseled_marble_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:marble_tile",
+      null,
+      "tessera:marble_tile",
+      "tessera:marble_tile",
+      "tessera:marble_tile",
+      "tessera:marble_tile",
+      "tessera:marble_tile"
+    ],
+    "output": "tessera:marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:marble_tile",
+      "tessera:marble_tile",
+      "tessera:marble_tile"
+    ],
+    "output": "tessera:marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:gray_marble_tile",
+      null,
+      "tessera:gray_marble_tile",
+      "tessera:gray_marble_tile",
+      "tessera:gray_marble_tile",
+      "tessera:gray_marble_tile",
+      "tessera:gray_marble_tile"
+    ],
+    "output": "tessera:gray_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:gray_marble_tile",
+      "tessera:gray_marble_tile",
+      "tessera:gray_marble_tile"
+    ],
+    "output": "tessera:gray_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:blue_marble_tile",
+      null,
+      "tessera:blue_marble_tile",
+      "tessera:blue_marble_tile",
+      "tessera:blue_marble_tile",
+      "tessera:blue_marble_tile",
+      "tessera:blue_marble_tile"
+    ],
+    "output": "tessera:blue_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:blue_marble_tile",
+      "tessera:blue_marble_tile",
+      "tessera:blue_marble_tile"
+    ],
+    "output": "tessera:blue_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:green_marble_tile",
+      null,
+      "tessera:green_marble_tile",
+      "tessera:green_marble_tile",
+      "tessera:green_marble_tile",
+      "tessera:green_marble_tile",
+      "tessera:green_marble_tile"
+    ],
+    "output": "tessera:green_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:chiseled_quartz",
+      null,
+      "tessera:chiseled_quartz",
+      "tessera:chiseled_quartz",
+      "tessera:chiseled_quartz",
+      "tessera:chiseled_quartz",
+      "tessera:chiseled_quartz"
+    ],
+    "output": "tessera:chiseled_quartz_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:chiseled_quartz",
+      "tessera:chiseled_quartz",
+      "tessera:chiseled_quartz"
+    ],
+    "output": "tessera:chiseled_quartz_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:chiseled_quartz",
+      null,
+      null,
+      "tessera:chiseled_quartz",
+      null,
+      null,
+      "tessera:chiseled_quartz",
+      null
+    ],
+    "output": "tessera:chiseled_quartz_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:gray_marble_tile",
+      null,
+      null,
+      "tessera:gray_marble_tile",
+      null,
+      null,
+      "tessera:gray_marble_tile",
+      null
+    ],
+    "output": "tessera:gray_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:blue_marble_tile",
+      null,
+      null,
+      "tessera:blue_marble_tile",
+      null,
+      null,
+      "tessera:blue_marble_tile",
+      null
+    ],
+    "output": "tessera:blue_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:green_marble_tile",
+      null,
+      null,
+      "tessera:green_marble_tile",
+      null,
+      null,
+      "tessera:green_marble_tile",
+      null
+    ],
+    "output": "tessera:green_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:orange_marble_tile",
+      null,
+      null,
+      "tessera:orange_marble_tile",
+      null,
+      null,
+      "tessera:orange_marble_tile",
+      null
+    ],
+    "output": "tessera:orange_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:marble_tile",
+      null,
+      null,
+      "tessera:marble_tile",
+      null,
+      null,
+      "tessera:marble_tile",
+      null
+    ],
+    "output": "tessera:marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:glass",
+      null,
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      "tessera:glass",
+      "tessera:glass",
+      null,
+      "tessera:glass"
+    ],
+    "output": "tessera:glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:yellow_stained_glass",
+      null,
+      "tessera:yellow_stained_glass",
+      "tessera:yellow_stained_glass",
+      null,
+      "tessera:yellow_stained_glass",
+      "tessera:yellow_stained_glass",
+      null,
+      "tessera:yellow_stained_glass"
+    ],
+    "output": "tessera:yellow_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:black_stained_glass",
+      null,
+      "tessera:black_stained_glass",
+      "tessera:black_stained_glass",
+      null,
+      "tessera:black_stained_glass",
+      "tessera:black_stained_glass",
+      null,
+      "tessera:black_stained_glass"
+    ],
+    "output": "tessera:black_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:blue_stained_glass",
+      null,
+      "tessera:blue_stained_glass",
+      "tessera:blue_stained_glass",
+      null,
+      "tessera:blue_stained_glass",
+      "tessera:blue_stained_glass",
+      null,
+      "tessera:blue_stained_glass"
+    ],
+    "output": "tessera:blue_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:brown_stained_glass",
+      null,
+      "tessera:brown_stained_glass",
+      "tessera:brown_stained_glass",
+      null,
+      "tessera:brown_stained_glass",
+      "tessera:brown_stained_glass",
+      null,
+      "tessera:brown_stained_glass"
+    ],
+    "output": "tessera:brown_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:cyan_stained_glass",
+      null,
+      "tessera:cyan_stained_glass",
+      "tessera:cyan_stained_glass",
+      null,
+      "tessera:cyan_stained_glass",
+      "tessera:cyan_stained_glass",
+      null,
+      "tessera:cyan_stained_glass"
+    ],
+    "output": "tessera:cyan_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:gray_stained_glass",
+      null,
+      "tessera:gray_stained_glass",
+      "tessera:gray_stained_glass",
+      null,
+      "tessera:gray_stained_glass",
+      "tessera:gray_stained_glass",
+      null,
+      "tessera:gray_stained_glass"
+    ],
+    "output": "tessera:gray_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:green_stained_glass",
+      null,
+      "tessera:green_stained_glass",
+      "tessera:green_stained_glass",
+      null,
+      "tessera:green_stained_glass",
+      "tessera:green_stained_glass",
+      null,
+      "tessera:green_stained_glass"
+    ],
+    "output": "tessera:green_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:light_blue_stained_glass",
+      null,
+      "tessera:light_blue_stained_glass",
+      "tessera:light_blue_stained_glass",
+      null,
+      "tessera:light_blue_stained_glass",
+      "tessera:light_blue_stained_glass",
+      null,
+      "tessera:light_blue_stained_glass"
+    ],
+    "output": "tessera:light_blue_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:light_gray_stained_glass",
+      null,
+      "tessera:light_gray_stained_glass",
+      "tessera:light_gray_stained_glass",
+      null,
+      "tessera:light_gray_stained_glass",
+      "tessera:light_gray_stained_glass",
+      null,
+      "tessera:light_gray_stained_glass"
+    ],
+    "output": "tessera:light_gray_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:lime_stained_glass",
+      null,
+      "tessera:lime_stained_glass",
+      "tessera:lime_stained_glass",
+      null,
+      "tessera:lime_stained_glass",
+      "tessera:lime_stained_glass",
+      null,
+      "tessera:lime_stained_glass"
+    ],
+    "output": "tessera:lime_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:magenta_stained_glass",
+      null,
+      "tessera:magenta_stained_glass",
+      "tessera:magenta_stained_glass",
+      null,
+      "tessera:magenta_stained_glass",
+      "tessera:magenta_stained_glass",
+      null,
+      "tessera:magenta_stained_glass"
+    ],
+    "output": "tessera:magenta_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:orange_stained_glass",
+      null,
+      "tessera:orange_stained_glass",
+      "tessera:orange_stained_glass",
+      null,
+      "tessera:orange_stained_glass",
+      "tessera:orange_stained_glass",
+      null,
+      "tessera:orange_stained_glass"
+    ],
+    "output": "tessera:orange_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:pink_stained_glass",
+      null,
+      "tessera:pink_stained_glass",
+      "tessera:pink_stained_glass",
+      null,
+      "tessera:pink_stained_glass",
+      "tessera:pink_stained_glass",
+      null,
+      "tessera:pink_stained_glass"
+    ],
+    "output": "tessera:pink_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:purple_stained_glass",
+      null,
+      "tessera:purple_stained_glass",
+      "tessera:purple_stained_glass",
+      null,
+      "tessera:purple_stained_glass",
+      "tessera:purple_stained_glass",
+      null,
+      "tessera:purple_stained_glass"
+    ],
+    "output": "tessera:purple_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:red_stained_glass",
+      null,
+      "tessera:red_stained_glass",
+      "tessera:red_stained_glass",
+      null,
+      "tessera:red_stained_glass",
+      "tessera:red_stained_glass",
+      null,
+      "tessera:red_stained_glass"
+    ],
+    "output": "tessera:red_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      "tessera:white_stained_glass",
+      null,
+      "tessera:white_stained_glass",
+      "tessera:white_stained_glass",
+      null,
+      "tessera:white_stained_glass",
+      "tessera:white_stained_glass",
+      null,
+      "tessera:white_stained_glass"
+    ],
+    "output": "tessera:white_stained_glass_pane",
+    "amount": 12
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:yellow_marble_tile",
+      null,
+      "tessera:yellow_marble_tile",
+      "tessera:yellow_marble_tile",
+      "tessera:yellow_marble_tile",
+      "tessera:yellow_marble_tile",
+      "tessera:yellow_marble_tile"
+    ],
+    "output": "tessera:yellow_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:yellow_marble_tile",
+      "tessera:yellow_marble_tile",
+      "tessera:yellow_marble_tile"
+    ],
+    "output": "tessera:yellow_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:yellow_marble_tile",
+      null,
+      null,
+      "tessera:yellow_marble_tile",
+      null,
+      null,
+      "tessera:yellow_marble_tile",
+      null
+    ],
+    "output": "tessera:yellow_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:black_marble_tile",
+      null,
+      "tessera:black_marble_tile",
+      "tessera:black_marble_tile",
+      "tessera:black_marble_tile",
+      "tessera:black_marble_tile",
+      "tessera:black_marble_tile"
+    ],
+    "output": "tessera:black_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:black_marble_tile",
+      "tessera:black_marble_tile",
+      "tessera:black_marble_tile"
+    ],
+    "output": "tessera:black_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:black_marble_tile",
+      null,
+      null,
+      "tessera:black_marble_tile",
+      null,
+      null,
+      "tessera:black_marble_tile",
+      null
+    ],
+    "output": "tessera:black_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:pink_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:pink_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:pink_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:pink_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:brown_marble_tile",
+      null,
+      "tessera:brown_marble_tile",
+      "tessera:brown_marble_tile",
+      "tessera:brown_marble_tile",
+      "tessera:brown_marble_tile",
+      "tessera:brown_marble_tile"
+    ],
+    "output": "tessera:brown_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:brown_marble_tile",
+      "tessera:brown_marble_tile",
+      "tessera:brown_marble_tile"
+    ],
+    "output": "tessera:brown_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:brown_marble_tile",
+      null,
+      null,
+      "tessera:brown_marble_tile",
+      null,
+      null,
+      "tessera:brown_marble_tile",
+      null
+    ],
+    "output": "tessera:brown_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:cyan_marble_tile",
+      null,
+      "tessera:cyan_marble_tile",
+      "tessera:cyan_marble_tile",
+      "tessera:cyan_marble_tile",
+      "tessera:cyan_marble_tile",
+      "tessera:cyan_marble_tile"
+    ],
+    "output": "tessera:cyan_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:cyan_marble_tile",
+      "tessera:cyan_marble_tile",
+      "tessera:cyan_marble_tile"
+    ],
+    "output": "tessera:cyan_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:cyan_marble_tile",
+      null,
+      null,
+      "tessera:cyan_marble_tile",
+      null,
+      null,
+      "tessera:cyan_marble_tile",
+      null
+    ],
+    "output": "tessera:cyan_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:purple_chiseled_marble_tile",
+      null,
+      "tessera:purple_chiseled_marble_tile",
+      "tessera:purple_chiseled_marble_tile",
+      "tessera:purple_chiseled_marble_tile",
+      "tessera:purple_chiseled_marble_tile",
+      "tessera:purple_chiseled_marble_tile"
+    ],
+    "output": "tessera:purple_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:purple_chiseled_marble_tile",
+      "tessera:purple_chiseled_marble_tile",
+      "tessera:purple_chiseled_marble_tile"
+    ],
+    "output": "tessera:purple_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:purple_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:purple_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:purple_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:purple_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:burgundy_chiseled_marble_tile",
+      null,
+      "tessera:burgundy_chiseled_marble_tile",
+      "tessera:burgundy_chiseled_marble_tile",
+      "tessera:burgundy_chiseled_marble_tile",
+      "tessera:burgundy_chiseled_marble_tile",
+      "tessera:burgundy_chiseled_marble_tile"
+    ],
+    "output": "tessera:burgundy_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:burgundy_chiseled_marble_tile",
+      "tessera:burgundy_chiseled_marble_tile",
+      "tessera:burgundy_chiseled_marble_tile"
+    ],
+    "output": "tessera:burgundy_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:burgundy_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:burgundy_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:burgundy_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:burgundy_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:pastel_blue_marble_tile",
+      null,
+      "tessera:pastel_blue_marble_tile",
+      "tessera:pastel_blue_marble_tile",
+      "tessera:pastel_blue_marble_tile",
+      "tessera:pastel_blue_marble_tile",
+      "tessera:pastel_blue_marble_tile"
+    ],
+    "output": "tessera:pastel_blue_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:pastel_blue_marble_tile",
+      "tessera:pastel_blue_marble_tile",
+      "tessera:pastel_blue_marble_tile"
+    ],
+    "output": "tessera:pastel_blue_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:pastel_blue_marble_tile",
+      null,
+      null,
+      "tessera:pastel_blue_marble_tile",
+      null,
+      null,
+      "tessera:pastel_blue_marble_tile",
+      null
+    ],
+    "output": "tessera:pastel_blue_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:pastel_green_marble_tile",
+      null,
+      "tessera:pastel_green_marble_tile",
+      "tessera:pastel_green_marble_tile",
+      "tessera:pastel_green_marble_tile",
+      "tessera:pastel_green_marble_tile",
+      "tessera:pastel_green_marble_tile"
+    ],
+    "output": "tessera:pastel_green_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:pastel_green_marble_tile",
+      "tessera:pastel_green_marble_tile",
+      "tessera:pastel_green_marble_tile"
+    ],
+    "output": "tessera:pastel_green_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:pastel_green_marble_tile",
+      null,
+      null,
+      "tessera:pastel_green_marble_tile",
+      null,
+      null,
+      "tessera:pastel_green_marble_tile",
+      null
+    ],
+    "output": "tessera:pastel_green_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:magenta_marble_tile",
+      null,
+      "tessera:magenta_marble_tile",
+      "tessera:magenta_marble_tile",
+      "tessera:magenta_marble_tile",
+      "tessera:magenta_marble_tile",
+      "tessera:magenta_marble_tile"
+    ],
+    "output": "tessera:magenta_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:magenta_marble_tile",
+      "tessera:magenta_marble_tile",
+      "tessera:magenta_marble_tile"
+    ],
+    "output": "tessera:magenta_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:magenta_marble_tile",
+      null,
+      null,
+      "tessera:magenta_marble_tile",
+      null,
+      null,
+      "tessera:magenta_marble_tile",
+      null
+    ],
+    "output": "tessera:magenta_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:pastel_red_chiseled_marble_tile",
+      null,
+      "tessera:pastel_red_chiseled_marble_tile",
+      "tessera:pastel_red_chiseled_marble_tile",
+      "tessera:pastel_red_chiseled_marble_tile",
+      "tessera:pastel_red_chiseled_marble_tile",
+      "tessera:pastel_red_chiseled_marble_tile"
+    ],
+    "output": "tessera:pastel_red_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:pastel_red_chiseled_marble_tile",
+      "tessera:pastel_red_chiseled_marble_tile",
+      "tessera:pastel_red_chiseled_marble_tile"
+    ],
+    "output": "tessera:pastel_red_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:pastel_red_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:pastel_red_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:pastel_red_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:pastel_red_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:pink_marble_tile",
+      null,
+      "tessera:pink_marble_tile",
+      "tessera:pink_marble_tile",
+      "tessera:pink_marble_tile",
+      "tessera:pink_marble_tile",
+      "tessera:pink_marble_tile"
+    ],
+    "output": "tessera:pink_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:pink_marble_tile",
+      "tessera:pink_marble_tile",
+      "tessera:pink_marble_tile"
+    ],
+    "output": "tessera:pink_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:pink_marble_tile",
+      null,
+      null,
+      "tessera:pink_marble_tile",
+      null,
+      null,
+      "tessera:pink_marble_tile",
+      null
+    ],
+    "output": "tessera:pink_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:purple_marble_tile",
+      null,
+      "tessera:purple_marble_tile",
+      "tessera:purple_marble_tile",
+      "tessera:purple_marble_tile",
+      "tessera:purple_marble_tile",
+      "tessera:purple_marble_tile"
+    ],
+    "output": "tessera:purple_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:purple_marble_tile",
+      "tessera:purple_marble_tile",
+      "tessera:purple_marble_tile"
+    ],
+    "output": "tessera:purple_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:purple_marble_tile",
+      null,
+      null,
+      "tessera:purple_marble_tile",
+      null,
+      null,
+      "tessera:purple_marble_tile",
+      null
+    ],
+    "output": "tessera:purple_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:burgundy_marble_tile",
+      null,
+      "tessera:burgundy_marble_tile",
+      "tessera:burgundy_marble_tile",
+      "tessera:burgundy_marble_tile",
+      "tessera:burgundy_marble_tile",
+      "tessera:burgundy_marble_tile"
+    ],
+    "output": "tessera:burgundy_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:burgundy_marble_tile",
+      "tessera:burgundy_marble_tile",
+      "tessera:burgundy_marble_tile"
+    ],
+    "output": "tessera:burgundy_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:burgundy_marble_tile",
+      null,
+      null,
+      "tessera:burgundy_marble_tile",
+      null,
+      null,
+      "tessera:burgundy_marble_tile",
+      null
+    ],
+    "output": "tessera:burgundy_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:pastel_red_marble_tile",
+      null,
+      "tessera:pastel_red_marble_tile",
+      "tessera:pastel_red_marble_tile",
+      "tessera:pastel_red_marble_tile",
+      "tessera:pastel_red_marble_tile",
+      "tessera:pastel_red_marble_tile"
+    ],
+    "output": "tessera:pastel_red_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:pastel_red_marble_tile",
+      "tessera:pastel_red_marble_tile",
+      "tessera:pastel_red_marble_tile"
+    ],
+    "output": "tessera:pastel_red_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:pastel_red_marble_tile",
+      null,
+      null,
+      "tessera:pastel_red_marble_tile",
+      null,
+      null,
+      "tessera:pastel_red_marble_tile",
+      null
+    ],
+    "output": "tessera:pastel_red_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:yellow_chiseled_marble_tile",
+      null,
+      "tessera:yellow_chiseled_marble_tile",
+      "tessera:yellow_chiseled_marble_tile",
+      "tessera:yellow_chiseled_marble_tile",
+      "tessera:yellow_chiseled_marble_tile",
+      "tessera:yellow_chiseled_marble_tile"
+    ],
+    "output": "tessera:yellow_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:yellow_chiseled_marble_tile",
+      "tessera:yellow_chiseled_marble_tile",
+      "tessera:yellow_chiseled_marble_tile"
+    ],
+    "output": "tessera:yellow_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:yellow_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:yellow_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:yellow_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:yellow_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:black_chiseled_marble_tile",
+      null,
+      "tessera:black_chiseled_marble_tile",
+      "tessera:black_chiseled_marble_tile",
+      "tessera:black_chiseled_marble_tile",
+      "tessera:black_chiseled_marble_tile",
+      "tessera:black_chiseled_marble_tile"
+    ],
+    "output": "tessera:black_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:black_chiseled_marble_tile",
+      "tessera:black_chiseled_marble_tile",
+      "tessera:black_chiseled_marble_tile"
+    ],
+    "output": "tessera:black_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:black_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:black_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:black_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:black_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:blue_chiseled_marble_tile",
+      null,
+      "tessera:blue_chiseled_marble_tile",
+      "tessera:blue_chiseled_marble_tile",
+      "tessera:blue_chiseled_marble_tile",
+      "tessera:blue_chiseled_marble_tile",
+      "tessera:blue_chiseled_marble_tile"
+    ],
+    "output": "tessera:blue_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:blue_chiseled_marble_tile",
+      "tessera:blue_chiseled_marble_tile",
+      "tessera:blue_chiseled_marble_tile"
+    ],
+    "output": "tessera:blue_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:blue_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:blue_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:blue_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:blue_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:brown_chiseled_marble_tile",
+      null,
+      "tessera:brown_chiseled_marble_tile",
+      "tessera:brown_chiseled_marble_tile",
+      "tessera:brown_chiseled_marble_tile",
+      "tessera:brown_chiseled_marble_tile",
+      "tessera:brown_chiseled_marble_tile"
+    ],
+    "output": "tessera:brown_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:brown_chiseled_marble_tile",
+      "tessera:brown_chiseled_marble_tile",
+      "tessera:brown_chiseled_marble_tile"
+    ],
+    "output": "tessera:brown_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:brown_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:brown_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:brown_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:brown_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:cyan_chiseled_marble_tile",
+      null,
+      "tessera:cyan_chiseled_marble_tile",
+      "tessera:cyan_chiseled_marble_tile",
+      "tessera:cyan_chiseled_marble_tile",
+      "tessera:cyan_chiseled_marble_tile",
+      "tessera:cyan_chiseled_marble_tile"
+    ],
+    "output": "tessera:cyan_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:cyan_chiseled_marble_tile",
+      "tessera:cyan_chiseled_marble_tile",
+      "tessera:cyan_chiseled_marble_tile"
+    ],
+    "output": "tessera:cyan_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:cyan_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:cyan_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:cyan_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:cyan_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:gray_chiseled_marble_tile",
+      null,
+      "tessera:gray_chiseled_marble_tile",
+      "tessera:gray_chiseled_marble_tile",
+      "tessera:gray_chiseled_marble_tile",
+      "tessera:gray_chiseled_marble_tile",
+      "tessera:gray_chiseled_marble_tile"
+    ],
+    "output": "tessera:gray_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:gray_chiseled_marble_tile",
+      "tessera:gray_chiseled_marble_tile",
+      "tessera:gray_chiseled_marble_tile"
+    ],
+    "output": "tessera:gray_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:gray_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:gray_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:gray_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:gray_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:green_chiseled_marble_tile",
+      null,
+      "tessera:green_chiseled_marble_tile",
+      "tessera:green_chiseled_marble_tile",
+      "tessera:green_chiseled_marble_tile",
+      "tessera:green_chiseled_marble_tile",
+      "tessera:green_chiseled_marble_tile"
+    ],
+    "output": "tessera:green_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:green_chiseled_marble_tile",
+      "tessera:green_chiseled_marble_tile",
+      "tessera:green_chiseled_marble_tile"
+    ],
+    "output": "tessera:green_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:green_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:green_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:green_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:green_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:pastel_blue_chiseled_marble_tile",
+      null,
+      "tessera:pastel_blue_chiseled_marble_tile",
+      "tessera:pastel_blue_chiseled_marble_tile",
+      "tessera:pastel_blue_chiseled_marble_tile",
+      "tessera:pastel_blue_chiseled_marble_tile",
+      "tessera:pastel_blue_chiseled_marble_tile"
+    ],
+    "output": "tessera:pastel_blue_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:pastel_blue_chiseled_marble_tile",
+      "tessera:pastel_blue_chiseled_marble_tile",
+      "tessera:pastel_blue_chiseled_marble_tile"
+    ],
+    "output": "tessera:pastel_blue_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:pastel_blue_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:pastel_blue_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:pastel_blue_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:pastel_blue_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:pastel_green_chiseled_marble_tile",
+      null,
+      "tessera:pastel_green_chiseled_marble_tile",
+      "tessera:pastel_green_chiseled_marble_tile",
+      "tessera:pastel_green_chiseled_marble_tile",
+      "tessera:pastel_green_chiseled_marble_tile",
+      "tessera:pastel_green_chiseled_marble_tile"
+    ],
+    "output": "tessera:pastel_green_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:pastel_green_chiseled_marble_tile",
+      "tessera:pastel_green_chiseled_marble_tile",
+      "tessera:pastel_green_chiseled_marble_tile"
+    ],
+    "output": "tessera:pastel_green_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:pastel_green_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:pastel_green_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:pastel_green_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:pastel_green_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:magenta_chiseled_marble_tile",
+      null,
+      "tessera:magenta_chiseled_marble_tile",
+      "tessera:magenta_chiseled_marble_tile",
+      "tessera:magenta_chiseled_marble_tile",
+      "tessera:magenta_chiseled_marble_tile",
+      "tessera:magenta_chiseled_marble_tile"
+    ],
+    "output": "tessera:magenta_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:magenta_chiseled_marble_tile",
+      "tessera:magenta_chiseled_marble_tile",
+      "tessera:magenta_chiseled_marble_tile"
+    ],
+    "output": "tessera:magenta_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:magenta_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:magenta_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:magenta_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:magenta_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:orange_chiseled_marble_tile",
+      null,
+      "tessera:orange_chiseled_marble_tile",
+      "tessera:orange_chiseled_marble_tile",
+      "tessera:orange_chiseled_marble_tile",
+      "tessera:orange_chiseled_marble_tile",
+      "tessera:orange_chiseled_marble_tile"
+    ],
+    "output": "tessera:orange_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:orange_chiseled_marble_tile",
+      "tessera:orange_chiseled_marble_tile",
+      "tessera:orange_chiseled_marble_tile"
+    ],
+    "output": "tessera:orange_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      "tessera:orange_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:orange_chiseled_marble_tile",
+      null,
+      null,
+      "tessera:orange_chiseled_marble_tile",
+      null
+    ],
+    "output": "tessera:orange_chiseled_marble_tile_pillar",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:pink_chiseled_marble_tile",
+      null,
+      "tessera:pink_chiseled_marble_tile",
+      "tessera:pink_chiseled_marble_tile",
+      "tessera:pink_chiseled_marble_tile",
+      "tessera:pink_chiseled_marble_tile",
+      "tessera:pink_chiseled_marble_tile"
+    ],
+    "output": "tessera:pink_chiseled_marble_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:pink_chiseled_marble_tile",
+      "tessera:pink_chiseled_marble_tile",
+      "tessera:pink_chiseled_marble_tile"
+    ],
+    "output": "tessera:pink_chiseled_marble_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:white_space_tile",
+      null,
+      "tessera:white_space_tile",
+      "tessera:white_space_tile",
+      "tessera:white_space_tile",
+      "tessera:white_space_tile",
+      "tessera:white_space_tile"
+    ],
+    "output": "tessera:white_space_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:ice_block",
+      null,
+      "tessera:ice_block",
+      "tessera:ice_block",
+      "tessera:ice_block",
+      "tessera:ice_block",
+      "tessera:ice_block"
+    ],
+    "output": "tessera:ice_block_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:ice_block",
+      "tessera:ice_block",
+      "tessera:ice_block"
+    ],
+    "output": "tessera:ice_block_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:mosaic_bamboo_wood",
+      null,
+      "tessera:mosaic_bamboo_wood",
+      "tessera:mosaic_bamboo_wood",
+      "tessera:mosaic_bamboo_wood",
+      "tessera:mosaic_bamboo_wood",
+      "tessera:mosaic_bamboo_wood"
+    ],
+    "output": "tessera:mosaic_bamboo_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:mosaic_bamboo_wood",
+      "tessera:mosaic_bamboo_wood",
+      "tessera:mosaic_bamboo_wood"
+    ],
+    "output": "tessera:mosaic_bamboo_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:mosaic_bamboo_wood",
+      "tessera:stick",
+      "tessera:mosaic_bamboo_wood",
+      "tessera:mosaic_bamboo_wood",
+      "tessera:stick",
+      "tessera:mosaic_bamboo_wood"
+    ],
+    "output": "tessera:mosaic_bamboo_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:yellow_stained_wood",
+      null,
+      "tessera:yellow_stained_wood",
+      "tessera:yellow_stained_wood",
+      "tessera:yellow_stained_wood",
+      "tessera:yellow_stained_wood",
+      "tessera:yellow_stained_wood"
+    ],
+    "output": "tessera:yellow_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:yellow_stained_wood",
+      "tessera:yellow_stained_wood",
+      "tessera:yellow_stained_wood"
+    ],
+    "output": "tessera:yellow_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:yellow_stained_wood",
+      "tessera:stick",
+      "tessera:yellow_stained_wood",
+      "tessera:yellow_stained_wood",
+      "tessera:stick",
+      "tessera:yellow_stained_wood"
+    ],
+    "output": "tessera:yellow_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:black_stained_wood",
+      null,
+      "tessera:black_stained_wood",
+      "tessera:black_stained_wood",
+      "tessera:black_stained_wood",
+      "tessera:black_stained_wood",
+      "tessera:black_stained_wood"
+    ],
+    "output": "tessera:black_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:black_stained_wood",
+      "tessera:black_stained_wood",
+      "tessera:black_stained_wood"
+    ],
+    "output": "tessera:black_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:black_stained_wood",
+      "tessera:stick",
+      "tessera:black_stained_wood",
+      "tessera:black_stained_wood",
+      "tessera:stick",
+      "tessera:black_stained_wood"
+    ],
+    "output": "tessera:black_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:blue_stained_wood",
+      null,
+      "tessera:blue_stained_wood",
+      "tessera:blue_stained_wood",
+      "tessera:blue_stained_wood",
+      "tessera:blue_stained_wood",
+      "tessera:blue_stained_wood"
+    ],
+    "output": "tessera:blue_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:blue_stained_wood",
+      "tessera:blue_stained_wood",
+      "tessera:blue_stained_wood"
+    ],
+    "output": "tessera:blue_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:blue_stained_wood",
+      "tessera:stick",
+      "tessera:blue_stained_wood",
+      "tessera:blue_stained_wood",
+      "tessera:stick",
+      "tessera:blue_stained_wood"
+    ],
+    "output": "tessera:blue_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:cyan_stained_wood",
+      null,
+      "tessera:cyan_stained_wood",
+      "tessera:cyan_stained_wood",
+      "tessera:cyan_stained_wood",
+      "tessera:cyan_stained_wood",
+      "tessera:cyan_stained_wood"
+    ],
+    "output": "tessera:cyan_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:cyan_stained_wood",
+      "tessera:cyan_stained_wood",
+      "tessera:cyan_stained_wood"
+    ],
+    "output": "tessera:cyan_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:cyan_stained_wood",
+      "tessera:stick",
+      "tessera:cyan_stained_wood",
+      "tessera:cyan_stained_wood",
+      "tessera:stick",
+      "tessera:cyan_stained_wood"
+    ],
+    "output": "tessera:cyan_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:gray_stained_wood",
+      null,
+      "tessera:gray_stained_wood",
+      "tessera:gray_stained_wood",
+      "tessera:gray_stained_wood",
+      "tessera:gray_stained_wood",
+      "tessera:gray_stained_wood"
+    ],
+    "output": "tessera:gray_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:gray_stained_wood",
+      "tessera:gray_stained_wood",
+      "tessera:gray_stained_wood"
+    ],
+    "output": "tessera:gray_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:gray_stained_wood",
+      "tessera:stick",
+      "tessera:gray_stained_wood",
+      "tessera:gray_stained_wood",
+      "tessera:stick",
+      "tessera:gray_stained_wood"
+    ],
+    "output": "tessera:gray_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:green_stained_wood",
+      null,
+      "tessera:green_stained_wood",
+      "tessera:green_stained_wood",
+      "tessera:green_stained_wood",
+      "tessera:green_stained_wood",
+      "tessera:green_stained_wood"
+    ],
+    "output": "tessera:green_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:green_stained_wood",
+      "tessera:green_stained_wood",
+      "tessera:green_stained_wood"
+    ],
+    "output": "tessera:green_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:green_stained_wood",
+      "tessera:stick",
+      "tessera:green_stained_wood",
+      "tessera:green_stained_wood",
+      "tessera:stick",
+      "tessera:green_stained_wood"
+    ],
+    "output": "tessera:green_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:light_blue_stained_wood",
+      null,
+      "tessera:light_blue_stained_wood",
+      "tessera:light_blue_stained_wood",
+      "tessera:light_blue_stained_wood",
+      "tessera:light_blue_stained_wood",
+      "tessera:light_blue_stained_wood"
+    ],
+    "output": "tessera:light_blue_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:light_blue_stained_wood",
+      "tessera:light_blue_stained_wood",
+      "tessera:light_blue_stained_wood"
+    ],
+    "output": "tessera:light_blue_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:light_blue_stained_wood",
+      "tessera:stick",
+      "tessera:light_blue_stained_wood",
+      "tessera:light_blue_stained_wood",
+      "tessera:stick",
+      "tessera:light_blue_stained_wood"
+    ],
+    "output": "tessera:light_blue_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:lime_stained_wood",
+      null,
+      "tessera:lime_stained_wood",
+      "tessera:lime_stained_wood",
+      "tessera:lime_stained_wood",
+      "tessera:lime_stained_wood",
+      "tessera:lime_stained_wood"
+    ],
+    "output": "tessera:lime_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:lime_stained_wood",
+      "tessera:lime_stained_wood",
+      "tessera:lime_stained_wood"
+    ],
+    "output": "tessera:lime_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:lime_stained_wood",
+      "tessera:stick",
+      "tessera:lime_stained_wood",
+      "tessera:lime_stained_wood",
+      "tessera:stick",
+      "tessera:lime_stained_wood"
+    ],
+    "output": "tessera:lime_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:magenta_stained_wood",
+      null,
+      "tessera:magenta_stained_wood",
+      "tessera:magenta_stained_wood",
+      "tessera:magenta_stained_wood",
+      "tessera:magenta_stained_wood",
+      "tessera:magenta_stained_wood"
+    ],
+    "output": "tessera:magenta_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:magenta_stained_wood",
+      "tessera:magenta_stained_wood",
+      "tessera:magenta_stained_wood"
+    ],
+    "output": "tessera:magenta_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:magenta_stained_wood",
+      "tessera:stick",
+      "tessera:magenta_stained_wood",
+      "tessera:magenta_stained_wood",
+      "tessera:stick",
+      "tessera:magenta_stained_wood"
+    ],
+    "output": "tessera:magenta_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:orange_stained_wood",
+      null,
+      "tessera:orange_stained_wood",
+      "tessera:orange_stained_wood",
+      "tessera:orange_stained_wood",
+      "tessera:orange_stained_wood",
+      "tessera:orange_stained_wood"
+    ],
+    "output": "tessera:orange_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:orange_stained_wood",
+      "tessera:orange_stained_wood",
+      "tessera:orange_stained_wood"
+    ],
+    "output": "tessera:orange_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:orange_stained_wood",
+      "tessera:stick",
+      "tessera:orange_stained_wood",
+      "tessera:orange_stained_wood",
+      "tessera:stick",
+      "tessera:orange_stained_wood"
+    ],
+    "output": "tessera:orange_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:pink_stained_wood",
+      null,
+      "tessera:pink_stained_wood",
+      "tessera:pink_stained_wood",
+      "tessera:pink_stained_wood",
+      "tessera:pink_stained_wood",
+      "tessera:pink_stained_wood"
+    ],
+    "output": "tessera:pink_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:pink_stained_wood",
+      "tessera:pink_stained_wood",
+      "tessera:pink_stained_wood"
+    ],
+    "output": "tessera:pink_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:pink_stained_wood",
+      "tessera:stick",
+      "tessera:pink_stained_wood",
+      "tessera:pink_stained_wood",
+      "tessera:stick",
+      "tessera:pink_stained_wood"
+    ],
+    "output": "tessera:pink_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:purple_stained_wood",
+      null,
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood"
+    ],
+    "output": "tessera:purple_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood"
+    ],
+    "output": "tessera:purple_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:purple_stained_wood",
+      "tessera:stick",
+      "tessera:purple_stained_wood",
+      "tessera:purple_stained_wood",
+      "tessera:stick",
+      "tessera:purple_stained_wood"
+    ],
+    "output": "tessera:purple_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:red_stained_wood",
+      null,
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood"
+    ],
+    "output": "tessera:red_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood"
+    ],
+    "output": "tessera:red_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:red_stained_wood",
+      "tessera:stick",
+      "tessera:red_stained_wood",
+      "tessera:red_stained_wood",
+      "tessera:stick",
+      "tessera:red_stained_wood"
+    ],
+    "output": "tessera:red_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:white_stained_wood",
+      null,
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood"
+    ],
+    "output": "tessera:white_stained_wood_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood"
+    ],
+    "output": "tessera:white_stained_wood_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:white_stained_wood",
+      "tessera:stick",
+      "tessera:white_stained_wood",
+      "tessera:white_stained_wood",
+      "tessera:stick",
+      "tessera:white_stained_wood"
+    ],
+    "output": "tessera:white_stained_wood_fence",
+    "amount": 10
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:white_space_tile",
+      "tessera:white_space_tile",
+      "tessera:white_space_tile"
+    ],
+    "output": "tessera:white_space_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      "tessera:gray_space_tile",
+      null,
+      "tessera:gray_space_tile",
+      "tessera:gray_space_tile",
+      "tessera:gray_space_tile",
+      "tessera:gray_space_tile",
+      "tessera:gray_space_tile"
+    ],
+    "output": "tessera:gray_space_tile_stairs",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:gray_space_tile",
+      "tessera:gray_space_tile",
+      "tessera:gray_space_tile"
+    ],
+    "output": "tessera:gray_space_tile_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tessera:test_orientable",
+      "tessera:test_orientable",
+      "tessera:test_orientable"
+    ],
+    "output": "tessera:test_slab",
+    "amount": 6
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:test_orientable",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:test_orientable",
+      "tessera:stick"
+    ],
+    "output": "tessera:test_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:jungle_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:jungle_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:jungle_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:oak_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:oak_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:oak_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:birch_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:birch_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:birch_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:spruce_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:spruce_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:dark_oak_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:acacia_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:acacia_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:acacia_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:stone_brick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:stone_brick",
+      "tessera:stick"
+    ],
+    "output": "tessera:stone_brick_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:palisade_stone",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:palisade_stone",
+      "tessera:stick"
+    ],
+    "output": "tessera:palisade_stone_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:palisade_stone_2",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:palisade_stone_2",
+      "tessera:stick"
+    ],
+    "output": "tessera:palisade_stone_2_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:polished_diorite",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:polished_diorite",
+      "tessera:stick"
+    ],
+    "output": "tessera:polished_diorite_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:polished_andesite",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:polished_andesite",
+      "tessera:stick"
+    ],
+    "output": "tessera:polished_andesite_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:cracked_stone",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:cracked_stone",
+      "tessera:stick"
+    ],
+    "output": "tessera:cracked_stone_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:stone_with_vines",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:stone_with_vines",
+      "tessera:stick"
+    ],
+    "output": "tessera:stone_with_vines_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:burgundy_brick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:burgundy_brick",
+      "tessera:stick"
+    ],
+    "output": "tessera:burgundy_brick_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:red_palisade_sandstone",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:red_palisade_sandstone",
+      "tessera:stick"
+    ],
+    "output": "tessera:red_palisade_sandstone_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:palisade_sandstone",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:palisade_sandstone",
+      "tessera:stick"
+    ],
+    "output": "tessera:palisade_sandstone_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:yellow_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:yellow_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:yellow_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:black_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:black_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:black_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:blue_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:blue_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:blue_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:brown_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:brown_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:brown_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:cyan_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:cyan_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:cyan_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:gray_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:gray_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:gray_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:green_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:green_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:green_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:light_blue_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:light_blue_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:light_blue_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:light_gray_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:light_gray_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:light_gray_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:lime_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:lime_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:lime_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:magenta_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:magenta_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:magenta_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:orange_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:orange_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:orange_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:pink_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:pink_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:pink_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:purple_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:purple_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:purple_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:red_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:red_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:red_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:white_concrete",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:white_concrete",
+      "tessera:stick"
+    ],
+    "output": "tessera:white_concrete_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:bamboo_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:bamboo_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:bamboo_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:cement",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:cement",
+      "tessera:stick"
+    ],
+    "output": "tessera:cement_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:obsidian",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:obsidian",
+      "tessera:stick"
+    ],
+    "output": "tessera:obsidian_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:lapis_lazuli",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:lapis_lazuli",
+      "tessera:stick"
+    ],
+    "output": "tessera:lapis_lazul_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:iron_ingot",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:iron_ingot",
+      "tessera:stick"
+    ],
+    "output": "tessera:iron_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:gold_ingot",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:gold_ingot",
+      "tessera:stick"
+    ],
+    "output": "tessera:gold_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:emerald",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:emerald",
+      "tessera:stick"
+    ],
+    "output": "tessera:emerald_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:diamond",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:diamond",
+      "tessera:stick"
+    ],
+    "output": "tessera:diamond_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:prismarine_bricks",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:prismarine_bricks",
+      "tessera:stick"
+    ],
+    "output": "tessera:prismarine_brick_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:granite_brick",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:granite_brick",
+      "tessera:stick"
+    ],
+    "output": "tessera:granite_brick_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:dark_prismarine_bricks",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:dark_prismarine_bricks",
+      "tessera:stick"
+    ],
+    "output": "tessera:dark_prismarine_brick_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:mosaic_bamboo_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:mosaic_bamboo_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:mosaic_bamboo_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:yellow_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:yellow_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:yellow_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:black_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:black_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:black_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:blue_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:blue_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:blue_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:cyan_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:cyan_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:cyan_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:gray_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:gray_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:gray_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:green_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:green_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:green_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:light_blue_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:light_blue_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:light_blue_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:lime_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:lime_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:lime_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:magenta_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:magenta_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:magenta_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:orange_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:orange_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:orange_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:pink_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:pink_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:pink_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:purple_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:purple_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:purple_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:red_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:red_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:red_stained_wood_fence_gate",
+    "amount": 4
+  },
+  {
+    "shapeless": false,
+    "input": [
+      null,
+      null,
+      null,
+      "tessera:stick",
+      "tessera:white_stained_wood",
+      "tessera:stick",
+      "tessera:stick",
+      "tessera:white_stained_wood",
+      "tessera:stick"
+    ],
+    "output": "tessera:white_stained_wood_fence_gate",
+    "amount": 4
+  }
+]

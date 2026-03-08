@@ -1,0 +1,44 @@
+{
+  "tessera:diamond_ore": [
+    {
+      "item": "tessera:diamond",
+      "chance": 1.0,
+      "maxItems": 3
+    }
+  ],
+  "tessera:coal_ore": [
+    {
+      "item": "tessera:coal",
+      "chance": 1.0,
+      "maxItems": 3
+    }
+  ],
+  "tessera:iron_ore": [
+    {
+      "item": "tessera:raw_iron",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:gold_ore": [
+    {
+      "item": "tessera:raw_gold",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:emerald_ore": [
+    {
+      "item": "tessera:emerald",
+      "chance": 1.0,
+      "maxItems": 1
+    }
+  ],
+  "tessera:lapis_ore": [
+    {
+      "item": "tessera:lapis_lazuli",
+      "chance": 1,
+      "maxItems": 3
+    }
+  ]
+}

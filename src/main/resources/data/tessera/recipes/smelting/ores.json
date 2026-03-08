@@ -1,0 +1,12 @@
+[
+  {
+    "input": "tessera:raw_iron",
+    "output": "tessera:iron_ingot",
+    "amount": 1
+  },
+  {
+    "input": "tessera:raw_gold",
+    "output": "tessera:gold_ingot",
+    "amount": 1
+  }
+]

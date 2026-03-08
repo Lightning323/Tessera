@@ -1,0 +1,130 @@
+[
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:marble_tile"
+    ],
+    "output": "tessera:chiseled_marble",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:blue_marble_tile"
+    ],
+    "output": "tessera:blue_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:green_marble_tile"
+    ],
+    "output": "tessera:green_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:orange_marble_tile"
+    ],
+    "output": "tessera:orange_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:black_marble_tile"
+    ],
+    "output": "tessera:black_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:yellow_marble_tile"
+    ],
+    "output": "tessera:yellow_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:pastel_blue_marble_tile"
+    ],
+    "output": "tessera:pastel_blue_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:pastel_green_marble_tile"
+    ],
+    "output": "tessera:pastel_green_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:cyan_marble_tile"
+    ],
+    "output": "tessera:cyan_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:magenta_marble_tile"
+    ],
+    "output": "tessera:magenta_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:pink_marble_tile"
+    ],
+    "output": "tessera:pink_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:purple_marble_tile"
+    ],
+    "output": "tessera:purple_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:pastel_red_marble_tile"
+    ],
+    "output": "tessera:pastel_red_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:burgundy_marble_tile"
+    ],
+    "output": "tessera:burgundy_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:brown_marble_tile"
+    ],
+    "output": "tessera:brown_chiseled_marble_tile",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:gray_marble_tile"
+    ],
+    "output": "tessera:gray_chiseled_marble_tile",
+    "amount": 1
+  }
+]

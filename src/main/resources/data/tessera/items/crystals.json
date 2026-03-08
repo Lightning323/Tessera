@@ -1,0 +1,98 @@
+[
+  {
+    "id": "tessera:amethyst_block",
+    "name": "Amethyst Block",
+    "block": "tessera:amethyst_block",
+    "tags": [
+      "crystal"
+    ]
+  },
+  {
+    "id": "tessera:aquamarine_block",
+    "name": "Aquamarine Block",
+    "block": "tessera:aquamarine_block",
+    "tags": [
+      "crystal"
+    ]
+  },
+  {
+    "id": "tessera:jade_block",
+    "name": "Jade Block",
+    "block": "tessera:jade_block",
+    "tags": [
+      "crystal"
+    ]
+  },
+  {
+    "id": "tessera:ruby_block",
+    "name": "Ruby Block",
+    "block": "tessera:ruby_block",
+    "tags": [
+      "crystal"
+    ]
+  },
+  {
+    "id": "tessera:polished_amethyst_block",
+    "name": "Polished Amethyst Block",
+    "block": "tessera:polished_amethyst_block",
+    "tags": [
+      "crystal"
+    ]
+  },
+  {
+    "id": "tessera:polished_aquamarine_block",
+    "name": "Polished Aquamarine Block",
+    "block": "tessera:polished_aquamarine_block",
+    "tags": [
+      "crystal"
+    ]
+  },
+  {
+    "id": "tessera:polished_jade_block",
+    "name": "Polished Jade Block",
+    "block": "tessera:polished_jade_block",
+    "tags": [
+      "crystal"
+    ]
+  },
+  {
+    "id": "tessera:polished_ruby_block",
+    "name": "Polished Ruby Block",
+    "block": "tessera:polished_ruby_block",
+    "tags": [
+      "crystal"
+    ]
+  },
+  {
+    "id": "tessera:amethyst_crystal",
+    "name": "Amethyst Crystal",
+    "block": "tessera:amethyst_crystal",
+    "tags": [
+      "crystal"
+    ]
+  },
+  {
+    "id": "tessera:ruby_crystal",
+    "name": "Ruby Crystal",
+    "block": "tessera:ruby_crystal",
+    "tags": [
+      "crystal"
+    ]
+  },
+  {
+    "id": "tessera:jade_crystal",
+    "name": "Jade Crystal",
+    "block": "tessera:jade_crystal",
+    "tags": [
+      "crystal"
+    ]
+  },
+  {
+    "id": "tessera:aquamarine_crystal",
+    "name": "Aquamarine Crystal",
+    "block": "tessera:aquamarine_crystal",
+    "tags": [
+      "crystal"
+    ]
+  }
+]

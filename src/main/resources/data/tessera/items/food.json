@@ -1,0 +1,127 @@
+[
+  {
+    "id": "tessera:animal_apple",
+    "name": "Animal Apple",
+    "icon": "food/animal/apple.png",
+    "foodAdd": 1,
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:bread",
+    "name": "Bread",
+    "icon": "food/bread.png",
+    "foodAdd": 3,
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:croissant",
+    "name": "Croissant",
+    "block": 407,
+    "foodAdd": 3,
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:french_bread",
+    "name": "French Bread",
+    "block": 592,
+    "foodAdd": 4.5,
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:apple",
+    "name": "Apple",
+    "icon": "food/apple.png",
+    "foodAdd": 1,
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:wheat",
+    "name": "Wheat",
+    "icon": "food/wheat.png",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:carrot",
+    "name": "Carrot",
+    "icon": "food/carrot.png",
+    "foodAdd": 0.5,
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:beet",
+    "name": "Beet",
+    "icon": "food/beetroot.png",
+    "foodAdd": 0.5,
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:potato",
+    "name": "Potato",
+    "icon": "food/potato.png",
+    "foodAdd": 3,
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:baked_potato",
+    "name": "Baked Potato",
+    "icon": "food/baked_potato.png",
+    "foodAdd": 5,
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:apple_pie",
+    "name": "Apple Pie",
+    "icon": "food/apple_pie.png",
+    "foodAdd": 6,
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:pumpkin_pie",
+    "name": "Pumpkin Pie",
+    "icon": "food/pumpkin_pie.png",
+    "foodAdd": 6,
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:cake",
+    "name": "Cake",
+    "block": 36,
+    "foodAdd": 7,
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "tessera:cookie",
+    "icon": "food/cookie.png",
+    "name": "Cookie",
+    "foodAdd": 4,
+    "tags": [
+      "food"
+    ]
+  }
+]

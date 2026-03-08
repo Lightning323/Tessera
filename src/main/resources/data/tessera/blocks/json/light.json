@@ -1,0 +1,71 @@
+[
+  {
+    "alias": "tessera:edison_light",
+    "id": 55,
+    "texture": {
+      "pos_y": "edison light",
+      "pos_x": "edison light",
+      "pos_z": "edison light",
+      "neg_z": "edison light",
+      "neg_x": "edison light",
+      "neg_y": "edison light"
+    },
+    "solid": true,
+    "opaque": true,
+    "torch": 15,
+    "type": 0,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {}
+  },
+  {
+    "alias": "tessera:electric_light",
+    "id": 174,
+    "texture": {
+      "pos_y": "electric light",
+      "pos_x": "electric light",
+      "pos_z": "electric light",
+      "neg_z": "electric light",
+      "neg_x": "electric light",
+      "neg_y": "electric light"
+    },
+    "solid": true,
+    "opaque": true,
+    "torch": 15,
+    "type": 0,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {}
+  },
+  {
+    "alias": "tessera:sea_light",
+    "id": 13,
+    "texture": {
+      "pos_y": "sea light",
+      "pos_x": "sea light",
+      "pos_z": "sea light",
+      "neg_z": "sea light",
+      "neg_x": "sea light",
+      "neg_y": "sea light"
+    },
+    "solid": true,
+    "opaque": true,
+    "torch": 15,
+    "type": 0,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {}
+  }
+]

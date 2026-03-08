@@ -1,0 +1,3070 @@
+[
+  {
+    "alias": "tessera:acacia2_door_top",
+    "id": 878,
+    "texture": {
+      "pos_y": "door\\acacia2_0_0.png",
+      "pos_x": "door\\acacia2_0_0.png",
+      "pos_z": "door\\acacia2_0_0.png",
+      "neg_z": "door\\acacia2_0_0.png",
+      "neg_x": "door\\acacia2_0_0.png",
+      "neg_y": "door\\acacia2_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "937",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:acacia_door_top",
+    "id": 879,
+    "texture": {
+      "pos_y": "door\\acacia_0_0.png",
+      "pos_x": "door\\acacia_0_0.png",
+      "pos_z": "door\\acacia_0_0.png",
+      "neg_z": "door\\acacia_0_0.png",
+      "neg_x": "door\\acacia_0_0.png",
+      "neg_y": "door\\acacia_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "938",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:bamboo_2_door_top",
+    "id": 880,
+    "texture": {
+      "pos_y": "door\\bamboo 2_0_0.png",
+      "pos_x": "door\\bamboo 2_0_0.png",
+      "pos_z": "door\\bamboo 2_0_0.png",
+      "neg_z": "door\\bamboo 2_0_0.png",
+      "neg_x": "door\\bamboo 2_0_0.png",
+      "neg_y": "door\\bamboo 2_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "939",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:bamboo_door_top",
+    "id": 881,
+    "texture": {
+      "pos_y": "door\\bamboo_0_0.png",
+      "pos_x": "door\\bamboo_0_0.png",
+      "pos_z": "door\\bamboo_0_0.png",
+      "neg_z": "door\\bamboo_0_0.png",
+      "neg_x": "door\\bamboo_0_0.png",
+      "neg_y": "door\\bamboo_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "940",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:birch_door_top",
+    "id": 882,
+    "texture": {
+      "pos_y": "door\\birch_0_0.png",
+      "pos_x": "door\\birch_0_0.png",
+      "pos_z": "door\\birch_0_0.png",
+      "neg_z": "door\\birch_0_0.png",
+      "neg_x": "door\\birch_0_0.png",
+      "neg_y": "door\\birch_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "941",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:cladded_blue_door_top",
+    "id": 883,
+    "texture": {
+      "pos_y": "door\\cladded blue_0_0.png",
+      "pos_x": "door\\cladded blue_0_0.png",
+      "pos_z": "door\\cladded blue_0_0.png",
+      "neg_z": "door\\cladded blue_0_0.png",
+      "neg_x": "door\\cladded blue_0_0.png",
+      "neg_y": "door\\cladded blue_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "942",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:cladded_green_door_top",
+    "id": 884,
+    "texture": {
+      "pos_y": "door\\cladded green_0_0.png",
+      "pos_x": "door\\cladded green_0_0.png",
+      "pos_z": "door\\cladded green_0_0.png",
+      "neg_z": "door\\cladded green_0_0.png",
+      "neg_x": "door\\cladded green_0_0.png",
+      "neg_y": "door\\cladded green_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "943",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:cladded_magenta_door_top",
+    "id": 885,
+    "texture": {
+      "pos_y": "door\\cladded magenta_0_0.png",
+      "pos_x": "door\\cladded magenta_0_0.png",
+      "pos_z": "door\\cladded magenta_0_0.png",
+      "neg_z": "door\\cladded magenta_0_0.png",
+      "neg_x": "door\\cladded magenta_0_0.png",
+      "neg_y": "door\\cladded magenta_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "944",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:cladded_door_top",
+    "id": 886,
+    "texture": {
+      "pos_y": "door\\cladded_0_0.png",
+      "pos_x": "door\\cladded_0_0.png",
+      "pos_z": "door\\cladded_0_0.png",
+      "neg_z": "door\\cladded_0_0.png",
+      "neg_x": "door\\cladded_0_0.png",
+      "neg_y": "door\\cladded_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "945",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:french_bamboo_windows_door_top",
+    "id": 887,
+    "texture": {
+      "pos_y": "door\\french bamboo windows_0_0.png",
+      "pos_x": "door\\french bamboo windows_0_0.png",
+      "pos_z": "door\\french bamboo windows_0_0.png",
+      "neg_z": "door\\french bamboo windows_0_0.png",
+      "neg_x": "door\\french bamboo windows_0_0.png",
+      "neg_y": "door\\french bamboo windows_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "946",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:french_bamboo_door_top",
+    "id": 888,
+    "texture": {
+      "pos_y": "door\\french bamboo_0_0.png",
+      "pos_x": "door\\french bamboo_0_0.png",
+      "pos_z": "door\\french bamboo_0_0.png",
+      "neg_z": "door\\french bamboo_0_0.png",
+      "neg_x": "door\\french bamboo_0_0.png",
+      "neg_y": "door\\french bamboo_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "947",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:french_blue_windows_door_top",
+    "id": 889,
+    "texture": {
+      "pos_y": "door\\french blue windows_0_0.png",
+      "pos_x": "door\\french blue windows_0_0.png",
+      "pos_z": "door\\french blue windows_0_0.png",
+      "neg_z": "door\\french blue windows_0_0.png",
+      "neg_x": "door\\french blue windows_0_0.png",
+      "neg_y": "door\\french blue windows_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "948",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:french_blue_door_top",
+    "id": 890,
+    "texture": {
+      "pos_y": "door\\french blue_0_0.png",
+      "pos_x": "door\\french blue_0_0.png",
+      "pos_z": "door\\french blue_0_0.png",
+      "neg_z": "door\\french blue_0_0.png",
+      "neg_x": "door\\french blue_0_0.png",
+      "neg_y": "door\\french blue_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "949",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:french_green_windows_door_top",
+    "id": 891,
+    "texture": {
+      "pos_y": "door\\french green windows_0_0.png",
+      "pos_x": "door\\french green windows_0_0.png",
+      "pos_z": "door\\french green windows_0_0.png",
+      "neg_z": "door\\french green windows_0_0.png",
+      "neg_x": "door\\french green windows_0_0.png",
+      "neg_y": "door\\french green windows_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "950",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:french_green_door_top",
+    "id": 892,
+    "texture": {
+      "pos_y": "door\\french green_0_0.png",
+      "pos_x": "door\\french green_0_0.png",
+      "pos_z": "door\\french green_0_0.png",
+      "neg_z": "door\\french green_0_0.png",
+      "neg_x": "door\\french green_0_0.png",
+      "neg_y": "door\\french green_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "951",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:french_magenta_windows_door_top",
+    "id": 893,
+    "texture": {
+      "pos_y": "door\\french magenta windows_0_0.png",
+      "pos_x": "door\\french magenta windows_0_0.png",
+      "pos_z": "door\\french magenta windows_0_0.png",
+      "neg_z": "door\\french magenta windows_0_0.png",
+      "neg_x": "door\\french magenta windows_0_0.png",
+      "neg_y": "door\\french magenta windows_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "952",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:french_magenta_door_top",
+    "id": 894,
+    "texture": {
+      "pos_y": "door\\french magenta_0_0.png",
+      "pos_x": "door\\french magenta_0_0.png",
+      "pos_z": "door\\french magenta_0_0.png",
+      "neg_z": "door\\french magenta_0_0.png",
+      "neg_x": "door\\french magenta_0_0.png",
+      "neg_y": "door\\french magenta_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "953",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:french_windows_door_top",
+    "id": 895,
+    "texture": {
+      "pos_y": "door\\french windows_0_0.png",
+      "pos_x": "door\\french windows_0_0.png",
+      "pos_z": "door\\french windows_0_0.png",
+      "neg_z": "door\\french windows_0_0.png",
+      "neg_x": "door\\french windows_0_0.png",
+      "neg_y": "door\\french windows_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "954",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:french_door_top",
+    "id": 896,
+    "texture": {
+      "pos_y": "door\\french_0_0.png",
+      "pos_x": "door\\french_0_0.png",
+      "pos_z": "door\\french_0_0.png",
+      "neg_z": "door\\french_0_0.png",
+      "neg_x": "door\\french_0_0.png",
+      "neg_y": "door\\french_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "955",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:glass_door_top",
+    "id": 897,
+    "texture": {
+      "pos_y": "door\\glass_0_0.png",
+      "pos_x": "door\\glass_0_0.png",
+      "pos_z": "door\\glass_0_0.png",
+      "neg_z": "door\\glass_0_0.png",
+      "neg_x": "door\\glass_0_0.png",
+      "neg_y": "door\\glass_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "956",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:gray_space_door_top",
+    "id": 898,
+    "texture": {
+      "pos_y": "door\\gray 1_0_0.png",
+      "pos_x": "door\\gray 1_0_0.png",
+      "pos_z": "door\\gray 1_0_0.png",
+      "neg_z": "door\\gray 1_0_0.png",
+      "neg_x": "door\\gray 1_0_0.png",
+      "neg_y": "door\\gray 1_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "957",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:gray_space_control_panel_door_top",
+    "id": 899,
+    "texture": {
+      "pos_y": "door\\gray 2 control-panel_0_0.png",
+      "pos_x": "door\\gray 2 control-panel_0_0.png",
+      "pos_z": "door\\gray 2 control-panel_0_0.png",
+      "neg_z": "door\\gray 2 control-panel_0_0.png",
+      "neg_x": "door\\gray 2 control-panel_0_0.png",
+      "neg_y": "door\\gray 2 control-panel_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "958",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:gray_2_door_top",
+    "id": 900,
+    "texture": {
+      "pos_y": "door\\gray 2_0_0.png",
+      "pos_x": "door\\gray 2_0_0.png",
+      "pos_z": "door\\gray 2_0_0.png",
+      "neg_z": "door\\gray 2_0_0.png",
+      "neg_x": "door\\gray 2_0_0.png",
+      "neg_y": "door\\gray 2_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "959",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:italian_bamboo_windows_door_top",
+    "id": 901,
+    "texture": {
+      "pos_y": "door\\italian bamboo windows_0_0.png",
+      "pos_x": "door\\italian bamboo windows_0_0.png",
+      "pos_z": "door\\italian bamboo windows_0_0.png",
+      "neg_z": "door\\italian bamboo windows_0_0.png",
+      "neg_x": "door\\italian bamboo windows_0_0.png",
+      "neg_y": "door\\italian bamboo windows_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "960",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:italian_bamboo_door_top",
+    "id": 902,
+    "texture": {
+      "pos_y": "door\\italian bamboo_0_0.png",
+      "pos_x": "door\\italian bamboo_0_0.png",
+      "pos_z": "door\\italian bamboo_0_0.png",
+      "neg_z": "door\\italian bamboo_0_0.png",
+      "neg_x": "door\\italian bamboo_0_0.png",
+      "neg_y": "door\\italian bamboo_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "961",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:italian_blue_windows_door_top",
+    "id": 903,
+    "texture": {
+      "pos_y": "door\\italian blue windows_0_0.png",
+      "pos_x": "door\\italian blue windows_0_0.png",
+      "pos_z": "door\\italian blue windows_0_0.png",
+      "neg_z": "door\\italian blue windows_0_0.png",
+      "neg_x": "door\\italian blue windows_0_0.png",
+      "neg_y": "door\\italian blue windows_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "962",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:italian_blue_door_top",
+    "id": 904,
+    "texture": {
+      "pos_y": "door\\italian blue_0_0.png",
+      "pos_x": "door\\italian blue_0_0.png",
+      "pos_z": "door\\italian blue_0_0.png",
+      "neg_z": "door\\italian blue_0_0.png",
+      "neg_x": "door\\italian blue_0_0.png",
+      "neg_y": "door\\italian blue_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "963",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:italian_green_windows_door_top",
+    "id": 905,
+    "texture": {
+      "pos_y": "door\\italian green windows_0_0.png",
+      "pos_x": "door\\italian green windows_0_0.png",
+      "pos_z": "door\\italian green windows_0_0.png",
+      "neg_z": "door\\italian green windows_0_0.png",
+      "neg_x": "door\\italian green windows_0_0.png",
+      "neg_y": "door\\italian green windows_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "964",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:italian_green_door_top",
+    "id": 906,
+    "texture": {
+      "pos_y": "door\\italian green_0_0.png",
+      "pos_x": "door\\italian green_0_0.png",
+      "pos_z": "door\\italian green_0_0.png",
+      "neg_z": "door\\italian green_0_0.png",
+      "neg_x": "door\\italian green_0_0.png",
+      "neg_y": "door\\italian green_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "965",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:italian_magenta_windows_door_top",
+    "id": 907,
+    "texture": {
+      "pos_y": "door\\italian magenta windows_0_0.png",
+      "pos_x": "door\\italian magenta windows_0_0.png",
+      "pos_z": "door\\italian magenta windows_0_0.png",
+      "neg_z": "door\\italian magenta windows_0_0.png",
+      "neg_x": "door\\italian magenta windows_0_0.png",
+      "neg_y": "door\\italian magenta windows_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "966",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:italian_magenta_door_top",
+    "id": 908,
+    "texture": {
+      "pos_y": "door\\italian magenta_0_0.png",
+      "pos_x": "door\\italian magenta_0_0.png",
+      "pos_z": "door\\italian magenta_0_0.png",
+      "neg_z": "door\\italian magenta_0_0.png",
+      "neg_x": "door\\italian magenta_0_0.png",
+      "neg_y": "door\\italian magenta_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "967",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:italian_windows_door_top",
+    "id": 909,
+    "texture": {
+      "pos_y": "door\\italian windows_0_0.png",
+      "pos_x": "door\\italian windows_0_0.png",
+      "pos_z": "door\\italian windows_0_0.png",
+      "neg_z": "door\\italian windows_0_0.png",
+      "neg_x": "door\\italian windows_0_0.png",
+      "neg_y": "door\\italian windows_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "968",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:italian_door_top",
+    "id": 910,
+    "texture": {
+      "pos_y": "door\\italian_0_0.png",
+      "pos_x": "door\\italian_0_0.png",
+      "pos_z": "door\\italian_0_0.png",
+      "neg_z": "door\\italian_0_0.png",
+      "neg_x": "door\\italian_0_0.png",
+      "neg_y": "door\\italian_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "969",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:jungle_2_door_top",
+    "id": 911,
+    "texture": {
+      "pos_y": "door\\jungle 2_0_0.png",
+      "pos_x": "door\\jungle 2_0_0.png",
+      "pos_z": "door\\jungle 2_0_0.png",
+      "neg_z": "door\\jungle 2_0_0.png",
+      "neg_x": "door\\jungle 2_0_0.png",
+      "neg_y": "door\\jungle 2_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "970",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:jungle_door_top",
+    "id": 912,
+    "texture": {
+      "pos_y": "door\\jungle_0_0.png",
+      "pos_x": "door\\jungle_0_0.png",
+      "pos_z": "door\\jungle_0_0.png",
+      "neg_z": "door\\jungle_0_0.png",
+      "neg_x": "door\\jungle_0_0.png",
+      "neg_y": "door\\jungle_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "971",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:oak_2_door_top",
+    "id": 913,
+    "texture": {
+      "pos_y": "door\\oak 2_0_0.png",
+      "pos_x": "door\\oak 2_0_0.png",
+      "pos_z": "door\\oak 2_0_0.png",
+      "neg_z": "door\\oak 2_0_0.png",
+      "neg_x": "door\\oak 2_0_0.png",
+      "neg_y": "door\\oak 2_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "972",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:oak_renaissance_door_top",
+    "id": 914,
+    "texture": {
+      "pos_y": "door\\oak renaissance_0_0.png",
+      "pos_x": "door\\oak renaissance_0_0.png",
+      "pos_z": "door\\oak renaissance_0_0.png",
+      "neg_z": "door\\oak renaissance_0_0.png",
+      "neg_x": "door\\oak renaissance_0_0.png",
+      "neg_y": "door\\oak renaissance_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "973",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:oak_door_top",
+    "id": 915,
+    "texture": {
+      "pos_y": "door\\oak_0_0.png",
+      "pos_x": "door\\oak_0_0.png",
+      "pos_z": "door\\oak_0_0.png",
+      "neg_z": "door\\oak_0_0.png",
+      "neg_x": "door\\oak_0_0.png",
+      "neg_y": "door\\oak_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "974",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:oval_bamboo_door_top",
+    "id": 916,
+    "texture": {
+      "pos_y": "door\\oval bamboo_0_0.png",
+      "pos_x": "door\\oval bamboo_0_0.png",
+      "pos_z": "door\\oval bamboo_0_0.png",
+      "neg_z": "door\\oval bamboo_0_0.png",
+      "neg_x": "door\\oval bamboo_0_0.png",
+      "neg_y": "door\\oval bamboo_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "975",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:oval_blue_door_top",
+    "id": 917,
+    "texture": {
+      "pos_y": "door\\oval blue_0_0.png",
+      "pos_x": "door\\oval blue_0_0.png",
+      "pos_z": "door\\oval blue_0_0.png",
+      "neg_z": "door\\oval blue_0_0.png",
+      "neg_x": "door\\oval blue_0_0.png",
+      "neg_y": "door\\oval blue_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "976",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:oval_green_door_top",
+    "id": 918,
+    "texture": {
+      "pos_y": "door\\oval green_0_0.png",
+      "pos_x": "door\\oval green_0_0.png",
+      "pos_z": "door\\oval green_0_0.png",
+      "neg_z": "door\\oval green_0_0.png",
+      "neg_x": "door\\oval green_0_0.png",
+      "neg_y": "door\\oval green_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "977",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:oval_magenta_door_top",
+    "id": 919,
+    "texture": {
+      "pos_y": "door\\oval magenta_0_0.png",
+      "pos_x": "door\\oval magenta_0_0.png",
+      "pos_z": "door\\oval magenta_0_0.png",
+      "neg_z": "door\\oval magenta_0_0.png",
+      "neg_x": "door\\oval magenta_0_0.png",
+      "neg_y": "door\\oval magenta_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "978",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:oval_door_top",
+    "id": 920,
+    "texture": {
+      "pos_y": "door\\oval_0_0.png",
+      "pos_x": "door\\oval_0_0.png",
+      "pos_z": "door\\oval_0_0.png",
+      "neg_z": "door\\oval_0_0.png",
+      "neg_x": "door\\oval_0_0.png",
+      "neg_y": "door\\oval_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "979",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:party_blue_door_top",
+    "id": 921,
+    "texture": {
+      "pos_y": "door\\party blue_0_0.png",
+      "pos_x": "door\\party blue_0_0.png",
+      "pos_z": "door\\party blue_0_0.png",
+      "neg_z": "door\\party blue_0_0.png",
+      "neg_x": "door\\party blue_0_0.png",
+      "neg_y": "door\\party blue_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "980",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:party_green_door_top",
+    "id": 922,
+    "texture": {
+      "pos_y": "door\\party green_0_0.png",
+      "pos_x": "door\\party green_0_0.png",
+      "pos_z": "door\\party green_0_0.png",
+      "neg_z": "door\\party green_0_0.png",
+      "neg_x": "door\\party green_0_0.png",
+      "neg_y": "door\\party green_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "981",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:party_magenta_door_top",
+    "id": 923,
+    "texture": {
+      "pos_y": "door\\party magenta_0_0.png",
+      "pos_x": "door\\party magenta_0_0.png",
+      "pos_z": "door\\party magenta_0_0.png",
+      "neg_z": "door\\party magenta_0_0.png",
+      "neg_x": "door\\party magenta_0_0.png",
+      "neg_y": "door\\party magenta_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "982",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:party_purple_door_top",
+    "id": 924,
+    "texture": {
+      "pos_y": "door\\party purple_0_0.png",
+      "pos_x": "door\\party purple_0_0.png",
+      "pos_z": "door\\party purple_0_0.png",
+      "neg_z": "door\\party purple_0_0.png",
+      "neg_x": "door\\party purple_0_0.png",
+      "neg_y": "door\\party purple_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "983",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:party_red_door_top",
+    "id": 925,
+    "texture": {
+      "pos_y": "door\\party red_0_0.png",
+      "pos_x": "door\\party red_0_0.png",
+      "pos_z": "door\\party red_0_0.png",
+      "neg_z": "door\\party red_0_0.png",
+      "neg_x": "door\\party red_0_0.png",
+      "neg_y": "door\\party red_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "984",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:party_yellow_door_top",
+    "id": 926,
+    "texture": {
+      "pos_y": "door\\party yellow_0_0.png",
+      "pos_x": "door\\party yellow_0_0.png",
+      "pos_z": "door\\party yellow_0_0.png",
+      "neg_z": "door\\party yellow_0_0.png",
+      "neg_x": "door\\party yellow_0_0.png",
+      "neg_y": "door\\party yellow_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "985",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:red_door_top",
+    "id": 927,
+    "texture": {
+      "pos_y": "door\\red_0_0.png",
+      "pos_x": "door\\red_0_0.png",
+      "pos_z": "door\\red_0_0.png",
+      "neg_z": "door\\red_0_0.png",
+      "neg_x": "door\\red_0_0.png",
+      "neg_y": "door\\red_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "986",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:spruce_2_door_top",
+    "id": 928,
+    "texture": {
+      "pos_y": "door\\spruce 2_0_0.png",
+      "pos_x": "door\\spruce 2_0_0.png",
+      "pos_z": "door\\spruce 2_0_0.png",
+      "neg_z": "door\\spruce 2_0_0.png",
+      "neg_x": "door\\spruce 2_0_0.png",
+      "neg_y": "door\\spruce 2_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "987",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:spruce_door_top",
+    "id": 929,
+    "texture": {
+      "pos_y": "door\\spruce_0_0.png",
+      "pos_x": "door\\spruce_0_0.png",
+      "pos_z": "door\\spruce_0_0.png",
+      "neg_z": "door\\spruce_0_0.png",
+      "neg_x": "door\\spruce_0_0.png",
+      "neg_y": "door\\spruce_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "988",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:steel_door_top",
+    "id": 930,
+    "texture": {
+      "pos_y": "door\\steel_0_0.png",
+      "pos_x": "door\\steel_0_0.png",
+      "pos_z": "door\\steel_0_0.png",
+      "neg_z": "door\\steel_0_0.png",
+      "neg_x": "door\\steel_0_0.png",
+      "neg_y": "door\\steel_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "989",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:warped_door_top",
+    "id": 931,
+    "texture": {
+      "pos_y": "door\\warped_0_0.png",
+      "pos_x": "door\\warped_0_0.png",
+      "pos_z": "door\\warped_0_0.png",
+      "neg_z": "door\\warped_0_0.png",
+      "neg_x": "door\\warped_0_0.png",
+      "neg_y": "door\\warped_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "990",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:web_door_top",
+    "id": 932,
+    "texture": {
+      "pos_y": "door\\web_0_0.png",
+      "pos_x": "door\\web_0_0.png",
+      "pos_z": "door\\web_0_0.png",
+      "neg_z": "door\\web_0_0.png",
+      "neg_x": "door\\web_0_0.png",
+      "neg_y": "door\\web_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "991",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:white_1_door_top",
+    "id": 933,
+    "texture": {
+      "pos_y": "door\\white 1_0_0.png",
+      "pos_x": "door\\white 1_0_0.png",
+      "pos_z": "door\\white 1_0_0.png",
+      "neg_z": "door\\white 1_0_0.png",
+      "neg_x": "door\\white 1_0_0.png",
+      "neg_y": "door\\white 1_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "992",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:white_2_control_panel_door_top",
+    "id": 934,
+    "texture": {
+      "pos_y": "door\\white 2 control-panel_0_0.png",
+      "pos_x": "door\\white 2 control-panel_0_0.png",
+      "pos_z": "door\\white 2 control-panel_0_0.png",
+      "neg_z": "door\\white 2 control-panel_0_0.png",
+      "neg_x": "door\\white 2 control-panel_0_0.png",
+      "neg_y": "door\\white 2 control-panel_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "993",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:white_2_door_top",
+    "id": 935,
+    "texture": {
+      "pos_y": "door\\white 2_0_0.png",
+      "pos_x": "door\\white 2_0_0.png",
+      "pos_z": "door\\white 2_0_0.png",
+      "neg_z": "door\\white 2_0_0.png",
+      "neg_x": "door\\white 2_0_0.png",
+      "neg_y": "door\\white 2_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "994",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:white_door_top",
+    "id": 936,
+    "texture": {
+      "pos_y": "door\\white_0_0.png",
+      "pos_x": "door\\white_0_0.png",
+      "pos_z": "door\\white_0_0.png",
+      "neg_z": "door\\white_0_0.png",
+      "neg_x": "door\\white_0_0.png",
+      "neg_y": "door\\white_0_0.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "995",
+      "placement": "top"
+    }
+  },
+  {
+    "alias": "tessera:acacia_door_2",
+    "id": 937,
+    "texture": {
+      "pos_y": "door\\acacia2_0_1.png",
+      "pos_x": "door\\acacia2_0_1.png",
+      "pos_z": "door\\acacia2_0_1.png",
+      "neg_z": "door\\acacia2_0_1.png",
+      "neg_x": "door\\acacia2_0_1.png",
+      "neg_y": "door\\acacia2_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "878",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:acacia_door",
+    "id": 938,
+    "texture": {
+      "pos_y": "door\\acacia_0_1.png",
+      "pos_x": "door\\acacia_0_1.png",
+      "pos_z": "door\\acacia_0_1.png",
+      "neg_z": "door\\acacia_0_1.png",
+      "neg_x": "door\\acacia_0_1.png",
+      "neg_y": "door\\acacia_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "879",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:bamboo_2_door",
+    "id": 939,
+    "texture": {
+      "pos_y": "door\\bamboo 2_0_1.png",
+      "pos_x": "door\\bamboo 2_0_1.png",
+      "pos_z": "door\\bamboo 2_0_1.png",
+      "neg_z": "door\\bamboo 2_0_1.png",
+      "neg_x": "door\\bamboo 2_0_1.png",
+      "neg_y": "door\\bamboo 2_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "880",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:bamboo_door",
+    "id": 940,
+    "texture": {
+      "pos_y": "door\\bamboo_0_1.png",
+      "pos_x": "door\\bamboo_0_1.png",
+      "pos_z": "door\\bamboo_0_1.png",
+      "neg_z": "door\\bamboo_0_1.png",
+      "neg_x": "door\\bamboo_0_1.png",
+      "neg_y": "door\\bamboo_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "881",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:birch_door",
+    "id": 941,
+    "texture": {
+      "pos_y": "door\\birch_0_1.png",
+      "pos_x": "door\\birch_0_1.png",
+      "pos_z": "door\\birch_0_1.png",
+      "neg_z": "door\\birch_0_1.png",
+      "neg_x": "door\\birch_0_1.png",
+      "neg_y": "door\\birch_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "882",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:cladded_blue_door",
+    "id": 942,
+    "texture": {
+      "pos_y": "door\\cladded blue_0_1.png",
+      "pos_x": "door\\cladded blue_0_1.png",
+      "pos_z": "door\\cladded blue_0_1.png",
+      "neg_z": "door\\cladded blue_0_1.png",
+      "neg_x": "door\\cladded blue_0_1.png",
+      "neg_y": "door\\cladded blue_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "883",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:cladded_green_door",
+    "id": 943,
+    "texture": {
+      "pos_y": "door\\cladded green_0_1.png",
+      "pos_x": "door\\cladded green_0_1.png",
+      "pos_z": "door\\cladded green_0_1.png",
+      "neg_z": "door\\cladded green_0_1.png",
+      "neg_x": "door\\cladded green_0_1.png",
+      "neg_y": "door\\cladded green_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "884",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:cladded_magenta_door",
+    "id": 944,
+    "texture": {
+      "pos_y": "door\\cladded magenta_0_1.png",
+      "pos_x": "door\\cladded magenta_0_1.png",
+      "pos_z": "door\\cladded magenta_0_1.png",
+      "neg_z": "door\\cladded magenta_0_1.png",
+      "neg_x": "door\\cladded magenta_0_1.png",
+      "neg_y": "door\\cladded magenta_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "885",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:cladded_door",
+    "id": 945,
+    "texture": {
+      "pos_y": "door\\cladded_0_1.png",
+      "pos_x": "door\\cladded_0_1.png",
+      "pos_z": "door\\cladded_0_1.png",
+      "neg_z": "door\\cladded_0_1.png",
+      "neg_x": "door\\cladded_0_1.png",
+      "neg_y": "door\\cladded_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "886",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:french_bamboo_windows_door",
+    "id": 946,
+    "texture": {
+      "pos_y": "door\\french bamboo windows_0_1.png",
+      "pos_x": "door\\french bamboo windows_0_1.png",
+      "pos_z": "door\\french bamboo windows_0_1.png",
+      "neg_z": "door\\french bamboo windows_0_1.png",
+      "neg_x": "door\\french bamboo windows_0_1.png",
+      "neg_y": "door\\french bamboo windows_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "887",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:french_bamboo_door",
+    "id": 947,
+    "texture": {
+      "pos_y": "door\\french bamboo_0_1.png",
+      "pos_x": "door\\french bamboo_0_1.png",
+      "pos_z": "door\\french bamboo_0_1.png",
+      "neg_z": "door\\french bamboo_0_1.png",
+      "neg_x": "door\\french bamboo_0_1.png",
+      "neg_y": "door\\french bamboo_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "888",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:french_blue_windows_door",
+    "id": 948,
+    "texture": {
+      "pos_y": "door\\french blue windows_0_1.png",
+      "pos_x": "door\\french blue windows_0_1.png",
+      "pos_z": "door\\french blue windows_0_1.png",
+      "neg_z": "door\\french blue windows_0_1.png",
+      "neg_x": "door\\french blue windows_0_1.png",
+      "neg_y": "door\\french blue windows_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "889",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:french_blue_door",
+    "id": 949,
+    "texture": {
+      "pos_y": "door\\french blue_0_1.png",
+      "pos_x": "door\\french blue_0_1.png",
+      "pos_z": "door\\french blue_0_1.png",
+      "neg_z": "door\\french blue_0_1.png",
+      "neg_x": "door\\french blue_0_1.png",
+      "neg_y": "door\\french blue_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "890",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:french_green_windows_door",
+    "id": 950,
+    "texture": {
+      "pos_y": "door\\french green windows_0_1.png",
+      "pos_x": "door\\french green windows_0_1.png",
+      "pos_z": "door\\french green windows_0_1.png",
+      "neg_z": "door\\french green windows_0_1.png",
+      "neg_x": "door\\french green windows_0_1.png",
+      "neg_y": "door\\french green windows_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "891",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:french_green_door",
+    "id": 951,
+    "texture": {
+      "pos_y": "door\\french green_0_1.png",
+      "pos_x": "door\\french green_0_1.png",
+      "pos_z": "door\\french green_0_1.png",
+      "neg_z": "door\\french green_0_1.png",
+      "neg_x": "door\\french green_0_1.png",
+      "neg_y": "door\\french green_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "892",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:french_magenta_windows_door",
+    "id": 952,
+    "texture": {
+      "pos_y": "door\\french magenta windows_0_1.png",
+      "pos_x": "door\\french magenta windows_0_1.png",
+      "pos_z": "door\\french magenta windows_0_1.png",
+      "neg_z": "door\\french magenta windows_0_1.png",
+      "neg_x": "door\\french magenta windows_0_1.png",
+      "neg_y": "door\\french magenta windows_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "893",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:french_magenta_door",
+    "id": 953,
+    "texture": {
+      "pos_y": "door\\french magenta_0_1.png",
+      "pos_x": "door\\french magenta_0_1.png",
+      "pos_z": "door\\french magenta_0_1.png",
+      "neg_z": "door\\french magenta_0_1.png",
+      "neg_x": "door\\french magenta_0_1.png",
+      "neg_y": "door\\french magenta_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "894",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:french_windows_door",
+    "id": 954,
+    "texture": {
+      "pos_y": "door\\french windows_0_1.png",
+      "pos_x": "door\\french windows_0_1.png",
+      "pos_z": "door\\french windows_0_1.png",
+      "neg_z": "door\\french windows_0_1.png",
+      "neg_x": "door\\french windows_0_1.png",
+      "neg_y": "door\\french windows_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "895",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:french_door",
+    "id": 955,
+    "texture": {
+      "pos_y": "door\\french_0_1.png",
+      "pos_x": "door\\french_0_1.png",
+      "pos_z": "door\\french_0_1.png",
+      "neg_z": "door\\french_0_1.png",
+      "neg_x": "door\\french_0_1.png",
+      "neg_y": "door\\french_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "896",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:glass_door",
+    "id": 956,
+    "texture": {
+      "pos_y": "door\\glass_0_1.png",
+      "pos_x": "door\\glass_0_1.png",
+      "pos_z": "door\\glass_0_1.png",
+      "neg_z": "door\\glass_0_1.png",
+      "neg_x": "door\\glass_0_1.png",
+      "neg_y": "door\\glass_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "897",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:gray_space_door",
+    "id": 957,
+    "texture": {
+      "pos_y": "door\\gray 1_0_1.png",
+      "pos_x": "door\\gray 1_0_1.png",
+      "pos_z": "door\\gray 1_0_1.png",
+      "neg_z": "door\\gray 1_0_1.png",
+      "neg_x": "door\\gray 1_0_1.png",
+      "neg_y": "door\\gray 1_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "898",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:gray_space_control_panel_door",
+    "id": 958,
+    "texture": {
+      "pos_y": "door\\gray 2 control-panel_0_1.png",
+      "pos_x": "door\\gray 2 control-panel_0_1.png",
+      "pos_z": "door\\gray 2 control-panel_0_1.png",
+      "neg_z": "door\\gray 2 control-panel_0_1.png",
+      "neg_x": "door\\gray 2 control-panel_0_1.png",
+      "neg_y": "door\\gray 2 control-panel_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "899",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:gray_space_door_2",
+    "id": 959,
+    "texture": {
+      "pos_y": "door\\gray 2_0_1.png",
+      "pos_x": "door\\gray 2_0_1.png",
+      "pos_z": "door\\gray 2_0_1.png",
+      "neg_z": "door\\gray 2_0_1.png",
+      "neg_x": "door\\gray 2_0_1.png",
+      "neg_y": "door\\gray 2_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "900",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:italian_bamboo_windows_door",
+    "id": 960,
+    "texture": {
+      "pos_y": "door\\italian bamboo windows_0_1.png",
+      "pos_x": "door\\italian bamboo windows_0_1.png",
+      "pos_z": "door\\italian bamboo windows_0_1.png",
+      "neg_z": "door\\italian bamboo windows_0_1.png",
+      "neg_x": "door\\italian bamboo windows_0_1.png",
+      "neg_y": "door\\italian bamboo windows_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "901",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:italian_bamboo_door",
+    "id": 961,
+    "texture": {
+      "pos_y": "door\\italian bamboo_0_1.png",
+      "pos_x": "door\\italian bamboo_0_1.png",
+      "pos_z": "door\\italian bamboo_0_1.png",
+      "neg_z": "door\\italian bamboo_0_1.png",
+      "neg_x": "door\\italian bamboo_0_1.png",
+      "neg_y": "door\\italian bamboo_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "902",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:italian_blue_windows_door",
+    "id": 962,
+    "texture": {
+      "pos_y": "door\\italian blue windows_0_1.png",
+      "pos_x": "door\\italian blue windows_0_1.png",
+      "pos_z": "door\\italian blue windows_0_1.png",
+      "neg_z": "door\\italian blue windows_0_1.png",
+      "neg_x": "door\\italian blue windows_0_1.png",
+      "neg_y": "door\\italian blue windows_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "903",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:italian_blue_door",
+    "id": 963,
+    "texture": {
+      "pos_y": "door\\italian blue_0_1.png",
+      "pos_x": "door\\italian blue_0_1.png",
+      "pos_z": "door\\italian blue_0_1.png",
+      "neg_z": "door\\italian blue_0_1.png",
+      "neg_x": "door\\italian blue_0_1.png",
+      "neg_y": "door\\italian blue_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "904",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:italian_green_windows_door",
+    "id": 964,
+    "texture": {
+      "pos_y": "door\\italian green windows_0_1.png",
+      "pos_x": "door\\italian green windows_0_1.png",
+      "pos_z": "door\\italian green windows_0_1.png",
+      "neg_z": "door\\italian green windows_0_1.png",
+      "neg_x": "door\\italian green windows_0_1.png",
+      "neg_y": "door\\italian green windows_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "905",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:italian_green_door",
+    "id": 965,
+    "texture": {
+      "pos_y": "door\\italian green_0_1.png",
+      "pos_x": "door\\italian green_0_1.png",
+      "pos_z": "door\\italian green_0_1.png",
+      "neg_z": "door\\italian green_0_1.png",
+      "neg_x": "door\\italian green_0_1.png",
+      "neg_y": "door\\italian green_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "906",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:italian_magenta_windows_door",
+    "id": 966,
+    "texture": {
+      "pos_y": "door\\italian magenta windows_0_1.png",
+      "pos_x": "door\\italian magenta windows_0_1.png",
+      "pos_z": "door\\italian magenta windows_0_1.png",
+      "neg_z": "door\\italian magenta windows_0_1.png",
+      "neg_x": "door\\italian magenta windows_0_1.png",
+      "neg_y": "door\\italian magenta windows_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "907",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:italian_magenta_door",
+    "id": 967,
+    "texture": {
+      "pos_y": "door\\italian magenta_0_1.png",
+      "pos_x": "door\\italian magenta_0_1.png",
+      "pos_z": "door\\italian magenta_0_1.png",
+      "neg_z": "door\\italian magenta_0_1.png",
+      "neg_x": "door\\italian magenta_0_1.png",
+      "neg_y": "door\\italian magenta_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "908",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:italian_windows_door",
+    "id": 968,
+    "texture": {
+      "pos_y": "door\\italian windows_0_1.png",
+      "pos_x": "door\\italian windows_0_1.png",
+      "pos_z": "door\\italian windows_0_1.png",
+      "neg_z": "door\\italian windows_0_1.png",
+      "neg_x": "door\\italian windows_0_1.png",
+      "neg_y": "door\\italian windows_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "909",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:italian_door",
+    "id": 969,
+    "texture": {
+      "pos_y": "door\\italian_0_1.png",
+      "pos_x": "door\\italian_0_1.png",
+      "pos_z": "door\\italian_0_1.png",
+      "neg_z": "door\\italian_0_1.png",
+      "neg_x": "door\\italian_0_1.png",
+      "neg_y": "door\\italian_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "910",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:jungle_2_door",
+    "id": 970,
+    "texture": {
+      "pos_y": "door\\jungle 2_0_1.png",
+      "pos_x": "door\\jungle 2_0_1.png",
+      "pos_z": "door\\jungle 2_0_1.png",
+      "neg_z": "door\\jungle 2_0_1.png",
+      "neg_x": "door\\jungle 2_0_1.png",
+      "neg_y": "door\\jungle 2_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "911",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:jungle_door",
+    "id": 971,
+    "texture": {
+      "pos_y": "door\\jungle_0_1.png",
+      "pos_x": "door\\jungle_0_1.png",
+      "pos_z": "door\\jungle_0_1.png",
+      "neg_z": "door\\jungle_0_1.png",
+      "neg_x": "door\\jungle_0_1.png",
+      "neg_y": "door\\jungle_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "912",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:oak_2_door",
+    "id": 972,
+    "texture": {
+      "pos_y": "door\\oak 2_0_1.png",
+      "pos_x": "door\\oak 2_0_1.png",
+      "pos_z": "door\\oak 2_0_1.png",
+      "neg_z": "door\\oak 2_0_1.png",
+      "neg_x": "door\\oak 2_0_1.png",
+      "neg_y": "door\\oak 2_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "913",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:oak_renaissance_door",
+    "id": 973,
+    "texture": {
+      "pos_y": "door\\oak renaissance_0_1.png",
+      "pos_x": "door\\oak renaissance_0_1.png",
+      "pos_z": "door\\oak renaissance_0_1.png",
+      "neg_z": "door\\oak renaissance_0_1.png",
+      "neg_x": "door\\oak renaissance_0_1.png",
+      "neg_y": "door\\oak renaissance_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "914",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:oak_door",
+    "id": 974,
+    "texture": {
+      "pos_y": "door\\oak_0_1.png",
+      "pos_x": "door\\oak_0_1.png",
+      "pos_z": "door\\oak_0_1.png",
+      "neg_z": "door\\oak_0_1.png",
+      "neg_x": "door\\oak_0_1.png",
+      "neg_y": "door\\oak_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "915",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:oval_bamboo_door",
+    "id": 975,
+    "texture": {
+      "pos_y": "door\\oval bamboo_0_1.png",
+      "pos_x": "door\\oval bamboo_0_1.png",
+      "pos_z": "door\\oval bamboo_0_1.png",
+      "neg_z": "door\\oval bamboo_0_1.png",
+      "neg_x": "door\\oval bamboo_0_1.png",
+      "neg_y": "door\\oval bamboo_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "916",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:oval_blue_door",
+    "id": 976,
+    "texture": {
+      "pos_y": "door\\oval blue_0_1.png",
+      "pos_x": "door\\oval blue_0_1.png",
+      "pos_z": "door\\oval blue_0_1.png",
+      "neg_z": "door\\oval blue_0_1.png",
+      "neg_x": "door\\oval blue_0_1.png",
+      "neg_y": "door\\oval blue_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "917",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:oval_green_door",
+    "id": 977,
+    "texture": {
+      "pos_y": "door\\oval green_0_1.png",
+      "pos_x": "door\\oval green_0_1.png",
+      "pos_z": "door\\oval green_0_1.png",
+      "neg_z": "door\\oval green_0_1.png",
+      "neg_x": "door\\oval green_0_1.png",
+      "neg_y": "door\\oval green_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "918",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:oval_magenta_door",
+    "id": 978,
+    "texture": {
+      "pos_y": "door\\oval magenta_0_1.png",
+      "pos_x": "door\\oval magenta_0_1.png",
+      "pos_z": "door\\oval magenta_0_1.png",
+      "neg_z": "door\\oval magenta_0_1.png",
+      "neg_x": "door\\oval magenta_0_1.png",
+      "neg_y": "door\\oval magenta_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "919",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:oval_door",
+    "id": 979,
+    "texture": {
+      "pos_y": "door\\oval_0_1.png",
+      "pos_x": "door\\oval_0_1.png",
+      "pos_z": "door\\oval_0_1.png",
+      "neg_z": "door\\oval_0_1.png",
+      "neg_x": "door\\oval_0_1.png",
+      "neg_y": "door\\oval_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "920",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:party_blue_door",
+    "id": 980,
+    "texture": {
+      "pos_y": "door\\party blue_0_1.png",
+      "pos_x": "door\\party blue_0_1.png",
+      "pos_z": "door\\party blue_0_1.png",
+      "neg_z": "door\\party blue_0_1.png",
+      "neg_x": "door\\party blue_0_1.png",
+      "neg_y": "door\\party blue_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "921",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:party_green_door",
+    "id": 981,
+    "texture": {
+      "pos_y": "door\\party green_0_1.png",
+      "pos_x": "door\\party green_0_1.png",
+      "pos_z": "door\\party green_0_1.png",
+      "neg_z": "door\\party green_0_1.png",
+      "neg_x": "door\\party green_0_1.png",
+      "neg_y": "door\\party green_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "922",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:party_magenta_door",
+    "id": 982,
+    "texture": {
+      "pos_y": "door\\party magenta_0_1.png",
+      "pos_x": "door\\party magenta_0_1.png",
+      "pos_z": "door\\party magenta_0_1.png",
+      "neg_z": "door\\party magenta_0_1.png",
+      "neg_x": "door\\party magenta_0_1.png",
+      "neg_y": "door\\party magenta_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "923",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:party_purple_door",
+    "id": 983,
+    "texture": {
+      "pos_y": "door\\party purple_0_1.png",
+      "pos_x": "door\\party purple_0_1.png",
+      "pos_z": "door\\party purple_0_1.png",
+      "neg_z": "door\\party purple_0_1.png",
+      "neg_x": "door\\party purple_0_1.png",
+      "neg_y": "door\\party purple_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "924",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:party_red_door",
+    "id": 984,
+    "texture": {
+      "pos_y": "door\\party red_0_1.png",
+      "pos_x": "door\\party red_0_1.png",
+      "pos_z": "door\\party red_0_1.png",
+      "neg_z": "door\\party red_0_1.png",
+      "neg_x": "door\\party red_0_1.png",
+      "neg_y": "door\\party red_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "925",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:party_yellow_door",
+    "id": 985,
+    "texture": {
+      "pos_y": "door\\party yellow_0_1.png",
+      "pos_x": "door\\party yellow_0_1.png",
+      "pos_z": "door\\party yellow_0_1.png",
+      "neg_z": "door\\party yellow_0_1.png",
+      "neg_x": "door\\party yellow_0_1.png",
+      "neg_y": "door\\party yellow_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "926",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:red_door",
+    "id": 986,
+    "texture": {
+      "pos_y": "door\\red_0_1.png",
+      "pos_x": "door\\red_0_1.png",
+      "pos_z": "door\\red_0_1.png",
+      "neg_z": "door\\red_0_1.png",
+      "neg_x": "door\\red_0_1.png",
+      "neg_y": "door\\red_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "927",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:spruce_2_door",
+    "id": 987,
+    "texture": {
+      "pos_y": "door\\spruce 2_0_1.png",
+      "pos_x": "door\\spruce 2_0_1.png",
+      "pos_z": "door\\spruce 2_0_1.png",
+      "neg_z": "door\\spruce 2_0_1.png",
+      "neg_x": "door\\spruce 2_0_1.png",
+      "neg_y": "door\\spruce 2_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "928",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:spruce_door",
+    "id": 988,
+    "texture": {
+      "pos_y": "door\\spruce_0_1.png",
+      "pos_x": "door\\spruce_0_1.png",
+      "pos_z": "door\\spruce_0_1.png",
+      "neg_z": "door\\spruce_0_1.png",
+      "neg_x": "door\\spruce_0_1.png",
+      "neg_y": "door\\spruce_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "929",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:steel_door",
+    "id": 989,
+    "texture": {
+      "pos_y": "door\\steel_0_1.png",
+      "pos_x": "door\\steel_0_1.png",
+      "pos_z": "door\\steel_0_1.png",
+      "neg_z": "door\\steel_0_1.png",
+      "neg_x": "door\\steel_0_1.png",
+      "neg_y": "door\\steel_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "930",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:warped_door",
+    "id": 990,
+    "texture": {
+      "pos_y": "door\\warped_0_1.png",
+      "pos_x": "door\\warped_0_1.png",
+      "pos_z": "door\\warped_0_1.png",
+      "neg_z": "door\\warped_0_1.png",
+      "neg_x": "door\\warped_0_1.png",
+      "neg_y": "door\\warped_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "931",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:web_door",
+    "id": 991,
+    "texture": {
+      "pos_y": "door\\web_0_1.png",
+      "pos_x": "door\\web_0_1.png",
+      "pos_z": "door\\web_0_1.png",
+      "neg_z": "door\\web_0_1.png",
+      "neg_x": "door\\web_0_1.png",
+      "neg_y": "door\\web_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "932",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:white_space_door",
+    "id": 992,
+    "texture": {
+      "pos_y": "door\\white 1_0_1.png",
+      "pos_x": "door\\white 1_0_1.png",
+      "pos_z": "door\\white 1_0_1.png",
+      "neg_z": "door\\white 1_0_1.png",
+      "neg_x": "door\\white 1_0_1.png",
+      "neg_y": "door\\white 1_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "933",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:white_space_control_panel_door",
+    "id": 993,
+    "texture": {
+      "pos_y": "door\\white 2 control-panel_0_1.png",
+      "pos_x": "door\\white 2 control-panel_0_1.png",
+      "pos_z": "door\\white 2 control-panel_0_1.png",
+      "neg_z": "door\\white 2 control-panel_0_1.png",
+      "neg_x": "door\\white 2 control-panel_0_1.png",
+      "neg_y": "door\\white 2 control-panel_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "934",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:white_space_door_2",
+    "id": 994,
+    "texture": {
+      "pos_y": "door\\white 2_0_1.png",
+      "pos_x": "door\\white 2_0_1.png",
+      "pos_z": "door\\white 2_0_1.png",
+      "neg_z": "door\\white 2_0_1.png",
+      "neg_x": "door\\white 2_0_1.png",
+      "neg_y": "door\\white 2_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "935",
+      "placement": "bottom"
+    }
+  },
+  {
+    "alias": "tessera:white_door",
+    "id": 995,
+    "texture": {
+      "pos_y": "door\\white_0_1.png",
+      "pos_x": "door\\white_0_1.png",
+      "pos_z": "door\\white_0_1.png",
+      "neg_z": "door\\white_0_1.png",
+      "neg_x": "door\\white_0_1.png",
+      "neg_y": "door\\white_0_1.png"
+    },
+    "solid": true,
+    "opaque": false,
+    "torch": 0,
+    "type": 18,
+    "colorInPlayerHead": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "vertical_pair": "936",
+      "placement": "bottom"
+    }
+  }
+]

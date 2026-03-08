@@ -1,0 +1,126 @@
+[
+  {
+    "input": [
+      "tessera:stick",
+      "tessera:stick",
+      null,
+      "tessera:string",
+      "tessera:string",
+      null,
+      "tessera:string",
+      "tessera:string",
+      null
+    ],
+    "output": "tessera:white_banner",
+    "amount": 4
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_banner",
+      "tessera:red_dye"
+    ],
+    "output": "tessera:red_banner",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_banner",
+      "tessera:orange_dye"
+    ],
+    "output": "tessera:orange_banner",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_banner",
+      "tessera:yellow_dye"
+    ],
+    "output": "tessera:yellow_banner",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_banner",
+      "tessera:green_dye"
+    ],
+    "output": "tessera:green_banner",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_banner",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:blue_banner",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_banner",
+      "tessera:purple_dye"
+    ],
+    "output": "tessera:purple_banner",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_banner",
+      "tessera:gray_dye"
+    ],
+    "output": "tessera:gray_banner",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_banner",
+      "tessera:lime_dye"
+    ],
+    "output": "tessera:lime_banner",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_banner",
+      "tessera:magenta_dye"
+    ],
+    "output": "tessera:pink_banner",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_banner",
+      "tessera:brown_dye"
+    ],
+    "output": "tessera:royal_banner",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_banner",
+      "tessera:black_dye"
+    ],
+    "output": "tessera:regal_banner",
+    "amount": 1
+  },
+  {
+    "shapeless": true,
+    "input": [
+      "tessera:white_banner",
+      "tessera:black_dye",
+      "tessera:blue_dye"
+    ],
+    "output": "tessera:tessera_banner",
+    "amount": 1
+  }
+]
