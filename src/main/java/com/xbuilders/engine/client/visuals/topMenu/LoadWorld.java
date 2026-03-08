@@ -145,7 +145,7 @@ public class LoadWorld implements MenuPage {
             try {
                 WorldsHandler.listWorlds(worlds);
             } catch (IOException e) {
-                LOGGER.log(Level.INFO,"error",e);
+                LOGGER.info("error",e);
             }
             currentWorld = null;
 

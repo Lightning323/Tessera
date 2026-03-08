@@ -28,7 +28,7 @@ public class EntityShader_ArrayTexture extends EntityShader {
                     ResourceUtils.localFile("/res/shaders/entityShader/array texture.vs"),
                     ResourceUtils.localFile("/res/shaders/entityShader/array texture.fs"));
         } catch (IOException e) {
-            LOGGER.log(Level.INFO,"error", e);
+            LOGGER.info("error", e);
         }
     }
 }

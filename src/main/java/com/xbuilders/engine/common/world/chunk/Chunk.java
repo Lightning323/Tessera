@@ -181,6 +181,6 @@ public class Chunk {
     }
 
     public void log(String str) {
-        Main.LOGGER.log(Level.INFO, "CHUNK " + position.x + " " + position.y + " " + position.z + " \t" + str);
+        Main.LOGGER.info("CHUNK " + position.x + " " + position.y + " " + position.z + " \t" + str);
     }
 }

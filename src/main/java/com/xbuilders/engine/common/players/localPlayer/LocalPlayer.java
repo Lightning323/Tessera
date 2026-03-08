@@ -433,7 +433,7 @@ public class LocalPlayer extends Player {
 
                 selectedItemIndex = 0;
             } catch (Exception e) {
-                LOGGER.log(Level.INFO,"error", e);
+                LOGGER.info("error", e);
             }
         }
     }

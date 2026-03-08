@@ -100,7 +100,7 @@ public class ChunkDataPacket extends Packet {
             chunk.markAsModified();
             chunk.progressGenState(ClientChunk.GEN_VOXELS_GENERATED);
         } catch (IOException | ChunkReadingException e) {
-            Main.LOGGER.log(Level.WARNING, "Failed to read chunk data", e);
+            Main.LOGGER.warn( "Failed to read chunk data", e);
         }
     }
 

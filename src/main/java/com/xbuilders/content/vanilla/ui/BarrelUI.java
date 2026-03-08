@@ -65,7 +65,7 @@ public class BarrelUI extends ContainerUI {
         try {
             return (barrelStorage.writeToJson());
         } catch (IOException e) {
-            LOGGER.log(Level.INFO, "Error",e);
+            LOGGER.info( "Error",e);
             return new byte[0];
         }
     }

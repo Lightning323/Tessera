@@ -31,7 +31,7 @@ public class FoxSkin extends Skin {
                             ResourceUtils.resourceFile("skins\\fox\\" + texture + ".png"),
                     false).id;
         } catch (IOException e) {
-            LOGGER.log(Level.INFO, "Error", e);
+            LOGGER.info("Error", e);
         }
     }
 

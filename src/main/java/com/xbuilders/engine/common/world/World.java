@@ -307,7 +307,7 @@ public abstract class World<T extends Chunk> {
         this.data = data;
         this.terrain = game.getTerrainFromInfo(data);
         if (terrain == null) {
-            LOGGER.log(Level.SEVERE, "Terrain not found");
+            LOGGER.error("Terrain not found");
         } else System.out.println("Terrain: " + this.terrain);
     }
 }

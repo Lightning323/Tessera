@@ -82,7 +82,7 @@ public class ClientSettings {
             // Save to JSON
             Files.write(settingsFile.toPath(), gson.toJson(this).getBytes());
         } catch (Exception e) {
-            LOGGER.log(Level.INFO,"error", e);
+            LOGGER.info("error", e);
         }
     }
 

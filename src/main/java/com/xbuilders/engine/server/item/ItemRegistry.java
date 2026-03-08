@@ -81,7 +81,7 @@ public class ItemRegistry {
                 item.init(blockMap, entityMap, blockAliasToIDMap, entityAliasToIDMap,
                         textures, ResourceUtils.BLOCK_ICON_DIR, defaultIcon);
             } catch (Exception e) {
-                LOGGER.log(Level.INFO, "An error occured setting up item \"" + item.toString() + "\"", e);
+                LOGGER.info( "An error occured setting up item \"" + item.toString() + "\"", e);
             }
         }
     }

@@ -210,7 +210,7 @@ public class ClientWindow extends NKWindow {
                 saveFile.getParentFile().mkdirs();
                 ImageIO.write(readPixelsOfWindow(), "png", saveFile);
             } catch (IOException e) {
-                LOGGER.log(Level.INFO, "Could not save screenshot", e);
+                LOGGER.info( "Could not save screenshot", e);
             }
             screenShotInitialized = false;
             screenshot = false;

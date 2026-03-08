@@ -142,7 +142,7 @@ public class ChunkMeshBundle {
 
             }
         } catch (Exception e) {
-            LOGGER.log(Level.INFO, "error", e);
+            LOGGER.info( "error", e);
         }
     }
 

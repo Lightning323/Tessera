@@ -42,7 +42,7 @@ public class CopyTool extends BlockTool {
                         try {
                             PasteTool.clipboard = PrefabUtils.loadPrefabFromFile(file);
                         } catch (IOException e) {
-                            LOGGER.log(Level.INFO, "Error", e);
+                            LOGGER.info( "Error", e);
                         }
                         System.out.println(PasteTool.clipboard.toString());
                         PasteTool.updateMesh();
@@ -55,7 +55,7 @@ public class CopyTool extends BlockTool {
                         try {
                             PrefabUtils.savePrefabToFile(PasteTool.clipboard, file);
                         } catch (IOException e) {
-                            LOGGER.log(Level.INFO, "Error", e);
+                            LOGGER.info( "Error", e);
                         }
                     });
         }

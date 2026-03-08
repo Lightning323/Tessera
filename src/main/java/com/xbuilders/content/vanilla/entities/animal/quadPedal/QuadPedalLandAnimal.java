@@ -104,7 +104,7 @@ public abstract class QuadPedalLandAnimal extends LandAnimal {
             this.saddle = ead.saddle;
             this.textures = ead.textures;
         } catch (IOException e) {
-            LOGGER.log(Level.INFO, "Error", e);
+            LOGGER.info( "Error", e);
         }
 
         if (hasData) {

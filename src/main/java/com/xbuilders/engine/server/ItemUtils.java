@@ -39,7 +39,7 @@ public class ItemUtils {
             }
             return allItems;
         } catch (IOException e) {
-            LOGGER.log(Level.INFO, "error", e);
+            LOGGER.info( "error", e);
         }
         return new ArrayList<>();
     }
@@ -63,7 +63,7 @@ public class ItemUtils {
             }
             return allItems;
         } catch (IOException e) {
-            LOGGER.log(Level.INFO, "error", e);
+            LOGGER.info( "error", e);
         }
         return new ArrayList<>();
     }
@@ -100,7 +100,7 @@ public class ItemUtils {
 
             return allBlocks;
         } catch (IOException e) {
-            LOGGER.log(Level.INFO, "error", e);
+            LOGGER.info( "error", e);
         }
         return new ArrayList<>();
     }
@@ -125,7 +125,7 @@ public class ItemUtils {
             }
             return allItems;
         } catch (IOException e) {
-            LOGGER.log(Level.INFO, "error", e);
+            LOGGER.info( "error", e);
         }
         return new ArrayList<>();
     }

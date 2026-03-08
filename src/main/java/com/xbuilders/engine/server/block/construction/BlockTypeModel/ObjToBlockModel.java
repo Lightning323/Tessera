@@ -176,7 +176,7 @@ public class ObjToBlockModel {
             Files.writeString(outputFile.toPath(), str);
             System.out.println("\tSaved to: " + outputFile.toString());
         } catch (Exception ex) {
-            LOGGER.log(Level.INFO, "Error", ex);
+            LOGGER.info( "Error", ex);
         }
     }
 

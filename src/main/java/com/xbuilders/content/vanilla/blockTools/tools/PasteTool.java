@@ -54,7 +54,7 @@ public class PasteTool extends BlockTool {
                         try {
                             PasteTool.clipboard = PrefabUtils.loadPrefabFromFile(file);
                         } catch (IOException e) {
-                            LOGGER.log(Level.INFO,"error", e);
+                            LOGGER.info("error", e);
                         }
                         System.out.println(PasteTool.clipboard.toString());
                         PasteTool.updateMesh();

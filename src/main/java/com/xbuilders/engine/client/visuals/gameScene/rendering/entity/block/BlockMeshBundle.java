@@ -64,7 +64,7 @@ public class BlockMeshBundle {
                 transBuffer.makeVertexSet();
             }
         } catch (Exception e) {
-            LOGGER.log(Level.INFO,"error", e);
+            LOGGER.info("error", e);
         }
     }
 

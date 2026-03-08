@@ -76,7 +76,7 @@ public class ItemDrop extends Entity {
                 }
                 if (definitionData.stack == null) destroy();
             } catch (Exception e) {
-                LOGGER.log(Level.INFO,"error",e);
+                LOGGER.info("error",e);
             }
         }
     }

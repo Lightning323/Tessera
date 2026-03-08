@@ -123,7 +123,7 @@ public class Camera {
         try {
             robot = new Robot();
         } catch (AWTException e) {
-            LOGGER.log(Level.INFO,"error", e);
+            LOGGER.info("error", e);
         }
 
         target = new Vector3f();

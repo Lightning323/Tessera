@@ -73,7 +73,7 @@ public class Beaver extends LandAndWaterAnimal {
 
 
             } catch (IOException e) {
-                LOGGER.log(Level.INFO, "Error", e);
+                LOGGER.info( "Error", e);
             }
         }
     }

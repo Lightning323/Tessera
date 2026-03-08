@@ -53,7 +53,7 @@ public class PrefabUtils {
             start.set(start.get() + length);
             return new BlockData(data);
         } catch (IndexOutOfBoundsException e) {
-            LOGGER.log(Level.INFO, "error", e);
+            LOGGER.info( "error", e);
             return null; //Catch the error just to be safe
         }
     }
@@ -140,7 +140,7 @@ public class PrefabUtils {
             try {
                 return loadPrefabFromFile(outFile);
             } catch (IOException e) {
-                LOGGER.log(Level.INFO,"error",e);
+                LOGGER.info("error",e);
             }
         }
         return new ChunkVoxels(0, 0, 0);
@@ -170,7 +170,7 @@ public class PrefabUtils {
             try {
                 PrefabUtils.savePrefabToFile(data, file);
             } catch (IOException e) {
-                LOGGER.log(Level.INFO,"error",e);
+                LOGGER.info("error",e);
             }
         });
     }

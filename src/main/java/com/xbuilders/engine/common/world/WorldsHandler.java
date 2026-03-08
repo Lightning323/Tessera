@@ -52,7 +52,7 @@ public class WorldsHandler {
                     info.load(subDir);
                     worlds.add(info);
                 } catch (IOException ex) {
-                    LOGGER.log(Level.WARNING, "World \"" + formatWorldName(subDir.getName()) + "\" could not be loaded", ex);
+                    LOGGER.warn("World \"" + formatWorldName(subDir.getName()) + "\" could not be loaded", ex);
                 }
             }
         }

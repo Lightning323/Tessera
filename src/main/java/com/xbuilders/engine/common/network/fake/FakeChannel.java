@@ -62,7 +62,7 @@ public class FakeChannel extends ChannelBase {
                             client.receive(packet);
                         }
                     } catch (Exception e) {
-                        Main.LOGGER.log(Level.WARNING, "Failed to receive fake packet", e);
+                        Main.LOGGER.warn( "Failed to receive fake packet", e);
                     }
                 }
             } catch (InterruptedException ignored) {

@@ -119,7 +119,7 @@ public class Chunk_NaiveMesher extends ChunkMesher<VertexSet> {
                                             neighbors, neighborData, lightNeghbors, chunk, x, y, z, isUsingGreedyMesher);
                                 }
                             } catch (Exception e) {
-                                LOGGER.log(Level.INFO,"error", e);
+                                LOGGER.info("error", e);
                             }
                         }
                     }
