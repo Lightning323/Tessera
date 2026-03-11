@@ -33,8 +33,11 @@ public class ResourceLister {
 
     private static String getPathToJar() throws URISyntaxException {
         // Get the path of the JAR file
-        String jarPath = new File(Main.class.getProtectionDomain().getCodeSource().getLocation().toURI()).getPath();
-        return jarPath;
+        File jarFile = new File(ResourceLister.class.getProtectionDomain()
+                .getCodeSource()
+                .getLocation()
+                .toURI());
+        return jarFile.getPath();
     }
 
     private static String compileInitRegex(boolean localPrefix, String[] baseDirs) {
@@ -68,36 +71,40 @@ public class ResourceLister {
         Stopwatch stopwatch = new Stopwatch();
         stopwatch.start();
 
-        //The easiest way to test if we are running inside of a jarfile, is if the results of this are empty
-        Pattern pattern = Pattern.compile(compileInitRegex(true, INIT_RESOURCE_DIRECTORIES));
-        List<String> list = ResourceLister._listAllJarfileResources(pattern).stream().toList();
-        System.out.println("List size: " + list.size());
+        // 1. First, try the standard classpath (IDE behavior)
+        Pattern idePattern = Pattern.compile(compileInitRegex(true, INIT_RESOURCE_DIRECTORIES));
+        List<String> list = new ArrayList<>(_listAllJarfileResources(idePattern));
+
         boolean isRunningAsJar = list.isEmpty();
 
-        //If we are runing as a jar file, try again
+        // 2. FAILSAFE: If list is empty, we are in the packaged EXE.
+        // Use your getPathToJar() logic directly.
         if (isRunningAsJar) {
-            pattern = Pattern.compile(compileInitRegex(false, INIT_RESOURCE_DIRECTORIES));
-            list = ResourceLister._listAllJarfileResources(pattern).stream().toList();
+            Pattern jarPattern = Pattern.compile(compileInitRegex(false, INIT_RESOURCE_DIRECTORIES));
+            try {
+                File actualJar = new File(getPathToJar());
+                if (actualJar.exists()) {
+                    list.addAll(_getResourcesFromJarFile(actualJar, jarPattern));
+                }
+            } catch (Exception e) {
+                System.err.println("Critical: Could not resolve JAR path.");
+            }
         }
 
-        //Add all elements from the list to a string array
+        // 3. Initialize the array even if empty to prevent the NPE
         resourceList = new String[list.size()];
         for (int i = 0; i < list.size(); i++) {
             resourceList[i] = list.get(i);
 
-            //remove the local init prefix
-            if (!isRunningAsJar)
+            if (!isRunningAsJar && resourceList[i].contains(INIT_LOCAL_PREFIX)) {
                 resourceList[i] = resourceList[i].replaceFirst(".*\\Q" + INIT_LOCAL_PREFIX + "\\E", "");
-
-            //Every path has to look like the traditional resource path
+            }
             resourceList[i] = ResourceLoader.formatPath(resourceList[i]);
         }
 
         stopwatch.calculateElapsedTime();
-        System.out.println(
-                "Resource listing init took " + stopwatch.getElapsedSeconds()
-                        + "s; Running from jar: " + isRunningAsJar);
-//        for (String s : resourceList) System.out.println(s);
+        System.out.println("Resource listing init took " + stopwatch.getElapsedSeconds()
+                + "s; Running from jar: " + isRunningAsJar + " (Found " + list.size() + " items)");
     }
 
     private static String regexPattern(String path) {
@@ -205,13 +212,25 @@ public class ResourceLister {
 
 
     private static Collection<String> _listAllJarfileResources(final String element, final Pattern pattern) {
-
-
         final ArrayList<String> retval = new ArrayList<String>();
+
+        // Safety: Ignore empty/null strings immediately
+        if (element == null || element.trim().isEmpty()) {
+            return retval;
+        }
+
         final File file = new File(element);
+
+        // If it doesn't exist on disk, don't even try
+        if (!file.exists()) {
+            return retval;
+        }
+
         if (file.isDirectory()) {
             retval.addAll(_getResourcesFromDirectory(file, pattern));
         } else {
+            // Only try to scan as a Jar if it actually looks like one
+            // or at least handle the failure gracefully
             retval.addAll(_getResourcesFromJarFile(file, pattern));
         }
         return retval;
@@ -219,28 +238,26 @@ public class ResourceLister {
 
     private static Collection<String> _getResourcesFromJarFile(final File file, final Pattern pattern) {
         final ArrayList<String> retval = new ArrayList<String>();
-        ZipFile zf;
-        try {
-            zf = new ZipFile(file);
-        } catch (final ZipException e) {
-            throw new Error(e);
-        } catch (final IOException e) {
-            throw new Error(e);
-        }
-        final Enumeration e = zf.entries();
-        while (e.hasMoreElements()) {
-            final ZipEntry ze = (ZipEntry) e.nextElement();
-            final String fileName = ze.getName();
-            final boolean accept = pattern.matcher(fileName).matches();
-            if (accept) {
-                retval.add(fileName);
+
+        // The "Try-with-resources" block here is CRITICAL.
+        // It catches the error if 'file' is not a valid zip (like the .exe itself)
+        try (ZipFile zf = new ZipFile(file)) {
+            final Enumeration<? extends ZipEntry> e = zf.entries();
+            while (e.hasMoreElements()) {
+                final ZipEntry ze = e.nextElement();
+                final String fileName = ze.getName();
+                if (pattern.matcher(fileName).matches()) {
+                    retval.add(fileName);
+                }
             }
+        } catch (ZipException e) {
+            // This is where the fix happens!
+            // If it's a file but NOT a zip (like an .exe or .txt), we just skip it.
+            System.out.println("Skipping non-zip classpath element: " + file.getName());
+        } catch (IOException e) {
+            System.err.println("Could not read file: " + file.getPath());
         }
-        try {
-            zf.close();
-        } catch (final IOException e1) {
-            throw new Error(e1);
-        }
+
         return retval;
     }
 
