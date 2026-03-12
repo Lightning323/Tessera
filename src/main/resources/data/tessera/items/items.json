@@ -3731,36 +3731,6 @@
     "block": 737
   },
   {
-    "id": "tessera:test_block",
-    "name": "Test Block",
-    "block": -1
-  },
-  {
-    "id": "tessera:test_orientable",
-    "name": "Test Orientable",
-    "block": -2
-  },
-  {
-    "id": "tessera:test_slab",
-    "name": "Test Slab",
-    "block": -3
-  },
-  {
-    "id": "tessera:test_trapdoor",
-    "name": "Test Trapdoor",
-    "block": -4
-  },
-  {
-    "id": "tessera:test_fence_gate",
-    "name": "Test Fence Gate",
-    "block": -5
-  },
-  {
-    "id": "tessera:test_door_half",
-    "name": "Test Door Half",
-    "block": -6
-  },
-  {
     "id": "tessera:acacia_door_2",
     "name": "Acacia Door 2",
     "tags": [
