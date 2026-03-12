@@ -5,8 +5,8 @@ import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.Channel;
 import java.nio.channels.FileChannel;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nio.file.*;
+import java.nio.file.attribute.BasicFileAttributes;
 import java.util.regex.Pattern;
 
 
@@ -54,16 +54,60 @@ public class FileUtils {
     }
 
     public static void moveDirectoryToTrash(File directory) throws IOException {
-        if (directory.isDirectory() && directory.exists()) {
-            if (Desktop.isDesktopSupported()) {
-                Desktop.getDesktop().moveToTrash(directory);
-                System.out.println("Directory moved to trash: " + directory.getAbsolutePath());
-            } else {
-                System.out.println("Desktop operations are not supported on this system.");
-            }
-        } else {
-            System.out.println("The specified directory does not exist or is not a directory.");
+        if (!directory.exists()) return;
+
+        // 1. Try Desktop API
+        if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.MOVE_TO_TRASH)) {
+            try {
+                if (Desktop.getDesktop().moveToTrash(directory)) return;
+            } catch (Exception ignored) {}
         }
+
+        // 2. Try OS-Specific CLI
+        if (tryOsTrash(directory)) return;
+
+        // 3. FINAL FALLBACK: Permanent Delete
+        System.out.println("Trash failed. Deleting permanently: " + directory.getAbsolutePath());
+        deleteRecursively(directory.toPath());
+    }
+
+    private static boolean tryOsTrash(File directory) {
+        String os = System.getProperty("os.name").toLowerCase();
+        ProcessBuilder pb;
+
+        if (os.contains("win")) {
+            pb = new ProcessBuilder("powershell.exe", "-Command",
+                    "Add-Type -AssemblyName Microsoft.VisualBasic; " +
+                            "[Microsoft.VisualBasic.FileIO.FileSystem]::DeleteDirectory('" +
+                            directory.getAbsolutePath() + "', 'OnlyErrorDialogs', 'SendToRecycleBin')");
+        } else if (os.contains("mac")) {
+            pb = new ProcessBuilder("osascript", "-e",
+                    "tell app \"Finder\" to move POSIX file \"" + directory.getAbsolutePath() + "\" to trash");
+        } else {
+            pb = new ProcessBuilder("gio", "trash", directory.getAbsolutePath());
+        }
+
+        try {
+            return pb.start().waitFor() == 0;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    private static void deleteRecursively(Path path) throws IOException {
+        Files.walkFileTree(path, new SimpleFileVisitor<>() {
+            @Override
+            public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+                Files.delete(file);
+                return FileVisitResult.CONTINUE;
+            }
+
+            @Override
+            public FileVisitResult postVisitDirectory(Path dir, IOException exc) throws IOException {
+                Files.delete(dir);
+                return FileVisitResult.CONTINUE;
+            }
+        });
     }
 
     public static boolean fileIsInUse(File file) {

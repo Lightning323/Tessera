@@ -12,6 +12,7 @@ import java.awt.image.BufferedImage;
 import java.io.InputStream;
 import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
+import java.util.logging.Logger;
 
 import org.joml.Vector2d;
 import org.lwjgl.BufferUtils;
@@ -45,6 +46,7 @@ import org.lwjgl.system.Platform;
  */
 public abstract class GLFWWindow {
 
+    public static boolean ENABLE_DEBUG_MESSAGES = false;
     protected int width, height, display_width, display_height;
     protected Vector2d cursor;
     protected long window;
@@ -413,7 +415,6 @@ public abstract class GLFWWindow {
     }
 
 
-
     private IntBuffer intBuffer(int value) {
         return BufferUtils.createIntBuffer(1).put(0, value);
     }
@@ -492,18 +493,17 @@ public abstract class GLFWWindow {
         glfwWindowHint(GLFW.GLFW_OPENGL_DEBUG_CONTEXT, GLFW.GLFW_TRUE);
     }
 
-    static boolean enableDebugMessages = true;
 
     /**
      * @param enabled if we should print debug messages
      */
     public static void printDebugsEnabled(boolean enabled) {
-        enableDebugMessages = enabled;
+        ENABLE_DEBUG_MESSAGES = enabled;
     }
 
     private static void debugCallback(int source, int type, int id, int severity, int length, long message,
                                       long userParam) {
-        if (enableDebugMessages) {
+        if (ENABLE_DEBUG_MESSAGES) {
             ByteBuffer buffer = MemoryUtil.memByteBuffer(message, length);
             String debugMessage = MemoryUtil.memASCII(buffer);
 
@@ -654,8 +654,8 @@ public abstract class GLFWWindow {
         return frameDeltaSec;
     }
 
-    public float getSmoothFrameDeltaSec(){
-        return  smoothFrameDeltaSec;
+    public float getSmoothFrameDeltaSec() {
+        return smoothFrameDeltaSec;
     }
 
 
