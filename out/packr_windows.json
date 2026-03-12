@@ -1,0 +1,11 @@
+{
+  "platform": "windows64",
+  "jdk": "/mnt/SharedVolume/Programs/jdk/microsoft-jdk-17.0.18-windows-x64.zip",
+  "executable": "Tessera",
+  "classpath": ["Tessera.jar"],
+  "mainclass": "com.tessera.Main",
+  "vmArgs": ["-Dorg.lwjgl.librarypath=.", "-Xmx4G", "-Dfile.encoding=UTF-8"],
+  "splash": "splash.png",
+  "minimizejre": "none",
+  "output": "out/Tessera windows"
+}

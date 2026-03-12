@@ -1,0 +1,12 @@
+{
+  "platform": "mac",
+  "jdk": "/mnt/SharedVolume/Programs/jdk/microsoft-jdk-17.0.18-macos-x64.tar.gz",
+  "executable": "Tessera",
+  "bundleIdentifier": "com.tessera.app",
+  "classpath": ["Tessera.jar"],
+  "mainclass": "com.tessera.Main",
+  "splash": "splash.png",
+  "vmargs": ["Xmx4G", "Dfile.encoding=UTF-8"],
+  "minimizejre": "soft",
+  "output": "out/Tessera mac_x64"
+}

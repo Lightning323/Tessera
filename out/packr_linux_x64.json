@@ -1,0 +1,10 @@
+{
+  "platform": "linux64",
+  "jdk": "/mnt/SharedVolume/Programs/jdk/microsoft-jdk-17.0.18-linux-x64.tar.gz",
+  "executable": "Tessera",
+  "classpath": ["Tessera.jar"],
+  "mainclass": "com.tessera.Main",
+  "vmargs": ["Xmx4G", "Dfile.encoding=UTF-8"],
+  "minimizejre": "soft",
+  "output": "out/Tessera linux_x64"
+}
