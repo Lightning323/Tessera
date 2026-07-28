@@ -5,7 +5,10 @@
 [![GitHub Stars](https://img.shields.io/github/stars/Lightning323/Tessera?style=social)](https://github.com/Lightning323/Tessera/stargazers)
 [![Download on itch.io](https://img.shields.io/badge/Download%20on-itch.io-FA5C5C?style=flat-square&logo=itch.io&logoColor=white)](https://lightning323.itch.io/tessera)
 
-[Watch a video demonstration!](https://youtu.be/vWrdUlkZmcg)
+### Watch the video demonstrations:
+- https://youtu.be/vWrdUlkZmcg
+- https://youtu.be/rzNF_m4s-8s
+- https://youtu.be/JnbEtJIucnk
 
 # Enter a new world
 Explore a variety of unique biomes, Each with unique flora and fauna!
