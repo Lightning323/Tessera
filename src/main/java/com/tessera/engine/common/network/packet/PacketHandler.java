@@ -14,6 +14,16 @@ public class PacketHandler extends SimpleChannelInboundHandler<Packet> {
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, Packet packet) {
-        packet.handleClientSide(new NettyChannel(ctx.channel()), packet);
+        // Dispatch to the correct side. Previously this always called
+        // handleClientSide, which meant server-bound packets (ChunkRequest,
+        // ClientEntrance, Message server logic, block edits, ...) never ran
+        // on a real Netty server. FakeChannel was unaffected because it calls
+        // the handlers directly, which is why singleplayer worked and
+        // multiplayer silently broke.
+        if (isClientSide) {
+            packet.handleClientSide(new NettyChannel(ctx.channel()), packet);
+        } else {
+            packet.handleServerSide(new NettyChannel(ctx.channel()), packet);
+        }
     }
 }

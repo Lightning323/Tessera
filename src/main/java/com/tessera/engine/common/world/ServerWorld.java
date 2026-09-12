@@ -63,7 +63,26 @@ public class ServerWorld extends World<ServerChunk> {
     }
 
     public void generateChunk(ServerChunk chunk, float distToPlayer) {
+        generateChunk(chunk, distToPlayer, null);
+    }
+
+    /**
+     * Generates a chunk and sends it back. When {@code target} is the
+     * requesting channel we unicast, avoiding the old behavior of spamming
+     * every chunk to every player. Null falls back to broadcast (e.g. initial
+     * terrain that late-joiners also need via their own requests).
+     */
+    public void generateChunk(ServerChunk chunk, float distToPlayer,
+                              com.tessera.engine.common.network.ChannelBase target) {
         if (chunk != null) {
+            // Skip re-generation if already done; just (re)send to requester.
+            if (chunk.getGenState() >= ServerChunk.GEN_SUN_GENERATED) {
+                ChunkDataPacket packet = new ChunkDataPacket(chunk);
+                if (target != null && target.isActive()) target.writeAndFlush(packet);
+                else if (Main.getServer() != null) Main.getServer().writeAndFlushToAllPlayers(packet);
+                return;
+            }
+            if (chunk.loadFuture != null && !chunk.loadFuture.isDone()) return;
             chunk.loadFuture = generationService.submit(distToPlayer, () -> {
                 System.out.println("Generating chunk at " + MiscUtils.printVec(chunk.position));
                 //Generate all neighbors
@@ -91,8 +110,10 @@ public class ServerWorld extends World<ServerChunk> {
 //                        neighborChunk.generateLight(getData(), terrain, future);
 //                    }
 
-                    //Send the chunk to all players
-                    Main.getServer().writeAndFlushToAllPlayers(new ChunkDataPacket(chunk));
+                    //Send the chunk to the requester (or all if unknown)
+                    ChunkDataPacket packet = new ChunkDataPacket(chunk);
+                    if (target != null && target.isActive()) target.writeAndFlush(packet);
+                    else if (Main.getServer() != null) Main.getServer().writeAndFlushToAllPlayers(packet);
                     return false;
                 } finally {
                     newGameTasks.incrementAndGet();

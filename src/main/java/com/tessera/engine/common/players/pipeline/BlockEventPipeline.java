@@ -49,7 +49,10 @@ public class BlockEventPipeline {
                 if (events.containsKey(worldPos)) { //We need to get the original previous block
                     blockHist.previousBlock = events.get(worldPos).previousBlock;
                 } else if (blockHist.previousBlock == null) {
-                    blockHist.previousBlock = Client.world.getBlock(worldPos.x, worldPos.y, worldPos.z);
+                    // Use this pipeline's world, NOT the static Client.world:
+                    // this pipeline serves the ServerWorld on servers
+                    // (dedicated servers have no Client at all).
+                    blockHist.previousBlock = world.getBlock(worldPos.x, worldPos.y, worldPos.z);
                 }
                 if (blockHist.previousBlock.opaque != blockHist.newBlock.opaque) {
                     lightChangesThisFrame++;
@@ -247,7 +250,9 @@ public class BlockEventPipeline {
                                 blockHist.previousBlock != blockHist.newBlock //If the blocks are different
                         ) {
                             startLocalChange(worldPos, blockHist, allowBlockEvents);
-                            Main.getServer().livePropagationHandler.addNode(worldPos, blockHist);
+                            if (Main.getServer() != null) {
+                                Main.getServer().livePropagationHandler.addNode(worldPos, blockHist);
+                            }
                             blockHist.previousBlock.run_RemoveBlockEvent(eventThread, worldPos, blockHist);
                             blockHist.newBlock.run_SetBlockEvent(eventThread, worldPos);
                         }
@@ -277,13 +282,34 @@ public class BlockEventPipeline {
                         updateAffectedChunks(affectedChunks);
                         firstChunkUpdate.set(false);
                     } else if (time > 3000 && !longSunlight.get()) {
-                        Main.getClient().consoleOut("The lighting is being calculated. This may take a while.");
+                        // Server-safe: dedicated servers have no client UI, and
+                        // UI mutation must happen on the window thread.
+                        if (Main.getClient() != null) {
+                            try {
+                                Main.getClient().runOnMainThread(() -> {
+                                    try {
+                                        Main.getClient().consoleOut("The lighting is being calculated. This may take a while.");
+                                    } catch (Exception ignored) {
+                                    }
+                                });
+                            } catch (Exception ignored) {
+                            }
+                        }
                         longSunlight.set(true);
                     }
                 });
 
-        if (longSunlight.get()) {
-            Main.getClient().consoleOut("Sunlight calculation finished " + (elapsedMS / 1000) + "s");
+        if (longSunlight.get() && Main.getClient() != null) {
+            try {
+                final long secs = elapsedMS / 1000;
+                Main.getClient().runOnMainThread(() -> {
+                    try {
+                        Main.getClient().consoleOut("Sunlight calculation finished " + secs + "s");
+                    } catch (Exception ignored) {
+                    }
+                });
+            } catch (Exception ignored) {
+            }
         }
 
         //Resolve affected chunks
@@ -325,7 +351,8 @@ public class BlockEventPipeline {
             BlockHistory hist, //What changed
             boolean dispatchBlockEvent) {
         WCCi wcc = new WCCi().set(nx, ny, nz);
-        Chunk chunk = wcc.getChunk(Client.world);
+        // Use this pipeline's world, not the static client world.
+        Chunk chunk = wcc.getChunk(world);
         if (chunk != null) {
             Block nBlock = Registrys.getBlock(chunk.voxels.getBlock(wcc.chunkVoxel.x, wcc.chunkVoxel.y, wcc.chunkVoxel.z));//The block at the neighboring voxel
             if (nBlock != null && !nBlock.isAir()) {
@@ -338,7 +365,9 @@ public class BlockEventPipeline {
 
                 } else if (dispatchBlockEvent) {
                     BlockHistory nhist = new BlockHistory(nBlock, nBlock);
-                    Main.getServer().livePropagationHandler.addNode(new Vector3i(nx, ny, nz), nhist);
+                    if (Main.getServer() != null) {
+                        Main.getServer().livePropagationHandler.addNode(new Vector3i(nx, ny, nz), nhist);
+                    }
                     nBlock.run_LocalChangeEvent(eventThread, hist, originPos, new Vector3i(nx, ny, nz));
                 }
             }

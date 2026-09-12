@@ -32,17 +32,32 @@ public class PacketDecoder extends ByteToMessageDecoder {
          */
         // previewPacket(in);
 
+        if (!in.isReadable()) {
+            return;
+        }
+
         /**
          * Packet ID
          */
+        // LengthFieldBasedFrameDecoder guarantees one full frame per call,
+        // but be defensive: a truncated frame must not consume the reader.
+        in.markReaderIndex();
         byte packetId = in.readByte();
 
         //Get the message ID and decode it
         Packet packetInstance = PACKET_REGISTRY.get((byte) packetId);
         if (packetInstance != null) {
-            packetInstance.decode(ctx, in, out);
+            try {
+                packetInstance.decode(ctx, in, out);
+            } catch (Exception e) {
+                System.out.println("Failed to decode packet id " + packetId + ": " + e);
+                in.resetReaderIndex();
+            }
         } else {
-            System.out.println("Unknown packet: " + packetId);
+            System.out.println("Unknown packet: " + packetId + " (dropping " + in.readableBytes() + " remaining bytes of this frame)");
+            // Drop the rest of this frame so a bad id cannot desync the stream.
+            // The frame itself is discarded after this method returns.
+            in.skipBytes(in.readableBytes());
         }
     }
 

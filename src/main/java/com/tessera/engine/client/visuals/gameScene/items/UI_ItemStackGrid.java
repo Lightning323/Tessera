@@ -58,10 +58,10 @@ public class UI_ItemStackGrid {
 
             //Draw buttons
             if (showButtons) {
-                nk_layout_row_dynamic(ctx, 20, Main.getServer().getGameMode() == GameMode.FREEPLAY ? 2 : 1);
+                nk_layout_row_dynamic(ctx, 20, Main.getClient().getGameMode() == GameMode.FREEPLAY ? 2 : 1);
                 if (nk_button_label(ctx, "Sort")) {
                     storageSpace.organize();
-                } else if (Main.getServer().getGameMode() == GameMode.FREEPLAY && nk_button_label(ctx, "Clear")) {
+                } else if (Main.getClient().getGameMode() == GameMode.FREEPLAY && nk_button_label(ctx, "Clear")) {
                     for (int i = 0; i < storageSpace.size(); i++) {
                         storageSpace.set(i, null);
                     }

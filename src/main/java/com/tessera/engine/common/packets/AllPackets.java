@@ -9,6 +9,12 @@ public class AllPackets {
     public static final int SERVER_GATEKEEPER = 4;
     public static final int CHUNK_DATA = 5;
     public static final int CHUNK_REQUEST = 6;
+    // Server-authoritative block editing. Client -> server requests, server -> client broadcast.
+    public static final int BLOCK_BREAK_REQUEST = 7;
+    public static final int BLOCK_PLACE_REQUEST = 8;
+    public static final int BLOCK_UPDATE = 9;
+    // Server -> client authoritative game-state snapshot (game mode, etc.).
+    public static final int GAME_STATE = 10;
 
     public static void registerPackets() {
         Packet.register(new ClientEntrancePacket());
@@ -16,5 +22,9 @@ public class AllPackets {
         Packet.register(new MessagePacket());
         Packet.register(new ChunkDataPacket());
         Packet.register(new ChunkRequestPacket());
+        Packet.register(new BlockBreakRequestPacket());
+        Packet.register(new BlockPlaceRequestPacket());
+        Packet.register(new BlockUpdatePacket());
+        Packet.register(new GameStatePacket());
     }
 }

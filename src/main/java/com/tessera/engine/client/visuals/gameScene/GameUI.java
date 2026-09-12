@@ -49,6 +49,9 @@ public class GameUI {
     public static UI_Hotbar hotbar;
     public static GameMenu baseMenu;
     public static HUDText hudText;
+    /** In-game panel for testing server-authoritative block break/place over SP and MP. */
+    public final com.tessera.engine.common.worldInteraction.block.BlockInteractionTester blockTestUI =
+            new com.tessera.engine.common.worldInteraction.block.BlockInteractionTester();
     boolean drawUI = true;
 
     public GameUI(Game game, NkContext ctx, Client client, LocalPlayer player, ClientWorld world) throws IOException {
@@ -82,11 +85,12 @@ public class GameUI {
 
 
     public boolean anyMenuOpen() {
-        return baseMenu.isOpen() || game.menusAreOpen() || infoBox.isActive() || fileDialog.isOpen();
+        return baseMenu.isOpen() || game.menusAreOpen() || infoBox.isActive() || fileDialog.isOpen()
+                || blockTestUI.isOpen();
     }
 
     public boolean baseMenusOpen() {
-        return baseMenu.isOpen() || infoBox.isActive();
+        return baseMenu.isOpen() || infoBox.isActive() || blockTestUI.isOpen();
     }
 
 
@@ -120,6 +124,8 @@ public class GameUI {
                     infoBox.draw(stack);
                     hotbar.draw(stack);
                 }
+                // Block break/place test panel (F8). Drawn last so it overlays.
+                blockTestUI.draw(stack, ctx, window);
                 //Add myGame.uiDraw right here
             }
             window.NKrender();

@@ -31,8 +31,10 @@ public class ServerGatekeeperPacket extends Packet {
         ServerGatekeeperPacket packetInstance = (ServerGatekeeperPacket) packet;
         out.writeBoolean(packetInstance.allowedIn);
 
-        out.writeInt(packetInstance.reason.length());
-        out.writeBytes(packetInstance.reason.getBytes(StandardCharsets.UTF_8));
+        String reason = packetInstance.reason == null ? "" : packetInstance.reason;
+        byte[] reasonBytes = reason.getBytes(StandardCharsets.UTF_8);
+        out.writeInt(reasonBytes.length);
+        out.writeBytes(reasonBytes);
     }
 
     @Override
@@ -49,11 +51,26 @@ public class ServerGatekeeperPacket extends Packet {
     @Override
     public void handleClientSide(ChannelBase ctx, Packet packet) {
         ServerGatekeeperPacket packetInstance = (ServerGatekeeperPacket) packet;
-        ProgressData prog = Main.getClient().getJoinProgressData();
-        if (packetInstance.allowedIn) {
-            prog.stage++;
-        } else {
-            prog.abort(reason);
+        // Join progress + popup UI live on the render thread; never mutate
+        // them from a network thread.
+        try {
+            if (Main.getClient() != null) {
+                Main.getClient().runOnMainThread(() -> {
+                    try {
+                        ProgressData prog = Main.getClient().getJoinProgressData();
+                        if (prog == null) return;
+                        if (packetInstance.allowedIn) {
+                            prog.stage++;
+                        } else {
+                            prog.abort(packetInstance.reason);
+                        }
+                    } catch (Exception e) {
+                        Main.LOGGER.warn("Gatekeeper handling failed", e);
+                    }
+                });
+            }
+        } catch (Exception e) {
+            Main.LOGGER.warn("Failed to enqueue gatekeeper packet", e);
         }
     }
 

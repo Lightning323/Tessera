@@ -49,7 +49,7 @@ public class UI_Hotbar extends UI_GameMenu {
 
     @Override
     public void draw(MemoryStack stack) {
-        if (Main.getServer().getGameMode() == GameMode.SPECTATOR) return;
+        if (Main.getClient().getGameMode() == GameMode.SPECTATOR) return;
         NkRect windowDims2 = NkRect.malloc(stack);
 
         ctx.style().window().fixed_background().data().color().set(Theme.color_transparent);
@@ -62,7 +62,7 @@ public class UI_Hotbar extends UI_GameMenu {
         int y = window.getHeight() - menuHeight - 20;
 
         //Draw healthbars
-        if (Main.getServer().getGameMode() == GameMode.ADVENTURE) {
+        if (Main.getClient().getGameMode() == GameMode.ADVENTURE) {
             nk_rect(x, y - 60, menuWidth, menuHeight + 2, windowDims2);
             if (nk_begin(ctx, "health", windowDims2, NK_WINDOW_NO_SCROLLBAR | NK_WINDOW_BORDER)) {
                 nk_layout_row_dynamic(ctx, 10, 3);
@@ -149,14 +149,14 @@ public class UI_Hotbar extends UI_GameMenu {
     }
 
     public boolean mouseScrollEvent(NkVec2 scroll, double xoffset, double yoffset) {
-        if (Main.getServer().getGameMode() == GameMode.SPECTATOR) return false;
+        if (Main.getClient().getGameMode() == GameMode.SPECTATOR) return false;
 
         changeSelectedIndex(-scroll.y());
         return true;
     }
 
     public boolean keyEvent(int key, int scancode, int action, int mods) {
-        if (Main.getServer().getGameMode() == GameMode.SPECTATOR) return false;
+        if (Main.getClient().getGameMode() == GameMode.SPECTATOR) return false;
 
         if (action == GLFW.GLFW_PRESS) {
             if (key == GLFW.GLFW_KEY_COMMA) {

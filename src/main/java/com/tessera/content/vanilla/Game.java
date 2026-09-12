@@ -55,7 +55,7 @@ public class Game extends com.tessera.engine.server.Game {
 
 
     public boolean drawCursor(CursorRay cursorRay) {
-        if (Main.getServer().getGameMode() != GameMode.FREEPLAY) return false;
+        if (Main.getClient().getGameMode() != GameMode.FREEPLAY) return false;
         return blockTools.getSelectedTool().drawCursor(cursorRay, GameScene.projection, GameScene.view);
     }
 

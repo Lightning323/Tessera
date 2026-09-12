@@ -3,12 +3,17 @@ package com.tessera.engine.common.network.fake;
 import com.tessera.Main;
 import com.tessera.engine.common.network.ChannelBase;
 import com.tessera.engine.common.network.packet.Packet;
+import com.tessera.engine.common.network.packet.PacketDecoder;
 import com.tessera.engine.common.players.Player;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
 import io.netty.util.Attribute;
 import io.netty.util.AttributeKey;
 import io.netty.util.DefaultAttributeMap;
 
 import java.net.SocketAddress;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -53,10 +58,17 @@ public class FakeChannel extends ChannelBase {
                 while (active.get()) {
                     Packet packet = (Packet) incoming.take();
                     try {
+                        // Round-trip through encode/decode so singleplayer exercises
+                        // the exact same packet bytes as Netty multiplayer. This
+                        // catches encode/decode asymmetry early and prevents
+                        // shared-mutable-packet bugs across the client/server
+                        // boundary. Falls back to the original instance if the
+                        // codec fails so a test packet never silently vanishes.
+                        Packet wirePacket = roundTrip(packet);
                         if (sendMessagesToServer) {
-                            server.receive(reverseChannel, packet);
+                            server.receive(reverseChannel, wirePacket);
                         } else {
-                            client.receive(packet);
+                            client.receive(wirePacket);
                         }
                     } catch (Exception e) {
                         Main.LOGGER.warn("Failed to receive fake packet", e);
@@ -67,6 +79,40 @@ public class FakeChannel extends ChannelBase {
             }
         });
         processingThread.start();
+    }
+
+    /**
+     * Serializes a packet to bytes and deserializes it again, mimicking the
+     * Netty PacketEncoder + LengthFieldBasedFrameDecoder + PacketDecoder path
+     * (minus the 4-byte length prefix, which is framing only).
+     */
+    private static Packet roundTrip(Packet packet) {
+        ByteBuf buf = Unpooled.buffer();
+        try {
+            buf.writeByte(packet.id);
+            packet.encode(null, packet, buf);
+            byte id = buf.readByte();
+            Packet prototype = PacketDecoder.PACKET_REGISTRY.get(id);
+            if (prototype == null) {
+                System.out.println("FakeChannel: unknown packet id " + id + ", passing through");
+                return packet;
+            }
+            List<Object> out = new ArrayList<>(1);
+            prototype.decode(null, buf, out);
+            if (out.isEmpty() || !(out.get(0) instanceof Packet decoded)) {
+                System.out.println("FakeChannel: decode produced no packet for id " + id + ", passing through");
+                return packet;
+            }
+            if (buf.isReadable()) {
+                System.out.println("FakeChannel: " + buf.readableBytes() + " trailing bytes after decoding packet id " + id);
+            }
+            return decoded;
+        } catch (Exception e) {
+            System.out.println("FakeChannel: roundtrip failed for " + packet.getClass().getSimpleName() + ": " + e + ", passing through");
+            return packet;
+        } finally {
+            buf.release();
+        }
     }
 
     public void writeAndFlush(Packet packet) {

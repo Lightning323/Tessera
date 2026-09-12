@@ -120,13 +120,18 @@ public class GameMenu extends UI_GameMenu {
         nk_rect(
                 window.getWidth() / 2 - (menuWidth / 2),
                 window.getHeight() / 2 - (menuHeight / 2),
-                menuWidth, menuHeight, windowDims);
+                menuWidth, menuHeight + BUTTON_HEIGHT + 10, windowDims);
         if (nk_begin(ctx, "Menu", windowDims, NK_WINDOW_TITLE | NK_WINDOW_NO_SCROLLBAR | NK_WINDOW_BORDER)) {//| NK_WINDOW_MINIMIZABLE
             nk_layout_row_static(ctx, 10, 1, 1);
 
             nk_layout_row_dynamic(ctx, BUTTON_HEIGHT, 1);
             if (nk_button_label(ctx, "Settings")) {
                 page = GameMenuPage.SETTINGS;
+            }
+            nk_layout_row_dynamic(ctx, BUTTON_HEIGHT, 1);
+            if (nk_button_label(ctx, "Block Test (F8)")) {
+                setOpen(false);
+                client.window.gameScene.ui.blockTestUI.setOpen(true);
             }
             nk_layout_row_dynamic(ctx, BUTTON_HEIGHT, 1);
             if (nk_button_label(ctx, "Load Waypoint")) {
@@ -188,7 +193,7 @@ public class GameMenu extends UI_GameMenu {
     }
 
     private void goTo(float x, float y, float z) {
-        if (Main.getServer().getGameMode() == GameMode.ADVENTURE) {
+        if (Main.getClient().getGameMode() == GameMode.ADVENTURE) {
             Main.getClient().consoleOut("You cannot teleport here, but the waypoint is: " + x + ",   " + y + ",   " + z);
             Main.getClient().window.gameScene.client_hudText("Waypoint: " + x + ", " + y + ", " + z);
         } else {

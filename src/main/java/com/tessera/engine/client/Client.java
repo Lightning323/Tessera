@@ -48,12 +48,69 @@ public class Client {
     public ClientBase endpoint;
     public String title;
 
+    /**
+     * Client-side mirror of the server's authoritative game mode.
+     * Updated exclusively via {@code GameStatePacket}; client gameplay code
+     * must read this instead of {@code Main.getServer().getGameMode()},
+     * which does not exist on a remote (join-only) client and violates the
+     * client/server boundary.
+     */
+    public volatile com.tessera.engine.server.GameMode cachedGameMode =
+            com.tessera.engine.server.GameMode.FREEPLAY;
+    public volatile com.tessera.engine.server.Difficulty cachedDifficulty =
+            com.tessera.engine.server.Difficulty.NORMAL;
+
+    /** Client-side view of the mode; safe on singleplayer and multiplayer. */
+    public com.tessera.engine.server.GameMode getGameMode() {
+        return cachedGameMode;
+    }
+
+    /** Client-side view of difficulty; safe on singleplayer and multiplayer. */
+    public com.tessera.engine.server.Difficulty getDifficulty() {
+        return cachedDifficulty;
+    }
+
+    /**
+     * Tasks that must run on the window (GL) thread. Network handlers run on
+     * FakeChannel/Netty IO threads where no GL context is current; any GL call
+     * there (e.g. shader uniforms) hard-aborts the JVM. Handlers must only set
+     * volatile state directly and enqueue everything else here. Drained at the
+     * start of {@code ClientWindow.render()}, which always runs on the GL thread.
+     */
+    private final java.util.concurrent.ConcurrentLinkedQueue<Runnable> mainThreadTasks =
+            new java.util.concurrent.ConcurrentLinkedQueue<>();
+
+    public void runOnMainThread(Runnable task) {
+        if (task != null) mainThreadTasks.offer(task);
+    }
+
+    public void drainMainThreadTasks() {
+        Runnable task;
+        while ((task = mainThreadTasks.poll()) != null) {
+            try {
+                task.run();
+            } catch (Exception e) {
+                LOGGER.warn("Main-thread task failed", e);
+            }
+        }
+    }
+
     static {
         AllPackets.registerPackets();
     }
 
     public void consoleOut(String s) {
-        window.gameScene.ui.infoBox.addToHistory(s);
+        try {
+            if (window == null || window.gameScene == null || window.gameScene.ui == null
+                    || window.gameScene.ui.infoBox == null) {
+                System.out.println("[consoleOut] " + s);
+                return;
+            }
+            window.gameScene.ui.infoBox.addToHistory(s);
+        } catch (Exception e) {
+            System.out.println("[consoleOut] " + s);
+            LOGGER.warn("consoleOut failed", e);
+        }
     }
 
     public void pauseGame() {
@@ -128,16 +185,41 @@ public class Client {
     }
 
     /**
-     * We can either summon the localServer or we can join an existing server
+     * We can either summon the localServer or we can join an existing server.
      *
-     * @param singleplayerWorld
-     * @param remoteWorld
+     * <p>Modes:
+     * <ul>
+     *   <li>Singleplayer: {@code singleplayerWorld != null, remoteWorld == null}
+     *       - local {@code Server} with {@code FakeServer} endpoint, client via
+     *       {@code FakeClient} loopback. Same packets as multiplayer.</li>
+     *   <li>Host: {@code singleplayerWorld != null, remoteWorld.hosting == true}
+     *       - local {@code Server} with {@code NettyServer}, client via
+     *       {@code NettyClient} loopback. Tests real Netty framing locally.</li>
+     *   <li>Join: {@code remoteWorld != null && !remoteWorld.hosting}
+     *       - no local server; client via {@code NettyClient} to the remote.
+     *       Block edits must flow as packets (no local Server to touch).</li>
+     * </ul>
+     *
+     * @param singleplayerWorld local world file (null when joining only)
+     * @param remoteWorld       netty request (null for singleplayer loopback)
      */
     public void loadWorld(final WorldData singleplayerWorld, final NetworkJoinRequest remoteWorld) {
         Main.getClient().window.gameScene.setProjection();
 
-        if (singleplayerWorld != null) { //Spin up a local server
+        boolean joiningOnly = remoteWorld != null && !remoteWorld.hosting;
+        boolean spinningLocalServer = singleplayerWorld != null && !joiningOnly;
+
+        if (spinningLocalServer) { //Spin up a local server
             world.setData(singleplayerWorld); //set the world data
+            // Prime the client-side mode cache so mining/UI is correct even
+            // before GameStatePacket round-trips (FakeChannel is async).
+            try {
+                if (singleplayerWorld.data != null) {
+                    if (singleplayerWorld.data.gameMode != null) cachedGameMode = singleplayerWorld.data.gameMode;
+                    if (singleplayerWorld.data.difficulty != null) cachedDifficulty = singleplayerWorld.data.difficulty;
+                }
+            } catch (Exception ignored) {
+            }
             //The server must have a separate world even if it's a single-player game
             //In singleplayer, the chunks are shared by both client and server to save memory
             ServerWorld serverWorld = new ServerWorld(world);
@@ -158,6 +240,18 @@ public class Client {
                     stopGame();
                 }
             }).start();
+        } else if (joiningOnly) {
+            // Join-only: there is deliberately NO local Server. Any client
+            // code touching Main.getServer() here is a separation bug; block
+            // edits flow as packets and game state arrives via GameStatePacket.
+            // Keep whatever world shell exists; chunk data comes from the host.
+            System.out.println("Joining remote server at " + remoteWorld.address + ":" + remoteWorld.port
+                    + " (no local server; packets only)");
+            if (singleplayerWorld != null) {
+                // Placeholder shell so terrain/meshing has something until the
+                // host's chunks arrive. TODO: server should send WorldData.
+                world.setData(singleplayerWorld);
+            }
         }
 
         if (remoteWorld != null) { //Start up real endpoint

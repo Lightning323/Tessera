@@ -129,6 +129,7 @@ public class GameScene implements WindowEvents {
                 case GLFW.GLFW_KEY_F5 -> specialMode = !specialMode;
                 case GLFW.GLFW_KEY_F6 -> drawWireframe = !drawWireframe;
                 case GLFW.GLFW_KEY_F7 -> drawBoundingBoxes = !drawBoundingBoxes;
+                case GLFW.GLFW_KEY_F8 -> ui.blockTestUI.toggle();
             }
         }
         return true;
@@ -214,9 +215,12 @@ public class GameScene implements WindowEvents {
 
                         byte sun = chunk.voxels.getSun(rayWCC.chunkVoxel.x, rayWCC.chunkVoxel.y, rayWCC.chunkVoxel.z);
                         text += "\n" + block + " data: " + printBlockData(data) + " typeReference: " + Registrys.blocks.getBlockType(block.type);
-                        text += "\nlight=" + Main.getServer().getLightLevel(rayWorldPos.x, rayWorldPos.y, rayWorldPos.z)
+                        // Client-side light readout (never touches Server: debug text runs on remote clients too).
+                        int torch = chunk.voxels.getTorch(rayWCC.chunkVoxel.x, rayWCC.chunkVoxel.y, rayWCC.chunkVoxel.z);
+                        int light = Math.max(sun, torch);
+                        text += "\nlight=" + light
                                 + "  sun=" + (sun)
-                                + "  torch=" + chunk.voxels.getTorch(rayWCC.chunkVoxel.x, rayWCC.chunkVoxel.y, rayWCC.chunkVoxel.z);
+                                + "  torch=" + torch;
                     }
 
                 }

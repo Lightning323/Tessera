@@ -4,13 +4,14 @@ import com.tessera.Main;
 import com.tessera.engine.client.Client;
 import com.tessera.engine.client.ClientWindow;
 import com.tessera.engine.common.players.localPlayer.LocalPlayer;
+import com.tessera.engine.common.worldInteraction.block.BlockInteractionService;
+import com.tessera.engine.common.worldInteraction.block.ClientBlockInteractionService;
 import com.tessera.engine.server.GameMode;
 import com.tessera.engine.server.block.Block;
 import com.tessera.engine.server.block.BlockRegistry;
 import com.tessera.engine.server.entity.Entity;
 import com.tessera.engine.server.entity.EntitySupplier;
 import com.tessera.engine.server.item.ItemStack;
-import com.tessera.engine.server.loot.AllLootTables;
 import com.tessera.engine.common.players.localPlayer.camera.Camera;
 import com.tessera.utils.MiscUtils;
 import com.tessera.engine.common.math.AABB;
@@ -30,6 +31,23 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.BiConsumer;
 
 public class CursorRay {
+
+    /**
+     * Client-side block editing goes through this service only. It sends
+     * {@code BlockBreak/PlaceRequestPacket}s over the active channel
+     * (FakeChannel in singleplayer, Netty in multiplayer). The client never
+     * mutates the server world directly.
+     */
+    private final BlockInteractionService blockInteraction = new ClientBlockInteractionService();
+
+    /** Client-side view of the mode (synced via GameStatePacket). Never touches Server. */
+    private GameMode clientGameMode() {
+        try {
+            if (Main.getClient() != null) return Main.getClient().getGameMode();
+        } catch (Exception ignored) {
+        }
+        return GameMode.FREEPLAY;
+    }
 
     public boolean hitTarget() {
         return angelPlacementMode || cursorRay.hitTarget;
@@ -102,7 +120,7 @@ public class CursorRay {
      * @return if the event was consumed
      */
     public boolean clickEvent(boolean creationMode) {
-        if (Main.getServer().getGameMode() == GameMode.SPECTATOR) return false;
+        if (clientGameMode() == GameMode.SPECTATOR) return false;
         breakAmt = 0;
         breakPercentage = 0;
         ItemStack selectedItem = Client.userPlayer.getSelectedItem();
@@ -118,7 +136,7 @@ public class CursorRay {
 
         if (creationMode &&
                 Client.world.getBlock(getHitPos().x, getHitPos().y, getHitPos().z)
-                        .run_ClickEvent(Main.getServer().eventPipeline.clickEventThread, getHitPos())) { //Block click event
+                        .run_ClickEvent(clickEventThread(), getHitPos())) { //Block click event
             return true;
         }
 
@@ -175,6 +193,23 @@ public class CursorRay {
     public float breakPercentage = 0;
     private final Vector3i lastBreakPos = new Vector3i();
 
+    /**
+     * Block click events historically ran on the server pipeline thread. On a
+     * remote (join-only) client there is no local server, so fall back to a
+     * direct call: click handlers that only read client state still work,
+     * while ones needing the server log and no-op instead of NPEing.
+     */
+    private com.tessera.engine.common.threadPoolExecutor.PriorityExecutor.PriorityThreadPoolExecutor clickEventThread() {
+        try {
+            if (Main.getServer() != null && Main.getServer().eventPipeline != null
+                    && Main.getServer().eventPipeline.clickEventThread != null) {
+                return Main.getServer().eventPipeline.clickEventThread;
+            }
+        } catch (Exception ignored) {
+        }
+        return null;
+    }
+
 
     private float getMiningSpeed(ItemStack selectedItem) {
         float miningSpeed = 0.015f;
@@ -221,7 +256,7 @@ public class CursorRay {
         if (!Client.world.inBounds(getHitPos().x, getHitPos().y, getHitPos().z)) return;
 
         if (isHeld) {
-            if (Main.getServer().getGameMode() != GameMode.FREEPLAY) {
+            if (clientGameMode() != GameMode.FREEPLAY) {
                 if (!getHitPos().equals(lastBreakPos)) {
                     System.out.println("Changed block");
                     breakAmt = 0;
@@ -253,18 +288,26 @@ public class CursorRay {
                     if (selectedItem.durability <= 0) selectedItem.destroy();
                 }
                 if (breakAmt >= blockToughness) {
-                    AllLootTables.blockLootTables.dropLoot(existingBlock.alias, new Vector3f(getHitPos()), false, false);
-                    Main.getServer().setBlock(BlockRegistry.BLOCK_AIR.id, new WCCi().set(getHitPos()));
+                    // Server-authoritative: loot + world mutation + broadcast
+                    // all happen in BlockBreakRequestPacket.handleServerSide.
+                    // The client only tracks mining progress locally.
+                    BlockInteractionService.Result r = blockInteraction.requestBreak(
+                            getHitPos().x, getHitPos().y, getHitPos().z);
+                    if (!r.sent()) System.out.println("Break not sent: " + r.reason());
                     breakAmt = 0;
                     System.out.println("Resetting after broken block");
                 }
             }
         } else { //Click
-            if (Main.getServer().getGameMode() == GameMode.FREEPLAY) {
+            if (clientGameMode() == GameMode.FREEPLAY) {
                 if (getEntity() != null) {
                     getEntity().destroy();
                 } else {
-                    Main.getServer().setBlock(BlockRegistry.BLOCK_AIR.id, new WCCi().set(getHitPos()));
+                    // Instant break in creative: still via packet so the server
+                    // stays authoritative and multiplayer converges.
+                    BlockInteractionService.Result r = blockInteraction.requestBreak(
+                            getHitPos().x, getHitPos().y, getHitPos().z);
+                    if (!r.sent()) System.out.println("Break not sent: " + r.reason());
                 }
             }
         }
@@ -275,7 +318,7 @@ public class CursorRay {
     final int AUTO_CLICK_INTERVAL = 250;
 
     public void update() {
-        if (Main.getServer().getGameMode() == GameMode.SPECTATOR) return;
+        if (clientGameMode() == GameMode.SPECTATOR) return;
 
         if (!Main.getClient().window.gameScene.ui.anyMenuOpen()) {
             //Auto click
@@ -285,7 +328,7 @@ public class CursorRay {
                     autoClick_lastClicked = System.currentTimeMillis();
                     camera.cursorRay.clickEvent(true);
                 }
-            } else if (Main.getServer().getGameMode() == GameMode.FREEPLAY && window.isMouseButtonPressed(LocalPlayer.getDeleteMouseButton())) {
+            } else if (clientGameMode() == GameMode.FREEPLAY && window.isMouseButtonPressed(LocalPlayer.getDeleteMouseButton())) {
                 if (System.currentTimeMillis() - autoClick_timeSinceReleased > AUTO_CLICK_INTERVAL * 1.5 &&
                         System.currentTimeMillis() - autoClick_lastClicked > AUTO_CLICK_INTERVAL) {
                     autoClick_lastClicked = System.currentTimeMillis();
@@ -337,12 +380,31 @@ public class CursorRay {
                 set = cursorRay.getHitPosPlusNormal();
                 if (blockIntersectsPlayer(block, set)) return false;
             }
-            if (Main.getServer().getGameMode() != GameMode.FREEPLAY) stack.stackSize--;
-            Main.getServer().setBlock(block.id, set.x, set.y, set.z);
+            // Server-authoritative place: compute orientation data locally,
+            // send it, and let the server validate + broadcast. Decrement
+            // optimistically only when the request actually left the client.
+            BlockData dataToSend = null;
+            try {
+                BlockData existing = Client.world.getBlockData(set.x, set.y, set.z);
+                dataToSend = block.getInitialBlockData(existing);
+            } catch (Exception ignored) {
+            }
+            BlockInteractionService.Result r = blockInteraction.requestPlace(set.x, set.y, set.z, block.id, dataToSend);
+            if (!r.sent()) {
+                System.out.println("Place not sent: " + r.reason());
+                return false;
+            }
+            if (clientGameMode() != GameMode.FREEPLAY) stack.stackSize--;
             return true;
         } else if (entity != null) {
             Vector3f pos = new Vector3f(cursorRay.getHitPosPlusNormal());
-            if (Main.getServer().getGameMode() != GameMode.FREEPLAY) stack.stackSize--;
+            // TODO: entity placement still needs an EntityPlace packet for
+            // true separation. For now only allow it with a co-located server.
+            if (Main.getServer() == null) {
+                Main.getClient().consoleOut("Entity placement needs a server connection (not yet packetized)");
+                return false;
+            }
+            if (clientGameMode() != GameMode.FREEPLAY) stack.stackSize--;
             Main.getServer().placeEntity(entity, pos, null);
             return true;
         }
@@ -425,7 +487,7 @@ public class CursorRay {
     }
 
     public void drawRay() {
-        if (Main.getServer().getGameMode() == GameMode.SPECTATOR) {
+        if (clientGameMode() == GameMode.SPECTATOR) {
             //We sometimes want to draw the cursor even when spectating
             if (Main.getClient().window.gameScene.ui.infoBoxVisible()) {
                 cursorBox.setPosAndSize(

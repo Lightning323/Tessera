@@ -32,10 +32,12 @@ public class ClientEntrancePacket extends Packet {
     @Override
     public void encode(ChannelHandlerContext ctx, Packet packet, ByteBuf out) {
         ClientEntrancePacket packetInstance = (ClientEntrancePacket) packet;
-        //Write a string
-        out.writeInt(packetInstance.name.length());
-        out.writeBytes(packetInstance.name.getBytes(StandardCharsets.UTF_8));
-        out.writeByte(packetInstance.skinID);
+        //Write a string as UTF-8 bytes with byte length prefix.
+        String name = packetInstance.name == null ? "" : packetInstance.name;
+        byte[] nameBytes = name.getBytes(StandardCharsets.UTF_8);
+        out.writeInt(nameBytes.length);
+        out.writeBytes(nameBytes);
+        out.writeInt(packetInstance.skinID);
     }
 
     @Override
@@ -45,7 +47,7 @@ public class ClientEntrancePacket extends Packet {
         in.readBytes(nameBytes);
 
         String name = new String(nameBytes, StandardCharsets.UTF_8);
-        int skinID = in.readByte();
+        int skinID = in.readInt();
 
         out.add(new ClientEntrancePacket(name, skinID));
     }
@@ -58,6 +60,8 @@ public class ClientEntrancePacket extends Packet {
     public void handleServerSide(ChannelBase ctx, Packet packet) {
         System.out.println("ClientEntrancePacket");
         ClientEntrancePacket packetInstance = (ClientEntrancePacket) packet;
+
+        if (Main.getServer() == null) return;
 
         //Check if maximum player count is reached
         if (Main.getServer().players.size() >= Main.getServer().maxPlayers) {
@@ -84,5 +88,12 @@ public class ClientEntrancePacket extends Packet {
         ctx.setPlayer(player);
 
         ctx.writeAndFlush(new ServerGatekeeperPacket(true, ""));
+        // Sync authoritative game state so the new client never reads the
+        // server object directly (remote clients have no local Server).
+        try {
+            ctx.writeAndFlush(new GameStatePacket(Main.getServer().getGameMode(), Main.getServer().getDifficulty()));
+        } catch (Exception e) {
+            Main.LOGGER.warn("Failed to send game state to " + player.getName(), e);
+        }
     }
 }

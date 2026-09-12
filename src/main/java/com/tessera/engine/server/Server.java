@@ -371,7 +371,27 @@ public class Server {
         if (difficulty == null) difficulty = Difficulty.NORMAL;
         world.getData().data.difficulty = difficulty;
         world.getData().save();
-        Main.getClient().consoleOut("Difficulty changed to: " + getDifficulty());
+        // Server-side only: never touch client UI directly (dedicated servers
+        // have no client). Notify via log + broadcast message.
+        LOGGER.info("Difficulty changed to: {}", getDifficulty());
+        writeAndFlushToAllPlayers(new com.tessera.engine.common.packets.GameStatePacket(getGameMode(), getDifficulty()));
+        writeAndFlushToAllPlayers(new com.tessera.engine.common.packets.MessagePacket("Difficulty changed to: " + getDifficulty()));
+        if (Main.getClient() != null) {
+            try {
+                Main.getClient().cachedDifficulty = getDifficulty();
+            } catch (Exception ignored) {
+            }
+            try {
+                // UI mutation must happen on the window thread.
+                Main.getClient().runOnMainThread(() -> {
+                    try {
+                        Main.getClient().consoleOut("Difficulty changed to: " + getDifficulty());
+                    } catch (Exception ignored) {
+                    }
+                });
+            } catch (Exception ignored) {
+            }
+        }
     }
 
     public GameMode getGameMode() {
@@ -382,7 +402,28 @@ public class Server {
         if (gameMode == null) gameMode = GameMode.ADVENTURE;
         world.getData().data.gameMode = gameMode;
         world.getData().save();
-        Main.getClient().consoleOut("Game mode changed to: " + getGameMode());
+        LOGGER.info("Game mode changed to: {}", getGameMode());
+        // Keep all clients' cached mode in sync without them reading Server.
+        writeAndFlushToAllPlayers(new com.tessera.engine.common.packets.GameStatePacket(getGameMode(), getDifficulty()));
+        writeAndFlushToAllPlayers(new com.tessera.engine.common.packets.MessagePacket("Game mode changed to: " + getGameMode()));
+        if (Main.getClient() != null) {
+            // Keep a co-located (singleplayer/host) client's cache in sync
+            // even before the packet round-trips.
+            try {
+                Main.getClient().cachedGameMode = getGameMode();
+            } catch (Exception ignored) {
+            }
+            try {
+                // UI mutation must happen on the window thread.
+                Main.getClient().runOnMainThread(() -> {
+                    try {
+                        Main.getClient().consoleOut("Game mode changed to: " + getGameMode());
+                    } catch (Exception ignored) {
+                    }
+                });
+            } catch (Exception ignored) {
+            }
+        }
     }
 
     // Getters
@@ -392,7 +433,15 @@ public class Server {
         if (chunk != null) {
             int sun = chunk.voxels.getSun(wcc.chunkVoxel.x, wcc.chunkVoxel.y, wcc.chunkVoxel.z);
             int torch = chunk.voxels.getTorch(wcc.chunkVoxel.x, wcc.chunkVoxel.y, wcc.chunkVoxel.z);
-            sun = (int) Math.min(sun, GameScene.background.getLightness() * 15);
+            // NOTE: daylight scaling lives client-side (SkyBackground). The
+            // server returns raw max(sun, torch) so dedicated servers (no GL,
+            // no GameScene) work. Clients scale for display if desired.
+            try {
+                if (GameScene.background != null) {
+                    sun = (int) Math.min(sun, GameScene.background.getLightness() * 15);
+                }
+            } catch (Exception ignored) {
+            }
             return Math.max(sun, torch);
         }
         return 0;

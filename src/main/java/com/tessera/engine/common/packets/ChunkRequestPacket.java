@@ -3,7 +3,6 @@ package com.tessera.engine.common.packets;
 import com.tessera.Main;
 import com.tessera.engine.common.network.ChannelBase;
 import com.tessera.engine.common.network.packet.Packet;
-import com.tessera.utils.MiscUtils;
 import com.tessera.engine.common.world.chunk.ServerChunk;
 import com.tessera.engine.server.Server;
 import io.netty.buffer.ByteBuf;
@@ -25,7 +24,6 @@ public class ChunkRequestPacket extends Packet {
         super(AllPackets.CHUNK_REQUEST);
         this.requestedCoordinates = requestedCoordinates;
         this.distToPlayer = distToPlayer;
-        System.out.println("Requesting chunk at " + MiscUtils.printVec(requestedCoordinates));
     }
 
     @Override
@@ -60,11 +58,12 @@ public class ChunkRequestPacket extends Packet {
     public void handleServerSide(ChannelBase ctx, Packet packet) {
         ChunkRequestPacket packetInstance = (ChunkRequestPacket) packet;
         Server server = Main.getServer();
+        if (server == null) return;
 
         //Make the chunk on the server first
         ServerChunk chunk = server.world.addChunk(packetInstance.requestedCoordinates);
 
-        //Then generate it
-        server.world.generateChunk(chunk, distToPlayer);
+        //Then generate it, unicasting back to the requester when possible.
+        server.world.generateChunk(chunk, packetInstance.distToPlayer, ctx);
     }
 }

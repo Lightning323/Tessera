@@ -39,7 +39,13 @@ public abstract class NettyServer extends ServerBase {
 
     // The idle interval (in seconds) for sending pings.
     public static final long PING_INTERVAL_SECONDS = 120;
-    public static final int MAX_FRAME_SIZE = 2048;
+    /**
+     * Maximum Netty frame size. A gzipped 32x32x32 chunk is typically tens of
+     * KB and can spike much higher with entities/block-data, so the old 2KB
+     * limit silently dropped every ChunkDataPacket in multiplayer.
+     * 8MB leaves ample headroom while still bounding memory per frame.
+     */
+    public static final int MAX_FRAME_SIZE = 8 * 1024 * 1024;
 
     protected final EventLoopGroup bossGroup;
     protected final EventLoopGroup workerGroup;
@@ -82,6 +88,16 @@ public abstract class NettyServer extends ServerBase {
                     @Override
                     protected void initChannel(Channel ch) throws Exception {
                         schedulePing(ch);
+
+                        /**
+                         * Pipeline order matters. Inbound bytes must flow:
+                         * IdleStateHandler -> LengthFieldBasedFrameDecoder
+                         *   -> PacketDecoder -> PacketHandler,
+                         * while PacketEncoder handles outbound packets.
+                         * NettyServerHandler only observes connect/disconnect
+                         * and ping idle events, so it is added first and
+                         * forwards everything downstream.
+                         */
                         ch.pipeline().addLast(new NettyServerHandler(NettyServer.this));
 
                         /**
@@ -90,7 +106,7 @@ public abstract class NettyServer extends ServerBase {
                          * 2. The PacketDecoder decodes the packet
                          */
                         ch.pipeline().addLast(new LengthFieldBasedFrameDecoder(
-                                MAX_FRAME_SIZE, // Max frame size (1 KB)
+                                MAX_FRAME_SIZE, // Max frame size (8 MB, must fit gzipped chunks)
                                 0,    // Length field offset (starts at byte 0)
                                 4,    // Length field length (4 bytes for int)
                                 0,    // No length adjustment

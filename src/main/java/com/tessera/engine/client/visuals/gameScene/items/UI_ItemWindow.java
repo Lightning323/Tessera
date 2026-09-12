@@ -153,7 +153,7 @@ public abstract class UI_ItemWindow extends UI_GameMenu {
         nk_draw_image(canvas, bounds, bgImage, white);
 
         //draw quantity
-        if (!(Main.getServer().getGameMode() == GameMode.FREEPLAY && itemStack.stackSize == 1) && itemStack.item.maxStackSize > 1) {
+        if (!(Main.getClient().getGameMode() == GameMode.FREEPLAY && itemStack.stackSize == 1) && itemStack.item.maxStackSize > 1) {
             bounds.set(buttonBounds);
             bounds.x(buttonBounds.x() + 5).y(buttonBounds.y() + buttonBounds.w() - 16);
             Nuklear.nk_draw_text(canvas, bounds, "" + itemStack.stackSize, Theme.font_10, white, black);

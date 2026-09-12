@@ -92,8 +92,17 @@ public class Block {
     public InitialBlockData initialBlockData = null;
 
     public BlockData getInitialBlockData(BlockData existingData) {
-        if (initialBlockData != null) return initialBlockData.get(existingData);
-        return null;
+        if (initialBlockData == null) return null;
+        try {
+            return initialBlockData.get(existingData);
+        } catch (Exception e) {
+            // initialBlockData lambdas historically read client-only state
+            // (camera/cursor for orientation). On a dedicated server there is
+            // no client, so fall back to null (default orientation) instead of
+            // NPEing the server thread. Clients send explicit BlockData in
+            // BlockPlaceRequestPacket, which bypasses this path entirely.
+            return null;
+        }
     }
 
     @FunctionalInterface
@@ -151,7 +160,11 @@ public class Block {
     }
 
     /**
-     * @param eventThread
+     * Click handling is client-side UI: it reads the client world for the
+     * cursor target. {@code eventThread} may be null on remote clients (no
+     * local server pipeline); in that case multithreaded handlers run inline.
+     *
+     * @param eventThread may be null
      * @param worldPos
      * @return if the event was consumed
      */
@@ -159,11 +172,15 @@ public class Block {
                                   Vector3i worldPos) {
         if (clickEvent != null) {
             WCCi wcc = new WCCi().set(worldPos);
-            Chunk chunk = wcc.getChunk(Client.world);
+            Chunk chunk = null;
+            try {
+                if (Client.world != null) chunk = wcc.getChunk(Client.world);
+            } catch (Exception ignored) {
+            }
 
             if (chunk == null || clickEvent == null) return false;
 
-            if (clickEvent_isMultithreaded) {
+            if (clickEvent_isMultithreaded && eventThread != null) {
                 eventThread.submit(System.currentTimeMillis(), () -> {
                     clickEvent.run(worldPos.x, worldPos.y, worldPos.z);
                  //   chunk.updateMesh(false, wcc.chunkVoxel.x, wcc.chunkVoxel.y, wcc.chunkVoxel.z);

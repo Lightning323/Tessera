@@ -123,23 +123,29 @@ public class InfoText extends UI_GameMenu {
     ArrayList<ChatMessage> commandHistory = new ArrayList<>();
 
     public void addToHistory(String text) {
-        commandHistory.add(0, new ChatMessage(text));
-        if (commandHistory.size() > 30) {
-            commandHistory.remove(commandHistory.size() - 1);
+        synchronized (commandHistory) {
+            commandHistory.add(0, new ChatMessage(text));
+            if (commandHistory.size() > 30) {
+                commandHistory.remove(commandHistory.size() - 1);
+            }
         }
     }
 
     private void drawChatHistory(NkContext ctx, boolean alwaysShow, int maxMessages) {
-        for (int i = 0; i < commandHistory.size(); i++) {
+        java.util.List<ChatMessage> snapshot;
+        synchronized (commandHistory) {
+            snapshot = new java.util.ArrayList<>(commandHistory);
+        }
+        for (int i = 0; i < snapshot.size(); i++) {
 
             if (maxMessages > 0 && i > maxMessages) {
                 break;
             }
 
-            String line = commandHistory.get(i).value;
+            String line = snapshot.get(i).value;
 
             Nuklear.nk_layout_row_dynamic(ctx, 10, 1);
-            if (alwaysShow || System.currentTimeMillis() - commandHistory.get(i).time < 10000) {
+            if (alwaysShow || System.currentTimeMillis() - snapshot.get(i).time < 10000) {
                 if (line.startsWith("<")) {
                     NKUtils.text(ctx, line, 9, NK_TEXT_ALIGN_RIGHT);
                 } else NKUtils.text(ctx, line, 9, NK_TEXT_ALIGN_LEFT);

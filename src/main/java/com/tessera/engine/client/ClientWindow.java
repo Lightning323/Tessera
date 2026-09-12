@@ -175,6 +175,14 @@ public class ClientWindow extends NKWindow {
 
 
     private void render() throws IOException {
+        // Run deferred client tasks (e.g. GameStatePacket player updates) on
+        // the GL thread before any drawing. Network threads must never issue
+        // GL calls directly.
+        try {
+            Main.getClient().drainMainThreadTasks();
+        } catch (Exception e) {
+            LOGGER.warn("Failed to drain main-thread tasks", e);
+        }
         if (isGameMode) {
             gameScene.render();
         } else {

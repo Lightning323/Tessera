@@ -10,74 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="replace xbuilders with tessera">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blockTools/BlockTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blockTools/BlockTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/ui/UI_Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/ui/UI_Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/ui/UI_RecipeIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/ui/UI_RecipeIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/ClientWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/ClientWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/TopMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/TopMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/ChunkSunlightGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/ChunkSunlightGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/ItemUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/ItemUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/block/conversion/ObjToBlockTypeConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/block/conversion/ObjToBlockTypeConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/builtinMechanics/gravityBlock/GravityBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/builtinMechanics/gravityBlock/GravityBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/entity/EntityRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/entity/EntityRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/recipes/crafting/CraftingRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/recipes/crafting/CraftingRecipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/recipes/crafting/json/CraftingRecipeDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/recipes/crafting/json/CraftingRecipeDeserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/recipes/crafting/json/CraftingRecipeSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/recipes/crafting/json/CraftingRecipeSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/utils/resource/ResourceLister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/utils/resource/ResourceLister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/blocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/blocks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/crystals.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/crystals.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/devmode.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/devmode.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/doors.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/doors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/fence gates.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/fence gates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/light.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/light.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/nature.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/nature.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/ores.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/ores.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/plants.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/plants.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/trapdoors.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/blocks/json/trapdoors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/items/animals.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/items/animals.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/items/crystals.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/items/crystals.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/items/food.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/items/food.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/items/game.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/items/game.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/items/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/items/items.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/items/ores.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/items/ores.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/items/resources.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/items/resources.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/items/sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/items/sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/animalFeed/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/animalFeed/default.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/block/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/block/block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/block/crystals.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/block/crystals.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/block/ores.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/block/ores.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/block/plants.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/block/plants.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/block/trees.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/loot/block/trees.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/bamboo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/bamboo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/banner.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/banner.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/blocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/blocks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/blocks2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/blocks2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/candle.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/candle.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/chiseled_marble_tile.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/chiseled_marble_tile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/crystals.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/crystals.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/doors.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/doors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/dyed.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/dyed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/dyes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/dyes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/food.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/food.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/ladder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/ladder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/marble.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/marble.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/ores.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/ores.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/resources.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/resources.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/seats.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/seats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/stained_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/stained_wood.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/teracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/teracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/tools.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/trapdoors.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/trapdoors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/variants.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/crafting/variants.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/smelting/food.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/smelting/food.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/smelting/ores.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/smelting/ores.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/smelting/other.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tessera/recipes/smelting/other.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tests/GreedyMeshTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tests/GreedyMeshTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tests/NetworkTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tests/NetworkTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tests/UITester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tests/UITester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tests/fasterXML/smile/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tests/fasterXML/smile/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tests/rectangle/RectangleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tests/rectangle/RectangleDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/InfoText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/InfoText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/UI_Hotbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/UI_Hotbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/items/UI_ItemStackGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/items/UI_ItemStackGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/items/UI_ItemWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/items/UI_ItemWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/fake/FakeChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/fake/FakeChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/netty/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/netty/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/packet/PacketDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/packet/PacketDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/packet/PacketEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/packet/PacketEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/packet/PacketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/packet/PacketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/AllPackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/AllPackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ChunkRequestPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ChunkRequestPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ClientEntrancePacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ClientEntrancePacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/MessagePacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/MessagePacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ServerGatekeeperPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ServerGatekeeperPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/localPlayer/LocalPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/localPlayer/LocalPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/localPlayer/raycasting/CursorRay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/localPlayer/raycasting/CursorRay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/pipeline/BlockEventPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/pipeline/BlockEventPipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/ServerWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/ServerWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/block/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/block/Block.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,46 +97,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Dedicated Server.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dev (Load World).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dev 2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dev 3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dev 4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dev.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JarResourceLister.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main Dev 2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main Dev.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MiscTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NettyClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NettyServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NetworkTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResourceList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RuntimeServerClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimulatedServerClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmileTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.xbuilders.tests.fasterXML.smile.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.xbuilders.tests.netty.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.netty client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.netty server.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main-REAL-CLIENT-SERVER&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/xbuilders/src/main/java/com/xbuilders/engine/utils/network/netty/packet/join&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.15412186&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Dedicated Server.executor": "Run",
+    "Application.Dev (Load World).executor": "Run",
+    "Application.Dev 2.executor": "Run",
+    "Application.Dev 3.executor": "Run",
+    "Application.Dev 4.executor": "Run",
+    "Application.Dev.executor": "Run",
+    "Application.JarResourceLister.executor": "Run",
+    "Application.Main Dev 2.executor": "Run",
+    "Application.Main Dev.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MiscTester.executor": "Run",
+    "Application.NettyClient.executor": "Run",
+    "Application.NettyServer.executor": "Run",
+    "Application.NetworkTester.executor": "Run",
+    "Application.ResourceList.executor": "Run",
+    "Application.RuntimeServerClient.executor": "Run",
+    "Application.SimulatedServerClient.executor": "Run",
+    "Application.SmileTest2.executor": "Run",
+    "Application.com.xbuilders.tests.fasterXML.smile.Main.executor": "Run",
+    "Application.com.xbuilders.tests.netty.Main.executor": "Run",
+    "Application.netty client.executor": "Run",
+    "Application.netty server.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
+    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
+    "git-widget-placeholder": "main-REAL-CLIENT-SERVER-v2",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/xbuilders/src/main/java/com/xbuilders/engine/utils/network/netty/packet/join",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.15412186",
+    "settings.editor.selected.configurable": "Console"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.xbuilders.engine.utils.network" />

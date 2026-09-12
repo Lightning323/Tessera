@@ -107,7 +107,8 @@ public class LocalPlayer extends Player {
 
 
     private void updateHealthbars(Block playerHead, Block playerFeet, Block playerWaist) {
-        if (Main.getServer().getGameMode() == GameMode.ADVENTURE) {
+        // Client-side simulation reads the synced client copy, never Server.
+        if (Main.getClient().getGameMode() == GameMode.ADVENTURE) {
 
             float multiplier = 1;
 
@@ -117,8 +118,8 @@ public class LocalPlayer extends Player {
             if (status_food > 0) {
                 //Scale hunger depletion based on difficulty
                 float difficulty = 1;
-                if (Main.getServer().getDifficulty() == Difficulty.EASY) difficulty = 0.5f;
-                if (Main.getServer().getDifficulty() == Difficulty.HARD) difficulty = 2f;
+                if (Main.getClient().getDifficulty() == Difficulty.EASY) difficulty = 0.5f;
+                if (Main.getClient().getDifficulty() == Difficulty.HARD) difficulty = 2f;
 
                 if (isRidingEntity()) { //Dont deplete hunger if we are riding something
                     status_food -= IDLE_FOOD_DEPLETION * difficulty * multiplier; //Baseline hunger deplation
@@ -178,7 +179,13 @@ public class LocalPlayer extends Player {
                 //Make sure the flag is placed somewhere safe (where it wont displace a block)
                 System.out.println("Placing flag...");
                 Vector3f flagPos = findSuitablePlacement(worldPosition, (v) -> Client.world.terrain.canSpawnHere(Client.world, v.x, v.y, v.z));
-                Main.getServer().setBlock(Blocks.BLOCK_FLAG_BLOCK, (int) flagPos.x, (int) flagPos.y, (int) flagPos.z);
+                // Route through the packet service so dedicated/remote servers stay authoritative.
+                try {
+                    new com.tessera.engine.common.worldInteraction.block.ClientBlockInteractionService()
+                            .requestPlace((int) flagPos.x, (int) flagPos.y, (int) flagPos.z, Blocks.BLOCK_FLAG_BLOCK, null);
+                } catch (Exception e) {
+                    Main.getClient().consoleOut("Flag placement failed: " + e.getMessage());
+                }
                 Main.getClient().consoleOut("Flag placed at (" + (int) (flagPos.x) + ", " + (int) flagPos.y + ", " + (int) flagPos.z + ")");
             }
             System.out.println("Teleporting to spawnpoint... ("
@@ -397,7 +404,16 @@ public class LocalPlayer extends Player {
         autoForward = false;
         isFlyingMode = true;
         resetHealthStats();
-        gameModeChangedEvent(Main.getServer().getGameMode());
+        // Prefer the synced client copy; fall back to world file for the very
+        // first frame before GameStatePacket arrives.
+        GameMode mode = Main.getClient().getGameMode();
+        if (worldData != null && worldData.data != null && worldData.data.gameMode != null
+                && Main.getServer() != null) {
+            mode = worldData.data.gameMode;
+            Main.getClient().cachedGameMode = mode;
+            if (worldData.data.difficulty != null) Main.getClient().cachedDifficulty = worldData.data.difficulty;
+        }
+        gameModeChangedEvent(mode);
 
 
         File playerFile = new File(worldData.getDirectory(), PLAYER_DATA_FILE);
@@ -501,7 +517,7 @@ public class LocalPlayer extends Player {
 
 
     private void jump() {
-        if (Main.getServer().getGameMode() == GameMode.SPECTATOR) {
+        if (Main.getClient().getGameMode() == GameMode.SPECTATOR) {
         } else {
             dismount();
             if (positionHandler.isGravityEnabled()) {
@@ -551,12 +567,21 @@ public class LocalPlayer extends Player {
     }
 
     public void setFlashlight(float distance) {
-        Client.world.chunkShader.setFlashlightDistance(distance);
+        try {
+            if (Client.world != null && Client.world.chunkShader != null) {
+                Client.world.chunkShader.setFlashlightDistance(distance);
+            }
+        } catch (Exception e) {
+            // May run before initGL or (if misused) off the GL thread; never
+            // let a cosmetic uniform take down the client.
+            Main.LOGGER.warn("setFlashlight failed", e);
+        }
     }
 
 
     public void gameModeChangedEvent(GameMode gameMode) {
         resetHealthStats();
+        if (camera == null || camera.cursorRay == null) return;
         if (gameMode == GameMode.SPECTATOR) {
             enableFlying();
             setFlashlight(100);
@@ -786,14 +811,14 @@ public class LocalPlayer extends Player {
 
     private boolean canRun() {
         return
-                Main.getServer().getGameMode() == GameMode.FREEPLAY
-                        || Main.getServer().getGameMode() == GameMode.SPECTATOR
+                Main.getClient().getGameMode() == GameMode.FREEPLAY
+                        || Main.getClient().getGameMode() == GameMode.SPECTATOR
                         || status_food > 5;
     }
 
 
     private boolean downKeyPressed() {
-        if (Main.getServer().getGameMode() == GameMode.SPECTATOR)
+        if (Main.getClient().getGameMode() == GameMode.SPECTATOR)
             return window.isKeyPressed(KEY_FLY_DOWN) || window.isKeyPressed(KEY_JUMP);
         return window.isKeyPressed(KEY_FLY_DOWN);
     }
@@ -801,7 +826,7 @@ public class LocalPlayer extends Player {
     private boolean isFlyingMode = true;
 
     public void enableFlying() {
-        if (Main.getServer().getGameMode() == GameMode.FREEPLAY || Main.getServer().getGameMode() == GameMode.SPECTATOR) {
+        if (Main.getClient().getGameMode() == GameMode.FREEPLAY || Main.getClient().getGameMode() == GameMode.SPECTATOR) {
             isFlyingMode = true;
             positionHandler.setGravityEnabled(false);
             positionHandler.collisionsEnabled = false;
@@ -825,7 +850,7 @@ public class LocalPlayer extends Player {
                 camera.cursorRay.clickEvent(false);
                 return true;
             } else if (button == GLFW.GLFW_MOUSE_BUTTON_MIDDLE) {
-                GameUI.hotbar.pickItem(camera.cursorRay, Main.getServer().getGameMode() == GameMode.FREEPLAY);
+                GameUI.hotbar.pickItem(camera.cursorRay, Main.getClient().getGameMode() == GameMode.FREEPLAY);
                 return true;
             }
         }
@@ -843,7 +868,7 @@ public class LocalPlayer extends Player {
                 case KEY_FLY_UP -> enableFlying();
             }
         } else if (action == GLFW.GLFW_RELEASE) {
-            if (key == KEY_CHANGE_RAYCAST_MODE && Main.getServer().getGameMode() == GameMode.FREEPLAY) {
+            if (key == KEY_CHANGE_RAYCAST_MODE && Main.getClient().getGameMode() == GameMode.FREEPLAY) {
                 camera.cursorRay.angelPlacementMode = !camera.cursorRay.angelPlacementMode;
             }
             switch (key) {
@@ -870,6 +895,12 @@ public class LocalPlayer extends Player {
         Vector3f pos = new Vector3f().set(Client.userPlayer.worldPosition);
         Vector3f addition = new Vector3f().set(Client.userPlayer.camera.look.x, 0, Client.userPlayer.camera.look.z).mul(1.5f);
         pos.add(addition);
+        // TODO: needs an EntityDrop packet for true separation. Co-located
+        // servers handle it directly; remote clients get a message instead of NPE.
+        if (Main.getServer() == null) {
+            Main.getClient().consoleOut("Dropping items needs a server connection (not yet packetized)");
+            return null;
+        }
         return Main.getServer().placeItemDrop(
                 pos,
                 itemStack,

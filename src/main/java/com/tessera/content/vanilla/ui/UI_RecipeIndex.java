@@ -87,7 +87,7 @@ public class UI_RecipeIndex extends UI_ItemWindow implements WindowEvents {
 
 
     public void onOpenEvent() {
-        if (Main.getServer().getGameMode() == GameMode.SPECTATOR) setOpen(false);
+        if (Main.getClient().getGameMode() == GameMode.SPECTATOR) setOpen(false);
     }
 
     public void onCloseEvent() {
@@ -95,7 +95,7 @@ public class UI_RecipeIndex extends UI_ItemWindow implements WindowEvents {
 
     @Override
     public void drawWindow(MemoryStack stack, NkRect windowDims2) {
-        if (Main.getServer().getGameMode() == GameMode.SPECTATOR) {
+        if (Main.getClient().getGameMode() == GameMode.SPECTATOR) {
             setOpen(false);
         }
 
@@ -156,7 +156,7 @@ public class UI_RecipeIndex extends UI_ItemWindow implements WindowEvents {
     }
 
     public boolean keyEvent(int key, int scancode, int action, int mods) {
-        if (Main.getServer().getGameMode() == GameMode.SPECTATOR) return false;
+        if (Main.getClient().getGameMode() == GameMode.SPECTATOR) return false;
 
         if (allItems.keyEvent(key, scancode, action, mods)) return true;
         if (action == GLFW.GLFW_RELEASE && key == KEY_OPEN_RECIPE_INDEX) {
@@ -168,7 +168,7 @@ public class UI_RecipeIndex extends UI_ItemWindow implements WindowEvents {
 
     @Override
     public boolean mouseScrollEvent(NkVec2 scroll, double xoffset, double yoffset) {
-        if (Main.getServer().getGameMode() == GameMode.SPECTATOR) return false;
+        if (Main.getClient().getGameMode() == GameMode.SPECTATOR) return false;
         allItems.mouseScrollEvent(scroll, xoffset, yoffset);
         return true;
     }

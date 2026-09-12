@@ -57,7 +57,7 @@ public abstract class NettyClient extends ClientBase {
                          * 2. The PacketDecoder decodes the packet
                          */
                         ch.pipeline().addLast(new LengthFieldBasedFrameDecoder(
-                                MAX_FRAME_SIZE, // Max frame size (1 KB)
+                                MAX_FRAME_SIZE, // Max frame size (8 MB, must fit gzipped chunks)
                                 0,    // Length field offset (starts at byte 0)
                                 4,    // Length field length (4 bytes for int)
                                 0,    // No length adjustment
