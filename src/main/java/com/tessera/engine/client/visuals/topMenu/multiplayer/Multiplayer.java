@@ -11,6 +11,7 @@ package com.tessera.engine.client.visuals.topMenu.multiplayer;
 
 import com.tessera.engine.client.Client;
 import com.tessera.engine.client.ClientWindow;
+import com.tessera.engine.client.TestRunMode;
 import com.tessera.engine.common.players.localPlayer.LocalPlayer;
 import com.tessera.engine.client.visuals.topMenu.LoadWorld;
 import com.tessera.engine.client.visuals.topMenu.MenuPage;
@@ -49,10 +50,10 @@ public class Multiplayer implements MenuPage {
         this.localClient = localClient;
         this.window = localClient.window;
         this.menu = menu;
-        portBox = new NumberBox(4, 0);
+        portBox = new NumberBox(5, 0);
 //        fromPortBox = new NumberBox(4, 0);
         ipAdressBox = new TextBox(20);
-        ipAdressBox.setValueAsString("192.168.0.");
+        ipAdressBox.setValueAsString("127.0.0.1");
         presetBox = new TextBox(20);
 
 //        fromPortBox.setOnSelectEvent(() -> {
@@ -70,7 +71,7 @@ public class Multiplayer implements MenuPage {
 
 
 //        fromPortBox.setValueAsNumber(8080);
-        portBox.setValueAsNumber(8080);
+        portBox.setValueAsNumber(TestRunMode.DEFAULT_TEST_PORT);
 
 //        if (Client.DEV_MODE) {
 //            if (hosting) {
@@ -236,10 +237,23 @@ public class Multiplayer implements MenuPage {
 //            int fromPortVal = (int) fromPortBox.getValueAsNumber();
             int portVal = (int) portBox.getValueAsNumber();
 //            if (!Client.DEV_MODE) fromPortVal = portVal;
-            String ipAdress = this.ipAdressBox.getValueAsString();
+            String ipAdress = this.ipAdressBox.getValueAsString().trim();
+            if (ipAdress.isEmpty() || ipAdress.endsWith(".")) {
+                ClientWindow.popupMessage.message("Invalid server address",
+                        "Enter the IP address or hostname of the server you want to join.");
+                return;
+            }
             NetworkJoinRequest req = new NetworkJoinRequest(hosting, portVal, player.getName(), ipAdress);
             System.out.println(req.toString());
-            localClient.loadWorld(loadWorld.currentWorld, req);
+            // A failed connect/host must never crash the window: surface it as a
+            // popup instead of letting it escape to the render thread.
+            try {
+                localClient.loadWorld(loadWorld.currentWorld, req);
+            } catch (Exception e) {
+                System.out.println("Join/host failed: " + e.getMessage());
+                ClientWindow.popupMessage.message("Could not join server",
+                        req + "\n\n" + e.getMessage());
+            }
         }
     }
 

@@ -4,6 +4,7 @@ import com.tessera.Main;
 import com.tessera.engine.common.network.ChannelBase;
 import com.tessera.engine.common.network.packet.Packet;
 import com.tessera.engine.common.players.Player;
+import com.tessera.engine.common.world.WorldData;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 
@@ -94,6 +95,16 @@ public class ClientEntrancePacket extends Packet {
             ctx.writeAndFlush(new GameStatePacket(Main.getServer().getGameMode(), Main.getServer().getDifficulty()));
         } catch (Exception e) {
             Main.LOGGER.warn("Failed to send game state to " + player.getName(), e);
+        }
+        // Sync the world data itself so a client joining without a local world
+        // file gets the real seed/terrain/spawn instead of an empty shell.
+        try {
+            WorldData worldData = Main.getServer().world.getData();
+            if (worldData != null) {
+                ctx.writeAndFlush(new ServerWorldDataPacket(worldData.getName(), worldData.toJson()));
+            }
+        } catch (Exception e) {
+            Main.LOGGER.warn("Failed to send world data to " + player.getName(), e);
         }
     }
 }

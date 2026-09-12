@@ -15,6 +15,8 @@ public class AllPackets {
     public static final int BLOCK_UPDATE = 9;
     // Server -> client authoritative game-state snapshot (game mode, etc.).
     public static final int GAME_STATE = 10;
+    // Server -> client authoritative world data (seed, terrain, spawn point).
+    public static final int SERVER_WORLD_DATA = 11;
 
     public static void registerPackets() {
         Packet.register(new ClientEntrancePacket());
@@ -26,5 +28,6 @@ public class AllPackets {
         Packet.register(new BlockPlaceRequestPacket());
         Packet.register(new BlockUpdatePacket());
         Packet.register(new GameStatePacket());
+        Packet.register(new ServerWorldDataPacket());
     }
 }

@@ -26,6 +26,14 @@ public class ServerGatekeeperPacket extends Packet {
         super(AllPackets.SERVER_GATEKEEPER);
     }
 
+    public boolean isAllowedIn() {
+        return allowedIn;
+    }
+
+    public String getReason() {
+        return reason;
+    }
+
     @Override
     public void encode(ChannelHandlerContext ctx, Packet packet, ByteBuf out) {
         ServerGatekeeperPacket packetInstance = (ServerGatekeeperPacket) packet;

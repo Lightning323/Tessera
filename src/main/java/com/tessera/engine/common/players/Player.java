@@ -33,8 +33,10 @@ public class Player {
     }
 
     public void setSkin(int id) {
-        this.skin = Main.skins.get(id).get(this);
         this.skinID = id;
+        if (Main.skins == null) return; // headless/dedicated server: no client skin textures
+        com.tessera.engine.client.skin.SkinSupplier skin = Main.skins.get(id);
+        if (skin != null) this.skin = skin.get(this);
     }
 
     public ChannelBase channel;

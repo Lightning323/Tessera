@@ -27,6 +27,14 @@ public abstract class NettyClient extends ClientBase {
     private final ChannelFuture future;
 
     /**
+     * Optional test hook: invoked on the event-loop thread after each inbound
+     * packet has been dispatched ({@code handleClientSide}). Lets headless
+     * connectivity tests observe real packets without a window/GUI. Null by
+     * default (no overhead, no behavior change).
+     */
+    public java.util.function.Consumer<Packet> inboundObserver;
+
+    /**
      * Register the ping and pong packets
      */
     static{
@@ -39,6 +47,11 @@ public abstract class NettyClient extends ClientBase {
     }
 
     public NettyClient(String host, int port) throws InterruptedException {
+        this(host, port, null);
+    }
+
+    public NettyClient(String host, int port, java.util.function.Consumer<Packet> inboundObserver) throws InterruptedException {
+        this.inboundObserver = inboundObserver;
         System.out.println("Connecting to " + host + ":" + port);
         group = new NioEventLoopGroup();
 
@@ -64,13 +77,40 @@ public abstract class NettyClient extends ClientBase {
                                 4     // Strip the length field from the output
                         ));
                         ch.pipeline().addLast(new PacketDecoder(NettyClient.this));
+
+                        if (inboundObserver != null) {
+                            // PacketHandler is a SimpleChannelInboundHandler and does
+                            // not propagate reads downstream, so the observer MUST sit
+                            // before it to see decoded packets.
+                            ch.pipeline().addLast((ChannelInboundHandler) new ChannelInboundHandlerAdapter() {
+                                @Override
+                                public void channelRead(ChannelHandlerContext c, Object msg) {
+                                    inboundObserver.accept((Packet) msg);
+                                    c.fireChannelRead(msg);
+                                }
+                            });
+                        }
+
                         ch.pipeline().addLast(new PacketEncoder());
                         ch.pipeline().addLast(new PacketHandler(true));
                     }
                 });
 
         // Connect to localServer
-        future = bootstrap.connect(host, port).sync();
+        try {
+            future = bootstrap.connect(host, port).sync();
+        } catch (InterruptedException e) {
+            group.shutdownGracefully();
+            throw e;
+        } catch (Exception e) {
+            // Refused / unreachable host: shut the event-loop group down so a
+            // failed attempt doesn't leak threads, then surface the error to the
+            // caller (UI popup or test retry) instead of a bare thread leak.
+            System.out.println("Failed to connect to " + host + ":" + port + ": " + e.getMessage());
+            group.shutdownGracefully();
+            if (e instanceof RuntimeException) throw (RuntimeException) e;
+            throw new RuntimeException("Failed to connect to " + host + ":" + port, e);
+        }
         channel = future.channel();
         channelBase = new NettyChannel(channel);
 

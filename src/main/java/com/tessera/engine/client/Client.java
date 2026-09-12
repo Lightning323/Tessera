@@ -7,6 +7,7 @@ import com.tessera.engine.common.packets.AllPackets;
 import com.tessera.engine.common.packets.ClientEntrancePacket;
 import com.tessera.engine.common.players.localPlayer.LocalPlayer;
 import com.tessera.engine.client.visuals.Page;
+import com.tessera.engine.client.ClientWindow;
 import com.tessera.engine.common.network.ChannelBase;
 import com.tessera.engine.common.network.ClientBase;
 import com.tessera.engine.common.network.fake.FakeClient;
@@ -63,6 +64,13 @@ public class Client {
             com.tessera.engine.server.GameMode.FREEPLAY;
     public volatile com.tessera.engine.server.Difficulty cachedDifficulty =
             com.tessera.engine.server.Difficulty.NORMAL;
+
+    /**
+     * When set (auto-test multiplayer), a failed host bind or a refused
+     * connection is rethrown so TestAutoRunner can retry/abort, instead of
+     * falling back to the menu with an error popup.
+     */
+    public volatile boolean retryOnConnectFailures = false;
 
     /** Client-side view of the mode; safe on singleplayer and multiplayer. */
     public com.tessera.engine.server.GameMode getGameMode() {
@@ -241,8 +249,10 @@ public class Client {
                 if (remoteWorld != null)
                     Main.setServer(new Server(game, serverWorld, remoteWorld.port)); //Create a server with a real endpoint
                 else Main.setServer(new Server(game, serverWorld)); //Create a server with a fake endpoint
-            } catch (InterruptedException e) {
+            } catch (Exception e) {
                 LOGGER.warn("Error starting server", e);
+                handleLoadFailure(e, "Could not start the server (port "
+                        + (remoteWorld != null ? remoteWorld.port : "internal") + " may already be in use)");
                 return;
             }
 
@@ -257,14 +267,14 @@ public class Client {
             // Join-only: there is deliberately NO local Server. Any client
             // code touching Main.getServer() here is a separation bug; block
             // edits flow as packets and game state arrives via GameStatePacket.
-            // Keep whatever world shell exists; chunk data comes from the host.
+            // The authoritative WorldData arrives during the entrance handshake
+            // (ServerWorldDataPacket); do NOT apply the local shell here or the
+            // client would render the wrong terrain/seed for a remote host.
             System.out.println("Joining remote server at " + remoteWorld.address + ":" + remoteWorld.port
                     + " (no local server; packets only)");
-            if (singleplayerWorld != null) {
-                // Placeholder shell so terrain/meshing has something until the
-                // host's chunks arrive. TODO: server should send WorldData.
-                world.setData(singleplayerWorld);
-            }
+            // Fresh shell: clear any leftover local world so the server's
+            // authoritative ServerWorldDataPacket (handshake) always applies.
+            world.setData(null);
         }
 
         if (remoteWorld != null) { //Start up real endpoint
@@ -276,8 +286,10 @@ public class Client {
                         Client.this.onConnected(success, cause, channel);
                     }
                 };
-            } catch (InterruptedException e) {
-                LOGGER.warn("Error starting endpoint", e);
+            } catch (Exception e) {
+                LOGGER.warn("Error starting endpoint to " + remoteWorld.address + ":" + remoteWorld.port, e);
+                handleLoadFailure(e, "Could not connect to "
+                        + remoteWorld.address + ":" + remoteWorld.port);
                 return;
             }
         } else { //Start up fake endpoint
@@ -290,6 +302,22 @@ public class Client {
         }
 
 
+    }
+
+    /**
+     * Routes a host/join setup failure (port in use, connection refused) to the
+     * UI popup instead of letting it crash the render thread. In auto-test mode
+     * the failure is rethrown so TestAutoRunner can retry (join) or abort (host).
+     */
+    private void handleLoadFailure(Exception e, String message) {
+        stopGame();
+        if (retryOnConnectFailures) {
+            throw new RuntimeException(message + " (" + e.getMessage() + ")", e);
+        }
+        try {
+            ClientWindow.popupMessage.message("Could not load world", message + "\n\n" + e.getMessage());
+        } catch (Exception ignored) {
+        }
     }
 
     private void waitForTasksToComplete(ProgressData prog) {
@@ -329,6 +357,11 @@ public class Client {
                 terminateIfTimeout(30000, prog);
             }
             case 2 -> {
+                if (world.getData() == null) { //Waiting for server world data (join without a local world)
+                    prog.setTask("Waiting for world data...");
+                    terminateIfTimeout(30000, prog);
+                    return;
+                }
                 boolean ok;
                 if (world.getData().getSpawnPoint() == null) { //Create spawn point
                     Client.userPlayer.worldPosition.set(0, 0, 0);
@@ -368,6 +401,11 @@ public class Client {
                 } else prog.stage++;
             }
             default -> {
+                if (world.getData() == null) { //Waiting for server world data
+                    prog.setTask("Waiting for world data...");
+                    terminateIfTimeout(30000, prog);
+                    return;
+                }
                 //The client controls the player and so it should decide where to spawn
                 if (world.getData().getSpawnPoint() == null) {
                     //Find spawn point

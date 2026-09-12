@@ -46,6 +46,14 @@ public final class TestAutoRunner {
 
         applyPlayerNameOverride(client, t);
 
+        // Surface host-bind / connect failures as exceptions so the join retry
+        // loop and the host fatal-exit path keep working (instead of the
+        // graceful popup used for manual UI joins).
+        if (t.mode() == TestRunMode.Mode.MULTIPLAYER_HOST
+                || t.mode() == TestRunMode.Mode.MULTIPLAYER_JOIN) {
+            client.retryOnConnectFailures = true;
+        }
+
         switch (t.mode()) {
             case SINGLEPLAYER -> runTestSingleplayer(client);
             case MULTIPLAYER_HOST -> runTestMultiplayerHost(client, t);
@@ -97,8 +105,10 @@ public final class TestAutoRunner {
     }
 
     private static void runTestMultiplayerJoin(Client client, TestRunMode t) {
-        // Placeholder shell so terrain/meshing has world info until the host's
-        // chunks arrive over Netty (same world on this machine).
+        // Join-only: no local server. The host's authoritative world data
+        // arrives during the entrance handshake (ServerWorldDataPacket), and
+        // loadWorld clears any local shell before that. This world only serves
+        // as the "a world exists" precondition.
         WorldData shell = firstWorldOrExit("testMultiplayerJoin");
         System.out.println("testMultiplayerJoin: joining " + TestRunMode.TEST_JOIN_HOST
                 + ":" + t.port() + " as '" + Client.userPlayer.getName() + "'");

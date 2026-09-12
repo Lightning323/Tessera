@@ -84,10 +84,11 @@ public class ChunkDataPacket extends Packet {
     @Override
     public void handleClientSide(ChannelBase ctx, Packet packet) {
         ChunkDataPacket packetInstance = (ChunkDataPacket) packet;
+        com.tessera.engine.client.Client client = Main.getClient();
+        if (client == null) return; // headless/dedicated-side clients never apply chunks
 
         //Create or get the chunk
-        ClientChunk chunk = Main.getClient().world.addChunk(packetInstance.chunkPosition);
-
+        ClientChunk chunk = client.world.addChunk(packetInstance.chunkPosition);
 
         //Set the data to the chunk
         AtomicBoolean fileReadCorrectly = new AtomicBoolean(false);
@@ -101,7 +102,7 @@ public class ChunkDataPacket extends Packet {
             //The neighbors were possibly meshed while this chunk was still
             //missing, treating it as air. Rebuild them so the border faces
             //between the neighbors and this chunk are correct.
-            Main.getClient().world.remeshFacingNeighbors(chunk.position);
+            client.world.remeshFacingNeighbors(chunk.position);
         } catch (IOException | ChunkReadingException e) {
             Main.LOGGER.warn("Failed to read chunk data", e);
         }

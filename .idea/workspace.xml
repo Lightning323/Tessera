@@ -9,29 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="added block breakng and placing">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/AcaciaTreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/AcaciaTreeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/BirchTreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/BirchTreeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/JungleTreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/JungleTreeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/OakTreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/OakTreeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/SpruceTreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/SpruceTreeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/TreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/TreeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/BasicTerrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/BasicTerrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/DevTerrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/DevTerrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/FlatTerrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/FlatTerrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/MoonTerrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/MoonTerrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/defaultTerrain/DefaultTerrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/defaultTerrain/DefaultTerrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/defaultTerrain/DefaultTerrainUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/defaultTerrain/DefaultTerrainUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/NewWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/NewWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/TerrainSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/TerrainSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/ServerWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/ServerWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/Terrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/Terrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/Chunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/Chunk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/FutureChunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/FutureChunk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/ServerChunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/ServerChunk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/Game.java" afterDir="false" />
+    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="updated chunk generation and terrain gen">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/TestAutoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/TestAutoRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/multiplayer/Multiplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/multiplayer/Multiplayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/netty/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/AllPackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/AllPackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ChunkDataPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ChunkDataPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ClientEntrancePacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ClientEntrancePacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ServerGatekeeperPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ServerGatekeeperPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +280,8 @@
     <MESSAGE value="refactored config" />
     <MESSAGE value="replace xbuilders with tessera" />
     <MESSAGE value="added block breakng and placing" />
-    <option name="LAST_COMMIT_MESSAGE" value="added block breakng and placing" />
+    <MESSAGE value="updated chunk generation and terrain gen" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated chunk generation and terrain gen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
