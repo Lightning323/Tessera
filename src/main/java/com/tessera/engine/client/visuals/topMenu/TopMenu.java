@@ -6,6 +6,7 @@ package com.tessera.engine.client.visuals.topMenu;
 
 import com.tessera.engine.client.Client;
 import com.tessera.engine.client.ClientWindow;
+import com.tessera.engine.client.TestAutoRunner;
 import com.tessera.engine.client.visuals.Page;
 import com.tessera.engine.client.visuals.Theme;
 import com.tessera.engine.client.visuals.topMenu.multiplayer.Multiplayer;
@@ -117,9 +118,14 @@ public class TopMenu {
 
     public void render() {
         GLFW.glfwSetInputMode(window.getWindow(), GLFW.GLFW_CURSOR, GLFW.GLFW_CURSOR_NORMAL);
-        if (firsttime && Client.LOAD_WORLD_ON_STARTUP && Client.DEV_MODE) {
-            loadWorldOnInit__Dev();
-            firsttime = false;
+        if (firsttime) {
+            if (localClient.testRunMode.isTestMode()) {
+                firsttime = false;
+                TestAutoRunner.runTestModeIfArmed(localClient);
+            } else if (Client.LOAD_WORLD_ON_STARTUP && Client.DEV_MODE) {
+                loadWorldOnInit__Dev();
+                firsttime = false;
+            }
         }
 
         try (MemoryStack stack = stackPush()) {

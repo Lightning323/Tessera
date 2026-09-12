@@ -9,37 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="replace xbuilders with tessera">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blockTools/BlockTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blockTools/BlockTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/ui/UI_Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/ui/UI_Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/ui/UI_RecipeIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/ui/UI_RecipeIndex.java" afterDir="false" />
+    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="added block breakng and placing">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/ClientWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/ClientWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/GameUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/InfoText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/InfoText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/UI_Hotbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/UI_Hotbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/items/UI_ItemStackGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/items/UI_ItemStackGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/items/UI_ItemWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/gameScene/items/UI_ItemWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/fake/FakeChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/fake/FakeChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/netty/NettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/netty/NettyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/packet/PacketDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/packet/PacketDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/packet/PacketEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/packet/PacketEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/packet/PacketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/packet/PacketHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/AllPackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/AllPackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ChunkRequestPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ChunkRequestPacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ClientEntrancePacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ClientEntrancePacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/MessagePacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/MessagePacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ServerGatekeeperPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ServerGatekeeperPacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/localPlayer/LocalPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/localPlayer/LocalPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/localPlayer/raycasting/CursorRay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/localPlayer/raycasting/CursorRay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/pipeline/BlockEventPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/pipeline/BlockEventPipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/ServerWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/ServerWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/block/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/block/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/TopMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/TopMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +91,7 @@
     "Application.RuntimeServerClient.executor": "Run",
     "Application.SimulatedServerClient.executor": "Run",
     "Application.SmileTest2.executor": "Run",
+    "Application.Test Multiplayer.executor": "Run",
     "Application.com.xbuilders.tests.fasterXML.smile.Main.executor": "Run",
     "Application.com.xbuilders.tests.netty.Main.executor": "Run",
     "Application.netty client.executor": "Run",
@@ -131,6 +105,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/xbuilders/src/main/java/com/xbuilders/engine/utils/network/netty/packet/join",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.15412186",
@@ -174,54 +149,7 @@
       <recent name="com.xbuilders.content.vanilla.blocks.blocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Dedicated Server" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.tessera.Main_DedicatedServer" />
-      <module name="Tessera" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dev 2" type="Application" factoryName="Application" folderName="devs" singleton="false">
-      <option name="MAIN_CLASS_NAME" value="com.tessera.Main" />
-      <module name="XBuilders3" />
-      <option name="PROGRAM_PARAMETERS" value="devmode appData=xbSecond name=DEV2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dev 3" type="Application" factoryName="Application" folderName="devs" singleton="false">
-      <option name="MAIN_CLASS_NAME" value="com.tessera.Main" />
-      <module name="XBuilders3" />
-      <option name="PROGRAM_PARAMETERS" value="devmode appData=xbThird name=DEV3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dev 4" type="Application" factoryName="Application" folderName="devs" singleton="false">
-      <option name="MAIN_CLASS_NAME" value="com.tessera.Main" />
-      <module name="XBuilders3" />
-      <option name="PROGRAM_PARAMETERS" value="devmode appData=xbFourth name=DEV4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dev (Load World)" type="Application" factoryName="Application" singleton="false">
-      <option name="MAIN_CLASS_NAME" value="com.tessera.Main" />
-      <module name="XBuilders3" />
-      <option name="PROGRAM_PARAMETERS" value="devmode loadWorldOnStartup" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dev" type="Application" factoryName="Application" singleton="false">
-      <option name="MAIN_CLASS_NAME" value="com.tessera.Main" />
-      <module name="XBuilders3" />
-      <option name="PROGRAM_PARAMETERS" value="devmode name=DEV" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test Multiplayer">
     <configuration name="Main" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="com.tessera.Main" />
       <module name="Tessera" />
@@ -229,29 +157,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiscTester" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xbuilders.tests.MiscTester" />
-      <module name="XBuilders3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tessera.engine.common.math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Test Multiplayer" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.tessera.Main" />
+      <module name="Tessera" />
+      <option name="PROGRAM_PARAMETERS" value="testMultiplayer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="netty client" type="Application" factoryName="Application" folderName="netty">
-      <option name="MAIN_CLASS_NAME" value="com.xbuilders.engine.utils.network.testing.Test_NettyClient" />
-      <module name="XBuilders3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="netty server" type="Application" factoryName="Application" folderName="netty">
-      <option name="MAIN_CLASS_NAME" value="com.xbuilders.engine.utils.network.testing.Test_NettyServer" />
-      <module name="XBuilders3" />
+    <configuration name="Test Singleplayer" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.tessera.Main" />
+      <module name="Tessera" />
+      <option name="PROGRAM_PARAMETERS" value="testSingleplayer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -274,25 +191,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Dev 2" />
-      <item itemvalue="Application.Dev 3" />
-      <item itemvalue="Application.Dev 4" />
-      <item itemvalue="Application.netty server" />
-      <item itemvalue="Application.netty client" />
-      <item itemvalue="Application.Dev" />
-      <item itemvalue="Application.Dedicated Server" />
-      <item itemvalue="Application.Dev (Load World)" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MiscTester" />
+      <item itemvalue="Application.Test Singleplayer" />
+      <item itemvalue="Application.Test Multiplayer" />
       <item itemvalue="Compound.Netty Test" />
       <item itemvalue="Compound.Multiplayer Test 4P" />
       <item itemvalue="Compound.Multiplayer Test" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MiscTester" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -360,13 +265,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Basic bugfixes" />
     <MESSAGE value="changes" />
     <MESSAGE value="fixes" />
     <MESSAGE value="refactorings" />
     <MESSAGE value="refactored config" />
     <MESSAGE value="replace xbuilders with tessera" />
-    <option name="LAST_COMMIT_MESSAGE" value="replace xbuilders with tessera" />
+    <MESSAGE value="added block breakng and placing" />
+    <option name="LAST_COMMIT_MESSAGE" value="added block breakng and placing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

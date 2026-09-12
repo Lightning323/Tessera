@@ -47,6 +47,10 @@ public class Client {
     private final Game game;
     public ClientBase endpoint;
     public String title;
+    /** Raw launch args (kept so test modes can spawn sibling processes). */
+    public final String[] launchArgs;
+    /** Block breaking/placing test run mode requested via launch args. */
+    public final TestRunMode testRunMode;
 
     /**
      * Client-side mirror of the server's authoritative game mode.
@@ -135,6 +139,15 @@ public class Client {
                 title = arg.split("=")[1];
             } else if (arg.equals("loadWorldOnStartup")) {
                 Client.LOAD_WORLD_ON_STARTUP = true;
+            }
+        }
+        launchArgs = args == null ? new String[0] : args.clone();
+        testRunMode = TestRunMode.fromArgs(args);
+        switch (testRunMode.mode()) {
+            case SINGLEPLAYER -> title += " [test-singleplayer]";
+            case MULTIPLAYER_HOST -> title += " [test-host:" + testRunMode.port() + "]";
+            case MULTIPLAYER_JOIN -> title += " [test-join:" + testRunMode.port() + "]";
+            default -> {
             }
         }
         PathHandler.initialize(appDataDir);

@@ -25,3 +25,24 @@ All entities and block types are made using blender.
 There are 2 blender profiles, one for blocks and one for entities
 * The block profile has +Y as up direction
 * The entity profile has -Y as up direction
+
+## Test run modes (block breaking/placing)
+These launch arguments skip the menus and drop you straight into a world so
+block breaking/placing can be tested over each transport. All modes auto-open
+the block-interaction test panel (F8 toggles it):
+* `testSingleplayer` — loads the first world in the saves list in
+  singleplayer (FakeChannel transport). Exits if no worlds exist.
+* `testMultiplayer` — hosts the first world on port `25565` and automatically
+  opens a second window (separate JVM) joined to it, so edits can be tested
+  across a real Netty connection in both directions. Exits if no worlds exist.
+* `testMultiplayerJoin` — joins a test host at `127.0.0.1:25565`
+  (used by the spawned second window, but you can also run it yourself).
+* Optional extras (only used when a test mode is active):
+  * `port=NNNN` — override the test port (1024-65535).
+  * `playerName=Name` — override this window's player name without saving it.
+    Needed because the server rejects duplicate player names.
+
+Examples (args are passed straight to `com.tessera.Main`):
+* `testSingleplayer`
+* `testMultiplayer`
+* `testMultiplayer port=25566 playerName=Host1`
