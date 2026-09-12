@@ -100,6 +100,33 @@ public class ClientWorld extends World<ClientChunk> {
         addChunk(coords);//This is important so we dont keep requesting chunks from the server
     }
 
+    /**
+     * The six axis-aligned (facing) neighbors of a chunk — the ones whose meshes
+     * share a face with it. Only these need a rebuild when a chunk loads/unloads.
+     */
+    private static final Vector3i[] FACING_NEIGHBOR_OFFSETS = {
+            new Vector3i(-1, 0, 0), new Vector3i(1, 0, 0),
+            new Vector3i(0, 0, -1), new Vector3i(0, 0, 1),
+            new Vector3i(0, 1, 0), new Vector3i(0, -1, 0),
+    };
+
+    /**
+     * Rebuild the mesh of every loaded facing neighbor of {@code chunkPos}. A
+     * chunk mesh has to take its neighbors into account to correctly generate
+     * (or cull) the faces on its edges, so whenever a chunk is added or removed
+     * its neighbors must regenerate. Chunks that have not received their voxel
+     * data yet are skipped -- they have no data to mesh with, and meshing them
+     * now would mark them "generated" as an empty chunk that never gets rebuilt.
+     */
+    public void remeshFacingNeighbors(Vector3i chunkPos) {
+        for (Vector3i offset : FACING_NEIGHBOR_OFFSETS) {
+            ClientChunk neighbor = getChunk(new Vector3i(chunkPos.x + offset.x, chunkPos.y + offset.y, chunkPos.z + offset.z));
+            if (neighbor != null && neighbor.getGenState() >= ClientChunk.GEN_VOXELS_GENERATED) {
+                neighbor.remesh();
+            }
+        }
+    }
+
 
     public ClientWorld() {
         super();
@@ -222,8 +249,14 @@ public class ClientWorld extends World<ClientChunk> {
                 chunk.prepare(ClientWindow.frameCount, false);
             }
         });
+        // Remove all unloaded chunks first, then rebuild the meshes of the
+        // chunks that survived, so their border faces are re-generated against
+        // the now-open (missing) neighbor instead of keeping hidden faces.
         chunksToUnload.forEach(chunk -> {
             removeChunk(chunk.position);
+        });
+        chunksToUnload.forEach(chunk -> {
+            remeshFacingNeighbors(chunk.position);
         });
         Client.frameTester.set("all chunks", unusedChunks.size() + chunks.size());
         Client.frameTester.set("in-use chunks", chunks.size());

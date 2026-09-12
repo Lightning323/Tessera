@@ -3,20 +3,27 @@
 // 
 package com.tessera.engine.common.world;
 
-import com.tessera.Main;
 import com.tessera.engine.common.option.NuklearField;
 import com.tessera.engine.common.option.OptionsList;
 import com.tessera.engine.server.block.Block;
 import com.tessera.engine.common.math.FastNoise;
 import com.tessera.engine.common.math.PerlinNoise;
 import com.tessera.engine.common.world.chunk.Chunk;
+import com.tessera.engine.common.world.chunk.ServerChunk;
+import com.tessera.engine.common.world.gen.GenContext;
 import org.joml.Vector3i;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 import static com.tessera.engine.common.players.Player.PLAYER_HEIGHT;
 
+/**
+ * Content-provided terrain generator. Engine code only talks to this class and
+ * the {@code world.gen} package ({@link GenContext}, {@code TerrainRegistry});
+ * content subclasses implement {@link #generateChunkInner} using world-space
+ * reads/writes on the passed {@link GenContext}, which routes everything into
+ * the server world being generated.
+ */
 public abstract class Terrain {
 
     public static final FastNoise fastNoise = new FastNoise();
@@ -85,55 +92,24 @@ public abstract class Terrain {
         return new OptionsList(options);
     }
 
-    public class GenSession {
-
-        //        public final HashSet<Chunk> modifiedMeshedChunks = new HashSet<>();
-        public final Random random = new Random();
-        public final Chunk homeChunk;
-        public boolean generatedOutsideOfChunk = false;
-
-        public int randomInt(int lowerBound, int upperBound) {
-            return random.nextInt(upperBound - lowerBound) + lowerBound;
-        }
-
-        public float randomFloat(float lowerBound, float upperBound) {
-            return (random.nextFloat() * upperBound - lowerBound) + lowerBound;
-        }
-
-        public double randomDouble(double lowerBound, double upperBound) {
-            return (random.nextDouble() * upperBound - lowerBound) + lowerBound;
-        }
-
-        /**
-         * Generates a random boolean with the specified probability.
-         *
-         * @param probability The probability of returning true (0.0 to 1.0).
-         * @return true with the given probability, false otherwise.
-         */
-        public boolean randBoolWithProbability(float probability) {
-            return random.nextFloat() < probability;
-        }
-
-        public GenSession(Chunk chunk) {
-            this.homeChunk = chunk;
-            random.setSeed(FastNoise.Hash3D(seed, chunk.position.x, chunk.position.y, chunk.position.z));
-        }
-
-        public void setBlockWorld(int x, int y, int z, short block) {
-            Chunk chunk = Main.getClient().world.setBlock(block, x, y, z);//The world.setBlock automatically sets the block on a future chunk if it doesnt exist
-//            if (chunk != null && !homeChunk.position.equals(chunk.position)) {
-//                modifiedMeshedChunks.add(chunk);
-//            }
-        }
+    /**
+     * Generates base terrain plus decorations for one server chunk. Called
+     * exactly once per chunk by the generation pipeline; the returned context
+     * carries any cross-chunk spillover bookkeeping.
+     */
+    public final GenContext generate(ServerChunk chunk) {
+        GenContext ctx = new GenContext((ServerWorld) chunk.world, chunk, seed);
+        generateChunkInner(chunk, ctx);
+        return ctx;
     }
 
-    public final GenSession createTerrainOnChunk(final Chunk chunk) {
-        GenSession session = new GenSession(chunk);
-        this.generateChunkInner(chunk, session);
-        return session;
-    }
-
-    protected abstract void generateChunkInner(final Chunk p0, GenSession session);
+    /**
+     * Fills {@code chunk}'s own voxels and stamps decorations. Decorations may
+     * spill over chunk borders via {@code ctx.setBlockWorld*} — the context
+     * routes those writes (or stages them) so they survive regardless of
+     * neighbor generation order.
+     */
+    protected abstract void generateChunkInner(ServerChunk chunk, GenContext ctx);
 
 
     //    public abstract int getHeightmapOfVoxel(final int p0, final int p1);

@@ -6,8 +6,7 @@ package com.tessera.content.vanilla.blocks.blocks.trees;
 
 import com.tessera.Main;
 import com.tessera.engine.server.block.Block;
-import com.tessera.engine.common.world.Terrain;
-import com.tessera.engine.common.world.chunk.Chunk;
+import com.tessera.engine.common.world.gen.GenContext;
 import com.tessera.content.vanilla.Blocks;
 import org.joml.Vector3i;
 
@@ -102,40 +101,40 @@ public class JungleTreeUtils {
         }
     }
 
-    public static void terrain_plantTree(Terrain.GenSession terrain, Chunk source, int x, int y, int z) {
-        int height = randInt(terrain.random, MIN_HEIGHT, MAX_HEIGHT);
+    public static void terrain_plantTree(GenContext ctx, int x, int y, int z) {
+        int height = randInt(ctx.random, MIN_HEIGHT, MAX_HEIGHT);
         int firstLayerWide = 0;
-        firstLayerWide = randInt(terrain.random, 2, 4);
-        TreeUtils.terrain_roundedSquareLeavesLayer(terrain, source, x, (y - height + 2), z, firstLayerWide, Blocks.BLOCK_JUNGLE_LEAVES);
-        TreeUtils.terrain_roundedSquareLeavesLayer(terrain, source,
-                x + randInt(terrain.random, -1, 1),
+        firstLayerWide = randInt(ctx.random, 2, 4);
+        TreeUtils.terrain_roundedSquareLeavesLayer(ctx, x, (y - height + 2), z, firstLayerWide, Blocks.BLOCK_JUNGLE_LEAVES);
+        TreeUtils.terrain_roundedSquareLeavesLayer(ctx,
+                x + randInt(ctx.random, -1, 1),
                 (y - height + 1),
-                z + randInt(terrain.random, -1, 1),
+                z + randInt(ctx.random, -1, 1),
                 firstLayerWide, Blocks.BLOCK_JUNGLE_LEAVES);
 
-        VineBranchPair vb = setVinesAndBranches(terrain.random, x, z, firstLayerWide);
+        VineBranchPair vb = setVinesAndBranches(ctx.random, x, z, firstLayerWide);
         int h4 = (int) (height * 0.4);
         for (int k = 0; k < height; k++) {
-            terrain.setBlockWorld(x, y - k, z, Blocks.BLOCK_JUNGLE_LOG);
+            ctx.setBlockWorld(x, y - k, z, Blocks.BLOCK_JUNGLE_LOG);
             if (k < height - 1) {
                 if (k > h4) {
                     for (Vector3i branch : vb.branches) {
                         if (branch.x != x && branch.z != z) {
-                            terrain.setBlockWorld(branch.x, y - k, branch.z, Blocks.BLOCK_JUNGLE_LEAVES);
+                            ctx.setBlockWorld(branch.x, y - k, branch.z, Blocks.BLOCK_JUNGLE_LEAVES);
                         }
                     }
                 }
                 for (Vector3i vine : vb.vines) {
                     if (vine.x != x && vine.z != z) {
-                        terrain.setBlockWorld(vine.x, y - k, vine.z, Blocks.BLOCK_VINES);
+                        ctx.setBlockWorld(vine.x, y - k, vine.z, Blocks.BLOCK_VINES);
                     }
                 }
             }
         }
 
-        TreeUtils.terrain_diamondLeavesLayer(terrain, source, x, y - height, z, 3, Blocks.BLOCK_JUNGLE_LEAVES);
-        if (terrain.random.nextDouble() > 0.8) {
-            TreeUtils.terrain_diamondLeavesLayer(terrain, source, x, y - height - 1, z, 2, Blocks.BLOCK_JUNGLE_LEAVES);
+        TreeUtils.terrain_diamondLeavesLayer(ctx, x, y - height, z, 3, Blocks.BLOCK_JUNGLE_LEAVES);
+        if (ctx.random.nextDouble() > 0.8) {
+            TreeUtils.terrain_diamondLeavesLayer(ctx, x, y - height - 1, z, 2, Blocks.BLOCK_JUNGLE_LEAVES);
         }
     }
 }

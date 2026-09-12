@@ -18,6 +18,7 @@ import com.tessera.content.vanilla.ui.*;
 import com.tessera.engine.client.Client;
 import com.tessera.engine.client.ClientWindow;
 import com.tessera.engine.common.players.localPlayer.raycasting.CursorRay;
+import com.tessera.engine.common.world.gen.TerrainRegistry;
 import com.tessera.engine.client.visuals.gameScene.GameScene;
 import com.tessera.engine.client.visuals.gameScene.GameUI;
 import com.tessera.engine.server.GameMode;
@@ -202,11 +203,9 @@ public class Game extends com.tessera.engine.server.Game {
         AllRecipes.smeltingRecipes.register("/data/tessera/recipes/smelting");
 
 
-        //Add terrains;
-        terrainsList.add(new DefaultTerrain());
-        terrainsList.add(new FlatTerrain());
-        terrainsList.add(new BasicTerrain());
-        if (Client.DEV_MODE) terrainsList.add(new DevTerrain());
+        //Add terrains (registered by name; the engine resolves them through
+        // TerrainRegistry without knowing any content types).
+        registerTerrains();
 
 
         //Menus
@@ -229,8 +228,22 @@ public class Game extends com.tessera.engine.server.Game {
         Items.editItems(window);
     }
 
+    /**
+     * Registers all content terrains by name. Called from both client and
+     * server setup: dedicated servers never run {@code setupClient}, so
+     * registration must not live there alone. Re-registration is harmless
+     * (first registration wins).
+     */
+    private static void registerTerrains() {
+        TerrainRegistry.register(new DefaultTerrain());
+        TerrainRegistry.register(new FlatTerrain());
+        TerrainRegistry.register(new BasicTerrain());
+        if (Client.DEV_MODE) TerrainRegistry.register(new DevTerrain());
+    }
+
     @Override
     public void setupServer(Server server) {
+        registerTerrains();
         //propagations
         server.livePropagationHandler.addTask(new WaterPropagation());
         server.livePropagationHandler.addTask(new LavaPropagation());

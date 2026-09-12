@@ -6,6 +6,8 @@ package com.tessera.content.vanilla.terrain;
 
 import com.tessera.engine.common.world.World;
 import com.tessera.engine.common.world.chunk.Chunk;
+import com.tessera.engine.common.world.chunk.ServerChunk;
+import com.tessera.engine.common.world.gen.GenContext;
 
 import static com.tessera.engine.common.world.chunk.Chunk.WIDTH;
 
@@ -36,7 +38,7 @@ public class DevTerrain extends Terrain {
     }
 
     @Override
-    protected void generateChunkInner(Chunk chunk, GenSession session) {
+    protected void generateChunkInner(ServerChunk chunk, GenContext ctx) {
         int wy;
         int heightmap = 200;
 

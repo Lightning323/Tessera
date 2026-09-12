@@ -1,7 +1,6 @@
 package com.tessera.content.vanilla.terrain.defaultTerrain;
 
-import com.tessera.engine.common.world.Terrain.GenSession;
-import com.tessera.engine.common.world.chunk.Chunk;
+import com.tessera.engine.common.world.gen.GenContext;
 import com.tessera.content.vanilla.Blocks;
 import com.tessera.content.vanilla.blocks.blocks.trees.BirchTreeUtils;
 import com.tessera.content.vanilla.blocks.blocks.trees.OakTreeUtils;
@@ -10,18 +9,18 @@ import com.tessera.content.vanilla.blocks.blocks.trees.SpruceTreeUtils;
 public class DefaultTerrainUtils {
 
 
-    public static void plantRandomTree(GenSession session, float alpha, final Chunk sourceChunk, final int x, final int y, final int z) {
+    public static void plantRandomTree(GenContext ctx, float alpha, final int x, final int y, final int z) {
 
         //Noise tends to be more biased towards the center, meaning we either have to normalize the fastNoise function
         //somehow to produce even distribution, or we have to favor the edges more
-        float bias = alpha + ((session.random.nextFloat() - 0.5f) * 0.2f);
+        float bias = alpha + ((ctx.random.nextFloat() - 0.5f) * 0.2f);
 
         if (bias > 0.3) {
-            SpruceTreeUtils.terrain_plantTree(session, sourceChunk, x, y, z);
+            SpruceTreeUtils.terrain_plantTree(ctx, x, y, z);
         } else if (bias < -0.3) {
-            BirchTreeUtils.terrain_plantTree(session, sourceChunk, x, y, z);
+            BirchTreeUtils.terrain_plantTree(ctx, x, y, z);
         } else {
-            OakTreeUtils.terrain_plantTree(session, sourceChunk, x, y, z);
+            OakTreeUtils.terrain_plantTree(ctx, x, y, z);
         }
 //        switch (session.random.nextInt(3)) {
 //            case 0: {
@@ -85,9 +84,9 @@ public class DefaultTerrainUtils {
 //     return true;
 // }
 
-    public static short randomFlower(GenSession session) {
+    public static short randomFlower(GenContext ctx) {
         short block = 0;
-        switch (session.random.nextInt(4)) {
+        switch (ctx.random.nextInt(4)) {
             case 0 -> {
                 block = Blocks.BLOCK_ROSES;
             }

@@ -9,13 +9,13 @@ package com.tessera.engine.client.visuals.topMenu;
  * License terms: https://www.lwjgl.org/license
  */
 
-import com.tessera.Main;
 import com.tessera.engine.client.Client;
 import com.tessera.engine.client.ClientWindow;
 import com.tessera.engine.client.visuals.Page;
 import com.tessera.engine.client.visuals.Theme;
 import com.tessera.engine.common.world.WorldData;
 import com.tessera.engine.common.world.WorldsHandler;
+import com.tessera.engine.common.world.gen.TerrainRegistry;
 import com.tessera.engine.server.GameMode;
 import com.tessera.engine.common.world.Terrain;
 import com.tessera.window.nuklear.components.TextBox;
@@ -92,7 +92,7 @@ public class NewWorld implements MenuPage {
 
             Terrain terrain = terrainSelector.getSelectedTerrain();
 
-            if (terrain.hasOptions()) { //Start the terrain properties
+            if (terrain != null && terrain.hasOptions()) { //Start the terrain properties
                 row(ctx, "World Options", 1);
                 nk_layout_row_dynamic(ctx, 15, 1);
 
@@ -108,7 +108,9 @@ public class NewWorld implements MenuPage {
                 menu.setPage(Page.HOME);
             }
             if (nk_button_label(ctx, "CREATE")) {
-                if (makeNewWorld(name.getValueAsString(), 0, terrain, 0, gameMode)) {
+                if (terrain == null) {
+                    ClientWindow.popupMessage.message("Error", "No terrain registered.");
+                } else if (makeNewWorld(name.getValueAsString(), 0, terrain, 0, gameMode)) {
                     menu.setPage(Page.LOAD_WORLD);
                 }
             }
@@ -137,7 +139,7 @@ public class NewWorld implements MenuPage {
     @Override
     public void onOpen(Page lastPage) {
         name.setValueAsString("New World");
-        terrainSelector = new TerrainSelector(Main.game.terrainsList, ctx);
+        terrainSelector = new TerrainSelector(TerrainRegistry.list(), ctx);
     }
 
 

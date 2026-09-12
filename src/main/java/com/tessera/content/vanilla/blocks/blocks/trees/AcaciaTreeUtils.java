@@ -5,8 +5,7 @@
 package com.tessera.content.vanilla.blocks.blocks.trees;
 
 import com.tessera.engine.server.block.Block;
-import com.tessera.engine.common.world.Terrain;
-import com.tessera.engine.common.world.chunk.Chunk;
+import com.tessera.engine.common.world.gen.GenContext;
 import com.tessera.content.vanilla.Blocks;
 import org.joml.Vector3i;
 
@@ -72,28 +71,28 @@ public class AcaciaTreeUtils {
         player_treeBush(vec.x, vec.y - 1, vec.z, randomInt(rand, 2, 3));
     }
 
-    private static void terrain_treeBush(Terrain.GenSession terrain, Chunk sourceChunk, int x, int y, int z, int bushRadius) {
-        TreeUtils.terrain_roundedSquareLeavesLayer(terrain, sourceChunk, x, y, z, bushRadius, Blocks.BLOCK_ACACIA_LEAVES);
-        TreeUtils.terrain_diamondLeavesLayer(terrain, sourceChunk, x, y - 1, z, bushRadius, Blocks.BLOCK_ACACIA_LEAVES);
+    private static void terrain_treeBush(GenContext ctx, int x, int y, int z, int bushRadius) {
+        TreeUtils.terrain_roundedSquareLeavesLayer(ctx, x, y, z, bushRadius, Blocks.BLOCK_ACACIA_LEAVES);
+        TreeUtils.terrain_diamondLeavesLayer(ctx, x, y - 1, z, bushRadius, Blocks.BLOCK_ACACIA_LEAVES);
     }
 
-    public static void terrain_plantTree(Terrain.GenSession terrain, Chunk sourceChunk, int x, int y, int z) {
-        int height = randomInt(terrain.random, 3, 4);
+    public static void terrain_plantTree(GenContext ctx, int x, int y, int z) {
+        int height = randomInt(ctx.random, 3, 4);
         for (int k = 0; k < height; k++) {
-            terrain.setBlockWorld(x, y - (height - 1) + k, z, Blocks.BLOCK_ACACIA_LOG);
+            ctx.setBlockWorld(x, y - (height - 1) + k, z, Blocks.BLOCK_ACACIA_LOG);
         }
 
-        int length = randomInt(terrain.random, 2, 4);
-        int xDir = randomInt(terrain.random, -1, 1);
+        int length = randomInt(ctx.random, 2, 4);
+        int xDir = randomInt(ctx.random, -1, 1);
         int zDir = 0;
         if (xDir == 0) {
-            zDir = terrain.random.nextBoolean() ? -1 : 1;
+            zDir = ctx.random.nextBoolean() ? -1 : 1;
         }
-        Vector3i vec = TreeUtils.terrain_generateBranch(terrain, sourceChunk, x, y - height + 1, z, length, xDir, zDir, Blocks.BLOCK_ACACIA_LOG);
-        terrain.setBlockWorld(vec.x, vec.y - 1, vec.z, Blocks.BLOCK_ACACIA_LOG);
-        terrain_treeBush(terrain, sourceChunk, vec.x, vec.y - 1, vec.z, randomInt(terrain.random, 3, 4));
+        Vector3i vec = TreeUtils.terrain_generateBranch(ctx, x, y - height + 1, z, length, xDir, zDir, Blocks.BLOCK_ACACIA_LOG);
+        ctx.setBlockWorld(vec.x, vec.y - 1, vec.z, Blocks.BLOCK_ACACIA_LOG);
+        terrain_treeBush(ctx, vec.x, vec.y - 1, vec.z, randomInt(ctx.random, 3, 4));
 
-        if (terrain.random.nextBoolean()) {
+        if (ctx.random.nextBoolean()) {
             if (xDir == 0) {
                 zDir = 0 - zDir;
             } else {
@@ -101,17 +100,17 @@ public class AcaciaTreeUtils {
             }
         } else {
             if (xDir == 0) {
-                xDir += randomInt(terrain.random, -1, 1);
+                xDir += randomInt(ctx.random, -1, 1);
                 zDir = 0;
             } else {
-                zDir += randomInt(terrain.random, -1, 1);
+                zDir += randomInt(ctx.random, -1, 1);
                 xDir = 0;
             }
         }
-        length = randomInt(terrain.random, 3, 4);
-        vec = TreeUtils.terrain_generateBranch(terrain, sourceChunk, x, y - height + 1, z, length, xDir, zDir, Blocks.BLOCK_ACACIA_LOG);
-        terrain.setBlockWorld(vec.x, vec.y - 1, vec.z, Blocks.BLOCK_ACACIA_LOG);
-        terrain_treeBush(terrain, sourceChunk, vec.x, vec.y - 1, vec.z, randomInt(terrain.random, 2, 3));
+        length = randomInt(ctx.random, 3, 4);
+        vec = TreeUtils.terrain_generateBranch(ctx, x, y - height + 1, z, length, xDir, zDir, Blocks.BLOCK_ACACIA_LOG);
+        ctx.setBlockWorld(vec.x, vec.y - 1, vec.z, Blocks.BLOCK_ACACIA_LOG);
+        terrain_treeBush(ctx, vec.x, vec.y - 1, vec.z, randomInt(ctx.random, 2, 3));
     }
 
 }

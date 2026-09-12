@@ -107,7 +107,10 @@ public class ChunkMeshBundle {
 
     //This compute function is thread safe
     public synchronized void compute() {
-        isGenerated = true;
+        //Mark as not generated until the mesh is actually built: if meshing
+        //throws partway through we should NOT leave the chunk thinking it has a
+        //valid mesh (which previously produced invisible/partial chunks), but
+        //leave it for prepare() to retry.
         try {
             try (MemoryStack stack = org.lwjgl.system.MemoryStack.stackPush()) {
                 meshesHaveAllSides = chunk.neghbors.allFacingNeghborsLoaded;
@@ -140,8 +143,9 @@ public class ChunkMeshBundle {
                 transBuffer.makeVertexSet();
 
             }
+            isGenerated = true;
         } catch (Exception e) {
-            LOGGER.info("error", e);
+            LOGGER.warn("Failed to generate mesh, will retry: " + (chunk == null ? "" : chunk.position), e);
         }
     }
 

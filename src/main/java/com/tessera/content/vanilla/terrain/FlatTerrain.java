@@ -8,6 +8,8 @@ import com.tessera.content.vanilla.terrain.defaultTerrain.DefaultTerrain;
 import com.tessera.engine.common.world.Terrain;
 import com.tessera.engine.common.world.World;
 import com.tessera.engine.common.world.chunk.Chunk;
+import com.tessera.engine.common.world.chunk.ServerChunk;
+import com.tessera.engine.common.world.gen.GenContext;
 import com.tessera.content.vanilla.Blocks;
 import com.tessera.engine.common.option.BoundedInt;
 import com.tessera.engine.common.option.OptionsList;
@@ -54,7 +56,7 @@ public class FlatTerrain extends Terrain {
     }
 
     @Override
-    protected void generateChunkInner(Chunk chunk, GenSession session) {
+    protected void generateChunkInner(ServerChunk chunk, GenContext ctx) {
 
         for (int cx = 0; cx < WIDTH; cx++) {
 

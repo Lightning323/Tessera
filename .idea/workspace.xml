@@ -10,9 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="added block breakng and placing">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/TopMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/TopMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/AcaciaTreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/AcaciaTreeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/BirchTreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/BirchTreeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/JungleTreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/JungleTreeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/OakTreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/OakTreeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/SpruceTreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/SpruceTreeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/TreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/blocks/blocks/trees/TreeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/BasicTerrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/BasicTerrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/DevTerrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/DevTerrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/FlatTerrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/FlatTerrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/MoonTerrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/MoonTerrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/defaultTerrain/DefaultTerrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/defaultTerrain/DefaultTerrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/defaultTerrain/DefaultTerrainUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/content/vanilla/terrain/defaultTerrain/DefaultTerrainUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/NewWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/NewWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/TerrainSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/TerrainSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/ServerWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/ServerWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/Terrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/Terrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/Chunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/Chunk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/FutureChunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/FutureChunk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/ServerChunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/world/chunk/ServerChunk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/server/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,48 +89,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Dedicated Server.executor": "Run",
-    "Application.Dev (Load World).executor": "Run",
-    "Application.Dev 2.executor": "Run",
-    "Application.Dev 3.executor": "Run",
-    "Application.Dev 4.executor": "Run",
-    "Application.Dev.executor": "Run",
-    "Application.JarResourceLister.executor": "Run",
-    "Application.Main Dev 2.executor": "Run",
-    "Application.Main Dev.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MiscTester.executor": "Run",
-    "Application.NettyClient.executor": "Run",
-    "Application.NettyServer.executor": "Run",
-    "Application.NetworkTester.executor": "Run",
-    "Application.ResourceList.executor": "Run",
-    "Application.RuntimeServerClient.executor": "Run",
-    "Application.SimulatedServerClient.executor": "Run",
-    "Application.SmileTest2.executor": "Run",
-    "Application.Test Multiplayer.executor": "Run",
-    "Application.com.xbuilders.tests.fasterXML.smile.Main.executor": "Run",
-    "Application.com.xbuilders.tests.netty.Main.executor": "Run",
-    "Application.netty client.executor": "Run",
-    "Application.netty server.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.codeium.enabled": "true",
-    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
-    "git-widget-placeholder": "main-REAL-CLIENT-SERVER-v2",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/xbuilders/src/main/java/com/xbuilders/engine/utils/network/netty/packet/join",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.15412186",
-    "settings.editor.selected.configurable": "Console"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Dedicated Server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dev (Load World).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dev 2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dev 3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dev 4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dev.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JarResourceLister.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main Dev 2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main Dev.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiscTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NettyClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NettyServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NetworkTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResourceList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RuntimeServerClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimulatedServerClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmileTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test Multiplayer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.xbuilders.tests.fasterXML.smile.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.xbuilders.tests.netty.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.netty client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.netty server.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main-REAL-CLIENT-SERVER-v2&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/xbuilders/src/main/java/com/xbuilders/engine/utils/network/netty/packet/join&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.15412186&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.xbuilders.engine.utils.network" />

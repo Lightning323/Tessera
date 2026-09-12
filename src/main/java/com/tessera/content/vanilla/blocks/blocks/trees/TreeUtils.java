@@ -11,8 +11,7 @@ import com.tessera.engine.server.block.Block;
 import com.tessera.engine.server.loot.AllLootTables;
 import com.tessera.engine.common.players.pipeline.BlockHistory;
 import com.tessera.utils.BFS.TravelNode;
-import com.tessera.engine.common.world.Terrain;
-import com.tessera.engine.common.world.chunk.Chunk;
+import com.tessera.engine.common.world.gen.GenContext;
 import com.tessera.engine.common.math.MathUtils;
 import org.joml.Vector3f;
 import org.joml.Vector3i;
@@ -46,7 +45,12 @@ public class TreeUtils {
         }
     }
 
-    public static void terrain_squareLeavesLayer(Terrain.GenSession terrain, Chunk source, int x, int y, int z, int radius, short leaves) {
+    /**
+     * Generation-time leaf layer: writes through the gen context so layers
+     * spilling over a chunk border land in the neighbor (or its staged
+     * future blocks) instead of being cut off. Only settles into air.
+     */
+    public static void terrain_squareLeavesLayer(GenContext ctx, int x, int y, int z, int radius, short leaves) {
         int lowerBoundX = x - radius;
         int upperBoundX = x + radius;
         int lowerBoundZ = z - radius;
@@ -54,9 +58,7 @@ public class TreeUtils {
 
         for (int x2 = lowerBoundX; x2 <= upperBoundX; x2++) {
             for (int z2 = lowerBoundZ; z2 <= upperBoundZ; z2++) {
-                if (!Client.world.getBlock(x2, y, z2).solid) {
-                    terrain.setBlockWorld(x2, y, z2, leaves);
-                }
+                ctx.setBlockWorldOnlyIfAir(x2, y, z2, leaves);
             }
         }
     }
@@ -80,7 +82,7 @@ public class TreeUtils {
         }
     }
 
-    public static void terrain_roundedSquareLeavesLayer(Terrain.GenSession terrain, Chunk source, int x, int y, int z, int radius, short leaves) {
+    public static void terrain_roundedSquareLeavesLayer(GenContext ctx, int x, int y, int z, int radius, short leaves) {
         int lowerBoundX = x - radius;
         int upperBoundX = x + radius;
         int lowerBoundZ = z - radius;
@@ -93,9 +95,7 @@ public class TreeUtils {
                         || (x2 == upperBoundX && z2 == upperBoundZ)
                         || (x2 == lowerBoundX && z2 == upperBoundZ)
                         || (x2 == upperBoundX && z2 == lowerBoundZ))) {
-                    if (!Client.world.getBlock(x2, y, z2).solid) {
-                        terrain.setBlockWorld(x2, y, z2, leaves);
-                    }
+                    ctx.setBlockWorldOnlyIfAir(x2, y, z2, leaves);
                 }
             }
         }
@@ -132,24 +132,39 @@ public class TreeUtils {
     }
 
 
-    public static void terrain_diamondLeavesLayer(Terrain.GenSession terrain, Chunk source, int x, int y, int z, int travelDist, short leaves) {
+    public static void terrain_diamondLeavesLayer(GenContext ctx, int x, int y, int z, int travelDist, short leaves) {
         ArrayList<TravelNode> queue = new ArrayList<>();
-        queue.add(new TravelNode(x, y, z, 0));
+        HashSet<TravelNode> visited = new HashSet<>();
+        TravelNode origin = new TravelNode(x, y, z, 0);
+        queue.add(origin);
+        visited.add(origin);
 
         while (!queue.isEmpty()) {
             TravelNode node = queue.remove(0);
-            Block block = Client.world.getBlock(node.x, node.y, node.z);
-
-            if (!block.equals(leaves) && node.travel < travelDist) {
-                if (!block.solid) {
-                    terrain.setBlockWorld(node.x, node.y, node.z, leaves);
-                }
-                queue.add(new TravelNode(node.x + 1, node.y, node.z, node.travel + 1));
-                queue.add(new TravelNode(node.x, node.y, node.z + 1, node.travel + 1));
-                queue.add(new TravelNode(node.x - 1, node.y, node.z, node.travel + 1));
-                queue.add(new TravelNode(node.x, node.y, node.z - 1, node.travel + 1));
+            if (node.travel >= travelDist) continue;
+            if (node.travel == 0) {
+                // The origin is usually the trunk itself: fill it only when it
+                // is air instead of burying the trunk tip in leaves.
+                ctx.setBlockWorldOnlyIfAir(node.x, node.y, node.z, leaves);
+            } else {
+                // Every other cell only spreads through air or existing leaves.
+                short current = ctx.getBlockWorld(node.x, node.y, node.z);
+                if (current != 0 && current != leaves) continue;
+                ctx.setBlockWorldOnlyIfAir(node.x, node.y, node.z, leaves);
             }
+            trySpread(ctx, queue, visited, leaves, node.x + 1, node.y, node.z, node.travel + 1);
+            trySpread(ctx, queue, visited, leaves, node.x, node.y, node.z + 1, node.travel + 1);
+            trySpread(ctx, queue, visited, leaves, node.x - 1, node.y, node.z, node.travel + 1);
+            trySpread(ctx, queue, visited, leaves, node.x, node.y, node.z - 1, node.travel + 1);
         }
+    }
+
+    private static void trySpread(GenContext ctx, ArrayList<TravelNode> queue, HashSet<TravelNode> visited,
+                                  short leaves, int x, int y, int z, int travel) {
+        TravelNode node = new TravelNode(x, y, z, travel);
+        if (!visited.add(node)) return;
+        short current = ctx.getBlockWorld(x, y, z);
+        if (current == 0 || current == leaves) queue.add(node);
     }
 
     public static Vector3i player_generateBranch(int x, int y, int z, int length, int xDir, int zDir, short logType) {
@@ -162,13 +177,13 @@ public class TreeUtils {
         return new Vector3i(x, y, z);
     }
 
-    public static Vector3i terrain_generateBranch(Terrain.GenSession terrain, Chunk source, int x, int y, int z, int length, int xDir, int zDir, short logType) {
+    public static Vector3i terrain_generateBranch(GenContext ctx, int x, int y, int z, int length, int xDir, int zDir, short logType) {
         for (int i = 0; i < length; i++) {
             x += xDir;
             z += zDir;
             y--;
-            if (!Client.world.getBlock(x, y, z).solid) {
-                terrain.setBlockWorld(x, y, z, logType);
+            if (ctx.getBlockWorld(x, y, z) == 0) {
+                ctx.setBlockWorld(x, y, z, logType);
             }
         }
         return new Vector3i(x, y, z);

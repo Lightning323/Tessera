@@ -5,8 +5,7 @@
 package com.tessera.content.vanilla.blocks.blocks.trees;
 
 import com.tessera.engine.server.block.Block;
-import com.tessera.engine.common.world.Terrain;
-import com.tessera.engine.common.world.chunk.Chunk;
+import com.tessera.engine.common.world.gen.GenContext;
 import com.tessera.content.vanilla.Blocks;
 
 import java.util.Random;
@@ -42,17 +41,17 @@ public class BirchTreeUtils {
         }
     }
 
-    public static void terrain_plantTree(Terrain.GenSession terrain, Chunk source, int x, int y, int z) {
-        int height = randomInt(terrain.random, 5, 7);
+    public static void terrain_plantTree(GenContext ctx, int x, int y, int z) {
+        int height = randomInt(ctx.random, 5, 7);
         for (int k = 0; k < height; k++) {
-            terrain.setBlockWorld(x, y - k, z, Blocks.BLOCK_BIRCH_LOG);
+            ctx.setBlockWorld(x, y - k, z, Blocks.BLOCK_BIRCH_LOG);
         }
 
-        TreeUtils.terrain_roundedSquareLeavesLayer(terrain, source, x, y - height + 2, z, 2, Blocks.BLOCK_BIRCH_LEAVES);
-        TreeUtils.terrain_roundedSquareLeavesLayer(terrain, source, x, y - height + 1, z, 2, Blocks.BLOCK_BIRCH_LEAVES);
-        TreeUtils.terrain_diamondLeavesLayer(terrain, source, x, y - height, z, 2, Blocks.BLOCK_BIRCH_LEAVES);
-        if (terrain.random.nextDouble() > 0.8) {
-            TreeUtils.terrain_diamondLeavesLayer(terrain, source, x, y - height - 1, z, 2, Blocks.BLOCK_BIRCH_LEAVES);
+        TreeUtils.terrain_roundedSquareLeavesLayer(ctx, x, y - height + 2, z, 2, Blocks.BLOCK_BIRCH_LEAVES);
+        TreeUtils.terrain_roundedSquareLeavesLayer(ctx, x, y - height + 1, z, 2, Blocks.BLOCK_BIRCH_LEAVES);
+        TreeUtils.terrain_diamondLeavesLayer(ctx, x, y - height, z, 2, Blocks.BLOCK_BIRCH_LEAVES);
+        if (ctx.random.nextDouble() > 0.8) {
+            TreeUtils.terrain_diamondLeavesLayer(ctx, x, y - height - 1, z, 2, Blocks.BLOCK_BIRCH_LEAVES);
         }
     }
 }

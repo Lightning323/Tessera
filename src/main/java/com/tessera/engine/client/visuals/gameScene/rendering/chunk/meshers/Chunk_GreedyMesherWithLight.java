@@ -149,19 +149,19 @@ public class Chunk_GreedyMesherWithLight extends ChunkMesher<CompactVertexSet> {
 //                final IntBuffer lightMask = stack.mallocInt(dims[u] * dims[v]);// Implement lightmask
 
                 /*
-                 * We move through the d from front to back
+                 * We move through the d from front to back.
+                 *
+                 * We sweep one cell PAST each edge of the chunk (-1 .. dims[d])
+                 * so faces on the chunk border are generated against the
+                 * neighboring chunk's voxels (retrieveMaskVoxels resolves
+                 * out-of-bounds coords into back/forwardChunk, or air when the
+                 * neighbor is missing). Without the -side sweep the chunk's
+                 * -X/-Y/-Z border faces were never emitted, and without the
+                 * +side sweep borders were only emitted when a neighbor already
+                 * existed - leaving seams/holes between chunks.
                  */
-                int min = 0;// -1 (We changed this to 0, so chunks dont overlap. The dim starts at 0 and
-                // ends up covering the next chunks faces)
+                int min = -1;
                 int max = dims[d];
-
-                // If the chunk is not here, dont draw the side that it is on
-                if (forwardChunk == null) {
-                    max = dims[d] - 1;
-                }
-                if (backChunk == null) {
-                    min = 0;
-                }
 
                 for (x[d] = min; x[d] < max; ) {
                     /**

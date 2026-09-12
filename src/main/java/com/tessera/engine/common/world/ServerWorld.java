@@ -1,15 +1,19 @@
 package com.tessera.engine.common.world;
 
 import com.tessera.Main;
+import com.tessera.engine.common.network.ChannelBase;
+import com.tessera.engine.common.packets.BlockUpdatePacket;
 import com.tessera.engine.common.packets.ChunkDataPacket;
 import com.tessera.engine.common.threadPoolExecutor.PriorityExecutor.ExecutorServiceUtils;
 import com.tessera.engine.common.threadPoolExecutor.PriorityExecutor.PriorityThreadPoolExecutor;
 import com.tessera.engine.common.threadPoolExecutor.PriorityExecutor.comparator.LowValueComparator;
-import com.tessera.utils.MiscUtils;
 import com.tessera.engine.common.world.chunk.Chunk;
 import com.tessera.engine.common.world.chunk.FutureChunk;
 import com.tessera.engine.common.world.chunk.ServerChunk;
+import com.tessera.engine.common.world.gen.GenContext;
 import org.joml.Vector3i;
+
+import java.util.List;
 
 public class ServerWorld extends World<ServerChunk> {
 
@@ -67,58 +71,55 @@ public class ServerWorld extends World<ServerChunk> {
     }
 
     /**
-     * Generates a chunk and sends it back. When {@code target} is the
-     * requesting channel we unicast, avoiding the old behavior of spamming
-     * every chunk to every player. Null falls back to broadcast (e.g. initial
-     * terrain that late-joiners also need via their own requests).
+     * Generates a chunk (base terrain, staged spillover, decorations, light)
+     * and sends it back. When {@code target} is the requesting channel we
+     * unicast, avoiding the old behavior of spamming every chunk to every
+     * player. Null falls back to broadcast (e.g. initial terrain that
+     * late-joiners also need via their own requests).
+     *
+     * <p>Decorations that spill into already-sent neighbor chunks are
+     * re-broadcast as block updates so clients converge instead of showing
+     * trees cut off at the border.
      */
-    public void generateChunk(ServerChunk chunk, float distToPlayer,
-                              com.tessera.engine.common.network.ChannelBase target) {
-        if (chunk != null) {
-            // Skip re-generation if already done; just (re)send to requester.
-            if (chunk.getGenState() >= ServerChunk.GEN_SUN_GENERATED) {
-                ChunkDataPacket packet = new ChunkDataPacket(chunk);
-                if (target != null && target.isActive()) target.writeAndFlush(packet);
-                else if (Main.getServer() != null) Main.getServer().writeAndFlushToAllPlayers(packet);
-                return;
+    public void generateChunk(ServerChunk chunk, float distToPlayer, ChannelBase target) {
+        if (chunk == null) {
+            return;
+        }
+        // Skip re-generation if already done; just (re)send to requester.
+        if (chunk.getGenState() >= ServerChunk.GEN_SUN_GENERATED) {
+            sendChunk(chunk, target);
+            return;
+        }
+        if (chunk.loadFuture != null && !chunk.loadFuture.isDone()) {
+            return;
+        }
+        chunk.loadFuture = generationService.submit(distToPlayer, () -> {
+            try {
+                GenContext ctx = chunk.generateTerrain();
+                chunk.generateLight();
+                sendChunk(chunk, target);
+                chunk.markSentToClients();
+                broadcastSpillover(ctx.drainSpilloverUpdates());
+                return false;
+            } finally {
+                newGameTasks.incrementAndGet();
             }
-            if (chunk.loadFuture != null && !chunk.loadFuture.isDone()) return;
-            chunk.loadFuture = generationService.submit(distToPlayer, () -> {
-                System.out.println("Generating chunk at " + MiscUtils.printVec(chunk.position));
-                //Generate all neighbors
-//                chunk.addNeighbors();
+        });
+    }
 
-                //Get future
-                FutureChunk future = futureChunks.remove(chunk.position);
-                try {
-                    //Generate terrain for this chunk
-                    chunk.generateTerrain(getData(), terrain, null);
+    private void sendChunk(ServerChunk chunk, ChannelBase target) {
+        ChunkDataPacket packet = new ChunkDataPacket(chunk);
+        if (target != null && target.isActive()) {
+            target.writeAndFlush(packet);
+        } else if (Main.getServer() != null) {
+            Main.getServer().writeAndFlushToAllPlayers(packet);
+        }
+    }
 
-//                    //Generate terrain for neighbors
-//                    //If another chunk is already loading the neighbor (its synchronized) we need to wait
-//                    for (Chunk neighbor : chunk.neghbors.neighbors) {
-//                        ServerChunk neighborChunk = (ServerChunk) neighbor;
-//                        neighborChunk.generateTerrain(getData(), terrain, null);
-//                    }
-
-                    //Generate light for this chunk
-                    chunk.generateLight(getData(), terrain, future);
-
-//                    //Generate light for neighbors
-//                    for (Chunk neighbor : chunk.neghbors.neighbors) {
-//                        ServerChunk neighborChunk = (ServerChunk) neighbor;
-//                        neighborChunk.generateLight(getData(), terrain, future);
-//                    }
-
-                    //Send the chunk to the requester (or all if unknown)
-                    ChunkDataPacket packet = new ChunkDataPacket(chunk);
-                    if (target != null && target.isActive()) target.writeAndFlush(packet);
-                    else if (Main.getServer() != null) Main.getServer().writeAndFlushToAllPlayers(packet);
-                    return false;
-                } finally {
-                    newGameTasks.incrementAndGet();
-                }
-            });
+    private void broadcastSpillover(List<BlockUpdatePacket> updates) {
+        if (updates.isEmpty() || Main.getServer() == null) return;
+        for (BlockUpdatePacket update : updates) {
+            Main.getServer().writeAndFlushToAllPlayers(update);
         }
     }
 

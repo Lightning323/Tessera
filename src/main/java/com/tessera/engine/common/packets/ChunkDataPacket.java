@@ -98,6 +98,10 @@ public class ChunkDataPacket extends Packet {
                     hasDetectedIfFileWasReadCorrectly);
             chunk.markAsModified();
             chunk.progressGenState(ClientChunk.GEN_VOXELS_GENERATED);
+            //The neighbors were possibly meshed while this chunk was still
+            //missing, treating it as air. Rebuild them so the border faces
+            //between the neighbors and this chunk are correct.
+            Main.getClient().world.remeshFacingNeighbors(chunk.position);
         } catch (IOException | ChunkReadingException e) {
             Main.LOGGER.warn("Failed to read chunk data", e);
         }

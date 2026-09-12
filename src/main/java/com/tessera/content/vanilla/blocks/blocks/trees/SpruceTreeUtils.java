@@ -7,8 +7,7 @@ package com.tessera.content.vanilla.blocks.blocks.trees;
 import com.tessera.Main;
 import com.tessera.content.vanilla.Blocks;
 import com.tessera.engine.server.block.Block;
-import com.tessera.engine.common.world.Terrain;
-import com.tessera.engine.common.world.chunk.Chunk;
+import com.tessera.engine.common.world.gen.GenContext;
 
 import java.util.Random;
 
@@ -76,45 +75,45 @@ public class SpruceTreeUtils {
         Main.getServer().setBlock(Blocks.BLOCK_SPRUCE_LEAVES, z, x, y - height + heightVal);
     }
 
-    public static void terrain_plantTree(Terrain.GenSession terrain, Chunk source, int x, int y, int z) {
-        int height = randomInt(terrain.random, MIN_HEIGHT, MAX_HEIGHT);
+    public static void terrain_plantTree(GenContext ctx, int x, int y, int z) {
+        int height = randomInt(ctx.random, MIN_HEIGHT, MAX_HEIGHT);
         for (int k = 0; k < height; k++) {
-            terrain.setBlockWorld(x, y - k, z, Blocks.BLOCK_SPRUCE_LOG);
+            ctx.setBlockWorld(x, y - k, z, Blocks.BLOCK_SPRUCE_LOG);
         }
 
         int heightVal = 4;
         int layerValue = 2;
 
-        TreeUtils.terrain_squareLeavesLayer(terrain, source, x, y - height + heightVal, z, layerValue, Blocks.BLOCK_SPRUCE_LEAVES);
+        TreeUtils.terrain_squareLeavesLayer(ctx, x, y - height + heightVal, z, layerValue, Blocks.BLOCK_SPRUCE_LEAVES);
         heightVal--;
-        TreeUtils.terrain_diamondLeavesLayer(terrain, source, x, y - height + heightVal, z, layerValue + 1, Blocks.BLOCK_SPRUCE_LEAVES);
+        TreeUtils.terrain_diamondLeavesLayer(ctx, x, y - height + heightVal, z, layerValue + 1, Blocks.BLOCK_SPRUCE_LEAVES);
         heightVal--;
         layerValue--;
 
         if (height > 8) {
             layerValue++;
-            TreeUtils.terrain_squareLeavesLayer(terrain, source, x, y - height + heightVal, z, layerValue, Blocks.BLOCK_SPRUCE_LEAVES);
+            TreeUtils.terrain_squareLeavesLayer(ctx, x, y - height + heightVal, z, layerValue, Blocks.BLOCK_SPRUCE_LEAVES);
             heightVal--;
-            TreeUtils.terrain_diamondLeavesLayer(terrain, source, x, y - height + heightVal, z, layerValue + 1, Blocks.BLOCK_SPRUCE_LEAVES);
+            TreeUtils.terrain_diamondLeavesLayer(ctx, x, y - height + heightVal, z, layerValue + 1, Blocks.BLOCK_SPRUCE_LEAVES);
             heightVal--;
             layerValue--;
         }
         if (height > 12) {
             layerValue++;
-            TreeUtils.terrain_squareLeavesLayer(terrain, source, x, y - height + heightVal, z, layerValue, Blocks.BLOCK_SPRUCE_LEAVES);
+            TreeUtils.terrain_squareLeavesLayer(ctx, x, y - height + heightVal, z, layerValue, Blocks.BLOCK_SPRUCE_LEAVES);
             heightVal--;
-            TreeUtils.terrain_diamondLeavesLayer(terrain, source, x, y - height + heightVal, z, layerValue + 1, Blocks.BLOCK_SPRUCE_LEAVES);
+            TreeUtils.terrain_diamondLeavesLayer(ctx, x, y - height + heightVal, z, layerValue + 1, Blocks.BLOCK_SPRUCE_LEAVES);
             heightVal--;
             layerValue--;
         }
 
         while (layerValue > 0) {
-            TreeUtils.terrain_squareLeavesLayer(terrain, source, x, y - height + heightVal, z, layerValue, Blocks.BLOCK_SPRUCE_LEAVES);
+            TreeUtils.terrain_squareLeavesLayer(ctx, x, y - height + heightVal, z, layerValue, Blocks.BLOCK_SPRUCE_LEAVES);
             heightVal--;
-            TreeUtils.terrain_diamondLeavesLayer(terrain, source, x, y - height + heightVal, z, layerValue + 1, Blocks.BLOCK_SPRUCE_LEAVES);
+            TreeUtils.terrain_diamondLeavesLayer(ctx, x, y - height + heightVal, z, layerValue + 1, Blocks.BLOCK_SPRUCE_LEAVES);
             heightVal--;
             layerValue--;
         }
-        terrain.setBlockWorld(x, y - height + heightVal, z, Blocks.BLOCK_SPRUCE_LEAVES);
+        ctx.setBlockWorld(x, y - height + heightVal, z, Blocks.BLOCK_SPRUCE_LEAVES);
     }
 }

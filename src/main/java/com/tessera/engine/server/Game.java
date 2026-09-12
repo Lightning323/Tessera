@@ -6,21 +6,14 @@ package com.tessera.engine.server;
 
 import com.tessera.engine.client.ClientWindow;
 import com.tessera.engine.client.visuals.gameScene.GameUI;
-import com.tessera.engine.common.world.Terrain;
-import com.tessera.engine.common.world.WorldData;
 import org.lwjgl.nuklear.NkContext;
 import org.lwjgl.nuklear.NkVec2;
 import org.lwjgl.system.MemoryStack;
-
-import java.util.ArrayList;
 
 /**
  * @author zipCoder933
  */
 public abstract class Game implements GameSceneEvents {
-
-    public final ArrayList<Terrain> terrainsList = new ArrayList<>();
-
 
     public boolean releaseMouse() {
         return false;
@@ -31,16 +24,6 @@ public abstract class Game implements GameSceneEvents {
     public abstract void setupClient(ClientWindow window,  NkContext ctx, GameUI gameUI) throws Exception;
 
     public abstract void setupServer(Server server);
-
-    public final Terrain getTerrainFromInfo(WorldData info) {
-        for (Terrain terrain : terrainsList) {
-            if (terrain.name.equals(info.getTerrain())) {
-                terrain.initForWorld(info.getSeed(), info.data.terrainOptions, info.data.terrainVersion);
-                return terrain;
-            }
-        }
-        return null;
-    }
 
     public boolean uiDraw(MemoryStack stack) {
         return false;

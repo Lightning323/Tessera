@@ -5,6 +5,8 @@ package com.tessera.content.vanilla.terrain;
 
 import com.tessera.engine.common.world.Terrain;
 import com.tessera.engine.common.world.chunk.Chunk;
+import com.tessera.engine.common.world.chunk.ServerChunk;
+import com.tessera.engine.common.world.gen.GenContext;
 import com.tessera.engine.common.option.OptionsList;
 
 import static com.tessera.content.vanilla.Blocks.BLOCK_ANDESITE;
@@ -36,7 +38,7 @@ public class MoonTerrain extends Terrain {
     }
 
     @Override
-    protected void generateChunkInner(Chunk chunk, GenSession session) {
+    protected void generateChunkInner(ServerChunk chunk, GenContext ctx) {
         final short block = BLOCK_ANDESITE;
 
         for (int x = 0; x < Chunk.WIDTH; ++x) {
@@ -53,8 +55,12 @@ public class MoonTerrain extends Terrain {
                     } else if (y == heightMap) {
                         if (fastNoise.GetValueFractal(wx * 6.0f, wy * 14.0f, wz * 6.0f) <= 0.5) {
                             chunk.voxels.setBlock(x, y, z, block);
-                            chunk.voxels.setBlock(x, y + 1, z, block);
-                            chunk.voxels.setBlock(x, y + 2, z, block);
+                            // Stay inside this chunk's voxels; the rows above
+                            // belong to later loop iterations or the chunk above.
+                            if (y + 2 < Chunk.WIDTH) {
+                                chunk.voxels.setBlock(x, y + 1, z, block);
+                                chunk.voxels.setBlock(x, y + 2, z, block);
+                            }
                         }
                     } else if (y > heightMap) {
                         chunk.voxels.setBlock(x, y, z, block);

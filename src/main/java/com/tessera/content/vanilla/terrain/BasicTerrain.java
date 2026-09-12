@@ -5,6 +5,8 @@
 package com.tessera.content.vanilla.terrain;
 
 import com.tessera.engine.common.world.chunk.Chunk;
+import com.tessera.engine.common.world.chunk.ServerChunk;
+import com.tessera.engine.common.world.gen.GenContext;
 
 import static com.tessera.engine.common.world.chunk.Chunk.WIDTH;
 
@@ -35,8 +37,7 @@ public class BasicTerrain extends Terrain {
     }
 
     @Override
-    protected void generateChunkInner(Chunk chunk, GenSession session) {
-        boolean genOutsideBoundary = false;
+    protected void generateChunkInner(ServerChunk chunk, GenContext ctx) {
         if ((chunk.position.y * Chunk.WIDTH) + Chunk.WIDTH > minSurfaceHeight - 2) {
             for (int cx = 0; cx < WIDTH; cx++) {
                 for (int cy = 0; cy < WIDTH; cy++) {
@@ -52,11 +53,10 @@ public class BasicTerrain extends Terrain {
 
                         if (wy == heightmap) {
                             chunk.voxels.setBlock(cx, cy, cz, Blocks.BLOCK_GRASS);
-                            if (session.random.nextFloat() > 0.995) {
-                                makeTree(session.random, session, wx, wy + 1, wz);
-                                genOutsideBoundary = true;
-                            } else if (session.random.nextFloat() > 0.95) {
-                                chunk.voxels.setBlock(cx, cy - 1, cz, randomFlower(session));
+                            if (ctx.random.nextFloat() > 0.995) {
+                                makeTree(ctx.random, ctx, wx, wy + 1, wz);
+                            } else if (ctx.random.nextFloat() > 0.95) {
+                                chunk.voxels.setBlock(cx, cy - 1, cz, randomFlower(ctx));
                             }
                         } else if (heightmap < wy) {
                             chunk.voxels.setBlock(cx, cy, cz, Blocks.BLOCK_DIRT);
@@ -66,13 +66,12 @@ public class BasicTerrain extends Terrain {
             }
 
         }
-        session.generatedOutsideOfChunk = false;
     }
 
 
-    private static short randomFlower(Terrain.GenSession session) {
+    private static short randomFlower(GenContext ctx) {
         short block = 0;
-        switch (session.random.nextInt(4)) {
+        switch (ctx.random.nextInt(4)) {
             case 0 -> {
                 block = Blocks.BLOCK_ROSES;
             }
@@ -93,7 +92,7 @@ public class BasicTerrain extends Terrain {
     }
 
 
-    public static void makeTree(Random random, Terrain.GenSession session, int treeX, int treeY, int treeZ) {
+    public static void makeTree(Random random, GenContext ctx, int treeX, int treeY, int treeZ) {
         int height = random.nextInt(7) + 3;
 
         for (int x = 0; x < 5; x++) {

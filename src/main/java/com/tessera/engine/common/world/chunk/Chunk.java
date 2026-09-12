@@ -19,7 +19,7 @@ public class Chunk {
      * Generation state
      */
     public static final int GEN_UNGENERATED = 0;
-    private int genState = GEN_UNGENERATED;
+    private volatile int genState = GEN_UNGENERATED;
     public int getGenState() {
         return genState;
     }
@@ -131,6 +131,16 @@ public class Chunk {
         this.aabb.setPosAndSize(position.x * WIDTH, position.y * HEIGHT, position.z * WIDTH, WIDTH, HEIGHT, WIDTH);
         neghbors.init(position);
         this.futureChunk = futureChunk;
+    }
+
+    /**
+     * Takes (and clears) the future blocks staged for this chunk before its
+     * object existed. Used once by chunk generation, after the base fill.
+     */
+    public synchronized FutureChunk takeFutureChunk() {
+        FutureChunk staged = this.futureChunk;
+        this.futureChunk = null;
+        return staged;
     }
 
 

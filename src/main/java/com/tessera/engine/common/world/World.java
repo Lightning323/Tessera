@@ -4,6 +4,7 @@ import com.tessera.engine.common.math.MathUtils;
 import com.tessera.engine.common.world.chunk.BlockData;
 import com.tessera.engine.common.world.chunk.Chunk;
 import com.tessera.engine.common.world.chunk.FutureChunk;
+import com.tessera.engine.common.world.gen.TerrainRegistry;
 import com.tessera.engine.common.world.wcc.WCCi;
 import com.tessera.engine.server.Registrys;
 import com.tessera.engine.server.block.Block;
@@ -18,7 +19,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import static com.tessera.Main.LOGGER;
-import static com.tessera.Main.game;
 import static com.tessera.engine.common.math.MathUtils.positiveMod;
 import static com.tessera.engine.common.world.wcc.WCCi.chunkDiv;
 
@@ -219,7 +219,7 @@ public abstract class World<T extends Chunk> {
         return chunk;
     }
 
-    public FutureChunk newFutureChunk(Vector3i pos) {
+    public synchronized FutureChunk newFutureChunk(Vector3i pos) {
         FutureChunk futureChunk = futureChunks.get(pos);
         if (futureChunk == null) {
             futureChunk = new FutureChunk(pos);
@@ -227,6 +227,16 @@ public abstract class World<T extends Chunk> {
             // change when it is repurposed
         }
         return futureChunk;
+    }
+
+    /**
+     * Removes and returns staged blocks for a chunk position, if any.
+     * Generation threads call this (under the world monitor) after filling
+     * base terrain, so neighbor spillover staged mid-generation is applied
+     * instead of lost.
+     */
+    public synchronized FutureChunk takeFutureChunk(Vector3i pos) {
+        return futureChunks.remove(pos);
     }
 
 
@@ -304,7 +314,8 @@ public abstract class World<T extends Chunk> {
 
         if (data == null) return;
         this.data = data;
-        this.terrain = game.getTerrainFromInfo(data);
+        this.terrain = TerrainRegistry.initForWorld(
+                data.getTerrain(), data.getSeed(), data.data.terrainOptions, data.data.terrainVersion);
         if (terrain == null) {
             LOGGER.error("Terrain not found");
         } else System.out.println("Terrain: " + this.terrain);

@@ -6,6 +6,7 @@ import com.tessera.engine.common.world.ClientWorld;
 import org.joml.Matrix4f;
 import org.joml.Vector3i;
 
+import java.util.concurrent.CancellationException;
 import java.util.concurrent.Future;
 import java.util.concurrent.ThreadPoolExecutor;
 
@@ -13,9 +14,9 @@ import static com.tessera.engine.common.world.ClientWorld.meshService;
 import static com.tessera.engine.common.world.ClientWorld.playerUpdating_meshService;
 
 public class ClientChunk extends Chunk {
-    private ChunkMeshBundle meshBundle;
+    private volatile ChunkMeshBundle meshBundle;
     public final Matrix4f client_modelMatrix;
-    private Future<ChunkMeshBundle> mesherFuture;
+    private volatile Future<ChunkMeshBundle> mesherFuture;
     static int blockTextureID;
 
 
@@ -93,19 +94,30 @@ public class ClientChunk extends Chunk {
 
         //Update the mesh
         if (inFrustum || isSettingUpWorld) {//Are we visible?
-            if (!getMeshBundle().hasBeenGenerated() && mesherFuture == null && getGenState() >= GEN_VOXELS_GENERATED) {  //Generate the mesh for the first time
+            if (!meshBundle.hasBeenGenerated() && mesherFuture == null && getGenState() >= GEN_VOXELS_GENERATED) {  //Generate the mesh for the first time
                 generateMesh(meshService);
             }
 
-            if (mesherFuture != null && mesherFuture.isDone()) { //Send mesh to GPU if its done
+            Future<ChunkMeshBundle> future = mesherFuture;
+            if (future != null && future.isDone()) { //Send mesh to GPU if its done
                 try {
-                    entities.chunkUpdatedMesh = true;
-                    mesherFuture.get().sendToGPU();
-                    progressGenState(GEN_MESH_GENERATED);
+                    ChunkMeshBundle bundle = future.get();
+                    if (bundle != null) {
+                        entities.chunkUpdatedMesh = true;
+                        bundle.sendToGPU();
+                        progressGenState(GEN_MESH_GENERATED);
+                    }
+                } catch (CancellationException e) {
+                    //A newer generation request superseded this one; the new
+                    //mesh will be uploaded when its future completes.
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
                 } catch (Exception e) {
-                    e.printStackTrace();
+                    Main.LOGGER.warn("Failed to upload mesh for chunk " + position, e);
                 } finally {
-                    mesherFuture = null;
+                    if (mesherFuture == future) {
+                        mesherFuture = null;
+                    }
                 }
             }
         }
@@ -113,19 +125,37 @@ public class ClientChunk extends Chunk {
 
 
     /**
-     * Queues a task to mesh the chunk
+     * Queues a task to mesh the chunk. Safe to call from any thread.
+     * <p>
+     * The bundle is only created on the render thread (in {@link #prepare(long, boolean)}),
+     * so if it does not exist yet we simply skip: {@code prepare} will start generation
+     * as soon as the bundle exists. Without this guard, a block update arriving on the
+     * network thread for a not-yet-prepared chunk would NPE inside the worker.
      */
-    public void generateMesh(ThreadPoolExecutor service) {
+    public synchronized void generateMesh(ThreadPoolExecutor service) {
+        ChunkMeshBundle bundle = this.meshBundle;
+        if (bundle == null) {
+            return;
+        }
         if (mesherFuture != null) {
             mesherFuture.cancel(true);
             mesherFuture = null;
         }
         mesherFuture = service.submit(() -> {
-            getMeshBundle().compute();
-            return getMeshBundle();
+            bundle.compute();
+            return bundle;
         });
     }
 
+
+    /**
+     * Regenerate only this chunk's mesh. Used when a facing neighbor loads or
+     * unloads so the faces on this chunk's border are rebuilt against the new
+     * neighbor state.
+     */
+    public void remesh() {
+        generateMesh(playerUpdating_meshService);
+    }
 
     public void updateMesh(boolean updateAllNeighbors, int x, int y, int z) {
         if (!neghbors.allFacingNeghborsLoaded) {

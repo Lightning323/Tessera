@@ -7,6 +7,7 @@ package com.tessera.engine.client.visuals.topMenu;
 import com.tessera.engine.common.world.Terrain;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import com.tessera.engine.common.option.NuklearField;
 import org.lwjgl.nuklear.NkContext;
@@ -18,7 +19,7 @@ import static org.lwjgl.nuklear.Nuklear.nk_button_label;
  */
 public class TerrainSelector {
 
-    public TerrainSelector(ArrayList<Terrain> terrainList, NkContext ctx) {
+    public TerrainSelector(List<Terrain> terrainList, NkContext ctx) {
         this.terrainList = terrainList;
         selectedTerrain = 0;
         initSelectedTerrain();
@@ -26,11 +27,12 @@ public class TerrainSelector {
     }
 
     private NkContext ctx;
-    private ArrayList<Terrain> terrainList;
+    private List<Terrain> terrainList;
     private int selectedTerrain;
     public ArrayList<NuklearField> optionFields = new ArrayList<>();
 
     public Terrain getSelectedTerrain() {
+        if (terrainList.isEmpty()) return null;
         return terrainList.get(selectedTerrain);
     }
 
@@ -39,6 +41,10 @@ public class TerrainSelector {
     }
 
     public void draw() {
+        if (terrainList.isEmpty()) {
+            NewWorld.labeledButton(ctx, "Terrain:", "(none registered)");
+            return;
+        }
         if (NewWorld.labeledButton(ctx, "Terrain:", terrainList.get(selectedTerrain).name)) {
             selectedTerrain++;
             if (selectedTerrain >= terrainList.size()) {
@@ -49,6 +55,10 @@ public class TerrainSelector {
     }
 
     private void initSelectedTerrain() {
+        if (terrainList.isEmpty()) {
+            optionFields = new ArrayList<>();
+            return;
+        }
         Terrain terrain = terrainList.get(selectedTerrain);
         optionFields = terrain.options_resetAndGetNKOptionList();
     }
