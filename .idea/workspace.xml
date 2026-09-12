@@ -9,17 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="updated chunk generation and terrain gen">
+    <list default="true" id="8e8219d1-60a4-44e0-bc1e-218a1bcf0b02" name="Changes" comment="fixed multiplayer joining partially">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/TestAutoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/TestAutoRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/multiplayer/Multiplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/client/visuals/topMenu/multiplayer/Multiplayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/network/netty/NettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/AllPackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/AllPackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ChunkDataPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ChunkDataPacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ClientEntrancePacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ClientEntrancePacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ServerGatekeeperPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/packets/ServerGatekeeperPacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/engine/common/players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tessera/utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessera/utils/FileUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +148,7 @@
       <recent name="com.xbuilders.content.vanilla.blocks.blocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test Multiplayer">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="com.tessera.Main" />
       <module name="Tessera" />
@@ -281,7 +273,8 @@
     <MESSAGE value="replace xbuilders with tessera" />
     <MESSAGE value="added block breakng and placing" />
     <MESSAGE value="updated chunk generation and terrain gen" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated chunk generation and terrain gen" />
+    <MESSAGE value="fixed multiplayer joining partially" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed multiplayer joining partially" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

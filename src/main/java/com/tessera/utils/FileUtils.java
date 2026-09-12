@@ -12,7 +12,18 @@ import java.util.regex.Pattern;
 
 
 public class FileUtils {
-    public final static boolean canRecycleFiles = Desktop.getDesktop().isSupported(Desktop.Action.MOVE_TO_TRASH);
+    public final static boolean canRecycleFiles;
+
+    static {
+        boolean supported = false;
+        try {
+            supported = Desktop.isDesktopSupported()
+                    && Desktop.getDesktop().isSupported(Desktop.Action.MOVE_TO_TRASH);
+        } catch (Throwable ignored) {
+            supported = false; // desktop not available (e.g. headless server)
+        }
+        canRecycleFiles = supported;
+    }
     private static final Pattern FILE_EXTENSION_PATTERN = Pattern.compile(".*\\.[\\w]+$");
 
     public static boolean hasFileExtension(String resourcePath) {
@@ -54,15 +65,58 @@ public class FileUtils {
     }
 
     public static void moveDirectoryToTrash(File directory) throws IOException {
-        if (directory.isDirectory() && directory.exists()) {
-            if (Desktop.isDesktopSupported()) {
-                Desktop.getDesktop().moveToTrash(directory);
-                System.out.println("Directory moved to trash: " + directory.getAbsolutePath());
-            } else {
-                System.out.println("Desktop operations are not supported on this system.");
+        if (!directory.exists()) {
+            System.out.println("The specified directory does not exist or is not a directory.");
+            return;
+        }
+
+        // Native trash is the polite default on Windows / macOS / freedesktop
+        // (GNOME, KDE...), but it is NOT guaranteed: on some Linux desktops
+        // Desktop.moveToTrash throws UnsupportedOperationException. Never let
+        // that reach the caller — the deletion has to work everywhere.
+        if (Desktop.isDesktopSupported()) {
+            try {
+                Desktop desktop = Desktop.getDesktop();
+                if (desktop.isSupported(Desktop.Action.MOVE_TO_TRASH)) {
+                    if (desktop.moveToTrash(directory)) {
+                        System.out.println("Directory moved to trash: " + directory.getAbsolutePath());
+                        return;
+                    }
+                    System.out.println("moveToTrash returned false for " + directory.getAbsolutePath()
+                            + "; falling back to permanent delete");
+                } else {
+                    System.out.println("MOVE_TO_TRASH is not supported on this system; permanently deleting "
+                            + directory.getAbsolutePath());
+                }
+            } catch (UnsupportedOperationException e) {
+                System.out.println("moveToTrash failed on " + directory.getAbsolutePath() + " (" + e
+                        + "); falling back to permanent delete");
             }
         } else {
-            System.out.println("The specified directory does not exist or is not a directory.");
+            System.out.println("Desktop operations are not supported on this system; permanently deleting "
+                    + directory.getAbsolutePath());
+        }
+
+        deleteRecursively(directory);
+        System.out.println("Directory deleted: " + directory.getAbsolutePath());
+    }
+
+    /**
+     * Deletes a file or directory tree recursively. Used as the cross-platform
+     * fallback when no native trash mechanism is available.
+     */
+    public static void deleteRecursively(File file) throws IOException {
+        if (file == null || !file.exists()) return;
+        if (file.isDirectory()) {
+            File[] children = file.listFiles();
+            if (children != null) {
+                for (File child : children) {
+                    deleteRecursively(child);
+                }
+            }
+        }
+        if (!file.delete()) {
+            throw new IOException("Could not delete " + file.getAbsolutePath());
         }
     }
 
